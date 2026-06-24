@@ -189,7 +189,7 @@
         sectionsHtml += '<p style="margin:0; font-size:14.5px; line-height:1.6; color:#4b5563;">' + esc(it.summary || '') + '</p>';
         if (it.why_it_matters) {
           sectionsHtml += '<div style="margin-top:12px; border-left:3px solid #2b4a8b; padding:2px 0 2px 14px;">';
-          sectionsHtml += '<span style="font-family:\'IBM Plex Mono\',monospace; font-size:10.5px; letter-spacing:0.12em; text-transform:uppercase; color:#2b4a8b; font-weight:600;">Why it matters</span>';
+          sectionsHtml += '<span style="font-family:\'IBM Plex Mono\',monospace; font-size:10.5px; letter-spacing:0.12em; text-transform:uppercase; color:#2b4a8b; font-weight:600;">Notes</span>';
           sectionsHtml += '<p style="margin:4px 0 0; font-size:14px; line-height:1.55; color:#384152;">' + esc(it.why_it_matters) + '</p></div>';
         }
         sectionsHtml += '</article>';
