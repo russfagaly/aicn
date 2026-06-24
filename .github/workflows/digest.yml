@@ -1,17 +1,13 @@
 name: AICN digest pipeline
 
-# INERT — do not enable yet. The cron trigger below is commented out on
-# purpose. This file is checked in so the schedule is ready to flip on with
-# a one-line edit once the maintainer has reviewed dry-run output and given
-# the OK (see build plan: "wait for my OK before the schedule goes live").
+# Daily at 12:00 UTC.
+# UTC has no DST; Pacific does. 12:00 UTC is ~05:00 Pacific during PDT
+# (roughly mid-March to early November) and ~04:00 Pacific during PST
+# (the rest of the year), because the cron time below never moves but
+# Pacific clocks shift under it twice a year.
 on:
-  # schedule:
-  #   # 12:00 UTC daily.
-  #   # UTC has no DST; Pacific does. 12:00 UTC is ~05:00 Pacific during PDT
-  #   # (roughly mid-March to early November) and ~04:00 Pacific during PST
-  #   # (the rest of the year), because the cron time below never moves but
-  #   # Pacific clocks shift under it twice a year.
-  #   - cron: "0 12 * * *"
+  schedule:
+    - cron: "0 12 * * *"
   workflow_dispatch: {}
 
 permissions:
