@@ -1,0 +1,44 @@
+name: AICN digest pipeline
+
+# INERT — do not enable yet. The cron trigger below is commented out on
+# purpose. This file is checked in so the schedule is ready to flip on with
+# a one-line edit once the maintainer has reviewed dry-run output and given
+# the OK (see build plan: "wait for my OK before the schedule goes live").
+on:
+  # schedule:
+  #   # 12:00 UTC daily.
+  #   # UTC has no DST; Pacific does. 12:00 UTC is ~05:00 Pacific during PDT
+  #   # (roughly mid-March to early November) and ~04:00 Pacific during PST
+  #   # (the rest of the year), because the cron time below never moves but
+  #   # Pacific clocks shift under it twice a year.
+  #   - cron: "0 12 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python src/digest.py
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "aicn-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ feed.xml state/seen.json
+          git diff --cached --quiet || git commit -m "AICN: update digest data"
+          git push

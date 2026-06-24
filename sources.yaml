@@ -1,0 +1,71 @@
+# AICN curated RSS/Atom sources.
+# Each feed's URL was verified live at build time (2026-06-24): HTTP 200 + valid XML.
+# Outlets from the build plan that have NO working RSS/Atom feed (verified 404,
+# bot-blocked, or no discoverable feed) are listed at the bottom under
+# `unavailable` for the record, and were instead added to watchlist.yaml so
+# they're still covered via search.
+
+feeds:
+  # Tech / accountability
+  - id: wired-politics
+    name: Wired (Politics)
+    url: https://www.wired.com/feed/category/politics/latest/rss
+    tier: tech_accountability
+
+  - id: themarkup
+    name: The Markup
+    url: https://themarkup.org/feeds/rss.xml
+    tier: tech_accountability
+
+  - id: notus
+    name: NOTUS
+    url: https://www.notus.org/index.rss
+    tier: tech_accountability
+
+  # Left-leaning / movement tech
+  - id: american-prospect
+    name: The American Prospect
+    url: https://prospect.org/feed/
+    tier: left_movement_tech
+
+  - id: higher-ground-labs
+    name: Higher Ground Labs (blog)
+    url: https://www.highergroundlabs.com/feed
+    tier: left_movement_tech
+
+  - id: at-dawn-campaigns
+    name: At Dawn Campaigns (Erik Balsbaugh)
+    url: https://atdawn.us/index.php/feed/
+    tier: left_movement_tech
+
+  # Trade / industry
+  - id: campaigns-and-elections
+    name: Campaigns & Elections
+    url: https://campaignsandelections.com/feed
+    tier: trade_industry
+
+  # Regulation trackers
+  - id: ballotpedia-news
+    name: Ballotpedia News
+    url: https://news.ballotpedia.org/feed
+    tier: regulation_tracker
+
+# Outlets from the build plan with no usable feed as of this build (kept here
+# for traceability; do not delete without re-checking — sites change).
+unavailable:
+  - name: AP (politics)
+    reason: "No public RSS endpoint found (apnews.com/rss, /hub/politics.rss all 404)."
+  - name: Politico (Digital Future Daily)
+    reason: "All candidate RSS URLs returned 403 — bot-blocked (Cloudflare); could not confirm a feed exists."
+  - name: AdImpact / ad-tracking coverage
+    reason: "Homepage loads but no RSS feed link found; checked /feed and /insights/feed, both 404."
+  - name: MultiState
+    reason: "Homepage loads but no <link rel=alternate> feed declared; /feed, /rss.xml 404."
+  - name: Tech for Campaigns
+    reason: "No feed link on site; /feed, /blog-feed.xml 404."
+  - name: Center for Campaign Innovation / Startup Caucus
+    reason: "campaigninnovation.org and startupcaucus.com both load but declare no RSS feed."
+  - name: Push Digital coverage
+    reason: "pushdigital.io TLS handshake failed from build environment; feed existence unconfirmed. Covered via watchlist search instead."
+  - name: Transparency Coalition
+    reason: "transparencycoalition.ai loads but no RSS feed link found."

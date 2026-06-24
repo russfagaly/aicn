@@ -1,0 +1,144 @@
+# AICN entity watchlist (Layer-3 hook, used in v1 as discovery.method = "watchlist").
+# Each entity becomes a search query each run. Seeded from the build plan's
+# vendor/regulator/legislation list, plus outlets that had no usable RSS feed
+# (see sources.yaml `unavailable`) and are covered here via search instead.
+#
+# cadence: "daily" runs every time; "weekly" runs once a week on `weekday`
+# (Monday=0 ... Sunday=6, per Python's date.weekday()). After the 2026-06-24
+# dry run, 4 of 26 entities actually surfaced anything (ngpvan-bonterra, l2,
+# no-fakes-act, transparency-coalition) — those stay daily. The other 22 were
+# zero-hit that run and were moved to weekly, spread round-robin across
+# weekdays, to cut search-call cost without dropping coverage entirely.
+# Revisit after a few more real runs — a weekly entity that starts surfacing
+# real items should move back to daily.
+
+entities:
+  # --- daily: surfaced real items in the first dry run ---
+  - id: ngpvan-bonterra
+    name: NGP VAN / Bonterra
+    kind: vendor
+    cadence: daily
+  - id: l2
+    name: L2
+    kind: vendor
+    cadence: daily
+  - id: no-fakes-act
+    name: NO FAKES Act
+    kind: legislation
+    cadence: daily
+  - id: transparency-coalition
+    name: Transparency Coalition
+    kind: org_no_feed
+    cadence: daily
+
+  # --- weekly: zero-hit in the first dry run, rotated to cut cost ---
+  - id: quiller-grassroots
+    name: Quiller / Grassroots Analytics
+    kind: vendor
+    cadence: weekly
+    weekday: 0
+  - id: battlegroundai
+    name: BattlegroundAI
+    kind: vendor
+    cadence: weekly
+    weekday: 1
+  - id: chorus-ai
+    name: Chorus AI
+    kind: vendor
+    cadence: weekly
+    weekday: 2
+  - id: donoratlas
+    name: DonorAtlas
+    kind: vendor
+    cadence: weekly
+    weekday: 3
+  - id: rivalmind-ai
+    name: RivalMind AI
+    kind: vendor
+    cadence: weekly
+    weekday: 4
+  - id: civox
+    name: Civox ("Ashley")
+    kind: vendor
+    cadence: weekly
+    weekday: 5
+  - id: aaru
+    name: Aaru
+    kind: vendor
+    cadence: weekly
+    weekday: 6
+  - id: targetsmart
+    name: TargetSmart
+    kind: vendor
+    cadence: weekly
+    weekday: 0
+  - id: catalist
+    name: Catalist
+    kind: vendor
+    cadence: weekly
+    weekday: 1
+  - id: civis
+    name: Civis Analytics
+    kind: vendor
+    cadence: weekly
+    weekday: 2
+  - id: push-digital
+    name: Push Digital ("Push AI")
+    kind: vendor
+    cadence: weekly
+    weekday: 3
+  - id: prime-radiant
+    name: Prime Radiant
+    kind: vendor
+    cadence: weekly
+    weekday: 4
+  - id: electric-twin
+    name: Electric Twin
+    kind: vendor
+    cadence: weekly
+    weekday: 5
+  - id: higher-ground-labs-portfolio
+    name: Higher Ground Labs portfolio companies
+    kind: vendor
+    cadence: weekly
+    weekday: 6
+  - id: fec
+    name: FEC (Federal Election Commission)
+    kind: regulator
+    cadence: weekly
+    weekday: 0
+  - id: fcc
+    name: FCC (Federal Communications Commission)
+    kind: regulator
+    cadence: weekly
+    weekday: 1
+  - id: take-it-down-act
+    name: TAKE IT DOWN Act
+    kind: legislation
+    cadence: weekly
+    weekday: 2
+  - id: adimpact
+    name: AdImpact
+    kind: org_no_feed
+    cadence: weekly
+    weekday: 3
+  - id: multistate
+    name: MultiState
+    kind: org_no_feed
+    cadence: weekly
+    weekday: 4
+  - id: tech-for-campaigns
+    name: Tech for Campaigns
+    kind: org_no_feed
+    cadence: weekly
+    weekday: 5
+  - id: center-for-campaign-innovation
+    name: Center for Campaign Innovation
+    kind: org_no_feed
+    cadence: weekly
+    weekday: 6
+  - id: startup-caucus
+    name: Startup Caucus
+    kind: org_no_feed
+    cadence: weekly
+    weekday: 0

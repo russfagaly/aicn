@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Claude Design canvas workspace (moodboards, exports-in-progress) — the final
+# site files (index.html, app.js, sources.html) are already copied to the repo
+# root; this directory is local-only scratch space.
+design/
+
+# Planning/kickoff docs — keep build-process material out of the public repo.
+claude_design_kickoff.md
