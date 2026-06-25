@@ -1,7 +1,111 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-24T17:30:10Z",
+  "generated_at": "2026-06-25T14:41:02Z",
   "runs": [
+    {
+      "run_id": "2026-06-25",
+      "date": "2026-06-25",
+      "generated_at": "2026-06-25T14:41:02Z",
+      "is_light_run": false,
+      "top_summary": "The Senate Judiciary Committee unanimously advanced the NO FAKES Act, a major legislative milestone for regulating AI-generated synthetic likenesses in ways directly relevant to political deepfakes. Separately, NPR and Futurism both reported on AI companies\u2014including major labs\u2014actively working to shape the 2026 midterm elections through lobbying and tool deployment, raising questions about corporate influence on electoral processes. An adtech vendor partnership (Nexxen and L2 Data) launched a voter-matching product for political advertisers, reflecting continued growth in AI-assisted campaign targeting infrastructure.",
+      "item_count": 5,
+      "items": [
+        {
+          "id": "4f8141622cb7278c",
+          "title": "AI and tech are trying to influence the midterm elections",
+          "url": "https://npr.org/2026/06/22/nx-s1-5856359/ai-anthropic-congress-spending-openai-midterms-election",
+          "source": "NPR",
+          "source_domain": "npr.org",
+          "published": "2026-06-22",
+          "first_seen_run": "2026-06-25",
+          "category": "deployments_studies",
+          "summary": "NPR reports that major AI companies, including Anthropic and OpenAI, are actively spending and lobbying to influence how their tools are used in the 2026 midterm elections, with congressional outreach and campaign-facing deployments under scrutiny.",
+          "why_it_matters": "Documents a concrete, named effort by leading AI labs to shape electoral outcomes through both lobbying and tool deployment, raising accountability questions for the field.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "58d270d32c71f1da",
+          "title": "AI Companies Are Trying to Seize Control of Elections",
+          "url": "https://futurism.com/artificial-intelligence/ai-companies-elections-midterms",
+          "source": "Futurism",
+          "source_domain": "futurism.com",
+          "published": "2026-06-23",
+          "first_seen_run": "2026-06-25",
+          "category": "analysis_oped",
+          "summary": "Futurism argues that AI companies are positioning themselves to exert significant influence over the 2026 midterms through campaign tools, data products, and political relationships, framing this as a structural threat to electoral integrity.",
+          "why_it_matters": "Provides a critical analytical frame for the trend of AI-vendor entrenchment in campaign infrastructure heading into a major election cycle.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "9fc3aa65b4dc558d",
+          "title": "Senate Judiciary advances NO FAKES Act on unanimous vote",
+          "url": "https://spglobal.com/market-intelligence/en/news-insights/articles/2026/6/senate-judiciary-advances-no-fakes-act-on-unanimous-vote-103007539",
+          "source": "S&P Global",
+          "source_domain": "spglobal.com",
+          "published": "2026-06-23",
+          "first_seen_run": "2026-06-25",
+          "category": "regulation",
+          "summary": "The Senate Judiciary Committee passed the NO FAKES Act by unanimous vote, advancing federal legislation that would create a right of publicity against unauthorized AI-generated replicas of a person's name, image, likeness, or voice.",
+          "why_it_matters": "A unanimous committee vote is a significant step toward federal law that would directly constrain the use of AI-generated synthetic media\u2014including political deepfakes\u2014in campaigns and advocacy.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:no-fakes-act",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "01a59f2b80a6d103",
+          "title": "No Fakes Act Clears Senate Judiciary Committee",
+          "url": "https://deadline.com/2026/06/no-fakes-act-senate-judiciary-committee-1236959147",
+          "source": "Deadline",
+          "source_domain": "deadline.com",
+          "published": "2026-06-18",
+          "first_seen_run": "2026-06-25",
+          "category": "regulation",
+          "summary": "Deadline covers the Senate Judiciary Committee's approval of the NO FAKES Act, noting its implications for AI-generated content across entertainment and political contexts.",
+          "why_it_matters": "Corroborates the committee's unanimous advancement of key anti-deepfake legislation with additional industry perspective.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:no-fakes-act",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "aef8e702a675f777",
+          "title": "Nexxen and L2 Data Launch VoterMatch, Bringing Greater Precision, Transparency and Performance to Political Advertising",
+          "url": "https://finance.yahoo.com/media-advertising/articles/nexxen-l2-data-launch-votermatch-130000183.html",
+          "source": "Yahoo Finance",
+          "source_domain": "finance.yahoo.com",
+          "published": "2026-06-18",
+          "first_seen_run": "2026-06-25",
+          "category": "vendor_moves",
+          "summary": "Nexxen and L2 Data announced VoterMatch, a joint product combining L2's voter file data with Nexxen's programmatic advertising platform to enable more precise political ad targeting for campaigns and outside groups.",
+          "why_it_matters": "Illustrates the continued maturation of data-driven political advertising infrastructure, with voter file matching now integrated directly into programmatic ad buying.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:l2",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-06-24",
       "date": "2026-06-24",

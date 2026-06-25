@@ -3,7 +3,42 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Wed, 24 Jun 2026 17:30:10 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jun 2026 14:41:02 GMT</lastBuildDate>
+    <item>
+      <title>AI and tech are trying to influence the midterm elections</title>
+      <link>https://npr.org/2026/06/22/nx-s1-5856359/ai-anthropic-congress-spending-openai-midterms-election</link>
+      <guid isPermaLink="false">4f8141622cb7278c</guid>
+      <pubDate>2026-06-22</pubDate>
+      <description>NPR reports that major AI companies, including Anthropic and OpenAI, are actively spending and lobbying to influence how their tools are used in the 2026 midterm elections, with congressional outreach and campaign-facing deployments under scrutiny.</description>
+    </item>
+    <item>
+      <title>AI Companies Are Trying to Seize Control of Elections</title>
+      <link>https://futurism.com/artificial-intelligence/ai-companies-elections-midterms</link>
+      <guid isPermaLink="false">58d270d32c71f1da</guid>
+      <pubDate>2026-06-23</pubDate>
+      <description>Futurism argues that AI companies are positioning themselves to exert significant influence over the 2026 midterms through campaign tools, data products, and political relationships, framing this as a structural threat to electoral integrity.</description>
+    </item>
+    <item>
+      <title>Senate Judiciary advances NO FAKES Act on unanimous vote</title>
+      <link>https://spglobal.com/market-intelligence/en/news-insights/articles/2026/6/senate-judiciary-advances-no-fakes-act-on-unanimous-vote-103007539</link>
+      <guid isPermaLink="false">9fc3aa65b4dc558d</guid>
+      <pubDate>2026-06-23</pubDate>
+      <description>The Senate Judiciary Committee passed the NO FAKES Act by unanimous vote, advancing federal legislation that would create a right of publicity against unauthorized AI-generated replicas of a person's name, image, likeness, or voice.</description>
+    </item>
+    <item>
+      <title>No Fakes Act Clears Senate Judiciary Committee</title>
+      <link>https://deadline.com/2026/06/no-fakes-act-senate-judiciary-committee-1236959147</link>
+      <guid isPermaLink="false">01a59f2b80a6d103</guid>
+      <pubDate>2026-06-18</pubDate>
+      <description>Deadline covers the Senate Judiciary Committee's approval of the NO FAKES Act, noting its implications for AI-generated content across entertainment and political contexts.</description>
+    </item>
+    <item>
+      <title>Nexxen and L2 Data Launch VoterMatch, Bringing Greater Precision, Transparency and Performance to Political Advertising</title>
+      <link>https://finance.yahoo.com/media-advertising/articles/nexxen-l2-data-launch-votermatch-130000183.html</link>
+      <guid isPermaLink="false">aef8e702a675f777</guid>
+      <pubDate>2026-06-18</pubDate>
+      <description>Nexxen and L2 Data announced VoterMatch, a joint product combining L2's voter file data with Nexxen's programmatic advertising platform to enable more precise political ad targeting for campaigns and outside groups.</description>
+    </item>
     <item>
       <title>AI and tech are trying to influence the midterm elections</title>
       <link>https://npr.org/2026/06/22/nx-s1-5856359/ai-anthropic-congress-spending-openai-midterms-election</link>
