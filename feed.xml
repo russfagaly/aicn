@@ -3,7 +3,35 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Thu, 25 Jun 2026 14:41:02 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 14:34:10 GMT</lastBuildDate>
+    <item>
+      <title>Senate Committee Advances Bill to Protect Name, Image, Likeness and Voice Against Unauthorized AI Use</title>
+      <link>https://hklaw.com/en/insights/publications/2026/06/senate-judiciary-committee-advances-legislation-to-protect-name</link>
+      <guid isPermaLink="false">71d3197e1e09756c</guid>
+      <pubDate>2026-06-22</pubDate>
+      <description>The Senate Judiciary Committee advanced the NO FAKES Act, legislation that would create a federal right protecting individuals' name, image, likeness, and voice from unauthorized AI-generated reproductions. The Holland &amp; Knight analysis summarizes the bill's key provisions as it moves toward a full Senate vote.</description>
+    </item>
+    <item>
+      <title>NO FAKES Act clears Senate panel; judge blocks SNAP soda and candy limits; quantum math sharpens cancer AI — Morning Medical Update</title>
+      <link>https://medicaleconomics.com/view/no-fakes-act-clears-senate-panel-judge-blocks-snap-soda-and-candy-limits-quantum-math-sharpens-cancer-ai-morning-medical-update</link>
+      <guid isPermaLink="false">3d15f9673417a3ce</guid>
+      <pubDate>2026-06-25</pubDate>
+      <description>A morning news roundup notes that the NO FAKES Act cleared its Senate panel, confirming the committee advancement reported in more detail elsewhere.</description>
+    </item>
+    <item>
+      <title>NGP VAN Announces New AI-Assisted Fundraising Tools: Donor Target Scores and Donor Target Reports</title>
+      <link>https://ngpvan.com/blog/were-in-it-for-the-long-haul</link>
+      <guid isPermaLink="false">09730af6aa33f066</guid>
+      <pubDate>2025-12-16</pubDate>
+      <description>NGP VAN announced two new AI-assisted fundraising features — Donor Target Scores and Donor Target Reports — designed to help campaigns prioritize outreach to likely donors using predictive modeling.</description>
+    </item>
+    <item>
+      <title>Nexxen partners with L2 Data to launch voter targeting tool</title>
+      <link>https://investing.com/news/company-news/nexxen-partners-with-l2-data-to-launch-voter-targeting-tool-93CH-4750007</link>
+      <guid isPermaLink="false">53dbff33a7d2cf4f</guid>
+      <pubDate>2026-06-19</pubDate>
+      <description>Ad-tech company Nexxen has partnered with political data firm L2 to launch a voter targeting tool, enabling campaigns and political advertisers to reach audiences matched against L2's voter file data.</description>
+    </item>
     <item>
       <title>AI and tech are trying to influence the midterm elections</title>
       <link>https://npr.org/2026/06/22/nx-s1-5856359/ai-anthropic-congress-spending-openai-midterms-election</link>

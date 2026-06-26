@@ -1,7 +1,93 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-25T14:41:02Z",
+  "generated_at": "2026-06-26T14:34:10Z",
   "runs": [
+    {
+      "run_id": "2026-06-26",
+      "date": "2026-06-26",
+      "generated_at": "2026-06-26T14:34:10Z",
+      "is_light_run": false,
+      "top_summary": "The NO FAKES Act cleared a Senate committee, marking a significant legislative step toward federal protection against unauthorized AI-generated likenesses \u2014 directly relevant to synthetic media threats in elections. On the vendor side, NGP VAN announced AI-assisted donor targeting tools for campaigns, and ad-tech firm Nexxen launched a voter targeting product built on L2 voter data.",
+      "item_count": 4,
+      "items": [
+        {
+          "id": "71d3197e1e09756c",
+          "title": "Senate Committee Advances Bill to Protect Name, Image, Likeness and Voice Against Unauthorized AI Use",
+          "url": "https://hklaw.com/en/insights/publications/2026/06/senate-judiciary-committee-advances-legislation-to-protect-name",
+          "source": "Holland & Knight",
+          "source_domain": "hklaw.com",
+          "published": "2026-06-22",
+          "first_seen_run": "2026-06-26",
+          "category": "regulation",
+          "summary": "The Senate Judiciary Committee advanced the NO FAKES Act, legislation that would create a federal right protecting individuals' name, image, likeness, and voice from unauthorized AI-generated reproductions. The Holland & Knight analysis summarizes the bill's key provisions as it moves toward a full Senate vote.",
+          "why_it_matters": "Federal passage of the NO FAKES Act would establish a baseline legal remedy against AI-generated deepfakes of political figures and candidates, a direct check on synthetic media in elections.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:no-fakes-act",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "3d15f9673417a3ce",
+          "title": "NO FAKES Act clears Senate panel; judge blocks SNAP soda and candy limits; quantum math sharpens cancer AI \u2014 Morning Medical Update",
+          "url": "https://medicaleconomics.com/view/no-fakes-act-clears-senate-panel-judge-blocks-snap-soda-and-candy-limits-quantum-math-sharpens-cancer-ai-morning-medical-update",
+          "source": "Medical Economics",
+          "source_domain": "medicaleconomics.com",
+          "published": "2026-06-25",
+          "first_seen_run": "2026-06-26",
+          "category": "regulation",
+          "summary": "A morning news roundup notes that the NO FAKES Act cleared its Senate panel, confirming the committee advancement reported in more detail elsewhere.",
+          "why_it_matters": "Corroborates the NO FAKES Act committee passage, though the Holland & Knight source is more authoritative for this story.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:no-fakes-act",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "09730af6aa33f066",
+          "title": "NGP VAN Announces New AI-Assisted Fundraising Tools: Donor Target Scores and Donor Target Reports",
+          "url": "https://ngpvan.com/blog/were-in-it-for-the-long-haul",
+          "source": "NGP VAN Blog",
+          "source_domain": "ngpvan.com",
+          "published": "2025-12-16",
+          "first_seen_run": "2026-06-26",
+          "category": "vendor_moves",
+          "summary": "NGP VAN announced two new AI-assisted fundraising features \u2014 Donor Target Scores and Donor Target Reports \u2014 designed to help campaigns prioritize outreach to likely donors using predictive modeling.",
+          "why_it_matters": "NGP VAN is a dominant platform for Democratic campaigns, so AI-driven donor scoring tools could meaningfully shift how campaigns allocate fundraising resources.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:ngpvan-bonterra",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "53dbff33a7d2cf4f",
+          "title": "Nexxen partners with L2 Data to launch voter targeting tool",
+          "url": "https://investing.com/news/company-news/nexxen-partners-with-l2-data-to-launch-voter-targeting-tool-93CH-4750007",
+          "source": "Investing.com",
+          "source_domain": "investing.com",
+          "published": "2026-06-19",
+          "first_seen_run": "2026-06-26",
+          "category": "vendor_moves",
+          "summary": "Ad-tech company Nexxen has partnered with political data firm L2 to launch a voter targeting tool, enabling campaigns and political advertisers to reach audiences matched against L2's voter file data.",
+          "why_it_matters": "Integrating commercial programmatic advertising infrastructure with voter-file data expands the toolkit available for AI-enhanced micro-targeting in political ad buys.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:l2",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-06-25",
       "date": "2026-06-25",
