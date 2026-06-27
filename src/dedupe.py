@@ -19,6 +19,12 @@ _TRACKING_EXACT = {"fbclid", "gclid", "mc_cid", "mc_eid", "igshid", "ref", "ref_
 _CANONICAL_RE = re.compile(
     r'<link[^>]+rel=["\']canonical["\'][^>]+href=["\']([^"\']+)["\']', re.I
 )
+_TITLE_RE = re.compile(r"<title[^>]*>(.*?)</title>", re.I | re.S)
+_META_DESC_RE = re.compile(
+    r'<meta[^>]+(?:name|property)=["\'](?:description|og:description)["\'][^>]+content=["\']([^"\']*)["\']',
+    re.I,
+)
+_WHITESPACE_RE = re.compile(r"\s+")
 
 
 def normalize_url(url: str) -> str:
@@ -47,28 +53,49 @@ def normalize_title(title: str) -> str:
     return re.sub(r"\s+", " ", t).strip()
 
 
-def _fetch_canonical(url: str, timeout: float = 5.0):
+def _clean_text(raw: str) -> str:
+    text = re.sub(r"&amp;", "&", raw)
+    text = re.sub(r"&#39;|&apos;", "'", text)
+    text = re.sub(r"&quot;", '"', text)
+    text = _WHITESPACE_RE.sub(" ", text).strip()
+    return text
+
+
+def _fetch_page_meta(url: str, timeout: float = 5.0):
+    """Best-effort fetch of a page's canonical URL, <title>, and meta description.
+
+    Grounding the curator in the real page title/description (not just the
+    bare title a feed or search result gave us) is what lets it name specific
+    people/orgs instead of writing around them vaguely.
+    """
+    meta = {"canonical": None, "page_title": None, "page_description": None}
     try:
         req = urllib.request.Request(
-            url, headers={"User-Agent": "Mozilla/5.0 (compatible; AICN-dry-run/1.0)"}
+            url, headers={"User-Agent": "Mozilla/5.0 (compatible; AICN-bot/1.0)"}
         )
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             html = resp.read(200_000).decode("utf-8", errors="ignore")
         m = _CANONICAL_RE.search(html)
         if m:
-            return url, m.group(1)
+            meta["canonical"] = m.group(1)
+        m = _TITLE_RE.search(html)
+        if m:
+            meta["page_title"] = _clean_text(m.group(1))[:200]
+        m = _META_DESC_RE.search(html)
+        if m:
+            meta["page_description"] = _clean_text(m.group(1))[:400]
     except Exception:
         pass
-    return url, None
+    return url, meta
 
 
-def fetch_canonicals(urls, max_workers: int = 12, timeout: float = 5.0) -> dict:
-    """Best-effort canonical-URL lookup for a list of URLs. Returns {url: canonical_or_None}."""
+def fetch_page_metas(urls, max_workers: int = 12, timeout: float = 5.0) -> dict:
+    """Best-effort per-URL page metadata. Returns {url: {canonical, page_title, page_description}}."""
     results = {}
     unique = list(dict.fromkeys(urls))
     with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as pool:
-        futures = [pool.submit(_fetch_canonical, u, timeout) for u in unique]
+        futures = [pool.submit(_fetch_page_meta, u, timeout) for u in unique]
         for fut in concurrent.futures.as_completed(futures):
-            url, canonical = fut.result()
-            results[url] = canonical
+            url, meta = fut.result()
+            results[url] = meta
     return results

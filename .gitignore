@@ -3,6 +3,9 @@
 __pycache__/
 *.pyc
 .DS_Store
+data/dryrun_digests.json
+data/dryrun_meta.json
+dryrun_feed.xml
 
 # Claude Design canvas workspace (moodboards, exports-in-progress) — the final
 # site files (index.html, app.js, sources.html) are already copied to the repo

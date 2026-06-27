@@ -1,7 +1,12 @@
 /* AICN — vanilla static renderer. No framework, no build step.
-   Reads data/digests.json + data/meta.json sitting next to index.html. */
+   Reads data/digests.json + data/meta.json sitting next to index.html.
+   One continuous reverse-chronological feed (flattened across all runs),
+   paginated client-side. Category is shown as a badge per item; chips filter
+   the feed rather than sectioning it. */
 (function () {
   'use strict';
+
+  var PAGE_SIZE = 20;
 
   var CATEGORIES = [
     { key: 'vendor_moves', label: 'Vendor Moves' },
@@ -19,7 +24,7 @@
   };
   var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
-  var state = { loading: true, error: '', runs: [], meta: null, currentRunId: '', query: '', activeCategory: 'all' };
+  var state = { loading: true, error: '', items: [], latestRun: null, meta: null, query: '', activeCategory: 'all', page: 1 };
 
   var main = document.getElementById('main');
   var lastUpdatedEl = document.getElementById('lastUpdated');
@@ -52,6 +57,7 @@
   function catKeyOf(it) {
     return CAT_LABEL[it && it.category] ? it.category : 'other';
   }
+  function itemAnchor(it) { return 'item-' + esc(it.id || ''); }
 
   // --- data load ----------------------------------------------------------
   function load() {
@@ -69,10 +75,26 @@
               return String(b.run_id || '').localeCompare(String(a.run_id || ''));
             });
             if (!runs.length) throw new Error('No runs in digest.');
+
+            // Flatten every run's items into one list, then sort
+            // reverse-chronologically by published date (falling back to
+            // first_seen_run for items missing one), so the feed reads as a
+            // single continuous stream rather than day buckets.
+            var flat = [];
+            runs.forEach(function (r) { (r.items || []).forEach(function (it) { flat.push(it); }); });
+            flat.sort(function (a, b) {
+              var ad = a.published || a.first_seen_run || '';
+              var bd = b.published || b.first_seen_run || '';
+              if (ad !== bd) return ad < bd ? 1 : -1;
+              var afs = a.first_seen_run || '';
+              var bfs = b.first_seen_run || '';
+              return afs < bfs ? 1 : (afs > bfs ? -1 : 0);
+            });
+
             state.loading = false;
-            state.runs = runs;
+            state.items = flat;
+            state.latestRun = runs[0];
             state.meta = meta;
-            state.currentRunId = runs[0].run_id;
             render();
           });
       })
@@ -97,27 +119,32 @@
       return;
     }
 
-    var run = null;
-    for (var i = 0; i < state.runs.length; i++) {
-      if (state.runs[i].run_id === state.currentRunId) { run = state.runs[i]; break; }
-    }
-    if (!run) run = state.runs[0];
-    var latestId = state.runs[0] && state.runs[0].run_id;
-    var items = run.items || [];
+    var run = state.latestRun;
     var q = state.query.trim().toLowerCase();
     function matches(it) {
       return !q
         || String(it.title || '').toLowerCase().indexOf(q) !== -1
         || String(it.summary || '').toLowerCase().indexOf(q) !== -1;
     }
-    var filtered = items.filter(matches);
     var order = CATEGORIES.map(function (c) { return c.key; }).concat(['other']);
+    var present = {};
+    state.items.forEach(function (it) { present[catKeyOf(it)] = true; });
+
+    var filtered = state.items.filter(function (it) {
+      return matches(it) && (state.activeCategory === 'all' || catKeyOf(it) === state.activeCategory);
+    });
+
+    var totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+    if (state.page > totalPages) state.page = totalPages;
+    var pageStart = (state.page - 1) * PAGE_SIZE;
+    var pageItems = filtered.slice(pageStart, pageStart + PAGE_SIZE);
 
     var html = '';
 
-    // hero
+    // hero — latest run's top_summary, with jump-links down to its items
+    var runItems = run.items || [];
     var kicker = run.is_light_run ? 'Light run' : 'Latest run';
-    var metaLine = fmtDate(run.date || run.run_id) + ' · ' + items.length + (items.length === 1 ? ' item' : ' items');
+    var metaLine = fmtDate(run.date || run.run_id) + ' · ' + runItems.length + (runItems.length === 1 ? ' item' : ' items');
     html += '<section style="margin-top:28px; background:#e9eef7; border:1px solid #d8e1f1; border-radius:10px; padding:26px 30px;">';
     html += '<div style="display:flex; align-items:center; gap:10px; margin-bottom:14px; flex-wrap:wrap;">';
     html += '<span style="font-family:\'IBM Plex Mono\',monospace; font-size:10.5px; letter-spacing:0.1em; text-transform:uppercase; color:#fff; background:#2b4a8b; padding:3px 9px; border-radius:4px;">' + esc(kicker) + '</span>';
@@ -127,22 +154,20 @@
       html += '<p style="margin:0 0 12px; font-size:13px; color:#8a7330; background:#f4efe2; border:1px solid #e8dec5; padding:8px 12px; border-radius:6px; display:inline-block;">Lighter update than usual — fewer items surfaced in this run.</p>';
     }
     html += '<p style="margin:0; font-family:\'Source Serif 4\',serif; font-size:21px; line-height:1.5; color:#2c3340;">' + esc(run.top_summary || '') + '</p>';
+    if (runItems.length) {
+      html += '<ul style="list-style:none; margin:16px 0 0; padding:0; display:flex; flex-direction:column; gap:6px;">';
+      runItems.forEach(function (it) {
+        html += '<li><a href="#' + itemAnchor(it) + '" class="jump-link" data-target="' + itemAnchor(it) + '" style="font-size:13.5px; color:#2b4a8b; text-decoration:none;">&raquo; ' + esc(it.title || '(untitled)') + '</a></li>';
+      });
+      html += '</ul>';
+    }
     html += '</section>';
 
     // controls
-    var present = {};
-    items.forEach(function (it) { present[catKeyOf(it)] = true; });
     html += '<div style="position:sticky; top:0; z-index:5; background:#eef0f3; padding:18px 0 14px; margin-top:8px; border-bottom:1px solid #e3e6ea;">';
     html += '<div style="display:flex; gap:10px; align-items:center; margin-bottom:14px; flex-wrap:wrap;">';
     html += '<label for="search" style="position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap;">Search headlines and summaries</label>';
     html += '<input id="search" type="text" placeholder="Search headlines and summaries" value="' + escAttr(state.query) + '" style="flex:1; min-width:220px; font-family:\'Public Sans\',sans-serif; font-size:14px; padding:9px 14px; border:1px solid #d4d9e0; border-radius:7px; background:#fff; color:#2a2f3a; outline:none;">';
-    html += '<label for="runSelect" style="position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap;">Select a run by date</label>';
-    html += '<select id="runSelect" aria-label="Select a run by date" style="font-family:\'IBM Plex Mono\',monospace; font-size:12.5px; padding:9px 12px; border:1px solid #d4d9e0; border-radius:7px; background:#fff; color:#4b5563; outline:none; cursor:pointer;">';
-    state.runs.forEach(function (r) {
-      var label = fmtDate(r.date || r.run_id) + (r.run_id === latestId ? '  (latest)' : '');
-      html += '<option value="' + escAttr(r.run_id) + '"' + (r.run_id === state.currentRunId ? ' selected' : '') + '>' + esc(label) + '</option>';
-    });
-    html += '</select>';
     html += '</div>';
     // chips
     html += '<div style="display:flex; flex-wrap:wrap; gap:8px;">';
@@ -160,51 +185,50 @@
     });
     html += '</div></div>';
 
-    // sections
-    var sectionsHtml = '';
-    var sectionCount = 0;
-    order.forEach(function (k) {
-      if (state.activeCategory !== 'all' && state.activeCategory !== k) return;
-      var secItems = filtered.filter(function (it) { return catKeyOf(it) === k; });
-      if (!secItems.length) return;
-      sectionCount++;
-      sectionsHtml += '<section style="margin-top:30px;">';
-      sectionsHtml += '<div style="display:flex; align-items:center; gap:12px; margin-bottom:2px;">';
-      sectionsHtml += '<h2 style="margin:0; font-family:\'Source Serif 4\',serif; font-weight:600; font-size:17px; color:#1d2330;">' + esc(CAT_LABEL[k] || 'Other') + '</h2>';
-      sectionsHtml += '<span style="font-family:\'IBM Plex Mono\',monospace; font-size:12px; color:#9aa1ab;">' + secItems.length + '</span>';
-      sectionsHtml += '<div style="flex:1; height:1px; background:#e3e6ea;"></div></div>';
-      secItems.forEach(function (it) {
+    // feed
+    var feedHtml = '';
+    if (!pageItems.length) {
+      var emptyMessage = state.items.length === 0
+        ? 'No items surfaced yet.'
+        : 'No items match your search or filter.';
+      feedHtml = '<div style="padding:64px 0; text-align:center; color:#9aa1ab; font-size:14px;">' + esc(emptyMessage) + '</div>';
+    } else {
+      pageItems.forEach(function (it) {
         var src = it.source || it.source_domain || 'Source';
         var dl = fmtDate(it.published);
         var ml = dl ? (src + ' · ' + dl) : src;
-        sectionsHtml += '<article style="padding:20px 0; border-bottom:1px solid #e7eaee;">';
-        sectionsHtml += '<a href="' + escAttr(it.url || '#') + '" target="_blank" rel="noopener" class="headline" style="font-family:\'Source Serif 4\',serif; font-weight:600; font-size:19px; line-height:1.35; color:#1d2330; text-decoration:none;">' + esc(it.title || '(untitled)') + '</a>';
-        sectionsHtml += '<div style="display:flex; align-items:center; gap:10px; margin:7px 0 10px; flex-wrap:wrap;">';
-        sectionsHtml += '<span style="font-family:\'IBM Plex Mono\',monospace; font-size:11.5px; color:#9aa1ab; text-transform:uppercase; letter-spacing:0.02em;">' + esc(ml) + '</span>';
+        var catLabel = CAT_LABEL[catKeyOf(it)] || 'Other';
+        feedHtml += '<article id="' + itemAnchor(it) + '" style="padding:20px 0; border-bottom:1px solid #e7eaee;">';
+        feedHtml += '<span style="font-size:10.5px; font-family:\'IBM Plex Mono\',monospace; letter-spacing:0.08em; text-transform:uppercase; color:#2b4a8b; background:#e9eef7; padding:2px 8px; border-radius:4px;">' + esc(catLabel) + '</span>';
+        feedHtml += '<div style="margin-top:8px;"><a href="' + escAttr(it.url || '#') + '" target="_blank" rel="noopener" class="headline" style="font-family:\'Source Serif 4\',serif; font-weight:600; font-size:19px; line-height:1.35; color:#1d2330; text-decoration:none;">' + esc(it.title || '(untitled)') + '</a></div>';
+        feedHtml += '<div style="display:flex; align-items:center; gap:10px; margin:7px 0 10px; flex-wrap:wrap;">';
+        feedHtml += '<span style="font-family:\'IBM Plex Mono\',monospace; font-size:11.5px; color:#9aa1ab; text-transform:uppercase; letter-spacing:0.02em;">' + esc(ml) + '</span>';
         (it.flags || []).forEach(function (f) {
           if (!FLAG_LABEL[f]) return;
-          sectionsHtml += '<span style="font-size:11px; padding:2px 8px; border-radius:999px; background:#edf0f4; color:#6b7280; border:1px solid #e0e4ea; font-weight:500;">' + esc(FLAG_LABEL[f]) + '</span>';
+          feedHtml += '<span style="font-size:11px; padding:2px 8px; border-radius:999px; background:#edf0f4; color:#6b7280; border:1px solid #e0e4ea; font-weight:500;">' + esc(FLAG_LABEL[f]) + '</span>';
         });
-        sectionsHtml += '</div>';
-        sectionsHtml += '<p style="margin:0; font-size:14.5px; line-height:1.6; color:#4b5563;">' + esc(it.summary || '') + '</p>';
+        feedHtml += '</div>';
+        feedHtml += '<p style="margin:0; font-size:14.5px; line-height:1.6; color:#4b5563;">' + esc(it.summary || '') + '</p>';
         if (it.why_it_matters) {
-          sectionsHtml += '<div style="margin-top:12px; border-left:3px solid #2b4a8b; padding:2px 0 2px 14px;">';
-          sectionsHtml += '<span style="font-family:\'IBM Plex Mono\',monospace; font-size:10.5px; letter-spacing:0.12em; text-transform:uppercase; color:#2b4a8b; font-weight:600;">Notes</span>';
-          sectionsHtml += '<p style="margin:4px 0 0; font-size:14px; line-height:1.55; color:#384152;">' + esc(it.why_it_matters) + '</p></div>';
+          feedHtml += '<div style="margin-top:12px; border-left:3px solid #2b4a8b; padding:2px 0 2px 14px;">';
+          feedHtml += '<span style="font-family:\'IBM Plex Mono\',monospace; font-size:10.5px; letter-spacing:0.12em; text-transform:uppercase; color:#2b4a8b; font-weight:600;">Notes</span>';
+          feedHtml += '<p style="margin:4px 0 0; font-size:14px; line-height:1.55; color:#384152;">' + esc(it.why_it_matters) + '</p></div>';
         }
-        sectionsHtml += '</article>';
+        feedHtml += '</article>';
       });
-      sectionsHtml += '</section>';
-    });
-
-    if (sectionCount === 0) {
-      var emptyMessage = items.length === 0
-        ? 'No items surfaced in this run.'
-        : 'No items match your search in this run.';
-      sectionsHtml = '<div style="padding:64px 0; text-align:center; color:#9aa1ab; font-size:14px;">' + esc(emptyMessage) + '</div>';
     }
 
-    main.innerHTML = html + sectionsHtml;
+    // pagination
+    var pagerHtml = '';
+    if (totalPages > 1) {
+      pagerHtml += '<nav aria-label="Pagination" style="display:flex; align-items:center; justify-content:center; gap:14px; padding:28px 0;">';
+      pagerHtml += '<button id="prevPage" ' + (state.page <= 1 ? 'disabled' : '') + ' style="font-family:\'Public Sans\',sans-serif; font-size:13px; padding:7px 16px; border-radius:7px; border:1px solid #d4d9e0; background:#fff; color:' + (state.page <= 1 ? '#c3c8d1' : '#4b5563') + '; cursor:' + (state.page <= 1 ? 'default' : 'pointer') + ';">&larr; Newer</button>';
+      pagerHtml += '<span style="font-family:\'IBM Plex Mono\',monospace; font-size:12.5px; color:#6b7280;">Page ' + state.page + ' of ' + totalPages + '</span>';
+      pagerHtml += '<button id="nextPage" ' + (state.page >= totalPages ? 'disabled' : '') + ' style="font-family:\'Public Sans\',sans-serif; font-size:13px; padding:7px 16px; border-radius:7px; border:1px solid #d4d9e0; background:#fff; color:' + (state.page >= totalPages ? '#c3c8d1' : '#4b5563') + '; cursor:' + (state.page >= totalPages ? 'default' : 'pointer') + ';">Older &rarr;</button>';
+      pagerHtml += '</nav>';
+    }
+
+    main.innerHTML = html + feedHtml + pagerHtml;
     wire();
   }
 
@@ -214,26 +238,39 @@
     if (search) {
       search.addEventListener('input', function (e) {
         state.query = e.target.value;
+        state.page = 1;
         render();
-        // restore focus + caret after re-render
         var s2 = document.getElementById('search');
         if (s2) { s2.focus(); var v = s2.value.length; s2.setSelectionRange(v, v); }
-      });
-    }
-    var runSelect = document.getElementById('runSelect');
-    if (runSelect) {
-      runSelect.addEventListener('change', function (e) {
-        state.currentRunId = e.target.value;
-        state.activeCategory = 'all';
-        state.query = '';
-        render();
       });
     }
     var chips = document.querySelectorAll('.chip');
     for (var i = 0; i < chips.length; i++) {
       chips[i].addEventListener('click', function (e) {
         state.activeCategory = e.currentTarget.getAttribute('data-cat');
+        state.page = 1;
         render();
+      });
+    }
+    var prev = document.getElementById('prevPage');
+    if (prev) prev.addEventListener('click', function () { if (state.page > 1) { state.page--; render(); window.scrollTo(0, 0); } });
+    var next = document.getElementById('nextPage');
+    if (next) next.addEventListener('click', function () { state.page++; render(); window.scrollTo(0, 0); });
+
+    var jumps = document.querySelectorAll('.jump-link');
+    for (var j = 0; j < jumps.length; j++) {
+      jumps[j].addEventListener('click', function (e) {
+        e.preventDefault();
+        var target = e.currentTarget.getAttribute('data-target');
+        // The target item is always within the most recent items, which sort
+        // first — resetting filters to page 1/all/no-query guarantees it's
+        // actually rendered before we try to scroll to it.
+        state.page = 1;
+        state.activeCategory = 'all';
+        state.query = '';
+        render();
+        var el = document.getElementById(target);
+        if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
     }
   }

@@ -29,7 +29,7 @@ from zoneinfo import ZoneInfo
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from curate import curate_items
-from dedupe import fetch_canonicals, normalize_title, normalize_url, url_id
+from dedupe import fetch_page_metas, normalize_title, normalize_url, url_id
 from gather_feeds import gather_feed_items
 from gather_search import broad_search, watchlist_search
 from render import write_outputs
@@ -49,6 +49,39 @@ def load_yaml(path):
         return yaml.safe_load(f)
 
 
+def load_recent_published(root: str, lookback_days: int):
+    """Title+summary of everything published in the last N days, across runs.
+
+    Used as continued-coverage context for the curator: mechanical dedup
+    (URL/title matching) can't tell that a new article is just a different
+    outlet rehashing a story we already ran — this gives the model enough to
+    make that call itself.
+    """
+    digests_path = os.path.join(root, "data", "digests.json")
+    if not os.path.exists(digests_path):
+        return []
+    with open(digests_path) as f:
+        digests = json.load(f)
+    cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=lookback_days)
+    recent = []
+    for run in digests.get("runs", []):
+        try:
+            run_date = datetime.datetime.fromisoformat(run["date"]).replace(tzinfo=datetime.timezone.utc)
+        except (KeyError, ValueError):
+            continue
+        if run_date < cutoff:
+            continue
+        for item in run.get("items", []):
+            recent.append(
+                {
+                    "title": item.get("title", ""),
+                    "summary": item.get("summary", ""),
+                    "published": item.get("published", ""),
+                }
+            )
+    return recent
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -64,7 +97,12 @@ def main():
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         sys.exit("ANTHROPIC_API_KEY not set (put it in aicn/.env or export it).")
-    client = Anthropic(api_key=api_key)
+    # The SDK's default read timeout is 600s — a single stalled web_search call
+    # (server-side, out of our control) can then block the entire run for up
+    # to 10 minutes. 120s is generous for a search or curation call under
+    # normal conditions; individual call sites catch the resulting timeout
+    # and degrade (empty results / skip) rather than taking the whole run down.
+    client = Anthropic(api_key=api_key, timeout=120.0)
 
     t0 = time.time()
     candidates = []
@@ -106,9 +144,13 @@ def main():
 
     print(f"Total raw candidates: {len(candidates)}", file=sys.stderr)
 
-    # Best-effort canonical-URL lookup before normalizing/hashing.
-    print("Resolving canonical URLs...", file=sys.stderr)
-    canonical_map = fetch_canonicals([c["url"] for c in candidates])
+    # Best-effort canonical-URL + real page title/description lookup before
+    # normalizing/hashing. The page title/description ground the curator in
+    # what the article actually says, instead of just the bare title a feed
+    # or search result handed us — that's what lets it name specific people/
+    # orgs instead of writing around them vaguely.
+    print("Resolving canonical URLs + page metadata...", file=sys.stderr)
+    page_meta_map = fetch_page_metas([c["url"] for c in candidates])
 
     seen_path = os.path.join(ROOT, "state", "seen.json")
     seen = {"ids": [], "titles": []}
@@ -122,7 +164,8 @@ def main():
     run_ids_used = set()
     run_titles_used = set()
     for c in candidates:
-        effective_url = canonical_map.get(c["url"]) or c["url"]
+        page_meta = page_meta_map.get(c["url"], {})
+        effective_url = page_meta.get("canonical") or c["url"]
         norm_url = normalize_url(effective_url)
         cid = url_id(norm_url)
         norm_title = normalize_title(c["title"])
@@ -137,12 +180,17 @@ def main():
         c["_id"] = cid
         c["_normalized_url"] = norm_url
         c["_normalized_title"] = norm_title
+        c["page_title"] = page_meta.get("page_title")
+        c["page_description"] = page_meta.get("page_description")
         deduped.append(c)
 
     print(f"After within-run + state dedupe: {len(deduped)} candidates", file=sys.stderr)
 
+    recent_published = load_recent_published(ROOT, lookback_days=LOOKBACK_DAYS)
+    print(f"Recently published (last {LOOKBACK_DAYS}d, for continued-coverage check): {len(recent_published)} items", file=sys.stderr)
+
     print("Curating (one Anthropic API call)...", file=sys.stderr)
-    curated, curate_note = curate_items(client, CURATE_MODEL, deduped)
+    curated, curate_note = curate_items(client, CURATE_MODEL, deduped, recent_published)
     if curate_note:
         notes.append(curate_note)
     if curated is None:

@@ -102,13 +102,23 @@ def write_outputs(root: str, run_id: str, run_date, candidates_by_url: dict, cur
     data_dir = os.path.join(root, "data")
     os.makedirs(data_dir, exist_ok=True)
 
-    digests_path = os.path.join(data_dir, "digests.json")
-    meta_path = os.path.join(data_dir, "meta.json")
-    feed_path = os.path.join(root, "feed.xml")
+    real_digests_path = os.path.join(data_dir, "digests.json")
+    # Dry runs read the real digests.json (so they dedupe/preview against what's
+    # actually live) but write to separate dryrun_* files — otherwise a dry run
+    # on a day that already has a real published run would silently overwrite
+    # it, since both share the same run_id.
+    if dry_run:
+        digests_path = os.path.join(data_dir, "dryrun_digests.json")
+        meta_path = os.path.join(data_dir, "dryrun_meta.json")
+        feed_path = os.path.join(root, "dryrun_feed.xml")
+    else:
+        digests_path = real_digests_path
+        meta_path = os.path.join(data_dir, "meta.json")
+        feed_path = os.path.join(root, "feed.xml")
 
     new_run = build_run(run_id, run_date, candidates_by_url, curated)
 
-    digests = _load_existing_digests(digests_path)
+    digests = _load_existing_digests(real_digests_path)
     # Replace a same-run_id entry if re-run same day; else prepend newest-first.
     digests["runs"] = [r for r in digests.get("runs", []) if r["run_id"] != run_id]
     digests["runs"].insert(0, new_run)

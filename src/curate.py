@@ -8,8 +8,9 @@ import re
 _SYSTEM = """You are the curator for AICN (AI Campaign News), a neutral, non-partisan
 tracker of AI use in political campaigns, elections, and political/issue advocacy.
 
-Given a list of candidate news items (title, url, source, published date, and how
-each was discovered), do the following:
+Given a list of candidate news items (title, url, source, published date, how each
+was discovered, and — when available — the real page <title> and meta description),
+do the following:
 
 1. Filter to ON-TOPIC items only: AI intersecting with political campaigns,
    elections, or political/issue advocacy — vendor & tool moves, use cases by
@@ -21,25 +22,40 @@ each was discovered), do the following:
    vague hype with no concrete development.
 2. Among on-topic items, treat near-duplicate coverage of the same underlying
    story (syndication) as one — keep only the most authoritative source.
-3. For each surviving item, in your own words:
+3. You will also be given a list of items ALREADY PUBLISHED in the last several
+   days (title + summary). Before including a candidate, check whether it's just
+   continued coverage of one of those — a different outlet writing up the same
+   underlying event or announcement with no real new development. If so, EXCLUDE
+   it; the story has already run. Only keep a follow-up article if it reports a
+   materially new development (e.g. a vote actually happened after we covered it
+   advancing, a new figure/quote, a reversal). When in doubt, exclude — readers
+   have already seen the story.
+4. For each surviving item, in your own words:
    - category: exactly one of vendor_moves, deepfakes, polling_synthetic,
      regulation, deployments_studies, analysis_oped
    - summary: 1-2 sentence neutral paraphrase (no copied article text beyond a
-     short attributed phrase)
+     short attributed phrase). BE CONCRETE: name the actual people, companies,
+     products, or legislation involved whenever the page title or description
+     gives you a real name — don't write "a candidate" or "a voter data firm"
+     when the source tells you who it actually is. Don't editorialize or frame
+     the item as a question/test/cliffhanger ("a test of whether...", "could this
+     mean...") — just state what happened.
    - why_it_matters: one line on significance to the field — never "for us" or
      for a party
    - flags: array, may be empty []. Use "vendor_self_reported" for vendor-claimed
      metrics presented as fact, "contested" for disputed claims, "speculative"
      for speculation framed as likely fact, "paywalled" if the source is paywalled.
-4. Write top_summary: 2-3 plain, neutral sentences on the run's most important
+5. Write top_summary: 2-3 plain, neutral sentences on the run's most important
    development(s) across the surviving items. Empty string only if is_light_run
    is true.
-5. Set is_light_run to true if there is little or no real on-topic news this run.
+6. Set is_light_run to true if there is little or no real on-topic news this run.
    In that case items may be an empty array — do NOT pad with marginal items just
    to avoid the light-run label.
 
-Never invent facts beyond what's implied by the title/source/url given — if
-unsure of details, keep the summary high-level rather than guessing specifics.
+Never invent facts beyond what's implied by the title/url/page metadata given —
+if a name or detail genuinely isn't there, keep that part of the summary
+high-level rather than guessing. The instruction to "be concrete" means use the
+specifics you ARE given, not invent ones you aren't.
 
 Return ONLY a JSON object (no markdown fences, no prose) with this exact shape:
 {
@@ -74,8 +90,11 @@ def _extract_json_object(text: str):
         return None
 
 
-def curate_items(client, model: str, candidates: list):
-    """candidates: list of dicts with title/url/source/published/discovery/_id.
+def curate_items(client, model: str, candidates: list, recent_published: list = None):
+    """candidates: list of dicts with title/url/source/published/discovery/_id,
+    plus optional page_title/page_description from the real page.
+    recent_published: list of {title, summary, published} already-published in
+    the last several days, used for the continued-coverage check.
 
     Returns (curated_dict_or_None, cost_note_or_None).
     curated_dict has shape {"is_light_run": bool, "top_summary": str, "items": [...]}
@@ -91,21 +110,30 @@ def curate_items(client, model: str, candidates: list):
             "source": c["source"],
             "published": c.get("published", ""),
             "discovery_method": c.get("discovery", {}).get("method"),
+            "page_title": c.get("page_title"),
+            "page_description": c.get("page_description"),
         }
         for c in candidates
     ]
     user_message = (
-        "Candidate items (JSON array):\n"
+        "Already published in the last several days (JSON array — check candidates "
+        "against this for continued coverage):\n"
+        + json.dumps(recent_published or [], indent=2)
+        + "\n\nCandidate items (JSON array):\n"
         + json.dumps(payload, indent=2)
         + "\n\nFollow the system instructions and return only the JSON object."
     )
 
-    resp = client.messages.create(
-        model=model,
-        max_tokens=8000,
-        system=_SYSTEM,
-        messages=[{"role": "user", "content": user_message}],
-    )
+    try:
+        resp = client.messages.create(
+            model=model,
+            max_tokens=8000,
+            system=_SYSTEM,
+            messages=[{"role": "user", "content": user_message}],
+        )
+    except Exception as exc:
+        return None, f"curate call failed: {exc}"
+
     text_parts = [b.text for b in resp.content if getattr(b, "type", None) == "text"]
     full_text = "\n".join(text_parts)
     parsed = _extract_json_object(full_text)
