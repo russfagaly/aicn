@@ -1,7 +1,73 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-28T13:55:37Z",
+  "generated_at": "2026-06-29T15:55:02Z",
   "runs": [
+    {
+      "run_id": "2026-06-29",
+      "date": "2026-06-29",
+      "generated_at": "2026-06-29T15:55:02Z",
+      "is_light_run": false,
+      "top_summary": "A new AI tool aimed at automating weekly client reports for public affairs professionals launched via Campaigns & Elections, representing continued vendor expansion into political consulting workflows. Wired reports that the Trump White House has effectively sidelined Anthropic CEO Dario Amodei from high-stakes meetings, replacing him with cofounder Tom Brown \u2014 a notable development in AI-industry political relationships. A Michigan congressional candidate is running on a data center moratorium, illustrating how AI infrastructure is becoming a direct campaign issue in swing-district politics.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "41cdc4194a9ce1a0",
+          "title": "A New AI Tool Targets the Least-Loved Task in Public Affairs:\u00a0the Weekly Client Report",
+          "url": "https://campaignsandelections.com/sponsored/a-new-ai-tool-targets-the-least-loved-task-in-public-affairs-the-weekly-client-report",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-06-29",
+          "first_seen_run": "2026-06-29",
+          "category": "vendor_moves",
+          "summary": "Campaigns & Elections features a new AI tool designed to automate the weekly client report process for public affairs and lobbying professionals, addressing a time-intensive task as retainer scopes have expanded.",
+          "why_it_matters": "Signals continued AI product development targeting political consulting and public affairs workflows beyond traditional campaign functions.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaigns-and-elections",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "f91dc88fde7cdef7",
+          "title": "The Trump White House Is Over Anthropic CEO Dario Amodei",
+          "url": "https://wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei",
+          "source": "Wired (Politics)",
+          "source_domain": "wired.com",
+          "published": "2026-06-24",
+          "first_seen_run": "2026-06-29",
+          "category": "analysis_oped",
+          "summary": "Wired reports that Anthropic CEO Dario Amodei has been replaced by cofounder Tom Brown as the company's representative in high-stakes White House meetings, with one official describing Amodei as a \"weirdo.\" The shift signals a cooling relationship between Anthropic's leadership and the Trump administration.",
+          "why_it_matters": "The political standing of major AI company leaders with the White House directly shapes how AI policy and campaign-relevant regulation is negotiated.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "wired-politics",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "ef08f47c1d23b5ee",
+          "title": "The Anti-Data-Center Movement Is Reshaping Michigan Politics",
+          "url": "https://wired.com/story/anti-data-center-movement-reshaping-michigan-politics",
+          "source": "Wired (Politics)",
+          "source_domain": "wired.com",
+          "published": "2026-06-29",
+          "first_seen_run": "2026-06-29",
+          "category": "analysis_oped",
+          "summary": "Sunrise Movement cofounder Will Lawrence is running for a Michigan swing-district congressional seat with a call for a data center moratorium as a central campaign issue, reflecting grassroots opposition to AI infrastructure development entering electoral politics.",
+          "why_it_matters": "AI infrastructure is emerging as a direct campaign issue in competitive districts, not just a policy backdrop, with candidates explicitly running on limiting data center expansion.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "wired-politics",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-06-28",
       "date": "2026-06-28",

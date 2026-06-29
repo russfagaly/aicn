@@ -3,7 +3,28 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Sun, 28 Jun 2026 13:55:37 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 15:55:02 GMT</lastBuildDate>
+    <item>
+      <title>A New AI Tool Targets the Least-Loved Task in Public Affairs: the Weekly Client Report</title>
+      <link>https://campaignsandelections.com/sponsored/a-new-ai-tool-targets-the-least-loved-task-in-public-affairs-the-weekly-client-report</link>
+      <guid isPermaLink="false">41cdc4194a9ce1a0</guid>
+      <pubDate>2026-06-29</pubDate>
+      <description>Campaigns &amp; Elections features a new AI tool designed to automate the weekly client report process for public affairs and lobbying professionals, addressing a time-intensive task as retainer scopes have expanded.</description>
+    </item>
+    <item>
+      <title>The Trump White House Is Over Anthropic CEO Dario Amodei</title>
+      <link>https://wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei</link>
+      <guid isPermaLink="false">f91dc88fde7cdef7</guid>
+      <pubDate>2026-06-24</pubDate>
+      <description>Wired reports that Anthropic CEO Dario Amodei has been replaced by cofounder Tom Brown as the company's representative in high-stakes White House meetings, with one official describing Amodei as a "weirdo." The shift signals a cooling relationship between Anthropic's leadership and the Trump administration.</description>
+    </item>
+    <item>
+      <title>The Anti-Data-Center Movement Is Reshaping Michigan Politics</title>
+      <link>https://wired.com/story/anti-data-center-movement-reshaping-michigan-politics</link>
+      <guid isPermaLink="false">ef08f47c1d23b5ee</guid>
+      <pubDate>2026-06-29</pubDate>
+      <description>Sunrise Movement cofounder Will Lawrence is running for a Michigan swing-district congressional seat with a call for a data center moratorium as a central campaign issue, reflecting grassroots opposition to AI infrastructure development entering electoral politics.</description>
+    </item>
     <item>
       <title>Senate Committee Advances Bill to Protect Name, Image, Likeness and Voice Against Unauthorized AI Use</title>
       <link>https://hklaw.com/en/insights/publications/2026/06/senate-judiciary-committee-advances-legislation-to-protect-name</link>
