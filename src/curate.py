@@ -51,6 +51,13 @@ do the following:
 6. Set is_light_run to true if there is little or no real on-topic news this run.
    In that case items may be an empty array — do NOT pad with marginal items just
    to avoid the light-run label.
+7. From the surviving published items, extract any vendors, tools, companies,
+   people, pieces of legislation, or regulatory bodies that are newly-named
+   and not yet widely known in this space — these are candidates for the entity
+   watchlist. Exclude household AI names (OpenAI, Google, Anthropic, Meta, etc.),
+   major platforms, and legislation already on the watchlist (NO FAKES Act, TAKE
+   IT DOWN Act, FEC, FCC). Only flag genuinely niche or emerging names that a
+   beat reporter would want to track going forward. Return them as new_entities.
 
 Never invent facts beyond what's implied by the title/url/page metadata given —
 if a name or detail genuinely isn't there, keep that part of the summary
@@ -69,11 +76,20 @@ Return ONLY a JSON object (no markdown fences, no prose) with this exact shape:
       "why_it_matters": str,
       "flags": [str]
     }
+  ],
+  "new_entities": [
+    {
+      "name": str,
+      "kind": "vendor|person|regulator|legislation",
+      "rationale": str,
+      "example_url": str
+    }
   ]
 }
 
-Each "url" in your output MUST exactly match one of the candidate urls given to
-you. Do not include a url that wasn't in the candidate list."""
+new_entities may be an empty array. Each "url" in items MUST exactly match one
+of the candidate urls given to you. Do not include a url that wasn't in the
+candidate list."""
 
 
 def _extract_json_object(text: str):

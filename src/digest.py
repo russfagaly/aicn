@@ -21,6 +21,7 @@ import json
 import os
 import sys
 import time
+import urllib.parse
 
 import yaml
 from anthropic import Anthropic
@@ -32,7 +33,13 @@ from curate import curate_items
 from dedupe import fetch_page_metas, normalize_title, normalize_url, url_id
 from gather_feeds import gather_feed_items
 from gather_search import broad_search, site_scoped_search, watchlist_search
-from render import write_outputs
+from promote import (
+    build_entity_proposals,
+    build_source_proposals,
+    sniff_feed_urls,
+    update_domain_stats,
+)
+from render import write_outputs, write_proposals
 
 # Curation needs editorial judgment (categorizing, paraphrasing, flagging) —
 # keep it on Sonnet per the locked decision. Search calls are pure discovery
@@ -42,6 +49,9 @@ CURATE_MODEL = "claude-sonnet-4-6"
 SEARCH_MODEL = "claude-haiku-4-5-20251001"
 LOOKBACK_DAYS = 7
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# How many times a domain must surface in candidates before it's proposed as a
+# new source. Set low (3) while run history is short; revisit after a month.
+PROMOTION_THRESHOLD = 3
 
 
 def load_yaml(path):
@@ -106,6 +116,8 @@ def main():
     client = Anthropic(api_key=api_key, timeout=120.0)
 
     t0 = time.time()
+    run_date = datetime.datetime.now(ZoneInfo("America/Los_Angeles")).date()
+    run_id = run_date.isoformat()
     candidates = []
     feed_errors = []
     notes = []
@@ -125,10 +137,8 @@ def main():
         notes.append(broad_note)
     print(f"  broad search: {len(broad_items)} items", file=sys.stderr)
 
-    today_weekday = datetime.datetime.now(ZoneInfo("America/Los_Angeles")).weekday()
-
     def due_today(entries):
-        due = [e for e in entries if e.get("cadence", "daily") == "daily" or e.get("weekday") == today_weekday]
+        due = [e for e in entries if e.get("cadence", "daily") == "daily" or e.get("weekday") == run_date.weekday()]
         return due, len(entries) - len(due)
 
     due_entities, skipped_entities = due_today(watchlist.get("entities", []))
@@ -199,6 +209,25 @@ def main():
 
     print(f"After within-run + state dedupe: {len(deduped)} candidates", file=sys.stderr)
 
+    # Phase 2: track which domains keep surfacing so we can propose new sources.
+    # Known domains = everything already in sources.yaml feeds + site_targets.yaml.
+    known_domains: set[str] = set()
+    for feed in sources.get("feeds", []):
+        host = urllib.parse.urlsplit(feed.get("url", "")).netloc.lstrip("www.")
+        if host:
+            known_domains.add(host)
+    for tgt in site_targets.get("targets", []):
+        domain = tgt.get("domain", "").lstrip("www.")
+        if domain:
+            known_domains.add(domain)
+
+    domain_stats_path = os.path.join(ROOT, "state", "domain_stats.json")
+    domain_stats: dict = {}
+    if os.path.exists(domain_stats_path):
+        with open(domain_stats_path) as f:
+            domain_stats = json.load(f)
+    update_domain_stats(domain_stats, deduped, known_domains, run_id=run_id)
+
     recent_published = load_recent_published(ROOT, lookback_days=LOOKBACK_DAYS)
     print(f"Recently published (last {LOOKBACK_DAYS}d, for continued-coverage check): {len(recent_published)} items", file=sys.stderr)
 
@@ -209,9 +238,48 @@ def main():
     if curated is None:
         sys.exit("Curation call did not return parseable JSON. Aborting without writing output.")
 
+    # Phase 2: build proposals from domain stats + curator-extracted entities.
+    proposals_path_real = os.path.join(ROOT, "data", "proposals.json")
+    existing_proposals: list = []
+    if os.path.exists(proposals_path_real):
+        with open(proposals_path_real) as f:
+            existing_proposals = json.load(f).get("proposals", [])
+
+    # Source promotion: domains crossing the threshold get a feed-sniff + proposal.
+    promoting = [
+        d for d, e in domain_stats.items()
+        if e["count"] >= PROMOTION_THRESHOLD
+        and d not in known_domains
+        and d not in {p["value"] for p in existing_proposals}
+    ]
+    feed_urls: dict = {}
+    if promoting:
+        print(f"Sniffing feed URLs for {len(promoting)} promotion candidate(s)...", file=sys.stderr)
+        feed_urls = sniff_feed_urls(promoting)
+
+    source_proposals = build_source_proposals(
+        domain_stats, PROMOTION_THRESHOLD, existing_proposals, known_domains,
+        run_id=run_id,
+        feed_urls=feed_urls,
+    )
+
+    # Lead-following: entities extracted by the curator.
+    new_entities = curated.pop("new_entities", []) if curated else []
+    known_entity_names = {e["name"] for e in watchlist.get("entities", [])}
+    entity_proposals = build_entity_proposals(
+        new_entities, existing_proposals, known_entity_names,
+        run_id=run_id,
+    )
+
+    all_new_proposals = source_proposals + entity_proposals
+    proposals_written = write_proposals(ROOT, all_new_proposals, dry_run=args.dry_run)
+
+    # Persist domain stats (skip on dry run so we don't advance state).
+    if not args.dry_run:
+        with open(domain_stats_path, "w") as f:
+            json.dump(domain_stats, f, indent=2, sort_keys=True)
+
     candidates_by_url = {c["url"]: c for c in deduped}
-    run_date = datetime.datetime.now(ZoneInfo("America/Los_Angeles")).date()
-    run_id = run_date.isoformat()
 
     new_run, digests_path, meta_path, feed_path = write_outputs(
         ROOT, run_id, run_date, candidates_by_url, curated, dry_run=args.dry_run
@@ -224,7 +292,9 @@ def main():
     print(f"elapsed: {elapsed:.1f}s", file=sys.stderr)
     print(f"wrote: {digests_path}, {meta_path}, {feed_path}", file=sys.stderr)
     if args.dry_run:
-        print("DRY RUN: state/seen.json was NOT written.", file=sys.stderr)
+        print("DRY RUN: state/seen.json and domain_stats.json were NOT written.", file=sys.stderr)
+    if all_new_proposals:
+        print(f"proposals: +{proposals_written} new ({len(source_proposals)} source, {len(entity_proposals)} entity)", file=sys.stderr)
     for note in notes:
         print(f"note: {note}", file=sys.stderr)
 

@@ -98,6 +98,36 @@ def _render_feed_xml(runs: list) -> str:
     )
 
 
+def write_proposals(root: str, new_proposals: list, dry_run: bool):
+    """Merge new_proposals into data/proposals.json, skipping any id already present."""
+    data_dir = os.path.join(root, "data")
+    os.makedirs(data_dir, exist_ok=True)
+
+    if dry_run:
+        proposals_path = os.path.join(data_dir, "dryrun_proposals.json")
+        real_proposals_path = os.path.join(data_dir, "proposals.json")
+    else:
+        proposals_path = os.path.join(data_dir, "proposals.json")
+        real_proposals_path = proposals_path
+
+    existing = {"schema_version": 1, "proposals": []}
+    if os.path.exists(real_proposals_path):
+        with open(real_proposals_path) as f:
+            existing = json.load(f)
+
+    existing_ids = {p["id"] for p in existing.get("proposals", [])}
+    added = 0
+    for prop in new_proposals:
+        if prop["id"] not in existing_ids:
+            existing["proposals"].append(prop)
+            existing_ids.add(prop["id"])
+            added += 1
+
+    with open(proposals_path, "w") as f:
+        json.dump(existing, f, indent=2)
+    return added
+
+
 def write_outputs(root: str, run_id: str, run_date, candidates_by_url: dict, curated: dict, dry_run: bool):
     data_dir = os.path.join(root, "data")
     os.makedirs(data_dir, exist_ok=True)

@@ -5,6 +5,7 @@ __pycache__/
 .DS_Store
 data/dryrun_digests.json
 data/dryrun_meta.json
+data/dryrun_proposals.json
 dryrun_feed.xml
 
 # Claude Design canvas workspace (moodboards, exports-in-progress) — the final
