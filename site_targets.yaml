@@ -1,0 +1,47 @@
+# AICN site-scoped search targets (v1 refinement to the L2 broad-search layer).
+#
+# These are large, high-volume mainstream outlets where AI-in-campaigns news
+# is real but low-density relative to their overall output — too much to
+# ingest as a full RSS feed, but too important to leave to chance on the
+# generic broad web_search pass alone. Each run, every target gets its own
+# `site:<domain>` search, same pattern as the entity watchlist.
+#
+# Source: tier (b) of the "Campaign News & Source Directory" mapping from the
+# 2026-06-30 planning session (ai_campaigns_digest_site_build_prompt.md).
+# cadence follows the same daily/weekly convention as watchlist.yaml — all
+# daily for now since the whole point is reliable coverage; revisit if cost
+# review (scheduled 2026-07-03) suggests otherwise.
+
+targets:
+  - id: politico
+    name: Politico
+    domain: politico.com
+    cadence: daily
+  - id: axios
+    name: Axios
+    domain: axios.com
+    cadence: daily
+  - id: semafor
+    name: Semafor
+    domain: semafor.com
+    cadence: daily
+  - id: the-hill
+    name: The Hill
+    domain: thehill.com
+    cadence: daily
+  - id: punchbowl
+    name: Punchbowl News
+    domain: punchbowl.news
+    cadence: daily
+  - id: the-downballot
+    name: The Downballot
+    domain: the-downballot.com
+    cadence: daily
+  - id: the-dispatch
+    name: The Dispatch
+    domain: thedispatch.com
+    cadence: daily
+  - id: ap
+    name: AP
+    domain: apnews.com
+    cadence: daily

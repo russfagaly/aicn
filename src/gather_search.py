@@ -117,3 +117,38 @@ def watchlist_search(client, model: str, entity: dict):
     if usage:
         note = f"watchlist[{entity['id']}] usage: input={usage.input_tokens} output={usage.output_tokens}"
     return items, note
+
+
+def site_scoped_search(client, model: str, target: dict):
+    """Targeted site: search for one large mainstream outlet (site_targets.yaml).
+
+    These outlets are too high-volume to ingest as a full RSS feed but too
+    important to leave to chance on the generic broad web_search pass alone —
+    each gets its own dedicated search every run it's due.
+    """
+    name = target["name"]
+    domain = target["domain"]
+    system = (
+        "You are a research assistant gathering candidate news items for AICN, a "
+        "neutral tracker of AI use in political campaigns and elections.\n\n"
+        + _RELEVANCE_RULES
+        + f"\n\nYou are searching ONLY within {name} ({domain}) this call — use a "
+        f"site:{domain} search. " + _OUTPUT_FORMAT
+    )
+    user_message = (
+        f"Search {name} (site:{domain}) for recent (last 7 days) coverage of AI use "
+        "in political campaigns, elections, or political/issue advocacy. This outlet "
+        "covers far more than this beat, so only return items that are genuinely "
+        "on-topic — most of what they publish won't be relevant, and that's expected."
+    )
+    try:
+        items, usage = _run_search(client, model, system, user_message)
+    except Exception as exc:
+        return [], f"site_target[{target['id']}] failed: {exc}"
+
+    for item in items:
+        item["discovery"] = {"method": "search", "source_ref": f"site:{target['id']}", "confidence": "medium"}
+    note = None
+    if usage:
+        note = f"site_target[{target['id']}] usage: input={usage.input_tokens} output={usage.output_tokens}"
+    return items, note

@@ -31,7 +31,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from curate import curate_items
 from dedupe import fetch_page_metas, normalize_title, normalize_url, url_id
 from gather_feeds import gather_feed_items
-from gather_search import broad_search, watchlist_search
+from gather_search import broad_search, site_scoped_search, watchlist_search
 from render import write_outputs
 
 # Curation needs editorial judgment (categorizing, paraphrasing, flagging) —
@@ -93,6 +93,7 @@ def main():
 
     sources = load_yaml(os.path.join(ROOT, "sources.yaml"))
     watchlist = load_yaml(os.path.join(ROOT, "watchlist.yaml"))
+    site_targets = load_yaml(os.path.join(ROOT, "site_targets.yaml"))
 
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
@@ -125,14 +126,14 @@ def main():
     print(f"  broad search: {len(broad_items)} items", file=sys.stderr)
 
     today_weekday = datetime.datetime.now(ZoneInfo("America/Los_Angeles")).weekday()
-    all_entities = watchlist.get("entities", [])
-    due_entities = [
-        e for e in all_entities
-        if e.get("cadence", "daily") == "daily" or e.get("weekday") == today_weekday
-    ]
-    skipped = len(all_entities) - len(due_entities)
+
+    def due_today(entries):
+        due = [e for e in entries if e.get("cadence", "daily") == "daily" or e.get("weekday") == today_weekday]
+        return due, len(entries) - len(due)
+
+    due_entities, skipped_entities = due_today(watchlist.get("entities", []))
     print(
-        f"Running watchlist search ({len(due_entities)} due today, {skipped} weekly entries skipped)...",
+        f"Running watchlist search ({len(due_entities)} due today, {skipped_entities} weekly entries skipped)...",
         file=sys.stderr,
     )
     for entity in due_entities:
@@ -141,6 +142,18 @@ def main():
         if note:
             notes.append(note)
         print(f"  {entity['id']}: {len(items)} items", file=sys.stderr)
+
+    due_targets, skipped_targets = due_today(site_targets.get("targets", []))
+    print(
+        f"Running site-scoped search ({len(due_targets)} due today, {skipped_targets} weekly entries skipped)...",
+        file=sys.stderr,
+    )
+    for target in due_targets:
+        items, note = site_scoped_search(client, SEARCH_MODEL, target)
+        candidates.extend(items)
+        if note:
+            notes.append(note)
+        print(f"  {target['id']}: {len(items)} items", file=sys.stderr)
 
     print(f"Total raw candidates: {len(candidates)}", file=sys.stderr)
 
