@@ -1,7 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-06-29T15:55:02Z",
+  "generated_at": "2026-06-30T14:31:24Z",
   "runs": [
+    {
+      "run_id": "2026-06-30",
+      "date": "2026-06-30",
+      "generated_at": "2026-06-30T14:31:24Z",
+      "is_light_run": false,
+      "top_summary": "A new tool called Campsite now lets campaigns monitor what AI chatbots are telling voters about candidates, addressing a growing gap in campaign messaging strategy. The cryptocurrency industry's heavy spending in 2026 elections to court Democrats is a notable adjacent story with tech-political nexus. Most other candidate items this run are off-topic general politics, election horse-race coverage, or continued coverage of already-published stories.",
+      "item_count": 1,
+      "items": [
+        {
+          "id": "4d73ed945fa12981",
+          "title": "A New AI Tool Lets Candidates See What Chatbots Are Telling Voters",
+          "url": "https://notus.org/technology/ai-tool-campsite-elections",
+          "source": "NOTUS",
+          "source_domain": "notus.org",
+          "published": "2026-06-30",
+          "first_seen_run": "2026-06-30",
+          "category": "vendor_moves",
+          "summary": "A tool called Campsite now allows political campaigns to track and review what AI chatbots are saying about candidates to voters, addressing a blind spot as chatbot-mediated information consumption grows. Campaigns have struggled to adapt their messaging strategies to this new medium.",
+          "why_it_matters": "As voters increasingly use AI assistants for political information, tools that let campaigns audit chatbot outputs represent a new category of campaign technology with significant implications for message control and transparency.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "notus",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-06-29",
       "date": "2026-06-29",
