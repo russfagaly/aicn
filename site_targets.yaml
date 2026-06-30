@@ -45,3 +45,7 @@ targets:
     name: AP
     domain: apnews.com
     cadence: daily
+  - id: ai-campaign-stack
+    name: AI Campaign Stack
+    domain: aicampaignstack.org
+    cadence: daily
