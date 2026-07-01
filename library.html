@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Library — AICN</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    a { color: #2b4a8b; }
+    a.etitle { text-decoration: none; color: #1d2330; }
+    a.etitle:hover { text-decoration: underline; text-decoration-color: #2b4a8b; }
+    button.chip { font: inherit; cursor: pointer; transition: background .12s, color .12s; }
+  </style>
+  <script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init bs ws ge fs capture je Di ks register register_once register_for_session unregister unregister_for_session Ps getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups setPersonProperties getPersonData refreshAssociatedFlags get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty Cs Es createPersonProfile Is Ss opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing Rs debug L Ts getPageViewId captureTraceFeedback captureTraceMetric".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_qZHPCa5BvVBCziaXPvLcvUNcaPb6o59bLCURxSmgy9Wy', { api_host: 'https://us.i.posthog.com', person_profiles: 'identified_only' });
+  </script>
+</head>
+<body>
+  <div style="min-height:100vh; background:#eef0f3; font-family:'Public Sans',sans-serif; color:#2a2f3a;">
+    <header style="background:#fff; border-bottom:1px solid #e3e6ea;">
+      <div style="max-width:880px; margin:0 auto; padding:28px 28px 24px; display:flex; justify-content:space-between; align-items:flex-end; gap:24px; flex-wrap:wrap;">
+        <div>
+          <div style="display:flex; align-items:baseline; gap:12px;">
+            <a href="index.html" style="font-family:'Source Serif 4',serif; font-weight:700; font-size:30px; letter-spacing:-0.01em; color:#1d2330; text-decoration:none;">AICN</a>
+            <span style="font-size:13px; letter-spacing:0.16em; text-transform:uppercase; color:#2b4a8b; font-weight:600;">AI Campaign News</span>
+          </div>
+          <p style="margin:8px 0 0; font-size:14.5px; color:#6b7280; max-width:52ch; line-height:1.5;">Tracking AI use in political campaigns, elections, and issue advocacy.</p>
+        </div>
+        <nav style="display:flex; gap:14px; flex-shrink:0; align-items:center;">
+          <a href="index.html" style="font-size:13px; color:#6b7280; text-decoration:none;">Feed</a>
+          <a href="library.html" style="font-size:13px; color:#2b4a8b; font-weight:600; text-decoration:none; border-bottom:2px solid #2b4a8b; padding-bottom:1px;">Library</a>
+          <a href="sources.html" style="font-size:13px; color:#6b7280; text-decoration:none;">Sources</a>
+          <a href="feed.xml" style="font-size:12.5px; color:#2b4a8b; text-decoration:none; border:1px solid #cdd7ea; padding:4px 11px; border-radius:999px;">RSS</a>
+        </nav>
+      </div>
+    </header>
+    <main style="max-width:880px; margin:0 auto; padding:32px 28px 64px;">
+      <div style="margin-bottom:24px;">
+        <h1 style="font-family:'Source Serif 4',serif; font-weight:700; font-size:26px; color:#1d2330; margin:0 0 8px;">Research Library</h1>
+        <p style="margin:0; font-size:14.5px; color:#6b7280; max-width:66ch; line-height:1.5;">Hand-curated reference index of research and sources on AI use in political campaigns. Updated manually.</p>
+      </div>
+      <div id="chips" style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:20px;"></div>
+      <div id="count" style="font-family:'IBM Plex Mono',monospace; font-size:12px; color:#9aa1ab; margin-bottom:16px;"></div>
+      <ul id="entries" style="list-style:none; margin:0; padding:0;"></ul>
+    </main>
+    <footer style="background:#fff; border-top:1px solid #e3e6ea;">
+      <div style="max-width:880px; margin:0 auto; padding:24px 28px 36px; font-size:12.5px; color:#8a909b; line-height:1.7;">
+        <p style="margin:0;"><a href="index.html" style="color:#2b4a8b; text-decoration:none;">News feed</a> · <a href="sources.html" style="color:#2b4a8b; text-decoration:none;">Sources</a> · <a href="feed.xml" style="color:#2b4a8b; text-decoration:none;">RSS feed</a></p>
+      </div>
+    </footer>
+  </div>
+  <script>
+  (function() {
+    var ENTRIES = [{"number": "001", "title": "Quick-Start AI Guidelines for Democratic Campaigns", "url": "https://highergroundlabs.com/quick-start-ai-guidelines/", "source": "Zinc Labs / Higher Ground Labs", "published": "May 2024", "themes": ["AI tooling", "AI guardrails / policy"]}, {"number": "003", "title": "HGL AI Resource Guide for Progressive, Political, and Democracy Use Cases", "url": "https://highergroundlabs.com/hgi-ai-resource-guide/", "source": "Higher Ground Labs (highergroundlabs.com)", "published": "Ongoing / living document (last verified April 2026)", "themes": ["AI tooling", "AI guardrails / policy", "agentic AI", "investment / funding"]}, {"number": "004", "title": "Anchor Change Newsletter (Katie Harbath)", "url": "https://anchorchange.substack.com", "source": "Anchor Change (Substack) — anchorchange.substack.com", "published": "Ongoing", "themes": ["AI tooling", "AI guardrails / policy", "situational awareness"]}, {"number": "005", "title": "At Dawn Campaigns (Erik Balsbaugh)", "url": "https://atdawncampaigns.substack.com", "source": "At Dawn Campaigns (Substack)", "published": "Ongoing", "themes": ["AI tooling", "agentic AI", "data & targeting"]}, {"number": "006", "title": "Campaigns & Elections Magazine", "url": "https://campaignsandelections.com", "source": "Campaigns & Elections (campaignsandelections.com)", "published": "Ongoing", "themes": ["AI tooling", "situational awareness", "data & targeting"]}, {"number": "007", "title": "Higher Ground Labs (Portfolio and Publications)", "url": "https://highergroundlabs.com", "source": "Higher Ground Labs (highergroundlabs.com)", "published": "Ongoing", "themes": ["AI tooling", "investment / funding", "agentic AI"]}, {"number": "008", "title": "Center for Campaign Innovation", "url": "https://campaigninnovation.org", "source": "Center for Campaign Innovation (campaigninnovation.org)", "published": "Ongoing", "themes": ["AI tooling", "situational awareness"]}, {"number": "009", "title": "Startup Caucus", "url": "https://startupcaucus.com", "source": "Startup Caucus (startupcaucus.com)", "published": "Ongoing", "themes": ["AI tooling", "investment / funding", "situational awareness"]}, {"number": "010", "title": "Your AI Budget Is Growing. Your Returns Aren't. Here's Why.", "url": "https://www.bain.com/insights/your-ai-budget-is-growing-your-returns-arent-heres-why/", "source": "Bain & Company (Brief)", "published": "June 1, 2026", "themes": ["AI tooling", "AI guardrails / policy", "data & targeting", "case study"]}, {"number": "011", "title": "Vibe Code Check: 300+ Marketing Leaders on How AI Code Generation Is Empowering Their Teams", "url": "https://userevidence.com/report/vibe-coding-marketing-report/", "source": "UserEvidence (survey report, sponsored/co-branded research)", "published": "June 2026", "themes": ["AI tooling", "AI guardrails / policy", "data & targeting", "investment / funding", "case study"]}, {"number": "012", "title": "Imagining Two Possible Futures of AI In Political Campaigning", "url": "https://campaigninnovation.org/articles/imagining-two-possible-futures-of-ai-in-political-campaigning/", "source": "Center for Campaign Innovation (campaigninnovation.org) — see also entry 008", "published": "June 23, 2025", "themes": ["AI tooling", "situational awareness", "agentic AI", "data & targeting"]}, {"number": "013", "title": "Artificial Intelligence in Political Consulting: Key Findings from a Survey and In-Depth Interviews with AAPC Members (May 2025)", "url": "https://theaapc.org/wp-content/uploads/2025/07/AAPCF-AI-AAPC-Member-Survey-Presentation-July-2025.pdf", "source": "American Association of Political Consultants (theaapc.org)", "published": "May 20, 2025 (survey fielded April 22–May 4, 2025)", "themes": ["AI tooling", "AI guardrails / policy", "situational awareness", "data & targeting"]}, {"number": "014", "title": "AI Use Among Political Consultants is Booming. Here's How.", "url": "https://campaignsandelections.com/industry-news/ai-use-among-political-consultants-is-booming/", "source": "Campaigns & Elections", "published": "April 17, 2026", "themes": ["AI tooling", "AI guardrails / policy", "situational awareness"]}, {"number": "015", "title": "What Campaign Professionals Told Us About AI in Politics", "url": "https://anchorchange.substack.com/p/what-campaign-professionals-told", "source": "Anchor Change (Substack) — see also entry 004 (source-level)", "published": "June 3, 2026", "themes": ["AI tooling", "AI guardrails / policy", "data & targeting", "situational awareness"]}, {"number": "016", "title": "AI Use by Campaigns Survey: Interactive Dashboard", "url": "https://anchorchange.com/campaign-ai-survey", "source": "anchorchange.com — see also entry 004 (source-level) and entry 015 (narrative writeup)", "published": "June 2026", "themes": ["AI tooling", "AI guardrails / policy", "data & targeting", "situational awareness"]}, {"number": "017", "title": "Who Should Govern California (According to AI)?", "url": "https://runforsomething.medium.com/who-should-govern-california-according-to-ai-c9756539bc8e", "source": "Run for Something Action Fund / Medium", "published": "June 12, 2026", "themes": ["AI tooling", "data & targeting", "case study", "agentic AI"]}];
+    var ALL_THEMES = ["AI tooling", "AI guardrails / policy", "agentic AI", "investment / funding", "situational awareness", "data & targeting", "case study"];
+    var active = "all";
+
+    var CHIP_ON  = "background:#2b4a8b;color:#fff;border-color:#2b4a8b;";
+    var CHIP_OFF = "background:#fff;color:#6b7280;border-color:#d4d9e0;";
+    var CHIP_BASE = "font-family:'Public Sans',sans-serif;font-size:13px;padding:6px 14px;border-radius:999px;border:1px solid;white-space:nowrap;";
+
+    function esc(s) {
+      return String(s == null ? "" : s)
+        .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+    }
+
+    function render() {
+      var filtered = active === "all" ? ENTRIES : ENTRIES.filter(function(e) {
+        return e.themes.indexOf(active) !== -1;
+      });
+
+      // chips
+      var ch = '<button class="chip" data-theme="all" style="' + CHIP_BASE + (active === "all" ? CHIP_ON : CHIP_OFF) + '">All</button>';
+      ALL_THEMES.forEach(function(t) {
+        ch += '<button class="chip" data-theme="' + esc(t) + '" style="' + CHIP_BASE + (active === t ? CHIP_ON : CHIP_OFF) + '">' + esc(t) + '</button>';
+      });
+      document.getElementById("chips").innerHTML = ch;
+
+      // count
+      document.getElementById("count").textContent = filtered.length + " entr" + (filtered.length === 1 ? "y" : "ies");
+
+      // list
+      var html = "";
+      filtered.forEach(function(e) {
+        var meta = [e.source, e.published].filter(Boolean).join(" · ");
+        html += '<li style="padding:18px 0; border-bottom:1px solid #e7eaee;">';
+        html += '<div style="display:flex; align-items:baseline; gap:8px; margin-bottom:4px;">';
+        html += '<span style="font-family:&quot;IBM Plex Mono&quot;,monospace; font-size:11px; color:#9aa1ab; flex-shrink:0;">[' + esc(e.number) + ']</span>';
+        html += '<a href="' + esc(e.url) + '" target="_blank" rel="noopener" class="etitle" style="font-family:&quot;Source Serif 4&quot;,serif; font-weight:600; font-size:17px; line-height:1.35;">' + esc(e.title) + '</a>';
+        html += "</div>";
+        if (meta) html += '<div style="font-family:&quot;IBM Plex Mono&quot;,monospace; font-size:11.5px; color:#9aa1ab; text-transform:uppercase; letter-spacing:0.02em; margin-bottom:8px;">' + esc(meta) + '</div>';
+        if (e.themes.length) {
+          html += '<div style="display:flex; flex-wrap:wrap; gap:6px;">';
+          e.themes.forEach(function(t) {
+            html += '<span style="font-size:11.5px; padding:2px 9px; border-radius:999px; background:#e9eef7; color:#2b4a8b; border:1px solid #cdd7ea; font-weight:500;">' + esc(t) + '</span>';
+          });
+          html += "</div>";
+        }
+        html += "</li>";
+      });
+      document.getElementById("entries").innerHTML = html ||
+        '<li style="padding:32px 0; color:#9aa1ab; font-size:14px;">No entries match this theme.</li>';
+
+      // chip events
+      var chips = document.querySelectorAll(".chip");
+      for (var i = 0; i < chips.length; i++) {
+        chips[i].addEventListener("click", function(ev) {
+          active = ev.currentTarget.getAttribute("data-theme");
+          render();
+        });
+      }
+    }
+
+    render();
+  })();
+  </script>
+</body>
+</html>

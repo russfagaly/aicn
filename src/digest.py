@@ -29,6 +29,7 @@ from zoneinfo import ZoneInfo
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+from build_library import build_library_html
 from curate import curate_items
 from dedupe import fetch_page_metas, normalize_title, normalize_url, url_id
 from gather_feeds import gather_feed_items
@@ -291,6 +292,10 @@ def main():
     print(f"feed errors: {feed_errors}", file=sys.stderr)
     print(f"elapsed: {elapsed:.1f}s", file=sys.stderr)
     print(f"wrote: {digests_path}, {meta_path}, {feed_path}", file=sys.stderr)
+    lib_path = build_library_html(ROOT)
+    if lib_path:
+        print(f"  library.html rebuilt ({len(open(lib_path).read()):,} bytes)", file=sys.stderr)
+
     if args.dry_run:
         print("DRY RUN: state/seen.json and domain_stats.json were NOT written.", file=sys.stderr)
     if all_new_proposals:
