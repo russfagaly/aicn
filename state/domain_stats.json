@@ -1,10 +1,10 @@
 {
   "accupaysystems.com": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
       "https://accupaysystems.com/ai-deepfakes-in-political-campaigns-how-synthetic-media-is-reshaping-the-2026-midterm-elections"
     ],
-    "last_seen": "2026-06-30"
+    "last_seen": "2026-07-01"
   },
   "houstonpublicmedia.org": {
     "count": 1,
@@ -55,5 +55,19 @@
       "https://texastribune.org/2026/02/19/texas-2026-primaries-ai-ads-candidates-crockett-cornyn-paxton"
     ],
     "last_seen": "2026-06-30"
+  },
+  "theconnector.substack.com": {
+    "count": 1,
+    "example_urls": [
+      "https://theconnector.substack.com/p/why-are-we-still-living-with-vanxiety"
+    ],
+    "last_seen": "2026-07-01"
+  },
+  "transparencycoalition.ai": {
+    "count": 1,
+    "example_urls": [
+      "https://transparencycoalition.ai/news/ai-legislative-update-june12-2026"
+    ],
+    "last_seen": "2026-07-01"
   }
 }
