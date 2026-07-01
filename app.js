@@ -143,8 +143,8 @@
 
     // hero — latest run's top_summary, with jump-links down to its items
     var runItems = run.items || [];
-    var kicker = run.is_light_run ? 'Light run' : 'Latest run';
-    var metaLine = fmtDate(run.date || run.run_id) + ' · ' + runItems.length + (runItems.length === 1 ? ' item' : ' items');
+    var kicker = 'Latest update';
+    var metaLine = fmtDate(run.date || run.run_id) + ' · ' + state.items.length + (state.items.length === 1 ? ' item' : ' items') + ' in feed';
     html += '<section style="margin-top:28px; background:#e9eef7; border:1px solid #d8e1f1; border-radius:10px; padding:26px 30px;">';
     html += '<div style="display:flex; align-items:center; gap:10px; margin-bottom:14px; flex-wrap:wrap;">';
     html += '<span style="font-family:\'IBM Plex Mono\',monospace; font-size:10.5px; letter-spacing:0.1em; text-transform:uppercase; color:#fff; background:#2b4a8b; padding:3px 9px; border-radius:4px;">' + esc(kicker) + '</span>';

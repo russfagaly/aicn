@@ -11,22 +11,38 @@
     * { box-sizing: border-box; }
     body { margin: 0; }
     a { color: #2b4a8b; }
-    .badge {
+    .badge-kind {
       display: inline-block;
       font-family: 'IBM Plex Mono', monospace;
-      font-size: 10.5px;
-      font-weight: 500;
+      font-size: 10px;
       letter-spacing: 0.06em;
       text-transform: uppercase;
       padding: 2px 8px;
       border-radius: 999px;
-      border: 1px solid currentColor;
+      background: #edf0f4;
+      color: #6b7280;
+      border: 1px solid #e0e4ea;
     }
-    .badge-source { color: #2b4a8b; background: #eef1f9; }
-    .badge-entity { color: #5a6e2b; background: #f0f4e8; }
-    .badge-pending { color: #9aa1ab; background: #f4f5f7; }
-    .badge-accepted { color: #2b7a5a; background: #e8f5ef; }
-    .badge-rejected { color: #8b2b2b; background: #f9eeee; }
+    .badge-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 2px 9px 2px 7px;
+      border-radius: 999px;
+      background: #f4f5f7;
+      color: #6b7280;
+      border: 1px solid #e6e9ee;
+    }
+    .badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      flex-shrink: 0;
+    }
     .card {
       background: #fff;
       border: 1px solid #e3e6ea;
@@ -47,8 +63,10 @@
       align-items: center;
     }
     .card-value {
-      font-size: 16px;
+      font-family: 'Source Serif 4', serif;
+      font-size: 19px;
       font-weight: 600;
+      line-height: 1.35;
       color: #1d2330;
       margin-bottom: 6px;
     }
@@ -152,7 +170,8 @@
 
     <footer style="background:#fff; border-top:1px solid #e3e6ea;">
       <div style="max-width:880px; margin:0 auto; padding:24px 28px 36px; font-size:12.5px; color:#8a909b; line-height:1.7;">
-        <p style="margin:0;"><a href="index.html" style="color:#2b4a8b; text-decoration:none;">Home</a> · <a href="library.html" style="color:#2b4a8b; text-decoration:none;">Library</a> · <a href="sources.html" style="color:#2b4a8b; text-decoration:none;">Sources</a> · <a href="feed.xml" style="color:#2b4a8b; text-decoration:none;">RSS feed</a></p>
+        <p style="margin:0 0 6px;">AICN is a static digest compiled by an automated daily research pipeline that scans news, regulatory, and vendor sources for AI use in political campaigns and elections, then summarizes each item in a neutral, third-party voice.</p>
+        <p style="margin:0;"><a href="index.html" style="color:#2b4a8b; text-decoration:none;">Home</a> · <a href="library.html" style="color:#2b4a8b; text-decoration:none;">Library</a> · <a href="sources.html" style="color:#2b4a8b; text-decoration:none;">Sources</a> · <a href="feed.xml" style="color:#2b4a8b; text-decoration:none;">RSS feed</a>. Vendor-reported figures are labeled as such and are not independently verified.</p>
       </div>
     </footer>
   </div>
@@ -189,14 +208,10 @@
 
       var html = '';
       filtered.forEach(function(p) {
-        var kindBadge = p.kind === 'source'
-          ? '<span class="badge badge-source">Source</span>'
-          : '<span class="badge badge-entity">Entity</span>';
-        var statusBadge = p.status === 'accepted'
-          ? '<span class="badge badge-accepted">Accepted</span>'
-          : p.status === 'rejected'
-          ? '<span class="badge badge-rejected">Rejected</span>'
-          : '<span class="badge badge-pending">Pending</span>';
+        var kindBadge = '<span class="badge-kind">' + (p.kind === 'source' ? 'Source' : 'Entity') + '</span>';
+        var dotColor = p.status === 'accepted' ? '#2b4a8b' : p.status === 'rejected' ? '#8a2f2a' : '#9aa1ab';
+        var statusLabel = p.status === 'accepted' ? 'Accepted' : p.status === 'rejected' ? 'Rejected' : 'Pending';
+        var statusBadge = '<span class="badge-status"><span class="badge-dot" style="background:' + dotColor + ';"></span>' + statusLabel + '</span>';
 
         html += '<div class="card">';
         html += '<div class="card-meta">' + kindBadge + ' ' + statusBadge;
