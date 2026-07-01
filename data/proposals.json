@@ -1,4 +1,65 @@
 {
   "schema_version": 1,
-  "proposals": []
+  "proposals": [
+    {
+      "id": "prop-entity-truescreen",
+      "kind": "watchlist_entity",
+      "value": "TrueScreen",
+      "feed_url": null,
+      "rationale": "A vendor promoting certified digital evidence as an anti-deepfake tool specifically for elections \u2014 niche enough to warrant tracking as a new entrant in election-integrity tech.",
+      "example_urls": [
+        "https://truescreen.io/articles/deepfakes-2026-elections-certified-proof/"
+      ],
+      "first_proposed": "2026-06-30",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-stack-cyber",
+      "kind": "watchlist_entity",
+      "value": "Stack Cyber",
+      "feed_url": null,
+      "rationale": "Maintains a regularly updated tracker of federal and state deepfake legislation including election-specific disclosure laws \u2014 useful beat resource not yet widely known.",
+      "example_urls": [
+        "https://stackcyber.com/posts/ai-deepfake-laws"
+      ],
+      "first_proposed": "2026-06-30",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-project-2029",
+      "kind": "watchlist_entity",
+      "value": "Project 2029",
+      "feed_url": null,
+      "rationale": "A Democratic policy initiative targeting tech companies and online safety as part of framing for the 2028 presidential cycle \u2014 new named entity relevant to AI advocacy and regulation.",
+      "example_urls": [
+        "https://www.semafor.com/article/06/28/2026/democrats-project-2029-goes-after-tech-companies-with-online-safety-plan"
+      ],
+      "first_proposed": "2026-06-30",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-andrew-garbarino",
+      "kind": "watchlist_entity",
+      "value": "Andrew Garbarino",
+      "feed_url": null,
+      "rationale": "House Homeland Security Committee Chair publicly flagging Anthropic's Mythos model as a security concern \u2014 a key congressional figure to track for AI oversight activity.",
+      "example_urls": [
+        "https://punchbowl.news/article/tech/garbarino-mythos/"
+      ],
+      "first_proposed": "2026-06-30",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-mythos",
+      "kind": "watchlist_entity",
+      "value": "Mythos",
+      "feed_url": null,
+      "rationale": "Anthropic's advanced AI model now at the center of both export-control reversals and congressional security concerns \u2014 sufficiently specific and niche to warrant tracking as a named product.",
+      "example_urls": [
+        "https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models/"
+      ],
+      "first_proposed": "2026-06-30",
+      "status": "pending"
+    }
+  ]
 }

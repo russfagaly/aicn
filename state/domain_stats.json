@@ -1,1 +1,59 @@
-{}
+{
+  "accupaysystems.com": {
+    "count": 1,
+    "example_urls": [
+      "https://accupaysystems.com/ai-deepfakes-in-political-campaigns-how-synthetic-media-is-reshaping-the-2026-midterm-elections"
+    ],
+    "last_seen": "2026-06-30"
+  },
+  "houstonpublicmedia.org": {
+    "count": 1,
+    "example_urls": [
+      "https://houstonpublicmedia.org/articles/technology/2026/02/19/543844/texas-2026-primaries-ai-ads-candidates-crockett-cornyn-paxton"
+    ],
+    "last_seen": "2026-06-30"
+  },
+  "l2-data.com": {
+    "count": 1,
+    "example_urls": [
+      "https://l2-data.com/blog"
+    ],
+    "last_seen": "2026-06-30"
+  },
+  "nbcnews.com": {
+    "count": 2,
+    "example_urls": [
+      "https://nbcnews.com/politics/2028-election/ai-midterms-politics-campaign-ads-rcna263752",
+      "https://nbcnews.com/politics/2026-election/ads-ai-industry-are-flooding-2026-election-artificial-intelligence-rcna260782"
+    ],
+    "last_seen": "2026-06-30"
+  },
+  "profilenews.com": {
+    "count": 1,
+    "example_urls": [
+      "https://profilenews.com/en/ai-in-global-elections-2026-explainer"
+    ],
+    "last_seen": "2026-06-30"
+  },
+  "salazar.house.gov": {
+    "count": 1,
+    "example_urls": [
+      "https://salazar.house.gov/media/press-releases/rep-salazars-no-fakes-act-advances-out-senate-judiciary-committee-unanimous"
+    ],
+    "last_seen": "2026-06-30"
+  },
+  "techtarget.com": {
+    "count": 1,
+    "example_urls": [
+      "https://techtarget.com/searchsecurity/news/366645063/NO-FAKES-Act-advances-What-CISOs-need-to-know"
+    ],
+    "last_seen": "2026-06-30"
+  },
+  "texastribune.org": {
+    "count": 1,
+    "example_urls": [
+      "https://texastribune.org/2026/02/19/texas-2026-primaries-ai-ads-candidates-crockett-cornyn-paxton"
+    ],
+    "last_seen": "2026-06-30"
+  }
+}
