@@ -1,7 +1,53 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-01T14:45:58Z",
+  "generated_at": "2026-07-02T14:11:40Z",
   "runs": [
+    {
+      "run_id": "2026-07-02",
+      "date": "2026-07-02",
+      "generated_at": "2026-07-02T14:11:40Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "7d1cefdee2939cc8",
+          "title": "Anthropic Added a New Security Measure to Get Back Into the Trump Administration\u2019s Good Graces",
+          "url": "https://wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces",
+          "source": "Wired (Politics)",
+          "source_domain": "wired.com",
+          "published": "2026-07-01",
+          "first_seen_run": "2026-07-02",
+          "category": "regulation",
+          "summary": "Following a prior freeze, the Trump administration removed export restrictions on Anthropic's Fable 5 and Mythos 5 AI models after Anthropic added a new security measure, marking a partial repair of the strained relationship between the company and the White House.",
+          "why_it_matters": "Illustrates how federal export-control policy is being used as leverage over frontier AI companies' government access, with concrete strings attached to regulatory relief.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "wired-politics",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "2dc4cc32707265b6",
+          "title": "\u2018The Battle Line Has Been Drawn\u2019 Around Virginia\u2019s Data Centers",
+          "url": "https://notus.org/metro/northern-virginia-data-centers-politics",
+          "source": "NOTUS",
+          "source_domain": "notus.org",
+          "published": "2026-07-01",
+          "first_seen_run": "2026-07-02",
+          "category": "analysis_oped",
+          "summary": "Virginia state lawmakers have moved to regulate the data center industry in Northern Virginia amid souring public sentiment, creating what NOTUS describes as a first-of-its-kind tax on the sector as the political backlash against AI infrastructure reaches the statehouse level.",
+          "why_it_matters": "Shows AI infrastructure opposition moving from grassroots activism into concrete state legislative action, including novel taxation, setting a potential policy template for other states.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "notus",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-07-01",
       "date": "2026-07-01",

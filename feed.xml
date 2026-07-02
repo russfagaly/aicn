@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Wed, 01 Jul 2026 14:45:58 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 14:11:40 GMT</lastBuildDate>
+    <item>
+      <title>Anthropic Added a New Security Measure to Get Back Into the Trump Administration’s Good Graces</title>
+      <link>https://wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces</link>
+      <guid isPermaLink="false">7d1cefdee2939cc8</guid>
+      <pubDate>2026-07-01</pubDate>
+      <description>Following a prior freeze, the Trump administration removed export restrictions on Anthropic's Fable 5 and Mythos 5 AI models after Anthropic added a new security measure, marking a partial repair of the strained relationship between the company and the White House.</description>
+    </item>
+    <item>
+      <title>‘The Battle Line Has Been Drawn’ Around Virginia’s Data Centers</title>
+      <link>https://notus.org/metro/northern-virginia-data-centers-politics</link>
+      <guid isPermaLink="false">2dc4cc32707265b6</guid>
+      <pubDate>2026-07-01</pubDate>
+      <description>Virginia state lawmakers have moved to regulate the data center industry in Northern Virginia amid souring public sentiment, creating what NOTUS describes as a first-of-its-kind tax on the sector as the political backlash against AI infrastructure reaches the statehouse level.</description>
+    </item>
     <item>
       <title>A New AI Tool Targets the Least-Loved Task in Public Affairs: the Weekly Client Report</title>
       <link>https://campaignsandelections.com/sponsored/a-new-ai-tool-targets-the-least-loved-task-in-public-affairs-the-weekly-client-report</link>

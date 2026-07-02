@@ -60,6 +60,31 @@
       ],
       "first_proposed": "2026-06-30",
       "status": "rejected"
+    },
+    {
+      "id": "prop-source-nbcnews-com",
+      "kind": "source",
+      "value": "nbcnews.com",
+      "feed_url": null,
+      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://nbcnews.com/politics/2028-election/ai-midterms-politics-campaign-ads-rcna263752",
+        "https://nbcnews.com/politics/2026-election/ads-ai-industry-are-flooding-2026-election-artificial-intelligence-rcna260782"
+      ],
+      "first_proposed": "2026-07-02",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-fable-5-mythos-5",
+      "kind": "watchlist_entity",
+      "value": "Fable 5 / Mythos 5",
+      "feed_url": null,
+      "rationale": "Anthropic model names not previously known in this tracking context; named explicitly in the export-control story and relevant to understanding which specific products are subject to federal restrictions.",
+      "example_urls": [
+        "https://www.wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces/"
+      ],
+      "first_proposed": "2026-07-02",
+      "status": "pending"
     }
   ]
 }
