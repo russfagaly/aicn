@@ -77,7 +77,7 @@ def _render_feed_xml(runs: list) -> str:
                 f"      <title>{_rss_escape(item['title'])}</title>\n"
                 f"      <link>{_rss_escape(item['url'])}</link>\n"
                 f"      <guid isPermaLink=\"false\">{_rss_escape(item['id'])}</guid>\n"
-                f"      <pubDate>{item['published']}</pubDate>\n"
+                f"      <pubDate>{_rss_escape(item['published'])}</pubDate>\n"
                 f"      <description>{_rss_escape(item['summary'])}</description>\n"
                 "    </item>"
             )

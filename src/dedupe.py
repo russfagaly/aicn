@@ -9,7 +9,9 @@ cross-outlet syndication.
 
 import concurrent.futures
 import hashlib
+import ipaddress
 import re
+import socket
 import urllib.parse
 import urllib.request
 
@@ -61,6 +63,50 @@ def _clean_text(raw: str) -> str:
     return text
 
 
+def _is_public_url(url: str) -> bool:
+    """Reject anything but http(s) pointing at a public IP.
+
+    These URLs come from third-party feeds and search results, so treat them as
+    untrusted: block non-http(s) schemes and any host that resolves to a
+    loopback/private/link-local/reserved address (SSRF guard — e.g. the cloud
+    metadata endpoint at 169.254.169.254 or internal services).
+    """
+    parts = urllib.parse.urlsplit(url)
+    if parts.scheme not in ("http", "https"):
+        return False
+    host = parts.hostname
+    if not host:
+        return False
+    try:
+        infos = socket.getaddrinfo(host, parts.port or None, proto=socket.IPPROTO_TCP)
+    except socket.gaierror:
+        return False
+    for info in infos:
+        ip = ipaddress.ip_address(info[4][0])
+        if (
+            ip.is_private
+            or ip.is_loopback
+            or ip.is_link_local
+            or ip.is_reserved
+            or ip.is_multicast
+            or ip.is_unspecified
+        ):
+            return False
+    return True
+
+
+class _NoInternalRedirect(urllib.request.HTTPRedirectHandler):
+    """Re-validate every redirect hop so a public URL can't bounce to an internal one."""
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        if not _is_public_url(newurl):
+            return None
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+
+_opener = urllib.request.build_opener(_NoInternalRedirect())
+
+
 def _fetch_page_meta(url: str, timeout: float = 5.0):
     """Best-effort fetch of a page's canonical URL, <title>, and meta description.
 
@@ -69,11 +115,13 @@ def _fetch_page_meta(url: str, timeout: float = 5.0):
     people/orgs instead of writing around them vaguely.
     """
     meta = {"canonical": None, "page_title": None, "page_description": None}
+    if not _is_public_url(url):
+        return url, meta
     try:
         req = urllib.request.Request(
             url, headers={"User-Agent": "Mozilla/5.0 (compatible; AICN-bot/1.0)"}
         )
-        with urllib.request.urlopen(req, timeout=timeout) as resp:
+        with _opener.open(req, timeout=timeout) as resp:
             html = resp.read(200_000).decode("utf-8", errors="ignore")
         m = _CANONICAL_RE.search(html)
         if m:
