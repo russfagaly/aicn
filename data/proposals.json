@@ -85,6 +85,45 @@
       ],
       "first_proposed": "2026-07-02",
       "status": "pending"
+    },
+    {
+      "id": "prop-source-accupaysystems-com",
+      "kind": "source",
+      "value": "accupaysystems.com",
+      "feed_url": "https://accupaysystems.com/feed/",
+      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://accupaysystems.com/ai-deepfakes-in-political-campaigns-how-synthetic-media-is-reshaping-the-2026-midterm-elections"
+      ],
+      "first_proposed": "2026-07-03",
+      "status": "pending"
+    },
+    {
+      "id": "prop-source-l2-data-com",
+      "kind": "source",
+      "value": "l2-data.com",
+      "feed_url": null,
+      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://l2-data.com/blog",
+        "https://l2-data.com/liveramp-and-beyond-onboarding-with-l2-in-2026"
+      ],
+      "first_proposed": "2026-07-03",
+      "status": "pending"
+    },
+    {
+      "id": "prop-source-transparencycoalition-ai",
+      "kind": "source",
+      "value": "transparencycoalition.ai",
+      "feed_url": null,
+      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://transparencycoalition.ai/news/ai-legislative-update-june12-2026",
+        "https://transparencycoalition.ai/news/ai-legislative-update-may1-2026",
+        "https://transparencycoalition.ai/news/ai-legislative-update-june26-2026"
+      ],
+      "first_proposed": "2026-07-03",
+      "status": "pending"
     }
   ]
 }
