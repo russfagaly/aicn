@@ -3,7 +3,28 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Fri, 03 Jul 2026 14:16:39 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 13:42:38 GMT</lastBuildDate>
+    <item>
+      <title>Gavin Newsom treads the AI line</title>
+      <link>https://semafor.com/article/07/01/2026/gavin-newsom-treads-the-ai-line</link>
+      <guid isPermaLink="false">40577a5e259e8c12</guid>
+      <pubDate>2026-07-01</pubDate>
+      <description>Semafor reports that California Governor Gavin Newsom is walking a careful line between pushing to regulate the power of major tech companies while simultaneously using AI products in his own political operations.</description>
+    </item>
+    <item>
+      <title>Get Ready To See a Lot More AI in Campaign Ads</title>
+      <link>https://thedispatch.com/article/artificial-intelligence-campaigns-talarico-deepfakes</link>
+      <guid isPermaLink="false">a4b22c23ff5c3dba</guid>
+      <pubDate>2026-06-27</pubDate>
+      <description>The Dispatch surveys the growing use of AI in campaign advertising, finding that while some campaign staffers are embracing AI to amplify messaging, others are raising ethical questions about the strategy, with deepfakes specifically mentioned as a concern.</description>
+    </item>
+    <item>
+      <title>Donald Trump's Improvised AI Regime</title>
+      <link>https://thedispatch.com/newsletter/morning/donald-trumps-improvised-ai-regime</link>
+      <guid isPermaLink="false">170253fab43b7bcc</guid>
+      <pubDate>2026-07-02</pubDate>
+      <description>The Dispatch characterizes the Trump administration's approach to AI governance as improvised and ad hoc rather than a coherent regulatory strategy, raising questions about how AI policy will be set heading into the 2026 elections.</description>
+    </item>
     <item>
       <title>Anthropic Added a New Security Measure to Get Back Into the Trump Administration’s Good Graces</title>
       <link>https://wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces</link>

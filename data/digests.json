@@ -1,7 +1,73 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-03T14:16:39Z",
+  "generated_at": "2026-07-04T13:42:38Z",
   "runs": [
+    {
+      "run_id": "2026-07-04",
+      "date": "2026-07-04",
+      "generated_at": "2026-07-04T13:42:38Z",
+      "is_light_run": false,
+      "top_summary": "Gavin Newsom is navigating the tension between regulating Big Tech and relying on AI products in his own political work, illustrating the central political contradiction facing Democratic officeholders. The Dispatch reports that AI use in campaign advertising is expanding rapidly, with both opportunities and ethical questions emerging for campaign staffers. The Trump administration's approach to AI governance is drawing scrutiny as a patchwork, improvised regime rather than a coherent regulatory framework.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "40577a5e259e8c12",
+          "title": "Gavin Newsom treads the AI line",
+          "url": "https://semafor.com/article/07/01/2026/gavin-newsom-treads-the-ai-line",
+          "source": "Semafor",
+          "source_domain": "semafor.com",
+          "published": "2026-07-01",
+          "first_seen_run": "2026-07-04",
+          "category": "deployments_studies",
+          "summary": "Semafor reports that California Governor Gavin Newsom is walking a careful line between pushing to regulate the power of major tech companies while simultaneously using AI products in his own political operations.",
+          "why_it_matters": "A high-profile potential presidential contender's dual posture on AI \u2014 regulator and user \u2014 illustrates the political complexity facing elected officials as AI becomes a campaign tool.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:semafor",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "a4b22c23ff5c3dba",
+          "title": "Get Ready To See a Lot More AI in Campaign Ads",
+          "url": "https://thedispatch.com/article/artificial-intelligence-campaigns-talarico-deepfakes",
+          "source": "The Dispatch",
+          "source_domain": "thedispatch.com",
+          "published": "2026-06-27",
+          "first_seen_run": "2026-07-04",
+          "category": "deployments_studies",
+          "summary": "The Dispatch surveys the growing use of AI in campaign advertising, finding that while some campaign staffers are embracing AI to amplify messaging, others are raising ethical questions about the strategy, with deepfakes specifically mentioned as a concern.",
+          "why_it_matters": "Mainstream campaign practitioners are actively debating AI ad production as a standard tactic heading into the 2026 midterm cycle.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:the-dispatch",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "170253fab43b7bcc",
+          "title": "Donald Trump's Improvised AI Regime",
+          "url": "https://thedispatch.com/newsletter/morning/donald-trumps-improvised-ai-regime",
+          "source": "The Dispatch",
+          "source_domain": "thedispatch.com",
+          "published": "2026-07-02",
+          "first_seen_run": "2026-07-04",
+          "category": "regulation",
+          "summary": "The Dispatch characterizes the Trump administration's approach to AI governance as improvised and ad hoc rather than a coherent regulatory strategy, raising questions about how AI policy will be set heading into the 2026 elections.",
+          "why_it_matters": "The absence of a systematic federal AI governance framework has direct implications for how AI use in campaigns and elections will be overseen.",
+          "flags": [
+            "paywalled"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:the-dispatch",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-07-03",
       "date": "2026-07-03",

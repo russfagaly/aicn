@@ -58,11 +58,11 @@
     "last_seen": "2026-07-02"
   },
   "salazar.house.gov": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
       "https://salazar.house.gov/media/press-releases/rep-salazars-no-fakes-act-advances-out-senate-judiciary-committee-unanimous"
     ],
-    "last_seen": "2026-06-30"
+    "last_seen": "2026-07-04"
   },
   "stackcyber.com": {
     "count": 1,
@@ -72,11 +72,18 @@
     "last_seen": "2026-07-02"
   },
   "techtarget.com": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
       "https://techtarget.com/searchsecurity/news/366645063/NO-FAKES-Act-advances-What-CISOs-need-to-know"
     ],
-    "last_seen": "2026-06-30"
+    "last_seen": "2026-07-04"
+  },
+  "techtimes.com": {
+    "count": 1,
+    "example_urls": [
+      "https://techtimes.com/articles/318346/20260613/no-fakes-act-heads-senate-vote-june-18-putting-750k-platform-liability-line.htm"
+    ],
+    "last_seen": "2026-07-04"
   },
   "texastribune.org": {
     "count": 1,
