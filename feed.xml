@@ -3,7 +3,28 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Sat, 04 Jul 2026 13:42:38 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2026 13:51:02 GMT</lastBuildDate>
+    <item>
+      <title>'Who should I vote for?' Voters turn to AI before casting their ballots</title>
+      <link>https://inquirer.com/news/nation-world/elections-ai-chatbot-voter-research-candidates-midterms-20260704.html</link>
+      <guid isPermaLink="false">6a14d9bb1aff0fd0</guid>
+      <pubDate>2026-07-04</pubDate>
+      <description>The Philadelphia Inquirer reports that voters are using AI chatbots to research candidates and guide their voting decisions ahead of the 2026 midterms, even though the tools are designed to avoid expressing political opinions.</description>
+    </item>
+    <item>
+      <title>30 States Now Have Laws to Regulate Election Deepfakes</title>
+      <link>https://citizen.org/news/30-states-now-have-laws-to-regulate-election-deepfakes</link>
+      <guid isPermaLink="false">c9c39a1f0716982b</guid>
+      <pubDate>2026-05-13</pubDate>
+      <description>Public Citizen reports that 30 states have now enacted laws regulating AI-generated deepfakes in election communications, with Maryland Governor Wes Moore's signature on a new law marking the most recent addition to that count.</description>
+    </item>
+    <item>
+      <title>Tech: What unions want on AI policy</title>
+      <link>https://punchbowl.news/article/tech/unions-ai-policy</link>
+      <guid isPermaLink="false">89d7f35469fda4b9</guid>
+      <pubDate>2026-06-28</pubDate>
+      <description>Punchbowl News reports that labor union leaders, framing AI-driven automation as an existential threat, are planning aggressive engagement in Washington AI policy fights and in the 2026 midterm elections.</description>
+    </item>
     <item>
       <title>Gavin Newsom treads the AI line</title>
       <link>https://semafor.com/article/07/01/2026/gavin-newsom-treads-the-ai-line</link>

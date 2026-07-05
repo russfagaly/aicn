@@ -1,7 +1,71 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-04T13:42:38Z",
+  "generated_at": "2026-07-05T13:51:02Z",
   "runs": [
+    {
+      "run_id": "2026-07-05",
+      "date": "2026-07-05",
+      "generated_at": "2026-07-05T13:51:02Z",
+      "is_light_run": false,
+      "top_summary": "Voters are increasingly turning to AI chatbots to research candidates before casting ballots, raising new questions about AI's role in electoral decision-making. Meanwhile, Public Citizen reports that 30 U.S. states have now enacted laws regulating election deepfakes, and unions are signaling aggressive engagement in AI policy fights tied to the 2026 midterms.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "6a14d9bb1aff0fd0",
+          "title": "'Who should I vote for?' Voters turn to AI before casting their ballots",
+          "url": "https://inquirer.com/news/nation-world/elections-ai-chatbot-voter-research-candidates-midterms-20260704.html",
+          "source": "Philadelphia Inquirer",
+          "source_domain": "inquirer.com",
+          "published": "2026-07-04",
+          "first_seen_run": "2026-07-05",
+          "category": "deployments_studies",
+          "summary": "The Philadelphia Inquirer reports that voters are using AI chatbots to research candidates and guide their voting decisions ahead of the 2026 midterms, even though the tools are designed to avoid expressing political opinions.",
+          "why_it_matters": "Voter reliance on AI chatbots for candidate research is a novel and underexamined vector of AI influence on electoral outcomes.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "c9c39a1f0716982b",
+          "title": "30 States Now Have Laws to Regulate Election Deepfakes",
+          "url": "https://citizen.org/news/30-states-now-have-laws-to-regulate-election-deepfakes",
+          "source": "Public Citizen",
+          "source_domain": "citizen.org",
+          "published": "2026-05-13",
+          "first_seen_run": "2026-07-05",
+          "category": "regulation",
+          "summary": "Public Citizen reports that 30 states have now enacted laws regulating AI-generated deepfakes in election communications, with Maryland Governor Wes Moore's signature on a new law marking the most recent addition to that count.",
+          "why_it_matters": "The 30-state milestone represents a significant wave of state-level action on election deepfakes in the absence of a federal standard.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "89d7f35469fda4b9",
+          "title": "Tech: What unions want on AI policy",
+          "url": "https://punchbowl.news/article/tech/unions-ai-policy",
+          "source": "Punchbowl News",
+          "source_domain": "punchbowl.news",
+          "published": "2026-06-28",
+          "first_seen_run": "2026-07-05",
+          "category": "analysis_oped",
+          "summary": "Punchbowl News reports that labor union leaders, framing AI-driven automation as an existential threat, are planning aggressive engagement in Washington AI policy fights and in the 2026 midterm elections.",
+          "why_it_matters": "Organized labor entering midterm electoral politics around AI policy could reshape which candidates and positions receive union backing in competitive races.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:punchbowl",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-07-04",
       "date": "2026-07-04",
