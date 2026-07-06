@@ -3,7 +3,14 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Sun, 05 Jul 2026 13:51:02 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 15:42:50 GMT</lastBuildDate>
+    <item>
+      <title>Tech: OpenAI warms up to Washington</title>
+      <link>https://punchbowl.news/article/tech/openai-warms-washington</link>
+      <guid isPermaLink="false">af006c7979fee165</guid>
+      <pubDate>2026-07-06</pubDate>
+      <description>Punchbowl News reports that OpenAI has backed Sen. Marsha Blackburn's Kids Online Safety Act and the NO FAKES Act, signaling a warmer relationship between the company and Washington lawmakers heading into the 2026 cycle.</description>
+    </item>
     <item>
       <title>'Who should I vote for?' Voters turn to AI before casting their ballots</title>
       <link>https://inquirer.com/news/nation-world/elections-ai-chatbot-voter-research-candidates-midterms-20260704.html</link>

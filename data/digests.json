@@ -1,7 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-05T13:51:02Z",
+  "generated_at": "2026-07-06T15:42:50Z",
   "runs": [
+    {
+      "run_id": "2026-07-06",
+      "date": "2026-07-06",
+      "generated_at": "2026-07-06T15:42:50Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 1,
+      "items": [
+        {
+          "id": "af006c7979fee165",
+          "title": "Tech: OpenAI warms up to Washington",
+          "url": "https://punchbowl.news/article/tech/openai-warms-washington",
+          "source": "Punchbowl News",
+          "source_domain": "punchbowl.news",
+          "published": "2026-07-06",
+          "first_seen_run": "2026-07-06",
+          "category": "regulation",
+          "summary": "Punchbowl News reports that OpenAI has backed Sen. Marsha Blackburn's Kids Online Safety Act and the NO FAKES Act, signaling a warmer relationship between the company and Washington lawmakers heading into the 2026 cycle.",
+          "why_it_matters": "OpenAI's explicit endorsement of the NO FAKES Act \u2014 the key federal legislation targeting AI-generated deepfakes of real people \u2014 could accelerate its Senate prospects.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:punchbowl",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-07-05",
       "date": "2026-07-05",

@@ -13,6 +13,13 @@
     ],
     "last_seen": "2026-07-02"
   },
+  "arxiv.org": {
+    "count": 1,
+    "example_urls": [
+      "https://arxiv.org/pdf/2512.13915"
+    ],
+    "last_seen": "2026-07-06"
+  },
   "biometricupdate.com": {
     "count": 1,
     "example_urls": [
@@ -56,12 +63,12 @@
     "last_seen": "2026-07-05"
   },
   "l2-data.com": {
-    "count": 4,
+    "count": 5,
     "example_urls": [
       "https://l2-data.com/blog",
       "https://l2-data.com/liveramp-and-beyond-onboarding-with-l2-in-2026"
     ],
-    "last_seen": "2026-07-05"
+    "last_seen": "2026-07-06"
   },
   "nbcnews.com": {
     "count": 4,
@@ -159,10 +166,17 @@
     "last_seen": "2026-07-05"
   },
   "truescreen.io": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
       "https://truescreen.io/articles/deepfakes-2026-elections-certified-proof"
     ],
-    "last_seen": "2026-07-02"
+    "last_seen": "2026-07-06"
+  },
+  "usnews.com": {
+    "count": 1,
+    "example_urls": [
+      "https://usnews.com/news/politics/articles/2026-03-28/ai-deepfakes-blur-reality-in-2026-us-midterm-campaigns"
+    ],
+    "last_seen": "2026-07-06"
   }
 }
