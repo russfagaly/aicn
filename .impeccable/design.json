@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-07T00:00:00Z",
+  "title": "Design System: AICN — AI Campaign News",
+  "extensions": {
+    "colorMeta": {
+      "accent": {
+        "role": "primary",
+        "displayName": "Publication Blue",
+        "canonical": "#2b4a8b",
+        "tonalRamp": ["#0d1829", "#162240", "#1e3059", "#253e73", "#2b4a8b", "#4263a0", "#5e7fba", "#8aa3cf", "#b5c7e4", "#dce5f3"]
+      },
+      "accent-tint": {
+        "role": "primary",
+        "displayName": "Accent Tint",
+        "canonical": "#e9eef7",
+        "tonalRamp": ["#b5c7e4", "#c3d1e8", "#d0dcee", "#dce5f3", "#e9eef7", "#eef2f9", "#f3f5fb", "#f7f9fc", "#fafbfd", "#ffffff"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#1d2330",
+        "tonalRamp": ["#0a0d13", "#111620", "#1d2330", "#2a3241", "#384050", "#485060", "#5e6470", "#7b8090", "#a0a5b0", "#d0d3d9"]
+      },
+      "bg": {
+        "role": "neutral",
+        "displayName": "Page Canvas",
+        "canonical": "#eef0f3",
+        "tonalRamp": ["#c5c9d0", "#cdd1d7", "#d6d9de", "#dfe2e6", "#e7eaed", "#eef0f3", "#f3f5f7", "#f7f8fa", "#fafbfc", "#ffffff"]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface White",
+        "canonical": "#ffffff",
+        "tonalRamp": ["#d0d3d9", "#dadce1", "#e3e6ea", "#eceef1", "#f4f5f7", "#f8f9fa", "#fafbfc", "#fcfcfd", "#fefefe", "#ffffff"]
+      },
+      "quiet-text": {
+        "role": "neutral",
+        "displayName": "Quiet Text",
+        "canonical": "#6b7280",
+        "tonalRamp": ["#1f2430", "#333845", "#48505c", "#566070", "#6b7280", "#828a96", "#9aa1ab", "#b4bac4", "#cdd2d9", "#e5e8ec"]
+      },
+      "faint-text": {
+        "role": "neutral",
+        "displayName": "Faint Text",
+        "canonical": "#9aa1ab",
+        "tonalRamp": ["#48505c", "#566070", "#6b7280", "#828a96", "#9aa1ab", "#adb4bc", "#c0c6cc", "#d3d7dc", "#e5e8eb", "#f4f5f6"]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Structural Border",
+        "canonical": "#e3e6ea",
+        "tonalRamp": ["#adb4bc", "#b8bfc6", "#c6cdd3", "#d4d9de", "#e3e6ea", "#eaecef", "#f0f2f4", "#f5f6f8", "#f9fafb", "#ffffff"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Wordmark", "purpose": "The AICN wordmark only. Single use per page." },
+      "title": { "displayName": "Hero Summary", "purpose": "Run-level editorial summary in the hero panel." },
+      "headline": { "displayName": "Item Headline", "purpose": "Individual news item titles and proposal names." },
+      "body": { "displayName": "Body", "purpose": "Summaries and rationale copy. Max ~70ch line length." },
+      "label": { "displayName": "Machine Label", "purpose": "Machine-generated values: timestamps, source domains, counts, run IDs." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "chip-transition", "value": "all 0.12s ease", "purpose": "Filter chip active/inactive state change." }
+    ],
+    "breakpoints": [
+      { "name": "content-max", "value": "880px", "purpose": "Maximum content column width throughout the site." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Category Filter Chip (Active)",
+      "kind": "chip",
+      "refersTo": "chip-active",
+      "description": "Feed category filter. Active state.",
+      "html": "<button class=\"ds-chip ds-chip--active\">Vendor Moves</button>",
+      "css": ".ds-chip { font-family: 'Public Sans', system-ui, sans-serif; font-size: 13px; padding: 6px 14px; border-radius: 999px; cursor: pointer; white-space: nowrap; transition: all 0.12s; border: 1px solid; } .ds-chip--active { background: #2b4a8b; color: #fff; border-color: #2b4a8b; } .ds-chip--active:hover { background: #253e73; border-color: #253e73; }"
+    },
+    {
+      "name": "Category Filter Chip (Inactive)",
+      "kind": "chip",
+      "refersTo": "chip-inactive",
+      "description": "Feed category filter. Default/inactive state.",
+      "html": "<button class=\"ds-chip ds-chip--inactive\">Regulation &amp; Legal</button>",
+      "css": ".ds-chip { font-family: 'Public Sans', system-ui, sans-serif; font-size: 13px; padding: 6px 14px; border-radius: 999px; cursor: pointer; white-space: nowrap; transition: all 0.12s; border: 1px solid; } .ds-chip--inactive { background: #fff; color: #6b7280; border-color: #d4d9e0; } .ds-chip--inactive:hover { border-color: #b0b8c4; color: #4b5563; }"
+    },
+    {
+      "name": "Category Badge",
+      "kind": "chip",
+      "refersTo": "category-badge",
+      "description": "Category label shown above each feed item headline.",
+      "html": "<span class=\"ds-cat-badge\">Deepfakes &amp; Synthetic Media</span>",
+      "css": ".ds-cat-badge { display: inline-block; font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; color: #2b4a8b; background: #e9eef7; padding: 2px 8px; border-radius: 4px; }"
+    },
+    {
+      "name": "RSS Pill",
+      "kind": "button",
+      "refersTo": "rss-pill",
+      "description": "Outline pill link in the site navigation.",
+      "html": "<a class=\"ds-rss-pill\" href=\"feed.xml\">RSS</a>",
+      "css": ".ds-rss-pill { font-family: 'Public Sans', system-ui, sans-serif; font-size: 12.5px; color: #2b4a8b; text-decoration: none; border: 1px solid #cdd7ea; padding: 4px 11px; border-radius: 999px; display: inline-block; } .ds-rss-pill:hover { border-color: #2b4a8b; background: #e9eef7; }"
+    },
+    {
+      "name": "Feed Item",
+      "kind": "card",
+      "description": "Primary content unit. Separated by 1px divider — no card background or radius.",
+      "html": "<article class=\"ds-feed-item\"><span class=\"ds-cat-badge\">Vendor Moves</span><div style=\"margin-top:8px\"><a href=\"#\" class=\"ds-headline\">AI firm pitches persuasion tool to Senate campaigns</a></div><div class=\"ds-meta-line\">POLITICO · Jun 28, 2026</div><p class=\"ds-summary\">A political AI vendor began demoing a targeting system that claims to model voter persuasion at precinct level using synthetic survey data and commercial voter files.</p></article>",
+      "css": ".ds-feed-item { padding: 20px 0; border-bottom: 1px solid #e7eaee; } .ds-cat-badge { display: inline-block; font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.08em; text-transform: uppercase; color: #2b4a8b; background: #e9eef7; padding: 2px 8px; border-radius: 4px; } .ds-headline { font-family: 'Source Serif 4', Georgia, serif; font-weight: 600; font-size: 19px; line-height: 1.35; color: #1d2330; text-decoration: none; } .ds-headline:hover { text-decoration: underline; text-decoration-color: #2b4a8b; } .ds-meta-line { font-family: 'IBM Plex Mono', monospace; font-size: 11.5px; color: #9aa1ab; text-transform: uppercase; letter-spacing: 0.02em; margin: 7px 0 10px; } .ds-summary { margin: 0; font-family: 'Public Sans', system-ui, sans-serif; font-size: 14.5px; line-height: 1.6; color: #4b5563; }"
+    },
+    {
+      "name": "Notes Callout",
+      "kind": "custom",
+      "description": "Why-it-matters context block within a feed item. Designated exception using left border.",
+      "html": "<div class=\"ds-notes-callout\"><span class=\"ds-notes-label\">Notes</span><p class=\"ds-notes-body\">This vendor previously pitched the same tool to state-level Republican committees in 2025; this marks their first Senate-cycle demo.</p></div>",
+      "css": ".ds-notes-callout { border-left: 3px solid #2b4a8b; padding: 2px 0 2px 14px; margin-top: 12px; } .ds-notes-label { font-family: 'IBM Plex Mono', monospace; font-size: 10.5px; letter-spacing: 0.12em; text-transform: uppercase; color: #2b4a8b; font-weight: 600; display: block; } .ds-notes-body { margin: 4px 0 0; font-family: 'Public Sans', system-ui, sans-serif; font-size: 14px; line-height: 1.55; color: #384152; }"
+    },
+    {
+      "name": "Proposal Card",
+      "kind": "card",
+      "description": "Source or entity proposal awaiting review on the Proposals page.",
+      "html": "<div class=\"ds-proposal-card\"><div class=\"ds-card-meta\"><span class=\"ds-badge-kind\">source</span><span class=\"ds-badge-status\"><span class=\"ds-badge-dot\" style=\"background:#f59e0b\"></span>pending</span></div><div class=\"ds-card-value\">transparencycoalition.ai</div><p class=\"ds-card-rationale\">Appeared twice in the last two runs with relevant coverage of AI disclosure legislation. Feed autodiscovery found an Atom feed.</p></div>",
+      "css": ".ds-proposal-card { background: #fff; border: 1px solid #e3e6ea; border-radius: 6px; padding: 18px 20px; } .ds-card-meta { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: #9aa1ab; letter-spacing: 0.04em; text-transform: uppercase; margin-bottom: 6px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; } .ds-badge-kind { display: inline-block; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 8px; border-radius: 999px; background: #edf0f4; color: #6b7280; border: 1px solid #e0e4ea; } .ds-badge-status { display: inline-flex; align-items: center; gap: 6px; font-family: 'IBM Plex Mono', monospace; font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 9px 2px 7px; border-radius: 999px; background: #f4f5f7; color: #6b7280; border: 1px solid #e6e9ee; } .ds-badge-dot { width: 8px; height: 8px; border-radius: 999px; flex-shrink: 0; } .ds-card-value { font-family: 'Source Serif 4', Georgia, serif; font-size: 19px; font-weight: 600; line-height: 1.35; color: #1d2330; margin-bottom: 6px; } .ds-card-rationale { font-size: 13.5px; color: #4b5563; line-height: 1.55; margin: 0; }"
+    },
+    {
+      "name": "Search Input",
+      "kind": "input",
+      "description": "Feed search field. Intentionally understated.",
+      "html": "<input class=\"ds-search\" type=\"text\" placeholder=\"Search headlines and summaries\">",
+      "css": ".ds-search { font-family: 'Public Sans', system-ui, sans-serif; font-size: 14px; padding: 9px 14px; border: 1px solid #d4d9e0; border-radius: 7px; background: #fff; color: #2a2f3a; outline: none; width: 100%; } .ds-search:focus { border-color: #2b4a8b; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Analyst's Terminal",
+    "overview": "AICN is built for practitioners who live in data — campaign professionals and tech vendors who don't need AI explained to them. The design serves this reader by getting out of their way. The interface is deliberately not a newspaper. It's closer to a structured intelligence output: precise, legible, flat, and accountable. Every surface signals that something real is happening here — a pipeline is running, sources are logged, methodology is visible.\n\nThe three-font system (Source Serif 4 for authority, Public Sans for utility, IBM Plex Mono for machine metadata) is load-bearing. Serif headlines give items the weight they deserve. Mono timestamps and source labels remind the reader that the content was gathered by a process. Sans handles everything in between. The cool blue-gray background creates a distinct reading plane that's neither editorial-warm nor tech-dark — it reads as infrastructure.\n\nThe design explicitly rejects the visual language of AI itself: no gradient accents, no glow, no neural-net aesthetics, no hero-metric panels. It equally rejects campaign-site energy and SaaS product marketing. AICN must be trusted by readers across the political spectrum, which means the palette and layout conventions carry zero partisan or promotional signal.",
+    "keyCharacteristics": [
+      "Flat elevation: no shadows anywhere. Depth through surface contrast and 1px borders only.",
+      "Three-weight typographic system with hard functional roles per family.",
+      "Publication Blue reserved for interactive affordances and accent — never used as decoration.",
+      "Information density calibrated to a professional reader who scans, not reads.",
+      "Mono metadata as the machine voice — timestamps, source labels, run IDs are always IBM Plex Mono."
+    ],
+    "rules": [
+      { "name": "The One Voice Rule", "body": "Publication Blue (#2b4a8b) appears only on interactive affordances and structural signifiers. Never use it as a background fill for large surfaces, decorative accents, or hover effects on non-interactive elements. Its presence must always mean something.", "section": "colors" },
+      { "name": "The No-Warm Rule", "body": "No warm tones anywhere. The palette is cool throughout. The single exception is the is_light_run warning state, which exists because it needs to signal something different happened today.", "section": "colors" },
+      { "name": "The Mono-as-Machine Rule", "body": "IBM Plex Mono appears only on data generated by a process: timestamps, source domains, run IDs, counts, badge labels. It must never appear on editorial copy, summaries, or explanatory text.", "section": "typography" },
+      { "name": "The Serif-for-Signal Rule", "body": "Source Serif 4 appears only on content that carries editorial weight: the wordmark, item headlines, the hero summary, and page titles. Everything operational stays in Public Sans.", "section": "typography" },
+      { "name": "The Flat-by-Default Rule", "body": "No box-shadow on any element in any state. Hover and focus states communicate through color shift or border change only.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep Publication Blue exclusively on interactive affordances: active states, links, category badges, and the Notes callout marker.",
+      "Do use IBM Plex Mono for any value generated by a process — timestamps, source domains, run IDs, counts.",
+      "Do use Source Serif 4 for content that carries editorial weight: item headlines, the hero summary, page titles.",
+      "Do keep the page canvas at #eef0f3 — it's the reading plane that separates the content layer from the page frame.",
+      "Do use 1px solid borders for depth. The system is flat; borders are the only structural tool.",
+      "Do write category labels, source names, and date metadata in IBM Plex Mono uppercase.",
+      "Do keep item summaries under 70ch line length."
+    ],
+    "donts": [
+      "Don't use any box-shadow anywhere. The Flat-by-Default Rule has no exceptions.",
+      "Don't use SaaS product marketing aesthetics — hero metrics, gradient accents, feature grids.",
+      "Don't use AI-hype visual language — glowing neural nets, circuit-board patterns, cyan-on-dark.",
+      "Don't use warm tones (amber, ochre, cream, parchment) as structural colors.",
+      "Don't use Publication Blue as a decorative background fill on any large surface.",
+      "Don't use partisan visual conventions — red/blue political energy, candidate-site aesthetics.",
+      "Don't put Source Serif 4 on navigation, filter chips, metadata, or body copy.",
+      "Don't add cards, borders, or backgrounds to feed items — separated by 1px divider only.",
+      "Don't use IBM Plex Mono for editorial copy, summaries, or explanatory text."
+    ]
+  }
+}

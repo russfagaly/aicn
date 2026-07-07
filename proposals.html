@@ -117,6 +117,11 @@
       border-color: #2b4a8b;
       color: #fff;
     }
+    @media (max-width: 640px) {
+      header > div { padding: 20px 16px 16px !important; gap: 16px !important; }
+      main { padding: 24px 16px 48px !important; }
+      footer > div { padding: 20px 16px 28px !important; }
+    }
   </style>
   <script>
     !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init bs ws ge fs capture je Di ks register register_once register_for_session unregister unregister_for_session Ps getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups setPersonProperties getPersonData refreshAssociatedFlags get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty Cs Es createPersonProfile Is Ss opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing Rs debug L Ts getPageViewId captureTraceFeedback captureTraceMetric".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
@@ -134,7 +139,7 @@
           </div>
           <p style="margin:8px 0 0; font-size:14.5px; color:#6b7280; max-width:52ch; line-height:1.5;">Tracking AI use in political campaigns, elections, and issue advocacy.</p>
         </div>
-        <nav style="display:flex; gap:14px; flex-shrink:0; align-items:center;">
+        <nav style="display:flex; gap:10px 14px; flex-wrap:wrap; align-items:center;">
           <a href="index.html" style="font-size:13px; color:#6b7280; text-decoration:none;">Home</a>
           <a href="library.html" style="font-size:13px; color:#6b7280; text-decoration:none;">Library</a>
           <a href="sources.html" style="font-size:13px; color:#6b7280; text-decoration:none;">Sources</a>
