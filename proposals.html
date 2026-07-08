@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Proposals — AICN</title>
+  <title>Pipeline — AICN</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -143,7 +143,7 @@
           <a href="index.html" style="font-size:13px; color:#6b7280; text-decoration:none;">Home</a>
           <a href="library.html" style="font-size:13px; color:#6b7280; text-decoration:none;">Library</a>
           <a href="sources.html" style="font-size:13px; color:#6b7280; text-decoration:none;">Sources</a>
-          <a href="proposals.html" style="font-size:13px; color:#2b4a8b; font-weight:600; text-decoration:none; border-bottom:2px solid #2b4a8b; padding-bottom:1px;">Proposals</a>
+          <a href="proposals.html" style="font-size:13px; color:#2b4a8b; font-weight:600; text-decoration:none; border-bottom:2px solid #2b4a8b; padding-bottom:1px;">Pipeline</a>
           <a href="feed.xml" style="font-size:12.5px; color:#2b4a8b; text-decoration:none; border:1px solid #cdd7ea; padding:4px 11px; border-radius:999px;">RSS</a>
         </nav>
       </div>
@@ -151,7 +151,7 @@
 
     <main style="max-width:880px; margin:0 auto; padding:32px 28px 64px;">
       <div style="margin-bottom:24px;">
-        <h1 style="font-family:'Source Serif 4',serif; font-weight:700; font-size:26px; color:#1d2330; margin:0 0 8px;">Proposals</h1>
+        <h1 style="font-family:'Source Serif 4',serif; font-weight:700; font-size:26px; color:#1d2330; margin:0 0 8px;">Pipeline</h1>
         <p style="margin:0; font-size:14px; color:#6b7280; line-height:1.6; max-width:60ch;">
           Sources and watchlist entities surfaced automatically by the pipeline for review.
           Sources are domains that repeatedly appeared in on-topic candidates but aren't yet
@@ -176,7 +176,7 @@
     <footer style="background:#fff; border-top:1px solid #e3e6ea;">
       <div style="max-width:880px; margin:0 auto; padding:24px 28px 36px; font-size:12.5px; color:#8a909b; line-height:1.7;">
         <p style="margin:0 0 6px;">AICN is a static digest compiled by an automated daily research pipeline that scans news, regulatory, and vendor sources for AI use in political campaigns and elections, then summarizes each item in a neutral, third-party voice.</p>
-        <p style="margin:0;"><a href="index.html" style="color:#2b4a8b; text-decoration:none;">Home</a> · <a href="library.html" style="color:#2b4a8b; text-decoration:none;">Library</a> · <a href="sources.html" style="color:#2b4a8b; text-decoration:none;">Sources</a> · <a href="feed.xml" style="color:#2b4a8b; text-decoration:none;">RSS feed</a>. Vendor-reported figures are labeled as such and are not independently verified.</p>
+        <p style="margin:0;"><a href="index.html" style="color:#2b4a8b; text-decoration:none;">Home</a> · <a href="library.html" style="color:#2b4a8b; text-decoration:none;">Library</a> · <a href="sources.html" style="color:#2b4a8b; text-decoration:none;">Sources</a> · <a href="proposals.html" style="color:#2b4a8b; text-decoration:none;">Pipeline</a> · <a href="feed.xml" style="color:#2b4a8b; text-decoration:none;">RSS feed</a>. Vendor-reported figures are labeled as such and are not independently verified.</p>
       </div>
     </footer>
   </div>
@@ -204,10 +204,10 @@
         });
       });
 
-      counts.textContent = filtered.length + ' of ' + proposals.length + ' proposal' + (proposals.length !== 1 ? 's' : '');
+      counts.textContent = filtered.length + ' of ' + proposals.length + ' pipeline item' + (proposals.length !== 1 ? 's' : '');
 
       if (filtered.length === 0) {
-        list.innerHTML = '<div class="empty-state">No proposals match this filter.</div>';
+        list.innerHTML = '<div class="empty-state">No pipeline items match this filter.</div>';
         return;
       }
 
@@ -286,8 +286,8 @@
           return (b.first_proposed || '').localeCompare(a.first_proposed || '');
         });
         if (proposals.length === 0) {
-          document.getElementById('list').innerHTML = '<div class="empty-state">No proposals yet. They appear here when the pipeline surfaces new source domains or watchlist entities.</div>';
-          document.getElementById('counts').textContent = '0 proposals';
+          document.getElementById('list').innerHTML = '<div class="empty-state">No pipeline items yet. They appear here when the pipeline surfaces new source domains or watchlist entities.</div>';
+          document.getElementById('counts').textContent = '0 pipeline items';
           return;
         }
         init(proposals);
