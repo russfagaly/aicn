@@ -208,11 +208,15 @@
           feedHtml += '<span style="font-size:11px; padding:2px 8px; border-radius:999px; background:#edf0f4; color:#6b7280; border:1px solid #e0e4ea; font-weight:500;">' + esc(FLAG_LABEL[f]) + '</span>';
         });
         feedHtml += '</div>';
-        feedHtml += '<p style="margin:0; font-size:14.5px; line-height:1.6; color:#4b5563;">' + esc(it.summary || '') + '</p>';
         if (it.why_it_matters) {
-          feedHtml += '<div style="margin-top:12px; border-left:3px solid #2b4a8b; padding:2px 0 2px 14px;">';
-          feedHtml += '<span style="font-family:\'IBM Plex Mono\',monospace; font-size:10.5px; letter-spacing:0.12em; text-transform:uppercase; color:#2b4a8b; font-weight:600;">Notes</span>';
-          feedHtml += '<p style="margin:4px 0 0; font-size:14px; line-height:1.55; color:#384152;">' + esc(it.why_it_matters) + '</p></div>';
+          feedHtml += '<div style="display:grid; grid-template-columns:3fr 2fr; gap:20px; align-items:start;">';
+          feedHtml += '<p style="margin:0; font-size:14.5px; line-height:1.6; color:#4b5563;">' + esc(it.summary || '') + '</p>';
+          feedHtml += '<div style="background:#e9eef7; border:1px solid #cdd7ea; border-radius:6px; padding:13px 15px;">';
+          feedHtml += '<span style="display:block; font-family:\'IBM Plex Mono\',monospace; font-size:10px; letter-spacing:0.12em; text-transform:uppercase; color:#2b4a8b; font-weight:500; margin-bottom:7px;">Notes</span>';
+          feedHtml += '<p style="margin:0; font-size:13.5px; line-height:1.58; color:#2e3d55;">' + esc(it.why_it_matters) + '</p>';
+          feedHtml += '</div></div>';
+        } else {
+          feedHtml += '<p style="margin:0; font-size:14.5px; line-height:1.6; color:#4b5563;">' + esc(it.summary || '') + '</p>';
         }
         feedHtml += '</article>';
       });
