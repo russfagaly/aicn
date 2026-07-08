@@ -34,12 +34,33 @@
     ],
     "last_seen": "2026-07-07"
   },
+  "cato.org": {
+    "count": 1,
+    "example_urls": [
+      "https://cato.org/blog/no-fakes-real-censorship-how-congress-could-muzzle-ai-speech"
+    ],
+    "last_seen": "2026-07-08"
+  },
   "citizen.org": {
     "count": 1,
     "example_urls": [
       "https://citizen.org/news/30-states-now-have-laws-to-regulate-election-deepfakes"
     ],
     "last_seen": "2026-07-05"
+  },
+  "fincrime.news.blog": {
+    "count": 1,
+    "example_urls": [
+      "https://fincrime.news.blog/2026/07/01/proposed-federal-act-would-protect-individuals-against-ai-generated-fakes"
+    ],
+    "last_seen": "2026-07-08"
+  },
+  "fire.org": {
+    "count": 1,
+    "example_urls": [
+      "https://fire.org/news/no-fakes-act-real-threat-free-expression"
+    ],
+    "last_seen": "2026-07-08"
   },
   "fish.dog": {
     "count": 1,
@@ -163,14 +184,14 @@
     "last_seen": "2026-07-03"
   },
   "transparencycoalition.ai": {
-    "count": 4,
+    "count": 5,
     "example_urls": [
       "https://transparencycoalition.ai/news/ai-legislative-update-june12-2026",
       "https://transparencycoalition.ai/news/ai-legislative-update-may1-2026",
       "https://transparencycoalition.ai/news/ai-legislative-update-june26-2026",
       "https://transparencycoalition.ai/news/ai-legislative-update-july3-2026"
     ],
-    "last_seen": "2026-07-05"
+    "last_seen": "2026-07-08"
   },
   "truescreen.io": {
     "count": 2,

@@ -3,7 +3,28 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Tue, 07 Jul 2026 14:46:17 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 14:24:59 GMT</lastBuildDate>
+    <item>
+      <title>NO FAKES, Real Censorship: How Congress Could Muzzle AI Speech</title>
+      <link>https://cato.org/blog/no-fakes-real-censorship-how-congress-could-muzzle-ai-speech</link>
+      <guid isPermaLink="false">c135ca05b155cd3a</guid>
+      <pubDate>2026-07-05</pubDate>
+      <description>The Cato Institute argues that the NO FAKES Act of 2026 would create sweeping liability for anyone who displays, distributes, or transmits an unauthorized AI-generated likeness of a person, or who builds a tool capable of producing one, effectively criminalizing a broad swath of expressive and journalistic activity.</description>
+    </item>
+    <item>
+      <title>The NO FAKES Act is a real threat to free expression</title>
+      <link>https://fire.org/news/no-fakes-act-real-threat-free-expression</link>
+      <guid isPermaLink="false">fca920394a5dfe35</guid>
+      <pubDate>2026-07-07</pubDate>
+      <description>The Foundation for Individual Rights and Expression (FIRE) contends that the NO FAKES Act's restrictions on AI-generated likenesses would chill news coverage, historical depiction, artistic work, and everyday speech, calling the bill a disproportionate response to the deepfake problem.</description>
+    </item>
+    <item>
+      <title>AI Legislative Update: July 3, 2026</title>
+      <link>https://transparencycoalition.ai/news/ai-legislative-update-july3-2026</link>
+      <guid isPermaLink="false">a61becf7d22ddafb</guid>
+      <pubDate>2026-07-03</pubDate>
+      <description>The Transparency Coalition's July 3 legislative roundup reports that California Governor Gavin Newsom signed a law requiring public school teachers to be human, while New Jersey legislators passed a Kids Code Act, illustrating continued state-level AI governance activity.</description>
+    </item>
     <item>
       <title>Tech: OpenAI warms up to Washington</title>
       <link>https://punchbowl.news/article/tech/openai-warms-washington</link>
@@ -192,27 +213,6 @@
       <guid isPermaLink="false">71d3197e1e09756c</guid>
       <pubDate>2026-06-22</pubDate>
       <description>Law firm Holland &amp; Knight provides a legal analysis of the Senate Judiciary Committee's advancement of the NO FAKES Act, outlining what the bill would require of platforms and AI developers regarding unauthorized synthetic replicas of real individuals.</description>
-    </item>
-    <item>
-      <title>NGP VAN Rolls Out New AI Compliance Review Tool</title>
-      <link>https://campaignsandelections.com/industry-news/ngp-van-rolls-out-new-ai-compliance-review-tool</link>
-      <guid isPermaLink="false">18f90571a9c3fe30</guid>
-      <pubDate>2026-06-09</pubDate>
-      <description>NGP VAN, a leading Democratic campaign technology provider, launched a new AI-powered compliance review tool designed to help campaigns check materials against legal and regulatory requirements. The tool is positioned as an efficiency aid for campaign compliance operations.</description>
-    </item>
-    <item>
-      <title>Civis Analytics has achieved the AWS Generative AI Competency</title>
-      <link>https://civisanalytics.com/news</link>
-      <guid isPermaLink="false">1e65d497f2df97a2</guid>
-      <pubDate>2026-06-24</pubDate>
-      <description>Civis Analytics announced it has achieved the AWS Generative AI Competency designation, indicating the political data and analytics firm has met Amazon's standards for deploying generative AI solutions on its cloud platform.</description>
-    </item>
-    <item>
-      <title>Nexxen &amp; L2 Data launch VoterMatch for political ads</title>
-      <link>https://stocktitan.net/news/NEXN/nexxen-and-l2-data-launch-voter-match-bringing-greater-precision-mmx6d9h0a1ln.html</link>
-      <guid isPermaLink="false">b05c9e8d7f64f895</guid>
-      <pubDate>2026-06-18</pubDate>
-      <description>Ad-tech firm Nexxen and political data provider L2 Data launched VoterMatch, a product that enables more precise targeting of political advertisements by matching voter file data to digital advertising audiences. The tool is aimed at increasing the effectiveness of political ad buys.</description>
     </item>
   </channel>
 </rss>

@@ -1,7 +1,71 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-07T14:46:17Z",
+  "generated_at": "2026-07-08T14:24:59Z",
   "runs": [
+    {
+      "run_id": "2026-07-08",
+      "date": "2026-07-08",
+      "generated_at": "2026-07-08T14:24:59Z",
+      "is_light_run": false,
+      "top_summary": "The NO FAKES Act is drawing significant civil-liberties pushback, with both the Cato Institute and FIRE publishing substantive critiques arguing the bill's broad liability for displaying or distributing AI-generated likenesses threatens free expression. A Transparency Coalition legislative update also flags new state-level AI-in-education laws. Older Axios search results on AI in campaigns and deepfakes in elections surface as background context but predate the current news cycle.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "c135ca05b155cd3a",
+          "title": "NO FAKES, Real Censorship: How Congress Could Muzzle AI Speech",
+          "url": "https://cato.org/blog/no-fakes-real-censorship-how-congress-could-muzzle-ai-speech",
+          "source": "Cato Institute",
+          "source_domain": "cato.org",
+          "published": "2026-07-05",
+          "first_seen_run": "2026-07-08",
+          "category": "regulation",
+          "summary": "The Cato Institute argues that the NO FAKES Act of 2026 would create sweeping liability for anyone who displays, distributes, or transmits an unauthorized AI-generated likeness of a person, or who builds a tool capable of producing one, effectively criminalizing a broad swath of expressive and journalistic activity.",
+          "why_it_matters": "A prominent libertarian think tank's detailed legal critique of NO FAKES signals organized opposition that could shape the bill's Senate prospects.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:no-fakes-act",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "fca920394a5dfe35",
+          "title": "The NO FAKES Act is a real threat to free expression",
+          "url": "https://fire.org/news/no-fakes-act-real-threat-free-expression",
+          "source": "Foundation for Individual Rights and Expression (FIRE)",
+          "source_domain": "fire.org",
+          "published": "2026-07-07",
+          "first_seen_run": "2026-07-08",
+          "category": "regulation",
+          "summary": "The Foundation for Individual Rights and Expression (FIRE) contends that the NO FAKES Act's restrictions on AI-generated likenesses would chill news coverage, historical depiction, artistic work, and everyday speech, calling the bill a disproportionate response to the deepfake problem.",
+          "why_it_matters": "A second major free-speech organization publicly opposing NO FAKES adds breadth to the First Amendment critique and could complicate the bill's bipartisan support.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:no-fakes-act",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "a61becf7d22ddafb",
+          "title": "AI Legislative Update: July 3, 2026",
+          "url": "https://transparencycoalition.ai/news/ai-legislative-update-july3-2026",
+          "source": "Transparency Coalition",
+          "source_domain": "transparencycoalition.ai",
+          "published": "2026-07-03",
+          "first_seen_run": "2026-07-08",
+          "category": "regulation",
+          "summary": "The Transparency Coalition's July 3 legislative roundup reports that California Governor Gavin Newsom signed a law requiring public school teachers to be human, while New Jersey legislators passed a Kids Code Act, illustrating continued state-level AI governance activity.",
+          "why_it_matters": "Tracks the ongoing patchwork of state AI laws that campaigns and advocacy groups must navigate even as federal legislation stalls.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:transparency-coalition",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-07-07",
       "date": "2026-07-07",
