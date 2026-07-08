@@ -49,3 +49,11 @@ targets:
     name: AI Campaign Stack
     domain: aicampaignstack.org
     cadence: daily
+  - id: chaotic-era
+    name: Chaotic Era
+    domain: chaoticera.news
+    cadence: daily
+  - id: civic-shout
+    name: Civic Shout Newsletter
+    domain: civicshoutnewsletter.com
+    cadence: daily
