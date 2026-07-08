@@ -15,3 +15,6 @@ design/
 
 # Planning/kickoff docs — keep build-process material out of the public repo.
 claude_design_kickoff.md
+
+# Private changelog — not reader-facing.
+CHANGELOG.md
