@@ -574,3 +574,103 @@
 - CA governor's race as a concrete, recent case study in the 2028 playbook's section on AI's role in the voter information environment.
 - The Steyer/war-chest finding ("AI doesn't care how much you spend") is a counterintuitive, citable claim for stakeholder conversations about why the 2028 information environment requires thinking beyond traditional media investment.
 - The contrast-figure phenomenon is a concrete talking point for explaining to non-technical stakeholders why a campaign's AI narrative is partly outside their control.
+
+---
+
+## [018] Galaxy Brain Podcast — Rob Flaherty Episode
+
+| Field | |
+|---|---|
+| **Author** | Rob Flaherty (guest) |
+| **Source** | Galaxy Brain Podcast |
+| **Published** | [Date needed] |
+| **Added** | [Date needed] |
+| **Type** | Podcast Episode |
+| **URL** | [URL needed] |
+| **Themes** | AI tooling, situational awareness, data & targeting |
+
+**Summary.** Rob Flaherty discusses AI adoption in Democratic campaigns and related narrative and strategy topics. *(Full summary to be added — details pending.)*
+
+**Key takeaways.**
+- *(To be completed)*
+
+**Notable data points.**
+- *(To be completed)*
+
+**Relevance to the project.**
+- Directly relevant to Democratic AI adoption landscape and strategy positioning.
+
+**Possible uses.**
+- Reference for internal adoption playbook and vendor evaluation.
+
+---
+
+## [019] Rob Flaherty Essay — The Bulwark
+
+| Field | |
+|---|---|
+| **Author** | Rob Flaherty |
+| **Source** | The Bulwark |
+| **Published** | [Date needed] |
+| **Added** | [Date needed] |
+| **Type** | Essay |
+| **URL** | [URL needed] |
+| **Themes** | AI tooling, situational awareness, data & targeting |
+
+**Summary.** Essay by Rob Flaherty on AI adoption among Democratic campaigns and related strategy themes. *(Full summary to be added — details pending.)*
+
+**Key takeaways.**
+- *(To be completed)*
+
+**Notable data points.**
+- *(To be completed)*
+
+**Relevance to the project.**
+- Directly relevant to Democratic AI adoption landscape and strategy positioning.
+
+**Possible uses.**
+- Reference for internal adoption playbook and strategy development.
+
+---
+
+## [020] Hello Merge Tag Podcast — Jack Welty on Operational AI Adoption
+
+| Field | |
+|---|---|
+| **Author** | Jack Welty (guest); Josh Klemons (host) |
+| **Source** | Hello Merge Tag Podcast (Reverbal Communications) |
+| **Published** | May 19, 2026 |
+| **Added** | July 8, 2026 |
+| **Type** | Podcast Episode + Transcript |
+| **URL** | https://joshklemons.com/hmt-jack-welty/ |
+| **Themes** | AI tooling, agentic AI, situational awareness, data & targeting |
+
+**Summary.** Jack Welty (Harris 2024 Deputy Chief Analytics Officer, co-creator of Caucus AI) argues that Democrats are behind Republicans on AI adoption and that the advantage comes from automation of routine work, not content generation. Frames AI as a management challenge — treating language models like inexperienced junior staff requiring context, direction, and review. Highlights the critical finding that which chatbot a voter uses determines their information ecosystem: ChatGPT relies on national media partnerships (Axios, AP, WaPo), Grok cites social media, Gemini casts a wider net including local news. Core thesis: AI adoption will eventually show up in votes; Democrats' 28% vs. Republicans' 44% daily AI usage represents a competitive disadvantage. ⚠️ Welty is co-creator of Caucus AI; findings on chatbot source citation are from their research tool and should be treated as vendor-adjacent.
+
+**Key takeaways.**
+- Biggest AI wins on campaigns come from automating high-volume, low-complexity work (surveys, data entry, petition verification via vision models) that frees staff for strategy — not from generating content or running AI ads.
+- Context engineering matters more than prompt engineering: giving models examples, organizational background, task parameters, and style guides produces better outputs than raw prompts.
+- Official .gov sites are cited by AI models at much higher rates than campaign sites; incumbents should not neglect government domain presence.
+- Ballotpedia candidate surveys are top 2–3 cited sources across chatbots; most Democratic campaigns aren't filling them out.
+- Wikipedia indexation by ChatGPT happens in ~12 minutes; sources cited from brand-new Wikipedia pages comprised two-thirds of subsequent answers, creating both opportunity and vulnerability.
+- Robots.txt settings matter — some campaigns are blocking AI crawlers, which they shouldn't do if running for office.
+- Caucus AI tracks 1,100 races across ChatGPT, Gemini, and Grok; initial findings show all models prioritize neutrality in candidate comparisons (no "vote for X" framing).
+
+**Notable data points.**
+- AAPC study: 44% of Republican consultants use AI daily vs. 28% of Democrats.
+- ChatGPT indexed a new Wikipedia page in 12 minutes; two-thirds of sources in subsequent answers came from that single page.
+- Gemini cites ~2x as many sources as ChatGPT on average queries.
+- ChatGPT overwhelmingly favors OpenAI's major media partners (Axios, AP, Washington Post).
+
+**Relevance to the project.**
+- Directly addresses operational AI adoption precedence over forward-facing strategy; demonstrates the management-vs.-technical reframe applied to actual campaign workflows.
+- Caucus AI's research on chatbot information ecosystems and source citation is foundational to understanding how voter-facing AI works in practice.
+- Welty's emphasis on "unglamorous" automation (surveys, petition verification, data structuring) aligns with internal adoption framing.
+- Flags an important discovery: different models route voters to different information sources, with implications for narrative control and earned-media strategy.
+- Should be read alongside entries 016 and 017 on GEO/AEO and chatbot candidate characterization.
+
+**Possible uses.**
+- Reference for internal adoption playbook (management reframe, context engineering discipline).
+- Source on .gov site maintenance and Ballotpedia strategy for candidate-level stakeholders.
+- Basis for discussion on Caucus AI integration into AICN or other monitoring workflows.
+- ⚠️ Vendor-adjacent caveat: Welty is co-creator of Caucus AI; findings are from their research tool.
