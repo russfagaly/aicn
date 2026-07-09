@@ -76,6 +76,13 @@
     ],
     "last_seen": "2026-07-05"
   },
+  "globenewswire.com": {
+    "count": 1,
+    "example_urls": [
+      "https://globenewswire.com/news-release/2026/07/07/3323164/0/en/fullpac-sees-expanded-u-s-election-market-following-landmark-supreme-court-decision.html"
+    ],
+    "last_seen": "2026-07-09"
+  },
   "houstonpublicmedia.org": {
     "count": 1,
     "example_urls": [
@@ -91,12 +98,12 @@
     "last_seen": "2026-07-05"
   },
   "l2-data.com": {
-    "count": 5,
+    "count": 6,
     "example_urls": [
       "https://l2-data.com/blog",
       "https://l2-data.com/liveramp-and-beyond-onboarding-with-l2-in-2026"
     ],
-    "last_seen": "2026-07-06"
+    "last_seen": "2026-07-09"
   },
   "nbcnews.com": {
     "count": 4,
@@ -184,14 +191,15 @@
     "last_seen": "2026-07-03"
   },
   "transparencycoalition.ai": {
-    "count": 5,
+    "count": 6,
     "example_urls": [
       "https://transparencycoalition.ai/news/ai-legislative-update-june12-2026",
       "https://transparencycoalition.ai/news/ai-legislative-update-may1-2026",
       "https://transparencycoalition.ai/news/ai-legislative-update-june26-2026",
-      "https://transparencycoalition.ai/news/ai-legislative-update-july3-2026"
+      "https://transparencycoalition.ai/news/ai-legislative-update-july3-2026",
+      "https://transparencycoalition.ai/news/new-poll-finds-strong-bipartisan-support-for-ai-safeguards"
     ],
-    "last_seen": "2026-07-08"
+    "last_seen": "2026-07-09"
   },
   "truescreen.io": {
     "count": 2,

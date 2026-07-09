@@ -1,7 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-08T14:24:59Z",
+  "generated_at": "2026-07-09T15:19:30Z",
   "runs": [
+    {
+      "run_id": "2026-07-09",
+      "date": "2026-07-09",
+      "generated_at": "2026-07-09T15:19:30Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
     {
       "run_id": "2026-07-08",
       "date": "2026-07-08",
@@ -75,7 +84,7 @@
           "first_seen_run": "2026-07-06",
           "category": "regulation",
           "summary": "Punchbowl News reports that OpenAI has backed Sen. Marsha Blackburn's Kids Online Safety Act and the NO FAKES Act, signaling a warmer relationship between the company and Washington lawmakers heading into the 2026 cycle.",
-          "why_it_matters": "OpenAI's explicit endorsement of the NO FAKES Act — the key federal legislation targeting AI-generated deepfakes of real people — could accelerate its Senate prospects.",
+          "why_it_matters": "OpenAI's explicit endorsement of the NO FAKES Act \u2014 the key federal legislation targeting AI-generated deepfakes of real people \u2014 could accelerate its Senate prospects.",
           "flags": [],
           "discovery": {
             "method": "search",
@@ -167,7 +176,7 @@
           "first_seen_run": "2026-07-04",
           "category": "deployments_studies",
           "summary": "Semafor reports that California Governor Gavin Newsom is walking a careful line between pushing to regulate the power of major tech companies while simultaneously using AI products in his own political operations.",
-          "why_it_matters": "A high-profile potential presidential contender's dual posture on AI — regulator and user — illustrates the political complexity facing elected officials as AI becomes a campaign tool.",
+          "why_it_matters": "A high-profile potential presidential contender's dual posture on AI \u2014 regulator and user \u2014 illustrates the political complexity facing elected officials as AI becomes a campaign tool.",
           "flags": [],
           "discovery": {
             "method": "search",
@@ -234,7 +243,7 @@
       "items": [
         {
           "id": "7d1cefdee2939cc8",
-          "title": "Anthropic Added a New Security Measure to Get Back Into the Trump Administration’s Good Graces",
+          "title": "Anthropic Added a New Security Measure to Get Back Into the Trump Administration\u2019s Good Graces",
           "url": "https://wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces",
           "source": "Wired (Politics)",
           "source_domain": "wired.com",
@@ -252,7 +261,7 @@
         },
         {
           "id": "2dc4cc32707265b6",
-          "title": "‘The Battle Line Has Been Drawn’ Around Virginia’s Data Centers",
+          "title": "\u2018The Battle Line Has Been Drawn\u2019 Around Virginia\u2019s Data Centers",
           "url": "https://notus.org/metro/northern-virginia-data-centers-politics",
           "source": "NOTUS",
           "source_domain": "notus.org",
@@ -293,12 +302,12 @@
       "date": "2026-06-29",
       "generated_at": "2026-06-29T15:55:02Z",
       "is_light_run": false,
-      "top_summary": "A new AI tool aimed at automating weekly client reports for public affairs professionals launched via Campaigns & Elections, representing continued vendor expansion into political consulting workflows. Wired reports that the Trump White House has effectively sidelined Anthropic CEO Dario Amodei from high-stakes meetings, replacing him with cofounder Tom Brown — a notable development in AI-industry political relationships. A Michigan congressional candidate is running on a data center moratorium, illustrating how AI infrastructure is becoming a direct campaign issue in swing-district politics.",
+      "top_summary": "A new AI tool aimed at automating weekly client reports for public affairs professionals launched via Campaigns & Elections, representing continued vendor expansion into political consulting workflows. Wired reports that the Trump White House has effectively sidelined Anthropic CEO Dario Amodei from high-stakes meetings, replacing him with cofounder Tom Brown \u2014 a notable development in AI-industry political relationships. A Michigan congressional candidate is running on a data center moratorium, illustrating how AI infrastructure is becoming a direct campaign issue in swing-district politics.",
       "item_count": 3,
       "items": [
         {
           "id": "41cdc4194a9ce1a0",
-          "title": "A New AI Tool Targets the Least-Loved Task in Public Affairs: the Weekly Client Report",
+          "title": "A New AI Tool Targets the Least-Loved Task in Public Affairs:\u00a0the Weekly Client Report",
           "url": "https://campaignsandelections.com/sponsored/a-new-ai-tool-targets-the-least-loved-task-in-public-affairs-the-weekly-client-report",
           "source": "Campaigns & Elections",
           "source_domain": "campaignsandelections.com",
@@ -377,7 +386,7 @@
       "date": "2026-06-26",
       "generated_at": "2026-06-26T14:34:10Z",
       "is_light_run": false,
-      "top_summary": "The NO FAKES Act cleared a Senate committee, marking a significant legislative step toward federal protection against unauthorized AI-generated likenesses — directly relevant to synthetic media threats in elections. On the vendor side, NGP VAN announced AI-assisted donor targeting tools for campaigns, and ad-tech firm Nexxen launched a voter targeting product built on L2 voter data.",
+      "top_summary": "The NO FAKES Act cleared a Senate committee, marking a significant legislative step toward federal protection against unauthorized AI-generated likenesses \u2014 directly relevant to synthetic media threats in elections. On the vendor side, NGP VAN announced AI-assisted donor targeting tools for campaigns, and ad-tech firm Nexxen launched a voter targeting product built on L2 voter data.",
       "item_count": 4,
       "items": [
         {
@@ -400,7 +409,7 @@
         },
         {
           "id": "3d15f9673417a3ce",
-          "title": "NO FAKES Act clears Senate panel; judge blocks SNAP soda and candy limits; quantum math sharpens cancer AI — Morning Medical Update",
+          "title": "NO FAKES Act clears Senate panel; judge blocks SNAP soda and candy limits; quantum math sharpens cancer AI \u2014 Morning Medical Update",
           "url": "https://medicaleconomics.com/view/no-fakes-act-clears-senate-panel-judge-blocks-snap-soda-and-candy-limits-quantum-math-sharpens-cancer-ai-morning-medical-update",
           "source": "Medical Economics",
           "source_domain": "medicaleconomics.com",
@@ -425,7 +434,7 @@
           "published": "2025-12-16",
           "first_seen_run": "2026-06-26",
           "category": "vendor_moves",
-          "summary": "NGP VAN announced two new AI-assisted fundraising features — Donor Target Scores and Donor Target Reports — designed to help campaigns prioritize outreach to likely donors using predictive modeling.",
+          "summary": "NGP VAN announced two new AI-assisted fundraising features \u2014 Donor Target Scores and Donor Target Reports \u2014 designed to help campaigns prioritize outreach to likely donors using predictive modeling.",
           "why_it_matters": "NGP VAN is a dominant platform for Democratic campaigns, so AI-driven donor scoring tools could meaningfully shift how campaigns allocate fundraising resources.",
           "flags": [
             "vendor_self_reported"
@@ -463,7 +472,7 @@
       "date": "2026-06-25",
       "generated_at": "2026-06-25T14:41:02Z",
       "is_light_run": false,
-      "top_summary": "The Senate Judiciary Committee unanimously advanced the NO FAKES Act, a major legislative milestone for regulating AI-generated synthetic likenesses in ways directly relevant to political deepfakes. Separately, NPR and Futurism both reported on AI companies—including major labs—actively working to shape the 2026 midterm elections through lobbying and tool deployment, raising questions about corporate influence on electoral processes. An adtech vendor partnership (Nexxen and L2 Data) launched a voter-matching product for political advertisers, reflecting continued growth in AI-assisted campaign targeting infrastructure.",
+      "top_summary": "The Senate Judiciary Committee unanimously advanced the NO FAKES Act, a major legislative milestone for regulating AI-generated synthetic likenesses in ways directly relevant to political deepfakes. Separately, NPR and Futurism both reported on AI companies\u2014including major labs\u2014actively working to shape the 2026 midterm elections through lobbying and tool deployment, raising questions about corporate influence on electoral processes. An adtech vendor partnership (Nexxen and L2 Data) launched a voter-matching product for political advertisers, reflecting continued growth in AI-assisted campaign targeting infrastructure.",
       "item_count": 5,
       "items": [
         {
@@ -514,7 +523,7 @@
           "first_seen_run": "2026-06-25",
           "category": "regulation",
           "summary": "The Senate Judiciary Committee passed the NO FAKES Act by unanimous vote, advancing federal legislation that would create a right of publicity against unauthorized AI-generated replicas of a person's name, image, likeness, or voice.",
-          "why_it_matters": "A unanimous committee vote is a significant step toward federal law that would directly constrain the use of AI-generated synthetic media—including political deepfakes—in campaigns and advocacy.",
+          "why_it_matters": "A unanimous committee vote is a significant step toward federal law that would directly constrain the use of AI-generated synthetic media\u2014including political deepfakes\u2014in campaigns and advocacy.",
           "flags": [],
           "discovery": {
             "method": "watchlist",
