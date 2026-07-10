@@ -136,6 +136,30 @@
       ],
       "first_proposed": "2026-07-08",
       "status": "rejected"
+    },
+    {
+      "id": "prop-entity-mike-lawler",
+      "kind": "watchlist_entity",
+      "value": "Mike Lawler",
+      "feed_url": null,
+      "rationale": "Republican House member from New York co-leading bipartisan pressure on federal agencies over AI election threats \u2014 a recurring actor in AI-election regulation efforts worth tracking.",
+      "example_urls": [
+        "https://punchbowl.news/article/tech/ai-election-threats/"
+      ],
+      "first_proposed": "2026-07-10",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-josh-gottheimer",
+      "kind": "watchlist_entity",
+      "value": "Josh Gottheimer",
+      "feed_url": null,
+      "rationale": "Democratic House member from New Jersey co-leading bipartisan push on AI election-integrity oversight \u2014 newly named in context of AI campaign regulation.",
+      "example_urls": [
+        "https://punchbowl.news/article/tech/ai-election-threats/"
+      ],
+      "first_proposed": "2026-07-10",
+      "status": "pending"
     }
   ]
 }

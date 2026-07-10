@@ -3,7 +3,35 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Thu, 09 Jul 2026 15:19:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 14:37:42 GMT</lastBuildDate>
+    <item>
+      <title>Tech: Lawmakers want agencies watching AI election threats</title>
+      <link>https://punchbowl.news/article/tech/ai-election-threats</link>
+      <guid isPermaLink="false">93022fcc3e892904</guid>
+      <pubDate>2026-07-09</pubDate>
+      <description>Reps. Mike Lawler (R-N.Y.) and Josh Gottheimer (D-N.J.) are urging four federal agencies to take action on potential election-integrity threats posed by AI ahead of the 2026 midterms.</description>
+    </item>
+    <item>
+      <title>Bipartisan lawmakers press agencies on AI election threats</title>
+      <link>https://thehill.com/policy/technology/5961267-ai-election-threats-2026-midterms</link>
+      <guid isPermaLink="false">a3372eefe147c99d</guid>
+      <pubDate>2026-07-09</pubDate>
+      <description>The Hill reports on the same bipartisan push by Lawler and Gottheimer urging federal agencies to monitor AI-related election threats in the 2026 cycle.</description>
+    </item>
+    <item>
+      <title>What AI companies want for the millions they're spending on elections</title>
+      <link>https://cnbc.com/2026/07/09/ai-companies-election-spending.html</link>
+      <guid isPermaLink="false">a8e951c27466aa1c</guid>
+      <pubDate>2026-07-09</pubDate>
+      <description>CNBC reports that two major AI industry super PACs are each spending heavily in the 2026 midterms and lobbying Congress for competing versions of AI regulation, illustrating how industry money is shaping the legislative landscape.</description>
+    </item>
+    <item>
+      <title>Getty Images’ Answer to AI Slop? Authentic, Verified Content</title>
+      <link>https://campaignsandelections.com/sponsored/getty-images-answer-to-ai-slop-authentic-verified-content</link>
+      <guid isPermaLink="false">93349ac2dfbe0408</guid>
+      <pubDate>2026-07-10</pubDate>
+      <description>Getty Images is marketing authenticated, human-verified visual content to political campaigns as a direct counter to the spread of AI-generated imagery, framing provenance and verification as competitive advantages in the 2026 cycle.</description>
+    </item>
     <item>
       <title>NO FAKES, Real Censorship: How Congress Could Muzzle AI Speech</title>
       <link>https://cato.org/blog/no-fakes-real-censorship-how-congress-could-muzzle-ai-speech</link>
@@ -185,34 +213,6 @@
       <guid isPermaLink="false">c70d2308eed1f7db</guid>
       <pubDate>2026-06-23</pubDate>
       <description>A New York Democratic congressional primary featured a candidate who built his campaign around AI policy expertise, making the race a real-world test of whether voters reward candidates who center artificial intelligence as a political issue. The outcome offered early data on AI's salience as a campaign issue.</description>
-    </item>
-    <item>
-      <title>Senate Judiciary advances NO FAKES Act on unanimous vote</title>
-      <link>https://spglobal.com/market-intelligence/en/news-insights/articles/2026/6/senate-judiciary-advances-no-fakes-act-on-unanimous-vote-103007539</link>
-      <guid isPermaLink="false">9fc3aa65b4dc558d</guid>
-      <pubDate>2026-06-23</pubDate>
-      <description>The Senate Judiciary Committee advanced the NO FAKES Act on a unanimous vote, moving federal legislation forward that would establish rights against unauthorized use of a person's name, image, likeness, or voice by AI systems. The bill now heads to the full Senate.</description>
-    </item>
-    <item>
-      <title>The NO FAKES Act Could Silence Satire, Commentary, And News</title>
-      <link>https://eff.org/deeplinks/2026/06/no-fakes-act-could-silence-satire-commentary-and-news</link>
-      <guid isPermaLink="false">dc0c5998926f699a</guid>
-      <pubDate>2026-06-09</pubDate>
-      <description>The Electronic Frontier Foundation argues that the NO FAKES Act, while targeting harmful AI-generated likenesses, is drafted broadly enough to suppress legitimate satire, political commentary, and journalism about public figures. The EFF calls for narrower carve-outs to protect First Amendment activity.</description>
-    </item>
-    <item>
-      <title>Senate Committee Advances Bill to Protect Name, Image, Likeness and Voice Against Unauthorized AI Use</title>
-      <link>https://hklaw.com/en/insights/publications/2026/06/senate-judiciary-committee-advances-legislation-to-protect-name</link>
-      <guid isPermaLink="false">71d3197e1e09756c</guid>
-      <pubDate>2026-06-22</pubDate>
-      <description>Law firm Holland &amp; Knight provides a legal analysis of the Senate Judiciary Committee's advancement of the NO FAKES Act, outlining what the bill would require of platforms and AI developers regarding unauthorized synthetic replicas of real individuals.</description>
-    </item>
-    <item>
-      <title>NGP VAN Rolls Out New AI Compliance Review Tool</title>
-      <link>https://campaignsandelections.com/industry-news/ngp-van-rolls-out-new-ai-compliance-review-tool</link>
-      <guid isPermaLink="false">18f90571a9c3fe30</guid>
-      <pubDate>2026-06-09</pubDate>
-      <description>NGP VAN, a leading Democratic campaign technology provider, launched a new AI-powered compliance review tool designed to help campaigns check materials against legal and regulatory requirements. The tool is positioned as an efficiency aid for campaign compliance operations.</description>
     </item>
   </channel>
 </rss>

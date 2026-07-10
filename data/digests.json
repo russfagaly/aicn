@@ -1,7 +1,91 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-09T15:19:30Z",
+  "generated_at": "2026-07-10T14:37:42Z",
   "runs": [
+    {
+      "run_id": "2026-07-10",
+      "date": "2026-07-10",
+      "generated_at": "2026-07-10T14:37:42Z",
+      "is_light_run": false,
+      "top_summary": "Bipartisan House members Reps. Mike Lawler (R-N.Y.) and Josh Gottheimer (D-N.J.) are pressing four federal agencies to monitor and address AI threats to election integrity ahead of the 2026 midterms, while a CNBC report reveals two competing AI industry PACs are each lobbying Congress for their own preferred version of AI regulation. Getty Images is pitching campaigns on authenticated, human-verified visual content as a counter to AI-generated imagery flooding political communications.",
+      "item_count": 4,
+      "items": [
+        {
+          "id": "93022fcc3e892904",
+          "title": "Tech: Lawmakers want agencies watching AI election threats",
+          "url": "https://punchbowl.news/article/tech/ai-election-threats",
+          "source": "Punchbowl News",
+          "source_domain": "punchbowl.news",
+          "published": "2026-07-09",
+          "first_seen_run": "2026-07-10",
+          "category": "regulation",
+          "summary": "Reps. Mike Lawler (R-N.Y.) and Josh Gottheimer (D-N.J.) are urging four federal agencies to take action on potential election-integrity threats posed by AI ahead of the 2026 midterms.",
+          "why_it_matters": "Bipartisan legislative pressure on agencies signals a push for executive-branch action on AI election threats even in the absence of enacted federal legislation.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:punchbowl",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "a3372eefe147c99d",
+          "title": "Bipartisan lawmakers press agencies on AI election threats",
+          "url": "https://thehill.com/policy/technology/5961267-ai-election-threats-2026-midterms",
+          "source": "The Hill",
+          "source_domain": "thehill.com",
+          "published": "2026-07-09",
+          "first_seen_run": "2026-07-10",
+          "category": "regulation",
+          "summary": "The Hill reports on the same bipartisan push by Lawler and Gottheimer urging federal agencies to monitor AI-related election threats in the 2026 cycle.",
+          "why_it_matters": "Duplicate coverage of the Punchbowl item \u2014 kept only as secondary sourcing; the Punchbowl version is more authoritative and named the legislators directly.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:the-hill",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "a8e951c27466aa1c",
+          "title": "What AI companies want for the millions they're spending on elections",
+          "url": "https://cnbc.com/2026/07/09/ai-companies-election-spending.html",
+          "source": "CNBC",
+          "source_domain": "cnbc.com",
+          "published": "2026-07-09",
+          "first_seen_run": "2026-07-10",
+          "category": "analysis_oped",
+          "summary": "CNBC reports that two major AI industry super PACs are each spending heavily in the 2026 midterms and lobbying Congress for competing versions of AI regulation, illustrating how industry money is shaping the legislative landscape.",
+          "why_it_matters": "Shows that rival AI industry factions are using election spending not just for general influence but to push distinct, self-serving regulatory outcomes.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:l2",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "93349ac2dfbe0408",
+          "title": "Getty Images\u2019 Answer to AI Slop? Authentic, Verified Content",
+          "url": "https://campaignsandelections.com/sponsored/getty-images-answer-to-ai-slop-authentic-verified-content",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-07-10",
+          "first_seen_run": "2026-07-10",
+          "category": "vendor_moves",
+          "summary": "Getty Images is marketing authenticated, human-verified visual content to political campaigns as a direct counter to the spread of AI-generated imagery, framing provenance and verification as competitive advantages in the 2026 cycle.",
+          "why_it_matters": "Illustrates how established media asset vendors are repositioning their offerings specifically around the AI authenticity problem in political advertising.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaigns-and-elections",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-07-09",
       "date": "2026-07-09",

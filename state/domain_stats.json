@@ -34,6 +34,13 @@
     ],
     "last_seen": "2026-07-07"
   },
+  "campaignnow.com": {
+    "count": 1,
+    "example_urls": [
+      "https://campaignnow.com/blog/regulators-scramble-as-ai-deepfakes-flood-the-2026-midterms"
+    ],
+    "last_seen": "2026-07-10"
+  },
   "cato.org": {
     "count": 1,
     "example_urls": [
@@ -47,6 +54,13 @@
       "https://citizen.org/news/30-states-now-have-laws-to-regulate-election-deepfakes"
     ],
     "last_seen": "2026-07-05"
+  },
+  "cnbc.com": {
+    "count": 1,
+    "example_urls": [
+      "https://cnbc.com/2026/07/09/ai-companies-election-spending.html"
+    ],
+    "last_seen": "2026-07-10"
   },
   "fincrime.news.blog": {
     "count": 1,
@@ -106,12 +120,12 @@
     "last_seen": "2026-07-09"
   },
   "nbcnews.com": {
-    "count": 4,
+    "count": 6,
     "example_urls": [
       "https://nbcnews.com/politics/2028-election/ai-midterms-politics-campaign-ads-rcna263752",
       "https://nbcnews.com/politics/2026-election/ads-ai-industry-are-flooding-2026-election-artificial-intelligence-rcna260782"
     ],
-    "last_seen": "2026-07-03"
+    "last_seen": "2026-07-10"
   },
   "podcasts.apple.com": {
     "count": 1,
@@ -170,11 +184,11 @@
     "last_seen": "2026-07-04"
   },
   "texastribune.org": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
       "https://texastribune.org/2026/02/19/texas-2026-primaries-ai-ads-candidates-crockett-cornyn-paxton"
     ],
-    "last_seen": "2026-06-30"
+    "last_seen": "2026-07-10"
   },
   "theconnector.substack.com": {
     "count": 2,
