@@ -14,11 +14,11 @@
     "last_seen": "2026-07-02"
   },
   "arxiv.org": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
       "https://arxiv.org/pdf/2512.13915"
     ],
-    "last_seen": "2026-07-06"
+    "last_seen": "2026-07-11"
   },
   "biometricupdate.com": {
     "count": 1,
@@ -61,6 +61,20 @@
       "https://cnbc.com/2026/07/09/ai-companies-election-spending.html"
     ],
     "last_seen": "2026-07-10"
+  },
+  "electrictwin.com": {
+    "count": 1,
+    "example_urls": [
+      "https://electrictwin.com/blog/electric-twin-announcing-14m-in-funding"
+    ],
+    "last_seen": "2026-07-11"
+  },
+  "eu-startups.com": {
+    "count": 1,
+    "example_urls": [
+      "https://eu-startups.com/2026/02/covid-government-adviser-and-military-commander-land-e12-million-to-scale-electric-twins-synthetic-audience-platform"
+    ],
+    "last_seen": "2026-07-11"
   },
   "fincrime.news.blog": {
     "count": 1,
@@ -118,6 +132,13 @@
       "https://l2-data.com/liveramp-and-beyond-onboarding-with-l2-in-2026"
     ],
     "last_seen": "2026-07-09"
+  },
+  "natesilver.net": {
+    "count": 1,
+    "example_urls": [
+      "https://natesilver.net/p/ai-polls-are-fake-polls"
+    ],
+    "last_seen": "2026-07-11"
   },
   "nbcnews.com": {
     "count": 6,
