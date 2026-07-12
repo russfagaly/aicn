@@ -160,6 +160,42 @@
       ],
       "first_proposed": "2026-07-10",
       "status": "pending"
+    },
+    {
+      "id": "prop-source-theconnector-substack-com",
+      "kind": "source",
+      "value": "theconnector.substack.com",
+      "feed_url": null,
+      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://theconnector.substack.com/p/why-are-we-still-living-with-vanxiety"
+      ],
+      "first_proposed": "2026-07-12",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-stackadapt",
+      "kind": "watchlist_entity",
+      "value": "StackAdapt",
+      "feed_url": null,
+      "rationale": "Programmatic advertising platform that integrated with voter data firm L2 to enable rapid political audience activation; newly entering the political ad-tech space in a significant partnership.",
+      "example_urls": [
+        "https://www.research-live.com/article/news/l2-and-stackadapt-agree-integration-/id/5130763"
+      ],
+      "first_proposed": "2026-07-12",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-higher-ground-labs",
+      "kind": "watchlist_entity",
+      "value": "Higher Ground Labs",
+      "feed_url": null,
+      "rationale": "Progressive political technology incubator now running a dedicated agentic AI open call for campaign-focused startups; an institutional gatekeeper shaping which AI tools enter the progressive campaign ecosystem.",
+      "example_urls": [
+        "https://highergroundlabs.com/agentic-ai-open-call/"
+      ],
+      "first_proposed": "2026-07-12",
+      "status": "pending"
     }
   ]
 }

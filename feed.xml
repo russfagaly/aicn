@@ -3,7 +3,42 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Sat, 11 Jul 2026 13:28:53 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 13:29:53 GMT</lastBuildDate>
+    <item>
+      <title>Getting campaign text messages ahead of midterms? There could be an AI bot behind it</title>
+      <link>https://npr.org/2026/07/12/nx-s1-5867763/ai-artificial-intelligence-data-texts-bots-voters-campaigns</link>
+      <guid isPermaLink="false">c09238465bc8ada4</guid>
+      <pubDate>2026-07-12</pubDate>
+      <description>NPR reports that campaigns are using AI bots to send and manage political text messages to voters ahead of the 2026 midterms, with the practice spreading across multiple campaign operations. The piece examines how automated conversational AI is replacing or supplementing human texters in voter contact programs.</description>
+    </item>
+    <item>
+      <title>L2 and StackAdapt agree integration</title>
+      <link>https://research-live.com/article/news/l2-and-stackadapt-agree-integration-/id/5130763</link>
+      <guid isPermaLink="false">9438fb6bfaa2f107</guid>
+      <pubDate>2026-07-12</pubDate>
+      <description>Voter and consumer data company L2 has integrated with programmatic advertising platform StackAdapt, allowing political advertisers to build and activate voter audience segments within a single day rather than through multi-step data transfers. The deal is aimed at accelerating targeted digital ad delivery for political campaigns.</description>
+    </item>
+    <item>
+      <title>21-year-old AI startup cofounder's sales pitch to clients: 'Do not trust us'</title>
+      <link>https://fortune.com/2026/06/17/aaru-cofounder-ned-koh-ai-startup-sales-pitch-do-not-trust-us</link>
+      <guid isPermaLink="false">d1050b8493a91d36</guid>
+      <pubDate>2026-06-17</pubDate>
+      <description>Fortune profiles Aaru cofounder Ned Koh, 21, whose AI startup sells synthetic-respondent predictions to clients as an alternative to traditional polling, with Koh himself warning clients not to take the results on faith while arguing the platform's predictive accuracy surpasses human survey data. The piece examines Aaru's unusual sales posture and its growing footprint in political forecasting.</description>
+    </item>
+    <item>
+      <title>Aaru AI Review 2026: The Prediction Startup, and Where It Fits</title>
+      <link>https://fish.dog/news/aaru-ai-review-2026-the-prediction-startup-and-where-it-fits</link>
+      <guid isPermaLink="false">6e1c3fd2443efd69</guid>
+      <pubDate>2026-06-02</pubDate>
+      <description>An independent review from FishDog assesses Aaru's AI prediction platform — which raised a Series A and is run by a teenage founder — examining where its synthetic-respondent methodology is credible and where it falls short relative to conventional polling. The review highlights both the startup's technical ambitions and the limits of its current validation record.</description>
+    </item>
+    <item>
+      <title>Announcing Higher Ground Labs' Agentic AI Open Call</title>
+      <link>https://highergroundlabs.com/agentic-ai-open-call</link>
+      <guid isPermaLink="false">01956ecb4edcdffe</guid>
+      <pubDate>2026-05-20</pubDate>
+      <description>Higher Ground Labs, a progressive political technology incubator, has opened an investment application specifically for agentic AI startups building tools for political use, signaling institutional progressive-side investment interest in autonomous AI agents for campaigns. The open call invites founders to pitch agentic solutions across campaign functions.</description>
+    </item>
     <item>
       <title>Tech: Lawmakers want agencies watching AI election threats</title>
       <link>https://punchbowl.news/article/tech/ai-election-threats</link>
@@ -178,41 +213,6 @@
       <guid isPermaLink="false">9fc3aa65b4dc558d</guid>
       <pubDate>2026-06-23</pubDate>
       <description>The Senate Judiciary Committee passed the NO FAKES Act by unanimous vote, advancing federal legislation that would create a right of publicity against unauthorized AI-generated replicas of a person's name, image, likeness, or voice.</description>
-    </item>
-    <item>
-      <title>No Fakes Act Clears Senate Judiciary Committee</title>
-      <link>https://deadline.com/2026/06/no-fakes-act-senate-judiciary-committee-1236959147</link>
-      <guid isPermaLink="false">01a59f2b80a6d103</guid>
-      <pubDate>2026-06-18</pubDate>
-      <description>Deadline covers the Senate Judiciary Committee's approval of the NO FAKES Act, noting its implications for AI-generated content across entertainment and political contexts.</description>
-    </item>
-    <item>
-      <title>Nexxen and L2 Data Launch VoterMatch, Bringing Greater Precision, Transparency and Performance to Political Advertising</title>
-      <link>https://finance.yahoo.com/media-advertising/articles/nexxen-l2-data-launch-votermatch-130000183.html</link>
-      <guid isPermaLink="false">aef8e702a675f777</guid>
-      <pubDate>2026-06-18</pubDate>
-      <description>Nexxen and L2 Data announced VoterMatch, a joint product combining L2's voter file data with Nexxen's programmatic advertising platform to enable more precise political ad targeting for campaigns and outside groups.</description>
-    </item>
-    <item>
-      <title>AI and tech are trying to influence the midterm elections</title>
-      <link>https://npr.org/2026/06/22/nx-s1-5856359/ai-anthropic-congress-spending-openai-midterms-election</link>
-      <guid isPermaLink="false">4f8141622cb7278c</guid>
-      <pubDate>2026-06-22</pubDate>
-      <description>NPR reports that major AI companies including Anthropic and OpenAI are increasing lobbying efforts and political spending ahead of the 2026 midterm elections, aiming to influence policy and the broader electoral environment. The piece examines how the tech sector is positioning itself to shape how AI is regulated and used in campaigns.</description>
-    </item>
-    <item>
-      <title>AI Companies Are Trying to Seize Control of Elections</title>
-      <link>https://futurism.com/artificial-intelligence/ai-companies-elections-midterms</link>
-      <guid isPermaLink="false">58d270d32c71f1da</guid>
-      <pubDate>2026-06-23</pubDate>
-      <description>Futurism covers the broader pattern of AI companies attempting to exert influence over the 2026 midterm election cycle through lobbying, political donations, and direct engagement with candidates and policymakers. The piece frames this as an industry-wide push to shape the regulatory and political landscape.</description>
-    </item>
-    <item>
-      <title>This Democratic Primary Will Test if Voters Care About AI</title>
-      <link>https://notus.org/2026-election/alex-bores-artificial-intelligence-primary</link>
-      <guid isPermaLink="false">c70d2308eed1f7db</guid>
-      <pubDate>2026-06-23</pubDate>
-      <description>A New York Democratic congressional primary featured a candidate who built his campaign around AI policy expertise, making the race a real-world test of whether voters reward candidates who center artificial intelligence as a political issue. The outcome offered early data on AI's salience as a campaign issue.</description>
     </item>
   </channel>
 </rss>

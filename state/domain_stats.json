@@ -91,18 +91,18 @@
     "last_seen": "2026-07-08"
   },
   "fish.dog": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
       "https://fish.dog/news/aaru-ai-review-2026-the-prediction-startup-and-where-it-fits"
     ],
-    "last_seen": "2026-07-05"
+    "last_seen": "2026-07-12"
   },
   "fortune.com": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
       "https://fortune.com/2026/06/17/aaru-cofounder-ned-koh-ai-startup-sales-pitch-do-not-trust-us"
     ],
-    "last_seen": "2026-07-05"
+    "last_seen": "2026-07-12"
   },
   "globenewswire.com": {
     "count": 1,
@@ -148,6 +148,13 @@
     ],
     "last_seen": "2026-07-10"
   },
+  "npr.org": {
+    "count": 1,
+    "example_urls": [
+      "https://npr.org/2026/07/12/nx-s1-5867763/ai-artificial-intelligence-data-texts-bots-voters-campaigns"
+    ],
+    "last_seen": "2026-07-12"
+  },
   "podcasts.apple.com": {
     "count": 1,
     "example_urls": [
@@ -161,6 +168,13 @@
       "https://profilenews.com/en/ai-in-global-elections-2026-explainer"
     ],
     "last_seen": "2026-06-30"
+  },
+  "research-live.com": {
+    "count": 1,
+    "example_urls": [
+      "https://research-live.com/article/news/l2-and-stackadapt-agree-integration-/id/5130763"
+    ],
+    "last_seen": "2026-07-12"
   },
   "roborhythms.com": {
     "count": 1,
@@ -212,11 +226,11 @@
     "last_seen": "2026-07-10"
   },
   "theconnector.substack.com": {
-    "count": 2,
+    "count": 3,
     "example_urls": [
       "https://theconnector.substack.com/p/why-are-we-still-living-with-vanxiety"
     ],
-    "last_seen": "2026-07-05"
+    "last_seen": "2026-07-12"
   },
   "thesciencesurvey.com": {
     "count": 1,
