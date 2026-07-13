@@ -38,26 +38,6 @@
           }
         },
         {
-          "id": "9438fb6bfaa2f107",
-          "title": "L2 and StackAdapt agree integration",
-          "url": "https://research-live.com/article/news/l2-and-stackadapt-agree-integration-/id/5130763",
-          "source": "Research Live",
-          "source_domain": "research-live.com",
-          "published": "2026-07-12",
-          "first_seen_run": "2026-07-12",
-          "category": "vendor_moves",
-          "summary": "Voter and consumer data company L2 has integrated with programmatic advertising platform StackAdapt, allowing political advertisers to build and activate voter audience segments within a single day rather than through multi-step data transfers. The deal is aimed at accelerating targeted digital ad delivery for political campaigns.",
-          "why_it_matters": "The L2-StackAdapt integration compresses the time between voter data sourcing and ad activation, which could meaningfully change the speed and precision of microtargeting in the 2026 cycle.",
-          "flags": [
-            "vendor_self_reported"
-          ],
-          "discovery": {
-            "method": "watchlist",
-            "source_ref": "entity:l2",
-            "confidence": "medium"
-          }
-        },
-        {
           "id": "d1050b8493a91d36",
           "title": "21-year-old AI startup cofounder's sales pitch to clients: 'Do not trust us'",
           "url": "https://fortune.com/2026/06/17/aaru-cofounder-ned-koh-ai-startup-sales-pitch-do-not-trust-us",

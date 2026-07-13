@@ -3,20 +3,13 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Mon, 13 Jul 2026 14:46:51 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 16:37:39 GMT</lastBuildDate>
     <item>
       <title>Getting campaign text messages ahead of midterms? There could be an AI bot behind it</title>
       <link>https://npr.org/2026/07/12/nx-s1-5867763/ai-artificial-intelligence-data-texts-bots-voters-campaigns</link>
       <guid isPermaLink="false">c09238465bc8ada4</guid>
       <pubDate>2026-07-12</pubDate>
       <description>NPR reports that campaigns are using AI bots to send and manage political text messages to voters ahead of the 2026 midterms, with the practice spreading across multiple campaign operations. The piece examines how automated conversational AI is replacing or supplementing human texters in voter contact programs.</description>
-    </item>
-    <item>
-      <title>L2 and StackAdapt agree integration</title>
-      <link>https://research-live.com/article/news/l2-and-stackadapt-agree-integration-/id/5130763</link>
-      <guid isPermaLink="false">9438fb6bfaa2f107</guid>
-      <pubDate>2026-07-12</pubDate>
-      <description>Voter and consumer data company L2 has integrated with programmatic advertising platform StackAdapt, allowing political advertisers to build and activate voter audience segments within a single day rather than through multi-step data transfers. The deal is aimed at accelerating targeted digital ad delivery for political campaigns.</description>
     </item>
     <item>
       <title>21-year-old AI startup cofounder's sales pitch to clients: 'Do not trust us'</title>
@@ -213,6 +206,13 @@
       <guid isPermaLink="false">9fc3aa65b4dc558d</guid>
       <pubDate>2026-06-23</pubDate>
       <description>The Senate Judiciary Committee passed the NO FAKES Act by unanimous vote, advancing federal legislation that would create a right of publicity against unauthorized AI-generated replicas of a person's name, image, likeness, or voice.</description>
+    </item>
+    <item>
+      <title>No Fakes Act Clears Senate Judiciary Committee</title>
+      <link>https://deadline.com/2026/06/no-fakes-act-senate-judiciary-committee-1236959147</link>
+      <guid isPermaLink="false">01a59f2b80a6d103</guid>
+      <pubDate>2026-06-18</pubDate>
+      <description>Deadline covers the Senate Judiciary Committee's approval of the NO FAKES Act, noting its implications for AI-generated content across entertainment and political contexts.</description>
     </item>
   </channel>
 </rss>
