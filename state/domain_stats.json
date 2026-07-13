@@ -62,6 +62,13 @@
     ],
     "last_seen": "2026-07-10"
   },
+  "cnn.com": {
+    "count": 1,
+    "example_urls": [
+      "https://cnn.com/2026/06/01/politics/video/cnn-sitroom-pamela-brown-hillary-lehr-quiller-decoding-ai-artificial-intelligence-political-ads"
+    ],
+    "last_seen": "2026-07-13"
+  },
   "electrictwin.com": {
     "count": 1,
     "example_urls": [
@@ -111,6 +118,13 @@
     ],
     "last_seen": "2026-07-09"
   },
+  "governing.com": {
+    "count": 1,
+    "example_urls": [
+      "https://governing.com/politics/ai-moves-from-campaign-tool-to-campaign-issue"
+    ],
+    "last_seen": "2026-07-13"
+  },
   "houstonpublicmedia.org": {
     "count": 1,
     "example_urls": [
@@ -126,12 +140,12 @@
     "last_seen": "2026-07-05"
   },
   "l2-data.com": {
-    "count": 6,
+    "count": 7,
     "example_urls": [
       "https://l2-data.com/blog",
       "https://l2-data.com/liveramp-and-beyond-onboarding-with-l2-in-2026"
     ],
-    "last_seen": "2026-07-09"
+    "last_seen": "2026-07-13"
   },
   "natesilver.net": {
     "count": 1,
