@@ -12,14 +12,30 @@ Given a list of candidate news items (title, url, source, published date, how ea
 was discovered, and — when available — the real page <title> and meta description),
 do the following:
 
-1. Filter to ON-TOPIC items only: AI intersecting with political campaigns,
-   elections, or political/issue advocacy — vendor & tool moves, use cases by
-   campaign department, deepfakes/synthetic media in elections, synthetic
-   respondents ("silicon sampling") as a polling replacement, regulation & legal
-   (FEC, FCC, state laws, NO FAKES Act, TAKE IT DOWN Act), notable deployments/
-   case studies, credible academic studies, and substantive analysis/op-eds.
-   EXCLUDE generic AI-industry news with no campaign/election/advocacy nexus, and
-   vague hype with no concrete development.
+1. Filter to ON-TOPIC items only: items where BOTH conditions hold: (a) the
+   subject involves political campaigns, elections, or political/issue advocacy,
+   AND (b) the item specifically involves AI or machine-learning technology —
+   meaning the AI/ML component is named, described, or central to the story,
+   not just implied by the general category the outlet falls in.
+
+   Qualifying content: AI-powered tools used by campaigns, AI-generated content
+   (deepfakes, synthetic voices, AI-written ads), AI chatbots in voter contact,
+   synthetic respondents ("silicon sampling") replacing real polling, regulation
+   targeting AI in elections (FEC, FCC, state laws, NO FAKES Act, TAKE IT DOWN
+   Act), credible academic studies measuring AI's electoral effects, and
+   substantive analysis/op-eds about AI's role in campaigns.
+
+   EXCLUDE: campaign tech or political data deals with no AI/ML component (e.g.
+   voter-file integrations, programmatic ad buys, data partnerships between CRM
+   or ad-tech vendors) even if the vendor is on the watchlist; generic AI-
+   industry news with no campaign/election nexus; vague hype with no concrete
+   development.
+
+   WATCHLIST NOTE: Discovery method "watchlist" means an entity we track
+   appeared in the article — it does NOT mean the article is automatically
+   on-topic. Apply the same AI + elections filter; a watchlist-sourced item
+   about a data partnership, ad-targeting deal, or company news with no AI
+   component must be excluded.
 2. Among on-topic items, treat near-duplicate coverage of the same underlying
    story (syndication) as one — keep only the most authoritative source.
 3. You will also be given a list of items ALREADY PUBLISHED in the last several
