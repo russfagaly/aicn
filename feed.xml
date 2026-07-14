@@ -3,7 +3,14 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Mon, 13 Jul 2026 16:37:39 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 13:54:03 GMT</lastBuildDate>
+    <item>
+      <title>NO FAKES Act gains Senate Judiciary Committee approval</title>
+      <link>https://washingtoninformer.com/senate-judiciary-committee-ai</link>
+      <guid isPermaLink="false">7b5f3d79e858df9b</guid>
+      <pubDate>2026-07-13</pubDate>
+      <description>The Senate Judiciary Committee approved the NO FAKES Act, advancing the bill — which would protect individuals against unauthorized AI-generated digital replicas — to the full Senate for consideration. The Recording Academy has expressed support for the legislation.</description>
+    </item>
     <item>
       <title>Getting campaign text messages ahead of midterms? There could be an AI bot behind it</title>
       <link>https://npr.org/2026/07/12/nx-s1-5867763/ai-artificial-intelligence-data-texts-bots-voters-campaigns</link>
@@ -206,13 +213,6 @@
       <guid isPermaLink="false">9fc3aa65b4dc558d</guid>
       <pubDate>2026-06-23</pubDate>
       <description>The Senate Judiciary Committee passed the NO FAKES Act by unanimous vote, advancing federal legislation that would create a right of publicity against unauthorized AI-generated replicas of a person's name, image, likeness, or voice.</description>
-    </item>
-    <item>
-      <title>No Fakes Act Clears Senate Judiciary Committee</title>
-      <link>https://deadline.com/2026/06/no-fakes-act-senate-judiciary-committee-1236959147</link>
-      <guid isPermaLink="false">01a59f2b80a6d103</guid>
-      <pubDate>2026-06-18</pubDate>
-      <description>Deadline covers the Senate Judiciary Committee's approval of the NO FAKES Act, noting its implications for AI-generated content across entertainment and political contexts.</description>
     </item>
   </channel>
 </rss>

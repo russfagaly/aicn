@@ -1,7 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-13T14:46:51Z",
+  "generated_at": "2026-07-14T13:54:03Z",
   "runs": [
+    {
+      "run_id": "2026-07-14",
+      "date": "2026-07-14",
+      "generated_at": "2026-07-14T13:54:03Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 1,
+      "items": [
+        {
+          "id": "7b5f3d79e858df9b",
+          "title": "NO FAKES Act gains Senate Judiciary Committee approval",
+          "url": "https://washingtoninformer.com/senate-judiciary-committee-ai",
+          "source": "The Washington Informer",
+          "source_domain": "washingtoninformer.com",
+          "published": "2026-07-13",
+          "first_seen_run": "2026-07-14",
+          "category": "regulation",
+          "summary": "The Senate Judiciary Committee approved the NO FAKES Act, advancing the bill \u2014 which would protect individuals against unauthorized AI-generated digital replicas \u2014 to the full Senate for consideration. The Recording Academy has expressed support for the legislation.",
+          "why_it_matters": "Committee passage marks a significant procedural step toward federal statutory protection against AI-generated likenesses, with direct implications for political deepfakes.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:no-fakes-act",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-07-13",
       "date": "2026-07-13",
