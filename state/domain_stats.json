@@ -27,6 +27,13 @@
     ],
     "last_seen": "2026-07-14"
   },
+  "billboard.com": {
+    "count": 1,
+    "example_urls": [
+      "https://billboard.com/pro/ai-deepfakes-bill-no-fakes-reintroduced-congress-again"
+    ],
+    "last_seen": "2026-07-15"
+  },
   "biometricupdate.com": {
     "count": 1,
     "example_urls": [
@@ -35,11 +42,12 @@
     "last_seen": "2026-07-02"
   },
   "blackburn.senate.gov": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
-      "https://blackburn.senate.gov/2026/5/technology/blackburn-coons-salazar-dean-colleagues-introduce-revised-version-of-no-fakes-act"
+      "https://blackburn.senate.gov/2026/5/technology/blackburn-coons-salazar-dean-colleagues-introduce-revised-version-of-no-fakes-act",
+      "https://blackburn.senate.gov/2026/6/blackburn-coons-bipartisan-bill-to-protect-individuals-and-creators-from-deepfakes-passes-senate-judiciary-committee"
     ],
-    "last_seen": "2026-07-07"
+    "last_seen": "2026-07-15"
   },
   "campaignnow.com": {
     "count": 1,
@@ -75,6 +83,20 @@
       "https://cnn.com/2026/06/01/politics/video/cnn-sitroom-pamela-brown-hillary-lehr-quiller-decoding-ai-artificial-intelligence-political-ads"
     ],
     "last_seen": "2026-07-13"
+  },
+  "cyberscoop.com": {
+    "count": 1,
+    "example_urls": [
+      "https://cyberscoop.com/congress-tees-up-no-fakes-act-aiming-at-ai-generated-deepfakes"
+    ],
+    "last_seen": "2026-07-15"
+  },
+  "dean.house.gov": {
+    "count": 1,
+    "example_urls": [
+      "https://dean.house.gov/2026/5/dean-salazar-reintroduce-bill-to-protect-americans-from-ai-deepfakes"
+    ],
+    "last_seen": "2026-07-15"
   },
   "electrictwin.com": {
     "count": 1,
@@ -204,6 +226,13 @@
     ],
     "last_seen": "2026-07-02"
   },
+  "rollcall.com": {
+    "count": 1,
+    "example_urls": [
+      "https://rollcall.com/2026/06/18/ai-deepfakes-bill-advanced-by-senate-judiciary-committee"
+    ],
+    "last_seen": "2026-07-15"
+  },
   "salazar.house.gov": {
     "count": 2,
     "example_urls": [
@@ -284,5 +313,19 @@
       "https://usnews.com/news/politics/articles/2026-03-28/ai-deepfakes-blur-reality-in-2026-us-midterm-campaigns"
     ],
     "last_seen": "2026-07-06"
+  },
+  "variety.com": {
+    "count": 1,
+    "example_urls": [
+      "https://variety.com/2026/biz/news/sag-aftra-letter-congress-pass-no-fakes-act-1236783056"
+    ],
+    "last_seen": "2026-07-15"
+  },
+  "videomaker.com": {
+    "count": 1,
+    "example_urls": [
+      "https://videomaker.com/news/no-fakes-act-returns-to-target-deepfakes"
+    ],
+    "last_seen": "2026-07-15"
   }
 }

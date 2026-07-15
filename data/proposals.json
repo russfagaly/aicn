@@ -196,6 +196,18 @@
       ],
       "first_proposed": "2026-07-12",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-middle-seat",
+      "kind": "watchlist_entity",
+      "value": "Middle Seat",
+      "feed_url": null,
+      "rationale": "A Democratic political consulting firm founded by Bernie Sanders campaign veterans, described as rising to prominence via progressive socialist wins \u2014 worth tracking as a potential adopter or reseller of AI campaign tools on the left.",
+      "example_urls": [
+        "https://www.notus.org/2026-election/middle-seat-firm-democrats"
+      ],
+      "first_proposed": "2026-07-15",
+      "status": "pending"
     }
   ]
 }

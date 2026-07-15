@@ -1,7 +1,91 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-14T13:54:03Z",
+  "generated_at": "2026-07-15T13:52:21Z",
   "runs": [
+    {
+      "run_id": "2026-07-15",
+      "date": "2026-07-15",
+      "generated_at": "2026-07-15T13:52:21Z",
+      "is_light_run": false,
+      "top_summary": "Higher Ground Labs published a post-California-primary debrief declaring 2026 the 'first true AI election,' cataloguing how AI tools performed across the crowded June gubernatorial and mayoral contests. Separately, Sanders-aligned progressives are organizing grassroots opposition to AI data center expansion into a political cause, with New York Gov. Kathy Hochul's one-year statewide moratorium on new data centers serving as a high-profile signal of mainstream political resistance to unchecked AI infrastructure growth.",
+      "item_count": 4,
+      "items": [
+        {
+          "id": "28d8c1e0d411a10b",
+          "title": "The First AI Midterms: Early Signals from California",
+          "url": "https://highergroundlabs.com/the-first-ai-midterms-early-signals-from-california",
+          "source": "Higher Ground Labs (blog)",
+          "source_domain": "highergroundlabs.com",
+          "published": "2026-07-14",
+          "first_seen_run": "2026-07-15",
+          "category": "deployments_studies",
+          "summary": "Higher Ground Labs published a debrief of AI tool use across California's June 2026 primary \u2014 covering the governor's race, the Los Angeles mayoral contest, and down-ballot races \u2014 framing the cycle as the first major stress test of AI in American electoral politics. The piece draws early operational lessons for campaigns deploying AI in the 2026 midterms.",
+          "why_it_matters": "A leading progressive political-tech incubator's field-level assessment of how AI performed in a high-profile primary provides one of the first practitioner-sourced data points on AI campaign deployment at scale in 2026.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "higher-ground-labs",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "16d49ab19592024e",
+          "title": "Sanders-backed progressives try to make AI the new AIPAC",
+          "url": "https://semafor.com/article/07/14/2026/sanders-backed-progressives-try-to-make-ai-the-new-aipac",
+          "source": "Semafor",
+          "source_domain": "semafor.com",
+          "published": "2026-07-14",
+          "first_seen_run": "2026-07-15",
+          "category": "analysis_oped",
+          "summary": "Semafor reports that Sanders-aligned progressive organizers are working to build a grassroots political movement opposing AI data center expansion, drawing an explicit parallel to single-issue advocacy campaigns, with New York Gov. Kathy Hochul's data center moratorium cited as evidence the effort is gaining mainstream political traction.",
+          "why_it_matters": "AI infrastructure is becoming a direct campaign-trail issue in governor's races, meaning opposition to AI development is now shaping candidate positioning and electoral strategy, not just regulatory debates.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:semafor",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "82d108012c0d76de",
+          "title": "Data center backlash puts candidates in governor races in a bind",
+          "url": "https://thehill.com/policy/technology/5963542-data-centers-become-flashpoint-in-gubernatorial-races",
+          "source": "The Hill",
+          "source_domain": "thehill.com",
+          "published": "2026-07-13",
+          "first_seen_run": "2026-07-15",
+          "category": "analysis_oped",
+          "summary": "The Hill reports that data center proliferation \u2014 driven by AI demand \u2014 has become a divisive issue in multiple 2026 gubernatorial races, forcing candidates to navigate constituent concerns about energy use, land use, and the pace of AI expansion.",
+          "why_it_matters": "AI infrastructure is emerging as a direct electoral flashpoint, with candidates in governor's races facing organized constituent pressure that could influence both campaign messaging and post-election AI policy.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:the-hill",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "02131bded66923d3",
+          "title": "DOGE Used AI for Housing Policy. The Government Won\u2019t Say How",
+          "url": "https://wired.com/story/doge-deployed-ai-housing-policy",
+          "source": "Wired (Politics)",
+          "source_domain": "wired.com",
+          "published": "2026-07-14",
+          "first_seen_run": "2026-07-15",
+          "category": "deployments_studies",
+          "summary": "Wired reports that DOGE used AI tools to shape federal housing policy but the Department of Housing and Urban Development has withheld documents about that use in response to a public records request, in part by citing a legal privilege that Wired says does not exist.",
+          "why_it_matters": "Opaque AI use by a politically prominent government entity in policy-making \u2014 combined with stonewalled public records requests \u2014 raises accountability questions relevant to AI's role in governance and elections oversight.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "wired-politics",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-07-14",
       "date": "2026-07-14",

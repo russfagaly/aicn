@@ -3,7 +3,35 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Tue, 14 Jul 2026 13:54:03 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 13:52:21 GMT</lastBuildDate>
+    <item>
+      <title>The First AI Midterms: Early Signals from California</title>
+      <link>https://highergroundlabs.com/the-first-ai-midterms-early-signals-from-california</link>
+      <guid isPermaLink="false">28d8c1e0d411a10b</guid>
+      <pubDate>2026-07-14</pubDate>
+      <description>Higher Ground Labs published a debrief of AI tool use across California's June 2026 primary — covering the governor's race, the Los Angeles mayoral contest, and down-ballot races — framing the cycle as the first major stress test of AI in American electoral politics. The piece draws early operational lessons for campaigns deploying AI in the 2026 midterms.</description>
+    </item>
+    <item>
+      <title>Sanders-backed progressives try to make AI the new AIPAC</title>
+      <link>https://semafor.com/article/07/14/2026/sanders-backed-progressives-try-to-make-ai-the-new-aipac</link>
+      <guid isPermaLink="false">16d49ab19592024e</guid>
+      <pubDate>2026-07-14</pubDate>
+      <description>Semafor reports that Sanders-aligned progressive organizers are working to build a grassroots political movement opposing AI data center expansion, drawing an explicit parallel to single-issue advocacy campaigns, with New York Gov. Kathy Hochul's data center moratorium cited as evidence the effort is gaining mainstream political traction.</description>
+    </item>
+    <item>
+      <title>Data center backlash puts candidates in governor races in a bind</title>
+      <link>https://thehill.com/policy/technology/5963542-data-centers-become-flashpoint-in-gubernatorial-races</link>
+      <guid isPermaLink="false">82d108012c0d76de</guid>
+      <pubDate>2026-07-13</pubDate>
+      <description>The Hill reports that data center proliferation — driven by AI demand — has become a divisive issue in multiple 2026 gubernatorial races, forcing candidates to navigate constituent concerns about energy use, land use, and the pace of AI expansion.</description>
+    </item>
+    <item>
+      <title>DOGE Used AI for Housing Policy. The Government Won’t Say How</title>
+      <link>https://wired.com/story/doge-deployed-ai-housing-policy</link>
+      <guid isPermaLink="false">02131bded66923d3</guid>
+      <pubDate>2026-07-14</pubDate>
+      <description>Wired reports that DOGE used AI tools to shape federal housing policy but the Department of Housing and Urban Development has withheld documents about that use in response to a public records request, in part by citing a legal privilege that Wired says does not exist.</description>
+    </item>
     <item>
       <title>NO FAKES Act gains Senate Judiciary Committee approval</title>
       <link>https://washingtoninformer.com/senate-judiciary-committee-ai</link>
@@ -185,34 +213,6 @@
       <guid isPermaLink="false">09730af6aa33f066</guid>
       <pubDate>2025-12-16</pubDate>
       <description>NGP VAN announced two new AI-assisted fundraising features — Donor Target Scores and Donor Target Reports — designed to help campaigns prioritize outreach to likely donors using predictive modeling.</description>
-    </item>
-    <item>
-      <title>Nexxen partners with L2 Data to launch voter targeting tool</title>
-      <link>https://investing.com/news/company-news/nexxen-partners-with-l2-data-to-launch-voter-targeting-tool-93CH-4750007</link>
-      <guid isPermaLink="false">53dbff33a7d2cf4f</guid>
-      <pubDate>2026-06-19</pubDate>
-      <description>Ad-tech company Nexxen has partnered with political data firm L2 to launch a voter targeting tool, enabling campaigns and political advertisers to reach audiences matched against L2's voter file data.</description>
-    </item>
-    <item>
-      <title>AI and tech are trying to influence the midterm elections</title>
-      <link>https://npr.org/2026/06/22/nx-s1-5856359/ai-anthropic-congress-spending-openai-midterms-election</link>
-      <guid isPermaLink="false">4f8141622cb7278c</guid>
-      <pubDate>2026-06-22</pubDate>
-      <description>NPR reports that major AI companies, including Anthropic and OpenAI, are actively spending and lobbying to influence how their tools are used in the 2026 midterm elections, with congressional outreach and campaign-facing deployments under scrutiny.</description>
-    </item>
-    <item>
-      <title>AI Companies Are Trying to Seize Control of Elections</title>
-      <link>https://futurism.com/artificial-intelligence/ai-companies-elections-midterms</link>
-      <guid isPermaLink="false">58d270d32c71f1da</guid>
-      <pubDate>2026-06-23</pubDate>
-      <description>Futurism argues that AI companies are positioning themselves to exert significant influence over the 2026 midterms through campaign tools, data products, and political relationships, framing this as a structural threat to electoral integrity.</description>
-    </item>
-    <item>
-      <title>Senate Judiciary advances NO FAKES Act on unanimous vote</title>
-      <link>https://spglobal.com/market-intelligence/en/news-insights/articles/2026/6/senate-judiciary-advances-no-fakes-act-on-unanimous-vote-103007539</link>
-      <guid isPermaLink="false">9fc3aa65b4dc558d</guid>
-      <pubDate>2026-06-23</pubDate>
-      <description>The Senate Judiciary Committee passed the NO FAKES Act by unanimous vote, advancing federal legislation that would create a right of publicity against unauthorized AI-generated replicas of a person's name, image, likeness, or voice.</description>
     </item>
   </channel>
 </rss>
