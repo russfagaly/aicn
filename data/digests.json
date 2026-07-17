@@ -1,7 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-16T14:03:17Z",
+  "generated_at": "2026-07-17T13:48:43Z",
   "runs": [
+    {
+      "run_id": "2026-07-17",
+      "date": "2026-07-17",
+      "generated_at": "2026-07-17T13:48:43Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
     {
       "run_id": "2026-07-16",
       "date": "2026-07-16",
