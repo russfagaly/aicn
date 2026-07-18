@@ -3,7 +3,28 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Fri, 17 Jul 2026 13:48:43 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 13:25:10 GMT</lastBuildDate>
+    <item>
+      <title>AI safety group's $15 million GOP play</title>
+      <link>https://punchbowl.news/article/tech/anthropic-gop-play</link>
+      <guid isPermaLink="false">dcbf711dcecd7bb9</guid>
+      <pubDate>2026-07-18</pubDate>
+      <description>Public First Action, an AI safety advocacy group, announced it will spend $15 million in July 2026 to run ads highlighting 16 congressional Republicans for their work on artificial intelligence safety, turning AI policy into an explicit electoral issue.</description>
+    </item>
+    <item>
+      <title>AI Moves From Campaign Tool to Campaign Issue</title>
+      <link>https://governing.com/politics/ai-moves-from-campaign-tool-to-campaign-issue</link>
+      <guid isPermaLink="false">a24e1bd949cac563</guid>
+      <pubDate>2026-07-11</pubDate>
+      <description>Governing reports that AI is now reshaping 2026 campaigns on two fronts simultaneously: campaigns are deploying AI operationally, while AI policy itself has emerged as a voter-facing issue candidates must address.</description>
+    </item>
+    <item>
+      <title>Tech: Cruz approaches AI's make-or-break month</title>
+      <link>https://punchbowl.news/article/tech/cruz-make-or-break-ai</link>
+      <guid isPermaLink="false">1778b52e0bb4d03e</guid>
+      <pubDate>2026-07-12</pubDate>
+      <description>Punchbowl News reports that Senate Commerce Committee Chairman Ted Cruz faces a make-or-break window of several weeks to move federal AI legislation forward, with the alternative being a delay until the 120th Congress.</description>
+    </item>
     <item>
       <title>The First AI Midterms: Early Signals from California</title>
       <link>https://highergroundlabs.com/the-first-ai-midterms-early-signals-from-california</link>
@@ -192,27 +213,6 @@
       <guid isPermaLink="false">ef08f47c1d23b5ee</guid>
       <pubDate>2026-06-29</pubDate>
       <description>Sunrise Movement cofounder Will Lawrence is running for a Michigan swing-district congressional seat with a call for a data center moratorium as a central campaign issue, reflecting grassroots opposition to AI infrastructure development entering electoral politics.</description>
-    </item>
-    <item>
-      <title>Senate Committee Advances Bill to Protect Name, Image, Likeness and Voice Against Unauthorized AI Use</title>
-      <link>https://hklaw.com/en/insights/publications/2026/06/senate-judiciary-committee-advances-legislation-to-protect-name</link>
-      <guid isPermaLink="false">71d3197e1e09756c</guid>
-      <pubDate>2026-06-22</pubDate>
-      <description>The Senate Judiciary Committee advanced the NO FAKES Act, legislation that would create a federal right protecting individuals' name, image, likeness, and voice from unauthorized AI-generated reproductions. The Holland &amp; Knight analysis summarizes the bill's key provisions as it moves toward a full Senate vote.</description>
-    </item>
-    <item>
-      <title>NO FAKES Act clears Senate panel; judge blocks SNAP soda and candy limits; quantum math sharpens cancer AI — Morning Medical Update</title>
-      <link>https://medicaleconomics.com/view/no-fakes-act-clears-senate-panel-judge-blocks-snap-soda-and-candy-limits-quantum-math-sharpens-cancer-ai-morning-medical-update</link>
-      <guid isPermaLink="false">3d15f9673417a3ce</guid>
-      <pubDate>2026-06-25</pubDate>
-      <description>A morning news roundup notes that the NO FAKES Act cleared its Senate panel, confirming the committee advancement reported in more detail elsewhere.</description>
-    </item>
-    <item>
-      <title>NGP VAN Announces New AI-Assisted Fundraising Tools: Donor Target Scores and Donor Target Reports</title>
-      <link>https://ngpvan.com/blog/were-in-it-for-the-long-haul</link>
-      <guid isPermaLink="false">09730af6aa33f066</guid>
-      <pubDate>2025-12-16</pubDate>
-      <description>NGP VAN announced two new AI-assisted fundraising features — Donor Target Scores and Donor Target Reports — designed to help campaigns prioritize outreach to likely donors using predictive modeling.</description>
     </item>
   </channel>
 </rss>

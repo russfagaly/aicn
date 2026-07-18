@@ -208,6 +208,18 @@
       ],
       "first_proposed": "2026-07-15",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-public-first-action",
+      "kind": "watchlist_entity",
+      "value": "Public First Action",
+      "feed_url": null,
+      "rationale": "An AI safety advocacy group spending $15 million on congressional races to reward lawmakers for AI safety positions \u2014 a niche issue-advocacy player newly entering the electoral space at scale.",
+      "example_urls": [
+        "https://punchbowl.news/article/tech/anthropic-gop-play/"
+      ],
+      "first_proposed": "2026-07-18",
+      "status": "pending"
     }
   ]
 }

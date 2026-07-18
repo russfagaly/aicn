@@ -1,7 +1,71 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-17T13:48:43Z",
+  "generated_at": "2026-07-18T13:25:10Z",
   "runs": [
+    {
+      "run_id": "2026-07-18",
+      "date": "2026-07-18",
+      "generated_at": "2026-07-18T13:25:10Z",
+      "is_light_run": false,
+      "top_summary": "Public First Action, an AI safety group, announced a $15 million ad campaign this month spotlighting 16 congressional Republicans for their work on AI safety \u2014 a notable move to make AI policy a direct electoral issue. A Governing analysis finds AI has simultaneously become both a campaign tool and a defining campaign issue at every level of government heading into the 2026 midterms. Meanwhile, Senate Commerce Committee Chairman Ted Cruz faces a critical window in the coming weeks to advance federal AI legislation or push the effort to the next Congress.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "dcbf711dcecd7bb9",
+          "title": "AI safety group's $15 million GOP play",
+          "url": "https://punchbowl.news/article/tech/anthropic-gop-play",
+          "source": "Punchbowl News",
+          "source_domain": "punchbowl.news",
+          "published": "2026-07-18",
+          "first_seen_run": "2026-07-18",
+          "category": "analysis_oped",
+          "summary": "Public First Action, an AI safety advocacy group, announced it will spend $15 million in July 2026 to run ads highlighting 16 congressional Republicans for their work on artificial intelligence safety, turning AI policy into an explicit electoral issue.",
+          "why_it_matters": "A seven-figure outside-spending campaign explicitly rewarding lawmakers for AI safety positions marks a new phase in AI becoming a durable issue-advocacy battlefield, not just a campaign tool.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:punchbowl",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "a24e1bd949cac563",
+          "title": "AI Moves From Campaign Tool to Campaign Issue",
+          "url": "https://governing.com/politics/ai-moves-from-campaign-tool-to-campaign-issue",
+          "source": "Governing",
+          "source_domain": "governing.com",
+          "published": "2026-07-11",
+          "first_seen_run": "2026-07-18",
+          "category": "analysis_oped",
+          "summary": "Governing reports that AI is now reshaping 2026 campaigns on two fronts simultaneously: campaigns are deploying AI operationally, while AI policy itself has emerged as a voter-facing issue candidates must address.",
+          "why_it_matters": "The dual role of AI \u2014 as both a campaign instrument and a ballot-box issue \u2014 signals a maturation of the technology's political salience heading into the midterms.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "1778b52e0bb4d03e",
+          "title": "Tech: Cruz approaches AI's make-or-break month",
+          "url": "https://punchbowl.news/article/tech/cruz-make-or-break-ai",
+          "source": "Punchbowl News",
+          "source_domain": "punchbowl.news",
+          "published": "2026-07-12",
+          "first_seen_run": "2026-07-18",
+          "category": "regulation",
+          "summary": "Punchbowl News reports that Senate Commerce Committee Chairman Ted Cruz faces a make-or-break window of several weeks to move federal AI legislation forward, with the alternative being a delay until the 120th Congress.",
+          "why_it_matters": "The outcome of Cruz's legislative push will determine whether federal AI rules \u2014 including any election-related provisions \u2014 take shape in this Congress or get pushed past the 2026 midterms.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:punchbowl",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-07-17",
       "date": "2026-07-17",
