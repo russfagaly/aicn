@@ -50,11 +50,11 @@
     "last_seen": "2026-07-15"
   },
   "campaignnow.com": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
       "https://campaignnow.com/blog/regulators-scramble-as-ai-deepfakes-flood-the-2026-midterms"
     ],
-    "last_seen": "2026-07-10"
+    "last_seen": "2026-07-19"
   },
   "cato.org": {
     "count": 1,
@@ -253,6 +253,13 @@
       "https://stackcyber.com/posts/ai-deepfake-laws"
     ],
     "last_seen": "2026-07-02"
+  },
+  "startupintros.com": {
+    "count": 1,
+    "example_urls": [
+      "https://startupintros.com/orgs/aaru"
+    ],
+    "last_seen": "2026-07-19"
   },
   "techbuzz.ai": {
     "count": 1,
