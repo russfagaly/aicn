@@ -108,6 +108,75 @@ of the candidate urls given to you. Do not include a url that wasn't in the
 candidate list."""
 
 
+# Structured-outputs schema: the API guarantees the response text is valid
+# JSON matching this shape, which removes the pipeline's only hard-abort path
+# (a curation response that fails regex JSON extraction). The system prompt
+# still describes the fields — the schema enforces shape, the prompt supplies
+# the semantics.
+_OUTPUT_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "is_light_run": {"type": "boolean"},
+        "top_summary": {"type": "string"},
+        "items": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "url": {"type": "string"},
+                    "category": {
+                        "type": "string",
+                        "enum": [
+                            "vendor_moves",
+                            "deepfakes",
+                            "polling_synthetic",
+                            "regulation",
+                            "deployments_studies",
+                            "analysis_oped",
+                        ],
+                    },
+                    "summary": {"type": "string"},
+                    "why_it_matters": {"type": "string"},
+                    "flags": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "enum": [
+                                "vendor_self_reported",
+                                "contested",
+                                "speculative",
+                                "paywalled",
+                            ],
+                        },
+                    },
+                },
+                "required": ["url", "category", "summary", "why_it_matters", "flags"],
+                "additionalProperties": False,
+            },
+        },
+        "new_entities": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {"type": "string"},
+                    "kind": {
+                        "type": "string",
+                        "enum": ["vendor", "person", "regulator", "legislation"],
+                    },
+                    "rationale": {"type": "string"},
+                    "example_url": {"type": "string"},
+                },
+                "required": ["name", "kind", "rationale", "example_url"],
+                "additionalProperties": False,
+            },
+        },
+    },
+    "required": ["is_light_run", "top_summary", "items", "new_entities"],
+    "additionalProperties": False,
+}
+
+
 def _extract_json_object(text: str):
     text = text.strip()
     fence = re.search(r"```(?:json)?\s*(\{.*?\})\s*```", text, re.S)
@@ -161,6 +230,7 @@ def curate_items(client, model: str, candidates: list, recent_published: list = 
             model=model,
             max_tokens=8000,
             system=_SYSTEM,
+            output_config={"format": {"type": "json_schema", "schema": _OUTPUT_SCHEMA}},
             messages=[{"role": "user", "content": user_message}],
         )
     except Exception as exc:
@@ -168,7 +238,12 @@ def curate_items(client, model: str, candidates: list, recent_published: list = 
 
     text_parts = [b.text for b in resp.content if getattr(b, "type", None) == "text"]
     full_text = "\n".join(text_parts)
-    parsed = _extract_json_object(full_text)
+    # Structured outputs guarantees valid JSON; keep the regex extractor as a
+    # belt-and-suspenders fallback (e.g. stop_reason=max_tokens truncation).
+    try:
+        parsed = json.loads(full_text)
+    except json.JSONDecodeError:
+        parsed = _extract_json_object(full_text)
 
     valid_urls = {c["url"] for c in candidates}
     if parsed and "items" in parsed:

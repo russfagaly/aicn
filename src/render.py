@@ -65,6 +65,15 @@ def _rss_escape(text: str) -> str:
     return saxutils.escape(text or "")
 
 
+def _rfc822_date(iso_date: str) -> str:
+    """RSS 2.0 requires RFC-822 pubDates; items carry ISO YYYY-MM-DD."""
+    try:
+        d = datetime.date.fromisoformat(iso_date)
+    except (TypeError, ValueError):
+        return iso_date or ""
+    return d.strftime("%a, %d %b %Y 00:00:00 GMT")
+
+
 def _render_feed_xml(runs: list) -> str:
     items_xml = []
     count = 0
@@ -77,7 +86,7 @@ def _render_feed_xml(runs: list) -> str:
                 f"      <title>{_rss_escape(item['title'])}</title>\n"
                 f"      <link>{_rss_escape(item['url'])}</link>\n"
                 f"      <guid isPermaLink=\"false\">{_rss_escape(item['id'])}</guid>\n"
-                f"      <pubDate>{_rss_escape(item['published'])}</pubDate>\n"
+                f"      <pubDate>{_rss_escape(_rfc822_date(item['published']))}</pubDate>\n"
                 f"      <description>{_rss_escape(item['summary'])}</description>\n"
                 "    </item>"
             )
@@ -182,11 +191,14 @@ def write_outputs(root: str, run_id: str, run_date, candidates_by_url: dict, cur
                 seen = json.load(f)
         seen_ids = set(seen.get("ids", []))
         seen_titles = set(seen.get("titles", []))
-        for item in new_run["items"]:
-            seen_ids.add(item["id"])
+        # Every candidate that reached the curator is marked seen — published
+        # or rejected. Each item gets exactly one judgment; without this,
+        # rejected items resurface from feeds/search for up to 7 days, get
+        # re-fetched and re-judged daily, and can flip to accepted late and
+        # publish as stale news.
         for cand in candidates_by_url.values():
-            if cand["_id"] in seen_ids:
-                seen_titles.add(cand["_normalized_title"])
+            seen_ids.add(cand["_id"])
+            seen_titles.add(cand["_normalized_title"])
         with open(seen_path, "w") as f:
             json.dump({"ids": sorted(seen_ids), "titles": sorted(seen_titles)}, f, indent=2)
 

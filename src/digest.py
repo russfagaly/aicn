@@ -214,11 +214,11 @@ def main():
     # Known domains = everything already in sources.yaml feeds + site_targets.yaml.
     known_domains: set[str] = set()
     for feed in sources.get("feeds", []):
-        host = urllib.parse.urlsplit(feed.get("url", "")).netloc.lstrip("www.")
+        host = urllib.parse.urlsplit(feed.get("url", "")).netloc.removeprefix("www.")
         if host:
             known_domains.add(host)
     for tgt in site_targets.get("targets", []):
-        domain = tgt.get("domain", "").lstrip("www.")
+        domain = tgt.get("domain", "").removeprefix("www.")
         if domain:
             known_domains.add(domain)
 

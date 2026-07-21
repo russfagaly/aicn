@@ -20,13 +20,6 @@
     ],
     "last_seen": "2026-07-11"
   },
-  "ashingtoninformer.com": {
-    "count": 1,
-    "example_urls": [
-      "https://washingtoninformer.com/senate-judiciary-committee-ai"
-    ],
-    "last_seen": "2026-07-14"
-  },
   "billboard.com": {
     "count": 1,
     "example_urls": [
@@ -341,5 +334,12 @@
       "https://videomaker.com/news/no-fakes-act-returns-to-target-deepfakes"
     ],
     "last_seen": "2026-07-15"
+  },
+  "washingtoninformer.com": {
+    "count": 1,
+    "example_urls": [
+      "https://washingtoninformer.com/senate-judiciary-committee-ai"
+    ],
+    "last_seen": "2026-07-14"
   }
 }

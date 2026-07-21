@@ -14,6 +14,8 @@ import re
 import urllib.parse
 import urllib.request
 
+from dedupe import _is_public_url, _opener
+
 _FEED_TYPES = re.compile(r"application/(rss|atom)\+xml", re.I)
 _FEED_LINK = re.compile(r"<link\s[^>]+>", re.I | re.S)
 _REL_ALT = re.compile(r"""rel=["']alternate["']""", re.I)
@@ -38,7 +40,7 @@ def update_domain_stats(stats: dict, candidates: list, known_domains: set, run_i
             host = urllib.parse.urlsplit(raw_url).netloc
         except Exception:
             continue
-        host = host.lstrip("www.")
+        host = host.removeprefix("www.")
         if not host or host in known_domains:
             continue
         entry = stats.setdefault(host, {"count": 0, "example_urls": [], "last_seen": ""})
@@ -56,9 +58,13 @@ def update_domain_stats(stats: dict, candidates: list, known_domains: set, run_i
 def _sniff_one(domain: str) -> tuple[str, str | None]:
     for scheme in ("https", "http"):
         url = f"{scheme}://{domain}/"
+        # Domains come from third-party candidate URLs — same SSRF guard as
+        # page-metadata fetching (public IPs only, redirects re-validated).
+        if not _is_public_url(url):
+            continue
         try:
             req = urllib.request.Request(url, headers={"User-Agent": _SNIFF_UA})
-            with urllib.request.urlopen(req, timeout=_SNIFF_TIMEOUT) as resp:
+            with _opener.open(req, timeout=_SNIFF_TIMEOUT) as resp:
                 if resp.status != 200:
                     continue
                 html = resp.read(200_000).decode("utf-8", errors="replace")

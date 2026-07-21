@@ -47,7 +47,7 @@ def gather_feed_items(feed_id: str, name: str, url: str, lookback_days: int = 7)
                 "title": title,
                 "url": link,
                 "source": name,
-                "source_domain": urllib.parse.urlsplit(link).netloc.replace("www.", ""),
+                "source_domain": urllib.parse.urlsplit(link).netloc.removeprefix("www."),
                 "published": pub.date().isoformat(),
                 "discovery": {"method": "feed", "source_ref": feed_id, "confidence": "high"},
             }
