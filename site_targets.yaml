@@ -3,20 +3,27 @@
 # These are large, high-volume mainstream outlets where AI-in-campaigns news
 # is real but low-density relative to their overall output — too much to
 # ingest as a full RSS feed, but too important to leave to chance on the
-# generic broad web_search pass alone. Each run, every target gets its own
-# `site:<domain>` search, same pattern as the entity watchlist.
+# generic broad web_search pass alone.
+#
+# 2026-07 restructure: all due targets are now covered by ONE consolidated
+# web_search call per run using the tool's allowed_domains parameter (see
+# gather_search.py), instead of one `site:<domain>` call each. 28 runs of
+# attribution data showed 7 of 11 targets produced zero published items, so
+# per-target calls were over-provisioned. The Downballot moved to sources.yaml
+# (it has a native RSS feed at the-downballot.com/feed — free beats paid).
+#
+# Removed 2026-07-21: politico.com and apnews.com — both block Anthropic's
+# crawler, so web_search could never excerpt their pages (allowed_domains
+# rejects them outright, and both produced zero published items in 28 runs of
+# the old per-site calls). Their stories reach us via syndication through the
+# broad search, GDELT, and feeds. gather_search.py also strips any domain the
+# API reports as crawler-blocked at runtime, in case others change policy.
 #
 # Source: tier (b) of the "Campaign News & Source Directory" mapping from the
 # 2026-06-30 planning session (ai_campaigns_digest_site_build_prompt.md).
-# cadence follows the same daily/weekly convention as watchlist.yaml — all
-# daily for now since the whole point is reliable coverage; revisit if cost
-# review (scheduled 2026-07-03) suggests otherwise.
+# cadence follows the same daily/weekly convention as watchlist.yaml.
 
 targets:
-  - id: politico
-    name: Politico
-    domain: politico.com
-    cadence: daily
   - id: axios
     name: Axios
     domain: axios.com
@@ -33,17 +40,9 @@ targets:
     name: Punchbowl News
     domain: punchbowl.news
     cadence: daily
-  - id: the-downballot
-    name: The Downballot
-    domain: the-downballot.com
-    cadence: daily
   - id: the-dispatch
     name: The Dispatch
     domain: thedispatch.com
-    cadence: daily
-  - id: ap
-    name: AP
-    domain: apnews.com
     cadence: daily
   - id: ai-campaign-stack
     name: AI Campaign Stack

@@ -1,19 +1,19 @@
 # AICN entity watchlist (Layer-3 hook, used in v1 as discovery.method = "watchlist").
-# Each entity becomes a search query each run. Seeded from the build plan's
-# vendor/regulator/legislation list, plus outlets that had no usable RSS feed
-# (see sources.yaml `unavailable`) and are covered here via search instead.
+# Each entity is covered by a grouped web_search call each run (~5 entities per
+# call — see gather_search.py). Seeded from the build plan's vendor/regulator/
+# legislation list, plus outlets that had no usable RSS feed (see sources.yaml
+# `unavailable`) and are covered here via search instead.
 #
 # cadence: "daily" runs every time; "weekly" runs once a week on `weekday`
-# (Monday=0 ... Sunday=6, per Python's date.weekday()). After the 2026-06-24
-# dry run, 4 of 26 entities actually surfaced anything (ngpvan-bonterra, l2,
-# no-fakes-act, transparency-coalition) — those stay daily. The other 22 were
-# zero-hit that run and were moved to weekly, spread round-robin across
-# weekdays, to cut search-call cost without dropping coverage entirely.
-# Revisit after a few more real runs — a weekly entity that starts surfacing
-# real items should move back to daily.
+# (Monday=0 ... Sunday=6, per Python's date.weekday()). The 2026-06/07 weekly
+# rotation existed purely to cap per-entity search cost; after the 2026-07
+# discovery restructure (grouped entity calls + Batch API), all-daily coverage
+# costs less than the old rotation did, so everything moved back to daily.
+# Attribution data supported this: weekly-rotated entities produced 5 published
+# items despite only 1-day-in-7 coverage. The cadence mechanism is kept in
+# case cost pressure ever returns.
 
 entities:
-  # --- daily: surfaced real items in the first dry run ---
   - id: ngpvan-bonterra
     name: NGP VAN / Bonterra
     kind: vendor
@@ -30,115 +30,91 @@ entities:
     name: Transparency Coalition
     kind: org_no_feed
     cadence: daily
-
-  # --- weekly: zero-hit in the first dry run, rotated to cut cost ---
   - id: quiller-grassroots
     name: Quiller / Grassroots Analytics
     kind: vendor
-    cadence: weekly
-    weekday: 0
+    cadence: daily
   - id: battlegroundai
     name: BattlegroundAI
     kind: vendor
-    cadence: weekly
-    weekday: 1
+    cadence: daily
   - id: chorus-ai
     name: Chorus AI
     kind: vendor
-    cadence: weekly
-    weekday: 2
+    cadence: daily
   - id: donoratlas
     name: DonorAtlas
     kind: vendor
-    cadence: weekly
-    weekday: 3
+    cadence: daily
   - id: rivalmind-ai
     name: RivalMind AI
     kind: vendor
-    cadence: weekly
-    weekday: 4
+    cadence: daily
   - id: civox
     name: Civox ("Ashley")
     kind: vendor
-    cadence: weekly
-    weekday: 5
+    cadence: daily
   - id: aaru
     name: Aaru
     kind: vendor
-    cadence: weekly
-    weekday: 6
+    cadence: daily
   - id: targetsmart
     name: TargetSmart
     kind: vendor
-    cadence: weekly
-    weekday: 0
+    cadence: daily
   - id: catalist
     name: Catalist
     kind: vendor
-    cadence: weekly
-    weekday: 1
+    cadence: daily
   - id: civis
     name: Civis Analytics
     kind: vendor
-    cadence: weekly
-    weekday: 2
+    cadence: daily
   - id: push-digital
     name: Push Digital ("Push AI")
     kind: vendor
-    cadence: weekly
-    weekday: 3
+    cadence: daily
   - id: prime-radiant
     name: Prime Radiant
     kind: vendor
-    cadence: weekly
-    weekday: 4
+    cadence: daily
   - id: electric-twin
     name: Electric Twin
     kind: vendor
-    cadence: weekly
-    weekday: 5
+    cadence: daily
   - id: higher-ground-labs-portfolio
     name: Higher Ground Labs portfolio companies
     kind: vendor
-    cadence: weekly
-    weekday: 6
+    cadence: daily
   - id: fec
     name: FEC (Federal Election Commission)
     kind: regulator
-    cadence: weekly
-    weekday: 0
+    cadence: daily
   - id: fcc
     name: FCC (Federal Communications Commission)
     kind: regulator
-    cadence: weekly
-    weekday: 1
+    cadence: daily
   - id: take-it-down-act
     name: TAKE IT DOWN Act
     kind: legislation
-    cadence: weekly
-    weekday: 2
+    cadence: daily
   - id: adimpact
     name: AdImpact
     kind: org_no_feed
-    cadence: weekly
-    weekday: 3
+    cadence: daily
   - id: multistate
     name: MultiState
     kind: org_no_feed
-    cadence: weekly
-    weekday: 4
+    cadence: daily
   - id: tech-for-campaigns
     name: Tech for Campaigns
     kind: org_no_feed
-    cadence: weekly
-    weekday: 5
+    cadence: daily
   - id: center-for-campaign-innovation
     name: Center for Campaign Innovation
     kind: org_no_feed
-    cadence: weekly
-    weekday: 6
+    cadence: daily
   - id: startup-caucus
     name: Startup Caucus
     kind: org_no_feed
-    cadence: weekly
-    weekday: 0
+    cadence: daily

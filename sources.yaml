@@ -50,6 +50,14 @@ feeds:
     url: https://news.ballotpedia.org/feed
     tier: regulation_tracker
 
+  # Elections coverage
+  # (Moved from site_targets.yaml 2026-07 — a native feed was found, so it no
+  # longer needs a paid site-scoped search.)
+  - id: the-downballot
+    name: The Downballot
+    url: https://the-downballot.com/feed
+    tier: elections_coverage
+
 # Outlets from the build plan with no usable feed as of this build (kept here
 # for traceability; do not delete without re-checking — sites change).
 unavailable:

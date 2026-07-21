@@ -1,8 +1,10 @@
 """AICN pipeline entry point.
 
 Each run:
-  1. Gathers candidates from curated RSS feeds, a broad web_search pass, and an
-     entity watchlist (each entity searched individually).
+  1. Gathers candidates from curated RSS feeds, free GDELT queries, and a
+     batched set of web_search calls (one broad pass, one consolidated
+     site-target call, entity watchlist grouped ~5 per call — all submitted
+     through the Message Batches API at 50% token cost).
   2. Dedupes (within-run + against state/seen.json), then makes ONE Anthropic
      API call to filter to on-topic items, categorize, and write
      summary/why_it_matters/flags.
@@ -33,7 +35,8 @@ from build_library import build_library_html
 from curate import curate_items
 from dedupe import fetch_page_metas, normalize_title, normalize_url, url_id
 from gather_feeds import gather_feed_items
-from gather_search import broad_search, site_scoped_search, watchlist_search
+from gather_gdelt import gather_gdelt_items
+from gather_search import run_discovery
 from promote import (
     build_entity_proposals,
     build_source_proposals,
@@ -131,40 +134,28 @@ def main():
             feed_errors.append(err)
         print(f"  {feed['id']}: {len(items)} items" + (f" ({err})" if err else ""), file=sys.stderr)
 
-    print("Running broad web_search pass...", file=sys.stderr)
-    broad_items, broad_note = broad_search(client, SEARCH_MODEL)
-    candidates.extend(broad_items)
-    if broad_note:
-        notes.append(broad_note)
-    print(f"  broad search: {len(broad_items)} items", file=sys.stderr)
+    print("Running free GDELT queries...", file=sys.stderr)
+    gdelt_items, gdelt_note = gather_gdelt_items()
+    candidates.extend(gdelt_items)
+    if gdelt_note:
+        notes.append(gdelt_note)
+    print(f"  gdelt: {len(gdelt_items)} items", file=sys.stderr)
 
     def due_today(entries):
         due = [e for e in entries if e.get("cadence", "daily") == "daily" or e.get("weekday") == run_date.weekday()]
         return due, len(entries) - len(due)
 
     due_entities, skipped_entities = due_today(watchlist.get("entities", []))
-    print(
-        f"Running watchlist search ({len(due_entities)} due today, {skipped_entities} weekly entries skipped)...",
-        file=sys.stderr,
-    )
-    for entity in due_entities:
-        items, note = watchlist_search(client, SEARCH_MODEL, entity)
-        candidates.extend(items)
-        if note:
-            notes.append(note)
-        print(f"  {entity['id']}: {len(items)} items", file=sys.stderr)
-
     due_targets, skipped_targets = due_today(site_targets.get("targets", []))
     print(
-        f"Running site-scoped search ({len(due_targets)} due today, {skipped_targets} weekly entries skipped)...",
+        f"Running batched discovery (broad + {len(due_targets)} site targets in 1 call + "
+        f"{len(due_entities)} entities grouped; {skipped_entities + skipped_targets} weekly entries skipped)...",
         file=sys.stderr,
     )
-    for target in due_targets:
-        items, note = site_scoped_search(client, SEARCH_MODEL, target)
-        candidates.extend(items)
-        if note:
-            notes.append(note)
-        print(f"  {target['id']}: {len(items)} items", file=sys.stderr)
+    search_items, search_notes = run_discovery(client, SEARCH_MODEL, due_entities, due_targets)
+    candidates.extend(search_items)
+    notes.extend(search_notes)
+    print(f"  search discovery: {len(search_items)} items", file=sys.stderr)
 
     print(f"Total raw candidates: {len(candidates)}", file=sys.stderr)
 
