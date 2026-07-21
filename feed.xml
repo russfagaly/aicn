@@ -3,7 +3,35 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Mon, 20 Jul 2026 14:15:17 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 14:02:38 GMT</lastBuildDate>
+    <item>
+      <title>Campaigns Need AI Guardrails Before the 2026 Midterms</title>
+      <link>https://campaignsandelections.com/voices/campaigns-need-ai-guardrails-before-the-2026-idterms</link>
+      <guid isPermaLink="false">8f69666c670af3cd</guid>
+      <pubDate>2026-07-21</pubDate>
+      <description>A Campaigns &amp; Elections op-ed argues that the political conversation about AI in elections has been too narrowly focused on deepfakes and synthetic media, and calls on campaigns to adopt broader AI guardrails — covering AI-driven targeting, messaging, and voter contact — before the 2026 midterms.</description>
+    </item>
+    <item>
+      <title>Tech: Democrats have AI committee hopes too</title>
+      <link>https://punchbowl.news/article/tech/dems-ai-committee-hopes</link>
+      <guid isPermaLink="false">cbc0162fcbee5271</guid>
+      <pubDate>2026-07-20</pubDate>
+      <description>Punchbowl News reports that several House Democrats are calling for the creation of a formal bipartisan AI policy committee, mirroring an effort Republicans declined to institutionalize, as Congress continues to grapple with how to organize legislative oversight of artificial intelligence.</description>
+    </item>
+    <item>
+      <title>Tech: How Husted and his voters see AI</title>
+      <link>https://punchbowl.news/article/tech/husted-voters-ai</link>
+      <guid isPermaLink="false">6c272b509186cbef</guid>
+      <pubDate>2026-07-19</pubDate>
+      <description>Punchbowl News reports that Sen. Jon Husted (R-Ohio) says constituent concern about AI has broadened beyond parents worried about children online to include employers and educators, suggesting AI anxiety is becoming a wider voter issue heading into 2026.</description>
+    </item>
+    <item>
+      <title>The Startup Betting on an AI Advertising Tool For Politics</title>
+      <link>https://campaignsandelections.com/industry-news/startup-bets-on-ai-ads-for-politics</link>
+      <guid isPermaLink="false">3370daff21c8019d</guid>
+      <pubDate>2025-08-04</pubDate>
+      <description>Campaigns &amp; Elections profiles BattlegroundAI, a startup that has launched an AI tool enabling campaigns to instantly generate platform-compliant programmatic political ads with minimal manual input.</description>
+    </item>
     <item>
       <title>AI safety group's $15 million GOP play</title>
       <link>https://punchbowl.news/article/tech/anthropic-gop-play</link>
@@ -185,34 +213,6 @@
       <guid isPermaLink="false">7d1cefdee2939cc8</guid>
       <pubDate>2026-07-01</pubDate>
       <description>Following a prior freeze, the Trump administration removed export restrictions on Anthropic's Fable 5 and Mythos 5 AI models after Anthropic added a new security measure, marking a partial repair of the strained relationship between the company and the White House.</description>
-    </item>
-    <item>
-      <title>‘The Battle Line Has Been Drawn’ Around Virginia’s Data Centers</title>
-      <link>https://notus.org/metro/northern-virginia-data-centers-politics</link>
-      <guid isPermaLink="false">2dc4cc32707265b6</guid>
-      <pubDate>2026-07-01</pubDate>
-      <description>Virginia state lawmakers have moved to regulate the data center industry in Northern Virginia amid souring public sentiment, creating what NOTUS describes as a first-of-its-kind tax on the sector as the political backlash against AI infrastructure reaches the statehouse level.</description>
-    </item>
-    <item>
-      <title>A New AI Tool Targets the Least-Loved Task in Public Affairs: the Weekly Client Report</title>
-      <link>https://campaignsandelections.com/sponsored/a-new-ai-tool-targets-the-least-loved-task-in-public-affairs-the-weekly-client-report</link>
-      <guid isPermaLink="false">41cdc4194a9ce1a0</guid>
-      <pubDate>2026-06-29</pubDate>
-      <description>Campaigns &amp; Elections features a new AI tool designed to automate the weekly client report process for public affairs and lobbying professionals, addressing a time-intensive task as retainer scopes have expanded.</description>
-    </item>
-    <item>
-      <title>The Trump White House Is Over Anthropic CEO Dario Amodei</title>
-      <link>https://wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei</link>
-      <guid isPermaLink="false">f91dc88fde7cdef7</guid>
-      <pubDate>2026-06-24</pubDate>
-      <description>Wired reports that Anthropic CEO Dario Amodei has been replaced by cofounder Tom Brown as the company's representative in high-stakes White House meetings, with one official describing Amodei as a "weirdo." The shift signals a cooling relationship between Anthropic's leadership and the Trump administration.</description>
-    </item>
-    <item>
-      <title>The Anti-Data-Center Movement Is Reshaping Michigan Politics</title>
-      <link>https://wired.com/story/anti-data-center-movement-reshaping-michigan-politics</link>
-      <guid isPermaLink="false">ef08f47c1d23b5ee</guid>
-      <pubDate>2026-06-29</pubDate>
-      <description>Sunrise Movement cofounder Will Lawrence is running for a Michigan swing-district congressional seat with a call for a data center moratorium as a central campaign issue, reflecting grassroots opposition to AI infrastructure development entering electoral politics.</description>
     </item>
   </channel>
 </rss>

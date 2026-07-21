@@ -1,7 +1,91 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-20T14:15:17Z",
+  "generated_at": "2026-07-21T14:02:38Z",
   "runs": [
+    {
+      "run_id": "2026-07-21",
+      "date": "2026-07-21",
+      "generated_at": "2026-07-21T14:02:38Z",
+      "is_light_run": false,
+      "top_summary": "A Campaigns & Elections op-ed calls for AI guardrails in political campaigns before the 2026 midterms, arguing the real risk goes beyond deepfakes to subtler AI-driven manipulation. On the legislative front, House Democrats are pushing to formalize a bipartisan AI policy committee, while Sen. Jon Husted reports constituent anxiety about AI is spreading well beyond parents to employers and educators. A vendor spotlight covers BattlegroundAI, a startup launching an AI tool to generate platform-compliant programmatic political ads.",
+      "item_count": 4,
+      "items": [
+        {
+          "id": "8f69666c670af3cd",
+          "title": "Campaigns Need AI Guardrails Before the 2026 Midterms",
+          "url": "https://campaignsandelections.com/voices/campaigns-need-ai-guardrails-before-the-2026-idterms",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-07-21",
+          "first_seen_run": "2026-07-21",
+          "category": "analysis_oped",
+          "summary": "A Campaigns & Elections op-ed argues that the political conversation about AI in elections has been too narrowly focused on deepfakes and synthetic media, and calls on campaigns to adopt broader AI guardrails \u2014 covering AI-driven targeting, messaging, and voter contact \u2014 before the 2026 midterms.",
+          "why_it_matters": "Signals a practitioner-level push to move AI campaign governance beyond the deepfake frame toward operational deployment risks.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaigns-and-elections",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "cbc0162fcbee5271",
+          "title": "Tech: Democrats have AI committee hopes too",
+          "url": "https://punchbowl.news/article/tech/dems-ai-committee-hopes",
+          "source": "Punchbowl News",
+          "source_domain": "punchbowl.news",
+          "published": "2026-07-20",
+          "first_seen_run": "2026-07-21",
+          "category": "regulation",
+          "summary": "Punchbowl News reports that several House Democrats are calling for the creation of a formal bipartisan AI policy committee, mirroring an effort Republicans declined to institutionalize, as Congress continues to grapple with how to organize legislative oversight of artificial intelligence.",
+          "why_it_matters": "A formal congressional AI committee would centralize legislative oversight and accelerate or shape federal AI regulation affecting campaigns and elections.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:punchbowl",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "6c272b509186cbef",
+          "title": "Tech: How Husted and his voters see AI",
+          "url": "https://punchbowl.news/article/tech/husted-voters-ai",
+          "source": "Punchbowl News",
+          "source_domain": "punchbowl.news",
+          "published": "2026-07-19",
+          "first_seen_run": "2026-07-21",
+          "category": "analysis_oped",
+          "summary": "Punchbowl News reports that Sen. Jon Husted (R-Ohio) says constituent concern about AI has broadened beyond parents worried about children online to include employers and educators, suggesting AI anxiety is becoming a wider voter issue heading into 2026.",
+          "why_it_matters": "Elected officials tracking AI as a constituent concern influences how campaigns and legislators frame AI policy in the 2026 cycle.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:punchbowl",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "3370daff21c8019d",
+          "title": "The Startup Betting on an AI Advertising Tool For Politics",
+          "url": "https://campaignsandelections.com/industry-news/startup-bets-on-ai-ads-for-politics",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2025-08-04",
+          "first_seen_run": "2026-07-21",
+          "category": "vendor_moves",
+          "summary": "Campaigns & Elections profiles BattlegroundAI, a startup that has launched an AI tool enabling campaigns to instantly generate platform-compliant programmatic political ads with minimal manual input.",
+          "why_it_matters": "Automated AI ad generation for political campaigns lowers the barrier to scaled ad production, raising questions about volume, accuracy, and disclosure.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:battlegroundai",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-07-20",
       "date": "2026-07-20",
