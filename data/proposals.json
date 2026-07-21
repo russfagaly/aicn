@@ -6,7 +6,7 @@
       "kind": "watchlist_entity",
       "value": "TrueScreen",
       "feed_url": null,
-      "rationale": "A vendor promoting certified digital evidence as an anti-deepfake tool specifically for elections \u2014 niche enough to warrant tracking as a new entrant in election-integrity tech.",
+      "rationale": "A vendor promoting certified digital evidence as an anti-deepfake tool specifically for elections — niche enough to warrant tracking as a new entrant in election-integrity tech.",
       "example_urls": [
         "https://truescreen.io/articles/deepfakes-2026-elections-certified-proof/"
       ],
@@ -18,7 +18,7 @@
       "kind": "watchlist_entity",
       "value": "Stack Cyber",
       "feed_url": null,
-      "rationale": "Maintains a regularly updated tracker of federal and state deepfake legislation including election-specific disclosure laws \u2014 useful beat resource not yet widely known.",
+      "rationale": "Maintains a regularly updated tracker of federal and state deepfake legislation including election-specific disclosure laws — useful beat resource not yet widely known.",
       "example_urls": [
         "https://stackcyber.com/posts/ai-deepfake-laws"
       ],
@@ -30,7 +30,7 @@
       "kind": "watchlist_entity",
       "value": "Project 2029",
       "feed_url": null,
-      "rationale": "A Democratic policy initiative targeting tech companies and online safety as part of framing for the 2028 presidential cycle \u2014 new named entity relevant to AI advocacy and regulation.",
+      "rationale": "A Democratic policy initiative targeting tech companies and online safety as part of framing for the 2028 presidential cycle — new named entity relevant to AI advocacy and regulation.",
       "example_urls": [
         "https://www.semafor.com/article/06/28/2026/democrats-project-2029-goes-after-tech-companies-with-online-safety-plan"
       ],
@@ -42,7 +42,7 @@
       "kind": "watchlist_entity",
       "value": "Andrew Garbarino",
       "feed_url": null,
-      "rationale": "House Homeland Security Committee Chair publicly flagging Anthropic's Mythos model as a security concern \u2014 a key congressional figure to track for AI oversight activity.",
+      "rationale": "House Homeland Security Committee Chair publicly flagging Anthropic's Mythos model as a security concern — a key congressional figure to track for AI oversight activity.",
       "example_urls": [
         "https://punchbowl.news/article/tech/garbarino-mythos/"
       ],
@@ -54,7 +54,7 @@
       "kind": "watchlist_entity",
       "value": "Mythos",
       "feed_url": null,
-      "rationale": "Anthropic's advanced AI model now at the center of both export-control reversals and congressional security concerns \u2014 sufficiently specific and niche to warrant tracking as a named product.",
+      "rationale": "Anthropic's advanced AI model now at the center of both export-control reversals and congressional security concerns — sufficiently specific and niche to warrant tracking as a named product.",
       "example_urls": [
         "https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models/"
       ],
@@ -142,24 +142,24 @@
       "kind": "watchlist_entity",
       "value": "Mike Lawler",
       "feed_url": null,
-      "rationale": "Republican House member from New York co-leading bipartisan pressure on federal agencies over AI election threats \u2014 a recurring actor in AI-election regulation efforts worth tracking.",
+      "rationale": "Republican House member from New York co-leading bipartisan pressure on federal agencies over AI election threats — a recurring actor in AI-election regulation efforts worth tracking.",
       "example_urls": [
         "https://punchbowl.news/article/tech/ai-election-threats/"
       ],
       "first_proposed": "2026-07-10",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-josh-gottheimer",
       "kind": "watchlist_entity",
       "value": "Josh Gottheimer",
       "feed_url": null,
-      "rationale": "Democratic House member from New Jersey co-leading bipartisan push on AI election-integrity oversight \u2014 newly named in context of AI campaign regulation.",
+      "rationale": "Democratic House member from New Jersey co-leading bipartisan push on AI election-integrity oversight — newly named in context of AI campaign regulation.",
       "example_urls": [
         "https://punchbowl.news/article/tech/ai-election-threats/"
       ],
       "first_proposed": "2026-07-10",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-source-theconnector-substack-com",
@@ -171,7 +171,7 @@
         "https://theconnector.substack.com/p/why-are-we-still-living-with-vanxiety"
       ],
       "first_proposed": "2026-07-12",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "id": "prop-entity-stackadapt",
@@ -183,7 +183,7 @@
         "https://www.research-live.com/article/news/l2-and-stackadapt-agree-integration-/id/5130763"
       ],
       "first_proposed": "2026-07-12",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-higher-ground-labs",
@@ -195,31 +195,31 @@
         "https://highergroundlabs.com/agentic-ai-open-call/"
       ],
       "first_proposed": "2026-07-12",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "id": "prop-entity-middle-seat",
       "kind": "watchlist_entity",
       "value": "Middle Seat",
       "feed_url": null,
-      "rationale": "A Democratic political consulting firm founded by Bernie Sanders campaign veterans, described as rising to prominence via progressive socialist wins \u2014 worth tracking as a potential adopter or reseller of AI campaign tools on the left.",
+      "rationale": "A Democratic political consulting firm founded by Bernie Sanders campaign veterans, described as rising to prominence via progressive socialist wins — worth tracking as a potential adopter or reseller of AI campaign tools on the left.",
       "example_urls": [
         "https://www.notus.org/2026-election/middle-seat-firm-democrats"
       ],
       "first_proposed": "2026-07-15",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-public-first-action",
       "kind": "watchlist_entity",
       "value": "Public First Action",
       "feed_url": null,
-      "rationale": "An AI safety advocacy group spending $15 million on congressional races to reward lawmakers for AI safety positions \u2014 a niche issue-advocacy player newly entering the electoral space at scale.",
+      "rationale": "An AI safety advocacy group spending $15 million on congressional races to reward lawmakers for AI safety positions — a niche issue-advocacy player newly entering the electoral space at scale.",
       "example_urls": [
         "https://punchbowl.news/article/tech/anthropic-gop-play/"
       ],
       "first_proposed": "2026-07-18",
-      "status": "pending"
+      "status": "rejected"
     }
   ]
 }
