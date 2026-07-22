@@ -3,216 +3,216 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Tue, 21 Jul 2026 14:02:38 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 14:23:45 GMT</lastBuildDate>
+    <item>
+      <title>State AI deepfake laws face first big test in 2026 midterm elections</title>
+      <link>https://azcapitoltimes.com/news/2026/07/21/state-ai-deepfake-laws-face-first-big-test-in-2026-midterm-elections</link>
+      <guid isPermaLink="false">9a19eaed585eac28</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <description>The 2026 midterm elections mark the first major real-world test of a wave of state laws passed to regulate AI-generated content in political campaigns, with questions now turning to enforcement and compliance by campaigns and vendors.</description>
+    </item>
+    <item>
+      <title>Voters in Colorado battleground 8th District want more AI oversight</title>
+      <link>https://denverpost.com/2026/07/20/colorado-8th-congressional-district-artificial-intelligence-poll</link>
+      <guid isPermaLink="false">81df12694701f6c4</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+      <description>A new poll of voters in Colorado's swing 8th Congressional District finds bipartisan majorities want more regulation of artificial intelligence, regardless of party affiliation.</description>
+    </item>
+    <item>
+      <title>Anthropic doubles funding for AI policy fight ahead of elections</title>
+      <link>https://axios.com/2026/07/22/anthropic-doubles-funding-ai-policy-fight-elections</link>
+      <guid isPermaLink="false">38f930280d02bc3d</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Anthropic is reportedly doubling its funding dedicated to AI policy engagement ahead of the 2026 elections, intensifying its involvement in shaping how AI intersects with electoral politics.</description>
+    </item>
+    <item>
+      <title>The AFL - CIO strategy for AI and the midterm elections</title>
+      <link>https://marketplace.org/story/2026/07/21/the-aflcios-strategy-for-ai-and-the-midterm-elections</link>
+      <guid isPermaLink="false">0a41371b36edb449</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Marketplace reports on the AFL-CIO's strategy for engaging with AI issues as they relate to the 2026 midterm elections, marking organized labor's explicit connection of AI policy to electoral organizing.</description>
+    </item>
+    <item>
+      <title>Elizabeth Warren Says  Dark Money  Groups Linked to Crypto , AI  Spending Million to  Hand - Pick  Congres</title>
+      <link>https://benzinga.com/crypto/cryptocurrency/26/07/60568454/elizabeth-warren-crypto-ai-dark-money-congress</link>
+      <guid isPermaLink="false">1f59a6e0c2bf6c65</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Sen. Elizabeth Warren criticized PAC spending by groups linked to cryptocurrency and AI interests, alleging these groups are spending millions to influence congressional races through dark money.</description>
+    </item>
+    <item>
+      <title>Map Shows States Where Governor Candidates Support Data Center Moratoriums</title>
+      <link>https://newsweek.com/map-shows-states-where-governor-candidates-support-data-center-moratoriums-12225115</link>
+      <guid isPermaLink="false">21b3eeaf00ac38ef</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Newsweek maps gubernatorial candidates in states including Maine, Iowa, Wisconsin, and Kansas who support moratoriums on AI data centers, showing AI infrastructure has become a campaign issue in multiple governor's races.</description>
+    </item>
     <item>
       <title>Campaigns Need AI Guardrails Before the 2026 Midterms</title>
       <link>https://campaignsandelections.com/voices/campaigns-need-ai-guardrails-before-the-2026-idterms</link>
       <guid isPermaLink="false">8f69666c670af3cd</guid>
-      <pubDate>2026-07-21</pubDate>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
       <description>A Campaigns &amp; Elections op-ed argues that the political conversation about AI in elections has been too narrowly focused on deepfakes and synthetic media, and calls on campaigns to adopt broader AI guardrails — covering AI-driven targeting, messaging, and voter contact — before the 2026 midterms.</description>
     </item>
     <item>
       <title>Tech: Democrats have AI committee hopes too</title>
       <link>https://punchbowl.news/article/tech/dems-ai-committee-hopes</link>
       <guid isPermaLink="false">cbc0162fcbee5271</guid>
-      <pubDate>2026-07-20</pubDate>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
       <description>Punchbowl News reports that several House Democrats are calling for the creation of a formal bipartisan AI policy committee, mirroring an effort Republicans declined to institutionalize, as Congress continues to grapple with how to organize legislative oversight of artificial intelligence.</description>
     </item>
     <item>
       <title>Tech: How Husted and his voters see AI</title>
       <link>https://punchbowl.news/article/tech/husted-voters-ai</link>
       <guid isPermaLink="false">6c272b509186cbef</guid>
-      <pubDate>2026-07-19</pubDate>
+      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
       <description>Punchbowl News reports that Sen. Jon Husted (R-Ohio) says constituent concern about AI has broadened beyond parents worried about children online to include employers and educators, suggesting AI anxiety is becoming a wider voter issue heading into 2026.</description>
     </item>
     <item>
       <title>The Startup Betting on an AI Advertising Tool For Politics</title>
       <link>https://campaignsandelections.com/industry-news/startup-bets-on-ai-ads-for-politics</link>
       <guid isPermaLink="false">3370daff21c8019d</guid>
-      <pubDate>2025-08-04</pubDate>
+      <pubDate>Mon, 04 Aug 2025 00:00:00 GMT</pubDate>
       <description>Campaigns &amp; Elections profiles BattlegroundAI, a startup that has launched an AI tool enabling campaigns to instantly generate platform-compliant programmatic political ads with minimal manual input.</description>
     </item>
     <item>
       <title>AI safety group's $15 million GOP play</title>
       <link>https://punchbowl.news/article/tech/anthropic-gop-play</link>
       <guid isPermaLink="false">dcbf711dcecd7bb9</guid>
-      <pubDate>2026-07-18</pubDate>
+      <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
       <description>Public First Action, an AI safety advocacy group, announced it will spend $15 million in July 2026 to run ads highlighting 16 congressional Republicans for their work on artificial intelligence safety, turning AI policy into an explicit electoral issue.</description>
     </item>
     <item>
       <title>AI Moves From Campaign Tool to Campaign Issue</title>
       <link>https://governing.com/politics/ai-moves-from-campaign-tool-to-campaign-issue</link>
       <guid isPermaLink="false">a24e1bd949cac563</guid>
-      <pubDate>2026-07-11</pubDate>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
       <description>Governing reports that AI is now reshaping 2026 campaigns on two fronts simultaneously: campaigns are deploying AI operationally, while AI policy itself has emerged as a voter-facing issue candidates must address.</description>
     </item>
     <item>
       <title>Tech: Cruz approaches AI's make-or-break month</title>
       <link>https://punchbowl.news/article/tech/cruz-make-or-break-ai</link>
       <guid isPermaLink="false">1778b52e0bb4d03e</guid>
-      <pubDate>2026-07-12</pubDate>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
       <description>Punchbowl News reports that Senate Commerce Committee Chairman Ted Cruz faces a make-or-break window of several weeks to move federal AI legislation forward, with the alternative being a delay until the 120th Congress.</description>
     </item>
     <item>
       <title>The First AI Midterms: Early Signals from California</title>
       <link>https://highergroundlabs.com/the-first-ai-midterms-early-signals-from-california</link>
       <guid isPermaLink="false">28d8c1e0d411a10b</guid>
-      <pubDate>2026-07-14</pubDate>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
       <description>Higher Ground Labs published a debrief of AI tool use across California's June 2026 primary — covering the governor's race, the Los Angeles mayoral contest, and down-ballot races — framing the cycle as the first major stress test of AI in American electoral politics. The piece draws early operational lessons for campaigns deploying AI in the 2026 midterms.</description>
     </item>
     <item>
       <title>Sanders-backed progressives try to make AI the new AIPAC</title>
       <link>https://semafor.com/article/07/14/2026/sanders-backed-progressives-try-to-make-ai-the-new-aipac</link>
       <guid isPermaLink="false">16d49ab19592024e</guid>
-      <pubDate>2026-07-14</pubDate>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
       <description>Semafor reports that Sanders-aligned progressive organizers are working to build a grassroots political movement opposing AI data center expansion, drawing an explicit parallel to single-issue advocacy campaigns, with New York Gov. Kathy Hochul's data center moratorium cited as evidence the effort is gaining mainstream political traction.</description>
     </item>
     <item>
       <title>Data center backlash puts candidates in governor races in a bind</title>
       <link>https://thehill.com/policy/technology/5963542-data-centers-become-flashpoint-in-gubernatorial-races</link>
       <guid isPermaLink="false">82d108012c0d76de</guid>
-      <pubDate>2026-07-13</pubDate>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
       <description>The Hill reports that data center proliferation — driven by AI demand — has become a divisive issue in multiple 2026 gubernatorial races, forcing candidates to navigate constituent concerns about energy use, land use, and the pace of AI expansion.</description>
     </item>
     <item>
       <title>DOGE Used AI for Housing Policy. The Government Won’t Say How</title>
       <link>https://wired.com/story/doge-deployed-ai-housing-policy</link>
       <guid isPermaLink="false">02131bded66923d3</guid>
-      <pubDate>2026-07-14</pubDate>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
       <description>Wired reports that DOGE used AI tools to shape federal housing policy but the Department of Housing and Urban Development has withheld documents about that use in response to a public records request, in part by citing a legal privilege that Wired says does not exist.</description>
     </item>
     <item>
       <title>NO FAKES Act gains Senate Judiciary Committee approval</title>
       <link>https://washingtoninformer.com/senate-judiciary-committee-ai</link>
       <guid isPermaLink="false">7b5f3d79e858df9b</guid>
-      <pubDate>2026-07-13</pubDate>
+      <pubDate>Mon, 13 Jul 2026 00:00:00 GMT</pubDate>
       <description>The Senate Judiciary Committee approved the NO FAKES Act, advancing the bill — which would protect individuals against unauthorized AI-generated digital replicas — to the full Senate for consideration. The Recording Academy has expressed support for the legislation.</description>
     </item>
     <item>
       <title>Getting campaign text messages ahead of midterms? There could be an AI bot behind it</title>
       <link>https://npr.org/2026/07/12/nx-s1-5867763/ai-artificial-intelligence-data-texts-bots-voters-campaigns</link>
       <guid isPermaLink="false">c09238465bc8ada4</guid>
-      <pubDate>2026-07-12</pubDate>
+      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
       <description>NPR reports that campaigns are using AI bots to send and manage political text messages to voters ahead of the 2026 midterms, with the practice spreading across multiple campaign operations. The piece examines how automated conversational AI is replacing or supplementing human texters in voter contact programs.</description>
     </item>
     <item>
       <title>21-year-old AI startup cofounder's sales pitch to clients: 'Do not trust us'</title>
       <link>https://fortune.com/2026/06/17/aaru-cofounder-ned-koh-ai-startup-sales-pitch-do-not-trust-us</link>
       <guid isPermaLink="false">d1050b8493a91d36</guid>
-      <pubDate>2026-06-17</pubDate>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
       <description>Fortune profiles Aaru cofounder Ned Koh, 21, whose AI startup sells synthetic-respondent predictions to clients as an alternative to traditional polling, with Koh himself warning clients not to take the results on faith while arguing the platform's predictive accuracy surpasses human survey data. The piece examines Aaru's unusual sales posture and its growing footprint in political forecasting.</description>
     </item>
     <item>
       <title>Aaru AI Review 2026: The Prediction Startup, and Where It Fits</title>
       <link>https://fish.dog/news/aaru-ai-review-2026-the-prediction-startup-and-where-it-fits</link>
       <guid isPermaLink="false">6e1c3fd2443efd69</guid>
-      <pubDate>2026-06-02</pubDate>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
       <description>An independent review from FishDog assesses Aaru's AI prediction platform — which raised a Series A and is run by a teenage founder — examining where its synthetic-respondent methodology is credible and where it falls short relative to conventional polling. The review highlights both the startup's technical ambitions and the limits of its current validation record.</description>
     </item>
     <item>
       <title>Announcing Higher Ground Labs' Agentic AI Open Call</title>
       <link>https://highergroundlabs.com/agentic-ai-open-call</link>
       <guid isPermaLink="false">01956ecb4edcdffe</guid>
-      <pubDate>2026-05-20</pubDate>
+      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
       <description>Higher Ground Labs, a progressive political technology incubator, has opened an investment application specifically for agentic AI startups building tools for political use, signaling institutional progressive-side investment interest in autonomous AI agents for campaigns. The open call invites founders to pitch agentic solutions across campaign functions.</description>
     </item>
     <item>
       <title>Tech: Lawmakers want agencies watching AI election threats</title>
       <link>https://punchbowl.news/article/tech/ai-election-threats</link>
       <guid isPermaLink="false">93022fcc3e892904</guid>
-      <pubDate>2026-07-09</pubDate>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
       <description>Reps. Mike Lawler (R-N.Y.) and Josh Gottheimer (D-N.J.) are urging four federal agencies to take action on potential election-integrity threats posed by AI ahead of the 2026 midterms.</description>
     </item>
     <item>
       <title>Bipartisan lawmakers press agencies on AI election threats</title>
       <link>https://thehill.com/policy/technology/5961267-ai-election-threats-2026-midterms</link>
       <guid isPermaLink="false">a3372eefe147c99d</guid>
-      <pubDate>2026-07-09</pubDate>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
       <description>The Hill reports on the same bipartisan push by Lawler and Gottheimer urging federal agencies to monitor AI-related election threats in the 2026 cycle.</description>
     </item>
     <item>
       <title>What AI companies want for the millions they're spending on elections</title>
       <link>https://cnbc.com/2026/07/09/ai-companies-election-spending.html</link>
       <guid isPermaLink="false">a8e951c27466aa1c</guid>
-      <pubDate>2026-07-09</pubDate>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
       <description>CNBC reports that two major AI industry super PACs are each spending heavily in the 2026 midterms and lobbying Congress for competing versions of AI regulation, illustrating how industry money is shaping the legislative landscape.</description>
     </item>
     <item>
       <title>Getty Images’ Answer to AI Slop? Authentic, Verified Content</title>
       <link>https://campaignsandelections.com/sponsored/getty-images-answer-to-ai-slop-authentic-verified-content</link>
       <guid isPermaLink="false">93349ac2dfbe0408</guid>
-      <pubDate>2026-07-10</pubDate>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
       <description>Getty Images is marketing authenticated, human-verified visual content to political campaigns as a direct counter to the spread of AI-generated imagery, framing provenance and verification as competitive advantages in the 2026 cycle.</description>
     </item>
     <item>
       <title>NO FAKES, Real Censorship: How Congress Could Muzzle AI Speech</title>
       <link>https://cato.org/blog/no-fakes-real-censorship-how-congress-could-muzzle-ai-speech</link>
       <guid isPermaLink="false">c135ca05b155cd3a</guid>
-      <pubDate>2026-07-05</pubDate>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
       <description>The Cato Institute argues that the NO FAKES Act of 2026 would create sweeping liability for anyone who displays, distributes, or transmits an unauthorized AI-generated likeness of a person, or who builds a tool capable of producing one, effectively criminalizing a broad swath of expressive and journalistic activity.</description>
     </item>
     <item>
       <title>AI Legislative Update: July 3, 2026</title>
       <link>https://transparencycoalition.ai/news/ai-legislative-update-july3-2026</link>
       <guid isPermaLink="false">a61becf7d22ddafb</guid>
-      <pubDate>2026-07-03</pubDate>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
       <description>The Transparency Coalition's July 3 legislative roundup reports that California Governor Gavin Newsom signed a law requiring public school teachers to be human, while New Jersey legislators passed a Kids Code Act, illustrating continued state-level AI governance activity.</description>
     </item>
     <item>
       <title>Tech: OpenAI warms up to Washington</title>
       <link>https://punchbowl.news/article/tech/openai-warms-washington</link>
       <guid isPermaLink="false">af006c7979fee165</guid>
-      <pubDate>2026-07-06</pubDate>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
       <description>Punchbowl News reports that OpenAI has backed Sen. Marsha Blackburn's Kids Online Safety Act and the NO FAKES Act, signaling a warmer relationship between the company and Washington lawmakers heading into the 2026 cycle.</description>
     </item>
     <item>
       <title>'Who should I vote for?' Voters turn to AI before casting their ballots</title>
       <link>https://inquirer.com/news/nation-world/elections-ai-chatbot-voter-research-candidates-midterms-20260704.html</link>
       <guid isPermaLink="false">6a14d9bb1aff0fd0</guid>
-      <pubDate>2026-07-04</pubDate>
+      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
       <description>The Philadelphia Inquirer reports that voters are using AI chatbots to research candidates and guide their voting decisions ahead of the 2026 midterms, even though the tools are designed to avoid expressing political opinions.</description>
-    </item>
-    <item>
-      <title>30 States Now Have Laws to Regulate Election Deepfakes</title>
-      <link>https://citizen.org/news/30-states-now-have-laws-to-regulate-election-deepfakes</link>
-      <guid isPermaLink="false">c9c39a1f0716982b</guid>
-      <pubDate>2026-05-13</pubDate>
-      <description>Public Citizen reports that 30 states have now enacted laws regulating AI-generated deepfakes in election communications, with Maryland Governor Wes Moore's signature on a new law marking the most recent addition to that count.</description>
-    </item>
-    <item>
-      <title>Tech: What unions want on AI policy</title>
-      <link>https://punchbowl.news/article/tech/unions-ai-policy</link>
-      <guid isPermaLink="false">89d7f35469fda4b9</guid>
-      <pubDate>2026-06-28</pubDate>
-      <description>Punchbowl News reports that labor union leaders, framing AI-driven automation as an existential threat, are planning aggressive engagement in Washington AI policy fights and in the 2026 midterm elections.</description>
-    </item>
-    <item>
-      <title>Gavin Newsom treads the AI line</title>
-      <link>https://semafor.com/article/07/01/2026/gavin-newsom-treads-the-ai-line</link>
-      <guid isPermaLink="false">40577a5e259e8c12</guid>
-      <pubDate>2026-07-01</pubDate>
-      <description>Semafor reports that California Governor Gavin Newsom is walking a careful line between pushing to regulate the power of major tech companies while simultaneously using AI products in his own political operations.</description>
-    </item>
-    <item>
-      <title>Get Ready To See a Lot More AI in Campaign Ads</title>
-      <link>https://thedispatch.com/article/artificial-intelligence-campaigns-talarico-deepfakes</link>
-      <guid isPermaLink="false">a4b22c23ff5c3dba</guid>
-      <pubDate>2026-06-27</pubDate>
-      <description>The Dispatch surveys the growing use of AI in campaign advertising, finding that while some campaign staffers are embracing AI to amplify messaging, others are raising ethical questions about the strategy, with deepfakes specifically mentioned as a concern.</description>
-    </item>
-    <item>
-      <title>Donald Trump's Improvised AI Regime</title>
-      <link>https://thedispatch.com/newsletter/morning/donald-trumps-improvised-ai-regime</link>
-      <guid isPermaLink="false">170253fab43b7bcc</guid>
-      <pubDate>2026-07-02</pubDate>
-      <description>The Dispatch characterizes the Trump administration's approach to AI governance as improvised and ad hoc rather than a coherent regulatory strategy, raising questions about how AI policy will be set heading into the 2026 elections.</description>
-    </item>
-    <item>
-      <title>Anthropic Added a New Security Measure to Get Back Into the Trump Administration’s Good Graces</title>
-      <link>https://wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces</link>
-      <guid isPermaLink="false">7d1cefdee2939cc8</guid>
-      <pubDate>2026-07-01</pubDate>
-      <description>Following a prior freeze, the Trump administration removed export restrictions on Anthropic's Fable 5 and Mythos 5 AI models after Anthropic added a new security measure, marking a partial repair of the strained relationship between the company and the White House.</description>
     </item>
   </channel>
 </rss>

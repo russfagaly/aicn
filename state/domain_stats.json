@@ -20,6 +20,20 @@
     ],
     "last_seen": "2026-07-11"
   },
+  "azcapitoltimes.com": {
+    "count": 1,
+    "example_urls": [
+      "https://azcapitoltimes.com/news/2026/07/21/state-ai-deepfake-laws-face-first-big-test-in-2026-midterm-elections"
+    ],
+    "last_seen": "2026-07-22"
+  },
+  "benzinga.com": {
+    "count": 1,
+    "example_urls": [
+      "https://benzinga.com/crypto/cryptocurrency/26/07/60568454/elizabeth-warren-crypto-ai-dark-money-congress"
+    ],
+    "last_seen": "2026-07-22"
+  },
   "billboard.com": {
     "count": 1,
     "example_urls": [
@@ -42,12 +56,33 @@
     ],
     "last_seen": "2026-07-15"
   },
+  "breitbart.com": {
+    "count": 1,
+    "example_urls": [
+      "https://breitbart.com/tech/2026/07/20/unacceptable-risk-education-advocates-call-for-schools-to-drop-google-over-ai-safety-concerns"
+    ],
+    "last_seen": "2026-07-22"
+  },
+  "bridgemi.com": {
+    "count": 1,
+    "example_urls": [
+      "https://bridgemi.com/michigan-government/fact-check-is-john-james-backed-by-data-center-developers"
+    ],
+    "last_seen": "2026-07-22"
+  },
   "campaignnow.com": {
     "count": 2,
     "example_urls": [
       "https://campaignnow.com/blog/regulators-scramble-as-ai-deepfakes-flood-the-2026-midterms"
     ],
     "last_seen": "2026-07-19"
+  },
+  "capitolfax.com": {
+    "count": 1,
+    "example_urls": [
+      "https://capitolfax.com/2026/07/20/isabel%E2%80%99s-afternoon-roundup-559"
+    ],
+    "last_seen": "2026-07-22"
   },
   "cato.org": {
     "count": 1,
@@ -63,6 +98,13 @@
     ],
     "last_seen": "2026-07-05"
   },
+  "clickorlando.com": {
+    "count": 1,
+    "example_urls": [
+      "https://clickorlando.com/news/local/2026/07/21/edgewater-council-meeting-turns-tense-over-citys-legal-contract-with-sabatini-law-firm"
+    ],
+    "last_seen": "2026-07-22"
+  },
   "cnbc.com": {
     "count": 1,
     "example_urls": [
@@ -76,6 +118,13 @@
       "https://cnn.com/2026/06/01/politics/video/cnn-sitroom-pamela-brown-hillary-lehr-quiller-decoding-ai-artificial-intelligence-political-ads"
     ],
     "last_seen": "2026-07-20"
+  },
+  "csmonitor.com": {
+    "count": 1,
+    "example_urls": [
+      "https://csmonitor.com/Editorials/the-monitors-view/2026/0720/The-US-voting-system-merits-both-trust-and-vigilance"
+    ],
+    "last_seen": "2026-07-22"
   },
   "cyberscoop.com": {
     "count": 1,
@@ -91,6 +140,27 @@
     ],
     "last_seen": "2026-07-15"
   },
+  "denverpost.com": {
+    "count": 1,
+    "example_urls": [
+      "https://denverpost.com/2026/07/20/colorado-8th-congressional-district-artificial-intelligence-poll"
+    ],
+    "last_seen": "2026-07-22"
+  },
+  "eenews.net": {
+    "count": 1,
+    "example_urls": [
+      "https://eenews.net/articles/trump-threatens-national-academies-with-debarment-heres-what-it-is"
+    ],
+    "last_seen": "2026-07-22"
+  },
+  "einpresswire.com": {
+    "count": 1,
+    "example_urls": [
+      "https://einpresswire.com/article/839520986/catalist-acquires-campaign-brain-inc-to-inform-the-next-generation-of-political-campaign-tech"
+    ],
+    "last_seen": "2026-07-22"
+  },
   "electrictwin.com": {
     "count": 1,
     "example_urls": [
@@ -104,6 +174,20 @@
       "https://eu-startups.com/2026/02/covid-government-adviser-and-military-commander-land-e12-million-to-scale-electric-twins-synthetic-audience-platform"
     ],
     "last_seen": "2026-07-11"
+  },
+  "fcc.gov": {
+    "count": 1,
+    "example_urls": [
+      "https://fcc.gov/document/fcc-proposes-6-million-fine-deepfake-robocalls-around-nh-primary"
+    ],
+    "last_seen": "2026-07-22"
+  },
+  "finchannel.com": {
+    "count": 1,
+    "example_urls": [
+      "https://finchannel.com/threat-to-britain/132779/world-2/2026/07"
+    ],
+    "last_seen": "2026-07-22"
   },
   "fincrime.news.blog": {
     "count": 1,
@@ -132,6 +216,13 @@
       "https://fortune.com/2026/06/17/aaru-cofounder-ned-koh-ai-startup-sales-pitch-do-not-trust-us"
     ],
     "last_seen": "2026-07-12"
+  },
+  "foxnews.com": {
+    "count": 1,
+    "example_urls": [
+      "https://foxnews.com/politics/two-house-races-take-center-stage-conservative-pac-launches-multimillion-dollar-big-tech-push"
+    ],
+    "last_seen": "2026-07-22"
   },
   "gettysburgconnection.org": {
     "count": 1,
@@ -176,6 +267,20 @@
     ],
     "last_seen": "2026-07-17"
   },
+  "local10.com": {
+    "count": 1,
+    "example_urls": [
+      "https://local10.com/news/national/2026/07/21/the-latest-hegseth-estimates-iran-war-has-cost-375b-so-far"
+    ],
+    "last_seen": "2026-07-22"
+  },
+  "marketplace.org": {
+    "count": 1,
+    "example_urls": [
+      "https://marketplace.org/story/2026/07/21/the-aflcios-strategy-for-ai-and-the-midterm-elections"
+    ],
+    "last_seen": "2026-07-22"
+  },
   "natesilver.net": {
     "count": 1,
     "example_urls": [
@@ -190,6 +295,13 @@
       "https://nbcnews.com/politics/2026-election/ads-ai-industry-are-flooding-2026-election-artificial-intelligence-rcna260782"
     ],
     "last_seen": "2026-07-10"
+  },
+  "newsweek.com": {
+    "count": 1,
+    "example_urls": [
+      "https://newsweek.com/map-shows-states-where-governor-candidates-support-data-center-moratoriums-12225115"
+    ],
+    "last_seen": "2026-07-22"
   },
   "npr.org": {
     "count": 1,
@@ -240,6 +352,20 @@
     ],
     "last_seen": "2026-07-04"
   },
+  "screenrant.com": {
+    "count": 1,
+    "example_urls": [
+      "https://screenrant.com/last-star-fighter-new-spinoff-series-beta"
+    ],
+    "last_seen": "2026-07-22"
+  },
+  "sedaliademocrat.com": {
+    "count": 1,
+    "example_urls": [
+      "https://sedaliademocrat.com/stories/uncertain-congressional-map-hangs-over-missouris-crowded-5th-district-gop-primary,53529"
+    ],
+    "last_seen": "2026-07-22"
+  },
   "stackcyber.com": {
     "count": 1,
     "example_urls": [
@@ -289,12 +415,33 @@
     ],
     "last_seen": "2026-07-12"
   },
+  "thenewamerican.com": {
+    "count": 1,
+    "example_urls": [
+      "https://thenewamerican.com/print/principles-not-personalities"
+    ],
+    "last_seen": "2026-07-22"
+  },
+  "therealdeal.com": {
+    "count": 1,
+    "example_urls": [
+      "https://therealdeal.com/texas/2026/07/21/foxconn-to-pour-72m-into-houston-ai-server-facility"
+    ],
+    "last_seen": "2026-07-22"
+  },
   "thesciencesurvey.com": {
     "count": 1,
     "example_urls": [
       "https://thesciencesurvey.com/news/2026/03/16/when-seeing-is-no-longer-believing-deepfake-media-in-elections"
     ],
     "last_seen": "2026-07-03"
+  },
+  "theverge.com": {
+    "count": 1,
+    "example_urls": [
+      "https://theverge.com/podcast/967884/jill-lepore-history-ai-artificial-state-elon-musk"
+    ],
+    "last_seen": "2026-07-22"
   },
   "transparencycoalition.ai": {
     "count": 6,
@@ -313,6 +460,13 @@
       "https://truescreen.io/articles/deepfakes-2026-elections-certified-proof"
     ],
     "last_seen": "2026-07-06"
+  },
+  "usatoday.com": {
+    "count": 1,
+    "example_urls": [
+      "https://usatoday.com/story/news/politics/elections/2026/07/21/arizona-primary-election-results-updates--live/90986900007"
+    ],
+    "last_seen": "2026-07-22"
   },
   "usnews.com": {
     "count": 1,
@@ -335,11 +489,25 @@
     ],
     "last_seen": "2026-07-15"
   },
+  "washingtonexaminer.com": {
+    "count": 1,
+    "example_urls": [
+      "https://washingtonexaminer.com/op-eds/4656188/trump-speech-china-question-2020-election-interference-espionage"
+    ],
+    "last_seen": "2026-07-22"
+  },
   "washingtoninformer.com": {
     "count": 1,
     "example_urls": [
       "https://washingtoninformer.com/senate-judiciary-committee-ai"
     ],
     "last_seen": "2026-07-14"
+  },
+  "wokv.com": {
+    "count": 1,
+    "example_urls": [
+      "https://wokv.com/news/local/depth-military-expert-breaks-down-iran-conflict-support-veterans/G7GXWV6HMJFRHBG5OIUQGG2WIY"
+    ],
+    "last_seen": "2026-07-22"
   }
 }

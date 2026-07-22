@@ -1,7 +1,128 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-21T14:02:38Z",
+  "generated_at": "2026-07-22T14:23:45Z",
   "runs": [
+    {
+      "run_id": "2026-07-22",
+      "date": "2026-07-22",
+      "generated_at": "2026-07-22T14:23:45Z",
+      "is_light_run": false,
+      "top_summary": "The 2026 midterms are serving as the first major test of state AI deepfake laws enacted to police AI-generated campaign materials, with enforcement and compliance now becoming concrete questions. Separately, a new poll shows bipartisan voter demand for AI oversight in Colorado's competitive 8th Congressional District, and Anthropic is reportedly doubling its funding for AI policy engagement ahead of elections. The AFL-CIO has also outlined a strategy connecting AI and midterm elections, signaling organized labor's entry into AI campaign politics.",
+      "item_count": 6,
+      "items": [
+        {
+          "id": "9a19eaed585eac28",
+          "title": "State AI deepfake laws face first big test in 2026 midterm elections",
+          "url": "https://azcapitoltimes.com/news/2026/07/21/state-ai-deepfake-laws-face-first-big-test-in-2026-midterm-elections",
+          "source": "Arizona Capitol Times",
+          "source_domain": "azcapitoltimes.com",
+          "published": "2026-07-21",
+          "first_seen_run": "2026-07-22",
+          "category": "regulation",
+          "summary": "The 2026 midterm elections mark the first major real-world test of a wave of state laws passed to regulate AI-generated content in political campaigns, with questions now turning to enforcement and compliance by campaigns and vendors.",
+          "why_it_matters": "How well state AI deepfake statutes hold up in a live election cycle will shape the regulatory landscape and inform future federal efforts.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:take-it-down-act",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "81df12694701f6c4",
+          "title": "Voters in Colorado battleground 8th District want more AI oversight",
+          "url": "https://denverpost.com/2026/07/20/colorado-8th-congressional-district-artificial-intelligence-poll",
+          "source": "eptrail.com",
+          "source_domain": "eptrail.com",
+          "published": "2026-07-20",
+          "first_seen_run": "2026-07-22",
+          "category": "polling_synthetic",
+          "summary": "A new poll of voters in Colorado's swing 8th Congressional District finds bipartisan majorities want more regulation of artificial intelligence, regardless of party affiliation.",
+          "why_it_matters": "Bipartisan constituent demand for AI oversight in a competitive district signals that AI regulation is becoming a live electoral issue candidates must address.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "38f930280d02bc3d",
+          "title": "Anthropic doubles funding for AI policy fight ahead of elections",
+          "url": "https://axios.com/2026/07/22/anthropic-doubles-funding-ai-policy-fight-elections",
+          "source": "Axios",
+          "source_domain": "axios.com",
+          "published": "2026-07-22",
+          "first_seen_run": "2026-07-22",
+          "category": "vendor_moves",
+          "summary": "Anthropic is reportedly doubling its funding dedicated to AI policy engagement ahead of the 2026 elections, intensifying its involvement in shaping how AI intersects with electoral politics.",
+          "why_it_matters": "A major AI developer increasing its policy spending around elections raises questions about tech-industry influence over AI election regulation.",
+          "flags": [
+            "vendor_self_reported",
+            "speculative"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:axios",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "0a41371b36edb449",
+          "title": "The AFL - CIO strategy for AI and the midterm elections",
+          "url": "https://marketplace.org/story/2026/07/21/the-aflcios-strategy-for-ai-and-the-midterm-elections",
+          "source": "marketplace.org",
+          "source_domain": "marketplace.org",
+          "published": "2026-07-21",
+          "first_seen_run": "2026-07-22",
+          "category": "analysis_oped",
+          "summary": "Marketplace reports on the AFL-CIO's strategy for engaging with AI issues as they relate to the 2026 midterm elections, marking organized labor's explicit connection of AI policy to electoral organizing.",
+          "why_it_matters": "Labor's formal entry into AI-and-elections strategy broadens the coalition of actors shaping how AI becomes a campaign issue beyond tech vendors and advocacy groups.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "1f59a6e0c2bf6c65",
+          "title": "Elizabeth Warren Says  Dark Money  Groups Linked to Crypto , AI  Spending Million to  Hand - Pick  Congres",
+          "url": "https://benzinga.com/crypto/cryptocurrency/26/07/60568454/elizabeth-warren-crypto-ai-dark-money-congress",
+          "source": "benzinga.com",
+          "source_domain": "benzinga.com",
+          "published": "2026-07-21",
+          "first_seen_run": "2026-07-22",
+          "category": "analysis_oped",
+          "summary": "Sen. Elizabeth Warren criticized PAC spending by groups linked to cryptocurrency and AI interests, alleging these groups are spending millions to influence congressional races through dark money.",
+          "why_it_matters": "Warren's allegations highlight emerging concerns about AI-industry money shaping congressional composition and, by extension, AI regulation itself.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "21b3eeaf00ac38ef",
+          "title": "Map Shows States Where Governor Candidates Support Data Center Moratoriums",
+          "url": "https://newsweek.com/map-shows-states-where-governor-candidates-support-data-center-moratoriums-12225115",
+          "source": "newsweek.com",
+          "source_domain": "newsweek.com",
+          "published": "2026-07-21",
+          "first_seen_run": "2026-07-22",
+          "category": "analysis_oped",
+          "summary": "Newsweek maps gubernatorial candidates in states including Maine, Iowa, Wisconsin, and Kansas who support moratoriums on AI data centers, showing AI infrastructure has become a campaign issue in multiple governor's races.",
+          "why_it_matters": "AI data center policy emerging as a gubernatorial campaign issue illustrates how AI's physical infrastructure is entering electoral politics beyond just content or misinformation concerns.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-07-21",
       "date": "2026-07-21",
