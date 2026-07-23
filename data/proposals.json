@@ -232,6 +232,18 @@
       ],
       "first_proposed": "2026-07-22",
       "status": "pending"
+    },
+    {
+      "id": "prop-source-texastribune-org",
+      "kind": "source",
+      "value": "texastribune.org",
+      "feed_url": "https://www.texastribune.org/feed/",
+      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://texastribune.org/2026/02/19/texas-2026-primaries-ai-ads-candidates-crockett-cornyn-paxton"
+      ],
+      "first_proposed": "2026-07-23",
+      "status": "pending"
     }
   ]
 }

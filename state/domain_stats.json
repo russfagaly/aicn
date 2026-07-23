@@ -1,10 +1,10 @@
 {
   "accupaysystems.com": {
-    "count": 3,
+    "count": 4,
     "example_urls": [
       "https://accupaysystems.com/ai-deepfakes-in-political-campaigns-how-synthetic-media-is-reshaping-the-2026-midterm-elections"
     ],
-    "last_seen": "2026-07-03"
+    "last_seen": "2026-07-23"
   },
   "adimpact.com": {
     "count": 1,
@@ -12,6 +12,13 @@
       "https://adimpact.com/blogs/adimpact-recognized-as-one-to-watch-in-snowflakes-modern-marketing-data-stack-report"
     ],
     "last_seen": "2026-07-02"
+  },
+  "aimmediahouse.com": {
+    "count": 1,
+    "example_urls": [
+      "https://aimmediahouse.com/market-industry/aarus-ai-bots-are-simulating-real-voters-changing-the-future-of-election-surveys"
+    ],
+    "last_seen": "2026-07-23"
   },
   "arxiv.org": {
     "count": 2,
@@ -139,6 +146,13 @@
       "https://dean.house.gov/2026/5/dean-salazar-reintroduce-bill-to-protect-americans-from-ai-deepfakes"
     ],
     "last_seen": "2026-07-15"
+  },
+  "deepfakedetector.ai": {
+    "count": 1,
+    "example_urls": [
+      "https://deepfakedetector.ai/blog/deepfakes-and-elections"
+    ],
+    "last_seen": "2026-07-23"
   },
   "denverpost.com": {
     "count": 1,
@@ -274,6 +288,13 @@
     ],
     "last_seen": "2026-07-22"
   },
+  "manatt.com": {
+    "count": 1,
+    "example_urls": [
+      "https://manatt.com/insights/newsletters/client-alert/congress-reintroduces-the-no-fakes-act-what-s-new-in-the-2026-bill"
+    ],
+    "last_seen": "2026-07-23"
+  },
   "marketplace.org": {
     "count": 1,
     "example_urls": [
@@ -289,12 +310,12 @@
     "last_seen": "2026-07-11"
   },
   "nbcnews.com": {
-    "count": 6,
+    "count": 8,
     "example_urls": [
       "https://nbcnews.com/politics/2028-election/ai-midterms-politics-campaign-ads-rcna263752",
       "https://nbcnews.com/politics/2026-election/ads-ai-industry-are-flooding-2026-election-artificial-intelligence-rcna260782"
     ],
-    "last_seen": "2026-07-10"
+    "last_seen": "2026-07-23"
   },
   "newsweek.com": {
     "count": 1,
@@ -344,6 +365,13 @@
       "https://rollcall.com/2026/06/18/ai-deepfakes-bill-advanced-by-senate-judiciary-committee"
     ],
     "last_seen": "2026-07-15"
+  },
+  "rstreet.org": {
+    "count": 1,
+    "example_urls": [
+      "https://rstreet.org/commentary/ai-and-elections-what-to-watch-for-in-2026"
+    ],
+    "last_seen": "2026-07-23"
   },
   "salazar.house.gov": {
     "count": 2,
@@ -402,11 +430,11 @@
     "last_seen": "2026-07-04"
   },
   "texastribune.org": {
-    "count": 2,
+    "count": 3,
     "example_urls": [
       "https://texastribune.org/2026/02/19/texas-2026-primaries-ai-ads-candidates-crockett-cornyn-paxton"
     ],
-    "last_seen": "2026-07-10"
+    "last_seen": "2026-07-23"
   },
   "theconnector.substack.com": {
     "count": 3,
