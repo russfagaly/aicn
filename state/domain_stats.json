@@ -13,6 +13,13 @@
     ],
     "last_seen": "2026-07-02"
   },
+  "aicerts.ai": {
+    "count": 1,
+    "example_urls": [
+      "https://aicerts.ai/news/how-political-misinformation-deepfakes-threaten-2026-elections"
+    ],
+    "last_seen": "2026-07-24"
+  },
   "aimmediahouse.com": {
     "count": 1,
     "example_urls": [
@@ -78,11 +85,11 @@
     "last_seen": "2026-07-22"
   },
   "campaignnow.com": {
-    "count": 2,
+    "count": 3,
     "example_urls": [
       "https://campaignnow.com/blog/regulators-scramble-as-ai-deepfakes-flood-the-2026-midterms"
     ],
-    "last_seen": "2026-07-19"
+    "last_seen": "2026-07-24"
   },
   "capitolfax.com": {
     "count": 1,
@@ -239,11 +246,11 @@
     "last_seen": "2026-07-22"
   },
   "gettysburgconnection.org": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
       "https://gettysburgconnection.org/ai-deepfakes-are-a-growing-concern-in-2026-political-campaigns"
     ],
-    "last_seen": "2026-07-16"
+    "last_seen": "2026-07-24"
   },
   "globenewswire.com": {
     "count": 1,
@@ -301,6 +308,13 @@
       "https://marketplace.org/story/2026/07/21/the-aflcios-strategy-for-ai-and-the-midterm-elections"
     ],
     "last_seen": "2026-07-22"
+  },
+  "multistate.us": {
+    "count": 1,
+    "example_urls": [
+      "https://multistate.us/insider/2026/2/12/how-ai-generated-content-laws-are-changing-across-the-country"
+    ],
+    "last_seen": "2026-07-24"
   },
   "natesilver.net": {
     "count": 1,
@@ -395,11 +409,11 @@
     "last_seen": "2026-07-22"
   },
   "stackcyber.com": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
       "https://stackcyber.com/posts/ai-deepfake-laws"
     ],
-    "last_seen": "2026-07-02"
+    "last_seen": "2026-07-24"
   },
   "startupintros.com": {
     "count": 1,
@@ -483,11 +497,11 @@
     "last_seen": "2026-07-09"
   },
   "truescreen.io": {
-    "count": 2,
+    "count": 3,
     "example_urls": [
       "https://truescreen.io/articles/deepfakes-2026-elections-certified-proof"
     ],
-    "last_seen": "2026-07-06"
+    "last_seen": "2026-07-24"
   },
   "usatoday.com": {
     "count": 1,
@@ -497,11 +511,11 @@
     "last_seen": "2026-07-22"
   },
   "usnews.com": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
       "https://usnews.com/news/politics/articles/2026-03-28/ai-deepfakes-blur-reality-in-2026-us-midterm-campaigns"
     ],
-    "last_seen": "2026-07-06"
+    "last_seen": "2026-07-24"
   },
   "variety.com": {
     "count": 1,

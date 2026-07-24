@@ -244,6 +244,30 @@
       ],
       "first_proposed": "2026-07-23",
       "status": "pending"
+    },
+    {
+      "id": "prop-source-campaignnow-com",
+      "kind": "source",
+      "value": "campaignnow.com",
+      "feed_url": null,
+      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://campaignnow.com/blog/regulators-scramble-as-ai-deepfakes-flood-the-2026-midterms"
+      ],
+      "first_proposed": "2026-07-24",
+      "status": "pending"
+    },
+    {
+      "id": "prop-source-truescreen-io",
+      "kind": "source",
+      "value": "truescreen.io",
+      "feed_url": "https://truescreen.io/feed/",
+      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://truescreen.io/articles/deepfakes-2026-elections-certified-proof"
+      ],
+      "first_proposed": "2026-07-24",
+      "status": "pending"
     }
   ]
 }
