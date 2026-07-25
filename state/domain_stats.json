@@ -63,12 +63,12 @@
     "last_seen": "2026-07-02"
   },
   "blackburn.senate.gov": {
-    "count": 2,
+    "count": 3,
     "example_urls": [
       "https://blackburn.senate.gov/2026/5/technology/blackburn-coons-salazar-dean-colleagues-introduce-revised-version-of-no-fakes-act",
       "https://blackburn.senate.gov/2026/6/blackburn-coons-bipartisan-bill-to-protect-individuals-and-creators-from-deepfakes-passes-senate-judiciary-committee"
     ],
-    "last_seen": "2026-07-15"
+    "last_seen": "2026-07-25"
   },
   "breitbart.com": {
     "count": 1,
@@ -148,11 +148,11 @@
     "last_seen": "2026-07-15"
   },
   "dean.house.gov": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
       "https://dean.house.gov/2026/5/dean-salazar-reintroduce-bill-to-protect-americans-from-ai-deepfakes"
     ],
-    "last_seen": "2026-07-15"
+    "last_seen": "2026-07-25"
   },
   "deepfakedetector.ai": {
     "count": 1,
@@ -359,6 +359,13 @@
     ],
     "last_seen": "2026-06-30"
   },
+  "pushdigitalgroup.com": {
+    "count": 1,
+    "example_urls": [
+      "https://pushdigitalgroup.com/blog/push-digital-group-launches-push-ai"
+    ],
+    "last_seen": "2026-07-25"
+  },
   "research-live.com": {
     "count": 1,
     "example_urls": [
@@ -449,6 +456,13 @@
       "https://texastribune.org/2026/02/19/texas-2026-primaries-ai-ads-candidates-crockett-cornyn-paxton"
     ],
     "last_seen": "2026-07-23"
+  },
+  "theaiworld.org": {
+    "count": 1,
+    "example_urls": [
+      "https://theaiworld.org/news/electric-twin-raises-14m-for-synthetic-audiences"
+    ],
+    "last_seen": "2026-07-25"
   },
   "theconnector.substack.com": {
     "count": 3,
