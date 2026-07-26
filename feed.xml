@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Sat, 25 Jul 2026 13:45:21 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2026 13:39:06 GMT</lastBuildDate>
+    <item>
+      <title>AI Deepfakes Are Official Campaign Strategy. The 2026 Midterms Proved It.</title>
+      <link>https://roborhythms.com/ai-deepfakes-midterm-elections-2026</link>
+      <guid isPermaLink="false">7f87e0b914ec5c22</guid>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <description>RoboRhythms reports that AI-generated deepfakes have become an explicit campaign strategy in the 2026 midterms, noting that no federal law prohibits their use in political advertising.</description>
+    </item>
+    <item>
+      <title>How 20 States Are Now Regulating Deepfakes—and What It Means for Elections</title>
+      <link>https://govfacts.org/elections-voting/running-elections/election-security-audits/how-20-states-are-now-regulating-deepfakes-and-what-it-means-for-elections</link>
+      <guid isPermaLink="false">30640083d99e3b14</guid>
+      <pubDate>Sat, 03 Jan 2026 00:00:00 GMT</pubDate>
+      <description>GovFacts surveys the patchwork of deepfake laws across states, noting 47 states have passed some form of deepfake legislation since 2019, while Alaska, Missouri, and Ohio have none, with significant variation in how election-related synthetic media is addressed and enforced.</description>
+    </item>
     <item>
       <title>State AI deepfake laws face first big test in 2026 midterm elections</title>
       <link>https://azcapitoltimes.com/news/2026/07/21/state-ai-deepfake-laws-face-first-big-test-in-2026-midterm-elections</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">a61becf7d22ddafb</guid>
       <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
       <description>The Transparency Coalition's July 3 legislative roundup reports that California Governor Gavin Newsom signed a law requiring public school teachers to be human, while New Jersey legislators passed a Kids Code Act, illustrating continued state-level AI governance activity.</description>
-    </item>
-    <item>
-      <title>Tech: OpenAI warms up to Washington</title>
-      <link>https://punchbowl.news/article/tech/openai-warms-washington</link>
-      <guid isPermaLink="false">af006c7979fee165</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Punchbowl News reports that OpenAI has backed Sen. Marsha Blackburn's Kids Online Safety Act and the NO FAKES Act, signaling a warmer relationship between the company and Washington lawmakers heading into the 2026 cycle.</description>
-    </item>
-    <item>
-      <title>'Who should I vote for?' Voters turn to AI before casting their ballots</title>
-      <link>https://inquirer.com/news/nation-world/elections-ai-chatbot-voter-research-candidates-midterms-20260704.html</link>
-      <guid isPermaLink="false">6a14d9bb1aff0fd0</guid>
-      <pubDate>Sat, 04 Jul 2026 00:00:00 GMT</pubDate>
-      <description>The Philadelphia Inquirer reports that voters are using AI chatbots to research candidates and guide their voting decisions ahead of the 2026 midterms, even though the tools are designed to avoid expressing political opinions.</description>
     </item>
   </channel>
 </rss>

@@ -281,6 +281,30 @@
       ],
       "first_proposed": "2026-07-25",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-roborhythms",
+      "kind": "watchlist_entity",
+      "value": "RoboRhythms",
+      "feed_url": null,
+      "rationale": "A publication or outlet specifically tracking AI and automation in political/electoral contexts; niche enough to warrant monitoring as a beat source.",
+      "example_urls": [
+        "https://www.roborhythms.com/ai-deepfakes-midterm-elections-2026/"
+      ],
+      "first_proposed": "2026-07-26",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-govfacts",
+      "kind": "watchlist_entity",
+      "value": "GovFacts",
+      "feed_url": null,
+      "rationale": "A policy-focused research/reference outlet covering election law and deepfake regulation; not widely known in the campaign-AI space but producing relevant regulatory tracking.",
+      "example_urls": [
+        "https://govfacts.org/elections-voting/running-elections/election-security-audits/how-20-states-are-now-regulating-deepfakes-and-what-it-means-for-elections/"
+      ],
+      "first_proposed": "2026-07-26",
+      "status": "pending"
     }
   ]
 }

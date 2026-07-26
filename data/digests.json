@@ -1,7 +1,55 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-25T13:45:21Z",
+  "generated_at": "2026-07-26T13:39:06Z",
   "runs": [
+    {
+      "run_id": "2026-07-26",
+      "date": "2026-07-26",
+      "generated_at": "2026-07-26T13:39:06Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "7f87e0b914ec5c22",
+          "title": "AI Deepfakes Are Official Campaign Strategy. The 2026 Midterms Proved It.",
+          "url": "https://roborhythms.com/ai-deepfakes-midterm-elections-2026",
+          "source": "RoboRhythms",
+          "source_domain": "roborhythms.com",
+          "published": "2026-03-31",
+          "first_seen_run": "2026-07-26",
+          "category": "deepfakes",
+          "summary": "RoboRhythms reports that AI-generated deepfakes have become an explicit campaign strategy in the 2026 midterms, noting that no federal law prohibits their use in political advertising.",
+          "why_it_matters": "Documents the mainstreaming of synthetic media as a deliberate campaign tactic in a major election cycle, underscoring the gap in federal regulation.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "30640083d99e3b14",
+          "title": "How 20 States Are Now Regulating Deepfakes\u2014and What It Means for Elections",
+          "url": "https://govfacts.org/elections-voting/running-elections/election-security-audits/how-20-states-are-now-regulating-deepfakes-and-what-it-means-for-elections",
+          "source": "GovFacts",
+          "source_domain": "govfacts.org",
+          "published": "2026-01-03",
+          "first_seen_run": "2026-07-26",
+          "category": "regulation",
+          "summary": "GovFacts surveys the patchwork of deepfake laws across states, noting 47 states have passed some form of deepfake legislation since 2019, while Alaska, Missouri, and Ohio have none, with significant variation in how election-related synthetic media is addressed and enforced.",
+          "why_it_matters": "Illustrates the fragmented state-level regulatory landscape campaigns and vendors must navigate in 2026, complementing federal inaction.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:fcc",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-07-25",
       "date": "2026-07-25",

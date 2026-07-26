@@ -63,12 +63,12 @@
     "last_seen": "2026-07-02"
   },
   "blackburn.senate.gov": {
-    "count": 3,
+    "count": 4,
     "example_urls": [
       "https://blackburn.senate.gov/2026/5/technology/blackburn-coons-salazar-dean-colleagues-introduce-revised-version-of-no-fakes-act",
       "https://blackburn.senate.gov/2026/6/blackburn-coons-bipartisan-bill-to-protect-individuals-and-creators-from-deepfakes-passes-senate-judiciary-committee"
     ],
-    "last_seen": "2026-07-25"
+    "last_seen": "2026-07-26"
   },
   "breitbart.com": {
     "count": 1,
@@ -266,6 +266,13 @@
     ],
     "last_seen": "2026-07-18"
   },
+  "govfacts.org": {
+    "count": 1,
+    "example_urls": [
+      "https://govfacts.org/elections-voting/running-elections/election-security-audits/how-20-states-are-now-regulating-deepfakes-and-what-it-means-for-elections"
+    ],
+    "last_seen": "2026-07-26"
+  },
   "houstonpublicmedia.org": {
     "count": 1,
     "example_urls": [
@@ -374,11 +381,11 @@
     "last_seen": "2026-07-12"
   },
   "roborhythms.com": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
       "https://roborhythms.com/ai-deepfakes-midterm-elections-2026"
     ],
-    "last_seen": "2026-07-02"
+    "last_seen": "2026-07-26"
   },
   "rollcall.com": {
     "count": 1,
