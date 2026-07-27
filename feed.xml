@@ -3,7 +3,28 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Sun, 26 Jul 2026 13:39:06 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 14:52:42 GMT</lastBuildDate>
+    <item>
+      <title>This Is Donald Trump’s AI Brain Trust</title>
+      <link>https://wired.com/story/this-is-donald-trumps-ai-brain-trust</link>
+      <guid isPermaLink="false">71816d0071db7cb3</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Wired profiles the network of advisers and officials shaping U.S. AI policy inside the Trump administration, with a senior administration official describing internal policy debates as involving many competing factions rather than two clear sides.</description>
+    </item>
+    <item>
+      <title>Trump Ramps Up Threats Against Iran Despite Pause in Strikes</title>
+      <link>https://notus.org/trump-white-house/trump-iran-threats-ai-images-strikes</link>
+      <guid isPermaLink="false">81a70522fc310684</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <description>President Trump posted a series of AI-generated images on Truth Social alongside threats directed at Iran, including one depicting himself as "Guardian of the World."</description>
+    </item>
+    <item>
+      <title>StackAdapt Launches Political Targeting and Measurement Suite to Help Campaigns Optimize Voter Outreach Ahead of the 2026 Midterms</title>
+      <link>https://finance.yahoo.com/media-advertising/articles/stackadapt-launches-political-targeting-measurement-130000309.html</link>
+      <guid isPermaLink="false">f41290694bfa90cf</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <description>StackAdapt, which describes itself as an AI advertising and orchestration platform, has launched a political targeting and measurement suite for the U.S. market, combining political audience creation, voter intelligence, campaign measurement, and ad optimization in a single workflow for political advertisers ahead of the 2026 midterms.</description>
+    </item>
     <item>
       <title>AI Deepfakes Are Official Campaign Strategy. The 2026 Midterms Proved It.</title>
       <link>https://roborhythms.com/ai-deepfakes-midterm-elections-2026</link>
@@ -192,27 +213,6 @@
       <guid isPermaLink="false">a8e951c27466aa1c</guid>
       <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
       <description>CNBC reports that two major AI industry super PACs are each spending heavily in the 2026 midterms and lobbying Congress for competing versions of AI regulation, illustrating how industry money is shaping the legislative landscape.</description>
-    </item>
-    <item>
-      <title>Getty Images’ Answer to AI Slop? Authentic, Verified Content</title>
-      <link>https://campaignsandelections.com/sponsored/getty-images-answer-to-ai-slop-authentic-verified-content</link>
-      <guid isPermaLink="false">93349ac2dfbe0408</guid>
-      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Getty Images is marketing authenticated, human-verified visual content to political campaigns as a direct counter to the spread of AI-generated imagery, framing provenance and verification as competitive advantages in the 2026 cycle.</description>
-    </item>
-    <item>
-      <title>NO FAKES, Real Censorship: How Congress Could Muzzle AI Speech</title>
-      <link>https://cato.org/blog/no-fakes-real-censorship-how-congress-could-muzzle-ai-speech</link>
-      <guid isPermaLink="false">c135ca05b155cd3a</guid>
-      <pubDate>Sun, 05 Jul 2026 00:00:00 GMT</pubDate>
-      <description>The Cato Institute argues that the NO FAKES Act of 2026 would create sweeping liability for anyone who displays, distributes, or transmits an unauthorized AI-generated likeness of a person, or who builds a tool capable of producing one, effectively criminalizing a broad swath of expressive and journalistic activity.</description>
-    </item>
-    <item>
-      <title>AI Legislative Update: July 3, 2026</title>
-      <link>https://transparencycoalition.ai/news/ai-legislative-update-july3-2026</link>
-      <guid isPermaLink="false">a61becf7d22ddafb</guid>
-      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
-      <description>The Transparency Coalition's July 3 legislative roundup reports that California Governor Gavin Newsom signed a law requiring public school teachers to be human, while New Jersey legislators passed a Kids Code Act, illustrating continued state-level AI governance activity.</description>
     </item>
   </channel>
 </rss>

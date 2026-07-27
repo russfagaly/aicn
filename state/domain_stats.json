@@ -203,6 +203,13 @@
     ],
     "last_seen": "2026-07-22"
   },
+  "finance.yahoo.com": {
+    "count": 1,
+    "example_urls": [
+      "https://finance.yahoo.com/media-advertising/articles/stackadapt-launches-political-targeting-measurement-130000309.html"
+    ],
+    "last_seen": "2026-07-27"
+  },
   "finchannel.com": {
     "count": 1,
     "example_urls": [
@@ -331,12 +338,13 @@
     "last_seen": "2026-07-11"
   },
   "nbcnews.com": {
-    "count": 8,
+    "count": 9,
     "example_urls": [
       "https://nbcnews.com/politics/2028-election/ai-midterms-politics-campaign-ads-rcna263752",
-      "https://nbcnews.com/politics/2026-election/ads-ai-industry-are-flooding-2026-election-artificial-intelligence-rcna260782"
+      "https://nbcnews.com/politics/2026-election/ads-ai-industry-are-flooding-2026-election-artificial-intelligence-rcna260782",
+      "https://nbcnews.com/tech/tech-news/technology-group-hopes-help-democrats-win-ai-generated-ads-emails-rcna140505"
     ],
-    "last_seen": "2026-07-23"
+    "last_seen": "2026-07-27"
   },
   "newsweek.com": {
     "count": 1,
@@ -436,6 +444,13 @@
     ],
     "last_seen": "2026-07-19"
   },
+  "targetsmart.com": {
+    "count": 1,
+    "example_urls": [
+      "https://targetsmart.com/spencer-pratts-viral-campaign-shows-the-promise-and-limits-of-social-first-politics"
+    ],
+    "last_seen": "2026-07-27"
+  },
   "techbuzz.ai": {
     "count": 1,
     "example_urls": [
@@ -484,6 +499,13 @@
       "https://thenewamerican.com/print/principles-not-personalities"
     ],
     "last_seen": "2026-07-22"
+  },
+  "thepoliticalgroup.com": {
+    "count": 1,
+    "example_urls": [
+      "https://thepoliticalgroup.com/news/ai-campaign-strategy-tools-are-reshaping-the-2026-midterms-what-voters-need-to-k"
+    ],
+    "last_seen": "2026-07-27"
   },
   "therealdeal.com": {
     "count": 1,
