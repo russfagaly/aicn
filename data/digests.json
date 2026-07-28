@@ -1,7 +1,112 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-27T14:52:42Z",
+  "generated_at": "2026-07-28T14:19:00Z",
   "runs": [
+    {
+      "run_id": "2026-07-28",
+      "date": "2026-07-28",
+      "generated_at": "2026-07-28T14:19:00Z",
+      "is_light_run": false,
+      "top_summary": "California Sen. Adam Schiff plans to introduce two bills that would restrict AI-generated likenesses of politicians in political ads and require disclosure for paid influencers, marking a notable new legislative push at the federal level. A Turing Institute report examines deepfake scams and compromised AI chatbots as election security threats. State legislatures are actively advancing bills requiring disclosures or restrictions on AI-generated political ads in 2026, with a new overview tracking the legislative push across states.",
+      "item_count": 5,
+      "items": [
+        {
+          "id": "50ac61a0de158f90",
+          "title": "Exclusive: Senate Democrat's new bills would restrict AI-powered ads and paid influencers",
+          "url": "https://semafor.com/article/07/26/2026/senate-democrats-new-bills-would-restrict-ai-powered-ads-and-paid-influencers",
+          "source": "Semafor",
+          "source_domain": "semafor.com",
+          "published": "2026-07-26",
+          "first_seen_run": "2026-07-28",
+          "category": "regulation",
+          "summary": "California Sen. Adam Schiff plans to introduce two bills: one that would restrict AI-generated likenesses of politicians in political ads and another that would require disclosure of paid influencers in political speech online.",
+          "why_it_matters": "Federal legislative action specifically targeting AI-generated political content is rare; Schiff's bills represent a concrete new congressional attempt to regulate AI in campaign advertising.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:semafor",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "f83986496c96b874",
+          "title": "Lawmakers Are Riding the AI Wave to Stardom",
+          "url": "https://notus.org/technology/lawmakers-ai-wave-stardom",
+          "source": "NOTUS",
+          "source_domain": "notus.org",
+          "published": "2026-07-28",
+          "first_seen_run": "2026-07-28",
+          "category": "analysis_oped",
+          "summary": "NOTUS reports that politicians who can speak credibly to AI issues are gaining visibility and credibility with voters and within their parties, positioning AI as a political credential in the 2026 cycle.",
+          "why_it_matters": "Shows how AI policy is becoming a campaign asset in itself, shaping how candidates and lawmakers position themselves to voters ahead of the midterms.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "notus",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "77a398565953975b",
+          "title": "2026 State Legislative Push to Regulate AI-Generated Campaign Advertisements",
+          "url": "https://statecapitallobbyist.com/uncategorized/2026-state-legislative-push-to-regulate-ai-generated-campaign-advertisements",
+          "source": "Duane Morris Government Strategies",
+          "source_domain": "statecapitallobbyist.com",
+          "published": "2026-07-07",
+          "first_seen_run": "2026-07-28",
+          "category": "regulation",
+          "summary": "Duane Morris Government Strategies surveys 2026 state legislation targeting AI-generated political ads, noting states are introducing bills ranging from mandatory disclosure requirements to outright pre-election bans on synthetic media.",
+          "why_it_matters": "Provides a consolidated view of the accelerating state-level regulatory landscape for AI in political advertising ahead of the 2026 midterms.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:take-it-down-act",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "cb46764ce293966b",
+          "title": "How One Voter Data Firm is Meeting the AI Age",
+          "url": "https://campaignsandelections.com/industry-news/how-one-voter-data-firm-is-meeting-the-ai-age",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-06-09",
+          "first_seen_run": "2026-07-28",
+          "category": "vendor_moves",
+          "summary": "Campaigns & Elections profiles L2, a voter data firm, and its cautious approach to integrating AI into its products, contrasting it with faster-moving competitors in the political data space.",
+          "why_it_matters": "Illustrates how established voter data vendors are navigating AI adoption pressures while trying to maintain data reliability for campaigns.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:l2",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "74bb208669e6b806",
+          "title": "Aaru - Behavior simulation at the scale of the real world.",
+          "url": "https://aaru.com/",
+          "source": "Aaru (company website)",
+          "source_domain": "aaru.com",
+          "published": "2026-07-17",
+          "first_seen_run": "2026-07-28",
+          "category": "polling_synthetic",
+          "summary": "Aaru, a behavior simulation company, markets itself as an alternative to traditional surveys by using AI to simulate human behavior at scale, arguing that conventional polling is distorted by memory failure and social pressure.",
+          "why_it_matters": "Synthetic respondent platforms like Aaru represent a growing challenge to traditional polling methodology with direct implications for how campaigns and issue advocates conduct research.",
+          "flags": [
+            "vendor_self_reported",
+            "speculative"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:aaru",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-07-27",
       "date": "2026-07-27",

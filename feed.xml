@@ -3,7 +3,42 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Mon, 27 Jul 2026 14:52:42 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 14:19:00 GMT</lastBuildDate>
+    <item>
+      <title>Exclusive: Senate Democrat's new bills would restrict AI-powered ads and paid influencers</title>
+      <link>https://semafor.com/article/07/26/2026/senate-democrats-new-bills-would-restrict-ai-powered-ads-and-paid-influencers</link>
+      <guid isPermaLink="false">50ac61a0de158f90</guid>
+      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
+      <description>California Sen. Adam Schiff plans to introduce two bills: one that would restrict AI-generated likenesses of politicians in political ads and another that would require disclosure of paid influencers in political speech online.</description>
+    </item>
+    <item>
+      <title>Lawmakers Are Riding the AI Wave to Stardom</title>
+      <link>https://notus.org/technology/lawmakers-ai-wave-stardom</link>
+      <guid isPermaLink="false">f83986496c96b874</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description>NOTUS reports that politicians who can speak credibly to AI issues are gaining visibility and credibility with voters and within their parties, positioning AI as a political credential in the 2026 cycle.</description>
+    </item>
+    <item>
+      <title>2026 State Legislative Push to Regulate AI-Generated Campaign Advertisements</title>
+      <link>https://statecapitallobbyist.com/uncategorized/2026-state-legislative-push-to-regulate-ai-generated-campaign-advertisements</link>
+      <guid isPermaLink="false">77a398565953975b</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Duane Morris Government Strategies surveys 2026 state legislation targeting AI-generated political ads, noting states are introducing bills ranging from mandatory disclosure requirements to outright pre-election bans on synthetic media.</description>
+    </item>
+    <item>
+      <title>How One Voter Data Firm is Meeting the AI Age</title>
+      <link>https://campaignsandelections.com/industry-news/how-one-voter-data-firm-is-meeting-the-ai-age</link>
+      <guid isPermaLink="false">cb46764ce293966b</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Campaigns &amp; Elections profiles L2, a voter data firm, and its cautious approach to integrating AI into its products, contrasting it with faster-moving competitors in the political data space.</description>
+    </item>
+    <item>
+      <title>Aaru - Behavior simulation at the scale of the real world.</title>
+      <link>https://aaru.com/</link>
+      <guid isPermaLink="false">74bb208669e6b806</guid>
+      <pubDate>Fri, 17 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Aaru, a behavior simulation company, markets itself as an alternative to traditional surveys by using AI to simulate human behavior at scale, arguing that conventional polling is distorted by memory failure and social pressure.</description>
+    </item>
     <item>
       <title>This Is Donald Trump’s AI Brain Trust</title>
       <link>https://wired.com/story/this-is-donald-trumps-ai-brain-trust</link>
@@ -178,41 +213,6 @@
       <guid isPermaLink="false">d1050b8493a91d36</guid>
       <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
       <description>Fortune profiles Aaru cofounder Ned Koh, 21, whose AI startup sells synthetic-respondent predictions to clients as an alternative to traditional polling, with Koh himself warning clients not to take the results on faith while arguing the platform's predictive accuracy surpasses human survey data. The piece examines Aaru's unusual sales posture and its growing footprint in political forecasting.</description>
-    </item>
-    <item>
-      <title>Aaru AI Review 2026: The Prediction Startup, and Where It Fits</title>
-      <link>https://fish.dog/news/aaru-ai-review-2026-the-prediction-startup-and-where-it-fits</link>
-      <guid isPermaLink="false">6e1c3fd2443efd69</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 GMT</pubDate>
-      <description>An independent review from FishDog assesses Aaru's AI prediction platform — which raised a Series A and is run by a teenage founder — examining where its synthetic-respondent methodology is credible and where it falls short relative to conventional polling. The review highlights both the startup's technical ambitions and the limits of its current validation record.</description>
-    </item>
-    <item>
-      <title>Announcing Higher Ground Labs' Agentic AI Open Call</title>
-      <link>https://highergroundlabs.com/agentic-ai-open-call</link>
-      <guid isPermaLink="false">01956ecb4edcdffe</guid>
-      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-      <description>Higher Ground Labs, a progressive political technology incubator, has opened an investment application specifically for agentic AI startups building tools for political use, signaling institutional progressive-side investment interest in autonomous AI agents for campaigns. The open call invites founders to pitch agentic solutions across campaign functions.</description>
-    </item>
-    <item>
-      <title>Tech: Lawmakers want agencies watching AI election threats</title>
-      <link>https://punchbowl.news/article/tech/ai-election-threats</link>
-      <guid isPermaLink="false">93022fcc3e892904</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Reps. Mike Lawler (R-N.Y.) and Josh Gottheimer (D-N.J.) are urging four federal agencies to take action on potential election-integrity threats posed by AI ahead of the 2026 midterms.</description>
-    </item>
-    <item>
-      <title>Bipartisan lawmakers press agencies on AI election threats</title>
-      <link>https://thehill.com/policy/technology/5961267-ai-election-threats-2026-midterms</link>
-      <guid isPermaLink="false">a3372eefe147c99d</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
-      <description>The Hill reports on the same bipartisan push by Lawler and Gottheimer urging federal agencies to monitor AI-related election threats in the 2026 cycle.</description>
-    </item>
-    <item>
-      <title>What AI companies want for the millions they're spending on elections</title>
-      <link>https://cnbc.com/2026/07/09/ai-companies-election-spending.html</link>
-      <guid isPermaLink="false">a8e951c27466aa1c</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 GMT</pubDate>
-      <description>CNBC reports that two major AI industry super PACs are each spending heavily in the 2026 midterms and lobbying Congress for competing versions of AI regulation, illustrating how industry money is shaping the legislative landscape.</description>
     </item>
   </channel>
 </rss>

@@ -1,4 +1,11 @@
 {
+  "aaru.com": {
+    "count": 1,
+    "example_urls": [
+      "https://aaru.com/"
+    ],
+    "last_seen": "2026-07-28"
+  },
   "accupaysystems.com": {
     "count": 4,
     "example_urls": [
@@ -104,6 +111,13 @@
       "https://cato.org/blog/no-fakes-real-censorship-how-congress-could-muzzle-ai-speech"
     ],
     "last_seen": "2026-07-08"
+  },
+  "cetas.turing.ac.uk": {
+    "count": 1,
+    "example_urls": [
+      "https://cetas.turing.ac.uk/publications/deepfake-scams-poisoned-chatbots"
+    ],
+    "last_seen": "2026-07-28"
   },
   "citizen.org": {
     "count": 1,
@@ -280,6 +294,13 @@
     ],
     "last_seen": "2026-07-26"
   },
+  "halock.com": {
+    "count": 1,
+    "example_urls": [
+      "https://halock.com/what-legislation-protects-against-deepfakes-and-synthetic-media"
+    ],
+    "last_seen": "2026-07-28"
+  },
   "houstonpublicmedia.org": {
     "count": 1,
     "example_urls": [
@@ -293,6 +314,13 @@
       "https://inquirer.com/news/nation-world/elections-ai-chatbot-voter-research-candidates-midterms-20260704.html"
     ],
     "last_seen": "2026-07-05"
+  },
+  "kcci.com": {
+    "count": 1,
+    "example_urls": [
+      "https://kcci.com/article/ted-cruz-ankeny-ai-chatbot-kids-regulation/73266119"
+    ],
+    "last_seen": "2026-07-28"
   },
   "l2-data.com": {
     "count": 8,
@@ -444,6 +472,13 @@
     ],
     "last_seen": "2026-07-19"
   },
+  "statecapitallobbyist.com": {
+    "count": 1,
+    "example_urls": [
+      "https://statecapitallobbyist.com/uncategorized/2026-state-legislative-push-to-regulate-ai-generated-campaign-advertisements"
+    ],
+    "last_seen": "2026-07-28"
+  },
   "targetsmart.com": {
     "count": 1,
     "example_urls": [
@@ -587,6 +622,13 @@
       "https://washingtoninformer.com/senate-judiciary-committee-ai"
     ],
     "last_seen": "2026-07-14"
+  },
+  "wiley.law": {
+    "count": 1,
+    "example_urls": [
+      "https://wiley.law/alert-AI-Restrictions-in-Political-Ads-What-to-Know-About-Deepfake-Disclaimers-and-Bans"
+    ],
+    "last_seen": "2026-07-28"
   },
   "wokv.com": {
     "count": 1,

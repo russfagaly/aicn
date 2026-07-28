@@ -305,6 +305,30 @@
       ],
       "first_proposed": "2026-07-26",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-adam-schiff",
+      "kind": "watchlist_entity",
+      "value": "Adam Schiff",
+      "feed_url": null,
+      "rationale": "California senator introducing specific federal legislation to restrict AI-generated political ads and mandate influencer disclosure \u2014 a key actor in the AI-in-elections regulatory space.",
+      "example_urls": [
+        "https://www.semafor.com/article/07/26/2026/senate-democrats-new-bills-would-restrict-ai-powered-ads-and-paid-influencers"
+      ],
+      "first_proposed": "2026-07-28",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-duane-morris-government-strategies",
+      "kind": "watchlist_entity",
+      "value": "Duane Morris Government Strategies",
+      "feed_url": null,
+      "rationale": "Lobbying and policy firm publishing substantive state-by-state tracking of AI campaign ad regulation, functioning as a monitor of the regulatory landscape.",
+      "example_urls": [
+        "https://statecapitallobbyist.com/uncategorized/2026-state-legislative-push-to-regulate-ai-generated-campaign-advertisements/"
+      ],
+      "first_proposed": "2026-07-28",
+      "status": "pending"
     }
   ]
 }
