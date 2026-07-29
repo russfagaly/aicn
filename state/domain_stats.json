@@ -120,11 +120,12 @@
     "last_seen": "2026-07-28"
   },
   "citizen.org": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
-      "https://citizen.org/news/30-states-now-have-laws-to-regulate-election-deepfakes"
+      "https://citizen.org/news/30-states-now-have-laws-to-regulate-election-deepfakes",
+      "https://citizen.org/article/tracker-legislation-on-deepfakes-in-elections"
     ],
-    "last_seen": "2026-07-05"
+    "last_seen": "2026-07-29"
   },
   "clickorlando.com": {
     "count": 1,
@@ -181,6 +182,13 @@
       "https://denverpost.com/2026/07/20/colorado-8th-congressional-district-artificial-intelligence-poll"
     ],
     "last_seen": "2026-07-22"
+  },
+  "drainpipe.io": {
+    "count": 1,
+    "example_urls": [
+      "https://drainpipe.io/knowledge-base/what-are-the-emerging-regulations-around-ai-deepfakes-in-elections"
+    ],
+    "last_seen": "2026-07-29"
   },
   "eenews.net": {
     "count": 1,
@@ -294,6 +302,13 @@
     ],
     "last_seen": "2026-07-26"
   },
+  "gzeromedia.com": {
+    "count": 1,
+    "example_urls": [
+      "https://gzeromedia.com/news/analysis/ai-will-be-on-the-ballot-in-the-2026-midterms"
+    ],
+    "last_seen": "2026-07-29"
+  },
   "halock.com": {
     "count": 1,
     "example_urls": [
@@ -329,6 +344,13 @@
       "https://l2-data.com/liveramp-and-beyond-onboarding-with-l2-in-2026"
     ],
     "last_seen": "2026-07-17"
+  },
+  "legisletter.org": {
+    "count": 1,
+    "example_urls": [
+      "https://legisletter.org/issues/ai-regulation"
+    ],
+    "last_seen": "2026-07-29"
   },
   "local10.com": {
     "count": 1,
@@ -401,6 +423,13 @@
       "https://profilenews.com/en/ai-in-global-elections-2026-explainer"
     ],
     "last_seen": "2026-06-30"
+  },
+  "pulse2.com": {
+    "count": 1,
+    "example_urls": [
+      "https://pulse2.com/electric-twin-synthetic-audience-ai-platform-secures-14-million-in-funding"
+    ],
+    "last_seen": "2026-07-29"
   },
   "pushdigitalgroup.com": {
     "count": 1,

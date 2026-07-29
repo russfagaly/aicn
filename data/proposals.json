@@ -329,6 +329,18 @@
       ],
       "first_proposed": "2026-07-28",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-legisletter",
+      "kind": "watchlist_entity",
+      "value": "Legisletter",
+      "feed_url": null,
+      "rationale": "A niche legislative tracking publication producing a dedicated AI regulation tracker for the 119th Congress, updated weekly with floor quotes and lobbying filings \u2014 useful beat resource not widely known.",
+      "example_urls": [
+        "https://legisletter.org/issues/ai-regulation"
+      ],
+      "first_proposed": "2026-07-29",
+      "status": "pending"
     }
   ]
 }

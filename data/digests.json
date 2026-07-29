@@ -1,7 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-28T14:19:00Z",
+  "generated_at": "2026-07-29T14:20:50Z",
   "runs": [
+    {
+      "run_id": "2026-07-29",
+      "date": "2026-07-29",
+      "generated_at": "2026-07-29T14:20:50Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 1,
+      "items": [
+        {
+          "id": "8e82d6771c6ce7b6",
+          "title": "AI Regulation in Congress: Every Bill, Vote, and Floor Quote (2026)",
+          "url": "https://legisletter.org/issues/ai-regulation",
+          "source": "Legisletter",
+          "source_domain": "legisletter.org",
+          "published": "2026-07-22",
+          "first_seen_run": "2026-07-29",
+          "category": "regulation",
+          "summary": "Legisletter maintains a running tracker of AI-related legislation in the 119th Congress, covering deepfake bans, state preemption fights, algorithmic accountability, and data center issues, updated weekly with floor quotes and lobbying filings.",
+          "why_it_matters": "A consolidated, continuously updated reference for AI election and campaign regulation activity in Congress is a useful resource for tracking the legislative landscape.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:take-it-down-act",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-07-28",
       "date": "2026-07-28",

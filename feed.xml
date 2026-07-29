@@ -3,7 +3,14 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Tue, 28 Jul 2026 14:19:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 14:20:50 GMT</lastBuildDate>
+    <item>
+      <title>AI Regulation in Congress: Every Bill, Vote, and Floor Quote (2026)</title>
+      <link>https://legisletter.org/issues/ai-regulation</link>
+      <guid isPermaLink="false">8e82d6771c6ce7b6</guid>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Legisletter maintains a running tracker of AI-related legislation in the 119th Congress, covering deepfake bans, state preemption fights, algorithmic accountability, and data center issues, updated weekly with floor quotes and lobbying filings.</description>
+    </item>
     <item>
       <title>Exclusive: Senate Democrat's new bills would restrict AI-powered ads and paid influencers</title>
       <link>https://semafor.com/article/07/26/2026/senate-democrats-new-bills-would-restrict-ai-powered-ads-and-paid-influencers</link>
@@ -206,13 +213,6 @@
       <guid isPermaLink="false">c09238465bc8ada4</guid>
       <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
       <description>NPR reports that campaigns are using AI bots to send and manage political text messages to voters ahead of the 2026 midterms, with the practice spreading across multiple campaign operations. The piece examines how automated conversational AI is replacing or supplementing human texters in voter contact programs.</description>
-    </item>
-    <item>
-      <title>21-year-old AI startup cofounder's sales pitch to clients: 'Do not trust us'</title>
-      <link>https://fortune.com/2026/06/17/aaru-cofounder-ned-koh-ai-startup-sales-pitch-do-not-trust-us</link>
-      <guid isPermaLink="false">d1050b8493a91d36</guid>
-      <pubDate>Wed, 17 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Fortune profiles Aaru cofounder Ned Koh, 21, whose AI startup sells synthetic-respondent predictions to clients as an alternative to traditional polling, with Koh himself warning clients not to take the results on faith while arguing the platform's predictive accuracy surpasses human survey data. The piece examines Aaru's unusual sales posture and its growing footprint in political forecasting.</description>
     </item>
   </channel>
 </rss>
