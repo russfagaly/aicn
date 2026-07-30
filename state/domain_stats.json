@@ -148,6 +148,13 @@
     ],
     "last_seen": "2026-07-20"
   },
+  "cruxnow.com": {
+    "count": 1,
+    "example_urls": [
+      "https://cruxnow.com/church-in-africa/2026/07/trafficking-survivor-says-a-phone-call-broke-the-chains-of-his-bondage"
+    ],
+    "last_seen": "2026-07-30"
+  },
   "csmonitor.com": {
     "count": 1,
     "example_urls": [
@@ -190,6 +197,13 @@
     ],
     "last_seen": "2026-07-29"
   },
+  "econotimes.com": {
+    "count": 1,
+    "example_urls": [
+      "https://econotimes.com/AI-Avatar-of-Jair-Bolsonaro-Sparks-Legal-Battle-Ahead-of-Brazils-2026-Presidential-Election-1748002"
+    ],
+    "last_seen": "2026-07-30"
+  },
   "eenews.net": {
     "count": 1,
     "example_urls": [
@@ -217,6 +231,13 @@
       "https://eu-startups.com/2026/02/covid-government-adviser-and-military-commander-land-e12-million-to-scale-electric-twins-synthetic-audience-platform"
     ],
     "last_seen": "2026-07-11"
+  },
+  "eu.36kr.com": {
+    "count": 1,
+    "example_urls": [
+      "https://eu.36kr.com/en/p/3596704428556551"
+    ],
+    "last_seen": "2026-07-30"
   },
   "fcc.gov": {
     "count": 1,
@@ -246,6 +267,13 @@
     ],
     "last_seen": "2026-07-08"
   },
+  "finnegan.com": {
+    "count": 1,
+    "example_urls": [
+      "https://finnegan.com/en/insights/articles/the-take-it-down-act-is-now-in-full-effect-what-platforms-need-to-know.html"
+    ],
+    "last_seen": "2026-07-30"
+  },
   "fire.org": {
     "count": 1,
     "example_urls": [
@@ -273,6 +301,13 @@
       "https://foxnews.com/politics/two-house-races-take-center-stage-conservative-pac-launches-multimillion-dollar-big-tech-push"
     ],
     "last_seen": "2026-07-22"
+  },
+  "freerepublic.com": {
+    "count": 1,
+    "example_urls": [
+      "https://freerepublic.com/tag/*/index?more=4389662"
+    ],
+    "last_seen": "2026-07-30"
   },
   "gettysburgconnection.org": {
     "count": 2,
@@ -337,6 +372,13 @@
     ],
     "last_seen": "2026-07-28"
   },
+  "kwtx.com": {
+    "count": 1,
+    "example_urls": [
+      "https://kwtx.com/2026/07/29/deal-with-devil-religion-motivates-data-center-opponents-texas"
+    ],
+    "last_seen": "2026-07-30"
+  },
   "l2-data.com": {
     "count": 8,
     "example_urls": [
@@ -387,6 +429,13 @@
     ],
     "last_seen": "2026-07-11"
   },
+  "nbcmontana.com": {
+    "count": 1,
+    "example_urls": [
+      "https://nbcmontana.com/news/local/forstag-tester-discuss-campaign-finance-public-lands-at-bozeman-town-hall"
+    ],
+    "last_seen": "2026-07-30"
+  },
   "nbcnews.com": {
     "count": 9,
     "example_urls": [
@@ -409,6 +458,15 @@
       "https://npr.org/2026/07/12/nx-s1-5867763/ai-artificial-intelligence-data-texts-bots-voters-campaigns"
     ],
     "last_seen": "2026-07-12"
+  },
+  "nypost.com": {
+    "count": 3,
+    "example_urls": [
+      "https://nypost.com/2026/07/28/us-news/california-dems-target-ai-campaign-ads-after-spencer-pratt-and-steve-hiltons-viral-political-attacks",
+      "https://nypost.com/2026/07/28/opinion/adam-schiffs-attack-on-free-speech-is-a-parody-of-itself",
+      "https://nypost.com/2026/07/29/us-news/fbi-raids-homes-of-southern-california-officials-in-widening-chinese-influence-probe"
+    ],
+    "last_seen": "2026-07-30"
   },
   "podcasts.apple.com": {
     "count": 1,
@@ -458,6 +516,13 @@
       "https://rollcall.com/2026/06/18/ai-deepfakes-bill-advanced-by-senate-judiciary-committee"
     ],
     "last_seen": "2026-07-15"
+  },
+  "rollingstone.com": {
+    "count": 1,
+    "example_urls": [
+      "https://rollingstone.com/music/music-lists/best-trump-protest-songs-1235597698"
+    ],
+    "last_seen": "2026-07-30"
   },
   "rstreet.org": {
     "count": 1,
@@ -537,11 +602,12 @@
     "last_seen": "2026-07-04"
   },
   "texastribune.org": {
-    "count": 3,
+    "count": 4,
     "example_urls": [
-      "https://texastribune.org/2026/02/19/texas-2026-primaries-ai-ads-candidates-crockett-cornyn-paxton"
+      "https://texastribune.org/2026/02/19/texas-2026-primaries-ai-ads-candidates-crockett-cornyn-paxton",
+      "https://texastribune.org/2026/07/29/texas-data-centers-religion-opposition"
     ],
-    "last_seen": "2026-07-23"
+    "last_seen": "2026-07-30"
   },
   "theaiworld.org": {
     "count": 1,
@@ -592,6 +658,20 @@
     ],
     "last_seen": "2026-07-22"
   },
+  "theyeshivaworld.com": {
+    "count": 1,
+    "example_urls": [
+      "https://theyeshivaworld.com/news/israel-news/2579734/foreign-threat-shin-bet-warns-iran-russia-china-target-israeli-elections.html"
+    ],
+    "last_seen": "2026-07-30"
+  },
+  "timesfreepress.com": {
+    "count": 1,
+    "example_urls": [
+      "https://timesfreepress.com/news/2026/jul/29/a-new-media-ecosystem-is-taking-root-on-the-left-reshaping-democratic-politics-tfp"
+    ],
+    "last_seen": "2026-07-30"
+  },
   "transparencycoalition.ai": {
     "count": 6,
     "example_urls": [
@@ -609,6 +689,13 @@
       "https://truescreen.io/articles/deepfakes-2026-elections-certified-proof"
     ],
     "last_seen": "2026-07-24"
+  },
+  "twincities.com": {
+    "count": 1,
+    "example_urls": [
+      "https://twincities.com/2026/07/29/democratic-politics-progressive-media"
+    ],
+    "last_seen": "2026-07-30"
   },
   "usatoday.com": {
     "count": 1,
@@ -651,6 +738,13 @@
       "https://washingtoninformer.com/senate-judiciary-committee-ai"
     ],
     "last_seen": "2026-07-14"
+  },
+  "wgbh.org": {
+    "count": 1,
+    "example_urls": [
+      "https://wgbh.org/news/local/2026-07-29/july-31-isnt-the-hard-deadline-anymore-so-when-will-beacon-hill-actually-finish-up"
+    ],
+    "last_seen": "2026-07-30"
   },
   "wiley.law": {
     "count": 1,

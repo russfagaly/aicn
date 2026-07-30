@@ -341,6 +341,44 @@
       ],
       "first_proposed": "2026-07-29",
       "status": "pending"
+    },
+    {
+      "id": "prop-source-nypost-com",
+      "kind": "source",
+      "value": "nypost.com",
+      "feed_url": "https://nypost.com/feed/",
+      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://nypost.com/2026/07/28/us-news/california-dems-target-ai-campaign-ads-after-spencer-pratt-and-steve-hiltons-viral-political-attacks",
+        "https://nypost.com/2026/07/28/opinion/adam-schiffs-attack-on-free-speech-is-a-parody-of-itself",
+        "https://nypost.com/2026/07/29/us-news/fbi-raids-homes-of-southern-california-officials-in-widening-chinese-influence-probe"
+      ],
+      "first_proposed": "2026-07-30",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-ro-khanna",
+      "kind": "watchlist_entity",
+      "value": "Ro Khanna",
+      "feed_url": null,
+      "rationale": "Named as a co-sponsor of federal legislation to ban AI-generated political ads, a recurring AI-in-elections legislative figure worth tracking.",
+      "example_urls": [
+        "https://nypost.com/2026/07/28/us-news/california-dems-target-ai-campaign-ads-after-spencer-pratt-and-steve-hiltons-viral-political-attacks/"
+      ],
+      "first_proposed": "2026-07-30",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-marsha-blackburn",
+      "kind": "watchlist_entity",
+      "value": "Marsha Blackburn",
+      "feed_url": null,
+      "rationale": "Sitting U.S. senator publicly fighting an AI-generated attack ad targeting her campaign, making her a named subject in AI electoral interference.",
+      "example_urls": [
+        "https://www.axios.com/local/nashville/2026/07/29/sen-blackburn-fights-ai-generated-attack-ad"
+      ],
+      "first_proposed": "2026-07-30",
+      "status": "pending"
     }
   ]
 }

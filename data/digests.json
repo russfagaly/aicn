@@ -1,7 +1,89 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-29T14:20:50Z",
+  "generated_at": "2026-07-30T14:14:17Z",
   "runs": [
+    {
+      "run_id": "2026-07-30",
+      "date": "2026-07-30",
+      "generated_at": "2026-07-30T14:14:17Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 4,
+      "items": [
+        {
+          "id": "8b70a19bed19b3e9",
+          "title": "AI Avatar of Jair Bolsonaro Sparks Legal Battle Ahead of Brazil 2026 Presidential Election",
+          "url": "https://econotimes.com/AI-Avatar-of-Jair-Bolsonaro-Sparks-Legal-Battle-Ahead-of-Brazils-2026-Presidential-Election-1748002",
+          "source": "econotimes.com",
+          "source_domain": "econotimes.com",
+          "published": "2026-07-29",
+          "first_seen_run": "2026-07-30",
+          "category": "deepfakes",
+          "summary": "An AI-generated avatar of former Brazilian president Jair Bolsonaro has sparked a legal dispute ahead of Brazil's 2026 presidential election, raising questions about the use of synthetic candidate likenesses in campaign content.",
+          "why_it_matters": "International legal battles over AI candidate avatars set precedents that could influence how courts and regulators worldwide treat synthetic political likenesses in election campaigns.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "675a78d689ff4175",
+          "title": "Sen. Blackburn fights AI-generated attack ad",
+          "url": "https://axios.com/local/nashville/2026/07/29/sen-blackburn-fights-ai-generated-attack-ad",
+          "source": "Axios",
+          "source_domain": "axios.com",
+          "published": "2026-07-29",
+          "first_seen_run": "2026-07-30",
+          "category": "deepfakes",
+          "summary": "Sen. Marsha Blackburn is fighting back against an AI-generated attack ad targeting her in Tennessee.",
+          "why_it_matters": "A sitting U.S. senator actively contesting an AI-generated attack ad signals that synthetic political advertising is now a direct operational issue for incumbent campaigns, not just a hypothetical threat.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:axios",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "48abc111666f2aaa",
+          "title": "Political AI campaigns targeted by California Democrats",
+          "url": "https://nypost.com/2026/07/28/us-news/california-dems-target-ai-campaign-ads-after-spencer-pratt-and-steve-hiltons-viral-political-attacks",
+          "source": "nypost.com",
+          "source_domain": "nypost.com",
+          "published": "2026-07-29",
+          "first_seen_run": "2026-07-30",
+          "category": "regulation",
+          "summary": "California Sens. Adam Schiff and Ro Khanna are pushing federal legislation to ban AI-generated political ads, prompted in part by viral AI-produced political attacks involving Spencer Pratt and Steve Hilton.",
+          "why_it_matters": "This is a follow-up to the Schiff bill story already published, but adds the concrete named trigger \u2014 the Pratt/Hilton viral AI attack content \u2014 which represents a materially new detail linking specific incidents to the legislative push.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "d113196a3bcac1e0",
+          "title": "Adam Schiff attack on free speech is a parody of itself",
+          "url": "https://nypost.com/2026/07/28/opinion/adam-schiffs-attack-on-free-speech-is-a-parody-of-itself",
+          "source": "nypost.com",
+          "source_domain": "nypost.com",
+          "published": "2026-07-29",
+          "first_seen_run": "2026-07-30",
+          "category": "analysis_oped",
+          "summary": "A New York Post editorial argues that Sen. Adam Schiff's proposed legislation targeting AI-generated political ads is overbroad, criticizing it for lacking a parody carveout and characterizing it as a free-speech threat.",
+          "why_it_matters": "Opposition framing around parody exemptions in AI political ad regulation is a substantive fault line that will shape how such bills are drafted and challenged going forward.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-07-29",
       "date": "2026-07-29",
