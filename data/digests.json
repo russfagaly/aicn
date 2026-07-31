@@ -1,7 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-30T14:14:17Z",
+  "generated_at": "2026-07-31T14:17:26Z",
   "runs": [
+    {
+      "run_id": "2026-07-31",
+      "date": "2026-07-31",
+      "generated_at": "2026-07-31T14:17:26Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 1,
+      "items": [
+        {
+          "id": "90b58d18c3902e23",
+          "title": "AI - generated ads target Tennessee midterm elections",
+          "url": "https://wsmv.com/2026/07/30/ai-generated-ads-target-tennessee-midterm-elections",
+          "source": "wsmv.com",
+          "source_domain": "wsmv.com",
+          "published": "2026-07-30",
+          "first_seen_run": "2026-07-31",
+          "category": "deepfakes",
+          "summary": "WSMV reports that AI-generated attack ads are targeting Tennessee midterm elections, with one ad falsely connecting a Democratic candidate to Trump and a pardoned ex-official.",
+          "why_it_matters": "Local-level reporting on AI-generated political attack ads illustrates how synthetic media is being deployed in down-ballot 2026 races, not just high-profile contests.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-07-30",
       "date": "2026-07-30",

@@ -379,6 +379,31 @@
       ],
       "first_proposed": "2026-07-30",
       "status": "pending"
+    },
+    {
+      "id": "prop-source-arxiv-org",
+      "kind": "source",
+      "value": "arxiv.org",
+      "feed_url": null,
+      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://arxiv.org/pdf/2512.13915"
+      ],
+      "first_proposed": "2026-07-31",
+      "status": "pending"
+    },
+    {
+      "id": "prop-source-salazar-house-gov",
+      "kind": "source",
+      "value": "salazar.house.gov",
+      "feed_url": null,
+      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://salazar.house.gov/media/press-releases/rep-salazars-no-fakes-act-advances-out-senate-judiciary-committee-unanimous",
+        "https://salazar.house.gov/media/press-releases/rep-salazars-no-fakes-act-advances-out-of-senate-judiciary-committee-unanimous"
+      ],
+      "first_proposed": "2026-07-31",
+      "status": "pending"
     }
   ]
 }

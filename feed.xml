@@ -3,7 +3,14 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Thu, 30 Jul 2026 14:14:17 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 14:17:26 GMT</lastBuildDate>
+    <item>
+      <title>AI - generated ads target Tennessee midterm elections</title>
+      <link>https://wsmv.com/2026/07/30/ai-generated-ads-target-tennessee-midterm-elections</link>
+      <guid isPermaLink="false">90b58d18c3902e23</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description>WSMV reports that AI-generated attack ads are targeting Tennessee midterm elections, with one ad falsely connecting a Democratic candidate to Trump and a pardoned ex-official.</description>
+    </item>
     <item>
       <title>AI Avatar of Jair Bolsonaro Sparks Legal Battle Ahead of Brazil 2026 Presidential Election</title>
       <link>https://econotimes.com/AI-Avatar-of-Jair-Bolsonaro-Sparks-Legal-Battle-Ahead-of-Brazils-2026-Presidential-Election-1748002</link>
@@ -206,13 +213,6 @@
       <guid isPermaLink="false">28d8c1e0d411a10b</guid>
       <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
       <description>Higher Ground Labs published a debrief of AI tool use across California's June 2026 primary — covering the governor's race, the Los Angeles mayoral contest, and down-ballot races — framing the cycle as the first major stress test of AI in American electoral politics. The piece draws early operational lessons for campaigns deploying AI in the 2026 midterms.</description>
-    </item>
-    <item>
-      <title>Sanders-backed progressives try to make AI the new AIPAC</title>
-      <link>https://semafor.com/article/07/14/2026/sanders-backed-progressives-try-to-make-ai-the-new-aipac</link>
-      <guid isPermaLink="false">16d49ab19592024e</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Semafor reports that Sanders-aligned progressive organizers are working to build a grassroots political movement opposing AI data center expansion, drawing an explicit parallel to single-issue advocacy campaigns, with New York Gov. Kathy Hochul's data center moratorium cited as evidence the effort is gaining mainstream political traction.</description>
     </item>
   </channel>
 </rss>

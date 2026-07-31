@@ -35,11 +35,11 @@
     "last_seen": "2026-07-23"
   },
   "arxiv.org": {
-    "count": 2,
+    "count": 3,
     "example_urls": [
       "https://arxiv.org/pdf/2512.13915"
     ],
-    "last_seen": "2026-07-11"
+    "last_seen": "2026-07-31"
   },
   "azcapitoltimes.com": {
     "count": 1,
@@ -90,6 +90,13 @@
       "https://bridgemi.com/michigan-government/fact-check-is-john-james-backed-by-data-center-developers"
     ],
     "last_seen": "2026-07-22"
+  },
+  "campaigninnovation.org": {
+    "count": 1,
+    "example_urls": [
+      "https://campaigninnovation.org/"
+    ],
+    "last_seen": "2026-07-31"
   },
   "campaignnow.com": {
     "count": 3,
@@ -394,6 +401,13 @@
     ],
     "last_seen": "2026-07-29"
   },
+  "lexology.com": {
+    "count": 1,
+    "example_urls": [
+      "https://lexology.com/library/detail.aspx?g=0b489561-fb9b-4b96-a8a5-f0142759d0a7"
+    ],
+    "last_seen": "2026-07-31"
+  },
   "local10.com": {
     "count": 1,
     "example_urls": [
@@ -414,6 +428,13 @@
       "https://marketplace.org/story/2026/07/21/the-aflcios-strategy-for-ai-and-the-midterm-elections"
     ],
     "last_seen": "2026-07-22"
+  },
+  "mondaq.com": {
+    "count": 1,
+    "example_urls": [
+      "https://mondaq.com/unitedstates/new-technology/1824768/the-deepfake-playbook-for-counsel-exposure-gaps-and-controls"
+    ],
+    "last_seen": "2026-07-31"
   },
   "multistate.us": {
     "count": 1,
@@ -482,6 +503,20 @@
     ],
     "last_seen": "2026-06-30"
   },
+  "prospectresearchinstitute.org": {
+    "count": 1,
+    "example_urls": [
+      "https://prospectresearchinstitute.org/will-schrepferman-on-ai-powered-prospect-research-with-donoratlas"
+    ],
+    "last_seen": "2026-07-31"
+  },
+  "publications.lawschool.cornell.edu": {
+    "count": 1,
+    "example_urls": [
+      "https://publications.lawschool.cornell.edu/jlpp/2025/10/24/the-legal-gray-zone-of-deepfake-political-speech"
+    ],
+    "last_seen": "2026-07-31"
+  },
   "pulse2.com": {
     "count": 1,
     "example_urls": [
@@ -532,11 +567,12 @@
     "last_seen": "2026-07-23"
   },
   "salazar.house.gov": {
-    "count": 2,
+    "count": 3,
     "example_urls": [
-      "https://salazar.house.gov/media/press-releases/rep-salazars-no-fakes-act-advances-out-senate-judiciary-committee-unanimous"
+      "https://salazar.house.gov/media/press-releases/rep-salazars-no-fakes-act-advances-out-senate-judiciary-committee-unanimous",
+      "https://salazar.house.gov/media/press-releases/rep-salazars-no-fakes-act-advances-out-of-senate-judiciary-committee-unanimous"
     ],
-    "last_seen": "2026-07-04"
+    "last_seen": "2026-07-31"
   },
   "screenrant.com": {
     "count": 1,
@@ -759,5 +795,12 @@
       "https://wokv.com/news/local/depth-military-expert-breaks-down-iran-conflict-support-veterans/G7GXWV6HMJFRHBG5OIUQGG2WIY"
     ],
     "last_seen": "2026-07-22"
+  },
+  "wsmv.com": {
+    "count": 1,
+    "example_urls": [
+      "https://wsmv.com/2026/07/30/ai-generated-ads-target-tennessee-midterm-elections"
+    ],
+    "last_seen": "2026-07-31"
   }
 }
