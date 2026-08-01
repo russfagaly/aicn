@@ -3,7 +3,14 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Fri, 31 Jul 2026 14:17:26 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 13:29:48 GMT</lastBuildDate>
+    <item>
+      <title>Brazil banned Bolsonaro from speaking . His AI avatar spoke anyway .</title>
+      <link>https://thenextweb.com/news/bolsonaro-ai-avatar-brazil-election-tse-deepfake-rules</link>
+      <guid isPermaLink="false">ec784b5ef0c29632</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Despite a legal ban on Jair Bolsonaro speaking publicly, an AI-generated video avatar of the jailed former Brazilian president addressed a campaign rally in São Paulo at the launch of his son Flávia's presidential bid, circumventing the court order.</description>
+    </item>
     <item>
       <title>AI - generated ads target Tennessee midterm elections</title>
       <link>https://wsmv.com/2026/07/30/ai-generated-ads-target-tennessee-midterm-elections</link>
@@ -206,13 +213,6 @@
       <guid isPermaLink="false">1778b52e0bb4d03e</guid>
       <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
       <description>Punchbowl News reports that Senate Commerce Committee Chairman Ted Cruz faces a make-or-break window of several weeks to move federal AI legislation forward, with the alternative being a delay until the 120th Congress.</description>
-    </item>
-    <item>
-      <title>The First AI Midterms: Early Signals from California</title>
-      <link>https://highergroundlabs.com/the-first-ai-midterms-early-signals-from-california</link>
-      <guid isPermaLink="false">28d8c1e0d411a10b</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Higher Ground Labs published a debrief of AI tool use across California's June 2026 primary — covering the governor's race, the Los Angeles mayoral contest, and down-ballot races — framing the cycle as the first major stress test of AI in American electoral politics. The piece draws early operational lessons for campaigns deploying AI in the 2026 midterms.</description>
     </item>
   </channel>
 </rss>

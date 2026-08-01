@@ -1,4 +1,11 @@
 {
+  "aarp.org": {
+    "count": 1,
+    "example_urls": [
+      "https://aarp.org/government-elections/ai-election-disinformation"
+    ],
+    "last_seen": "2026-08-01"
+  },
   "aaru.com": {
     "count": 1,
     "example_urls": [
@@ -49,11 +56,12 @@
     "last_seen": "2026-07-22"
   },
   "benzinga.com": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
-      "https://benzinga.com/crypto/cryptocurrency/26/07/60568454/elizabeth-warren-crypto-ai-dark-money-congress"
+      "https://benzinga.com/crypto/cryptocurrency/26/07/60568454/elizabeth-warren-crypto-ai-dark-money-congress",
+      "https://benzinga.com/markets/tech/26/07/60716038/adam-schiff-revives-ai-ads-act-to-ban-deceptive-political-deepfakes-we-cannot-allow-ai-to-further-blur-the-line-between"
     ],
-    "last_seen": "2026-07-22"
+    "last_seen": "2026-08-01"
   },
   "billboard.com": {
     "count": 1,
@@ -466,6 +474,13 @@
     ],
     "last_seen": "2026-07-27"
   },
+  "newsone.com": {
+    "count": 1,
+    "example_urls": [
+      "https://newsone.com/6867993/elaine-chao-mitch-mcconnell-photo-proof"
+    ],
+    "last_seen": "2026-08-01"
+  },
   "newsweek.com": {
     "count": 1,
     "example_urls": [
@@ -665,6 +680,13 @@
       "https://thenewamerican.com/print/principles-not-personalities"
     ],
     "last_seen": "2026-07-22"
+  },
+  "thenextweb.com": {
+    "count": 1,
+    "example_urls": [
+      "https://thenextweb.com/news/bolsonaro-ai-avatar-brazil-election-tse-deepfake-rules"
+    ],
+    "last_seen": "2026-08-01"
   },
   "thepoliticalgroup.com": {
     "count": 1,
