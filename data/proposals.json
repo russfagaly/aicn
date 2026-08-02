@@ -404,6 +404,20 @@
       ],
       "first_proposed": "2026-07-31",
       "status": "pending"
+    },
+    {
+      "id": "prop-source-ushort-dev",
+      "kind": "source",
+      "value": "ushort.dev",
+      "feed_url": null,
+      "rationale": "Surfaced 9 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://ushort.dev/YPmAeAnWA0r7/index.php/2026/08/02/kundendienst-bei-lucki-casino-online-spiele-kontaktwege-und-qualitat-der-hilfe-ausfuhrlicher-ratgeber",
+        "https://ushort.dev/YPmAeAnWA0r7/index.php/2026/08/02/what-makes-modern-slot-games-different-from-the-classics-you-remember",
+        "https://ushort.dev/YPmAeAnWA0r7/index.php/2026/08/02/what-exactly-happens-when-you-play-for-real-money-online"
+      ],
+      "first_proposed": "2026-08-02",
+      "status": "pending"
     }
   ]
 }

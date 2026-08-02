@@ -99,12 +99,20 @@
     ],
     "last_seen": "2026-07-22"
   },
-  "campaigninnovation.org": {
+  "businessinsider.com": {
     "count": 1,
     "example_urls": [
-      "https://campaigninnovation.org/"
+      "https://businessinsider.com/mark-cuban-ai-midterms-campaigns-trump-democrats-2026-2025-8"
     ],
-    "last_seen": "2026-07-31"
+    "last_seen": "2026-08-02"
+  },
+  "campaigninnovation.org": {
+    "count": 2,
+    "example_urls": [
+      "https://campaigninnovation.org/",
+      "https://campaigninnovation.org/updates/imagining-two-possible-futures-of-ai-in-political-campaigning"
+    ],
+    "last_seen": "2026-08-02"
   },
   "campaignnow.com": {
     "count": 3,
@@ -183,6 +191,13 @@
       "https://cyberscoop.com/congress-tees-up-no-fakes-act-aiming-at-ai-generated-deepfakes"
     ],
     "last_seen": "2026-07-15"
+  },
+  "deadline.com": {
+    "count": 1,
+    "example_urls": [
+      "https://deadline.com/2026/05/no-fakes-act-congress-ai-bill-1236917257"
+    ],
+    "last_seen": "2026-08-02"
   },
   "dean.house.gov": {
     "count": 2,
@@ -452,11 +467,11 @@
     "last_seen": "2026-07-24"
   },
   "natesilver.net": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
       "https://natesilver.net/p/ai-polls-are-fake-polls"
     ],
-    "last_seen": "2026-07-11"
+    "last_seen": "2026-08-02"
   },
   "nbcmontana.com": {
     "count": 1,
@@ -611,11 +626,11 @@
     "last_seen": "2026-07-24"
   },
   "startupintros.com": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
       "https://startupintros.com/orgs/aaru"
     ],
-    "last_seen": "2026-07-19"
+    "last_seen": "2026-08-02"
   },
   "statecapitallobbyist.com": {
     "count": 1,
@@ -762,6 +777,17 @@
     ],
     "last_seen": "2026-07-22"
   },
+  "ushort.dev": {
+    "count": 9,
+    "example_urls": [
+      "https://ushort.dev/YPmAeAnWA0r7/index.php/2026/08/02/kundendienst-bei-lucki-casino-online-spiele-kontaktwege-und-qualitat-der-hilfe-ausfuhrlicher-ratgeber",
+      "https://ushort.dev/YPmAeAnWA0r7/index.php/2026/08/02/what-makes-modern-slot-games-different-from-the-classics-you-remember",
+      "https://ushort.dev/YPmAeAnWA0r7/index.php/2026/08/02/what-exactly-happens-when-you-play-for-real-money-online",
+      "https://ushort.dev/YPmAeAnWA0r7/index.php/2026/08/02/what-does-playing-at-a-real-money-casino-actually-mean",
+      "https://ushort.dev/YPmAeAnWA0r7/index.php/2026/08/02/what-makes-modern-slot-gaming-so-appealing-right-now"
+    ],
+    "last_seen": "2026-08-02"
+  },
   "usnews.com": {
     "count": 2,
     "example_urls": [
@@ -782,6 +808,13 @@
       "https://videomaker.com/news/no-fakes-act-returns-to-target-deepfakes"
     ],
     "last_seen": "2026-07-15"
+  },
+  "vorplabs.com": {
+    "count": 1,
+    "example_urls": [
+      "https://vorplabs.com/ai-regulatory-updates/deepfake-laws"
+    ],
+    "last_seen": "2026-08-02"
   },
   "washingtonexaminer.com": {
     "count": 1,
@@ -824,5 +857,12 @@
       "https://wsmv.com/2026/07/30/ai-generated-ads-target-tennessee-midterm-elections"
     ],
     "last_seen": "2026-07-31"
+  },
+  "yournews.com": {
+    "count": 1,
+    "example_urls": [
+      "https://yournews.com/2026/07/30/7134897/artificial-intelligence-enters-the-campaign-power-data-and-the-new"
+    ],
+    "last_seen": "2026-08-02"
   }
 }

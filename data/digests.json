@@ -1,7 +1,55 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-01T13:29:48Z",
+  "generated_at": "2026-08-02T13:31:39Z",
   "runs": [
+    {
+      "run_id": "2026-08-02",
+      "date": "2026-08-02",
+      "generated_at": "2026-08-02T13:31:39Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "ccd3f5e507c476ea",
+          "title": "Mark Cuban says the winners of the 2026 midterms are those 'already working' to integrate AI into their campaigns",
+          "url": "https://businessinsider.com/mark-cuban-ai-midterms-campaigns-trump-democrats-2026-2025-8",
+          "source": "AOL / Business Insider",
+          "source_domain": "businessinsider.com",
+          "published": "2026-07-30",
+          "first_seen_run": "2026-08-02",
+          "category": "analysis_oped",
+          "summary": "Mark Cuban told Business Insider that the winners of the 2026 midterms will be campaigns that are already integrating AI tools such as ChatGPT and Gemini into their operations.",
+          "why_it_matters": "A high-profile investor and public figure articulating a concrete AI-adoption thesis for 2026 campaigns can influence how donors and operatives prioritize AI spending.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "cab702a70828a850",
+          "title": "Imagining Two Possible Futures of AI In Political Campaigning",
+          "url": "https://campaigninnovation.org/updates/imagining-two-possible-futures-of-ai-in-political-campaigning",
+          "source": "Center for Campaign Innovation",
+          "source_domain": "campaigninnovation.org",
+          "published": "2026-08-02",
+          "first_seen_run": "2026-08-02",
+          "category": "analysis_oped",
+          "summary": "The Center for Campaign Innovation published a piece exploring two contrasting scenarios for how AI could reshape political campaigning, framing potential trajectories rather than reporting on a specific deployment.",
+          "why_it_matters": "Scenario-planning from a campaign-focused think tank can shape practitioner expectations and policy conversations about AI's long-term role in elections.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:center-for-campaign-innovation",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-08-01",
       "date": "2026-08-01",

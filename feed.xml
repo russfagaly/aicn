@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Sat, 01 Aug 2026 13:29:48 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 13:31:39 GMT</lastBuildDate>
+    <item>
+      <title>Mark Cuban says the winners of the 2026 midterms are those 'already working' to integrate AI into their campaigns</title>
+      <link>https://businessinsider.com/mark-cuban-ai-midterms-campaigns-trump-democrats-2026-2025-8</link>
+      <guid isPermaLink="false">ccd3f5e507c476ea</guid>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Mark Cuban told Business Insider that the winners of the 2026 midterms will be campaigns that are already integrating AI tools such as ChatGPT and Gemini into their operations.</description>
+    </item>
+    <item>
+      <title>Imagining Two Possible Futures of AI In Political Campaigning</title>
+      <link>https://campaigninnovation.org/updates/imagining-two-possible-futures-of-ai-in-political-campaigning</link>
+      <guid isPermaLink="false">cab702a70828a850</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <description>The Center for Campaign Innovation published a piece exploring two contrasting scenarios for how AI could reshape political campaigning, framing potential trajectories rather than reporting on a specific deployment.</description>
+    </item>
     <item>
       <title>Brazil banned Bolsonaro from speaking . His AI avatar spoke anyway .</title>
       <link>https://thenextweb.com/news/bolsonaro-ai-avatar-brazil-election-tse-deepfake-rules</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">dcbf711dcecd7bb9</guid>
       <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
       <description>Public First Action, an AI safety advocacy group, announced it will spend $15 million in July 2026 to run ads highlighting 16 congressional Republicans for their work on artificial intelligence safety, turning AI policy into an explicit electoral issue.</description>
-    </item>
-    <item>
-      <title>AI Moves From Campaign Tool to Campaign Issue</title>
-      <link>https://governing.com/politics/ai-moves-from-campaign-tool-to-campaign-issue</link>
-      <guid isPermaLink="false">a24e1bd949cac563</guid>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Governing reports that AI is now reshaping 2026 campaigns on two fronts simultaneously: campaigns are deploying AI operationally, while AI policy itself has emerged as a voter-facing issue candidates must address.</description>
-    </item>
-    <item>
-      <title>Tech: Cruz approaches AI's make-or-break month</title>
-      <link>https://punchbowl.news/article/tech/cruz-make-or-break-ai</link>
-      <guid isPermaLink="false">1778b52e0bb4d03e</guid>
-      <pubDate>Sun, 12 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Punchbowl News reports that Senate Commerce Committee Chairman Ted Cruz faces a make-or-break window of several weeks to move federal AI legislation forward, with the alternative being a delay until the 120th Congress.</description>
     </item>
   </channel>
 </rss>
