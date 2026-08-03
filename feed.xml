@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Sun, 02 Aug 2026 13:31:39 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 14:50:22 GMT</lastBuildDate>
+    <item>
+      <title>AI-generated political ad in St. Charles County raises deepfake questions ahead of primary election</title>
+      <link>https://firstalert4.com/2026/07/20/ai-generated-political-ad-st-charles-county-raises-deepfake-questions-ahead-primary-election</link>
+      <guid isPermaLink="false">accec9e19638d101</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+      <description>A fully AI-generated political ad targeting candidates in the St. Charles County executive race drew scrutiny over the role of deepfakes in local elections, with the story published two weeks before the primary.</description>
+    </item>
+    <item>
+      <title>Exclusive: The AI 'news' accounts hyping a blue-state dystopia</title>
+      <link>https://semafor.com/article/08/02/2026/the-ai-news-accounts-hyping-a-blue-state-dystopia</link>
+      <guid isPermaLink="false">ed9b9260b07977dc</guid>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Semafor reports that AI-generated video accounts on YouTube are flooding the platform with fabricated narratives portraying chaos in California and New York, presenting fictional content as news to advance a partisan political framing.</description>
+    </item>
     <item>
       <title>Mark Cuban says the winners of the 2026 midterms are those 'already working' to integrate AI into their campaigns</title>
       <link>https://businessinsider.com/mark-cuban-ai-midterms-campaigns-trump-democrats-2026-2025-8</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">6c272b509186cbef</guid>
       <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
       <description>Punchbowl News reports that Sen. Jon Husted (R-Ohio) says constituent concern about AI has broadened beyond parents worried about children online to include employers and educators, suggesting AI anxiety is becoming a wider voter issue heading into 2026.</description>
-    </item>
-    <item>
-      <title>The Startup Betting on an AI Advertising Tool For Politics</title>
-      <link>https://campaignsandelections.com/industry-news/startup-bets-on-ai-ads-for-politics</link>
-      <guid isPermaLink="false">3370daff21c8019d</guid>
-      <pubDate>Mon, 04 Aug 2025 00:00:00 GMT</pubDate>
-      <description>Campaigns &amp; Elections profiles BattlegroundAI, a startup that has launched an AI tool enabling campaigns to instantly generate platform-compliant programmatic political ads with minimal manual input.</description>
-    </item>
-    <item>
-      <title>AI safety group's $15 million GOP play</title>
-      <link>https://punchbowl.news/article/tech/anthropic-gop-play</link>
-      <guid isPermaLink="false">dcbf711dcecd7bb9</guid>
-      <pubDate>Sat, 18 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Public First Action, an AI safety advocacy group, announced it will spend $15 million in July 2026 to run ads highlighting 16 congressional Republicans for their work on artificial intelligence safety, turning AI policy into an explicit electoral issue.</description>
     </item>
   </channel>
 </rss>

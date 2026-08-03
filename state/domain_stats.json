@@ -106,6 +106,13 @@
     ],
     "last_seen": "2026-08-02"
   },
+  "businesswire.com": {
+    "count": 1,
+    "example_urls": [
+      "https://businesswire.com/news/home/20260715034088/en/StackAdapt-Launches-Political-Targeting-and-Measurement-Suite-to-Help-Campaigns-Optimize-Voter-Outreach-Ahead-of-the-2026-Midterms"
+    ],
+    "last_seen": "2026-08-03"
+  },
   "campaigninnovation.org": {
     "count": 2,
     "example_urls": [
@@ -311,6 +318,13 @@
     ],
     "last_seen": "2026-07-08"
   },
+  "firstalert4.com": {
+    "count": 1,
+    "example_urls": [
+      "https://firstalert4.com/2026/07/20/ai-generated-political-ad-st-charles-county-raises-deepfake-questions-ahead-primary-election"
+    ],
+    "last_seen": "2026-08-03"
+  },
   "fish.dog": {
     "count": 2,
     "example_urls": [
@@ -451,6 +465,13 @@
       "https://marketplace.org/story/2026/07/21/the-aflcios-strategy-for-ai-and-the-midterm-elections"
     ],
     "last_seen": "2026-07-22"
+  },
+  "mexc.com": {
+    "count": 1,
+    "example_urls": [
+      "https://mexc.com/it-IT/news/697383"
+    ],
+    "last_seen": "2026-08-03"
   },
   "mondaq.com": {
     "count": 1,
@@ -597,12 +618,13 @@
     "last_seen": "2026-07-23"
   },
   "salazar.house.gov": {
-    "count": 3,
+    "count": 4,
     "example_urls": [
       "https://salazar.house.gov/media/press-releases/rep-salazars-no-fakes-act-advances-out-senate-judiciary-committee-unanimous",
-      "https://salazar.house.gov/media/press-releases/rep-salazars-no-fakes-act-advances-out-of-senate-judiciary-committee-unanimous"
+      "https://salazar.house.gov/media/press-releases/rep-salazars-no-fakes-act-advances-out-of-senate-judiciary-committee-unanimous",
+      "https://salazar.house.gov/media/press-releases/salazar-dean-blackburn-coons-bipartisan-colleagues-reintroduce-no-fakes-act"
     ],
-    "last_seen": "2026-07-31"
+    "last_seen": "2026-08-03"
   },
   "screenrant.com": {
     "count": 1,
@@ -778,7 +800,7 @@
     "last_seen": "2026-07-22"
   },
   "ushort.dev": {
-    "count": 9,
+    "count": 18,
     "example_urls": [
       "https://ushort.dev/YPmAeAnWA0r7/index.php/2026/08/02/kundendienst-bei-lucki-casino-online-spiele-kontaktwege-und-qualitat-der-hilfe-ausfuhrlicher-ratgeber",
       "https://ushort.dev/YPmAeAnWA0r7/index.php/2026/08/02/what-makes-modern-slot-games-different-from-the-classics-you-remember",
@@ -786,7 +808,7 @@
       "https://ushort.dev/YPmAeAnWA0r7/index.php/2026/08/02/what-does-playing-at-a-real-money-casino-actually-mean",
       "https://ushort.dev/YPmAeAnWA0r7/index.php/2026/08/02/what-makes-modern-slot-gaming-so-appealing-right-now"
     ],
-    "last_seen": "2026-08-02"
+    "last_seen": "2026-08-03"
   },
   "usnews.com": {
     "count": 2,
