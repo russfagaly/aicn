@@ -12,6 +12,7 @@ import os
 import sys
 
 import wire
+from promote import sniff_feed_urls
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROPOSALS_PATH = os.path.join(ROOT, "data", "proposals.json")
@@ -137,12 +138,28 @@ def wire_accepted(p):
     v = wire.vocab(ROOT)
     value = p["value"]
 
-    if p["kind"] == "source" and p.get("feed_url"):
+    feed_url = p.get("feed_url")
+    if p["kind"] == "source" and not feed_url:
+        # feed_url was captured once, when the domain crossed the promotion
+        # threshold, and a proposal can sit pending for weeks. A transient miss
+        # then — timeout, 403, a feed link without rel=alternate — would route a
+        # free-RSS outlet into paid site-scoped search. One GET to re-check is
+        # far cheaper than searching a domain that publishes a feed.
+        domain = value.removeprefix("www.")
+        print(f"  {DIM}No feed on record — re-checking {domain}...{RESET}")
+        feed_url = sniff_feed_urls([domain]).get(domain)
+        if feed_url:
+            print(f"  {GREEN}Feed found:{RESET} {CYAN}{feed_url}{RESET} {DIM}(free — beats site-scoped search){RESET}")
+            p["feed_url"] = feed_url
+        else:
+            print(f"  {DIM}No feed found.{RESET}")
+
+    if p["kind"] == "source" and feed_url:
         print(f"  {BOLD}Wiring into sources.yaml{RESET} {DIM}(has a feed){RESET}")
         name = ask_text("name", default=value)
         tier = ask_choice("tier", v["tiers"])
         entry_id = wire.next_id(ROOT, "sources.yaml", value)
-        wire.wire_feed(ROOT, entry_id, name, p["feed_url"], tier)
+        wire.wire_feed(ROOT, entry_id, name, feed_url, tier)
         return f"sources.yaml  id: {entry_id}  tier: {tier}"
 
     if p["kind"] == "source":
@@ -247,10 +264,16 @@ def main():
                      "pending":  YELLOW + "Reset to pending" + RESET}[decision]
             print(f"  {label}")
 
-    if changed:
+    # Save on a wiring too, not just a status change — wire_accepted records any
+    # feed URL it rediscovers, and that shouldn't be thrown away when the
+    # proposal was already marked accepted.
+    if changed or wired_count:
         data["proposals"] = list(by_id.values())
         save(data)
-        print(f"\n{BOLD}Saved.{RESET} {changed} proposal(s) updated in data/proposals.json")
+        if changed:
+            print(f"\n{BOLD}Saved.{RESET} {changed} proposal(s) updated in data/proposals.json")
+        else:
+            print(f"\n{BOLD}Saved.{RESET} data/proposals.json updated")
     if wired_count:
         print(f"{BOLD}Wired.{RESET} {wired_count} entr(y/ies) added to the gathering config")
     if changed or wired_count:
