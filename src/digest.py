@@ -53,9 +53,13 @@ CURATE_MODEL = "claude-sonnet-4-6"
 SEARCH_MODEL = "claude-haiku-4-5-20251001"
 LOOKBACK_DAYS = 7
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-# How many times a domain must surface in candidates before it's proposed as a
-# new source. Set low (3) while run history is short; revisit after a month.
-PROMOTION_THRESHOLD = 3
+# How many times a domain must surface in *curated* items before it's proposed
+# as a new source. Counting curated items rather than raw candidates is a much
+# stronger signal — a domain only scores when the curator actually published it
+# — but it scores far more slowly. Over the first 40 runs no unknown domain
+# reached 3 curated items and only three reached 2, so a threshold of 3 would
+# never fire. Revisit if run history grows or per-run yield rises.
+PROMOTION_THRESHOLD = 2
 
 
 def load_yaml(path):
@@ -201,7 +205,11 @@ def main():
 
     print(f"After within-run + state dedupe: {len(deduped)} candidates", file=sys.stderr)
 
-    # Phase 2: track which domains keep surfacing so we can propose new sources.
+    # Phase 2: track which domains keep producing *published* items so we can
+    # propose them as new sources. The tally itself happens after curation
+    # below — only curated items count — but known_domains and the existing
+    # stats are loaded here, before the API call, so a curation failure can't
+    # leave them half-initialized.
     # Known domains = everything already in sources.yaml feeds + site_targets.yaml.
     known_domains: set[str] = set()
     for feed in sources.get("feeds", []):
@@ -218,7 +226,6 @@ def main():
     if os.path.exists(domain_stats_path):
         with open(domain_stats_path) as f:
             domain_stats = json.load(f)
-    update_domain_stats(domain_stats, deduped, known_domains, run_id=run_id)
 
     recent_published = load_recent_published(ROOT, lookback_days=LOOKBACK_DAYS)
     print(f"Recently published (last {LOOKBACK_DAYS}d, for continued-coverage check): {len(recent_published)} items", file=sys.stderr)
@@ -229,6 +236,17 @@ def main():
         notes.append(curate_note)
     if curated is None:
         sys.exit("Curation call did not return parseable JSON. Aborting without writing output.")
+
+    # Tally domains from the curated items only. Counting raw candidates here
+    # meant anything the gatherers stumbled onto scored — including SEO spam
+    # that the curator rejected every time — and the resulting proposals still
+    # claimed the domain had surfaced "on-topic candidates". Restricting the
+    # tally to items that survived curation makes that claim true by
+    # construction. Curated items carry back the untouched candidate url
+    # (see curate.py), so a set membership test rejoins them.
+    curated_urls = {it.get("url") for it in curated.get("items", [])}
+    curated_candidates = [c for c in deduped if c["url"] in curated_urls]
+    update_domain_stats(domain_stats, curated_candidates, known_domains, run_id=run_id)
 
     # Phase 2: build proposals from domain stats + curator-extracted entities.
     proposals_path_real = os.path.join(ROOT, "data", "proposals.json")

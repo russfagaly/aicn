@@ -129,7 +129,7 @@ def build_source_proposals(
                 "value": domain,
                 "feed_url": feed_urls.get(domain),
                 "rationale": (
-                    f"Surfaced {entry['count']} on-topic candidate(s) across runs; "
+                    f"Produced {entry['count']} published item(s) across runs; "
                     "not in feed list or site-scoped targets."
                 ),
                 "example_urls": entry.get("example_urls", [])[:3],

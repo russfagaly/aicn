@@ -66,7 +66,7 @@
       "kind": "source",
       "value": "nbcnews.com",
       "feed_url": null,
-      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://nbcnews.com/politics/2028-election/ai-midterms-politics-campaign-ads-rcna263752",
         "https://nbcnews.com/politics/2026-election/ads-ai-industry-are-flooding-2026-election-artificial-intelligence-rcna260782"
@@ -91,7 +91,7 @@
       "kind": "source",
       "value": "accupaysystems.com",
       "feed_url": "https://accupaysystems.com/feed/",
-      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://accupaysystems.com/ai-deepfakes-in-political-campaigns-how-synthetic-media-is-reshaping-the-2026-midterm-elections"
       ],
@@ -103,7 +103,7 @@
       "kind": "source",
       "value": "l2-data.com",
       "feed_url": null,
-      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://l2-data.com/blog",
         "https://l2-data.com/liveramp-and-beyond-onboarding-with-l2-in-2026"
@@ -116,7 +116,7 @@
       "kind": "source",
       "value": "transparencycoalition.ai",
       "feed_url": null,
-      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://transparencycoalition.ai/news/ai-legislative-update-june12-2026",
         "https://transparencycoalition.ai/news/ai-legislative-update-may1-2026",
@@ -166,7 +166,7 @@
       "kind": "source",
       "value": "theconnector.substack.com",
       "feed_url": null,
-      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://theconnector.substack.com/p/why-are-we-still-living-with-vanxiety"
       ],
@@ -238,7 +238,7 @@
       "kind": "source",
       "value": "texastribune.org",
       "feed_url": "https://www.texastribune.org/feed/",
-      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://texastribune.org/2026/02/19/texas-2026-primaries-ai-ads-candidates-crockett-cornyn-paxton"
       ],
@@ -250,7 +250,7 @@
       "kind": "source",
       "value": "campaignnow.com",
       "feed_url": null,
-      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://campaignnow.com/blog/regulators-scramble-as-ai-deepfakes-flood-the-2026-midterms"
       ],
@@ -262,7 +262,7 @@
       "kind": "source",
       "value": "truescreen.io",
       "feed_url": "https://truescreen.io/feed/",
-      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://truescreen.io/articles/deepfakes-2026-elections-certified-proof"
       ],
@@ -274,7 +274,7 @@
       "kind": "source",
       "value": "blackburn.senate.gov",
       "feed_url": null,
-      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://blackburn.senate.gov/2026/5/technology/blackburn-coons-salazar-dean-colleagues-introduce-revised-version-of-no-fakes-act",
         "https://blackburn.senate.gov/2026/6/blackburn-coons-bipartisan-bill-to-protect-individuals-and-creators-from-deepfakes-passes-senate-judiciary-committee"
@@ -347,7 +347,7 @@
       "kind": "source",
       "value": "nypost.com",
       "feed_url": "https://nypost.com/feed/",
-      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://nypost.com/2026/07/28/us-news/california-dems-target-ai-campaign-ads-after-spencer-pratt-and-steve-hiltons-viral-political-attacks",
         "https://nypost.com/2026/07/28/opinion/adam-schiffs-attack-on-free-speech-is-a-parody-of-itself",
@@ -385,7 +385,7 @@
       "kind": "source",
       "value": "arxiv.org",
       "feed_url": null,
-      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://arxiv.org/pdf/2512.13915"
       ],
@@ -397,7 +397,7 @@
       "kind": "source",
       "value": "salazar.house.gov",
       "feed_url": null,
-      "rationale": "Surfaced 3 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://salazar.house.gov/media/press-releases/rep-salazars-no-fakes-act-advances-out-senate-judiciary-committee-unanimous",
         "https://salazar.house.gov/media/press-releases/rep-salazars-no-fakes-act-advances-out-of-senate-judiciary-committee-unanimous"
@@ -410,7 +410,7 @@
       "kind": "source",
       "value": "ushort.dev",
       "feed_url": null,
-      "rationale": "Surfaced 9 on-topic candidate(s) across runs; not in feed list or site-scoped targets.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://ushort.dev/YPmAeAnWA0r7/index.php/2026/08/02/kundendienst-bei-lucki-casino-online-spiele-kontaktwege-und-qualitat-der-hilfe-ausfuhrlicher-ratgeber",
         "https://ushort.dev/YPmAeAnWA0r7/index.php/2026/08/02/what-makes-modern-slot-games-different-from-the-classics-you-remember",
