@@ -62,11 +62,15 @@ do the following:
      metrics presented as fact, "contested" for disputed claims, "speculative"
      for speculation framed as likely fact, "paywalled" if the source is paywalled.
 5. Write top_summary: 2-3 plain, neutral sentences on the run's most important
-   development(s) across the surviving items. Empty string only if is_light_run
-   is true.
-6. Set is_light_run to true if there is little or no real on-topic news this run.
-   In that case items may be an empty array — do NOT pad with marginal items just
-   to avoid the light-run label.
+   development(s) across the surviving items. Write one whenever there is at
+   least one item — a two-item run still needs orientation just as much as a
+   six-item one. Use an empty string ONLY when items is empty.
+6. Set is_light_run to true ONLY when there is no real on-topic news at all and
+   items is an empty array. A run with even one genuine item is a normal run for
+   this publication, not a light one — the median run here is a single item, so
+   do not treat a small run as a shortfall. Do NOT pad with marginal items just
+   to avoid the label, and do NOT apply the label merely because the run is
+   small.
 7. From the surviving published items, extract any vendors, tools, companies,
    people, pieces of legislation, or regulatory bodies that are newly-named
    and not yet widely known in this space — these are candidates for the entity

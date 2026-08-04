@@ -150,10 +150,15 @@
     html += '<span style="font-family:\'IBM Plex Mono\',monospace; font-size:10.5px; letter-spacing:0.1em; text-transform:uppercase; color:#fff; background:#2b4a8b; padding:3px 9px; border-radius:4px;">' + esc(kicker) + '</span>';
     html += '<span style="font-family:\'IBM Plex Mono\',monospace; font-size:12px; color:#6b7280;">' + esc(metaLine) + '</span>';
     html += '</div>';
-    if (run.is_light_run) {
-      html += '<p style="margin:0 0 12px; font-size:13px; color:#8a7330; background:#f4efe2; border:1px solid #e8dec5; padding:8px 12px; border-radius:6px; display:inline-block;">Lighter update than usual — fewer items surfaced in this run.</p>';
+    // Gate the notice on the item count rather than run.is_light_run so the two
+    // can never contradict each other, and only render the summary paragraph
+    // when there's something in it — an empty one left 21px of dead space.
+    if (!runItems.length) {
+      html += '<p style="margin:0 0 12px; font-size:13px; color:#8a7330; background:#f4efe2; border:1px solid #e8dec5; padding:8px 12px; border-radius:6px; display:inline-block;">No new on-topic items surfaced in this run.</p>';
     }
-    html += '<p style="margin:0; font-family:\'Source Serif 4\',serif; font-size:21px; line-height:1.5; color:#2c3340;">' + esc(run.top_summary || '') + '</p>';
+    if (run.top_summary) {
+      html += '<p style="margin:0; font-family:\'Source Serif 4\',serif; font-size:21px; line-height:1.5; color:#2c3340;">' + esc(run.top_summary) + '</p>';
+    }
     if (runItems.length) {
       html += '<ul style="list-style:none; margin:16px 0 0; padding:0; display:flex; flex-direction:column; gap:6px;">';
       runItems.forEach(function (it) {
