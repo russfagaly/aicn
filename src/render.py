@@ -132,8 +132,13 @@ def write_proposals(root: str, new_proposals: list, dry_run: bool):
             existing_ids.add(prop["id"])
             added += 1
 
+    # ensure_ascii=False to match review.py, the other writer of this file.
+    # Curator rationales are full of em-dashes, so a mismatch makes the whole
+    # file churn between escaped and literal forms every time the pipeline and
+    # a review pass alternate — a one-field edit shows up as a 50-line diff.
     with open(proposals_path, "w") as f:
-        json.dump(existing, f, indent=2)
+        json.dump(existing, f, indent=2, ensure_ascii=False)
+        f.write("\n")
     return added
 
 
