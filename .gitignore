@@ -18,3 +18,7 @@ claude_design_kickoff.md
 
 # Private changelog — not reader-facing.
 CHANGELOG.md
+
+# Per-machine Claude Code settings (permission allowlists and the like).
+# .claude/launch.json IS tracked — it's how you preview the site locally.
+.claude/settings.local.json
