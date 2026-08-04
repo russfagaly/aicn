@@ -32,6 +32,7 @@ from zoneinfo import ZoneInfo
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from build_library import build_library_html
+from build_sources import build_sources_html
 from curate import curate_items
 from dedupe import fetch_page_metas, normalize_title, normalize_url, url_id
 from gather_feeds import gather_feed_items
@@ -304,6 +305,10 @@ def main():
     lib_path = build_library_html(ROOT)
     if lib_path:
         print(f"  library.html rebuilt ({len(open(lib_path).read()):,} bytes)", file=sys.stderr)
+    # Rebuilt every run so the public Sources page can't drift from the config
+    # the pipeline actually gathers with.
+    src_path = build_sources_html(ROOT)
+    print(f"  sources.html rebuilt ({len(open(src_path).read()):,} bytes)", file=sys.stderr)
 
     if args.dry_run:
         print("DRY RUN: state/seen.json and domain_stats.json were NOT written.", file=sys.stderr)

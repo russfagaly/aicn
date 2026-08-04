@@ -26,43 +26,53 @@
 targets:
   - id: axios
     name: Axios
+    description: Politics, business, and tech news
     domain: axios.com
     cadence: daily
   - id: semafor
     name: Semafor
+    description: Global politics and media
     domain: semafor.com
     cadence: daily
   - id: the-hill
     name: The Hill
+    description: Congress and campaign politics
     domain: thehill.com
     cadence: daily
   - id: punchbowl
     name: Punchbowl News
+    description: Congressional and leadership reporting
     domain: punchbowl.news
     cadence: daily
   - id: the-dispatch
     name: The Dispatch
+    description: Center-right politics and policy
     domain: thedispatch.com
     cadence: daily
   - id: ai-campaign-stack
     name: AI Campaign Stack
+    description: AI tooling for campaigns
     domain: aicampaignstack.org
     cadence: daily
   - id: chaotic-era
     name: Chaotic Era
+    description: Politics and technology newsletter
     domain: chaoticera.news
     cadence: daily
   - id: civic-shout
     name: Civic Shout Newsletter
+    description: Civic tech and organizing
     domain: civicshoutnewsletter.com
     cadence: daily
   # Added from an accepted proposal.
   - id: nbcnews
     name: NBC News
+    description: National news and politics
     domain: nbcnews.com
     cadence: daily
   # Added from an accepted proposal.
   - id: l2-data
     name: L2 Data
+    description: Voter data vendor blog
     domain: l2-data.com
     cadence: daily

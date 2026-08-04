@@ -154,20 +154,24 @@ def wire_accepted(p):
         else:
             print(f"  {DIM}No feed found.{RESET}")
 
+    # description is shown under the source's name on the public Sources page,
+    # which build_sources.py renders from this config.
     if p["kind"] == "source" and feed_url:
         print(f"  {BOLD}Wiring into sources.yaml{RESET} {DIM}(has a feed){RESET}")
         name = ask_text("name", default=value)
+        description = ask_text("description", default=f"Coverage from {name}")
         tier = ask_choice("tier", v["tiers"])
         entry_id = wire.next_id(ROOT, "sources.yaml", value)
-        wire.wire_feed(ROOT, entry_id, name, feed_url, tier)
+        wire.wire_feed(ROOT, entry_id, name, feed_url, tier, description)
         return f"sources.yaml  id: {entry_id}  tier: {tier}"
 
     if p["kind"] == "source":
         print(f"  {BOLD}Wiring into site_targets.yaml{RESET} {DIM}(no feed — site-scoped search){RESET}")
         name = ask_text("name", default=value)
+        description = ask_text("description", default=f"Coverage from {name}")
         cadence = ask_choice("cadence", v["cadences"])
         entry_id = wire.next_id(ROOT, "site_targets.yaml", value)
-        wire.wire_target(ROOT, entry_id, name, value.removeprefix("www."), cadence)
+        wire.wire_target(ROOT, entry_id, name, value.removeprefix("www."), cadence, description)
         return f"site_targets.yaml  id: {entry_id}  cadence: {cadence}"
 
     print(f"  {BOLD}Wiring into watchlist.yaml{RESET}")

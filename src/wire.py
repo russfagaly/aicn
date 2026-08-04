@@ -173,22 +173,24 @@ def _write(root: str, filename: str, list_key: str, block: str) -> str:
     return path
 
 
-def wire_feed(root: str, entry_id: str, name: str, url: str, tier: str) -> str:
+def wire_feed(root: str, entry_id: str, name: str, url: str, tier: str, description: str) -> str:
     block = (
         f"\n  # Added from an accepted proposal.\n"
         f"  - id: {entry_id}\n"
         f"    name: {yaml_scalar(name)}\n"
+        f"    description: {yaml_scalar(description)}\n"
         f"    url: {url}\n"
         f"    tier: {tier}\n"
     )
     return _write(root, "sources.yaml", "feeds", block)
 
 
-def wire_target(root: str, entry_id: str, name: str, domain: str, cadence: str) -> str:
+def wire_target(root: str, entry_id: str, name: str, domain: str, cadence: str, description: str) -> str:
     block = (
         f"  # Added from an accepted proposal.\n"
         f"  - id: {entry_id}\n"
         f"    name: {yaml_scalar(name)}\n"
+        f"    description: {yaml_scalar(description)}\n"
         f"    domain: {domain}\n"
         f"    cadence: {cadence}\n"
     )

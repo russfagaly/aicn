@@ -48,17 +48,21 @@
       <div style="margin-bottom:24px;">
         <h1 style="font-family:'Source Serif 4',serif; font-weight:700; font-size:26px; color:#1d2330; margin:0 0 8px;">Sources</h1>
         <p style="margin:0; font-size:14px; color:#6b7280; line-height:1.6; max-width:60ch;">
-          AICN gathers candidates from curated RSS/Atom feeds, a broad web search pass, and an
-          entity watchlist (vendors, regulators, and legislation tracked individually). Every
-          item is checked against this list and filtered for relevance before publishing —
-          this page covers the RSS feeds; the watchlist and broad search add coverage beyond
-          any single outlet.
+          AICN gathers candidates from three layers: curated RSS/Atom feeds, site-scoped
+          searches of outlets that publish no usable feed, and an entity watchlist of
+          vendors, regulators, and legislation tracked by name. A broad web search pass
+          runs alongside them, so items can surface from outside this list. Everything
+          gathered is filtered for relevance before publishing.
+        </p>
+        <p style="margin:12px 0 0; font-size:13px; color:#9aa1ab; line-height:1.6; max-width:60ch;">
+          This page is generated from the pipeline's own configuration on every run, so
+          it always reflects what is actually being gathered.
         </p>
       </div>
-      <section>
+      <section style="margin-top:32px;">
         <div style="display:flex; align-items:center; gap:12px; margin:0 0 16px;">
           <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:17px; color:#1d2330; margin:0; white-space:nowrap;">Curated RSS/Atom feeds</h2>
-          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#9aa1ab;">8</span>
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#9aa1ab;">10</span>
           <div style="flex:1; height:1px; background:#e3e6ea;"></div>
         </div>
         <ul style="list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:0 32px;">
@@ -79,11 +83,11 @@
             <span style="font-size:12px; color:#9aa1ab;">Progressive policy journalism</span>
           </li>
           <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
-            <a href="https://www.highergroundlabs.com/feed" target="_blank" rel="noopener" style="font-size:14.5px; font-weight:600; text-decoration:none; color:#1d2330; display:block;">Higher Ground Labs</a>
+            <a href="https://www.highergroundlabs.com/feed" target="_blank" rel="noopener" style="font-size:14.5px; font-weight:600; text-decoration:none; color:#1d2330; display:block;">Higher Ground Labs (blog)</a>
             <span style="font-size:12px; color:#9aa1ab;">Progressive tech investment &amp; resources</span>
           </li>
           <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
-            <a href="https://atdawn.us/index.php/feed/" target="_blank" rel="noopener" style="font-size:14.5px; font-weight:600; text-decoration:none; color:#1d2330; display:block;">At Dawn Campaigns</a>
+            <a href="https://atdawn.us/index.php/feed/" target="_blank" rel="noopener" style="font-size:14.5px; font-weight:600; text-decoration:none; color:#1d2330; display:block;">At Dawn Campaigns (Erik Balsbaugh)</a>
             <span style="font-size:12px; color:#9aa1ab;">Campaign strategy and AI commentary</span>
           </li>
           <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
@@ -94,21 +98,189 @@
             <a href="https://news.ballotpedia.org/feed" target="_blank" rel="noopener" style="font-size:14.5px; font-weight:600; text-decoration:none; color:#1d2330; display:block;">Ballotpedia News</a>
             <span style="font-size:12px; color:#9aa1ab;">Elections and ballot measure news</span>
           </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <a href="https://the-downballot.com/feed" target="_blank" rel="noopener" style="font-size:14.5px; font-weight:600; text-decoration:none; color:#1d2330; display:block;">The Downballot</a>
+            <span style="font-size:12px; color:#9aa1ab;">Down-ballot and state race coverage</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <a href="https://theconnector.substack.com/feed" target="_blank" rel="noopener" style="font-size:14.5px; font-weight:600; text-decoration:none; color:#1d2330; display:block;">The Connector</a>
+            <span style="font-size:12px; color:#9aa1ab;">Progressive organizing and campaign tech</span>
+          </li>
         </ul>
       </section>
-
       <section style="margin-top:32px;">
-        <div style="display:flex; align-items:center; gap:12px; margin:0 0 14px;">
-          <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:17px; color:#1d2330; margin:0; white-space:nowrap;">Also monitored via search</h2>
+        <div style="display:flex; align-items:center; gap:12px; margin:0 0 16px;">
+          <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:17px; color:#1d2330; margin:0; white-space:nowrap;">Site-scoped search targets</h2>
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#9aa1ab;">10</span>
           <div style="flex:1; height:1px; background:#e3e6ea;"></div>
         </div>
-        <p style="font-size:14px; color:#6b7280; line-height:1.6; margin:0;">
-          AdImpact, MultiState, Tech for Campaigns, Center for Campaign Innovation, Startup
-          Caucus, Push Digital, Transparency Coalition, AP (politics), Politico (Digital
-          Future Daily), Chaotic Era, and Civic Shout Newsletter don't publish a usable
-          RSS/Atom feed, so they're covered through the watchlist search instead of a direct
-          feed subscription.
+        <p style="font-size:13px; color:#6b7280; line-height:1.6; margin:0 0 8px; max-width:60ch;">
+          Outlets searched directly each run because they publish no usable RSS feed, or
+          publish far more than AI-in-campaigns coverage alone.
         </p>
+        <ul style="list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:0 32px;">
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Axios</span>
+            <span style="font-size:12px; color:#9aa1ab;">Politics, business, and tech news</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Semafor</span>
+            <span style="font-size:12px; color:#9aa1ab;">Global politics and media</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">The Hill</span>
+            <span style="font-size:12px; color:#9aa1ab;">Congress and campaign politics</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Punchbowl News</span>
+            <span style="font-size:12px; color:#9aa1ab;">Congressional and leadership reporting</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">The Dispatch</span>
+            <span style="font-size:12px; color:#9aa1ab;">Center-right politics and policy</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">AI Campaign Stack</span>
+            <span style="font-size:12px; color:#9aa1ab;">AI tooling for campaigns</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Chaotic Era</span>
+            <span style="font-size:12px; color:#9aa1ab;">Politics and technology newsletter</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Civic Shout Newsletter</span>
+            <span style="font-size:12px; color:#9aa1ab;">Civic tech and organizing</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">NBC News</span>
+            <span style="font-size:12px; color:#9aa1ab;">National news and politics</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">L2 Data</span>
+            <span style="font-size:12px; color:#9aa1ab;">Voter data vendor blog</span>
+          </li>
+        </ul>
+      </section>
+      <section style="margin-top:32px;">
+        <div style="display:flex; align-items:center; gap:12px; margin:0 0 16px;">
+          <h2 style="font-family:'Source Serif 4',serif; font-weight:600; font-size:17px; color:#1d2330; margin:0; white-space:nowrap;">Entity watchlist</h2>
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#9aa1ab;">27</span>
+          <div style="flex:1; height:1px; background:#e3e6ea;"></div>
+        </div>
+        <p style="font-size:13px; color:#6b7280; line-height:1.6; margin:0 0 8px; max-width:60ch;">
+          Named vendors, regulators, and legislation searched by name each run, so
+          coverage does not depend on any single outlet reporting on them.
+        </p>
+        <ul style="list-style:none; margin:0; padding:0; display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:0 32px;">
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">NGP VAN / Bonterra</span>
+            <span style="font-size:12px; color:#9aa1ab;">Vendor</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">L2</span>
+            <span style="font-size:12px; color:#9aa1ab;">Vendor</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">NO FAKES Act</span>
+            <span style="font-size:12px; color:#9aa1ab;">Legislation</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Transparency Coalition</span>
+            <span style="font-size:12px; color:#9aa1ab;">Organization (no feed)</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Quiller / Grassroots Analytics</span>
+            <span style="font-size:12px; color:#9aa1ab;">Vendor</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">BattlegroundAI</span>
+            <span style="font-size:12px; color:#9aa1ab;">Vendor</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Chorus AI</span>
+            <span style="font-size:12px; color:#9aa1ab;">Vendor</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">DonorAtlas</span>
+            <span style="font-size:12px; color:#9aa1ab;">Vendor</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">RivalMind AI</span>
+            <span style="font-size:12px; color:#9aa1ab;">Vendor</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Civox (&quot;Ashley&quot;)</span>
+            <span style="font-size:12px; color:#9aa1ab;">Vendor</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Aaru</span>
+            <span style="font-size:12px; color:#9aa1ab;">Vendor</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">TargetSmart</span>
+            <span style="font-size:12px; color:#9aa1ab;">Vendor</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Catalist</span>
+            <span style="font-size:12px; color:#9aa1ab;">Vendor</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Civis Analytics</span>
+            <span style="font-size:12px; color:#9aa1ab;">Vendor</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Push Digital (&quot;Push AI&quot;)</span>
+            <span style="font-size:12px; color:#9aa1ab;">Vendor</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Prime Radiant</span>
+            <span style="font-size:12px; color:#9aa1ab;">Vendor</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Electric Twin</span>
+            <span style="font-size:12px; color:#9aa1ab;">Vendor</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Higher Ground Labs portfolio companies</span>
+            <span style="font-size:12px; color:#9aa1ab;">Vendor</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">FEC (Federal Election Commission)</span>
+            <span style="font-size:12px; color:#9aa1ab;">Regulator</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">FCC (Federal Communications Commission)</span>
+            <span style="font-size:12px; color:#9aa1ab;">Regulator</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">TAKE IT DOWN Act</span>
+            <span style="font-size:12px; color:#9aa1ab;">Legislation</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">AdImpact</span>
+            <span style="font-size:12px; color:#9aa1ab;">Organization (no feed)</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">MultiState</span>
+            <span style="font-size:12px; color:#9aa1ab;">Organization (no feed)</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Tech for Campaigns</span>
+            <span style="font-size:12px; color:#9aa1ab;">Organization (no feed)</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Center for Campaign Innovation</span>
+            <span style="font-size:12px; color:#9aa1ab;">Organization (no feed)</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Startup Caucus</span>
+            <span style="font-size:12px; color:#9aa1ab;">Organization (no feed)</span>
+          </li>
+          <li style="padding:14px 0; border-bottom:1px solid #e7eaee;">
+            <span style="font-size:14.5px; font-weight:600; color:#1d2330; display:block;">Higher Ground Labs</span>
+            <span style="font-size:12px; color:#9aa1ab;">Vendor</span>
+          </li>
+        </ul>
       </section>
     </main>
 
