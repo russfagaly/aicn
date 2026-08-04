@@ -418,6 +418,32 @@
       ],
       "first_proposed": "2026-08-02",
       "status": "pending"
+    },
+    {
+      "id": "prop-source-finance-yahoo-com",
+      "kind": "source",
+      "value": "finance.yahoo.com",
+      "feed_url": null,
+      "rationale": "Produced 2 published item(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://finance.yahoo.com/media-advertising/articles/nexxen-l2-data-launch-votermatch-130000183.html",
+        "https://finance.yahoo.com/media-advertising/articles/stackadapt-launches-political-targeting-measurement-130000309.html"
+      ],
+      "first_proposed": "2026-08-04",
+      "status": "pending"
+    },
+    {
+      "id": "prop-source-npr-org",
+      "kind": "source",
+      "value": "npr.org",
+      "feed_url": "https://feeds.npr.org/1002/rss.xml",
+      "rationale": "Produced 2 published item(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://npr.org/2026/06/22/nx-s1-5856359/ai-anthropic-congress-spending-openai-midterms-election",
+        "https://npr.org/2026/07/12/nx-s1-5867763/ai-artificial-intelligence-data-texts-bots-voters-campaigns"
+      ],
+      "first_proposed": "2026-08-04",
+      "status": "pending"
     }
   ]
 }
