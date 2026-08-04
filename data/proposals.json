@@ -6,7 +6,7 @@
       "kind": "watchlist_entity",
       "value": "TrueScreen",
       "feed_url": null,
-      "rationale": "A vendor promoting certified digital evidence as an anti-deepfake tool specifically for elections \u2014 niche enough to warrant tracking as a new entrant in election-integrity tech.",
+      "rationale": "A vendor promoting certified digital evidence as an anti-deepfake tool specifically for elections — niche enough to warrant tracking as a new entrant in election-integrity tech.",
       "example_urls": [
         "https://truescreen.io/articles/deepfakes-2026-elections-certified-proof/"
       ],
@@ -18,7 +18,7 @@
       "kind": "watchlist_entity",
       "value": "Stack Cyber",
       "feed_url": null,
-      "rationale": "Maintains a regularly updated tracker of federal and state deepfake legislation including election-specific disclosure laws \u2014 useful beat resource not yet widely known.",
+      "rationale": "Maintains a regularly updated tracker of federal and state deepfake legislation including election-specific disclosure laws — useful beat resource not yet widely known.",
       "example_urls": [
         "https://stackcyber.com/posts/ai-deepfake-laws"
       ],
@@ -30,7 +30,7 @@
       "kind": "watchlist_entity",
       "value": "Project 2029",
       "feed_url": null,
-      "rationale": "A Democratic policy initiative targeting tech companies and online safety as part of framing for the 2028 presidential cycle \u2014 new named entity relevant to AI advocacy and regulation.",
+      "rationale": "A Democratic policy initiative targeting tech companies and online safety as part of framing for the 2028 presidential cycle — new named entity relevant to AI advocacy and regulation.",
       "example_urls": [
         "https://www.semafor.com/article/06/28/2026/democrats-project-2029-goes-after-tech-companies-with-online-safety-plan"
       ],
@@ -42,7 +42,7 @@
       "kind": "watchlist_entity",
       "value": "Andrew Garbarino",
       "feed_url": null,
-      "rationale": "House Homeland Security Committee Chair publicly flagging Anthropic's Mythos model as a security concern \u2014 a key congressional figure to track for AI oversight activity.",
+      "rationale": "House Homeland Security Committee Chair publicly flagging Anthropic's Mythos model as a security concern — a key congressional figure to track for AI oversight activity.",
       "example_urls": [
         "https://punchbowl.news/article/tech/garbarino-mythos/"
       ],
@@ -54,7 +54,7 @@
       "kind": "watchlist_entity",
       "value": "Mythos",
       "feed_url": null,
-      "rationale": "Anthropic's advanced AI model now at the center of both export-control reversals and congressional security concerns \u2014 sufficiently specific and niche to warrant tracking as a named product.",
+      "rationale": "Anthropic's advanced AI model now at the center of both export-control reversals and congressional security concerns — sufficiently specific and niche to warrant tracking as a named product.",
       "example_urls": [
         "https://www.wired.com/story/trump-administration-lifts-export-controls-on-anthropics-mythos-and-fable-ai-models/"
       ],
@@ -66,7 +66,7 @@
       "kind": "source",
       "value": "nbcnews.com",
       "feed_url": null,
-      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items — the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://nbcnews.com/politics/2028-election/ai-midterms-politics-campaign-ads-rcna263752",
         "https://nbcnews.com/politics/2026-election/ads-ai-industry-are-flooding-2026-election-artificial-intelligence-rcna260782"
@@ -91,7 +91,7 @@
       "kind": "source",
       "value": "accupaysystems.com",
       "feed_url": "https://accupaysystems.com/feed/",
-      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items — the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://accupaysystems.com/ai-deepfakes-in-political-campaigns-how-synthetic-media-is-reshaping-the-2026-midterm-elections"
       ],
@@ -103,7 +103,7 @@
       "kind": "source",
       "value": "l2-data.com",
       "feed_url": null,
-      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items — the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://l2-data.com/blog",
         "https://l2-data.com/liveramp-and-beyond-onboarding-with-l2-in-2026"
@@ -116,7 +116,7 @@
       "kind": "source",
       "value": "transparencycoalition.ai",
       "feed_url": null,
-      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items — the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://transparencycoalition.ai/news/ai-legislative-update-june12-2026",
         "https://transparencycoalition.ai/news/ai-legislative-update-may1-2026",
@@ -142,7 +142,7 @@
       "kind": "watchlist_entity",
       "value": "Mike Lawler",
       "feed_url": null,
-      "rationale": "Republican House member from New York co-leading bipartisan pressure on federal agencies over AI election threats \u2014 a recurring actor in AI-election regulation efforts worth tracking.",
+      "rationale": "Republican House member from New York co-leading bipartisan pressure on federal agencies over AI election threats — a recurring actor in AI-election regulation efforts worth tracking.",
       "example_urls": [
         "https://punchbowl.news/article/tech/ai-election-threats/"
       ],
@@ -154,7 +154,7 @@
       "kind": "watchlist_entity",
       "value": "Josh Gottheimer",
       "feed_url": null,
-      "rationale": "Democratic House member from New Jersey co-leading bipartisan push on AI election-integrity oversight \u2014 newly named in context of AI campaign regulation.",
+      "rationale": "Democratic House member from New Jersey co-leading bipartisan push on AI election-integrity oversight — newly named in context of AI campaign regulation.",
       "example_urls": [
         "https://punchbowl.news/article/tech/ai-election-threats/"
       ],
@@ -165,8 +165,8 @@
       "id": "prop-source-theconnector-substack-com",
       "kind": "source",
       "value": "theconnector.substack.com",
-      "feed_url": null,
-      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
+      "feed_url": "https://theconnector.substack.com/feed",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items — the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://theconnector.substack.com/p/why-are-we-still-living-with-vanxiety"
       ],
@@ -202,7 +202,7 @@
       "kind": "watchlist_entity",
       "value": "Middle Seat",
       "feed_url": null,
-      "rationale": "A Democratic political consulting firm founded by Bernie Sanders campaign veterans, described as rising to prominence via progressive socialist wins \u2014 worth tracking as a potential adopter or reseller of AI campaign tools on the left.",
+      "rationale": "A Democratic political consulting firm founded by Bernie Sanders campaign veterans, described as rising to prominence via progressive socialist wins — worth tracking as a potential adopter or reseller of AI campaign tools on the left.",
       "example_urls": [
         "https://www.notus.org/2026-election/middle-seat-firm-democrats"
       ],
@@ -214,7 +214,7 @@
       "kind": "watchlist_entity",
       "value": "Public First Action",
       "feed_url": null,
-      "rationale": "An AI safety advocacy group spending $15 million on congressional races to reward lawmakers for AI safety positions \u2014 a niche issue-advocacy player newly entering the electoral space at scale.",
+      "rationale": "An AI safety advocacy group spending $15 million on congressional races to reward lawmakers for AI safety positions — a niche issue-advocacy player newly entering the electoral space at scale.",
       "example_urls": [
         "https://punchbowl.news/article/tech/anthropic-gop-play/"
       ],
@@ -238,7 +238,7 @@
       "kind": "source",
       "value": "texastribune.org",
       "feed_url": "https://www.texastribune.org/feed/",
-      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items — the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://texastribune.org/2026/02/19/texas-2026-primaries-ai-ads-candidates-crockett-cornyn-paxton"
       ],
@@ -250,7 +250,7 @@
       "kind": "source",
       "value": "campaignnow.com",
       "feed_url": null,
-      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items — the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://campaignnow.com/blog/regulators-scramble-as-ai-deepfakes-flood-the-2026-midterms"
       ],
@@ -262,7 +262,7 @@
       "kind": "source",
       "value": "truescreen.io",
       "feed_url": "https://truescreen.io/feed/",
-      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items — the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://truescreen.io/articles/deepfakes-2026-elections-certified-proof"
       ],
@@ -274,7 +274,7 @@
       "kind": "source",
       "value": "blackburn.senate.gov",
       "feed_url": null,
-      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items — the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://blackburn.senate.gov/2026/5/technology/blackburn-coons-salazar-dean-colleagues-introduce-revised-version-of-no-fakes-act",
         "https://blackburn.senate.gov/2026/6/blackburn-coons-bipartisan-bill-to-protect-individuals-and-creators-from-deepfakes-passes-senate-judiciary-committee"
@@ -311,7 +311,7 @@
       "kind": "watchlist_entity",
       "value": "Adam Schiff",
       "feed_url": null,
-      "rationale": "California senator introducing specific federal legislation to restrict AI-generated political ads and mandate influencer disclosure \u2014 a key actor in the AI-in-elections regulatory space.",
+      "rationale": "California senator introducing specific federal legislation to restrict AI-generated political ads and mandate influencer disclosure — a key actor in the AI-in-elections regulatory space.",
       "example_urls": [
         "https://www.semafor.com/article/07/26/2026/senate-democrats-new-bills-would-restrict-ai-powered-ads-and-paid-influencers"
       ],
@@ -335,7 +335,7 @@
       "kind": "watchlist_entity",
       "value": "Legisletter",
       "feed_url": null,
-      "rationale": "A niche legislative tracking publication producing a dedicated AI regulation tracker for the 119th Congress, updated weekly with floor quotes and lobbying filings \u2014 useful beat resource not widely known.",
+      "rationale": "A niche legislative tracking publication producing a dedicated AI regulation tracker for the 119th Congress, updated weekly with floor quotes and lobbying filings — useful beat resource not widely known.",
       "example_urls": [
         "https://legisletter.org/issues/ai-regulation"
       ],
@@ -347,7 +347,7 @@
       "kind": "source",
       "value": "nypost.com",
       "feed_url": "https://nypost.com/feed/",
-      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items — the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://nypost.com/2026/07/28/us-news/california-dems-target-ai-campaign-ads-after-spencer-pratt-and-steve-hiltons-viral-political-attacks",
         "https://nypost.com/2026/07/28/opinion/adam-schiffs-attack-on-free-speech-is-a-parody-of-itself",
@@ -385,7 +385,7 @@
       "kind": "source",
       "value": "arxiv.org",
       "feed_url": null,
-      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items — the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://arxiv.org/pdf/2512.13915"
       ],
@@ -397,7 +397,7 @@
       "kind": "source",
       "value": "salazar.house.gov",
       "feed_url": null,
-      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items — the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://salazar.house.gov/media/press-releases/rep-salazars-no-fakes-act-advances-out-senate-judiciary-committee-unanimous",
         "https://salazar.house.gov/media/press-releases/rep-salazars-no-fakes-act-advances-out-of-senate-judiciary-committee-unanimous"
@@ -410,7 +410,7 @@
       "kind": "source",
       "value": "ushort.dev",
       "feed_url": null,
-      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items \u2014 the count was not filtered for relevance. Re-review on the merits of the example URLs.",
+      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items — the count was not filtered for relevance. Re-review on the merits of the example URLs.",
       "example_urls": [
         "https://ushort.dev/YPmAeAnWA0r7/index.php/2026/08/02/kundendienst-bei-lucki-casino-online-spiele-kontaktwege-und-qualitat-der-hilfe-ausfuhrlicher-ratgeber",
         "https://ushort.dev/YPmAeAnWA0r7/index.php/2026/08/02/what-makes-modern-slot-games-different-from-the-classics-you-remember",

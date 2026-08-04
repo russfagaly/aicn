@@ -118,3 +118,8 @@ entities:
     name: Startup Caucus
     kind: org_no_feed
     cadence: daily
+  # Added from an accepted proposal.
+  - id: higher-ground-labs
+    name: Higher Ground Labs
+    kind: vendor
+    cadence: daily

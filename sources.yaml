@@ -58,6 +58,12 @@ feeds:
     url: https://the-downballot.com/feed
     tier: elections_coverage
 
+  # Added from an accepted proposal.
+  - id: theconnector-substack
+    name: The Connector
+    url: https://theconnector.substack.com/feed
+    tier: left_movement_tech
+
 # Outlets from the build plan with no usable feed as of this build (kept here
 # for traceability; do not delete without re-checking — sites change).
 unavailable:

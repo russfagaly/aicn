@@ -56,3 +56,13 @@ targets:
     name: Civic Shout Newsletter
     domain: civicshoutnewsletter.com
     cadence: daily
+  # Added from an accepted proposal.
+  - id: nbcnews
+    name: NBC News
+    domain: nbcnews.com
+    cadence: daily
+  # Added from an accepted proposal.
+  - id: l2-data
+    name: L2 Data
+    domain: l2-data.com
+    cadence: daily
