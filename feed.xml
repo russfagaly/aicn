@@ -3,7 +3,14 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Tue, 04 Aug 2026 14:31:11 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 14:22:55 GMT</lastBuildDate>
+    <item>
+      <title>We're headed toward the first true AI election</title>
+      <link>https://axios.com/2026/08/05/ai-election-bots-simulated-voters-2026-2028</link>
+      <guid isPermaLink="false">07ec3037de2b8b1e</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Axios argues that 2026 and 2028 are poised to become the first elections meaningfully defined by AI, pointing to the growing use of campaign bots and simulated voters as evidence of a structural inflection point in electoral politics.</description>
+    </item>
     <item>
       <title>AI-generated political ad in St. Charles County raises deepfake questions ahead of primary election</title>
       <link>https://firstalert4.com/2026/07/20/ai-generated-political-ad-st-charles-county-raises-deepfake-questions-ahead-primary-election</link>
@@ -206,13 +213,6 @@
       <guid isPermaLink="false">cbc0162fcbee5271</guid>
       <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
       <description>Punchbowl News reports that several House Democrats are calling for the creation of a formal bipartisan AI policy committee, mirroring an effort Republicans declined to institutionalize, as Congress continues to grapple with how to organize legislative oversight of artificial intelligence.</description>
-    </item>
-    <item>
-      <title>Tech: How Husted and his voters see AI</title>
-      <link>https://punchbowl.news/article/tech/husted-voters-ai</link>
-      <guid isPermaLink="false">6c272b509186cbef</guid>
-      <pubDate>Sun, 19 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Punchbowl News reports that Sen. Jon Husted (R-Ohio) says constituent concern about AI has broadened beyond parents worried about children online to include employers and educators, suggesting AI anxiety is becoming a wider voter issue heading into 2026.</description>
     </item>
   </channel>
 </rss>
