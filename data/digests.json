@@ -1,7 +1,73 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-05T14:22:55Z",
+  "generated_at": "2026-08-06T14:25:19Z",
   "runs": [
+    {
+      "run_id": "2026-08-06",
+      "date": "2026-08-06",
+      "generated_at": "2026-08-06T14:25:19Z",
+      "is_light_run": false,
+      "top_summary": "The dominant AI-and-elections story this cycle is the political economy around AI infrastructure: NBC News reports that AI companies' campaign spending is set to surge this fall as fights over AI regulation and data centers become central midterm issues, while a companion piece shows local backlash to hyperscale data center construction is already shaping down-ballot races. Separately, Senate Democrats are publicly splitting over AI policy, with the party's top tax-writer proposing a new tax on data centers.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "63ef76dd09e3b1ff",
+          "title": "Why AI giants' political spending could balloon this fall",
+          "url": "https://nbcnews.com/politics/2026-election/ai-giants-political-spending-balloon-fall-rcna590857",
+          "source": "NBC News",
+          "source_domain": "nbcnews.com",
+          "published": "2026-08-04",
+          "first_seen_run": "2026-08-06",
+          "category": "analysis_oped",
+          "summary": "NBC News reports that major AI companies are expected to significantly increase their political spending ahead of the fall 2026 general elections, driven by high-stakes fights in Congress and statehouses over AI regulation, data center permitting, and related policy battles.",
+          "why_it_matters": "Corporate AI lobbying and campaign spending at this scale could directly shape the legislative environment governing AI in elections and beyond, making the industry itself a major electoral actor.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:nbcnews",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "1f96ee89a31300f9",
+          "title": "How the booming backlash to AI data centers is shaping the midterm election",
+          "url": "https://nbcnews.com/politics/2026-election/booming-backlash-ai-data-centers-shaping-midterm-election-rcna589624",
+          "source": "NBC News",
+          "source_domain": "nbcnews.com",
+          "published": "2026-07-29",
+          "first_seen_run": "2026-08-06",
+          "category": "deployments_studies",
+          "summary": "NBC News documents how community backlash to rapid hyperscale AI data center construction \u2014 touching on power consumption, land use, and water \u2014 emerged as a live campaign issue in 2025 state elections and is now rippling into 2026 midterm races up and down the ballot.",
+          "why_it_matters": "AI infrastructure is becoming a tangible local political issue that candidates must address, broadening AI's electoral footprint beyond content and disinformation concerns.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:nbcnews",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "5653b11771c90cb9",
+          "title": "Democrats\u2019 Split on AI Grows as a New Plan Emerges",
+          "url": "https://notus.org/technology/democrats-split-ai-grows-wyden-tax-data-centers",
+          "source": "NOTUS",
+          "source_domain": "notus.org",
+          "published": "2026-08-06",
+          "first_seen_run": "2026-08-06",
+          "category": "regulation",
+          "summary": "NOTUS reports that Senate Democrats are increasingly divided on AI policy, with Senate Finance Committee ranking member Ron Wyden introducing a proposal to tax data centers as part of a broader intra-party dispute over how to approach AI regulation and industry incentives.",
+          "why_it_matters": "A rift among Senate Democrats on AI taxation and regulation signals that AI policy will be a contested issue within both parties heading into the 2026 cycle, not just between them.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "notus",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-08-05",
       "date": "2026-08-05",
@@ -1516,15 +1582,6 @@
       "run_id": "2026-06-28",
       "date": "2026-06-28",
       "generated_at": "2026-06-28T13:55:37Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
-    },
-    {
-      "run_id": "2026-06-27",
-      "date": "2026-06-27",
-      "generated_at": "2026-06-27T13:51:26Z",
       "is_light_run": true,
       "top_summary": "",
       "item_count": 0,

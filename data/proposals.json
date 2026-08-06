@@ -444,6 +444,18 @@
       ],
       "first_proposed": "2026-08-04",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-ron-wyden",
+      "kind": "watchlist_entity",
+      "value": "Ron Wyden",
+      "feed_url": null,
+      "rationale": "Senate Finance Committee ranking member proposing a data center tax as part of Democratic AI policy debate — newly relevant as a legislative actor on AI regulation.",
+      "example_urls": [
+        "https://www.notus.org/technology/democrats-split-ai-grows-wyden-tax-data-centers"
+      ],
+      "first_proposed": "2026-08-06",
+      "status": "pending"
     }
   ]
 }

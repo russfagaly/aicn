@@ -3,7 +3,28 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Wed, 05 Aug 2026 14:22:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 14:25:19 GMT</lastBuildDate>
+    <item>
+      <title>Why AI giants' political spending could balloon this fall</title>
+      <link>https://nbcnews.com/politics/2026-election/ai-giants-political-spending-balloon-fall-rcna590857</link>
+      <guid isPermaLink="false">63ef76dd09e3b1ff</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
+      <description>NBC News reports that major AI companies are expected to significantly increase their political spending ahead of the fall 2026 general elections, driven by high-stakes fights in Congress and statehouses over AI regulation, data center permitting, and related policy battles.</description>
+    </item>
+    <item>
+      <title>How the booming backlash to AI data centers is shaping the midterm election</title>
+      <link>https://nbcnews.com/politics/2026-election/booming-backlash-ai-data-centers-shaping-midterm-election-rcna589624</link>
+      <guid isPermaLink="false">1f96ee89a31300f9</guid>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
+      <description>NBC News documents how community backlash to rapid hyperscale AI data center construction — touching on power consumption, land use, and water — emerged as a live campaign issue in 2025 state elections and is now rippling into 2026 midterm races up and down the ballot.</description>
+    </item>
+    <item>
+      <title>Democrats’ Split on AI Grows as a New Plan Emerges</title>
+      <link>https://notus.org/technology/democrats-split-ai-grows-wyden-tax-data-centers</link>
+      <guid isPermaLink="false">5653b11771c90cb9</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
+      <description>NOTUS reports that Senate Democrats are increasingly divided on AI policy, with Senate Finance Committee ranking member Ron Wyden introducing a proposal to tax data centers as part of a broader intra-party dispute over how to approach AI regulation and industry incentives.</description>
+    </item>
     <item>
       <title>We're headed toward the first true AI election</title>
       <link>https://axios.com/2026/08/05/ai-election-bots-simulated-voters-2026-2028</link>
@@ -192,27 +213,6 @@
       <guid isPermaLink="false">1f59a6e0c2bf6c65</guid>
       <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
       <description>Sen. Elizabeth Warren criticized PAC spending by groups linked to cryptocurrency and AI interests, alleging these groups are spending millions to influence congressional races through dark money.</description>
-    </item>
-    <item>
-      <title>Map Shows States Where Governor Candidates Support Data Center Moratoriums</title>
-      <link>https://newsweek.com/map-shows-states-where-governor-candidates-support-data-center-moratoriums-12225115</link>
-      <guid isPermaLink="false">21b3eeaf00ac38ef</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Newsweek maps gubernatorial candidates in states including Maine, Iowa, Wisconsin, and Kansas who support moratoriums on AI data centers, showing AI infrastructure has become a campaign issue in multiple governor's races.</description>
-    </item>
-    <item>
-      <title>Campaigns Need AI Guardrails Before the 2026 Midterms</title>
-      <link>https://campaignsandelections.com/voices/campaigns-need-ai-guardrails-before-the-2026-idterms</link>
-      <guid isPermaLink="false">8f69666c670af3cd</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
-      <description>A Campaigns &amp; Elections op-ed argues that the political conversation about AI in elections has been too narrowly focused on deepfakes and synthetic media, and calls on campaigns to adopt broader AI guardrails — covering AI-driven targeting, messaging, and voter contact — before the 2026 midterms.</description>
-    </item>
-    <item>
-      <title>Tech: Democrats have AI committee hopes too</title>
-      <link>https://punchbowl.news/article/tech/dems-ai-committee-hopes</link>
-      <guid isPermaLink="false">cbc0162fcbee5271</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Punchbowl News reports that several House Democrats are calling for the creation of a formal bipartisan AI policy committee, mirroring an effort Republicans declined to institutionalize, as Congress continues to grapple with how to organize legislative oversight of artificial intelligence.</description>
     </item>
   </channel>
 </rss>
