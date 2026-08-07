@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Thu, 06 Aug 2026 14:25:19 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 13:16:45 GMT</lastBuildDate>
+    <item>
+      <title>AI is getting better at election facts, but voters shouldn't rely on it</title>
+      <link>https://cyberscoop.com/ai-chatbots-2026-midterm-elections</link>
+      <guid isPermaLink="false">0f9a9f673f097255</guid>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
+      <description>New research finds that AI chatbots have meaningfully reduced factual errors when answering election-related questions ahead of the 2026 midterms, but incomplete or partial answers remain a significant risk for voters who rely on them for electoral information.</description>
+    </item>
+    <item>
+      <title>Voters face uneven AI deepfake protections</title>
+      <link>https://axios.com/2026/08/07/election-ai-deepfake-rules-states</link>
+      <guid isPermaLink="false">c6c96a363bdb23d4</guid>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Axios reports that voters heading into the 2026 midterms face a highly uneven landscape of state-level legal protections against AI-generated deepfakes in political content, with significant gaps across many states.</description>
+    </item>
     <item>
       <title>Why AI giants' political spending could balloon this fall</title>
       <link>https://nbcnews.com/politics/2026-election/ai-giants-political-spending-balloon-fall-rcna590857</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">38f930280d02bc3d</guid>
       <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
       <description>Anthropic is reportedly doubling its funding dedicated to AI policy engagement ahead of the 2026 elections, intensifying its involvement in shaping how AI intersects with electoral politics.</description>
-    </item>
-    <item>
-      <title>The AFL - CIO strategy for AI and the midterm elections</title>
-      <link>https://marketplace.org/story/2026/07/21/the-aflcios-strategy-for-ai-and-the-midterm-elections</link>
-      <guid isPermaLink="false">0a41371b36edb449</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Marketplace reports on the AFL-CIO's strategy for engaging with AI issues as they relate to the 2026 midterm elections, marking organized labor's explicit connection of AI policy to electoral organizing.</description>
-    </item>
-    <item>
-      <title>Elizabeth Warren Says  Dark Money  Groups Linked to Crypto , AI  Spending Million to  Hand - Pick  Congres</title>
-      <link>https://benzinga.com/crypto/cryptocurrency/26/07/60568454/elizabeth-warren-crypto-ai-dark-money-congress</link>
-      <guid isPermaLink="false">1f59a6e0c2bf6c65</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Sen. Elizabeth Warren criticized PAC spending by groups linked to cryptocurrency and AI interests, alleging these groups are spending millions to influence congressional races through dark money.</description>
     </item>
   </channel>
 </rss>
