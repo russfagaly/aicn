@@ -18,10 +18,18 @@ def _parse_published(entry):
     return None
 
 
+# Identify ourselves, the way the pipeline's other three fetchers already do
+# (dedupe.py, gather_gdelt.py, promote.py). This was the only network call still
+# going out as the bare feedparser default, which bot protection scores poorly —
+# and a named agent with a contact URL lets a publisher allowlist us instead of
+# guessing. Note this is not expected to fix IP-based blocking on its own.
+_FEED_UA = "Mozilla/5.0 (compatible; AICN-feedreader/1.0; +https://russfagaly.github.io/aicn/)"
+
+
 def gather_feed_items(feed_id: str, name: str, url: str, lookback_days: int = 7):
     """Returns (items, error_message_or_None)."""
     try:
-        parsed = feedparser.parse(url)
+        parsed = feedparser.parse(url, agent=_FEED_UA)
     except Exception as exc:
         return [], f"{feed_id}: failed to parse ({exc})"
 
