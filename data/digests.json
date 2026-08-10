@@ -1,7 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-09T13:01:44Z",
+  "generated_at": "2026-08-10T13:20:56Z",
   "runs": [
+    {
+      "run_id": "2026-08-10",
+      "date": "2026-08-10",
+      "generated_at": "2026-08-10T13:20:56Z",
+      "is_light_run": false,
+      "top_summary": "The dominant story this cycle is a state-level regulatory gap: an Anchorage Daily News op-ed argues Alaska lacks any comprehensive AI policy framework while other states move to protect consumers, workers, and children. No other candidates in this batch meet the dual test of involving both AI/ML and political campaigns or elections.",
+      "item_count": 1,
+      "items": [
+        {
+          "id": "64c3ee56cd4b0bc0",
+          "title": "Opinion : Artificial intelligence is moving fast while Alaska policy stands still",
+          "url": "https://adn.com/opinions/2026/08/09/opinion-artificial-intelligence-is-moving-fast-while-alaska-policy-stands-still",
+          "source": "adn.com",
+          "source_domain": "adn.com",
+          "published": "2026-08-10",
+          "first_seen_run": "2026-08-10",
+          "category": "regulation",
+          "summary": "An op-ed in the Anchorage Daily News argues that Alaska has failed to enact any comprehensive AI legislation or data-center policy while other states are adopting consumer, worker, and child protections tied to AI \u2014 leaving the state without a regulatory framework as the technology accelerates.",
+          "why_it_matters": "Illustrates the continuing patchwork of state-level AI governance entering the 2026 election cycle, with some states still at square one on protections relevant to voters, campaigns, and electoral infrastructure.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-08-09",
       "date": "2026-08-09",
@@ -1557,15 +1585,6 @@
           }
         }
       ]
-    },
-    {
-      "run_id": "2026-07-01",
-      "date": "2026-07-01",
-      "generated_at": "2026-07-01T14:45:58Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
     }
   ]
 }
