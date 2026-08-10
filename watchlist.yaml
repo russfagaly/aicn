@@ -26,10 +26,6 @@ entities:
     name: NO FAKES Act
     kind: legislation
     cadence: daily
-  - id: transparency-coalition
-    name: Transparency Coalition
-    kind: org_no_feed
-    cadence: daily
   - id: quiller-grassroots
     name: Quiller / Grassroots Analytics
     kind: vendor

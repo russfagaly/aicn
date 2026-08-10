@@ -65,12 +65,6 @@ targets:
     domain: civicshoutnewsletter.com
     cadence: daily
   # Added from an accepted proposal.
-  - id: nbcnews
-    name: NBC News
-    description: National news and politics
-    domain: nbcnews.com
-    cadence: daily
-  # Added from an accepted proposal.
   - id: l2-data
     name: L2 Data
     description: Voter data vendor blog
