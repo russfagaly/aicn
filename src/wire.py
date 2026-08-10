@@ -238,6 +238,16 @@ def next_id(root: str, filename: str, base: str) -> str:
 # Drift detection
 # ---------------------------------------------------------------------------
 
+def _covers(domain: str, hosts: set) -> bool:
+    """True if any configured host is the domain, or a sub/parent of it."""
+    for host in hosts:
+        if not host:
+            continue
+        if host == domain or host.endswith("." + domain) or domain.endswith("." + host):
+            return True
+    return False
+
+
 def find_unwired(root: str, proposals: list) -> list:
     """Accepted proposals that never made it into the gathering config."""
     sources = _load(root, "sources.yaml")
@@ -254,7 +264,10 @@ def find_unwired(root: str, proposals: list) -> list:
         value = p.get("value", "")
         if p.get("kind") == "source":
             domain = value.removeprefix("www.")
-            if domain not in feeds and domain not in sites:
+            # A publisher's feed often lives on a subdomain — npr.org's is at
+            # feeds.npr.org — so an exact host match would report a correctly
+            # wired source as missing forever. Accept a subdomain either way.
+            if not _covers(domain, feeds) and not _covers(domain, sites):
                 unwired.append(p)
         else:
             if value.lower() not in entities:

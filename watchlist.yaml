@@ -22,10 +22,6 @@ entities:
     name: L2
     kind: vendor
     cadence: daily
-  - id: no-fakes-act
-    name: NO FAKES Act
-    kind: legislation
-    cadence: daily
   - id: quiller-grassroots
     name: Quiller / Grassroots Analytics
     kind: vendor
@@ -81,18 +77,6 @@ entities:
   - id: higher-ground-labs-portfolio
     name: Higher Ground Labs portfolio companies
     kind: vendor
-    cadence: daily
-  - id: fec
-    name: FEC (Federal Election Commission)
-    kind: regulator
-    cadence: daily
-  - id: fcc
-    name: FCC (Federal Communications Commission)
-    kind: regulator
-    cadence: daily
-  - id: take-it-down-act
-    name: TAKE IT DOWN Act
-    kind: legislation
     cadence: daily
   - id: adimpact
     name: AdImpact

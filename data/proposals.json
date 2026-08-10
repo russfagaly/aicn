@@ -231,7 +231,7 @@
         "https://www.yahoo.com/news/politics/articles/two-house-races-center-stage-100018354.html"
       ],
       "first_proposed": "2026-07-22",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-source-texastribune-org",
@@ -243,7 +243,7 @@
         "https://texastribune.org/2026/02/19/texas-2026-primaries-ai-ads-candidates-crockett-cornyn-paxton"
       ],
       "first_proposed": "2026-07-23",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "id": "prop-source-campaignnow-com",
@@ -255,7 +255,7 @@
         "https://campaignnow.com/blog/regulators-scramble-as-ai-deepfakes-flood-the-2026-midterms"
       ],
       "first_proposed": "2026-07-24",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-source-truescreen-io",
@@ -267,7 +267,7 @@
         "https://truescreen.io/articles/deepfakes-2026-elections-certified-proof"
       ],
       "first_proposed": "2026-07-24",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-source-blackburn-senate-gov",
@@ -280,7 +280,7 @@
         "https://blackburn.senate.gov/2026/6/blackburn-coons-bipartisan-bill-to-protect-individuals-and-creators-from-deepfakes-passes-senate-judiciary-committee"
       ],
       "first_proposed": "2026-07-25",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-roborhythms",
@@ -292,7 +292,7 @@
         "https://www.roborhythms.com/ai-deepfakes-midterm-elections-2026/"
       ],
       "first_proposed": "2026-07-26",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-govfacts",
@@ -304,7 +304,7 @@
         "https://govfacts.org/elections-voting/running-elections/election-security-audits/how-20-states-are-now-regulating-deepfakes-and-what-it-means-for-elections/"
       ],
       "first_proposed": "2026-07-26",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-adam-schiff",
@@ -316,7 +316,7 @@
         "https://www.semafor.com/article/07/26/2026/senate-democrats-new-bills-would-restrict-ai-powered-ads-and-paid-influencers"
       ],
       "first_proposed": "2026-07-28",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-duane-morris-government-strategies",
@@ -328,7 +328,7 @@
         "https://statecapitallobbyist.com/uncategorized/2026-state-legislative-push-to-regulate-ai-generated-campaign-advertisements/"
       ],
       "first_proposed": "2026-07-28",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-legisletter",
@@ -340,7 +340,7 @@
         "https://legisletter.org/issues/ai-regulation"
       ],
       "first_proposed": "2026-07-29",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-source-nypost-com",
@@ -354,7 +354,7 @@
         "https://nypost.com/2026/07/29/us-news/fbi-raids-homes-of-southern-california-officials-in-widening-chinese-influence-probe"
       ],
       "first_proposed": "2026-07-30",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-ro-khanna",
@@ -366,7 +366,7 @@
         "https://nypost.com/2026/07/28/us-news/california-dems-target-ai-campaign-ads-after-spencer-pratt-and-steve-hiltons-viral-political-attacks/"
       ],
       "first_proposed": "2026-07-30",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-marsha-blackburn",
@@ -378,7 +378,7 @@
         "https://www.axios.com/local/nashville/2026/07/29/sen-blackburn-fights-ai-generated-attack-ad"
       ],
       "first_proposed": "2026-07-30",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-source-arxiv-org",
@@ -390,7 +390,7 @@
         "https://arxiv.org/pdf/2512.13915"
       ],
       "first_proposed": "2026-07-31",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "id": "prop-source-salazar-house-gov",
@@ -403,7 +403,7 @@
         "https://salazar.house.gov/media/press-releases/rep-salazars-no-fakes-act-advances-out-of-senate-judiciary-committee-unanimous"
       ],
       "first_proposed": "2026-07-31",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-source-ushort-dev",
@@ -417,7 +417,7 @@
         "https://ushort.dev/YPmAeAnWA0r7/index.php/2026/08/02/what-exactly-happens-when-you-play-for-real-money-online"
       ],
       "first_proposed": "2026-08-02",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-source-finance-yahoo-com",
@@ -430,20 +430,20 @@
         "https://finance.yahoo.com/media-advertising/articles/stackadapt-launches-political-targeting-measurement-130000309.html"
       ],
       "first_proposed": "2026-08-04",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "id": "prop-source-npr-org",
       "kind": "source",
       "value": "npr.org",
-      "feed_url": "https://feeds.npr.org/1002/rss.xml",
+      "feed_url": "https://feeds.npr.org/1014/rss.xml",
       "rationale": "Produced 2 published item(s) across runs; not in feed list or site-scoped targets.",
       "example_urls": [
         "https://npr.org/2026/06/22/nx-s1-5856359/ai-anthropic-congress-spending-openai-midterms-election",
         "https://npr.org/2026/07/12/nx-s1-5867763/ai-artificial-intelligence-data-texts-bots-voters-campaigns"
       ],
       "first_proposed": "2026-08-04",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "id": "prop-entity-ron-wyden",

@@ -24,16 +24,37 @@ import json
 import re
 import time
 
-_RELEVANCE_RULES = """On-topic = AI intersecting with political campaigns, elections, or political/
-issue advocacy: vendor & tool moves (launches, features, funding, M&A, shutdowns);
-use cases by campaign department (fundraising, outreach/texting/calling, digital ads,
-oppo research, field/canvassing, comms/rapid response, data & targeting, compliance);
-deepfakes & synthetic media in elections; synthetic respondents / "silicon sampling" as
-a polling replacement and the methodological debate; regulation & legal (FEC, FCC,
-state deepfake/disclosure laws, NO FAKES Act, TAKE IT DOWN Act, preemption fights,
-court rulings); notable deployments/case studies and credible academic studies;
-substantive analysis/op-eds. EXCLUDE generic AI-industry news with no campaign/
-election/advocacy nexus, and vague hype with no concrete development."""
+_RELEVANCE_RULES = """On-topic = a campaign, or the people who build for it, putting AI to PRACTICAL use.
+
+Two tests, BOTH must hold:
+ (a) ACTOR — a campaign, party, committee, PAC, or advocacy group running political
+     programs, or a vendor, consultant, or investor building for them.
+ (b) PRACTICAL USE — the item says something concrete about capability, adoption,
+     targeting, cost, technique, or measured effect: something a campaign's digital
+     director could act on or learn from.
+
+IN SCOPE: vendor & tool moves (launches, features, funding, M&A, shutdowns); use cases
+by campaign department (fundraising, outreach/texting/calling, digital ads, oppo
+research, field/canvassing, comms/rapid response, data & targeting, compliance);
+AI-generated or synthetic content a campaign actually deployed; synthetic respondents /
+"silicon sampling" as a polling method and the methodological debate; notable
+deployments, case studies, and credible studies measuring effects; substantive
+practitioner analysis.
+
+OUT OF SCOPE — this is the most common mistake. AI as a political SUBJECT rather than a
+campaign TOOL: legislation and bill trackers (NO FAKES Act, TAKE IT DOWN Act, state
+deepfake or disclosure statutes), regulators (FEC, FCC), court rulings, AI policy at
+large (export controls, data-center siting, taxation), platform moderation policy, AI
+companies' own political spending or lobbying, and government agencies using AI for
+policy work. A synthetic-media incident is OUT when the story is the reaction to it —
+a lawsuit, a candidate objecting, a regulator responding — and IN only when it tells
+you how the thing was made, targeted, funded, or how it performed.
+
+Also exclude generic AI-industry news with no campaign nexus, and vague hype with no
+concrete development.
+
+GEOGRAPHY: any country qualifies, but weight toward western democracies — the United
+States, and with particular interest, Canada and the United Kingdom."""
 
 _OUTPUT_FORMAT = """Return ONLY a JSON array (no markdown fences, no prose before or after) of
 candidate items you found via actual web_search results. Each item:
@@ -96,9 +117,9 @@ def _broad_params(model: str) -> dict:
     )
     user_message = (
         "Search the web for recent (last 7 days) news on AI use in political "
-        "campaigns, elections, and political/issue advocacy. Cover vendor moves, "
-        "deepfakes, synthetic polling, regulation, deployments, and substantive "
-        "analysis. Cast a wide net."
+        "campaigns and advocacy — how campaigns are actually using it. Cover vendor "
+        "moves, campaign deployments, synthetic polling, and substantive practitioner "
+        "analysis. Cast a wide net, but skip legislation and regulatory news."
     )
     return {
         "model": model,

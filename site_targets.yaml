@@ -70,3 +70,21 @@ targets:
     description: Voter data vendor blog
     domain: l2-data.com
     cadence: daily
+  # Added from an accepted proposal.
+  - id: arxiv
+    name: arXiv
+    description: AI research preprints
+    domain: arxiv.org
+    cadence: daily
+  # Added from an accepted proposal.
+  - id: finance-yahoo
+    name: Yahoo Finance
+    description: Vendor and industry announcements
+    domain: finance.yahoo.com
+    cadence: daily
+  # Added from an accepted proposal.
+  - id: texastribune
+    name: The Texas Tribune
+    description: Texas politics and elections
+    domain: texastribune.org
+    cadence: daily

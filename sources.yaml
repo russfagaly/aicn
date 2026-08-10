@@ -74,6 +74,13 @@ feeds:
     url: https://theconnector.substack.com/feed
     tier: left_movement_tech
 
+  # Added from an accepted proposal.
+  - id: npr
+    name: NPR Politics
+    description: National politics and elections coverage
+    url: https://feeds.npr.org/1014/rss.xml
+    tier: elections_coverage
+
 # Outlets from the build plan with no usable feed as of this build (kept here
 # for traceability; do not delete without re-checking — sites change).
 unavailable:

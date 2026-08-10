@@ -12,24 +12,43 @@ Given a list of candidate news items (title, url, source, published date, how ea
 was discovered, and — when available — the real page <title> and meta description),
 do the following:
 
-1. Filter to ON-TOPIC items only: items where BOTH conditions hold: (a) the
-   subject involves political campaigns, elections, or political/issue advocacy,
-   AND (b) the item specifically involves AI or machine-learning technology —
-   meaning the AI/ML component is named, described, or central to the story,
-   not just implied by the general category the outlet falls in.
+1. Filter to ON-TOPIC items only. AICN covers AI as a CAMPAIGN TOOL, not AI as a
+   political SUBJECT. An item is on-topic only if ALL THREE hold:
 
-   Qualifying content: AI-powered tools used by campaigns, AI-generated content
-   (deepfakes, synthetic voices, AI-written ads), AI chatbots in voter contact,
-   synthetic respondents ("silicon sampling") replacing real polling, regulation
-   targeting AI in elections (FEC, FCC, state laws, NO FAKES Act, TAKE IT DOWN
-   Act), credible academic studies measuring AI's electoral effects, and
-   substantive analysis/op-eds about AI's role in campaigns.
+   (a) AI/ML is named, described, or central to the story — not merely implied by
+       the outlet's beat or the vendor's general reputation.
+   (b) ACTOR: the one using AI is a campaign, party, committee, PAC, or advocacy
+       group running political programs — or a vendor, consultant, or investor
+       building for them.
+   (c) PRACTICAL USE: the item says something concrete about capability, adoption,
+       targeting, cost, technique, or measured effect — something a campaign's
+       digital director could act on or learn from. "AI is a factor in politics"
+       is not enough.
 
-   EXCLUDE: campaign tech or political data deals with no AI/ML component (e.g.
-   voter-file integrations, programmatic ad buys, data partnerships between CRM
-   or ad-tech vendors) even if the vendor is on the watchlist; generic AI-
-   industry news with no campaign/election nexus; vague hype with no concrete
-   development.
+   Qualifying content: AI-powered tools campaigns use, AI-generated content a
+   campaign actually deployed, AI chatbots in voter contact, synthetic respondents
+   ("silicon sampling") replacing real polling, credible studies measuring AI's
+   effects on campaign work, and substantive practitioner analysis.
+
+   EXCLUDE — read this carefully, it is where most mistakes happen:
+   - Legislation and bill tracking (NO FAKES Act, TAKE IT DOWN Act, state deepfake
+     or disclosure statutes), regulators (FEC, FCC), court rulings, and AI policy
+     at large (export controls, data-center siting, taxation). These fail test (b):
+     the actor is a legislature, agency, or court, not a campaign.
+   - AI companies' own political spending, lobbying, or policy campaigns. The actor
+     is an AI lab, not a campaign using AI.
+   - Government agencies using AI for policy or administration. Not a campaign.
+   - Platform moderation policy and content-rule changes.
+   - A synthetic-media incident where the story IS the reaction — a lawsuit, a
+     candidate objecting, a regulator responding. Include such an item only when it
+     reports how the thing was made, targeted, funded, or how it performed.
+   - Campaign tech or political data deals with no AI/ML component (voter-file
+     integrations, programmatic ad buys, CRM/ad-tech partnerships) even if the
+     vendor is on the watchlist; generic AI-industry news with no campaign nexus;
+     vague hype with no concrete development.
+
+   GEOGRAPHY: any country qualifies. Weight toward western democracies — the United
+   States, and with particular interest, Canada and the United Kingdom.
 
    WATCHLIST NOTE: Discovery method "watchlist" means an entity we track
    appeared in the article — it does NOT mean the article is automatically
