@@ -41,14 +41,24 @@ AI-generated or synthetic content a campaign actually deployed; synthetic respon
 deployments, case studies, and credible studies measuring effects; substantive
 practitioner analysis.
 
+THE DECIDING QUESTION when a call is close — WHOSE HANDS IS THE AI IN? In a campaign's,
+or a vendor's selling to campaigns: IN. In a legislature's, court's, regulator's,
+journalist's, or researcher's: OUT.
+
+A vendor's launch, demo, or case study is IN even when no campaign has publicly adopted
+the tool yet — a practitioner could go buy it tomorrow.
+
 OUT OF SCOPE — this is the most common mistake. AI as a political SUBJECT rather than a
 campaign TOOL: legislation and bill trackers (NO FAKES Act, TAKE IT DOWN Act, state
 deepfake or disclosure statutes), regulators (FEC, FCC), court rulings, AI policy at
 large (export controls, data-center siting, taxation), platform moderation policy, AI
 companies' own political spending or lobbying, and government agencies using AI for
-policy work. A synthetic-media incident is OUT when the story is the reaction to it —
-a lawsuit, a candidate objecting, a regulator responding — and IN only when it tells
-you how the thing was made, targeted, funded, or how it performed.
+policy work. Also out: journalists, academics, or analytics firms using AI to analyze
+an election — classifying ads, videos, or posts to describe a race — where the AI is
+the researcher's instrument rather than campaign infrastructure. A synthetic-media
+incident is OUT when the story is the reaction to it — a lawsuit, a candidate
+objecting, a regulator responding — and IN only when it tells you how the thing was
+made, targeted, funded, or how it performed.
 
 Also exclude generic AI-industry news with no campaign nexus, and vague hype with no
 concrete development.

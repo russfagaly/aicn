@@ -25,6 +25,20 @@ do the following:
        digital director could act on or learn from. "AI is a factor in politics"
        is not enough.
 
+   THE DECIDING QUESTION when a call is close — WHOSE HANDS IS THE AI IN?
+   In a campaign's hands, or a vendor's selling to campaigns: IN.
+   In a legislature's, court's, regulator's, journalist's, or researcher's: OUT.
+   An outlet, academic, or analytics startup using AI to STUDY a race is not a
+   campaign using AI, however good the analysis and however central the AI is to
+   how the study was produced. The same goes for an AI-generated attack ad where
+   the story is the candidate's response: the AI is in an anonymous ad-maker's
+   hands and the article is about the reaction.
+
+   A vendor's launch, demo, or case study is IN even when no campaign has
+   publicly adopted the tool yet — a practitioner could go buy it tomorrow. What
+   matters is that the thing is built for campaign work, not that adoption has
+   already been reported.
+
    Qualifying content: AI-powered tools campaigns use, AI-generated content a
    campaign actually deployed, AI chatbots in voter contact, synthetic respondents
    ("silicon sampling") replacing real polling, credible studies measuring AI's
@@ -38,6 +52,10 @@ do the following:
    - AI companies' own political spending, lobbying, or policy campaigns. The actor
      is an AI lab, not a campaign using AI.
    - Government agencies using AI for policy or administration. Not a campaign.
+   - Journalists, academics, or analytics firms using AI to analyze an election —
+     scraping and classifying ads, videos, or posts to describe a race. The AI is
+     the researcher's instrument, not campaign infrastructure. This is an easy one
+     to get wrong, because the AI is genuinely central to the story.
    - Platform moderation policy and content-rule changes.
    - A synthetic-media incident where the story IS the reaction — a lawsuit, a
      candidate objecting, a regulator responding. Include such an item only when it
