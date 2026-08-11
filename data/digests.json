@@ -1,7 +1,75 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-10T13:20:56Z",
+  "generated_at": "2026-08-11T13:15:12Z",
   "runs": [
+    {
+      "run_id": "2026-08-11",
+      "date": "2026-08-11",
+      "generated_at": "2026-08-11T13:15:12Z",
+      "is_light_run": false,
+      "top_summary": "Two vendor announcements stand out this cycle: Viamedia.ai has integrated Aristotle voter data into its Geo-Graph platform for block-level political ad targeting, and IQM launched VoterTV+, a cross-screen political ad planning suite combining linear and digital TV. Separately, The Political Group published a practitioner-facing overview of AI voter targeting strategies for 2026 campaigns. The broader candidate feed is dominated by primary election results, legislative news, and data-center policy debates that fail the campaign-AI use test.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "216fcc92c5a9be39",
+          "title": "Viamedia.ai Adds Aristotle Political Intelligence to Geo-Graph\u2122, Giving Campaigns Neighborhood-Level Precision and Incremental Voter Reach",
+          "url": "https://finance.yahoo.com/media-advertising/articles/viamedia-ai-adds-aristotle-political-170500797.html",
+          "source": "Yahoo Finance",
+          "source_domain": "finance.yahoo.com",
+          "published": "2026-07-20",
+          "first_seen_run": "2026-08-11",
+          "category": "vendor_moves",
+          "summary": "Viamedia.ai announced the integration of Aristotle Political Intelligence into its Geo-Graph platform, enabling campaigns to target swing voters, low-propensity supporters, and custom donor audiences down to the block level with real-time ad activation.",
+          "why_it_matters": "Block-level voter targeting via an AI ad-tech platform paired with a major political data vendor represents a concrete capability upgrade for campaign digital buyers heading into 2026.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:finance-yahoo",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "5e18fa988b12ed19",
+          "title": "IQM DEBUTS VOTERTV+: A PRECISION POLITICAL SUITE ENGINEERED FOR DEDUPLICATED REACH AND THE VOTERS LINEAR TV CAN'T TOUCH",
+          "url": "https://finance.yahoo.com/media-advertising/articles/iqm-debuts-votertv-precision-political-120400404.html",
+          "source": "Yahoo Finance",
+          "source_domain": "finance.yahoo.com",
+          "published": "2026-07-28",
+          "first_seen_run": "2026-08-11",
+          "category": "vendor_moves",
+          "summary": "IQM Advertising Corporation launched VoterTV+, a cross-screen political ad planning suite that combines linear TV and digital in a single workspace, allowing campaigns to model audience reach and deduplicated voter contact before committing budget.",
+          "why_it_matters": "Unified linear-and-digital planning tools with voter-file integration are increasingly central to campaign media strategy, and this launch signals growing vendor competition in the political CTV/OTT space.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:finance-yahoo",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "eb02e3412c52f3f1",
+          "title": "AI Voter Targeting Strategies for 2026 Campaigns",
+          "url": "https://thepoliticalgroup.com/news/how-ai-voter-targeting-is-reshaping-campaign-strategy-in-2026-2",
+          "source": "The Political Group",
+          "source_domain": "thepoliticalgroup.com",
+          "published": "2026-08-08",
+          "first_seen_run": "2026-08-11",
+          "category": "analysis_oped",
+          "summary": "The Political Group published a practitioner-facing overview of how AI-driven voter targeting is being used in 2026 campaigns, covering strategy, risk considerations, and the trajectory of intelligent targeting tools.",
+          "why_it_matters": "Practitioner-focused analysis of AI targeting adoption gives campaign digital directors a consolidated view of current capabilities and trade-offs entering the 2026 cycle.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-08-10",
       "date": "2026-08-10",
@@ -1539,52 +1607,6 @@
       "top_summary": "",
       "item_count": 0,
       "items": []
-    },
-    {
-      "run_id": "2026-07-02",
-      "date": "2026-07-02",
-      "generated_at": "2026-07-02T14:11:40Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 2,
-      "items": [
-        {
-          "id": "7d1cefdee2939cc8",
-          "title": "Anthropic Added a New Security Measure to Get Back Into the Trump Administration\u2019s Good Graces",
-          "url": "https://wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces",
-          "source": "Wired (Politics)",
-          "source_domain": "wired.com",
-          "published": "2026-07-01",
-          "first_seen_run": "2026-07-02",
-          "category": "regulation",
-          "summary": "Following a prior freeze, the Trump administration removed export restrictions on Anthropic's Fable 5 and Mythos 5 AI models after Anthropic added a new security measure, marking a partial repair of the strained relationship between the company and the White House.",
-          "why_it_matters": "Illustrates how federal export-control policy is being used as leverage over frontier AI companies' government access, with concrete strings attached to regulatory relief.",
-          "flags": [],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "wired-politics",
-            "confidence": "high"
-          }
-        },
-        {
-          "id": "2dc4cc32707265b6",
-          "title": "\u2018The Battle Line Has Been Drawn\u2019 Around Virginia\u2019s Data Centers",
-          "url": "https://notus.org/metro/northern-virginia-data-centers-politics",
-          "source": "NOTUS",
-          "source_domain": "notus.org",
-          "published": "2026-07-01",
-          "first_seen_run": "2026-07-02",
-          "category": "analysis_oped",
-          "summary": "Virginia state lawmakers have moved to regulate the data center industry in Northern Virginia amid souring public sentiment, creating what NOTUS describes as a first-of-its-kind tax on the sector as the political backlash against AI infrastructure reaches the statehouse level.",
-          "why_it_matters": "Shows AI infrastructure opposition moving from grassroots activism into concrete state legislative action, including novel taxation, setting a potential policy template for other states.",
-          "flags": [],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "notus",
-            "confidence": "high"
-          }
-        }
-      ]
     }
   ]
 }

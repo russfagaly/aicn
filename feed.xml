@@ -3,7 +3,28 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Mon, 10 Aug 2026 13:20:56 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 13:15:12 GMT</lastBuildDate>
+    <item>
+      <title>Viamedia.ai Adds Aristotle Political Intelligence to Geo-Graph™, Giving Campaigns Neighborhood-Level Precision and Incremental Voter Reach</title>
+      <link>https://finance.yahoo.com/media-advertising/articles/viamedia-ai-adds-aristotle-political-170500797.html</link>
+      <guid isPermaLink="false">216fcc92c5a9be39</guid>
+      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Viamedia.ai announced the integration of Aristotle Political Intelligence into its Geo-Graph platform, enabling campaigns to target swing voters, low-propensity supporters, and custom donor audiences down to the block level with real-time ad activation.</description>
+    </item>
+    <item>
+      <title>IQM DEBUTS VOTERTV+: A PRECISION POLITICAL SUITE ENGINEERED FOR DEDUPLICATED REACH AND THE VOTERS LINEAR TV CAN'T TOUCH</title>
+      <link>https://finance.yahoo.com/media-advertising/articles/iqm-debuts-votertv-precision-political-120400404.html</link>
+      <guid isPermaLink="false">5e18fa988b12ed19</guid>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
+      <description>IQM Advertising Corporation launched VoterTV+, a cross-screen political ad planning suite that combines linear TV and digital in a single workspace, allowing campaigns to model audience reach and deduplicated voter contact before committing budget.</description>
+    </item>
+    <item>
+      <title>AI Voter Targeting Strategies for 2026 Campaigns</title>
+      <link>https://thepoliticalgroup.com/news/how-ai-voter-targeting-is-reshaping-campaign-strategy-in-2026-2</link>
+      <guid isPermaLink="false">eb02e3412c52f3f1</guid>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
+      <description>The Political Group published a practitioner-facing overview of how AI-driven voter targeting is being used in 2026 campaigns, covering strategy, risk considerations, and the trajectory of intelligent targeting tools.</description>
+    </item>
     <item>
       <title>Opinion : Artificial intelligence is moving fast while Alaska policy stands still</title>
       <link>https://adn.com/opinions/2026/08/09/opinion-artificial-intelligence-is-moving-fast-while-alaska-policy-stands-still</link>
@@ -192,27 +213,6 @@
       <guid isPermaLink="false">7f87e0b914ec5c22</guid>
       <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
       <description>RoboRhythms reports that AI-generated deepfakes have become an explicit campaign strategy in the 2026 midterms, noting that no federal law prohibits their use in political advertising.</description>
-    </item>
-    <item>
-      <title>How 20 States Are Now Regulating Deepfakes—and What It Means for Elections</title>
-      <link>https://govfacts.org/elections-voting/running-elections/election-security-audits/how-20-states-are-now-regulating-deepfakes-and-what-it-means-for-elections</link>
-      <guid isPermaLink="false">30640083d99e3b14</guid>
-      <pubDate>Sat, 03 Jan 2026 00:00:00 GMT</pubDate>
-      <description>GovFacts surveys the patchwork of deepfake laws across states, noting 47 states have passed some form of deepfake legislation since 2019, while Alaska, Missouri, and Ohio have none, with significant variation in how election-related synthetic media is addressed and enforced.</description>
-    </item>
-    <item>
-      <title>State AI deepfake laws face first big test in 2026 midterm elections</title>
-      <link>https://azcapitoltimes.com/news/2026/07/21/state-ai-deepfake-laws-face-first-big-test-in-2026-midterm-elections</link>
-      <guid isPermaLink="false">9a19eaed585eac28</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
-      <description>The 2026 midterm elections mark the first major real-world test of a wave of state laws passed to regulate AI-generated content in political campaigns, with questions now turning to enforcement and compliance by campaigns and vendors.</description>
-    </item>
-    <item>
-      <title>Voters in Colorado battleground 8th District want more AI oversight</title>
-      <link>https://denverpost.com/2026/07/20/colorado-8th-congressional-district-artificial-intelligence-poll</link>
-      <guid isPermaLink="false">81df12694701f6c4</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <description>A new poll of voters in Colorado's swing 8th Congressional District finds bipartisan majorities want more regulation of artificial intelligence, regardless of party affiliation.</description>
     </item>
   </channel>
 </rss>
