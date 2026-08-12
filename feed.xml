@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Tue, 11 Aug 2026 13:15:12 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 13:20:00 GMT</lastBuildDate>
+    <item>
+      <title>NGP VAN Launches NGP VAN Interface, Bringing Agentic AI to Democratic and Progressive Campaigns Ahead of Midterm Elections</title>
+      <link>https://prnewswire.com/news-releases/ngp-van-launches-ngp-van-interface-bringing-agentic-ai-to-democratic-and-progressive-campaigns-ahead-of-midterm-elections-302849380.html</link>
+      <guid isPermaLink="false">2d468bb946f2c66f</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+      <description>NGP VAN announced the launch of NGP VAN Interface, an agentic AI product integrated into its campaign management platform and targeted at Democratic and progressive campaigns ahead of the 2026 midterm elections.</description>
+    </item>
+    <item>
+      <title>Artificial Intelligence Is Taking Over Political Campaigns - The Daily Signal</title>
+      <link>https://dailysignal.com/2026/03/21/artificial-intelligence-is-taking-over-political-campaigns</link>
+      <guid isPermaLink="false">f0165d4c38d2ff34</guid>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
+      <description>The Daily Signal published a survey-style piece arguing that AI tools are dominating 2026 midterm campaign operations — not merely as a policy debate topic — covering adoption of AI in voter targeting, messaging, and field work.</description>
+    </item>
     <item>
       <title>Viamedia.ai Adds Aristotle Political Intelligence to Geo-Graph™, Giving Campaigns Neighborhood-Level Precision and Incremental Voter Reach</title>
       <link>https://finance.yahoo.com/media-advertising/articles/viamedia-ai-adds-aristotle-political-170500797.html</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">81a70522fc310684</guid>
       <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
       <description>President Trump posted a series of AI-generated images on Truth Social alongside threats directed at Iran, including one depicting himself as "Guardian of the World."</description>
-    </item>
-    <item>
-      <title>StackAdapt Launches Political Targeting and Measurement Suite to Help Campaigns Optimize Voter Outreach Ahead of the 2026 Midterms</title>
-      <link>https://finance.yahoo.com/media-advertising/articles/stackadapt-launches-political-targeting-measurement-130000309.html</link>
-      <guid isPermaLink="false">f41290694bfa90cf</guid>
-      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
-      <description>StackAdapt, which describes itself as an AI advertising and orchestration platform, has launched a political targeting and measurement suite for the U.S. market, combining political audience creation, voter intelligence, campaign measurement, and ad optimization in a single workflow for political advertisers ahead of the 2026 midterms.</description>
-    </item>
-    <item>
-      <title>AI Deepfakes Are Official Campaign Strategy. The 2026 Midterms Proved It.</title>
-      <link>https://roborhythms.com/ai-deepfakes-midterm-elections-2026</link>
-      <guid isPermaLink="false">7f87e0b914ec5c22</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
-      <description>RoboRhythms reports that AI-generated deepfakes have become an explicit campaign strategy in the 2026 midterms, noting that no federal law prohibits their use in political advertising.</description>
     </item>
   </channel>
 </rss>

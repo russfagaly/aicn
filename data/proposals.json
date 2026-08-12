@@ -492,6 +492,18 @@
       ],
       "first_proposed": "2026-08-11",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-ngp-van-interface",
+      "kind": "watchlist_entity",
+      "value": "NGP VAN Interface",
+      "feed_url": null,
+      "rationale": "Newly launched agentic AI product from NGP VAN — a specific named tool distinct from the broader NGP VAN platform — worth tracking as it rolls out to Democratic campaigns in the 2026 cycle.",
+      "example_urls": [
+        "http://www.prnewswire.com/news-releases/ngp-van-launches-ngp-van-interface-bringing-agentic-ai-to-democratic-and-progressive-campaigns-ahead-of-midterm-elections-302849380.html"
+      ],
+      "first_proposed": "2026-08-12",
+      "status": "pending"
     }
   ]
 }

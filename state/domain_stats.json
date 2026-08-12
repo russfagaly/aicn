@@ -69,6 +69,13 @@
     ],
     "last_seen": "2026-08-07"
   },
+  "dailysignal.com": {
+    "count": 1,
+    "example_urls": [
+      "https://dailysignal.com/2026/03/21/artificial-intelligence-is-taking-over-political-campaigns"
+    ],
+    "last_seen": "2026-08-12"
+  },
   "deadline.com": {
     "count": 1,
     "example_urls": [
@@ -211,6 +218,13 @@
       "https://nypost.com/2026/07/28/opinion/adam-schiffs-attack-on-free-speech-is-a-parody-of-itself"
     ],
     "last_seen": "2026-07-30"
+  },
+  "prnewswire.com": {
+    "count": 1,
+    "example_urls": [
+      "https://prnewswire.com/news-releases/ngp-van-launches-ngp-van-interface-bringing-agentic-ai-to-democratic-and-progressive-campaigns-ahead-of-midterm-elections-302849380.html"
+    ],
+    "last_seen": "2026-08-12"
   },
   "roborhythms.com": {
     "count": 1,

@@ -1,7 +1,55 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-11T13:15:12Z",
+  "generated_at": "2026-08-12T13:20:00Z",
   "runs": [
+    {
+      "run_id": "2026-08-12",
+      "date": "2026-08-12",
+      "generated_at": "2026-08-12T13:20:00Z",
+      "is_light_run": false,
+      "top_summary": "NGP VAN, the dominant tech platform for Democratic and progressive campaigns, launched NGP VAN Interface \u2014 an agentic AI layer built directly into its campaign management system ahead of the 2026 midterms. The Daily Signal also published a substantive overview of how AI tools are reshaping campaign operations this cycle. The Hill's newsletter covered AI's effect on traditional campaign strategy, and The Hill item and the Daily Signal piece together round out a picture of AI embedding more deeply into campaign infrastructure.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "2d468bb946f2c66f",
+          "title": "NGP VAN Launches NGP VAN Interface, Bringing Agentic AI to Democratic and Progressive Campaigns Ahead of Midterm Elections",
+          "url": "https://prnewswire.com/news-releases/ngp-van-launches-ngp-van-interface-bringing-agentic-ai-to-democratic-and-progressive-campaigns-ahead-of-midterm-elections-302849380.html",
+          "source": "PRNewswire",
+          "source_domain": "prnewswire.com",
+          "published": "2026-08-12",
+          "first_seen_run": "2026-08-12",
+          "category": "vendor_moves",
+          "summary": "NGP VAN announced the launch of NGP VAN Interface, an agentic AI product integrated into its campaign management platform and targeted at Democratic and progressive campaigns ahead of the 2026 midterm elections.",
+          "why_it_matters": "NGP VAN is the dominant CRM/data platform for the Democratic ecosystem, so embedding agentic AI directly into that infrastructure represents a significant capability shift for a large share of left-of-center campaigns simultaneously.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:ngpvan-bonterra",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "f0165d4c38d2ff34",
+          "title": "Artificial Intelligence Is Taking Over Political Campaigns - The Daily Signal",
+          "url": "https://dailysignal.com/2026/03/21/artificial-intelligence-is-taking-over-political-campaigns",
+          "source": "The Daily Signal",
+          "source_domain": "dailysignal.com",
+          "published": "2026-04-22",
+          "first_seen_run": "2026-08-12",
+          "category": "deployments_studies",
+          "summary": "The Daily Signal published a survey-style piece arguing that AI tools are dominating 2026 midterm campaign operations \u2014 not merely as a policy debate topic \u2014 covering adoption of AI in voter targeting, messaging, and field work.",
+          "why_it_matters": "A concrete practitioner-facing account of AI deployment across multiple campaign functions in the current cycle provides useful context on the breadth of adoption heading into November.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-08-11",
       "date": "2026-08-11",
@@ -1598,15 +1646,6 @@
           }
         }
       ]
-    },
-    {
-      "run_id": "2026-07-03",
-      "date": "2026-07-03",
-      "generated_at": "2026-07-03T14:16:39Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
     }
   ]
 }
