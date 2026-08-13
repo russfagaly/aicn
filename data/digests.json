@@ -1,7 +1,131 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-12T13:20:00Z",
+  "generated_at": "2026-08-13T13:30:01Z",
   "runs": [
+    {
+      "run_id": "2026-08-13",
+      "date": "2026-08-13",
+      "generated_at": "2026-08-13T13:30:01Z",
+      "is_light_run": false,
+      "top_summary": "The dominant story this run is Nassau County Executive Bruce Blakeman's use of AI-generated ads targeting Kathy Hochul and Zohran Mamdani, with New York Democrats filing a Board of Elections complaint alleging the ads used public funds. Separately, the Centre for Campaign Innovation published a practitioner-facing explainer on AI polling for campaigns, and Civly launched an AI campaign intelligence platform offering synthetic polling, FEC compliance tools, and opposition research. The Axios piece on Democrats lacking a coherent AI strategy is also noteworthy for the field.",
+      "item_count": 6,
+      "items": [
+        {
+          "id": "48fcb909eab225d1",
+          "title": "Bruce Blakeman has defiant message for Dems angry about his AI ads on Hochul , Mamdani",
+          "url": "https://nypost.com/2026/08/12/us-news/bruce-blakeman-has-defiant-message-for-dems-angry-about-his-ai-ads-on-hochul-mamdani",
+          "source": "nypost.com",
+          "source_domain": "nypost.com",
+          "published": "2026-08-12",
+          "first_seen_run": "2026-08-13",
+          "category": "deployments_studies",
+          "summary": "Nassau County Executive Bruce Blakeman responded defiantly to Democratic criticism of his AI-generated campaign ads depicting Kathy Hochul and Zohran Mamdani, defending the ads as legitimate political speech.",
+          "why_it_matters": "A sitting county executive's deployment of AI-generated attack ads against statewide candidates, and the partisan backlash it triggered, illustrates the real-world political stakes of AI-generated political content in 2026.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "f0666bce2a934cc4",
+          "title": "As Dems move to stop Blakeman AI depictions , he calls foul",
+          "url": "https://spectrumlocalnews.com/nys/central-ny/politics/2026/08/11/democrats-blakeman-ai-depictions-",
+          "source": "nystateofpolitics.com",
+          "source_domain": "nystateofpolitics.com",
+          "published": "2026-08-12",
+          "first_seen_run": "2026-08-13",
+          "category": "deployments_studies",
+          "summary": "New York Democratic Party Chair Jay Jacobs filed a complaint with the state Board of Elections alleging that Nassau County Executive Bruce Blakeman's campaign violated state law by running AI-generated depictions of Hochul and Mamdani.",
+          "why_it_matters": "This is an early test of whether New York's AI disclosure or election law can be used to challenge AI-generated political ads, setting a potential precedent for how such content is regulated at the state level.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "bf0548be64422aeb",
+          "title": "Blakeman used public funds for AI ads , Dems say | Political",
+          "url": "https://dailygazette.com/cjfund/political/blakeman-democrats-complaint-ai-ads-hochul-mamdani-constantino/article_207251e1-ca9b-44c7-b05a-d01eea304ae7.html",
+          "source": "dailygazette.com",
+          "source_domain": "dailygazette.com",
+          "published": "2026-08-11",
+          "first_seen_run": "2026-08-13",
+          "category": "deployments_studies",
+          "summary": "The Daily Gazette reports that New York State Democrats accused Bruce Blakeman of using public funds to produce AI-generated campaign ads targeting Hochul and Mamdani, adding a potential misuse-of-public-funds dimension to the complaint.",
+          "why_it_matters": "Allegations that public funds were channeled into AI-generated political ads raise accountability questions that go beyond typical campaign finance disputes.",
+          "flags": [
+            "contested"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "c0f30072c9cc81b8",
+          "title": "Democrats' AI strategy is MIA",
+          "url": "https://axios.com/2026/08/10/democrats-ai-strategy",
+          "source": "Axios",
+          "source_domain": "axios.com",
+          "published": "2026-08-10",
+          "first_seen_run": "2026-08-13",
+          "category": "analysis_oped",
+          "summary": "Axios reports that Democrats lack a coherent AI strategy for the 2026 cycle, leaving the party without a unified approach to adopting or countering AI-driven campaign tools.",
+          "why_it_matters": "A major party's absence of a coordinated AI strategy heading into a midterm cycle is a significant structural gap that practitioners and vendors will need to navigate.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:axios",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "3b6e0b92fc28e50d",
+          "title": "What Campaigns Need To Know About AI Polling",
+          "url": "https://campaigninnovation.org/articles/what-campaigns-need-to-know-about-ai-polling",
+          "source": "CCI",
+          "source_domain": "campaigninnovation.org",
+          "published": "2026-07-08",
+          "first_seen_run": "2026-08-13",
+          "category": "polling_synthetic",
+          "summary": "The Centre for Campaign Innovation published a practitioner-facing overview of AI-generated polling, noting that startups are selling synthetic surveys to campaigns and that established firms like Gallup and Ipsos have begun validating the concept.",
+          "why_it_matters": "Confirmation that major polling brands are validating synthetic survey methods signals that AI polling is moving from fringe experiment to mainstream campaign tool.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "9b34168eefeb4f77",
+          "title": "Civly Politics | AI Campaign Intelligence Platform for Political Campaigns",
+          "url": "https://civly.ai/politics",
+          "source": "Civly",
+          "source_domain": "civly.ai",
+          "published": "2026-08-13",
+          "first_seen_run": "2026-08-13",
+          "category": "vendor_moves",
+          "summary": "Civly launched Civly Politics, an AI campaign intelligence platform offering synthetic polling, FEC compliance and donor verification, fundraising CRM, and opposition research tools targeted at political campaigns.",
+          "why_it_matters": "An all-in-one AI platform bundling synthetic polling with compliance and opposition research in a single product represents a new integration model for campaign technology.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-08-12",
       "date": "2026-08-12",
@@ -1576,72 +1700,6 @@
           "discovery": {
             "method": "search",
             "source_ref": "site:punchbowl",
-            "confidence": "medium"
-          }
-        }
-      ]
-    },
-    {
-      "run_id": "2026-07-04",
-      "date": "2026-07-04",
-      "generated_at": "2026-07-04T13:42:38Z",
-      "is_light_run": false,
-      "top_summary": "Gavin Newsom is navigating the tension between regulating Big Tech and relying on AI products in his own political work, illustrating the central political contradiction facing Democratic officeholders. The Dispatch reports that AI use in campaign advertising is expanding rapidly, with both opportunities and ethical questions emerging for campaign staffers. The Trump administration's approach to AI governance is drawing scrutiny as a patchwork, improvised regime rather than a coherent regulatory framework.",
-      "item_count": 3,
-      "items": [
-        {
-          "id": "40577a5e259e8c12",
-          "title": "Gavin Newsom treads the AI line",
-          "url": "https://semafor.com/article/07/01/2026/gavin-newsom-treads-the-ai-line",
-          "source": "Semafor",
-          "source_domain": "semafor.com",
-          "published": "2026-07-01",
-          "first_seen_run": "2026-07-04",
-          "category": "deployments_studies",
-          "summary": "Semafor reports that California Governor Gavin Newsom is walking a careful line between pushing to regulate the power of major tech companies while simultaneously using AI products in his own political operations.",
-          "why_it_matters": "A high-profile potential presidential contender's dual posture on AI \u2014 regulator and user \u2014 illustrates the political complexity facing elected officials as AI becomes a campaign tool.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "site:semafor",
-            "confidence": "medium"
-          }
-        },
-        {
-          "id": "a4b22c23ff5c3dba",
-          "title": "Get Ready To See a Lot More AI in Campaign Ads",
-          "url": "https://thedispatch.com/article/artificial-intelligence-campaigns-talarico-deepfakes",
-          "source": "The Dispatch",
-          "source_domain": "thedispatch.com",
-          "published": "2026-06-27",
-          "first_seen_run": "2026-07-04",
-          "category": "deployments_studies",
-          "summary": "The Dispatch surveys the growing use of AI in campaign advertising, finding that while some campaign staffers are embracing AI to amplify messaging, others are raising ethical questions about the strategy, with deepfakes specifically mentioned as a concern.",
-          "why_it_matters": "Mainstream campaign practitioners are actively debating AI ad production as a standard tactic heading into the 2026 midterm cycle.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "site:the-dispatch",
-            "confidence": "medium"
-          }
-        },
-        {
-          "id": "170253fab43b7bcc",
-          "title": "Donald Trump's Improvised AI Regime",
-          "url": "https://thedispatch.com/newsletter/morning/donald-trumps-improvised-ai-regime",
-          "source": "The Dispatch",
-          "source_domain": "thedispatch.com",
-          "published": "2026-07-02",
-          "first_seen_run": "2026-07-04",
-          "category": "regulation",
-          "summary": "The Dispatch characterizes the Trump administration's approach to AI governance as improvised and ad hoc rather than a coherent regulatory strategy, raising questions about how AI policy will be set heading into the 2026 elections.",
-          "why_it_matters": "The absence of a systematic federal AI governance framework has direct implications for how AI use in campaigns and elections will be overseen.",
-          "flags": [
-            "paywalled"
-          ],
-          "discovery": {
-            "method": "search",
-            "source_ref": "site:the-dispatch",
             "confidence": "medium"
           }
         }

@@ -504,6 +504,67 @@
       ],
       "first_proposed": "2026-08-12",
       "status": "pending"
+    },
+    {
+      "id": "prop-source-campaigninnovation-org",
+      "kind": "source",
+      "value": "campaigninnovation.org",
+      "feed_url": null,
+      "rationale": "Produced 2 published item(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://campaigninnovation.org/updates/imagining-two-possible-futures-of-ai-in-political-campaigning",
+        "https://campaigninnovation.org/articles/what-campaigns-need-to-know-about-ai-polling"
+      ],
+      "first_proposed": "2026-08-13",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-civly",
+      "kind": "watchlist_entity",
+      "value": "Civly",
+      "feed_url": null,
+      "rationale": "Newly launched AI campaign intelligence platform offering synthetic polling, FEC compliance, and opposition research — not previously tracked and directly relevant to campaign AI adoption.",
+      "example_urls": [
+        "https://civly.ai/politics"
+      ],
+      "first_proposed": "2026-08-13",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-centre-for-campaign-innovation-cci",
+      "kind": "watchlist_entity",
+      "value": "Centre for Campaign Innovation (CCI)",
+      "feed_url": null,
+      "rationale": "Practitioner-facing organization publishing substantive guidance on AI polling for campaigns; appears to be a training/research body aimed at campaign professionals and worth tracking for future practitioner content.",
+      "example_urls": [
+        "https://campaigninnovation.org/articles/what-campaigns-need-to-know-about-ai-polling"
+      ],
+      "first_proposed": "2026-08-13",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-bruce-blakeman",
+      "kind": "watchlist_entity",
+      "value": "Bruce Blakeman",
+      "feed_url": null,
+      "rationale": "Nassau County Executive and New York gubernatorial candidate who deployed AI-generated political ads against opponents, triggering a Board of Elections complaint — a significant early real-world case of AI ad use by a candidate.",
+      "example_urls": [
+        "https://nypost.com/2026/08/12/us-news/bruce-blakeman-has-defiant-message-for-dems-angry-about-his-ai-ads-on-hochul-mamdani/"
+      ],
+      "first_proposed": "2026-08-13",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-jay-jacobs",
+      "kind": "watchlist_entity",
+      "value": "Jay Jacobs",
+      "feed_url": null,
+      "rationale": "New York Democratic Party Chair who filed the Board of Elections complaint over Blakeman's AI ads — a party official taking formal regulatory action against AI-generated campaign content.",
+      "example_urls": [
+        "https://nystateofpolitics.com/state-of-politics/new-york/politics/2026/08/11/democrats-blakeman-ai-depictions-"
+      ],
+      "first_proposed": "2026-08-13",
+      "status": "pending"
     }
   ]
 }

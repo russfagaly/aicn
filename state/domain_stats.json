@@ -35,11 +35,12 @@
     "last_seen": "2026-08-02"
   },
   "campaigninnovation.org": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
-      "https://campaigninnovation.org/updates/imagining-two-possible-futures-of-ai-in-political-campaigning"
+      "https://campaigninnovation.org/updates/imagining-two-possible-futures-of-ai-in-political-campaigning",
+      "https://campaigninnovation.org/articles/what-campaigns-need-to-know-about-ai-polling"
     ],
-    "last_seen": "2026-08-02"
+    "last_seen": "2026-08-13"
   },
   "cato.org": {
     "count": 1,
@@ -55,6 +56,13 @@
     ],
     "last_seen": "2026-07-05"
   },
+  "civly.ai": {
+    "count": 1,
+    "example_urls": [
+      "https://civly.ai/politics"
+    ],
+    "last_seen": "2026-08-13"
+  },
   "cnbc.com": {
     "count": 1,
     "example_urls": [
@@ -68,6 +76,13 @@
       "https://cyberscoop.com/ai-chatbots-2026-midterm-elections"
     ],
     "last_seen": "2026-08-07"
+  },
+  "dailygazette.com": {
+    "count": 1,
+    "example_urls": [
+      "https://dailygazette.com/cjfund/political/blakeman-democrats-complaint-ai-ads-hochul-mamdani-constantino/article_207251e1-ca9b-44c7-b05a-d01eea304ae7.html"
+    ],
+    "last_seen": "2026-08-13"
   },
   "dailysignal.com": {
     "count": 1,
@@ -212,12 +227,13 @@
     "last_seen": "2026-07-12"
   },
   "nypost.com": {
-    "count": 2,
+    "count": 3,
     "example_urls": [
       "https://nypost.com/2026/07/28/us-news/california-dems-target-ai-campaign-ads-after-spencer-pratt-and-steve-hiltons-viral-political-attacks",
-      "https://nypost.com/2026/07/28/opinion/adam-schiffs-attack-on-free-speech-is-a-parody-of-itself"
+      "https://nypost.com/2026/07/28/opinion/adam-schiffs-attack-on-free-speech-is-a-parody-of-itself",
+      "https://nypost.com/2026/08/12/us-news/bruce-blakeman-has-defiant-message-for-dems-angry-about-his-ai-ads-on-hochul-mamdani"
     ],
-    "last_seen": "2026-07-30"
+    "last_seen": "2026-08-13"
   },
   "prnewswire.com": {
     "count": 1,
@@ -232,6 +248,13 @@
       "https://roborhythms.com/ai-deepfakes-midterm-elections-2026"
     ],
     "last_seen": "2026-07-26"
+  },
+  "spectrumlocalnews.com": {
+    "count": 1,
+    "example_urls": [
+      "https://spectrumlocalnews.com/nys/central-ny/politics/2026/08/11/democrats-blakeman-ai-depictions-"
+    ],
+    "last_seen": "2026-08-13"
   },
   "spglobal.com": {
     "count": 1,
