@@ -3,7 +3,28 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Thu, 13 Aug 2026 13:30:01 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 13:15:23 GMT</lastBuildDate>
+    <item>
+      <title>Election Briefing: Artificial Intelligence: What Campaigns Are Already Doing, and What They Should Be Ready for Between Now and Election Day</title>
+      <link>https://campaignsandelections.com/industry-news/election-briefing-artificial-intelligence-what-campaigns-are-already-doing-and-what-they-should-be-ready-for-between-now-and-election-day</link>
+      <guid isPermaLink="false">eeae72f5fcbbc5d3</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Campaigns &amp; Elections published a practitioner-facing briefing drawing on strategist conversations about where campaigns are getting the most value from AI in the 2026 midterm cycle — covering current adoption patterns and the fault lines practitioners will need to navigate before November.</description>
+    </item>
+    <item>
+      <title>aKillion and Subtext Form a Strategic Partnership and Introduce IONCandidate, the Real-Time AI Platform That Converts Constituent Text Messages Into Political Campaign Engagement, Revenue, and Voter Action</title>
+      <link>https://finance.yahoo.com/technology/ai/articles/akillion-subtext-form-strategic-partnership-130000622.html</link>
+      <guid isPermaLink="false">4f1b68100716e165</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
+      <description>aKillion and Subtext announced a strategic partnership and the launch of IONCandidate, a conversational AI platform built specifically for political campaigns that converts inbound constituent text messages into engagement, fundraising, and voter action in real time.</description>
+    </item>
+    <item>
+      <title>Scott Wiener's AI chatbot controversy, explained</title>
+      <link>https://axios.com/local/san-francisco/2026/08/11/sf-scott-wiener-connie-chan-pelosi-ai-chatbot</link>
+      <guid isPermaLink="false">14820e7b5985690f</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Axios San Francisco reported on controversy surrounding California State Senator Scott Wiener's AI chatbot, with critics raising concerns about the chatbot's behavior or outputs in the context of his political profile.</description>
+    </item>
     <item>
       <title>Bruce Blakeman has defiant message for Dems angry about his AI ads on Hochul , Mamdani</title>
       <link>https://nypost.com/2026/08/12/us-news/bruce-blakeman-has-defiant-message-for-dems-angry-about-his-ai-ads-on-hochul-mamdani</link>
@@ -192,27 +213,6 @@
       <guid isPermaLink="false">48abc111666f2aaa</guid>
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
       <description>California Sens. Adam Schiff and Ro Khanna are pushing federal legislation to ban AI-generated political ads, prompted in part by viral AI-produced political attacks involving Spencer Pratt and Steve Hilton.</description>
-    </item>
-    <item>
-      <title>Adam Schiff attack on free speech is a parody of itself</title>
-      <link>https://nypost.com/2026/07/28/opinion/adam-schiffs-attack-on-free-speech-is-a-parody-of-itself</link>
-      <guid isPermaLink="false">d113196a3bcac1e0</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-      <description>A New York Post editorial argues that Sen. Adam Schiff's proposed legislation targeting AI-generated political ads is overbroad, criticizing it for lacking a parody carveout and characterizing it as a free-speech threat.</description>
-    </item>
-    <item>
-      <title>AI Regulation in Congress: Every Bill, Vote, and Floor Quote (2026)</title>
-      <link>https://legisletter.org/issues/ai-regulation</link>
-      <guid isPermaLink="false">8e82d6771c6ce7b6</guid>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Legisletter maintains a running tracker of AI-related legislation in the 119th Congress, covering deepfake bans, state preemption fights, algorithmic accountability, and data center issues, updated weekly with floor quotes and lobbying filings.</description>
-    </item>
-    <item>
-      <title>Exclusive: Senate Democrat's new bills would restrict AI-powered ads and paid influencers</title>
-      <link>https://semafor.com/article/07/26/2026/senate-democrats-new-bills-would-restrict-ai-powered-ads-and-paid-influencers</link>
-      <guid isPermaLink="false">50ac61a0de158f90</guid>
-      <pubDate>Sun, 26 Jul 2026 00:00:00 GMT</pubDate>
-      <description>California Sen. Adam Schiff plans to introduce two bills: one that would restrict AI-generated likenesses of politicians in political ads and another that would require disclosure of paid influencers in political speech online.</description>
     </item>
   </channel>
 </rss>

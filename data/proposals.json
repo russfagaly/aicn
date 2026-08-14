@@ -565,6 +565,42 @@
       ],
       "first_proposed": "2026-08-13",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-akillion",
+      "kind": "watchlist_entity",
+      "value": "aKillion",
+      "feed_url": null,
+      "rationale": "Niche political-campaign AI vendor launching IONCandidate, a purpose-built conversational SMS platform for campaigns — not yet widely tracked in the space.",
+      "example_urls": [
+        "https://finance.yahoo.com/technology/ai/articles/akillion-subtext-form-strategic-partnership-130000622.html"
+      ],
+      "first_proposed": "2026-08-14",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-subtext",
+      "kind": "watchlist_entity",
+      "value": "Subtext",
+      "feed_url": null,
+      "rationale": "SMS platform partnering with aKillion on IONCandidate for political campaign use — emerging in the campaign-tech space with an AI-integrated product.",
+      "example_urls": [
+        "https://finance.yahoo.com/technology/ai/articles/akillion-subtext-form-strategic-partnership-130000622.html"
+      ],
+      "first_proposed": "2026-08-14",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-ioncandidate",
+      "kind": "watchlist_entity",
+      "value": "IONCandidate",
+      "feed_url": null,
+      "rationale": "New conversational AI product purpose-built for political campaigns, converting constituent texts into engagement and fundraising actions — worth tracking as an emerging campaign tool.",
+      "example_urls": [
+        "https://finance.yahoo.com/technology/ai/articles/akillion-subtext-form-strategic-partnership-130000622.html"
+      ],
+      "first_proposed": "2026-08-14",
+      "status": "pending"
     }
   ]
 }

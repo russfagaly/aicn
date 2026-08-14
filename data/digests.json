@@ -1,7 +1,73 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-13T13:30:01Z",
+  "generated_at": "2026-08-14T13:15:23Z",
   "runs": [
+    {
+      "run_id": "2026-08-14",
+      "date": "2026-08-14",
+      "generated_at": "2026-08-14T13:15:23Z",
+      "is_light_run": false,
+      "top_summary": "A Campaigns & Elections briefing surveys what AI tools campaigns are already deploying in the 2026 midterm cycle and where the fault lines lie for practitioners. Two older but newly surfaced items add context: aKillion and Subtext's IONCandidate platform converts constituent text messages into campaign engagement using conversational AI, and Scott Wiener's AI chatbot controversy in San Francisco illustrates the political risks of candidate-branded AI tools.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "eeae72f5fcbbc5d3",
+          "title": "Election Briefing: Artificial Intelligence: What Campaigns Are Already Doing, and What They Should Be Ready for Between Now and Election Day",
+          "url": "https://campaignsandelections.com/industry-news/election-briefing-artificial-intelligence-what-campaigns-are-already-doing-and-what-they-should-be-ready-for-between-now-and-election-day",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-08-13",
+          "first_seen_run": "2026-08-14",
+          "category": "analysis_oped",
+          "summary": "Campaigns & Elections published a practitioner-facing briefing drawing on strategist conversations about where campaigns are getting the most value from AI in the 2026 midterm cycle \u2014 covering current adoption patterns and the fault lines practitioners will need to navigate before November.",
+          "why_it_matters": "Provides a real-time practitioner read on which AI use cases are gaining traction and which remain contested heading into the final stretch of the 2026 cycle.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaigns-and-elections",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "4f1b68100716e165",
+          "title": "aKillion and Subtext Form a Strategic Partnership and Introduce IONCandidate, the Real-Time AI Platform That Converts Constituent Text Messages Into Political Campaign Engagement, Revenue, and Voter Action",
+          "url": "https://finance.yahoo.com/technology/ai/articles/akillion-subtext-form-strategic-partnership-130000622.html",
+          "source": "Yahoo Finance",
+          "source_domain": "finance.yahoo.com",
+          "published": "2026-06-23",
+          "first_seen_run": "2026-08-14",
+          "category": "vendor_moves",
+          "summary": "aKillion and Subtext announced a strategic partnership and the launch of IONCandidate, a conversational AI platform built specifically for political campaigns that converts inbound constituent text messages into engagement, fundraising, and voter action in real time.",
+          "why_it_matters": "Purpose-built two-way SMS AI for campaigns addresses a gap in automated voter contact \u2014 turning passive inbound texts into active touchpoints at scale.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:finance-yahoo",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "14820e7b5985690f",
+          "title": "Scott Wiener's AI chatbot controversy, explained",
+          "url": "https://axios.com/local/san-francisco/2026/08/11/sf-scott-wiener-connie-chan-pelosi-ai-chatbot",
+          "source": "Axios",
+          "source_domain": "axios.com",
+          "published": "2026-08-11",
+          "first_seen_run": "2026-08-14",
+          "category": "deployments_studies",
+          "summary": "Axios San Francisco reported on controversy surrounding California State Senator Scott Wiener's AI chatbot, with critics raising concerns about the chatbot's behavior or outputs in the context of his political profile.",
+          "why_it_matters": "Candidate-branded AI chatbots carry reputational risk when outputs diverge from the candidate's intended messaging \u2014 a cautionary case for campaigns deploying conversational AI tools.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:axios",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-08-13",
       "date": "2026-08-13",
@@ -1632,70 +1698,6 @@
           "category": "regulation",
           "summary": "Punchbowl News reports that OpenAI has backed Sen. Marsha Blackburn's Kids Online Safety Act and the NO FAKES Act, signaling a warmer relationship between the company and Washington lawmakers heading into the 2026 cycle.",
           "why_it_matters": "OpenAI's explicit endorsement of the NO FAKES Act \u2014 the key federal legislation targeting AI-generated deepfakes of real people \u2014 could accelerate its Senate prospects.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "site:punchbowl",
-            "confidence": "medium"
-          }
-        }
-      ]
-    },
-    {
-      "run_id": "2026-07-05",
-      "date": "2026-07-05",
-      "generated_at": "2026-07-05T13:51:02Z",
-      "is_light_run": false,
-      "top_summary": "Voters are increasingly turning to AI chatbots to research candidates before casting ballots, raising new questions about AI's role in electoral decision-making. Meanwhile, Public Citizen reports that 30 U.S. states have now enacted laws regulating election deepfakes, and unions are signaling aggressive engagement in AI policy fights tied to the 2026 midterms.",
-      "item_count": 3,
-      "items": [
-        {
-          "id": "6a14d9bb1aff0fd0",
-          "title": "'Who should I vote for?' Voters turn to AI before casting their ballots",
-          "url": "https://inquirer.com/news/nation-world/elections-ai-chatbot-voter-research-candidates-midterms-20260704.html",
-          "source": "Philadelphia Inquirer",
-          "source_domain": "inquirer.com",
-          "published": "2026-07-04",
-          "first_seen_run": "2026-07-05",
-          "category": "deployments_studies",
-          "summary": "The Philadelphia Inquirer reports that voters are using AI chatbots to research candidates and guide their voting decisions ahead of the 2026 midterms, even though the tools are designed to avoid expressing political opinions.",
-          "why_it_matters": "Voter reliance on AI chatbots for candidate research is a novel and underexamined vector of AI influence on electoral outcomes.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "broad_web_search",
-            "confidence": "medium"
-          }
-        },
-        {
-          "id": "c9c39a1f0716982b",
-          "title": "30 States Now Have Laws to Regulate Election Deepfakes",
-          "url": "https://citizen.org/news/30-states-now-have-laws-to-regulate-election-deepfakes",
-          "source": "Public Citizen",
-          "source_domain": "citizen.org",
-          "published": "2026-05-13",
-          "first_seen_run": "2026-07-05",
-          "category": "regulation",
-          "summary": "Public Citizen reports that 30 states have now enacted laws regulating AI-generated deepfakes in election communications, with Maryland Governor Wes Moore's signature on a new law marking the most recent addition to that count.",
-          "why_it_matters": "The 30-state milestone represents a significant wave of state-level action on election deepfakes in the absence of a federal standard.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "broad_web_search",
-            "confidence": "medium"
-          }
-        },
-        {
-          "id": "89d7f35469fda4b9",
-          "title": "Tech: What unions want on AI policy",
-          "url": "https://punchbowl.news/article/tech/unions-ai-policy",
-          "source": "Punchbowl News",
-          "source_domain": "punchbowl.news",
-          "published": "2026-06-28",
-          "first_seen_run": "2026-07-05",
-          "category": "analysis_oped",
-          "summary": "Punchbowl News reports that labor union leaders, framing AI-driven automation as an existential threat, are planning aggressive engagement in Washington AI policy fights and in the 2026 midterm elections.",
-          "why_it_matters": "Organized labor entering midterm electoral politics around AI policy could reshape which candidates and positions receive union backing in competitive races.",
           "flags": [],
           "discovery": {
             "method": "search",
