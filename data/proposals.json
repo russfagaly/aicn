@@ -601,6 +601,30 @@
       ],
       "first_proposed": "2026-08-14",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-california-fair-political-practices-comm",
+      "kind": "watchlist_entity",
+      "value": "California Fair Political Practices Commission",
+      "feed_url": null,
+      "rationale": "California's campaign finance and ethics regulator is now actively engaging with AI-generated political content and influencer rules — relevant to any campaign operating in California and worth tracking for disclosure rulemaking.",
+      "example_urls": [
+        "https://campaignsandelections.com/industry-news/qa-californias-top-politics-watchdog-on-ai-and-influencers/"
+      ],
+      "first_proposed": "2026-08-15",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-adam-silver-fppc-chair",
+      "kind": "watchlist_entity",
+      "value": "Adam Silver (FPPC Chair)",
+      "feed_url": null,
+      "rationale": "As FPPC Chair, Silver is shaping California's approach to AI campaign content regulation and is a named decision-maker worth tracking for future rulemaking.",
+      "example_urls": [
+        "https://campaignsandelections.com/industry-news/qa-californias-top-politics-watchdog-on-ai-and-influencers/"
+      ],
+      "first_proposed": "2026-08-15",
+      "status": "pending"
     }
   ]
 }

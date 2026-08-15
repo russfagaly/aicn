@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Fri, 14 Aug 2026 13:15:23 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 12:44:56 GMT</lastBuildDate>
+    <item>
+      <title>AI Becomes a Major Election Issue for the First Time</title>
+      <link>https://politicalwire.com/2026/08/14/ai-becomes-a-major-election-issue-for-the-first-time</link>
+      <guid isPermaLink="false">db95551a4b9f0a91</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Political Wire flags a Washington Post report finding that hundreds of House, Senate, and gubernatorial candidates are actively engaging with AI as a campaign issue, with AI and data centers appearing on more candidate websites than Israel or manufacturing. The piece frames 2026 as the first election cycle in which AI has featured widely as a political issue rather than merely a campaign tool.</description>
+    </item>
+    <item>
+      <title>Q&amp;A: California’s Top Politics Watchdog on AI and Influencers</title>
+      <link>https://campaignsandelections.com/industry-news/qa-californias-top-politics-watchdog-on-ai-and-influencers</link>
+      <guid isPermaLink="false">ae74cb549071b953</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Campaigns &amp; Elections published a Q&amp;A with California Fair Political Practices Commission Chair Adam Silver exploring how the agency is thinking about AI-generated political content and influencer disclosures, including the tension between free speech and campaign finance regulation. Silver addresses what the FPPC is watching and how it may act on new campaign technology frontiers.</description>
+    </item>
     <item>
       <title>Election Briefing: Artificial Intelligence: What Campaigns Are Already Doing, and What They Should Be Ready for Between Now and Election Day</title>
       <link>https://campaignsandelections.com/industry-news/election-briefing-artificial-intelligence-what-campaigns-are-already-doing-and-what-they-should-be-ready-for-between-now-and-election-day</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">8b70a19bed19b3e9</guid>
       <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
       <description>An AI-generated avatar of former Brazilian president Jair Bolsonaro has sparked a legal dispute ahead of Brazil's 2026 presidential election, raising questions about the use of synthetic candidate likenesses in campaign content.</description>
-    </item>
-    <item>
-      <title>Sen. Blackburn fights AI-generated attack ad</title>
-      <link>https://axios.com/local/nashville/2026/07/29/sen-blackburn-fights-ai-generated-attack-ad</link>
-      <guid isPermaLink="false">675a78d689ff4175</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Sen. Marsha Blackburn is fighting back against an AI-generated attack ad targeting her in Tennessee.</description>
-    </item>
-    <item>
-      <title>Political AI campaigns targeted by California Democrats</title>
-      <link>https://nypost.com/2026/07/28/us-news/california-dems-target-ai-campaign-ads-after-spencer-pratt-and-steve-hiltons-viral-political-attacks</link>
-      <guid isPermaLink="false">48abc111666f2aaa</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-      <description>California Sens. Adam Schiff and Ro Khanna are pushing federal legislation to ban AI-generated political ads, prompted in part by viral AI-produced political attacks involving Spencer Pratt and Steve Hilton.</description>
     </item>
   </channel>
 </rss>
