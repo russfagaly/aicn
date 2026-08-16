@@ -625,6 +625,31 @@
       ],
       "first_proposed": "2026-08-15",
       "status": "pending"
+    },
+    {
+      "id": "prop-source-marketplace-org",
+      "kind": "source",
+      "value": "marketplace.org",
+      "feed_url": null,
+      "rationale": "Produced 2 published item(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://marketplace.org/story/2026/07/21/the-aflcios-strategy-for-ai-and-the-midterm-elections",
+        "https://marketplace.org/episode/2026/08/14/states-rush-to-police-ai-deepfakes-ahead-of-midterm-elections"
+      ],
+      "first_proposed": "2026-08-16",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-quiller-ai",
+      "kind": "watchlist_entity",
+      "value": "Quiller AI",
+      "feed_url": null,
+      "rationale": "A generative AI fundraising copywriting tool for progressive campaigns being acquired by Grassroots Analytics — newly named in a consolidation deal that signals it is a distinct trackable product in the campaign AI space.",
+      "example_urls": [
+        "https://www.grassrootsanalytics.com/post/grassroots-analytics-is-acquiring-quiller-ai"
+      ],
+      "first_proposed": "2026-08-16",
+      "status": "pending"
     }
   ]
 }

@@ -1,7 +1,55 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T12:44:56Z",
+  "generated_at": "2026-08-16T12:47:37Z",
   "runs": [
+    {
+      "run_id": "2026-08-16",
+      "date": "2026-08-16",
+      "generated_at": "2026-08-16T12:47:37Z",
+      "is_light_run": false,
+      "top_summary": "Grassroots Analytics announced it is acquiring Quiller AI, combining progressive data segmentation infrastructure with generative AI fundraising tools \u2014 a consolidation move worth watching as campaign AI vendors begin to merge. State-level deepfake regulation aimed at the 2026 midterms is also drawing attention, with states moving to police AI-generated political content ahead of November. Data centers are emerging as a defining issue in races like Wisconsin's gubernatorial contest, though that story is about AI as a policy subject rather than a campaign tool.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "454155fb8b8081f0",
+          "title": "Grassroots Analytics is Acquiring Quiller AI",
+          "url": "https://grassrootsanalytics.com/post/grassroots-analytics-is-acquiring-quiller-ai",
+          "source": "Grassroots Analytics",
+          "source_domain": "grassrootsanalytics.com",
+          "published": "2025-08-06",
+          "first_seen_run": "2026-08-16",
+          "category": "vendor_moves",
+          "summary": "Grassroots Analytics announced it is acquiring Quiller AI, a generative AI fundraising tool, with the goal of integrating Quiller's AI copywriting capabilities into Grassroots Analytics' progressive donor data and segmentation platform to create an all-in-one AI fundraising product.",
+          "why_it_matters": "Vendor consolidation in the progressive campaign tech space \u2014 merging AI content generation with donor data infrastructure \u2014 signals a maturing market where integrated AI fundraising suites are becoming the competitive standard.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:quiller-grassroots",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "1ce3a1deb63bbb77",
+          "title": "States rush to police AI deepfakes ahead of midterm elections",
+          "url": "https://marketplace.org/episode/2026/08/14/states-rush-to-police-ai-deepfakes-ahead-of-midterm-elections",
+          "source": "marketplace.org",
+          "source_domain": "marketplace.org",
+          "published": "2026-08-14",
+          "first_seen_run": "2026-08-16",
+          "category": "deepfakes",
+          "summary": "Marketplace reported that states are accelerating efforts to regulate AI-generated deepfakes in political content ahead of the 2026 midterm elections, reflecting a broader push to address synthetic media in campaigns before November.",
+          "why_it_matters": "The pace of state-level deepfake regulation directly affects what AI-generated political content campaigns can legally deploy, making the regulatory landscape a live operational concern for practitioners.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-08-15",
       "date": "2026-08-15",
@@ -1715,15 +1763,6 @@
           }
         }
       ]
-    },
-    {
-      "run_id": "2026-07-07",
-      "date": "2026-07-07",
-      "generated_at": "2026-07-07T14:46:17Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
     }
   ]
 }

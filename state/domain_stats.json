@@ -162,6 +162,13 @@
     ],
     "last_seen": "2026-07-26"
   },
+  "grassrootsanalytics.com": {
+    "count": 1,
+    "example_urls": [
+      "https://grassrootsanalytics.com/post/grassroots-analytics-is-acquiring-quiller-ai"
+    ],
+    "last_seen": "2026-08-16"
+  },
   "hklaw.com": {
     "count": 1,
     "example_urls": [
@@ -191,11 +198,12 @@
     "last_seen": "2026-07-29"
   },
   "marketplace.org": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
-      "https://marketplace.org/story/2026/07/21/the-aflcios-strategy-for-ai-and-the-midterm-elections"
+      "https://marketplace.org/story/2026/07/21/the-aflcios-strategy-for-ai-and-the-midterm-elections",
+      "https://marketplace.org/episode/2026/08/14/states-rush-to-police-ai-deepfakes-ahead-of-midterm-elections"
     ],
-    "last_seen": "2026-07-22"
+    "last_seen": "2026-08-16"
   },
   "medicaleconomics.com": {
     "count": 1,

@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Sat, 15 Aug 2026 12:44:56 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 12:47:37 GMT</lastBuildDate>
+    <item>
+      <title>Grassroots Analytics is Acquiring Quiller AI</title>
+      <link>https://grassrootsanalytics.com/post/grassroots-analytics-is-acquiring-quiller-ai</link>
+      <guid isPermaLink="false">454155fb8b8081f0</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
+      <description>Grassroots Analytics announced it is acquiring Quiller AI, a generative AI fundraising tool, with the goal of integrating Quiller's AI copywriting capabilities into Grassroots Analytics' progressive donor data and segmentation platform to create an all-in-one AI fundraising product.</description>
+    </item>
+    <item>
+      <title>States rush to police AI deepfakes ahead of midterm elections</title>
+      <link>https://marketplace.org/episode/2026/08/14/states-rush-to-police-ai-deepfakes-ahead-of-midterm-elections</link>
+      <guid isPermaLink="false">1ce3a1deb63bbb77</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Marketplace reported that states are accelerating efforts to regulate AI-generated deepfakes in political content ahead of the 2026 midterm elections, reflecting a broader push to address synthetic media in campaigns before November.</description>
+    </item>
     <item>
       <title>AI Becomes a Major Election Issue for the First Time</title>
       <link>https://politicalwire.com/2026/08/14/ai-becomes-a-major-election-issue-for-the-first-time</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">ec784b5ef0c29632</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
       <description>Despite a legal ban on Jair Bolsonaro speaking publicly, an AI-generated video avatar of the jailed former Brazilian president addressed a campaign rally in São Paulo at the launch of his son Flávia's presidential bid, circumventing the court order.</description>
-    </item>
-    <item>
-      <title>AI - generated ads target Tennessee midterm elections</title>
-      <link>https://wsmv.com/2026/07/30/ai-generated-ads-target-tennessee-midterm-elections</link>
-      <guid isPermaLink="false">90b58d18c3902e23</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <description>WSMV reports that AI-generated attack ads are targeting Tennessee midterm elections, with one ad falsely connecting a Democratic candidate to Trump and a pardoned ex-official.</description>
-    </item>
-    <item>
-      <title>AI Avatar of Jair Bolsonaro Sparks Legal Battle Ahead of Brazil 2026 Presidential Election</title>
-      <link>https://econotimes.com/AI-Avatar-of-Jair-Bolsonaro-Sparks-Legal-Battle-Ahead-of-Brazils-2026-Presidential-Election-1748002</link>
-      <guid isPermaLink="false">8b70a19bed19b3e9</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-      <description>An AI-generated avatar of former Brazilian president Jair Bolsonaro has sparked a legal dispute ahead of Brazil's 2026 presidential election, raising questions about the use of synthetic candidate likenesses in campaign content.</description>
     </item>
   </channel>
 </rss>
