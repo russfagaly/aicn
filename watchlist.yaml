@@ -103,3 +103,9 @@ entities:
     name: Higher Ground Labs
     kind: vendor
     cadence: daily
+  # Feed is bot-blocked from CI (see sources.yaml `unavailable`); covered by
+  # entity search instead, which is not domain-restricted.
+  - id: the-connector
+    name: The Connector
+    kind: org_no_feed
+    cadence: daily

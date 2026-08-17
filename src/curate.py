@@ -39,6 +39,16 @@ do the following:
    matters is that the thing is built for campaign work, not that adoption has
    already been reported.
 
+   DOWNSTREAM RELEVANCE DOES NOT RESCUE A FAILED ACTOR TEST. "This affects what
+   campaigns can legally deploy," "practitioners need to know this," or "it shapes
+   the landscape campaigns operate in" are NOT reasons to include an item. Nearly
+   every regulation story can be framed that way, which is precisely how off-topic
+   items get through — treat that framing as a warning sign, not a justification.
+   If the only thing qualifying an item is that campaigns would care about the
+   outcome, it is OUT. A state legislature moving on deepfake rules and a campaign
+   regulator explaining disclosure obligations both fail here, however useful the
+   information is.
+
    Qualifying content: AI-powered tools campaigns use, AI-generated content a
    campaign actually deployed, AI chatbots in voter contact, synthetic respondents
    ("silicon sampling") replacing real polling, credible studies measuring AI's

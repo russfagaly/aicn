@@ -48,6 +48,12 @@ journalist's, or researcher's: OUT.
 A vendor's launch, demo, or case study is IN even when no campaign has publicly adopted
 the tool yet — a practitioner could go buy it tomorrow.
 
+Downstream relevance does NOT rescue a failed actor test. "This affects what campaigns
+can legally deploy" or "practitioners need to know this" is not a reason to include an
+item — nearly every regulation story can be framed that way, which is how off-topic
+items get through. If the only thing qualifying an item is that campaigns would care
+about the outcome, it is out.
+
 OUT OF SCOPE — this is the most common mistake. AI as a political SUBJECT rather than a
 campaign TOOL: legislation and bill trackers (NO FAKES Act, TAKE IT DOWN Act, state
 deepfake or disclosure statutes), regulators (FEC, FCC), court rulings, AI policy at

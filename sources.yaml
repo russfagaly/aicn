@@ -62,13 +62,6 @@ feeds:
     tier: elections_coverage
 
   # Added from an accepted proposal.
-  - id: theconnector-substack
-    name: The Connector
-    description: Progressive organizing and campaign tech
-    url: https://theconnector.substack.com/feed
-    tier: left_movement_tech
-
-  # Added from an accepted proposal.
   - id: npr
     name: NPR Politics
     description: National politics and elections coverage
@@ -94,5 +87,7 @@ unavailable:
     reason: "pushdigital.io TLS handshake failed from build environment; feed existence unconfirmed. Covered via watchlist search instead."
   - name: Transparency Coalition
     reason: "transparencycoalition.ai loads but no RSS feed link found."
+  - name: The Connector (theconnector.substack.com)
+    reason: "Bot-blocked from CI. The feed fetches perfectly from a laptop (HTTP 200, 20 entries) but failed every one of 11 pipeline runs with an identical parse error — the response is an HTML challenge page, not the feed. Adding a named user-agent on 2026-08-10 changed nothing, confirming it is the datacenter IP being refused rather than the agent string. Produced zero published items while subscribed. Not moved to site_targets: allowed_domains rejects crawler-blocked domains outright and would fail the consolidated sites call. Covered via the watchlist instead."
   - name: At Dawn Campaigns (Erik Balsbaugh)
     reason: "Retired 2026-08-10. atdawn.us stopped answering on port 443 around 2026-08-05 and refuses connections from both CI and a laptop; DNS still resolves (99.144.121.249, a consumer broadband range) but nothing is served. Failed 6 of 7 runs and produced no published items across 40 runs. Was a working feed earlier — recheck if the site comes back."
