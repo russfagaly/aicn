@@ -1,7 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-17T12:52:43Z",
+  "generated_at": "2026-08-18T12:55:39Z",
   "runs": [
+    {
+      "run_id": "2026-08-18",
+      "date": "2026-08-18",
+      "generated_at": "2026-08-18T12:55:39Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
     {
       "run_id": "2026-08-17",
       "date": "2026-08-17",
@@ -1717,15 +1726,6 @@
           }
         }
       ]
-    },
-    {
-      "run_id": "2026-07-09",
-      "date": "2026-07-09",
-      "generated_at": "2026-07-09T15:19:30Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
     }
   ]
 }
