@@ -68,6 +68,15 @@ feeds:
     url: https://feeds.npr.org/1014/rss.xml
     tier: elections_coverage
 
+  # Added on request 2026-08-18: practitioner-facing campaign tech coverage
+  # with unusually high AI density. Never surfaced on its own through broad
+  # search or any site target, so it was added directly rather than promoted.
+  - id: campaign-trend
+    name: Campaign Trend
+    description: Practitioner guidance on campaign tech and AI
+    url: https://campaigntrend.com/rss/
+    tier: trade_industry
+
 # Outlets from the build plan with no usable feed as of this build (kept here
 # for traceability; do not delete without re-checking — sites change).
 unavailable:
