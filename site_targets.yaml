@@ -88,3 +88,9 @@ targets:
     description: Texas politics and elections
     domain: texastribune.org
     cadence: daily
+  # Added from an accepted proposal.
+  - id: campaigninnovation
+    name: Center for Campaign Innovation
+    description: Practitioner research on campaign tech and AI
+    domain: campaigninnovation.org
+    cadence: daily
