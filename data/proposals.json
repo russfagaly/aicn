@@ -467,7 +467,7 @@
         "https://sg.finance.yahoo.com/news/viamedia-ai-adds-aristotle-political-170500797.html"
       ],
       "first_proposed": "2026-08-11",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-iqm-advertising-corporation",
@@ -491,7 +491,7 @@
         "https://www.thepoliticalgroup.com/news/how-ai-voter-targeting-is-reshaping-campaign-strategy-in-2026-2"
       ],
       "first_proposed": "2026-08-11",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "id": "prop-entity-ngp-van-interface",
@@ -503,7 +503,7 @@
         "http://www.prnewswire.com/news-releases/ngp-van-launches-ngp-van-interface-bringing-agentic-ai-to-democratic-and-progressive-campaigns-ahead-of-midterm-elections-302849380.html"
       ],
       "first_proposed": "2026-08-12",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-source-campaigninnovation-org",
@@ -528,7 +528,7 @@
         "https://civly.ai/politics"
       ],
       "first_proposed": "2026-08-13",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-centre-for-campaign-innovation-cci",
@@ -540,7 +540,7 @@
         "https://campaigninnovation.org/articles/what-campaigns-need-to-know-about-ai-polling"
       ],
       "first_proposed": "2026-08-13",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-bruce-blakeman",
@@ -552,7 +552,7 @@
         "https://nypost.com/2026/08/12/us-news/bruce-blakeman-has-defiant-message-for-dems-angry-about-his-ai-ads-on-hochul-mamdani/"
       ],
       "first_proposed": "2026-08-13",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-jay-jacobs",
@@ -564,7 +564,7 @@
         "https://nystateofpolitics.com/state-of-politics/new-york/politics/2026/08/11/democrats-blakeman-ai-depictions-"
       ],
       "first_proposed": "2026-08-13",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-akillion",
@@ -576,7 +576,7 @@
         "https://finance.yahoo.com/technology/ai/articles/akillion-subtext-form-strategic-partnership-130000622.html"
       ],
       "first_proposed": "2026-08-14",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "id": "prop-entity-subtext",
@@ -612,7 +612,7 @@
         "https://campaignsandelections.com/industry-news/qa-californias-top-politics-watchdog-on-ai-and-influencers/"
       ],
       "first_proposed": "2026-08-15",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-adam-silver-fppc-chair",
@@ -624,7 +624,7 @@
         "https://campaignsandelections.com/industry-news/qa-californias-top-politics-watchdog-on-ai-and-influencers/"
       ],
       "first_proposed": "2026-08-15",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-source-marketplace-org",
@@ -637,7 +637,7 @@
         "https://marketplace.org/episode/2026/08/14/states-rush-to-police-ai-deepfakes-ahead-of-midterm-elections"
       ],
       "first_proposed": "2026-08-16",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-quiller-ai",
@@ -649,7 +649,7 @@
         "https://www.grassrootsanalytics.com/post/grassroots-analytics-is-acquiring-quiller-ai"
       ],
       "first_proposed": "2026-08-16",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-upwave",

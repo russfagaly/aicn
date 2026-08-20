@@ -109,3 +109,13 @@ entities:
     name: The Connector
     kind: org_no_feed
     cadence: daily
+  # Added from an accepted proposal.
+  - id: the-political-group
+    name: The Political Group
+    kind: vendor
+    cadence: daily
+  # Added from an accepted proposal.
+  - id: akillion
+    name: aKillion
+    kind: vendor
+    cadence: daily
