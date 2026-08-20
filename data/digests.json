@@ -1,7 +1,55 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-19T12:56:40Z",
+  "generated_at": "2026-08-20T12:57:45Z",
   "runs": [
+    {
+      "run_id": "2026-08-20",
+      "date": "2026-08-20",
+      "generated_at": "2026-08-20T12:57:45Z",
+      "is_light_run": false,
+      "top_summary": "Two practitioner-facing items stand out this run: Campaign Trend's guide to vibe-coding custom campaign software offers concrete advice on using AI-assisted coding tools for campaign builds, while Upwave's launch of AI Campaign Insights Sessions \u2014 powered by its AI agent Bayes \u2014 introduces a new brand-measurement capability that marketers and campaign advertisers could use on demand. The broader candidate pool is dominated by general election and policy news with no AI-campaign nexus.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "14fc069ff4441f1a",
+          "title": "What To Know Before You Vibecode Your Own Campaign Software",
+          "url": "https://campaigntrend.com/what-to-know-before-you-vibecode-your-own-campaign-software",
+          "source": "Campaign Trend",
+          "source_domain": "campaigntrend.com",
+          "published": "2026-08-18",
+          "first_seen_run": "2026-08-20",
+          "category": "analysis_oped",
+          "summary": "Campaign Trend published a practitioner guide on using AI-assisted 'vibe coding' to build custom campaign software, advising that projects should be kept small and isolated from sensitive data to stay focused on election-winning work.",
+          "why_it_matters": "As AI coding tools lower the barrier to building bespoke campaign tech, this kind of guardrail-setting advice shapes how digital staff approach in-house development.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaign-trend",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "243eec7faf18b628",
+          "title": "AI Campaign Insights Sessions \u2013 Newest Capability Powered by AI Agent Bayes",
+          "url": "https://finance.yahoo.com/technology/ai/articles/upwave-launches-ai-campaign-insights-130000938.html",
+          "source": "Yahoo Finance",
+          "source_domain": "finance.yahoo.com",
+          "published": "2026-08-12",
+          "first_seen_run": "2026-08-20",
+          "category": "vendor_moves",
+          "summary": "Upwave, a brand outcomes measurement platform, launched AI Campaign Insights Sessions, a new capability within its AI agent Bayes that gives marketers 24/7 on-demand access to explore campaign performance data and methodology through live AI interaction.",
+          "why_it_matters": "On-demand AI interrogation of campaign measurement data could meaningfully accelerate optimization cycles for political advertisers using brand-lift tools.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:finance-yahoo",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-08-19",
       "date": "2026-08-19",
@@ -1642,15 +1690,6 @@
           }
         }
       ]
-    },
-    {
-      "run_id": "2026-07-11",
-      "date": "2026-07-11",
-      "generated_at": "2026-07-11T13:28:53Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
     }
   ]
 }

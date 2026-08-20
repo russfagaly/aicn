@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Wed, 19 Aug 2026 12:56:40 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 12:57:45 GMT</lastBuildDate>
+    <item>
+      <title>What To Know Before You Vibecode Your Own Campaign Software</title>
+      <link>https://campaigntrend.com/what-to-know-before-you-vibecode-your-own-campaign-software</link>
+      <guid isPermaLink="false">14fc069ff4441f1a</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Campaign Trend published a practitioner guide on using AI-assisted 'vibe coding' to build custom campaign software, advising that projects should be kept small and isolated from sensitive data to stay focused on election-winning work.</description>
+    </item>
+    <item>
+      <title>AI Campaign Insights Sessions – Newest Capability Powered by AI Agent Bayes</title>
+      <link>https://finance.yahoo.com/technology/ai/articles/upwave-launches-ai-campaign-insights-130000938.html</link>
+      <guid isPermaLink="false">243eec7faf18b628</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Upwave, a brand outcomes measurement platform, launched AI Campaign Insights Sessions, a new capability within its AI agent Bayes that gives marketers 24/7 on-demand access to explore campaign performance data and methodology through live AI interaction.</description>
+    </item>
     <item>
       <title>Grassroots Analytics is Acquiring Quiller AI</title>
       <link>https://grassrootsanalytics.com/post/grassroots-analytics-is-acquiring-quiller-ai</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">ccd3f5e507c476ea</guid>
       <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
       <description>Mark Cuban told Business Insider that the winners of the 2026 midterms will be campaigns that are already integrating AI tools such as ChatGPT and Gemini into their operations.</description>
-    </item>
-    <item>
-      <title>Imagining Two Possible Futures of AI In Political Campaigning</title>
-      <link>https://campaigninnovation.org/updates/imagining-two-possible-futures-of-ai-in-political-campaigning</link>
-      <guid isPermaLink="false">cab702a70828a850</guid>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-      <description>The Center for Campaign Innovation published a piece exploring two contrasting scenarios for how AI could reshape political campaigning, framing potential trajectories rather than reporting on a specific deployment.</description>
-    </item>
-    <item>
-      <title>Brazil banned Bolsonaro from speaking . His AI avatar spoke anyway .</title>
-      <link>https://thenextweb.com/news/bolsonaro-ai-avatar-brazil-election-tse-deepfake-rules</link>
-      <guid isPermaLink="false">ec784b5ef0c29632</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Despite a legal ban on Jair Bolsonaro speaking publicly, an AI-generated video avatar of the jailed former Brazilian president addressed a campaign rally in São Paulo at the launch of his son Flávia's presidential bid, circumventing the court order.</description>
     </item>
   </channel>
 </rss>

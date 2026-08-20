@@ -650,6 +650,30 @@
       ],
       "first_proposed": "2026-08-16",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-upwave",
+      "kind": "watchlist_entity",
+      "value": "Upwave",
+      "feed_url": null,
+      "rationale": "Brand outcomes measurement platform with an AI agent (Bayes) now offering campaign analytics sessions — niche enough in the political ad-tech space to warrant tracking.",
+      "example_urls": [
+        "https://finance.yahoo.com/technology/ai/articles/upwave-launches-ai-campaign-insights-130000938.html"
+      ],
+      "first_proposed": "2026-08-20",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-bayes",
+      "kind": "watchlist_entity",
+      "value": "Bayes",
+      "feed_url": null,
+      "rationale": "Upwave's named AI agent powering the new Campaign Insights Sessions product — a distinct product name worth tracking as it appears in political measurement contexts.",
+      "example_urls": [
+        "https://finance.yahoo.com/technology/ai/articles/upwave-launches-ai-campaign-insights-130000938.html"
+      ],
+      "first_proposed": "2026-08-20",
+      "status": "pending"
     }
   ]
 }
