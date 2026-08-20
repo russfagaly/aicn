@@ -53,6 +53,15 @@ from render import write_outputs, write_proposals
 CURATE_MODEL = "claude-sonnet-4-6"
 SEARCH_MODEL = "claude-haiku-4-5-20251001"
 LOOKBACK_DAYS = 7
+# Hard age floor for every candidate, enforced in code. gather_feeds.py has always
+# applied a 7-day cutoff when parsing a feed, but the search and watchlist paths only
+# ASKED for "last 7 days" in the prompt and the schema accepts "your best estimate",
+# so nothing actually gated them. 13 of the first 70 published items were more than
+# two weeks old when they ran — one by 375 days — and all 13 came from search or
+# watchlist, none from feeds. Set to 14 rather than 7 to leave room for the model's
+# date estimates being a few days off; across those 70 items only one fell in the
+# 15-21 day band, so the stale cluster starts well beyond this line.
+MAX_CANDIDATE_AGE_DAYS = 14
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # How many times a domain must surface in *curated* items before it's proposed
 # as a new source. Counting curated items rather than raw candidates is a much
@@ -99,6 +108,32 @@ def load_recent_published(root: str, lookback_days: int):
                 }
             )
     return recent
+
+
+def drop_stale_candidates(candidates: list, today, max_age_days: int):
+    """Remove candidates that are older than the age floor or carry no usable date.
+
+    Returns (kept, dropped) where dropped is a list of (age_label, title) for logging.
+    An unparseable date is treated as a drop, matching gather_feeds.py, which skips
+    entries whose date won't parse. A date implausibly far in the FUTURE is dropped
+    too — otherwise a bad estimate produces a negative age and sails past the floor.
+    """
+    kept, dropped = [], []
+    for c in candidates:
+        raw = (c.get("published") or "").strip()[:10]
+        try:
+            pub = datetime.date.fromisoformat(raw)
+        except ValueError:
+            dropped.append(("undated", c.get("title", "")))
+            continue
+        age = (today - pub).days
+        if age > max_age_days:
+            dropped.append((f"{age}d old", c.get("title", "")))
+        elif age < -2:
+            dropped.append((f"dated {raw}", c.get("title", "")))
+        else:
+            kept.append(c)
+    return kept, dropped
 
 
 def main():
@@ -163,6 +198,18 @@ def main():
     print(f"  search discovery: {len(search_items)} items", file=sys.stderr)
 
     print(f"Total raw candidates: {len(candidates)}", file=sys.stderr)
+
+    # Age floor before anything expensive: dropping here saves both the page-metadata
+    # fetches below and the curation tokens each candidate would cost.
+    candidates, stale = drop_stale_candidates(candidates, run_date, MAX_CANDIDATE_AGE_DAYS)
+    if stale:
+        print(f"Dropped {len(stale)} stale candidate(s) (>{MAX_CANDIDATE_AGE_DAYS}d or undated):", file=sys.stderr)
+        for label, title in stale[:10]:
+            print(f"  [{label}] {title[:70]}", file=sys.stderr)
+        if len(stale) > 10:
+            print(f"  ... and {len(stale) - 10} more", file=sys.stderr)
+        notes.append(f"dropped {len(stale)} stale candidate(s) older than {MAX_CANDIDATE_AGE_DAYS}d")
+    print(f"After age floor: {len(candidates)} candidates", file=sys.stderr)
 
     # Best-effort canonical-URL + real page title/description lookup before
     # normalizing/hashing. The page title/description ground the curator in
