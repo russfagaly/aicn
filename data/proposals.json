@@ -166,12 +166,12 @@
       "kind": "source",
       "value": "theconnector.substack.com",
       "feed_url": "https://theconnector.substack.com/feed",
-      "rationale": "Proposed by an earlier version of the pipeline, which counted raw gathered candidates rather than published items — the count was not filtered for relevance. Re-review on the merits of the example URLs.",
+      "rationale": "Accepted as a source 2026-08-03, retired 2026-08-17. Editorially fine but technically unreachable: bot-blocked from CI, failed all 11 pipeline runs, produced zero items. See sources.yaml `unavailable` for the evidence. Now covered as a watchlist entity instead, so the domain is no longer gathered from directly.",
       "example_urls": [
         "https://theconnector.substack.com/p/why-are-we-still-living-with-vanxiety"
       ],
       "first_proposed": "2026-07-12",
-      "status": "accepted"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-stackadapt",
