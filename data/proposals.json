@@ -674,6 +674,18 @@
       ],
       "first_proposed": "2026-08-20",
       "status": "rejected"
+    },
+    {
+      "id": "prop-entity-laura-karpas",
+      "kind": "watchlist_entity",
+      "value": "Laura Karpas",
+      "feed_url": null,
+      "rationale": "Author or expert voice on synthetic voter/AI focus group research cited in the TechPolicy.Press piece — a niche area directly relevant to campaign AI adoption.",
+      "example_urls": [
+        "https://www.techpolicy.press/here-come-the-synthetic-voters/"
+      ],
+      "first_proposed": "2026-08-21",
+      "status": "pending"
     }
   ]
 }

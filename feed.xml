@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Thu, 20 Aug 2026 12:57:45 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 12:56:46 GMT</lastBuildDate>
+    <item>
+      <title>Here Come the Synthetic Voters</title>
+      <link>https://techpolicy.press/here-come-the-synthetic-voters</link>
+      <guid isPermaLink="false">68288f9e5b503a33</guid>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
+      <description>TechPolicy.Press spoke with two experts about the growing use of AI-generated synthetic voters as substitutes for human focus groups in campaigns, describing the phenomenon as something campaigns will soon encounter if they haven't already.</description>
+    </item>
+    <item>
+      <title>The new kingmakers: Crypto, AI and betting firms fuel record spending on the 2026 midterms</title>
+      <link>https://ca.finance.yahoo.com/news/kingmakers-crypto-ai-betting-firms-100439846.html</link>
+      <guid isPermaLink="false">6f003dfbfed7656b</guid>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
+      <description>A Reuters report finds that AI companies and their billionaire backers are among the top spenders in the 2026 U.S. midterm elections, joining crypto and prediction-market firms as newly dominant forces in campaign finance, displacing traditional corporate power brokers.</description>
+    </item>
     <item>
       <title>What To Know Before You Vibecode Your Own Campaign Software</title>
       <link>https://campaigntrend.com/what-to-know-before-you-vibecode-your-own-campaign-software</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">accec9e19638d101</guid>
       <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
       <description>A fully AI-generated political ad targeting candidates in the St. Charles County executive race drew scrutiny over the role of deepfakes in local elections, with the story published two weeks before the primary.</description>
-    </item>
-    <item>
-      <title>Exclusive: The AI 'news' accounts hyping a blue-state dystopia</title>
-      <link>https://semafor.com/article/08/02/2026/the-ai-news-accounts-hyping-a-blue-state-dystopia</link>
-      <guid isPermaLink="false">ed9b9260b07977dc</guid>
-      <pubDate>Sun, 02 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Semafor reports that AI-generated video accounts on YouTube are flooding the platform with fabricated narratives portraying chaos in California and New York, presenting fictional content as news to advance a partisan political framing.</description>
-    </item>
-    <item>
-      <title>Mark Cuban says the winners of the 2026 midterms are those 'already working' to integrate AI into their campaigns</title>
-      <link>https://businessinsider.com/mark-cuban-ai-midterms-campaigns-trump-democrats-2026-2025-8</link>
-      <guid isPermaLink="false">ccd3f5e507c476ea</guid>
-      <pubDate>Thu, 30 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Mark Cuban told Business Insider that the winners of the 2026 midterms will be campaigns that are already integrating AI tools such as ChatGPT and Gemini into their operations.</description>
     </item>
   </channel>
 </rss>

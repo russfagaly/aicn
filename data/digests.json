@@ -1,7 +1,55 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-20T12:57:45Z",
+  "generated_at": "2026-08-21T12:56:46Z",
   "runs": [
+    {
+      "run_id": "2026-08-21",
+      "date": "2026-08-21",
+      "generated_at": "2026-08-21T12:56:46Z",
+      "is_light_run": false,
+      "top_summary": "Two substantive items survive this run. A TechPolicy.Press feature examines the emerging use of AI-generated synthetic voters as campaign focus-group substitutes, with expert commentary on capability and risk. A Reuters/Yahoo Finance piece reports that AI companies are among the new dominant spenders in the 2026 midterms \u2014 though the story is primarily about political spending by AI firms rather than AI as a campaign tool, it contains enough concrete detail on AI industry involvement in the cycle to be worth tracking.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "68288f9e5b503a33",
+          "title": "Here Come the Synthetic Voters",
+          "url": "https://techpolicy.press/here-come-the-synthetic-voters",
+          "source": "TechPolicy.Press",
+          "source_domain": "techpolicy.press",
+          "published": "2026-08-16",
+          "first_seen_run": "2026-08-21",
+          "category": "polling_synthetic",
+          "summary": "TechPolicy.Press spoke with two experts about the growing use of AI-generated synthetic voters as substitutes for human focus groups in campaigns, describing the phenomenon as something campaigns will soon encounter if they haven't already.",
+          "why_it_matters": "Synthetic voter simulations could substantially lower the cost and speed of qualitative research for campaigns, but raise questions about representational accuracy and the ethics of replacing real constituent input.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "6f003dfbfed7656b",
+          "title": "The new kingmakers: Crypto, AI and betting firms fuel record spending on the 2026 midterms",
+          "url": "https://ca.finance.yahoo.com/news/kingmakers-crypto-ai-betting-firms-100439846.html",
+          "source": "Yahoo Finance",
+          "source_domain": "ca.finance.yahoo.com",
+          "published": "2026-08-20",
+          "first_seen_run": "2026-08-21",
+          "category": "deployments_studies",
+          "summary": "A Reuters report finds that AI companies and their billionaire backers are among the top spenders in the 2026 U.S. midterm elections, joining crypto and prediction-market firms as newly dominant forces in campaign finance, displacing traditional corporate power brokers.",
+          "why_it_matters": "The scale of AI-industry political spending signals how deeply AI vendors are embedding themselves in the 2026 electoral landscape, which has implications for which campaigns receive resources and what policy agendas get amplified.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:finance-yahoo",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-08-20",
       "date": "2026-08-20",
@@ -1605,91 +1653,6 @@
       "top_summary": "",
       "item_count": 0,
       "items": []
-    },
-    {
-      "run_id": "2026-07-12",
-      "date": "2026-07-12",
-      "generated_at": "2026-07-12T13:29:53Z",
-      "is_light_run": false,
-      "top_summary": "NPR reports that AI-powered bots are now driving campaign text-message outreach ahead of the 2026 midterms, marking a concrete deployment case study. Voter data firm L2 has integrated with programmatic ad platform StackAdapt, enabling same-day activation of voter audiences for political advertisers. Aaru, a teen-founded AI startup pitching synthetic-respondent polling as a replacement for traditional surveys, is drawing fresh independent scrutiny.",
-      "item_count": 5,
-      "items": [
-        {
-          "id": "c09238465bc8ada4",
-          "title": "Getting campaign text messages ahead of midterms? There could be an AI bot behind it",
-          "url": "https://npr.org/2026/07/12/nx-s1-5867763/ai-artificial-intelligence-data-texts-bots-voters-campaigns",
-          "source": "NPR",
-          "source_domain": "npr.org",
-          "published": "2026-07-12",
-          "first_seen_run": "2026-07-12",
-          "category": "deployments_studies",
-          "summary": "NPR reports that campaigns are using AI bots to send and manage political text messages to voters ahead of the 2026 midterms, with the practice spreading across multiple campaign operations. The piece examines how automated conversational AI is replacing or supplementing human texters in voter contact programs.",
-          "why_it_matters": "Concrete evidence that AI-driven voter contact via SMS is becoming a mainstream campaign tactic, raising questions about disclosure and voter consent at scale.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "broad_web_search",
-            "confidence": "medium"
-          }
-        },
-        {
-          "id": "d1050b8493a91d36",
-          "title": "21-year-old AI startup cofounder's sales pitch to clients: 'Do not trust us'",
-          "url": "https://fortune.com/2026/06/17/aaru-cofounder-ned-koh-ai-startup-sales-pitch-do-not-trust-us",
-          "source": "Fortune",
-          "source_domain": "fortune.com",
-          "published": "2026-06-17",
-          "first_seen_run": "2026-07-12",
-          "category": "polling_synthetic",
-          "summary": "Fortune profiles Aaru cofounder Ned Koh, 21, whose AI startup sells synthetic-respondent predictions to clients as an alternative to traditional polling, with Koh himself warning clients not to take the results on faith while arguing the platform's predictive accuracy surpasses human survey data. The piece examines Aaru's unusual sales posture and its growing footprint in political forecasting.",
-          "why_it_matters": "Aaru represents a leading example of the synthetic-polling category \u2014 AI models simulating voter behavior in place of live surveys \u2014 and its expansion raises methodological and transparency questions for campaigns and media consumers.",
-          "flags": [
-            "vendor_self_reported",
-            "speculative"
-          ],
-          "discovery": {
-            "method": "watchlist",
-            "source_ref": "entity:aaru",
-            "confidence": "medium"
-          }
-        },
-        {
-          "id": "6e1c3fd2443efd69",
-          "title": "Aaru AI Review 2026: The Prediction Startup, and Where It Fits",
-          "url": "https://fish.dog/news/aaru-ai-review-2026-the-prediction-startup-and-where-it-fits",
-          "source": "FishDog",
-          "source_domain": "fish.dog",
-          "published": "2026-06-02",
-          "first_seen_run": "2026-07-12",
-          "category": "polling_synthetic",
-          "summary": "An independent review from FishDog assesses Aaru's AI prediction platform \u2014 which raised a Series A and is run by a teenage founder \u2014 examining where its synthetic-respondent methodology is credible and where it falls short relative to conventional polling. The review highlights both the startup's technical ambitions and the limits of its current validation record.",
-          "why_it_matters": "Independent third-party evaluation of synthetic-polling vendors is rare; this review provides a reference point for campaigns and researchers assessing whether AI-simulated samples can substitute for live polling.",
-          "flags": [],
-          "discovery": {
-            "method": "watchlist",
-            "source_ref": "entity:aaru",
-            "confidence": "medium"
-          }
-        },
-        {
-          "id": "01956ecb4edcdffe",
-          "title": "Announcing Higher Ground Labs' Agentic AI Open Call",
-          "url": "https://highergroundlabs.com/agentic-ai-open-call",
-          "source": "Higher Ground Labs",
-          "source_domain": "highergroundlabs.com",
-          "published": "2026-05-20",
-          "first_seen_run": "2026-07-12",
-          "category": "vendor_moves",
-          "summary": "Higher Ground Labs, a progressive political technology incubator, has opened an investment application specifically for agentic AI startups building tools for political use, signaling institutional progressive-side investment interest in autonomous AI agents for campaigns. The open call invites founders to pitch agentic solutions across campaign functions.",
-          "why_it_matters": "A dedicated agentic AI funding track from a major progressive tech incubator suggests the next wave of campaign AI investment is moving beyond content generation toward autonomous task-execution tools.",
-          "flags": [],
-          "discovery": {
-            "method": "watchlist",
-            "source_ref": "entity:higher-ground-labs-portfolio",
-            "confidence": "medium"
-          }
-        }
-      ]
     }
   ]
 }
