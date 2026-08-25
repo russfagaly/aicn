@@ -686,6 +686,30 @@
       ],
       "first_proposed": "2026-08-21",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-ngp-van-navigator",
+      "kind": "watchlist_entity",
+      "value": "NGP VAN Navigator",
+      "feed_url": null,
+      "rationale": "Navigator is a newly launched AI natural-language query feature within NGP VAN's CRM — a specific AI product name worth tracking as it rolls out to Democratic campaigns.",
+      "example_urls": [
+        "https://campaignsandelections.com/industry-news/ngp-van-wants-campaigns-to-chat-with-its-crm/"
+      ],
+      "first_proposed": "2026-08-25",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-jeremy-moss",
+      "kind": "watchlist_entity",
+      "value": "Jeremy Moss",
+      "feed_url": null,
+      "rationale": "Michigan 2026 congressional nominee at the center of a disputed AI-manipulated audio deepfake incident during an active primary — a candidate now directly involved in a synthetic media controversy.",
+      "example_urls": [
+        "https://www.notus.org/2026-election/jeremy-moss-israel-hasan-piker-abdul-el-sayed"
+      ],
+      "first_proposed": "2026-08-25",
+      "status": "pending"
     }
   ]
 }

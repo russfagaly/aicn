@@ -1,7 +1,57 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-24T12:58:16Z",
+  "generated_at": "2026-08-25T12:59:21Z",
   "runs": [
+    {
+      "run_id": "2026-08-25",
+      "date": "2026-08-25",
+      "generated_at": "2026-08-25T12:59:21Z",
+      "is_light_run": false,
+      "top_summary": "NGP VAN, the dominant CRM platform for Democratic campaigns, has launched an AI-powered natural-language query feature called Navigator that lets campaigns search and interact with their voter databases conversationally. Separately, a Michigan congressional candidate is disputing a viral audio clip as AI-manipulated, making it a notable deepfake incident in a live 2026 race.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "420baf57921a124a",
+          "title": "NGP VAN Wants Campaigns to Chat With Its CRM",
+          "url": "https://campaignsandelections.com/industry-news/ngp-van-wants-campaigns-to-chat-with-its-crm",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-08-24",
+          "first_seen_run": "2026-08-25",
+          "category": "vendor_moves",
+          "summary": "NGP VAN has launched Navigator, a natural-language AI feature built into its CRM that allows campaign staffers to query their voter and donor databases conversationally instead of through traditional search interfaces.",
+          "why_it_matters": "Natural-language database access from a dominant campaign CRM lowers the technical barrier for campaign staff to extract actionable voter data insights, potentially accelerating how quickly small teams can act on their own lists.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaigns-and-elections",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "ef396beb53373880",
+          "title": "Michigan Congressional Candidate Says Viral Clip of His Voice Is a \u2018Fabrication\u2019",
+          "url": "https://notus.org/2026-election/jeremy-moss-israel-hasan-piker-abdul-el-sayed",
+          "source": "NOTUS",
+          "source_domain": "notus.org",
+          "published": "2026-08-24",
+          "first_seen_run": "2026-08-25",
+          "category": "deepfakes",
+          "summary": "Michigan congressional Democratic nominee Jeremy Moss is publicly contesting a viral audio clip of his voice, calling it a manipulated fabrication that \"peddles in offensive tropes and lies.\"",
+          "why_it_matters": "A live 2026 congressional race now features a disputed AI-manipulated audio clip going viral, illustrating the real-time threat synthetic media poses to candidates during active campaigns.",
+          "flags": [
+            "contested"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "notus",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-08-24",
       "date": "2026-08-24",
@@ -1546,15 +1596,6 @@
       "run_id": "2026-07-17",
       "date": "2026-07-17",
       "generated_at": "2026-07-17T13:48:43Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
-    },
-    {
-      "run_id": "2026-07-16",
-      "date": "2026-07-16",
-      "generated_at": "2026-07-16T14:03:17Z",
       "is_light_run": true,
       "top_summary": "",
       "item_count": 0,
