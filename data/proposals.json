@@ -710,6 +710,66 @@
       ],
       "first_proposed": "2026-08-25",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-baraza",
+      "kind": "watchlist_entity",
+      "value": "Baraza",
+      "feed_url": null,
+      "rationale": "One of five agentic-AI startups newly funded by Higher Ground Labs for progressive campaign use; not yet widely covered.",
+      "example_urls": [
+        "https://highergroundlabs.com/agentic-ai-investments/"
+      ],
+      "first_proposed": "2026-08-27",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-context",
+      "kind": "watchlist_entity",
+      "value": "Context",
+      "feed_url": null,
+      "rationale": "Higher Ground Labs agentic-AI portfolio company targeting progressive campaign work; emerging name in the space.",
+      "example_urls": [
+        "https://highergroundlabs.com/agentic-ai-investments/"
+      ],
+      "first_proposed": "2026-08-27",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-haystack",
+      "kind": "watchlist_entity",
+      "value": "Haystack",
+      "feed_url": null,
+      "rationale": "Higher Ground Labs agentic-AI portfolio company for progressive campaigns; not yet widely known.",
+      "example_urls": [
+        "https://highergroundlabs.com/agentic-ai-investments/"
+      ],
+      "first_proposed": "2026-08-27",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-locunity",
+      "kind": "watchlist_entity",
+      "value": "Locunity",
+      "feed_url": null,
+      "rationale": "Higher Ground Labs agentic-AI portfolio company for progressive campaigns; newly announced and not yet widely covered.",
+      "example_urls": [
+        "https://highergroundlabs.com/agentic-ai-investments/"
+      ],
+      "first_proposed": "2026-08-27",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-revere",
+      "kind": "watchlist_entity",
+      "value": "Revere",
+      "feed_url": null,
+      "rationale": "Higher Ground Labs agentic-AI portfolio company for progressive campaigns; newly announced and not yet widely covered.",
+      "example_urls": [
+        "https://highergroundlabs.com/agentic-ai-investments/"
+      ],
+      "first_proposed": "2026-08-27",
+      "status": "pending"
     }
   ]
 }

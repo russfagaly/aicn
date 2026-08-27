@@ -3,7 +3,28 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Wed, 26 Aug 2026 13:05:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 22:02:30 GMT</lastBuildDate>
+    <item>
+      <title>Democrats Are Getting Some Answers to Their Chatbot Problems</title>
+      <link>https://notus.org/2026-election/ai-chatbot-chatgpt-democrats-campaign</link>
+      <guid isPermaLink="false">7408edccf8413fdf</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <description>New research from a Democratic-aligned firm estimates AI chatbots receive about 650,000 political questions weekly, and Democrats are working to address problems with how those chatbots respond to campaign-related queries.</description>
+    </item>
+    <item>
+      <title>Announcing HGL’s Agentic AI Open Call Investments</title>
+      <link>https://highergroundlabs.com/agentic-ai-investments</link>
+      <guid isPermaLink="false">46b581c1160759eb</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Higher Ground Labs announced investments in five companies — Baraza, Context, Haystack, Locunity, and Revere — through its Agentic AI Open Call, backing startups building agentic AI tools for progressive political campaigns.</description>
+    </item>
+    <item>
+      <title>Exclusive: Meta disrupts Iran-linked AI operation targeting politicians, journalists</title>
+      <link>https://axios.com/2026/08/27/facebook-instagram-iran-ai-disinformation</link>
+      <guid isPermaLink="false">7d7f798842d5873d</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Meta says it identified and disrupted an Iran-linked influence operation that used AI-generated content to target politicians and journalists on Facebook and Instagram.</description>
+    </item>
     <item>
       <title>NGP VAN Wants Campaigns to Chat With Its CRM</title>
       <link>https://campaignsandelections.com/industry-news/ngp-van-wants-campaigns-to-chat-with-its-crm</link>
@@ -192,27 +213,6 @@
       <guid isPermaLink="false">c6c96a363bdb23d4</guid>
       <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
       <description>Axios reports that voters heading into the 2026 midterms face a highly uneven landscape of state-level legal protections against AI-generated deepfakes in political content, with significant gaps across many states.</description>
-    </item>
-    <item>
-      <title>Why AI giants' political spending could balloon this fall</title>
-      <link>https://nbcnews.com/politics/2026-election/ai-giants-political-spending-balloon-fall-rcna590857</link>
-      <guid isPermaLink="false">63ef76dd09e3b1ff</guid>
-      <pubDate>Tue, 04 Aug 2026 00:00:00 GMT</pubDate>
-      <description>NBC News reports that major AI companies are expected to significantly increase their political spending ahead of the fall 2026 general elections, driven by high-stakes fights in Congress and statehouses over AI regulation, data center permitting, and related policy battles.</description>
-    </item>
-    <item>
-      <title>How the booming backlash to AI data centers is shaping the midterm election</title>
-      <link>https://nbcnews.com/politics/2026-election/booming-backlash-ai-data-centers-shaping-midterm-election-rcna589624</link>
-      <guid isPermaLink="false">1f96ee89a31300f9</guid>
-      <pubDate>Wed, 29 Jul 2026 00:00:00 GMT</pubDate>
-      <description>NBC News documents how community backlash to rapid hyperscale AI data center construction — touching on power consumption, land use, and water — emerged as a live campaign issue in 2025 state elections and is now rippling into 2026 midterm races up and down the ballot.</description>
-    </item>
-    <item>
-      <title>Democrats’ Split on AI Grows as a New Plan Emerges</title>
-      <link>https://notus.org/technology/democrats-split-ai-grows-wyden-tax-data-centers</link>
-      <guid isPermaLink="false">5653b11771c90cb9</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 GMT</pubDate>
-      <description>NOTUS reports that Senate Democrats are increasingly divided on AI policy, with Senate Finance Committee ranking member Ron Wyden introducing a proposal to tax data centers as part of a broader intra-party dispute over how to approach AI regulation and industry incentives.</description>
     </item>
   </channel>
 </rss>
