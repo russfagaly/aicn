@@ -3,7 +3,14 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Thu, 27 Aug 2026 22:02:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 22:13:42 GMT</lastBuildDate>
+    <item>
+      <title>Synthetic Everything Hits The Campaign Trail</title>
+      <link>https://campaigntrend.com/synthetic-everything-hits-the-campaign-trail</link>
+      <guid isPermaLink="false">1f42abf79fc26ee1</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Campaign Trend reports on a wave of synthetic AI-generated content in the 2026 campaign cycle, citing Cory Booker's TikTok presence and alleged forged donations in Arizona as illustrative cases of AI-synthetic tactics entering campaign operations.</description>
+    </item>
     <item>
       <title>Democrats Are Getting Some Answers to Their Chatbot Problems</title>
       <link>https://notus.org/2026-election/ai-chatbot-chatgpt-democrats-campaign</link>
@@ -206,13 +213,6 @@
       <guid isPermaLink="false">0f9a9f673f097255</guid>
       <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
       <description>New research finds that AI chatbots have meaningfully reduced factual errors when answering election-related questions ahead of the 2026 midterms, but incomplete or partial answers remain a significant risk for voters who rely on them for electoral information.</description>
-    </item>
-    <item>
-      <title>Voters face uneven AI deepfake protections</title>
-      <link>https://axios.com/2026/08/07/election-ai-deepfake-rules-states</link>
-      <guid isPermaLink="false">c6c96a363bdb23d4</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Axios reports that voters heading into the 2026 midterms face a highly uneven landscape of state-level legal protections against AI-generated deepfakes in political content, with significant gaps across many states.</description>
     </item>
   </channel>
 </rss>

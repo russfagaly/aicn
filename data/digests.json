@@ -1,7 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-27T22:02:30Z",
+  "generated_at": "2026-08-28T22:13:42Z",
   "runs": [
+    {
+      "run_id": "2026-08-28",
+      "date": "2026-08-28",
+      "generated_at": "2026-08-28T22:13:42Z",
+      "is_light_run": false,
+      "top_summary": "A broad run of general political news yielded one on-topic item: a Campaign Trend piece reporting on AI-generated synthetic content hitting the campaign trail, touching on Cory Booker's TikTok operation and forged donations in Arizona. A Campaigns & Elections article on pollster challenges in 2026 \u2014 including 'fake surveys' \u2014 also merits attention as a potential AI/synthetic-respondent story, though the metadata stops short of confirming an AI-specific angle. The week's prior coverage of AI chatbot research and Higher Ground Labs investments remains the dominant AI-in-campaigns news.",
+      "item_count": 1,
+      "items": [
+        {
+          "id": "1f42abf79fc26ee1",
+          "title": "Synthetic Everything Hits The Campaign Trail",
+          "url": "https://campaigntrend.com/synthetic-everything-hits-the-campaign-trail",
+          "source": "Campaign Trend",
+          "source_domain": "campaigntrend.com",
+          "published": "2026-08-28",
+          "first_seen_run": "2026-08-28",
+          "category": "deployments_studies",
+          "summary": "Campaign Trend reports on a wave of synthetic AI-generated content in the 2026 campaign cycle, citing Cory Booker's TikTok presence and alleged forged donations in Arizona as illustrative cases of AI-synthetic tactics entering campaign operations.",
+          "why_it_matters": "Concrete examples of synthetic AI content being deployed \u2014 or allegedly deployed \u2014 in active 2026 races signal that synthetic-media tactics are moving from hypothetical to operational across the political spectrum.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaign-trend",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-08-27",
       "date": "2026-08-27",
@@ -1591,15 +1621,6 @@
       "run_id": "2026-07-20",
       "date": "2026-07-20",
       "generated_at": "2026-07-20T14:15:17Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
-    },
-    {
-      "run_id": "2026-07-19",
-      "date": "2026-07-19",
-      "generated_at": "2026-07-19T13:27:02Z",
       "is_light_run": true,
       "top_summary": "",
       "item_count": 0,
