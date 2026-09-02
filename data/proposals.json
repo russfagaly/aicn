@@ -770,6 +770,30 @@
       ],
       "first_proposed": "2026-08-27",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-influent-ai",
+      "kind": "watchlist_entity",
+      "value": "Influent AI",
+      "feed_url": null,
+      "rationale": "AI platform used by an advocacy group to generate personalized constituent messages for issue-advocacy campaigns — niche political-tech vendor not previously on the watchlist.",
+      "example_urls": [
+        "https://variety.com/2026/film/news/paramount-rob-bonta-artificial-intelligence-influent-ai-1236846315/"
+      ],
+      "first_proposed": "2026-09-02",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-neighbors-for-strong-communities",
+      "kind": "watchlist_entity",
+      "value": "Neighbors for Strong Communities",
+      "feed_url": null,
+      "rationale": "Advocacy group deploying AI tools to run a pressure campaign on a state attorney general — relevant actor in AI-assisted issue advocacy.",
+      "example_urls": [
+        "https://variety.com/2026/film/news/paramount-rob-bonta-artificial-intelligence-influent-ai-1236846315/"
+      ],
+      "first_proposed": "2026-09-02",
+      "status": "pending"
     }
   ]
 }

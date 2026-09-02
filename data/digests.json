@@ -1,7 +1,53 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-01T16:25:49Z",
+  "generated_at": "2026-09-02T16:19:46Z",
   "runs": [
+    {
+      "run_id": "2026-09-02",
+      "date": "2026-09-02",
+      "generated_at": "2026-09-02T16:19:46Z",
+      "is_light_run": false,
+      "top_summary": "A pro-Paramount advocacy group is using AI tools to generate constituent pressure on California Attorney General Rob Bonta, illustrating how AI-powered grassroots simulation is entering issue-advocacy campaigns. Separately, a Semafor investigation exposes a network of 'ghost creator' operations using paid actors and AI-written scripts to produce partisan political video content at scale, reaching millions of viewers. These two items represent the clearest on-topic developments this cycle for practitioners tracking AI as a campaign and advocacy instrument.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "1ed8915521bf7d19",
+          "title": "Pro - Paramount Group Uses AI to Pressure Bonta to Drop Antitrust Case",
+          "url": "https://variety.com/2026/film/news/paramount-rob-bonta-artificial-intelligence-influent-ai-1236846315",
+          "source": "variety.com",
+          "source_domain": "variety.com",
+          "published": "2026-09-01",
+          "first_seen_run": "2026-09-02",
+          "category": "deployments_studies",
+          "summary": "An advocacy group called Neighbors for Strong Communities, which supports the Paramount-Warner Bros. merger, is using an AI platform called Influent AI to help people generate and send personalized messages urging California Attorney General Rob Bonta to drop his antitrust lawsuit against the deal.",
+          "why_it_matters": "Demonstrates AI-assisted constituent-contact tools moving into corporate issue-advocacy campaigns, lowering the barrier to synthetic grassroots pressure on elected officials.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "626250e9afb3fee6",
+          "title": "Paid actors, AI writing: How a new kind of video business cashed in on America's divided politics",
+          "url": "https://semafor.com/article/09/02/2026/paid-actors-ai-writing-how-a-new-kind-of-video-business-cashed-in-on-americas-divided-politics",
+          "source": "Semafor",
+          "source_domain": "semafor.com",
+          "published": "2026-09-02",
+          "first_seen_run": "2026-09-02",
+          "category": "analysis_oped",
+          "summary": "Semafor reports that 'ghost creator' networks are producing large volumes of nearly identical partisan political videos using paid actors and AI-written scripts, reaching millions of viewers with sensationalized content targeting Democrats.",
+          "why_it_matters": "Reveals an emerging commercial model that uses AI content generation to industrialize political persuasion video at scale outside traditional campaign structures.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:semafor",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-09-01",
       "date": "2026-09-01",
@@ -1425,15 +1471,6 @@
       "run_id": "2026-07-25",
       "date": "2026-07-25",
       "generated_at": "2026-07-25T13:45:21Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
-    },
-    {
-      "run_id": "2026-07-24",
-      "date": "2026-07-24",
-      "generated_at": "2026-07-24T13:54:03Z",
       "is_light_run": true,
       "top_summary": "",
       "item_count": 0,

@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Tue, 01 Sep 2026 16:25:49 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 16:19:46 GMT</lastBuildDate>
+    <item>
+      <title>Pro - Paramount Group Uses AI to Pressure Bonta to Drop Antitrust Case</title>
+      <link>https://variety.com/2026/film/news/paramount-rob-bonta-artificial-intelligence-influent-ai-1236846315</link>
+      <guid isPermaLink="false">1ed8915521bf7d19</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <description>An advocacy group called Neighbors for Strong Communities, which supports the Paramount-Warner Bros. merger, is using an AI platform called Influent AI to help people generate and send personalized messages urging California Attorney General Rob Bonta to drop his antitrust lawsuit against the deal.</description>
+    </item>
+    <item>
+      <title>Paid actors, AI writing: How a new kind of video business cashed in on America's divided politics</title>
+      <link>https://semafor.com/article/09/02/2026/paid-actors-ai-writing-how-a-new-kind-of-video-business-cashed-in-on-americas-divided-politics</link>
+      <guid isPermaLink="false">626250e9afb3fee6</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Semafor reports that 'ghost creator' networks are producing large volumes of nearly identical partisan political videos using paid actors and AI-written scripts, reaching millions of viewers with sensationalized content targeting Democrats.</description>
+    </item>
     <item>
       <title>Synthetic Everything Hits The Campaign Trail</title>
       <link>https://campaigntrend.com/synthetic-everything-hits-the-campaign-trail</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">eb02e3412c52f3f1</guid>
       <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
       <description>The Political Group published a practitioner-facing overview of how AI-driven voter targeting is being used in 2026 campaigns, covering strategy, risk considerations, and the trajectory of intelligent targeting tools.</description>
-    </item>
-    <item>
-      <title>Opinion : Artificial intelligence is moving fast while Alaska policy stands still</title>
-      <link>https://adn.com/opinions/2026/08/09/opinion-artificial-intelligence-is-moving-fast-while-alaska-policy-stands-still</link>
-      <guid isPermaLink="false">64c3ee56cd4b0bc0</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-      <description>An op-ed in the Anchorage Daily News argues that Alaska has failed to enact any comprehensive AI legislation or data-center policy while other states are adopting consumer, worker, and child protections tied to AI — leaving the state without a regulatory framework as the technology accelerates.</description>
-    </item>
-    <item>
-      <title>AI is getting better at election facts, but voters shouldn't rely on it</title>
-      <link>https://cyberscoop.com/ai-chatbots-2026-midterm-elections</link>
-      <guid isPermaLink="false">0f9a9f673f097255</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 GMT</pubDate>
-      <description>New research finds that AI chatbots have meaningfully reduced factual errors when answering election-related questions ahead of the 2026 midterms, but incomplete or partial answers remain a significant risk for voters who rely on them for electoral information.</description>
     </item>
   </channel>
 </rss>
