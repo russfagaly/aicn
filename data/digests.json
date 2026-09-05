@@ -1,7 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-04T16:31:25Z",
+  "generated_at": "2026-09-05T14:52:46Z",
   "runs": [
+    {
+      "run_id": "2026-09-05",
+      "date": "2026-09-05",
+      "generated_at": "2026-09-05T14:52:46Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
     {
       "run_id": "2026-09-04",
       "date": "2026-09-04",
@@ -1366,72 +1375,6 @@
           "discovery": {
             "method": "watchlist",
             "source_ref": "entity:aaru",
-            "confidence": "medium"
-          }
-        }
-      ]
-    },
-    {
-      "run_id": "2026-07-27",
-      "date": "2026-07-27",
-      "generated_at": "2026-07-27T14:52:42Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 3,
-      "items": [
-        {
-          "id": "71816d0071db7cb3",
-          "title": "This Is Donald Trump\u2019s AI Brain Trust",
-          "url": "https://wired.com/story/this-is-donald-trumps-ai-brain-trust",
-          "source": "Wired (Politics)",
-          "source_domain": "wired.com",
-          "published": "2026-07-27",
-          "first_seen_run": "2026-07-27",
-          "category": "analysis_oped",
-          "summary": "Wired profiles the network of advisers and officials shaping U.S. AI policy inside the Trump administration, with a senior administration official describing internal policy debates as involving many competing factions rather than two clear sides.",
-          "why_it_matters": "Identifying who shapes federal AI policy is directly relevant to understanding how the administration may regulate \u2014 or decline to regulate \u2014 AI in elections and political advertising.",
-          "flags": [],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "wired-politics",
-            "confidence": "high"
-          }
-        },
-        {
-          "id": "81a70522fc310684",
-          "title": "Trump Ramps Up Threats Against Iran Despite Pause in Strikes",
-          "url": "https://notus.org/trump-white-house/trump-iran-threats-ai-images-strikes",
-          "source": "NOTUS",
-          "source_domain": "notus.org",
-          "published": "2026-07-26",
-          "first_seen_run": "2026-07-27",
-          "category": "deepfakes",
-          "summary": "President Trump posted a series of AI-generated images on Truth Social alongside threats directed at Iran, including one depicting himself as \"Guardian of the World.\"",
-          "why_it_matters": "A sitting president using AI-generated imagery in political communications on an official platform raises questions about norms for synthetic media in executive-branch political messaging.",
-          "flags": [],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "notus",
-            "confidence": "high"
-          }
-        },
-        {
-          "id": "f41290694bfa90cf",
-          "title": "StackAdapt Launches Political Targeting and Measurement Suite to Help Campaigns Optimize Voter Outreach Ahead of the 2026 Midterms",
-          "url": "https://finance.yahoo.com/media-advertising/articles/stackadapt-launches-political-targeting-measurement-130000309.html",
-          "source": "Yahoo Finance",
-          "source_domain": "finance.yahoo.com",
-          "published": "2026-07-21",
-          "first_seen_run": "2026-07-27",
-          "category": "vendor_moves",
-          "summary": "StackAdapt, which describes itself as an AI advertising and orchestration platform, has launched a political targeting and measurement suite for the U.S. market, combining political audience creation, voter intelligence, campaign measurement, and ad optimization in a single workflow for political advertisers ahead of the 2026 midterms.",
-          "why_it_matters": "A dedicated AI-powered political ad suite from an established programmatic platform expands the range of automated targeting tools available to campaigns and PACs at scale.",
-          "flags": [
-            "vendor_self_reported"
-          ],
-          "discovery": {
-            "method": "watchlist",
-            "source_ref": "entity:l2",
             "confidence": "medium"
           }
         }
