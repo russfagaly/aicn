@@ -3,7 +3,14 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Sat, 05 Sep 2026 14:52:46 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 15:13:09 GMT</lastBuildDate>
+    <item>
+      <title>Campaigns Use AI Despite ChatGPT Ban</title>
+      <link>https://politicalwire.com/2026/09/05/campaigns-use-ai-despite-chatgpt-ban</link>
+      <guid isPermaLink="false">1b18ad4d8f1298c9</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Major-party candidates in the 2026 midterms are acknowledging in campaign filings and website fine print that they are using AI — including tools subject to ChatGPT's election-use restrictions — to reach voters, according to a report aggregated by Political Wire.</description>
+    </item>
     <item>
       <title>Pro - Paramount Group Uses AI to Pressure Bonta to Drop Antitrust Case</title>
       <link>https://variety.com/2026/film/news/paramount-rob-bonta-artificial-intelligence-influent-ai-1236846315</link>
@@ -206,13 +213,6 @@
       <guid isPermaLink="false">5e18fa988b12ed19</guid>
       <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
       <description>IQM Advertising Corporation launched VoterTV+, a cross-screen political ad planning suite that combines linear TV and digital in a single workspace, allowing campaigns to model audience reach and deduplicated voter contact before committing budget.</description>
-    </item>
-    <item>
-      <title>AI Voter Targeting Strategies for 2026 Campaigns</title>
-      <link>https://thepoliticalgroup.com/news/how-ai-voter-targeting-is-reshaping-campaign-strategy-in-2026-2</link>
-      <guid isPermaLink="false">eb02e3412c52f3f1</guid>
-      <pubDate>Sat, 08 Aug 2026 00:00:00 GMT</pubDate>
-      <description>The Political Group published a practitioner-facing overview of how AI-driven voter targeting is being used in 2026 campaigns, covering strategy, risk considerations, and the trajectory of intelligent targeting tools.</description>
     </item>
   </channel>
 </rss>

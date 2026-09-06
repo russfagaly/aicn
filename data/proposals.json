@@ -794,6 +794,19 @@
       ],
       "first_proposed": "2026-09-02",
       "status": "pending"
+    },
+    {
+      "id": "prop-source-politicalwire-com",
+      "kind": "source",
+      "value": "politicalwire.com",
+      "feed_url": "https://politicalwire.com/feed/",
+      "rationale": "Produced 2 published item(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://politicalwire.com/2026/08/14/ai-becomes-a-major-election-issue-for-the-first-time",
+        "https://politicalwire.com/2026/09/05/campaigns-use-ai-despite-chatgpt-ban"
+      ],
+      "first_proposed": "2026-09-06",
+      "status": "pending"
     }
   ]
 }
