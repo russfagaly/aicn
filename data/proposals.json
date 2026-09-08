@@ -807,6 +807,30 @@
       ],
       "first_proposed": "2026-09-06",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-michael-lee",
+      "kind": "watchlist_entity",
+      "value": "Michael Lee",
+      "feed_url": null,
+      "rationale": "Named sitting state senator whose campaign deployed an AI deepfake attack ad — a concrete case worth tracking as AI synthetic-media use spreads to down-ballot races.",
+      "example_urls": [
+        "https://www.whqr.org/local/2026-09-06/sunday-edition-slopping-towards-bethlehem"
+      ],
+      "first_proposed": "2026-09-08",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-jessica-bichler",
+      "kind": "watchlist_entity",
+      "value": "Jessica Bichler",
+      "feed_url": null,
+      "rationale": "Named Democratic candidate targeted by an AI deepfake ad in a North Carolina state senate race — relevant as a documented recipient of synthetic-media attacks.",
+      "example_urls": [
+        "https://www.whqr.org/local/2026-09-06/sunday-edition-slopping-towards-bethlehem"
+      ],
+      "first_proposed": "2026-09-08",
+      "status": "pending"
     }
   ]
 }

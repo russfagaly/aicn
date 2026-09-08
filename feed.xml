@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Mon, 07 Sep 2026 17:36:51 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 16:20:05 GMT</lastBuildDate>
+    <item>
+      <title>Sunday Edition : Slopping Towards Bethlehem</title>
+      <link>https://whqr.org/local/2026-09-06/sunday-edition-slopping-towards-bethlehem</link>
+      <guid isPermaLink="false">3344369a7094b74b</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Republican State Senator Michael Lee's campaign in North Carolina released an AI deepfake ad mocking his Democratic opponent Jessica Bichler; the piece examines the ad in the context of AI-generated political content becoming routine and some states moving to regulate it.</description>
+    </item>
+    <item>
+      <title>The Information Environment Has Changed. Has Your Campaign?</title>
+      <link>https://campaignsandelections.com/voices/the-information-environment-has-changed-has-your-campaign</link>
+      <guid isPermaLink="false">562dad18759671ab</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+      <description>A Campaigns &amp; Elections practitioner column argues that voters now increasingly encounter politics through AI-generated answers in search results and social feeds, and urges campaign digital teams to rethink content strategy to reach audiences in those new channels.</description>
+    </item>
     <item>
       <title>Campaigns Use AI Despite ChatGPT Ban</title>
       <link>https://politicalwire.com/2026/09/05/campaigns-use-ai-despite-chatgpt-ban</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">f0165d4c38d2ff34</guid>
       <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
       <description>The Daily Signal published a survey-style piece arguing that AI tools are dominating 2026 midterm campaign operations — not merely as a policy debate topic — covering adoption of AI in voter targeting, messaging, and field work.</description>
-    </item>
-    <item>
-      <title>Viamedia.ai Adds Aristotle Political Intelligence to Geo-Graph™, Giving Campaigns Neighborhood-Level Precision and Incremental Voter Reach</title>
-      <link>https://finance.yahoo.com/media-advertising/articles/viamedia-ai-adds-aristotle-political-170500797.html</link>
-      <guid isPermaLink="false">216fcc92c5a9be39</guid>
-      <pubDate>Mon, 20 Jul 2026 00:00:00 GMT</pubDate>
-      <description>Viamedia.ai announced the integration of Aristotle Political Intelligence into its Geo-Graph platform, enabling campaigns to target swing voters, low-propensity supporters, and custom donor audiences down to the block level with real-time ad activation.</description>
-    </item>
-    <item>
-      <title>IQM DEBUTS VOTERTV+: A PRECISION POLITICAL SUITE ENGINEERED FOR DEDUPLICATED REACH AND THE VOTERS LINEAR TV CAN'T TOUCH</title>
-      <link>https://finance.yahoo.com/media-advertising/articles/iqm-debuts-votertv-precision-political-120400404.html</link>
-      <guid isPermaLink="false">5e18fa988b12ed19</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 GMT</pubDate>
-      <description>IQM Advertising Corporation launched VoterTV+, a cross-screen political ad planning suite that combines linear TV and digital in a single workspace, allowing campaigns to model audience reach and deduplicated voter contact before committing budget.</description>
     </item>
   </channel>
 </rss>
