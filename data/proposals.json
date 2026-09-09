@@ -831,6 +831,30 @@
       ],
       "first_proposed": "2026-09-08",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-turning-point-usa",
+      "kind": "watchlist_entity",
+      "value": "Turning Point USA",
+      "feed_url": null,
+      "rationale": "Advocacy organization now appearing in context of producing and distributing AI deepfake political content targeting an incumbent — worth tracking as a non-campaign actor using synthetic media in elections.",
+      "example_urls": [
+        "https://www.phoenixnewtimes.com/news/turning-point-posted-deepfake-rep-lorena-austin-planting-democratas-por-biggs-sign-40696531/"
+      ],
+      "first_proposed": "2026-09-09",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-james-talarico",
+      "kind": "watchlist_entity",
+      "value": "James Talarico",
+      "feed_url": null,
+      "rationale": "Democratic candidate targeted by an AI-generated ad in a named statewide race — useful for tracking campaign-level deepfake incidents.",
+      "example_urls": [
+        "https://www.dailykos.com/stories/2026/9/8/800095633/community/ken-paxtons-bs-ai-campaign-ad-features-a-fake-james-talarico-misquoting-himself/"
+      ],
+      "first_proposed": "2026-09-09",
+      "status": "pending"
     }
   ]
 }

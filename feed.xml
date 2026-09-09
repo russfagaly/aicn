@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Tue, 08 Sep 2026 16:20:05 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 16:20:36 GMT</lastBuildDate>
+    <item>
+      <title>KEN PAXTON BS AI Campaign Ad Features a Fake James Talarico Misquoting Himself</title>
+      <link>https://dailykos.com/stories/2026/9/8/800095633/community/ken-paxtons-bs-ai-campaign-ad-features-a-fake-james-talarico-misquoting-himself</link>
+      <guid isPermaLink="false">1fb6d0ad95d29b52</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Ken Paxton's campaign released an AI-generated ad that depicts his opponent James Talarico appearing to misquote himself, fabricating a statement Talarico never made.</description>
+    </item>
+    <item>
+      <title>Rep . Lorena Austin troubled by Turning Point united states deepfakes</title>
+      <link>https://phoenixnewtimes.com/news/turning-point-posted-deepfake-rep-lorena-austin-planting-democratas-por-biggs-sign-40696531</link>
+      <guid isPermaLink="false">53984fb267ce27fc</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Turning Point USA activists posted a deepfake video showing Arizona Rep. Lorena Austin planting a "Democratas Por Biggs" sign in downtown Mesa, which Austin described as troubling.</description>
+    </item>
     <item>
       <title>Sunday Edition : Slopping Towards Bethlehem</title>
       <link>https://whqr.org/local/2026-09-06/sunday-edition-slopping-towards-bethlehem</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">9b34168eefeb4f77</guid>
       <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
       <description>Civly launched Civly Politics, an AI campaign intelligence platform offering synthetic polling, FEC compliance and donor verification, fundraising CRM, and opposition research tools targeted at political campaigns.</description>
-    </item>
-    <item>
-      <title>NGP VAN Launches NGP VAN Interface, Bringing Agentic AI to Democratic and Progressive Campaigns Ahead of Midterm Elections</title>
-      <link>https://prnewswire.com/news-releases/ngp-van-launches-ngp-van-interface-bringing-agentic-ai-to-democratic-and-progressive-campaigns-ahead-of-midterm-elections-302849380.html</link>
-      <guid isPermaLink="false">2d468bb946f2c66f</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
-      <description>NGP VAN announced the launch of NGP VAN Interface, an agentic AI product integrated into its campaign management platform and targeted at Democratic and progressive campaigns ahead of the 2026 midterm elections.</description>
-    </item>
-    <item>
-      <title>Artificial Intelligence Is Taking Over Political Campaigns - The Daily Signal</title>
-      <link>https://dailysignal.com/2026/03/21/artificial-intelligence-is-taking-over-political-campaigns</link>
-      <guid isPermaLink="false">f0165d4c38d2ff34</guid>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 GMT</pubDate>
-      <description>The Daily Signal published a survey-style piece arguing that AI tools are dominating 2026 midterm campaign operations — not merely as a policy debate topic — covering adoption of AI in voter targeting, messaging, and field work.</description>
     </item>
   </channel>
 </rss>

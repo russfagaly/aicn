@@ -91,6 +91,13 @@
     ],
     "last_seen": "2026-08-13"
   },
+  "dailykos.com": {
+    "count": 1,
+    "example_urls": [
+      "https://dailykos.com/stories/2026/9/8/800095633/community/ken-paxtons-bs-ai-campaign-ad-features-a-fake-james-talarico-misquoting-himself"
+    ],
+    "last_seen": "2026-09-09"
+  },
   "dailysignal.com": {
     "count": 1,
     "example_urls": [
@@ -249,6 +256,13 @@
       "https://nypost.com/2026/08/12/us-news/bruce-blakeman-has-defiant-message-for-dems-angry-about-his-ai-ads-on-hochul-mamdani"
     ],
     "last_seen": "2026-08-13"
+  },
+  "phoenixnewtimes.com": {
+    "count": 1,
+    "example_urls": [
+      "https://phoenixnewtimes.com/news/turning-point-posted-deepfake-rep-lorena-austin-planting-democratas-por-biggs-sign-40696531"
+    ],
+    "last_seen": "2026-09-09"
   },
   "politicalwire.com": {
     "count": 2,
