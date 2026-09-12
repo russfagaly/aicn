@@ -1,7 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T16:11:51Z",
+  "generated_at": "2026-09-12T15:38:35Z",
   "runs": [
+    {
+      "run_id": "2026-09-12",
+      "date": "2026-09-12",
+      "generated_at": "2026-09-12T15:38:35Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
     {
       "run_id": "2026-09-11",
       "date": "2026-09-11",
@@ -1161,52 +1170,6 @@
       "top_summary": "",
       "item_count": 0,
       "items": []
-    },
-    {
-      "run_id": "2026-08-03",
-      "date": "2026-08-03",
-      "generated_at": "2026-08-03T14:50:22Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 2,
-      "items": [
-        {
-          "id": "accec9e19638d101",
-          "title": "AI-generated political ad in St. Charles County raises deepfake questions ahead of primary election",
-          "url": "https://firstalert4.com/2026/07/20/ai-generated-political-ad-st-charles-county-raises-deepfake-questions-ahead-primary-election",
-          "source": "First Alert 4",
-          "source_domain": "firstalert4.com",
-          "published": "2026-07-20",
-          "first_seen_run": "2026-08-03",
-          "category": "deepfakes",
-          "summary": "A fully AI-generated political ad targeting candidates in the St. Charles County executive race drew scrutiny over the role of deepfakes in local elections, with the story published two weeks before the primary.",
-          "why_it_matters": "Local-level AI-generated attack ads signal that synthetic political content is spreading beyond high-profile federal races to down-ballot contests.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "broad_web_search",
-            "confidence": "medium"
-          }
-        },
-        {
-          "id": "ed9b9260b07977dc",
-          "title": "Exclusive: The AI 'news' accounts hyping a blue-state dystopia",
-          "url": "https://semafor.com/article/08/02/2026/the-ai-news-accounts-hyping-a-blue-state-dystopia",
-          "source": "Semafor",
-          "source_domain": "semafor.com",
-          "published": "2026-08-02",
-          "first_seen_run": "2026-08-03",
-          "category": "deepfakes",
-          "summary": "Semafor reports that AI-generated video accounts on YouTube are flooding the platform with fabricated narratives portraying chaos in California and New York, presenting fictional content as news to advance a partisan political framing.",
-          "why_it_matters": "Coordinated AI-generated fake-news video campaigns targeting specific states represent an emerging disinformation vector that operates outside traditional paid-ad disclosure frameworks.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "site:semafor",
-            "confidence": "medium"
-          }
-        }
-      ]
     }
   ]
 }
