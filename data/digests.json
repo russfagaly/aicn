@@ -1,7 +1,55 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-13T15:54:20Z",
+  "generated_at": "2026-09-14T18:26:59Z",
   "runs": [
+    {
+      "run_id": "2026-09-14",
+      "date": "2026-09-14",
+      "generated_at": "2026-09-14T18:26:59Z",
+      "is_light_run": false,
+      "top_summary": "A new study published in Campaigns & Elections finds that human-produced political ads still outperform AI-generated spots in consumer preference, offering campaign practitioners concrete guidance on where AI creative currently falls short. The Bloomberg opinion piece argues AI-generated campaign ads are eroding electoral trust and calls for stronger safeguards. These two items together signal a maturing debate among practitioners about AI ad effectiveness and accountability.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "a41950d8ef944703",
+          "title": "Human-Made Ads Still Perform Better Than AI Spots, Study Finds",
+          "url": "https://campaignsandelections.com/industry-news/human-made-ads-still-perform-better-than-ai-spots-study-finds",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-09-14",
+          "first_seen_run": "2026-09-14",
+          "category": "deployments_studies",
+          "summary": "A study covered by Campaigns & Elections found that consumers consistently prefer human-made political ads over AI-generated ones, with human-produced spots outperforming AI spots on key preference metrics.",
+          "why_it_matters": "Gives campaign digital teams and media consultants empirical benchmarking data on where AI creative currently stands relative to human production, directly informing buy vs. build decisions.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaigns-and-elections",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "d02024ad7d331d3b",
+          "title": "AI-Generated Campaign Ads Are Eroding Trust in US Elections",
+          "url": "https://bloomberg.com/graphics/2026-opinion-ai-campaign-ads-need-more-safeguards",
+          "source": "Bloomberg",
+          "source_domain": "bloomberg.com",
+          "published": "2026-09-03",
+          "first_seen_run": "2026-09-14",
+          "category": "analysis_oped",
+          "summary": "A Bloomberg opinion piece argues that AI-generated campaign ads are undermining voter trust in U.S. elections and calls for stronger regulatory safeguards around their use.",
+          "why_it_matters": "Reflects growing mainstream pressure on the campaign AI creative space and signals the reputational and regulatory risks practitioners face when deploying AI-generated content.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-09-13",
       "date": "2026-09-13",
@@ -1137,36 +1185,6 @@
             "method": "feed",
             "source_ref": "notus",
             "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "run_id": "2026-08-05",
-      "date": "2026-08-05",
-      "generated_at": "2026-08-05T14:22:55Z",
-      "is_light_run": false,
-      "top_summary": "Axios reports that the 2026 and 2028 election cycles are on track to become the first elections substantially shaped by AI tools including campaign bots and simulated voters, signaling a structural shift in how campaigns operate. No other strongly on-topic items survived filtering this run \u2014 the candidate pool was dominated by general election news, campaign finance, and watchlist items with no AI component.",
-      "item_count": 1,
-      "items": [
-        {
-          "id": "07ec3037de2b8b1e",
-          "title": "We're headed toward the first true AI election",
-          "url": "https://axios.com/2026/08/05/ai-election-bots-simulated-voters-2026-2028",
-          "source": "Axios",
-          "source_domain": "axios.com",
-          "published": "2026-08-05",
-          "first_seen_run": "2026-08-05",
-          "category": "analysis_oped",
-          "summary": "Axios argues that 2026 and 2028 are poised to become the first elections meaningfully defined by AI, pointing to the growing use of campaign bots and simulated voters as evidence of a structural inflection point in electoral politics.",
-          "why_it_matters": "Framing the current cycle as the first true AI election sets context for how campaigns, regulators, and researchers should interpret the wave of AI deployments now underway.",
-          "flags": [
-            "speculative"
-          ],
-          "discovery": {
-            "method": "search",
-            "source_ref": "site:axios",
-            "confidence": "medium"
           }
         }
       ]

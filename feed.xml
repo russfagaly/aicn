@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Sun, 13 Sep 2026 15:54:20 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 18:26:59 GMT</lastBuildDate>
+    <item>
+      <title>Human-Made Ads Still Perform Better Than AI Spots, Study Finds</title>
+      <link>https://campaignsandelections.com/industry-news/human-made-ads-still-perform-better-than-ai-spots-study-finds</link>
+      <guid isPermaLink="false">a41950d8ef944703</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+      <description>A study covered by Campaigns &amp; Elections found that consumers consistently prefer human-made political ads over AI-generated ones, with human-produced spots outperforming AI spots on key preference metrics.</description>
+    </item>
+    <item>
+      <title>AI-Generated Campaign Ads Are Eroding Trust in US Elections</title>
+      <link>https://bloomberg.com/graphics/2026-opinion-ai-campaign-ads-need-more-safeguards</link>
+      <guid isPermaLink="false">d02024ad7d331d3b</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>A Bloomberg opinion piece argues that AI-generated campaign ads are undermining voter trust in U.S. elections and calls for stronger regulatory safeguards around their use.</description>
+    </item>
     <item>
       <title>KEN PAXTON BS AI Campaign Ad Features a Fake James Talarico Misquoting Himself</title>
       <link>https://dailykos.com/stories/2026/9/8/800095633/community/ken-paxtons-bs-ai-campaign-ad-features-a-fake-james-talarico-misquoting-himself</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">c0f30072c9cc81b8</guid>
       <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
       <description>Axios reports that Democrats lack a coherent AI strategy for the 2026 cycle, leaving the party without a unified approach to adopting or countering AI-driven campaign tools.</description>
-    </item>
-    <item>
-      <title>What Campaigns Need To Know About AI Polling</title>
-      <link>https://campaigninnovation.org/articles/what-campaigns-need-to-know-about-ai-polling</link>
-      <guid isPermaLink="false">3b6e0b92fc28e50d</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 GMT</pubDate>
-      <description>The Centre for Campaign Innovation published a practitioner-facing overview of AI-generated polling, noting that startups are selling synthetic surveys to campaigns and that established firms like Gallup and Ipsos have begun validating the concept.</description>
-    </item>
-    <item>
-      <title>Civly Politics | AI Campaign Intelligence Platform for Political Campaigns</title>
-      <link>https://civly.ai/politics</link>
-      <guid isPermaLink="false">9b34168eefeb4f77</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Civly launched Civly Politics, an AI campaign intelligence platform offering synthetic polling, FEC compliance and donor verification, fundraising CRM, and opposition research tools targeted at political campaigns.</description>
     </item>
   </channel>
 </rss>
