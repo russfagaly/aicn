@@ -3,7 +3,14 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Tue, 15 Sep 2026 16:46:55 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 16:30:20 GMT</lastBuildDate>
+    <item>
+      <title>As campaign season gears up, AI-generated ads are everywhere</title>
+      <link>https://npr.org/2026/09/16/nx-s1-5953990/ai-political-ads-2026-midterms</link>
+      <guid isPermaLink="false">7886d3ef9807aac3</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+      <description>NPR reports that as the 2026 midterm campaign season accelerates, AI-generated political ads have become ubiquitous, with campaigns across the country deploying synthetic media content at scale.</description>
+    </item>
     <item>
       <title>Human-Made Ads Still Perform Better Than AI Spots, Study Finds</title>
       <link>https://campaignsandelections.com/industry-news/human-made-ads-still-perform-better-than-ai-spots-study-finds</link>
@@ -206,13 +213,6 @@
       <guid isPermaLink="false">bf0548be64422aeb</guid>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
       <description>The Daily Gazette reports that New York State Democrats accused Bruce Blakeman of using public funds to produce AI-generated campaign ads targeting Hochul and Mamdani, adding a potential misuse-of-public-funds dimension to the complaint.</description>
-    </item>
-    <item>
-      <title>Democrats' AI strategy is MIA</title>
-      <link>https://axios.com/2026/08/10/democrats-ai-strategy</link>
-      <guid isPermaLink="false">c0f30072c9cc81b8</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Axios reports that Democrats lack a coherent AI strategy for the 2026 cycle, leaving the party without a unified approach to adopting or countering AI-driven campaign tools.</description>
     </item>
   </channel>
 </rss>

@@ -1,7 +1,35 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T16:46:55Z",
+  "generated_at": "2026-09-16T16:30:20Z",
   "runs": [
+    {
+      "run_id": "2026-09-16",
+      "date": "2026-09-16",
+      "generated_at": "2026-09-16T16:30:20Z",
+      "is_light_run": false,
+      "top_summary": "The main on-topic story this run is NPR's report on the proliferation of AI-generated political ads heading into the 2026 midterms, documenting how synthetic campaign content has become widespread across the political landscape. A separate Semafor piece examines how the AI industry is deploying sophisticated lobbying and political-influence strategies in Washington, drawing lessons from the social media era's regulatory backlash \u2014 though this story is about AI companies as political actors, not campaigns using AI as a tool.",
+      "item_count": 1,
+      "items": [
+        {
+          "id": "7886d3ef9807aac3",
+          "title": "As campaign season gears up, AI-generated ads are everywhere",
+          "url": "https://npr.org/2026/09/16/nx-s1-5953990/ai-political-ads-2026-midterms",
+          "source": "NPR Politics",
+          "source_domain": "npr.org",
+          "published": "2026-09-16",
+          "first_seen_run": "2026-09-16",
+          "category": "deployments_studies",
+          "summary": "NPR reports that as the 2026 midterm campaign season accelerates, AI-generated political ads have become ubiquitous, with campaigns across the country deploying synthetic media content at scale.",
+          "why_it_matters": "Confirms that AI-generated ad production has crossed from experimental to mainstream in a midterm cycle, giving practitioners a benchmark for how widely the technology is now being used.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "npr",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-09-15",
       "date": "2026-09-15",
@@ -1085,52 +1113,6 @@
       "top_summary": "",
       "item_count": 0,
       "items": []
-    },
-    {
-      "run_id": "2026-08-07",
-      "date": "2026-08-07",
-      "generated_at": "2026-08-07T13:16:45Z",
-      "is_light_run": false,
-      "top_summary": "New research finds AI chatbots are delivering more accurate election facts heading into the 2026 midterms but still produce incomplete answers that could mislead voters. A separate Axios report maps the uneven patchwork of state-level laws protecting voters from AI-generated deepfakes ahead of the same cycle. Together the two items highlight both the improving and still-fragile role of AI in the information environment around elections.",
-      "item_count": 2,
-      "items": [
-        {
-          "id": "0f9a9f673f097255",
-          "title": "AI is getting better at election facts, but voters shouldn't rely on it",
-          "url": "https://cyberscoop.com/ai-chatbots-2026-midterm-elections",
-          "source": "CyberScoop",
-          "source_domain": "cyberscoop.com",
-          "published": "2026-08-05",
-          "first_seen_run": "2026-08-07",
-          "category": "deployments_studies",
-          "summary": "New research finds that AI chatbots have meaningfully reduced factual errors when answering election-related questions ahead of the 2026 midterms, but incomplete or partial answers remain a significant risk for voters who rely on them for electoral information.",
-          "why_it_matters": "Systematic benchmarking of chatbot accuracy on election facts provides an empirical baseline for assessing AI's role as an information intermediary in campaigns and elections.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "broad_web_search",
-            "confidence": "medium"
-          }
-        },
-        {
-          "id": "c6c96a363bdb23d4",
-          "title": "Voters face uneven AI deepfake protections",
-          "url": "https://axios.com/2026/08/07/election-ai-deepfake-rules-states",
-          "source": "Axios",
-          "source_domain": "axios.com",
-          "published": "2026-08-07",
-          "first_seen_run": "2026-08-07",
-          "category": "regulation",
-          "summary": "Axios reports that voters heading into the 2026 midterms face a highly uneven landscape of state-level legal protections against AI-generated deepfakes in political content, with significant gaps across many states.",
-          "why_it_matters": "The fragmented state-by-state regulatory picture means candidates and voters in many jurisdictions have little or no legal recourse against AI-generated synthetic media targeting elections.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "site:axios",
-            "confidence": "medium"
-          }
-        }
-      ]
     }
   ]
 }

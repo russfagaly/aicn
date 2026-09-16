@@ -248,12 +248,13 @@
     "last_seen": "2026-06-26"
   },
   "npr.org": {
-    "count": 2,
+    "count": 3,
     "example_urls": [
       "https://npr.org/2026/06/22/nx-s1-5856359/ai-anthropic-congress-spending-openai-midterms-election",
-      "https://npr.org/2026/07/12/nx-s1-5867763/ai-artificial-intelligence-data-texts-bots-voters-campaigns"
+      "https://npr.org/2026/07/12/nx-s1-5867763/ai-artificial-intelligence-data-texts-bots-voters-campaigns",
+      "https://npr.org/2026/09/16/nx-s1-5953990/ai-political-ads-2026-midterms"
     ],
-    "last_seen": "2026-07-12"
+    "last_seen": "2026-09-16"
   },
   "nypost.com": {
     "count": 3,
