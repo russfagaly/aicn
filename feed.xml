@@ -3,7 +3,28 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Thu, 17 Sep 2026 16:35:21 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 16:14:56 GMT</lastBuildDate>
+    <item>
+      <title>AI PACs Have Dumped Nearly $1 Million Into an Obscure Senate Race</title>
+      <link>https://wired.com/story/ai-pacs-have-dumped-nearly-1-million-into-an-obscure-senate-race</link>
+      <guid isPermaLink="false">b4d9cd3f4e59d42c</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+      <description>PACs affiliated with AI companies and investors have spent close to $1 million in South Dakota's reliably Republican Senate race — outspending contributions from actual state residents — as AI-aligned political money flows into the 2026 midterms.</description>
+    </item>
+    <item>
+      <title>Artificial Intelligence PACs are growing in number</title>
+      <link>https://punchbowl.news/article/tech/ai-pacs-more</link>
+      <guid isPermaLink="false">046d54389d2dd6ad</guid>
+      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Punchbowl News reports that the number of AI-focused political action committees is growing rapidly ahead of the 2026 midterms and provides a rundown of AI-related groups currently spending money in campaigns.</description>
+    </item>
+    <item>
+      <title>AI reshaping political campaigns as SC weighs whether new rules are needed</title>
+      <link>https://live5news.com/2026/09/17/ai-reshaping-political-campaigns-sc-weighs-whether-new-rules-are-needed</link>
+      <guid isPermaLink="false">3bce757bee8511ae</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <description>A South Carolina local news report describes how campaigns are using AI to produce content faster and at lower cost, while state lawmakers consider whether new disclosure rules are needed.</description>
+    </item>
     <item>
       <title>As campaign season gears up, AI-generated ads are everywhere</title>
       <link>https://npr.org/2026/09/16/nx-s1-5953990/ai-political-ads-2026-midterms</link>
@@ -192,27 +213,6 @@
       <guid isPermaLink="false">14820e7b5985690f</guid>
       <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
       <description>Axios San Francisco reported on controversy surrounding California State Senator Scott Wiener's AI chatbot, with critics raising concerns about the chatbot's behavior or outputs in the context of his political profile.</description>
-    </item>
-    <item>
-      <title>Bruce Blakeman has defiant message for Dems angry about his AI ads on Hochul , Mamdani</title>
-      <link>https://nypost.com/2026/08/12/us-news/bruce-blakeman-has-defiant-message-for-dems-angry-about-his-ai-ads-on-hochul-mamdani</link>
-      <guid isPermaLink="false">48fcb909eab225d1</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Nassau County Executive Bruce Blakeman responded defiantly to Democratic criticism of his AI-generated campaign ads depicting Kathy Hochul and Zohran Mamdani, defending the ads as legitimate political speech.</description>
-    </item>
-    <item>
-      <title>As Dems move to stop Blakeman AI depictions , he calls foul</title>
-      <link>https://spectrumlocalnews.com/nys/central-ny/politics/2026/08/11/democrats-blakeman-ai-depictions-</link>
-      <guid isPermaLink="false">f0666bce2a934cc4</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
-      <description>New York Democratic Party Chair Jay Jacobs filed a complaint with the state Board of Elections alleging that Nassau County Executive Bruce Blakeman's campaign violated state law by running AI-generated depictions of Hochul and Mamdani.</description>
-    </item>
-    <item>
-      <title>Blakeman used public funds for AI ads , Dems say | Political</title>
-      <link>https://dailygazette.com/cjfund/political/blakeman-democrats-complaint-ai-ads-hochul-mamdani-constantino/article_207251e1-ca9b-44c7-b05a-d01eea304ae7.html</link>
-      <guid isPermaLink="false">bf0548be64422aeb</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
-      <description>The Daily Gazette reports that New York State Democrats accused Bruce Blakeman of using public funds to produce AI-generated campaign ads targeting Hochul and Mamdani, adding a potential misuse-of-public-funds dimension to the complaint.</description>
     </item>
   </channel>
 </rss>

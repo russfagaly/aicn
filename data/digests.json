@@ -1,7 +1,73 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-17T16:35:21Z",
+  "generated_at": "2026-09-18T16:14:56Z",
   "runs": [
+    {
+      "run_id": "2026-09-18",
+      "date": "2026-09-18",
+      "generated_at": "2026-09-18T16:14:56Z",
+      "is_light_run": false,
+      "top_summary": "AI-linked PACs associated with labs and investors have poured nearly $1 million into a South Dakota Senate race, with Punchbowl reporting a broader proliferation of AI-related political groups ahead of the midterms. A South Carolina local report offers a concrete ground-level look at how campaigns are adopting AI tools for content and cost savings. A Campaign Trend item flags new polling on voter trust in AI, though the description mixes topics.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "b4d9cd3f4e59d42c",
+          "title": "AI PACs Have Dumped Nearly $1 Million Into an Obscure Senate Race",
+          "url": "https://wired.com/story/ai-pacs-have-dumped-nearly-1-million-into-an-obscure-senate-race",
+          "source": "Wired (Politics)",
+          "source_domain": "wired.com",
+          "published": "2026-09-18",
+          "first_seen_run": "2026-09-18",
+          "category": "deployments_studies",
+          "summary": "PACs affiliated with AI companies and investors have spent close to $1 million in South Dakota's reliably Republican Senate race \u2014 outspending contributions from actual state residents \u2014 as AI-aligned political money flows into the 2026 midterms.",
+          "why_it_matters": "Quantifies for the first time the scale of AI-industry PAC spending in a single down-ballot race, signaling that AI-sector political money is now a measurable force in campaign finance.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "wired-politics",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "046d54389d2dd6ad",
+          "title": "Artificial Intelligence PACs are growing in number",
+          "url": "https://punchbowl.news/article/tech/ai-pacs-more",
+          "source": "Punchbowl News",
+          "source_domain": "punchbowl.news",
+          "published": "2026-09-13",
+          "first_seen_run": "2026-09-18",
+          "category": "deployments_studies",
+          "summary": "Punchbowl News reports that the number of AI-focused political action committees is growing rapidly ahead of the 2026 midterms and provides a rundown of AI-related groups currently spending money in campaigns.",
+          "why_it_matters": "Tracks the emerging ecosystem of AI-industry political committees as a distinct and expanding campaign-finance category.",
+          "flags": [
+            "paywalled"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:punchbowl",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "3bce757bee8511ae",
+          "title": "AI reshaping political campaigns as SC weighs whether new rules are needed",
+          "url": "https://live5news.com/2026/09/17/ai-reshaping-political-campaigns-sc-weighs-whether-new-rules-are-needed",
+          "source": "Live5News",
+          "source_domain": "live5news.com",
+          "published": "2026-09-17",
+          "first_seen_run": "2026-09-18",
+          "category": "deployments_studies",
+          "summary": "A South Carolina local news report describes how campaigns are using AI to produce content faster and at lower cost, while state lawmakers consider whether new disclosure rules are needed.",
+          "why_it_matters": "Provides a ground-level practitioner view of AI adoption economics in state and local campaigns, where cost reduction is often the primary driver.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-09-17",
       "date": "2026-09-17",
@@ -1104,15 +1170,6 @@
           }
         }
       ]
-    },
-    {
-      "run_id": "2026-08-09",
-      "date": "2026-08-09",
-      "generated_at": "2026-08-09T13:01:44Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
     }
   ]
 }
