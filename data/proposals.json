@@ -855,6 +855,30 @@
       ],
       "first_proposed": "2026-09-09",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-leading-future",
+      "kind": "watchlist_entity",
+      "value": "Leading Future",
+      "feed_url": null,
+      "rationale": "AI-aligned super PAC named in the Democratic campaign letter as a specific group whose funds candidates are being urged to reject — niche enough to warrant tracking.",
+      "example_urls": [
+        "https://thehill.com/policy/technology/6097925-democrats-ai-leading-future-super-pac-letter/"
+      ],
+      "first_proposed": "2026-09-19",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-tony-fabrizio",
+      "kind": "watchlist_entity",
+      "value": "Tony Fabrizio",
+      "feed_url": null,
+      "rationale": "Trump-aligned pollster circulating AI-specific messaging guidance to Republican candidates — an emerging practitioner voice in AI campaign strategy.",
+      "example_urls": [
+        "https://www.axios.com/2026/09/15/trump-pollster-data-center-republicans-midterm-election"
+      ],
+      "first_proposed": "2026-09-19",
+      "status": "pending"
     }
   ]
 }

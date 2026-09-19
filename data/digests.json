@@ -1,7 +1,73 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T16:14:56Z",
+  "generated_at": "2026-09-19T15:39:31Z",
   "runs": [
+    {
+      "run_id": "2026-09-19",
+      "date": "2026-09-19",
+      "generated_at": "2026-09-19T15:39:31Z",
+      "is_light_run": false,
+      "top_summary": "Democratic campaigns and organizers are pushing back against AI-aligned super PAC money, urging candidates to reject funds from groups like Leading Future. Meanwhile, Trump pollster Tony Fabrizio has released messaging advice to Republican candidates on how to talk about AI data centers on the trail. Microsoft has also published a voter-information initiative aimed at helping the public navigate AI-generated election content ahead of the 2026 midterms.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "a4a2491f1a526b18",
+          "title": "Democratic campaigns, organizers urge to snub AI super PAC funds",
+          "url": "https://thehill.com/policy/technology/6097925-democrats-ai-leading-future-super-pac-letter",
+          "source": "The Hill",
+          "source_domain": "thehill.com",
+          "published": "2026-09-18",
+          "first_seen_run": "2026-09-19",
+          "category": "analysis_oped",
+          "summary": "Democratic campaigns and organizers sent a letter urging candidates to reject donations from AI-aligned super PACs, specifically calling out the group Leading Future, amid concerns about the political influence of AI industry money in the 2026 midterms.",
+          "why_it_matters": "Shows organized resistance within one party to AI-sector political spending, a dynamic that could shape how campaigns publicly position their donor relationships going forward.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:the-hill",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "1f7db8f6f6925225",
+          "title": "Trump pollster Fabrizio gives Republican candidates advice on how to talk about AI data centers",
+          "url": "https://axios.com/2026/09/15/trump-pollster-data-center-republicans-midterm-election",
+          "source": "Axios",
+          "source_domain": "axios.com",
+          "published": "2026-09-15",
+          "first_seen_run": "2026-09-19",
+          "category": "analysis_oped",
+          "summary": "Trump pollster Tony Fabrizio circulated messaging guidance to Republican candidates advising them on how to frame AI data centers as a campaign issue ahead of the 2026 midterms.",
+          "why_it_matters": "Pollster-driven message testing on AI infrastructure issues signals that data centers and AI policy are now live campaign-trail subjects with crafted talking points for candidates.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:axios",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "eed34f1f0a1a50d1",
+          "title": "2026 midterm elections: Helping voters navigate election information in the age of AI",
+          "url": "https://blogs.microsoft.com/on-the-issues/2026/09/15/2026-midterm-elections-helping-voters-navigate-election-information-in-the-age-of-ai",
+          "source": "Microsoft On the Issues",
+          "source_domain": "blogs.microsoft.com",
+          "published": "2026-09-15",
+          "first_seen_run": "2026-09-19",
+          "category": "deployments_studies",
+          "summary": "Microsoft published a blog post describing its efforts to help voters identify reliable election information and understand AI-generated content ahead of the 2026 U.S. midterm elections, framing the initiative as a voter-navigation resource.",
+          "why_it_matters": "A major platform's voter-information initiative around AI-generated content sets a precedent for how tech companies position themselves as election integrity actors during AI-saturated campaign cycles.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-09-18",
       "date": "2026-09-18",
@@ -1139,34 +1205,6 @@
             "method": "search",
             "source_ref": "broad_web_search",
             "confidence": "medium"
-          }
-        }
-      ]
-    },
-    {
-      "run_id": "2026-08-10",
-      "date": "2026-08-10",
-      "generated_at": "2026-08-10T13:20:56Z",
-      "is_light_run": false,
-      "top_summary": "The dominant story this cycle is a state-level regulatory gap: an Anchorage Daily News op-ed argues Alaska lacks any comprehensive AI policy framework while other states move to protect consumers, workers, and children. No other candidates in this batch meet the dual test of involving both AI/ML and political campaigns or elections.",
-      "item_count": 1,
-      "items": [
-        {
-          "id": "64c3ee56cd4b0bc0",
-          "title": "Opinion : Artificial intelligence is moving fast while Alaska policy stands still",
-          "url": "https://adn.com/opinions/2026/08/09/opinion-artificial-intelligence-is-moving-fast-while-alaska-policy-stands-still",
-          "source": "adn.com",
-          "source_domain": "adn.com",
-          "published": "2026-08-10",
-          "first_seen_run": "2026-08-10",
-          "category": "regulation",
-          "summary": "An op-ed in the Anchorage Daily News argues that Alaska has failed to enact any comprehensive AI legislation or data-center policy while other states are adopting consumer, worker, and child protections tied to AI \u2014 leaving the state without a regulatory framework as the technology accelerates.",
-          "why_it_matters": "Illustrates the continuing patchwork of state-level AI governance entering the 2026 election cycle, with some states still at square one on protections relevant to voters, campaigns, and electoral infrastructure.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "gdelt",
-            "confidence": "low"
           }
         }
       ]

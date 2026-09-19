@@ -3,7 +3,28 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Fri, 18 Sep 2026 16:14:56 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 15:39:31 GMT</lastBuildDate>
+    <item>
+      <title>Democratic campaigns, organizers urge to snub AI super PAC funds</title>
+      <link>https://thehill.com/policy/technology/6097925-democrats-ai-leading-future-super-pac-letter</link>
+      <guid isPermaLink="false">a4a2491f1a526b18</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Democratic campaigns and organizers sent a letter urging candidates to reject donations from AI-aligned super PACs, specifically calling out the group Leading Future, amid concerns about the political influence of AI industry money in the 2026 midterms.</description>
+    </item>
+    <item>
+      <title>Trump pollster Fabrizio gives Republican candidates advice on how to talk about AI data centers</title>
+      <link>https://axios.com/2026/09/15/trump-pollster-data-center-republicans-midterm-election</link>
+      <guid isPermaLink="false">1f7db8f6f6925225</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Trump pollster Tony Fabrizio circulated messaging guidance to Republican candidates advising them on how to frame AI data centers as a campaign issue ahead of the 2026 midterms.</description>
+    </item>
+    <item>
+      <title>2026 midterm elections: Helping voters navigate election information in the age of AI</title>
+      <link>https://blogs.microsoft.com/on-the-issues/2026/09/15/2026-midterm-elections-helping-voters-navigate-election-information-in-the-age-of-ai</link>
+      <guid isPermaLink="false">eed34f1f0a1a50d1</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Microsoft published a blog post describing its efforts to help voters identify reliable election information and understand AI-generated content ahead of the 2026 U.S. midterm elections, framing the initiative as a voter-navigation resource.</description>
+    </item>
     <item>
       <title>AI PACs Have Dumped Nearly $1 Million Into an Obscure Senate Race</title>
       <link>https://wired.com/story/ai-pacs-have-dumped-nearly-1-million-into-an-obscure-senate-race</link>
@@ -192,27 +213,6 @@
       <guid isPermaLink="false">ae74cb549071b953</guid>
       <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
       <description>Campaigns &amp; Elections published a Q&amp;A with California Fair Political Practices Commission Chair Adam Silver exploring how the agency is thinking about AI-generated political content and influencer disclosures, including the tension between free speech and campaign finance regulation. Silver addresses what the FPPC is watching and how it may act on new campaign technology frontiers.</description>
-    </item>
-    <item>
-      <title>Election Briefing: Artificial Intelligence: What Campaigns Are Already Doing, and What They Should Be Ready for Between Now and Election Day</title>
-      <link>https://campaignsandelections.com/industry-news/election-briefing-artificial-intelligence-what-campaigns-are-already-doing-and-what-they-should-be-ready-for-between-now-and-election-day</link>
-      <guid isPermaLink="false">eeae72f5fcbbc5d3</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Campaigns &amp; Elections published a practitioner-facing briefing drawing on strategist conversations about where campaigns are getting the most value from AI in the 2026 midterm cycle — covering current adoption patterns and the fault lines practitioners will need to navigate before November.</description>
-    </item>
-    <item>
-      <title>aKillion and Subtext Form a Strategic Partnership and Introduce IONCandidate, the Real-Time AI Platform That Converts Constituent Text Messages Into Political Campaign Engagement, Revenue, and Voter Action</title>
-      <link>https://finance.yahoo.com/technology/ai/articles/akillion-subtext-form-strategic-partnership-130000622.html</link>
-      <guid isPermaLink="false">4f1b68100716e165</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 GMT</pubDate>
-      <description>aKillion and Subtext announced a strategic partnership and the launch of IONCandidate, a conversational AI platform built specifically for political campaigns that converts inbound constituent text messages into engagement, fundraising, and voter action in real time.</description>
-    </item>
-    <item>
-      <title>Scott Wiener's AI chatbot controversy, explained</title>
-      <link>https://axios.com/local/san-francisco/2026/08/11/sf-scott-wiener-connie-chan-pelosi-ai-chatbot</link>
-      <guid isPermaLink="false">14820e7b5985690f</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Axios San Francisco reported on controversy surrounding California State Senator Scott Wiener's AI chatbot, with critics raising concerns about the chatbot's behavior or outputs in the context of his political profile.</description>
     </item>
   </channel>
 </rss>
