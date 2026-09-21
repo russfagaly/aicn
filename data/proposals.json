@@ -879,6 +879,30 @@
       ],
       "first_proposed": "2026-09-19",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-conexi-n",
+      "kind": "watchlist_entity",
+      "value": "Conexión",
+      "feed_url": null,
+      "rationale": "Democratic creative firm building AI-powered Latino voter outreach tools for campaigns — niche enough to track as an emerging political AI vendor.",
+      "example_urls": [
+        "https://campaignsandelections.com/industry-news/can-ai-help-campaigns-reach-latino-voters/"
+      ],
+      "first_proposed": "2026-09-21",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-mundial-media",
+      "kind": "watchlist_entity",
+      "value": "Mundial Media",
+      "feed_url": null,
+      "rationale": "Ad platform partnering with Conexión to deliver AI-driven campaign targeting for Latino audiences — newly named in the campaign AI space.",
+      "example_urls": [
+        "https://campaignsandelections.com/industry-news/can-ai-help-campaigns-reach-latino-voters/"
+      ],
+      "first_proposed": "2026-09-21",
+      "status": "pending"
     }
   ]
 }

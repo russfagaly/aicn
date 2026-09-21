@@ -3,7 +3,14 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Sun, 20 Sep 2026 15:44:44 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 18:04:07 GMT</lastBuildDate>
+    <item>
+      <title>Can AI Help Campaigns Reach Latino Voters?</title>
+      <link>https://campaignsandelections.com/industry-news/can-ai-help-campaigns-reach-latino-voters</link>
+      <guid isPermaLink="false">f8b4ad1da7d99916</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Democratic creative firm Conexión is partnering with ad platform Mundial Media to offer campaigns AI-powered tools specifically designed to improve outreach and engagement with Latino voters.</description>
+    </item>
     <item>
       <title>Democratic campaigns, organizers urge to snub AI super PAC funds</title>
       <link>https://thehill.com/policy/technology/6097925-democrats-ai-leading-future-super-pac-letter</link>
@@ -206,13 +213,6 @@
       <guid isPermaLink="false">db95551a4b9f0a91</guid>
       <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
       <description>Political Wire flags a Washington Post report finding that hundreds of House, Senate, and gubernatorial candidates are actively engaging with AI as a campaign issue, with AI and data centers appearing on more candidate websites than Israel or manufacturing. The piece frames 2026 as the first election cycle in which AI has featured widely as a political issue rather than merely a campaign tool.</description>
-    </item>
-    <item>
-      <title>Q&amp;A: California’s Top Politics Watchdog on AI and Influencers</title>
-      <link>https://campaignsandelections.com/industry-news/qa-californias-top-politics-watchdog-on-ai-and-influencers</link>
-      <guid isPermaLink="false">ae74cb549071b953</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Campaigns &amp; Elections published a Q&amp;A with California Fair Political Practices Commission Chair Adam Silver exploring how the agency is thinking about AI-generated political content and influencer disclosures, including the tension between free speech and campaign finance regulation. Silver addresses what the FPPC is watching and how it may act on new campaign technology frontiers.</description>
     </item>
   </channel>
 </rss>
