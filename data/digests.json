@@ -1,7 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T16:37:22Z",
+  "generated_at": "2026-09-23T16:28:27Z",
   "runs": [
+    {
+      "run_id": "2026-09-23",
+      "date": "2026-09-23",
+      "generated_at": "2026-09-23T16:28:27Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
     {
       "run_id": "2026-09-22",
       "date": "2026-09-22",
@@ -945,72 +954,6 @@
             "method": "feed",
             "source_ref": "campaigns-and-elections",
             "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "run_id": "2026-08-14",
-      "date": "2026-08-14",
-      "generated_at": "2026-08-14T13:15:23Z",
-      "is_light_run": false,
-      "top_summary": "A Campaigns & Elections briefing surveys what AI tools campaigns are already deploying in the 2026 midterm cycle and where the fault lines lie for practitioners. Two older but newly surfaced items add context: aKillion and Subtext's IONCandidate platform converts constituent text messages into campaign engagement using conversational AI, and Scott Wiener's AI chatbot controversy in San Francisco illustrates the political risks of candidate-branded AI tools.",
-      "item_count": 3,
-      "items": [
-        {
-          "id": "eeae72f5fcbbc5d3",
-          "title": "Election Briefing: Artificial Intelligence: What Campaigns Are Already Doing, and What They Should Be Ready for Between Now and Election Day",
-          "url": "https://campaignsandelections.com/industry-news/election-briefing-artificial-intelligence-what-campaigns-are-already-doing-and-what-they-should-be-ready-for-between-now-and-election-day",
-          "source": "Campaigns & Elections",
-          "source_domain": "campaignsandelections.com",
-          "published": "2026-08-13",
-          "first_seen_run": "2026-08-14",
-          "category": "analysis_oped",
-          "summary": "Campaigns & Elections published a practitioner-facing briefing drawing on strategist conversations about where campaigns are getting the most value from AI in the 2026 midterm cycle \u2014 covering current adoption patterns and the fault lines practitioners will need to navigate before November.",
-          "why_it_matters": "Provides a real-time practitioner read on which AI use cases are gaining traction and which remain contested heading into the final stretch of the 2026 cycle.",
-          "flags": [],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "campaigns-and-elections",
-            "confidence": "high"
-          }
-        },
-        {
-          "id": "4f1b68100716e165",
-          "title": "aKillion and Subtext Form a Strategic Partnership and Introduce IONCandidate, the Real-Time AI Platform That Converts Constituent Text Messages Into Political Campaign Engagement, Revenue, and Voter Action",
-          "url": "https://finance.yahoo.com/technology/ai/articles/akillion-subtext-form-strategic-partnership-130000622.html",
-          "source": "Yahoo Finance",
-          "source_domain": "finance.yahoo.com",
-          "published": "2026-06-23",
-          "first_seen_run": "2026-08-14",
-          "category": "vendor_moves",
-          "summary": "aKillion and Subtext announced a strategic partnership and the launch of IONCandidate, a conversational AI platform built specifically for political campaigns that converts inbound constituent text messages into engagement, fundraising, and voter action in real time.",
-          "why_it_matters": "Purpose-built two-way SMS AI for campaigns addresses a gap in automated voter contact \u2014 turning passive inbound texts into active touchpoints at scale.",
-          "flags": [
-            "vendor_self_reported"
-          ],
-          "discovery": {
-            "method": "search",
-            "source_ref": "site:finance-yahoo",
-            "confidence": "medium"
-          }
-        },
-        {
-          "id": "14820e7b5985690f",
-          "title": "Scott Wiener's AI chatbot controversy, explained",
-          "url": "https://axios.com/local/san-francisco/2026/08/11/sf-scott-wiener-connie-chan-pelosi-ai-chatbot",
-          "source": "Axios",
-          "source_domain": "axios.com",
-          "published": "2026-08-11",
-          "first_seen_run": "2026-08-14",
-          "category": "deployments_studies",
-          "summary": "Axios San Francisco reported on controversy surrounding California State Senator Scott Wiener's AI chatbot, with critics raising concerns about the chatbot's behavior or outputs in the context of his political profile.",
-          "why_it_matters": "Candidate-branded AI chatbots carry reputational risk when outputs diverge from the candidate's intended messaging \u2014 a cautionary case for campaigns deploying conversational AI tools.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "site:axios",
-            "confidence": "medium"
           }
         }
       ]
