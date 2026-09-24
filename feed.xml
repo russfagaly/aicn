@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Wed, 23 Sep 2026 16:28:27 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 16:54:20 GMT</lastBuildDate>
+    <item>
+      <title>Google Pulled Down a Trump-Linked Ad That Used AI</title>
+      <link>https://washingtonsun.com/campaigns/trump-pac-ai-ad-texas-google-remove</link>
+      <guid isPermaLink="false">f5d0f2b79f8b1a45</guid>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Google removed an AI-generated political ad tied to a Trump-aligned PAC targeting a Texas race, citing the platform's requirement that political ads disclose AI-generated content.</description>
+    </item>
+    <item>
+      <title>Candidates embrace AI for political ads despite growing voter anxiety</title>
+      <link>https://thehill.com/homenews/campaign/6098906-ai-political-ads-midterms-voter-concerns</link>
+      <guid isPermaLink="false">9dacd09e66b1394c</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
+      <description>The Hill reports that candidates across the political spectrum are increasingly using AI to produce political ads ahead of the 2026 midterms, even as polling shows growing voter unease about the practice.</description>
+    </item>
     <item>
       <title>Can AI Help Campaigns Reach Latino Voters?</title>
       <link>https://campaignsandelections.com/industry-news/can-ai-help-campaigns-reach-latino-voters</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">454155fb8b8081f0</guid>
       <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
       <description>Grassroots Analytics announced it is acquiring Quiller AI, a generative AI fundraising tool, with the goal of integrating Quiller's AI copywriting capabilities into Grassroots Analytics' progressive donor data and segmentation platform to create an all-in-one AI fundraising product.</description>
-    </item>
-    <item>
-      <title>States rush to police AI deepfakes ahead of midterm elections</title>
-      <link>https://marketplace.org/episode/2026/08/14/states-rush-to-police-ai-deepfakes-ahead-of-midterm-elections</link>
-      <guid isPermaLink="false">1ce3a1deb63bbb77</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Marketplace reported that states are accelerating efforts to regulate AI-generated deepfakes in political content ahead of the 2026 midterm elections, reflecting a broader push to address synthetic media in campaigns before November.</description>
-    </item>
-    <item>
-      <title>AI Becomes a Major Election Issue for the First Time</title>
-      <link>https://politicalwire.com/2026/08/14/ai-becomes-a-major-election-issue-for-the-first-time</link>
-      <guid isPermaLink="false">db95551a4b9f0a91</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Political Wire flags a Washington Post report finding that hundreds of House, Senate, and gubernatorial candidates are actively engaging with AI as a campaign issue, with AI and data centers appearing on more candidate websites than Israel or manufacturing. The piece frames 2026 as the first election cycle in which AI has featured widely as a political issue rather than merely a campaign tool.</description>
     </item>
   </channel>
 </rss>

@@ -1,7 +1,53 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T16:28:27Z",
+  "generated_at": "2026-09-24T16:54:20Z",
   "runs": [
+    {
+      "run_id": "2026-09-24",
+      "date": "2026-09-24",
+      "generated_at": "2026-09-24T16:54:20Z",
+      "is_light_run": false,
+      "top_summary": "A Trump-linked PAC ran an AI-generated political ad that Google removed for failing to comply with its AI disclosure requirement for political advertising \u2014 a concrete enforcement example of platform policy in action. Separately, The Hill reports that candidates are broadly embracing AI for political ads heading into the 2026 midterms even as voter anxiety about the practice grows.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "f5d0f2b79f8b1a45",
+          "title": "Google Pulled Down a Trump-Linked Ad That Used AI",
+          "url": "https://washingtonsun.com/campaigns/trump-pac-ai-ad-texas-google-remove",
+          "source": "NOTUS",
+          "source_domain": "washingtonsun.com",
+          "published": "2026-09-24",
+          "first_seen_run": "2026-09-24",
+          "category": "deepfakes",
+          "summary": "Google removed an AI-generated political ad tied to a Trump-aligned PAC targeting a Texas race, citing the platform's requirement that political ads disclose AI-generated content.",
+          "why_it_matters": "Marks a concrete enforcement instance of Google's AI-disclosure policy against a major-party-aligned committee, showing the rule has real consequences for campaign ad distribution.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "notus",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "9dacd09e66b1394c",
+          "title": "Candidates embrace AI for political ads despite growing voter anxiety",
+          "url": "https://thehill.com/homenews/campaign/6098906-ai-political-ads-midterms-voter-concerns",
+          "source": "The Hill",
+          "source_domain": "thehill.com",
+          "published": "2026-09-21",
+          "first_seen_run": "2026-09-24",
+          "category": "deployments_studies",
+          "summary": "The Hill reports that candidates across the political spectrum are increasingly using AI to produce political ads ahead of the 2026 midterms, even as polling shows growing voter unease about the practice.",
+          "why_it_matters": "Provides a broad field-level snapshot of AI ad adoption rates and public sentiment heading into a major election cycle, relevant to campaign strategy and messaging choices.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:the-hill",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-09-23",
       "date": "2026-09-23",
@@ -908,52 +954,6 @@
             "method": "search",
             "source_ref": "gdelt",
             "confidence": "low"
-          }
-        }
-      ]
-    },
-    {
-      "run_id": "2026-08-15",
-      "date": "2026-08-15",
-      "generated_at": "2026-08-15T12:44:56Z",
-      "is_light_run": false,
-      "top_summary": "The dominant theme of this run is AI as a campaign policy issue for the 2026 midterms, with a Washington Post analysis finding that AI and data centers appear on more candidate websites than Israel or manufacturing. Separately, California's Fair Political Practices Commission chair addressed how regulators are thinking about AI-generated political content and influencer disclosures. The AI political donor class story from SF Standard covers AI company employees' political spending \u2014 not campaigns using AI \u2014 and falls outside AICN's scope.",
-      "item_count": 2,
-      "items": [
-        {
-          "id": "db95551a4b9f0a91",
-          "title": "AI Becomes a Major Election Issue for the First Time",
-          "url": "https://politicalwire.com/2026/08/14/ai-becomes-a-major-election-issue-for-the-first-time",
-          "source": "politicalwire.com",
-          "source_domain": "politicalwire.com",
-          "published": "2026-08-14",
-          "first_seen_run": "2026-08-15",
-          "category": "analysis_oped",
-          "summary": "Political Wire flags a Washington Post report finding that hundreds of House, Senate, and gubernatorial candidates are actively engaging with AI as a campaign issue, with AI and data centers appearing on more candidate websites than Israel or manufacturing. The piece frames 2026 as the first election cycle in which AI has featured widely as a political issue rather than merely a campaign tool.",
-          "why_it_matters": "Documents the shift of AI from a back-office campaign tool to a frontline electoral issue, with implications for how campaigns and vendors frame their AI messaging.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "gdelt",
-            "confidence": "low"
-          }
-        },
-        {
-          "id": "ae74cb549071b953",
-          "title": "Q&A: California\u2019s Top Politics Watchdog on AI and Influencers",
-          "url": "https://campaignsandelections.com/industry-news/qa-californias-top-politics-watchdog-on-ai-and-influencers",
-          "source": "Campaigns & Elections",
-          "source_domain": "campaignsandelections.com",
-          "published": "2026-08-14",
-          "first_seen_run": "2026-08-15",
-          "category": "regulation",
-          "summary": "Campaigns & Elections published a Q&A with California Fair Political Practices Commission Chair Adam Silver exploring how the agency is thinking about AI-generated political content and influencer disclosures, including the tension between free speech and campaign finance regulation. Silver addresses what the FPPC is watching and how it may act on new campaign technology frontiers.",
-          "why_it_matters": "Offers practitioners a direct view into how California's top campaign regulator is framing AI disclosure obligations \u2014 relevant to any campaign running AI-generated content in the state.",
-          "flags": [],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "campaigns-and-elections",
-            "confidence": "high"
           }
         }
       ]
