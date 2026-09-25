@@ -3,7 +3,7 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Thu, 24 Sep 2026 16:54:20 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 16:53:26 GMT</lastBuildDate>
     <item>
       <title>Google Pulled Down a Trump-Linked Ad That Used AI</title>
       <link>https://washingtonsun.com/campaigns/trump-pac-ai-ad-texas-google-remove</link>
@@ -206,13 +206,6 @@
       <guid isPermaLink="false">243eec7faf18b628</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
       <description>Upwave, a brand outcomes measurement platform, launched AI Campaign Insights Sessions, a new capability within its AI agent Bayes that gives marketers 24/7 on-demand access to explore campaign performance data and methodology through live AI interaction.</description>
-    </item>
-    <item>
-      <title>Grassroots Analytics is Acquiring Quiller AI</title>
-      <link>https://grassrootsanalytics.com/post/grassroots-analytics-is-acquiring-quiller-ai</link>
-      <guid isPermaLink="false">454155fb8b8081f0</guid>
-      <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
-      <description>Grassroots Analytics announced it is acquiring Quiller AI, a generative AI fundraising tool, with the goal of integrating Quiller's AI copywriting capabilities into Grassroots Analytics' progressive donor data and segmentation platform to create an all-in-one AI fundraising product.</description>
     </item>
   </channel>
 </rss>
