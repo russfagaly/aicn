@@ -20,6 +20,7 @@ Each call asks the model to return ONLY a JSON array of items backed by real
 search results (never invented URLs); we parse and tag discovery.method.
 """
 
+import datetime
 import json
 import re
 import time
@@ -249,12 +250,48 @@ def _tag_entities(items: list, entities: list) -> list:
 # Batch submission with direct-call fallback
 # ---------------------------------------------------------------------------
 
-def _build_requests(model: str, due_entities: list, due_targets: list) -> list:
+def discovery_context(today, avoid_titles) -> str:
+    """Text appended to every discovery request: a hard date cutoff and the
+    stories already found.
+
+    Search had stopped finding anything new. It kept returning ~15-24 items a
+    day, but by September only about 1 in 24 survived the age floor and the
+    seen-before dedupe: the rest were stories it had already reported, or old
+    pages. "Last 7 days" in the prompt was not enough to move it past the same
+    top results, so it now gets an explicit cutoff date and the titles it has
+    already turned up, and is told to go past them.
+    """
+    if today is None:
+        return ""
+    cutoff = today - datetime.timedelta(days=7)
+    lines = [
+        "",
+        f"TODAY is {today.isoformat()}. Only return items published on or after "
+        f"{cutoff.isoformat()}. An older page is useless here even if it is on-topic.",
+    ]
+    if avoid_titles:
+        lines += [
+            "",
+            "ALREADY FOUND — these stories are known. Do NOT return them, or other "
+            "outlets' coverage of the same underlying event. Spend your searches "
+            "finding DIFFERENT stories; returning nothing is better than returning these:",
+        ]
+        lines += [f"- {t}" for t in avoid_titles]
+    return "\n".join(lines)
+
+
+def _with_context(params: dict, context: str) -> dict:
+    if context:
+        params["messages"][0]["content"] += "\n" + context
+    return params
+
+
+def _build_requests(model: str, due_entities: list, due_targets: list, context: str = "") -> list:
     """Returns [(custom_id, params, tagger)] for every discovery call."""
-    requests = [("broad", _broad_params(model), _tag_broad)]
+    requests = [("broad", _with_context(_broad_params(model), context), _tag_broad)]
     if due_targets:
         requests.append(
-            ("sites", _sites_params(model, due_targets), lambda items: _tag_sites(items, due_targets))
+            ("sites", _with_context(_sites_params(model, due_targets), context), lambda items: _tag_sites(items, due_targets))
         )
     if due_entities:
         # Split into evenly-sized groups (5,5,4,4,... rather than 5,5,5,...,1)
@@ -269,7 +306,7 @@ def _build_requests(model: str, due_entities: list, due_targets: list) -> list:
             requests.append(
                 (
                     f"entities-{g}",
-                    _entity_group_params(model, group),
+                    _with_context(_entity_group_params(model, group), context),
                     lambda items, grp=group: _tag_entities(items, grp),
                 )
             )
@@ -321,7 +358,7 @@ def _run_batch(client, requests: list):
 _BLOCKED_DOMAIN_RE = re.compile(r"'([a-z0-9.-]+\.[a-z]{2,})'")
 
 
-def _retry_sites_without_blocked(client, model: str, due_targets: list, err_text: str, notes: list) -> list:
+def _retry_sites_without_blocked(client, model: str, due_targets: list, err_text: str, notes: list, context: str = "") -> list:
     """The allowed_domains parameter rejects the whole request if ANY listed
     domain blocks Anthropic's crawler — and outlets change robots policy
     without notice. Strip the domains the error names and retry once directly,
@@ -332,7 +369,7 @@ def _retry_sites_without_blocked(client, model: str, due_targets: list, err_text
         return []
     notes.append(f"sites retry without crawler-blocked domains: {sorted(blocked & {t['domain'] for t in due_targets})}")
     try:
-        message = client.messages.create(**_sites_params(model, remaining))
+        message = client.messages.create(**_with_context(_sites_params(model, remaining), context))
     except Exception as exc:
         notes.append(f"sites retry failed: {exc}")
         return []
@@ -342,13 +379,14 @@ def _retry_sites_without_blocked(client, model: str, due_targets: list, err_text
     return _tag_sites(items, remaining)
 
 
-def run_discovery(client, model: str, due_entities: list, due_targets: list):
+def run_discovery(client, model: str, due_entities: list, due_targets: list, today=None, avoid_titles=()):
     """All search-based discovery for one run: broad + consolidated sites +
     grouped entities, batched (with direct-call fallback).
 
     Returns (candidates, notes).
     """
-    requests = _build_requests(model, due_entities, due_targets)
+    context = discovery_context(today, list(avoid_titles))
+    requests = _build_requests(model, due_entities, due_targets, context)
     notes = []
     results = None
 
@@ -373,7 +411,7 @@ def run_discovery(client, model: str, due_entities: list, due_targets: list):
             notes.append(err)
             if custom_id == "sites" and "not accessible" in err:
                 candidates.extend(
-                    _retry_sites_without_blocked(client, model, due_targets, err, notes)
+                    _retry_sites_without_blocked(client, model, due_targets, err, notes, context)
                 )
             continue
         items, usage = _message_items_and_usage(message)

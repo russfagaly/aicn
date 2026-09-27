@@ -62,6 +62,13 @@ LOOKBACK_DAYS = 7
 # date estimates being a few days off; across those 70 items only one fell in the
 # 15-21 day band, so the stale cluster starts well beyond this line.
 MAX_CANDIDATE_AGE_DAYS = 14
+# Search memory: titles search returned in recent runs, plus recently published
+# titles, are handed back to the search calls as an "already found" list so they
+# look past results they keep repeating. 21 days covers the 14-day age floor with
+# room to spare; the cap bounds prompt size (~15 tokens a title, sent on each of
+# the ~7 discovery requests, at Batch API pricing).
+SEARCH_MEMORY_DAYS = 21
+MAX_AVOID_TITLES = 200
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # How many times a domain must surface in *curated* items before it's proposed
 # as a new source. Counting curated items rather than raw candidates is a much
@@ -108,6 +115,34 @@ def load_recent_published(root: str, lookback_days: int):
                 }
             )
     return recent
+
+
+def load_search_memory(root: str, today, days: int) -> dict:
+    """{run_id: [titles]} for runs within the last `days` days."""
+    path = os.path.join(root, "state", "search_recent.json")
+    if not os.path.exists(path):
+        return {}
+    with open(path) as f:
+        runs = json.load(f).get("runs", {})
+    cutoff = (today - datetime.timedelta(days=days)).isoformat()
+    return {rid: titles for rid, titles in runs.items() if rid >= cutoff}
+
+
+def build_avoid_titles(memory: dict, recent_published: list, limit: int) -> list:
+    """Newest first, deduped case-insensitively, capped at `limit`."""
+    ordered = []
+    for rid in sorted(memory, reverse=True):
+        ordered += memory[rid]
+    ordered += [p.get("title", "") for p in recent_published]
+    out, seen = [], set()
+    for t in ordered:
+        key = " ".join(t.lower().split())
+        if key and key not in seen:
+            seen.add(key)
+            out.append(t.strip())
+        if len(out) >= limit:
+            break
+    return out
 
 
 def drop_stale_candidates(candidates: list, today, max_age_days: int):
@@ -192,7 +227,18 @@ def main():
         f"{len(due_entities)} entities grouped; {skipped_entities + skipped_targets} weekly entries skipped)...",
         file=sys.stderr,
     )
-    search_items, search_notes = run_discovery(client, SEARCH_MODEL, due_entities, due_targets)
+    search_memory = load_search_memory(ROOT, run_date, SEARCH_MEMORY_DAYS)
+    avoid_titles = build_avoid_titles(
+        search_memory, load_recent_published(ROOT, lookback_days=SEARCH_MEMORY_DAYS), MAX_AVOID_TITLES
+    )
+    print(f"  search memory: {len(avoid_titles)} already-found titles passed to search", file=sys.stderr)
+    search_items, search_notes = run_discovery(
+        client, SEARCH_MODEL, due_entities, due_targets, today=run_date, avoid_titles=avoid_titles
+    )
+    # Remember everything search returned today, before any filtering: a result
+    # that is later dropped as stale or seen is exactly the kind it should stop
+    # repeating.
+    search_memory[run_id] = sorted({i.get("title", "").strip() for i in search_items if i.get("title")})
     candidates.extend(search_items)
     notes.extend(search_notes)
     print(f"  search discovery: {len(search_items)} items", file=sys.stderr)
@@ -336,6 +382,9 @@ def main():
     if not args.dry_run:
         with open(domain_stats_path, "w") as f:
             json.dump(domain_stats, f, indent=2, sort_keys=True)
+        with open(os.path.join(ROOT, "state", "search_recent.json"), "w") as f:
+            json.dump({"schema_version": 1, "runs": search_memory}, f, indent=2, sort_keys=True, ensure_ascii=False)
+            f.write("\n")
 
     candidates_by_url = {c["url"]: c for c in deduped}
 
