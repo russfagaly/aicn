@@ -13,12 +13,6 @@ feeds:
     url: https://www.wired.com/feed/category/politics/latest/rss
     tier: tech_accountability
 
-  - id: themarkup
-    name: The Markup
-    description: Investigative tech journalism
-    url: https://themarkup.org/feeds/rss.xml
-    tier: tech_accountability
-
   - id: notus
     name: NOTUS
     description: Nonpartisan political news
@@ -26,12 +20,6 @@ feeds:
     tier: tech_accountability
 
   # Left-leaning / movement tech
-  - id: american-prospect
-    name: The American Prospect
-    description: Progressive policy journalism
-    url: https://prospect.org/feed/
-    tier: left_movement_tech
-
   - id: higher-ground-labs
     name: Higher Ground Labs (blog)
     description: Progressive tech investment & resources
@@ -44,22 +32,6 @@ feeds:
     description: Campaign management industry news
     url: https://campaignsandelections.com/feed
     tier: trade_industry
-
-  # Regulation trackers
-  - id: ballotpedia-news
-    name: Ballotpedia News
-    description: Elections and ballot measure news
-    url: https://news.ballotpedia.org/feed
-    tier: regulation_tracker
-
-  # Elections coverage
-  # (Moved from site_targets.yaml 2026-07 — a native feed was found, so it no
-  # longer needs a paid site-scoped search.)
-  - id: the-downballot
-    name: The Downballot
-    description: Down-ballot and state race coverage
-    url: https://the-downballot.com/feed
-    tier: elections_coverage
 
   # Added from an accepted proposal.
   - id: npr
@@ -100,3 +72,24 @@ unavailable:
     reason: "Bot-blocked from CI. The feed fetches perfectly from a laptop (HTTP 200, 20 entries) but failed every one of 11 pipeline runs with an identical parse error — the response is an HTML challenge page, not the feed. Adding a named user-agent on 2026-08-10 changed nothing, confirming it is the datacenter IP being refused rather than the agent string. Produced zero published items while subscribed. Not moved to site_targets: allowed_domains rejects crawler-blocked domains outright and would fail the consolidated sites call. Covered via the watchlist instead."
   - name: At Dawn Campaigns (Erik Balsbaugh)
     reason: "Retired 2026-08-10. atdawn.us stopped answering on port 443 around 2026-08-05 and refuses connections from both CI and a laptop; DNS still resolves (99.144.121.249, a consumer broadband range) but nothing is served. Failed 6 of 7 runs and produced no published items across 40 runs. Was a working feed earlier — recheck if the site comes back."
+
+# Feeds removed for yield, not breakage — each still works. A curator diagnostic on
+# 2026-09-26 found feeds supplying 58 of 59 candidates that reached curation, and
+# nearly all of the 42 rejected as general off-topic news. These four had never
+# produced a single published item across 94 runs (2026-06-24..2026-09-25) while
+# sending ~36 candidates a day between them, about 40% of feed input. Their domains
+# are no longer "known", so if one starts producing on-topic items via search it
+# will be proposed back through the normal queue rather than silently re-added.
+retired:
+  - name: Ballotpedia News
+    url: https://news.ballotpedia.org/feed
+    reason: "Retired 2026-09-27 for yield. ~20 candidates/day, 0 published items in 94 runs. Ballot-measure and election-administration news; tiered regulation_tracker, which the narrowed scope excludes."
+  - name: The American Prospect
+    url: https://prospect.org/feed/
+    reason: "Retired 2026-09-27 for yield. ~10 candidates/day, 0 published items in 94 runs. General progressive policy journalism."
+  - name: The Downballot
+    url: https://the-downballot.com/feed
+    reason: "Retired 2026-09-27 for yield. ~6 candidates/day, 0 published items in 94 runs. Race coverage without an AI angle. Was moved from site_targets to a feed in 2026-07; not moved back, since zero yield either way."
+  - name: The Markup
+    url: https://themarkup.org/feeds/rss.xml
+    reason: "Retired 2026-09-27 for yield. 0 published items in 94 runs, and 0 candidates/day in the last five runs. Tech accountability journalism rather than campaign practice."
