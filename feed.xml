@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Sun, 27 Sep 2026 16:42:24 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 19:30:00 GMT</lastBuildDate>
+    <item>
+      <title>AI Data Centers Emerge as a Hot Topic for Political Ads in 2026</title>
+      <link>https://campaignsandelections.com/industry-news/ai-data-centers-emerge-as-a-hot-topic-for-political-ads-in-2026</link>
+      <guid isPermaLink="false">bcea82e51b30f8ce</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+      <description>An analysis by the Absecon Group found that more than 700 candidates in 2026 have run digital ads about AI data centers, establishing the issue as a significant campaign messaging theme this cycle.</description>
+    </item>
+    <item>
+      <title>AI ads are popular in the 2026 midterms, but state laws haven't stopped a lack of disclosure</title>
+      <link>https://washingtonpost.com/politics/2026/09/25/artificial-intelligence-campaign-ads-midterms/6a63e496-b923-11f1-94cb-d3d8f22a8c8b_story.html</link>
+      <guid isPermaLink="false">619c878384fb65b8</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+      <description>The Washington Post reports that AI-generated ads are prevalent across the 2026 midterm campaigns but that state disclosure laws have largely not stopped campaigns from failing to label AI-generated content.</description>
+    </item>
     <item>
       <title>Google Pulled Down a Trump-Linked Ad That Used AI</title>
       <link>https://washingtonsun.com/campaigns/trump-pac-ai-ad-texas-google-remove</link>
@@ -199,13 +213,6 @@
       <guid isPermaLink="false">14fc069ff4441f1a</guid>
       <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
       <description>Campaign Trend published a practitioner guide on using AI-assisted 'vibe coding' to build custom campaign software, advising that projects should be kept small and isolated from sensitive data to stay focused on election-winning work.</description>
-    </item>
-    <item>
-      <title>AI Campaign Insights Sessions – Newest Capability Powered by AI Agent Bayes</title>
-      <link>https://finance.yahoo.com/technology/ai/articles/upwave-launches-ai-campaign-insights-130000938.html</link>
-      <guid isPermaLink="false">243eec7faf18b628</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Upwave, a brand outcomes measurement platform, launched AI Campaign Insights Sessions, a new capability within its AI agent Bayes that gives marketers 24/7 on-demand access to explore campaign performance data and methodology through live AI interaction.</description>
     </item>
   </channel>
 </rss>

@@ -903,6 +903,18 @@
       ],
       "first_proposed": "2026-09-21",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-absecon-group",
+      "kind": "watchlist_entity",
+      "value": "Absecon Group",
+      "feed_url": null,
+      "rationale": "Analytics firm that produced a quantitative analysis of AI data center ad spending across 700+ candidates in 2026 — niche research outfit in the campaign analytics space worth tracking.",
+      "example_urls": [
+        "https://campaignsandelections.com/industry-news/ai-data-centers-emerge-as-a-hot-topic-for-political-ads-in-2026/"
+      ],
+      "first_proposed": "2026-09-28",
+      "status": "pending"
     }
   ]
 }

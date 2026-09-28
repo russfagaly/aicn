@@ -1,7 +1,57 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-27T16:42:24Z",
+  "generated_at": "2026-09-28T19:30:00Z",
   "runs": [
+    {
+      "run_id": "2026-09-28",
+      "date": "2026-09-28",
+      "generated_at": "2026-09-28T19:30:00Z",
+      "is_light_run": false,
+      "top_summary": "A Campaigns & Elections analysis finds AI data centers have become a major campaign ad topic in 2026, with over 700 candidates running digital ads on the subject \u2014 making it an emerging campaign messaging theme. The Washington Post reports that AI-generated ads are widespread in the 2026 midterms but state disclosure laws have largely failed to require campaigns to label them, highlighting a significant compliance gap practitioners should note.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "bcea82e51b30f8ce",
+          "title": "AI Data Centers Emerge as a Hot Topic for Political Ads in 2026",
+          "url": "https://campaignsandelections.com/industry-news/ai-data-centers-emerge-as-a-hot-topic-for-political-ads-in-2026",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-09-28",
+          "first_seen_run": "2026-09-28",
+          "category": "deployments_studies",
+          "summary": "An analysis by the Absecon Group found that more than 700 candidates in 2026 have run digital ads about AI data centers, establishing the issue as a significant campaign messaging theme this cycle.",
+          "why_it_matters": "Quantifies how AI infrastructure policy has become a concrete campaign ad issue at scale, giving practitioners a new issue-set to track for digital strategy.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaigns-and-elections",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "619c878384fb65b8",
+          "title": "AI ads are popular in the 2026 midterms, but state laws haven't stopped a lack of disclosure",
+          "url": "https://washingtonpost.com/politics/2026/09/25/artificial-intelligence-campaign-ads-midterms/6a63e496-b923-11f1-94cb-d3d8f22a8c8b_story.html",
+          "source": "The Washington Post",
+          "source_domain": "washingtonpost.com",
+          "published": "2026-09-25",
+          "first_seen_run": "2026-09-28",
+          "category": "deployments_studies",
+          "summary": "The Washington Post reports that AI-generated ads are prevalent across the 2026 midterm campaigns but that state disclosure laws have largely not stopped campaigns from failing to label AI-generated content.",
+          "why_it_matters": "Documents the gap between existing disclosure regulations and actual campaign practice, signaling that AI ad deployment is outpacing enforcement mechanisms.",
+          "flags": [
+            "paywalled"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-09-27",
       "date": "2026-09-27",
@@ -909,15 +959,6 @@
           }
         }
       ]
-    },
-    {
-      "run_id": "2026-08-19",
-      "date": "2026-08-19",
-      "generated_at": "2026-08-19T12:56:40Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
     }
   ]
 }
