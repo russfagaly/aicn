@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Mon, 28 Sep 2026 19:30:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 18:24:02 GMT</lastBuildDate>
+    <item>
+      <title>AI Is Changing What Campaigns Should Expect From Voter Outreach</title>
+      <link>https://campaignsandelections.com/voices/ai-is-changing-what-campaigns-should-expect-from-voter-outreach</link>
+      <guid isPermaLink="false">dbc5278b6e362764</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+      <description>A Campaigns &amp; Elections practitioner piece argues that AI's primary value in voter outreach is not generating more content but expanding a campaign's capacity to respond quickly and at scale to voter contact.</description>
+    </item>
+    <item>
+      <title>New campaign disclosures reveal how much American political campaigns spend on AI tools</title>
+      <link>https://theguardian.com/technology/2026/sep/29/political-campaigns-ai-tools-spending</link>
+      <guid isPermaLink="false">62f449fec1240ed2</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+      <description>An analysis drawing on FEC campaign-finance disclosures examines how much U.S. political campaigns are spending on AI tools, providing empirical data on actual AI adoption and expenditure across campaigns.</description>
+    </item>
     <item>
       <title>AI Data Centers Emerge as a Hot Topic for Political Ads in 2026</title>
       <link>https://campaignsandelections.com/industry-news/ai-data-centers-emerge-as-a-hot-topic-for-political-ads-in-2026</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">68288f9e5b503a33</guid>
       <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
       <description>TechPolicy.Press spoke with two experts about the growing use of AI-generated synthetic voters as substitutes for human focus groups in campaigns, describing the phenomenon as something campaigns will soon encounter if they haven't already.</description>
-    </item>
-    <item>
-      <title>The new kingmakers: Crypto, AI and betting firms fuel record spending on the 2026 midterms</title>
-      <link>https://ca.finance.yahoo.com/news/kingmakers-crypto-ai-betting-firms-100439846.html</link>
-      <guid isPermaLink="false">6f003dfbfed7656b</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 GMT</pubDate>
-      <description>A Reuters report finds that AI companies and their billionaire backers are among the top spenders in the 2026 U.S. midterm elections, joining crypto and prediction-market firms as newly dominant forces in campaign finance, displacing traditional corporate power brokers.</description>
-    </item>
-    <item>
-      <title>What To Know Before You Vibecode Your Own Campaign Software</title>
-      <link>https://campaigntrend.com/what-to-know-before-you-vibecode-your-own-campaign-software</link>
-      <guid isPermaLink="false">14fc069ff4441f1a</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Campaign Trend published a practitioner guide on using AI-assisted 'vibe coding' to build custom campaign software, advising that projects should be kept small and isolated from sensitive data to stay focused on election-winning work.</description>
     </item>
   </channel>
 </rss>
