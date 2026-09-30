@@ -148,6 +148,13 @@
     ],
     "last_seen": "2026-07-27"
   },
+  "financialcontent.com": {
+    "count": 1,
+    "example_urls": [
+      "https://financialcontent.com/article/bizwire-2026-9-29-l2-and-ivc-media-launch-voter-count-an-ai-agent-that-answers-plain-english-questions-about-the-national-voter-file"
+    ],
+    "last_seen": "2026-09-30"
+  },
   "firstalert4.com": {
     "count": 1,
     "example_urls": [
@@ -370,6 +377,13 @@
       "https://variety.com/2026/film/news/paramount-rob-bonta-artificial-intelligence-influent-ai-1236846315"
     ],
     "last_seen": "2026-09-02"
+  },
+  "victorinollc.com": {
+    "count": 1,
+    "example_urls": [
+      "https://victorinollc.com/thinking/synthetic-respondents-need-a-label"
+    ],
+    "last_seen": "2026-09-30"
   },
   "washingtoninformer.com": {
     "count": 1,

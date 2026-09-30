@@ -915,6 +915,42 @@
       ],
       "first_proposed": "2026-09-28",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-ivc-media",
+      "kind": "watchlist_entity",
+      "value": "IVC Media",
+      "feed_url": null,
+      "rationale": "Co-developer of VoterCount.ai, a new AI agent for voter-file queries; not previously prominent in campaign-tech coverage.",
+      "example_urls": [
+        "https://www.financialcontent.com/article/bizwire-2026-9-29-l2-and-ivc-media-launch-voter-count-an-ai-agent-that-answers-plain-english-questions-about-the-national-voter-file"
+      ],
+      "first_proposed": "2026-09-30",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-votercount-ai",
+      "kind": "watchlist_entity",
+      "value": "VoterCount.ai",
+      "feed_url": null,
+      "rationale": "Newly launched AI product connecting conversational queries to the national voter file; a specific tool campaigns could adopt.",
+      "example_urls": [
+        "https://www.financialcontent.com/article/bizwire-2026-9-29-l2-and-ivc-media-launch-voter-count-an-ai-agent-that-answers-plain-english-questions-about-the-national-voter-file"
+      ],
+      "first_proposed": "2026-09-30",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-victorino-group",
+      "kind": "watchlist_entity",
+      "value": "Victorino Group",
+      "feed_url": null,
+      "rationale": "Emerging firm publishing practitioner-level analysis on synthetic respondents in political research; worth tracking for polling-methodology coverage.",
+      "example_urls": [
+        "https://victorinollc.com/thinking/synthetic-respondents-need-a-label"
+      ],
+      "first_proposed": "2026-09-30",
+      "status": "pending"
     }
   ]
 }

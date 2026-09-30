@@ -3,7 +3,28 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Tue, 29 Sep 2026 18:24:02 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 18:13:32 GMT</lastBuildDate>
+    <item>
+      <title>L2 and IVC Media Launch Voter Count, an AI Agent That Answers Plain-English Questions About the National Voter File</title>
+      <link>https://financialcontent.com/article/bizwire-2026-9-29-l2-and-ivc-media-launch-voter-count-an-ai-agent-that-answers-plain-english-questions-about-the-national-voter-file</link>
+      <guid isPermaLink="false">b939fe294a69c807</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+      <description>L2 and IVC Media have launched VoterCount.ai, a conversational AI agent that lets users ask plain-English questions directly against L2's national voter file of more than 217 million registered voters and receive answers in seconds. The companies describe it as the only AI tool with a direct live connection to a national voter file.</description>
+    </item>
+    <item>
+      <title>Can AI Produce the Most Informed Electorate in History?</title>
+      <link>https://campaigntrend.com/can-ai-produce-the-most-informed-electorate-in-history</link>
+      <guid isPermaLink="false">99782b133ca26e1e</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <description>A Campaign Trend piece argues that AI is narrowing the information gap between political insiders and ordinary voters at the local level, and that campaigns will increasingly face constituents who arrive at conversations already informed — changing how voter outreach must be designed.</description>
+    </item>
+    <item>
+      <title>Synthetic Respondents Need a Label Before They Need a Benchmark</title>
+      <link>https://victorinollc.com/thinking/synthetic-respondents-need-a-label</link>
+      <guid isPermaLink="false">eee912aa8e6c77bd</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+      <description>A Victorino Group commentary argues that the most pressing problem with synthetic survey respondents is not accuracy benchmarking but the absence of mandatory labeling — research buyers currently cannot tell whether data they purchase includes AI-simulated responses, even as vendors in the space carry billion-dollar valuations while subgroup accuracy remains weak.</description>
+    </item>
     <item>
       <title>AI Is Changing What Campaigns Should Expect From Voter Outreach</title>
       <link>https://campaignsandelections.com/voices/ai-is-changing-what-campaigns-should-expect-from-voter-outreach</link>
@@ -192,27 +213,6 @@
       <guid isPermaLink="false">7d7f798842d5873d</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
       <description>Meta says it identified and disrupted an Iran-linked influence operation that used AI-generated content to target politicians and journalists on Facebook and Instagram.</description>
-    </item>
-    <item>
-      <title>NGP VAN Wants Campaigns to Chat With Its CRM</title>
-      <link>https://campaignsandelections.com/industry-news/ngp-van-wants-campaigns-to-chat-with-its-crm</link>
-      <guid isPermaLink="false">420baf57921a124a</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-      <description>NGP VAN has launched Navigator, a natural-language AI feature built into its CRM that allows campaign staffers to query their voter and donor databases conversationally instead of through traditional search interfaces.</description>
-    </item>
-    <item>
-      <title>Michigan Congressional Candidate Says Viral Clip of His Voice Is a ‘Fabrication’</title>
-      <link>https://notus.org/2026-election/jeremy-moss-israel-hasan-piker-abdul-el-sayed</link>
-      <guid isPermaLink="false">ef396beb53373880</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Michigan congressional Democratic nominee Jeremy Moss is publicly contesting a viral audio clip of his voice, calling it a manipulated fabrication that "peddles in offensive tropes and lies."</description>
-    </item>
-    <item>
-      <title>Here Come the Synthetic Voters</title>
-      <link>https://techpolicy.press/here-come-the-synthetic-voters</link>
-      <guid isPermaLink="false">68288f9e5b503a33</guid>
-      <pubDate>Sun, 16 Aug 2026 00:00:00 GMT</pubDate>
-      <description>TechPolicy.Press spoke with two experts about the growing use of AI-generated synthetic voters as substitutes for human focus groups in campaigns, describing the phenomenon as something campaigns will soon encounter if they haven't already.</description>
     </item>
   </channel>
 </rss>

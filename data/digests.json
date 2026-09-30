@@ -1,7 +1,77 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T18:24:02Z",
+  "generated_at": "2026-09-30T18:13:32Z",
   "runs": [
+    {
+      "run_id": "2026-09-30",
+      "date": "2026-09-30",
+      "generated_at": "2026-09-30T18:13:32Z",
+      "is_light_run": false,
+      "top_summary": "The most notable development this run is the launch of VoterCount.ai, a conversational AI agent built by L2 and IVC Media that lets users query the national voter file in plain English \u2014 a concrete new tool campaigns and practitioners can access today. A practitioner op-ed on Campaign Trend argues AI will close the information gap between political insiders and local voters, raising implications for how campaigns target and message. A polling-industry commentary flags the lack of labeling standards for synthetic survey respondents as a more urgent problem than accuracy benchmarking.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "b939fe294a69c807",
+          "title": "L2 and IVC Media Launch Voter Count, an AI Agent That Answers Plain-English Questions About the National Voter File",
+          "url": "https://financialcontent.com/article/bizwire-2026-9-29-l2-and-ivc-media-launch-voter-count-an-ai-agent-that-answers-plain-english-questions-about-the-national-voter-file",
+          "source": "Financial Content (via BusinessWire)",
+          "source_domain": "financialcontent.com",
+          "published": "2026-09-29",
+          "first_seen_run": "2026-09-30",
+          "category": "vendor_moves",
+          "summary": "L2 and IVC Media have launched VoterCount.ai, a conversational AI agent that lets users ask plain-English questions directly against L2's national voter file of more than 217 million registered voters and receive answers in seconds. The companies describe it as the only AI tool with a direct live connection to a national voter file.",
+          "why_it_matters": "Lowering the technical barrier to querying large voter-file datasets could expand AI-driven targeting and list analysis to campaigns and organizations that lack in-house data science capacity.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:l2",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "99782b133ca26e1e",
+          "title": "Can AI Produce the Most Informed Electorate in History?",
+          "url": "https://campaigntrend.com/can-ai-produce-the-most-informed-electorate-in-history",
+          "source": "Campaign Trend",
+          "source_domain": "campaigntrend.com",
+          "published": "2026-09-30",
+          "first_seen_run": "2026-09-30",
+          "category": "analysis_oped",
+          "summary": "A Campaign Trend piece argues that AI is narrowing the information gap between political insiders and ordinary voters at the local level, and that campaigns will increasingly face constituents who arrive at conversations already informed \u2014 changing how voter outreach must be designed.",
+          "why_it_matters": "If AI tools genuinely raise baseline voter informedness, campaigns will need to recalibrate messaging and targeting assumptions built on information asymmetry.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaign-trend",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "eee912aa8e6c77bd",
+          "title": "Synthetic Respondents Need a Label Before They Need a Benchmark",
+          "url": "https://victorinollc.com/thinking/synthetic-respondents-need-a-label",
+          "source": "Victorino Group",
+          "source_domain": "victorinollc.com",
+          "published": "2026-09-25",
+          "first_seen_run": "2026-09-30",
+          "category": "polling_synthetic",
+          "summary": "A Victorino Group commentary argues that the most pressing problem with synthetic survey respondents is not accuracy benchmarking but the absence of mandatory labeling \u2014 research buyers currently cannot tell whether data they purchase includes AI-simulated responses, even as vendors in the space carry billion-dollar valuations while subgroup accuracy remains weak.",
+          "why_it_matters": "Without disclosure norms, campaigns and pollsters buying survey data have no way to know whether results reflect real voters or synthetic stand-ins, undermining strategic decisions built on that research.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-09-29",
       "date": "2026-09-29",
@@ -911,54 +981,6 @@
       "top_summary": "",
       "item_count": 0,
       "items": []
-    },
-    {
-      "run_id": "2026-08-21",
-      "date": "2026-08-21",
-      "generated_at": "2026-08-21T12:56:46Z",
-      "is_light_run": false,
-      "top_summary": "Two substantive items survive this run. A TechPolicy.Press feature examines the emerging use of AI-generated synthetic voters as campaign focus-group substitutes, with expert commentary on capability and risk. A Reuters/Yahoo Finance piece reports that AI companies are among the new dominant spenders in the 2026 midterms \u2014 though the story is primarily about political spending by AI firms rather than AI as a campaign tool, it contains enough concrete detail on AI industry involvement in the cycle to be worth tracking.",
-      "item_count": 2,
-      "items": [
-        {
-          "id": "68288f9e5b503a33",
-          "title": "Here Come the Synthetic Voters",
-          "url": "https://techpolicy.press/here-come-the-synthetic-voters",
-          "source": "TechPolicy.Press",
-          "source_domain": "techpolicy.press",
-          "published": "2026-08-16",
-          "first_seen_run": "2026-08-21",
-          "category": "polling_synthetic",
-          "summary": "TechPolicy.Press spoke with two experts about the growing use of AI-generated synthetic voters as substitutes for human focus groups in campaigns, describing the phenomenon as something campaigns will soon encounter if they haven't already.",
-          "why_it_matters": "Synthetic voter simulations could substantially lower the cost and speed of qualitative research for campaigns, but raise questions about representational accuracy and the ethics of replacing real constituent input.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "broad_web_search",
-            "confidence": "medium"
-          }
-        },
-        {
-          "id": "6f003dfbfed7656b",
-          "title": "The new kingmakers: Crypto, AI and betting firms fuel record spending on the 2026 midterms",
-          "url": "https://ca.finance.yahoo.com/news/kingmakers-crypto-ai-betting-firms-100439846.html",
-          "source": "Yahoo Finance",
-          "source_domain": "ca.finance.yahoo.com",
-          "published": "2026-08-20",
-          "first_seen_run": "2026-08-21",
-          "category": "deployments_studies",
-          "summary": "A Reuters report finds that AI companies and their billionaire backers are among the top spenders in the 2026 U.S. midterm elections, joining crypto and prediction-market firms as newly dominant forces in campaign finance, displacing traditional corporate power brokers.",
-          "why_it_matters": "The scale of AI-industry political spending signals how deeply AI vendors are embedding themselves in the 2026 electoral landscape, which has implications for which campaigns receive resources and what policy agendas get amplified.",
-          "flags": [
-            "speculative"
-          ],
-          "discovery": {
-            "method": "search",
-            "source_ref": "site:finance-yahoo",
-            "confidence": "medium"
-          }
-        }
-      ]
     }
   ]
 }
