@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Thu, 01 Oct 2026 18:17:04 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 17:42:46 GMT</lastBuildDate>
+    <item>
+      <title>Van Orden Hit With Cease-and-Desist Letter Over AI Deepfake Videos</title>
+      <link>https://washingtonsun.com/campaigns/van-orden-hit-with-cease-and-desist-letter-over-ai-deepfake-videos</link>
+      <guid isPermaLink="false">0c9560c45f308bf1</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Attorneys for Democratic congressional candidate Rebecca Cooke sent Rep. Derrick Van Orden's campaign a cease-and-desist letter, alleging the Wisconsin Republican's campaign used AI-generated deepfake videos to falsely attribute statements to Cooke.</description>
+    </item>
+    <item>
+      <title>Q&amp;A: How Big Tech Forever Changed the Campaign World</title>
+      <link>https://campaignsandelections.com/industry-news/qa-how-big-tech-forever-changed-the-campaign-world</link>
+      <guid isPermaLink="false">9e2d25de8054b272</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Campaigns &amp; Elections features a Q&amp;A with Katie Harbath, a longtime tech-politics veteran, who reflects on how campaigns misjudged social media's early potential and what the AI era now means for political campaigning.</description>
+    </item>
     <item>
       <title>L2 and IVC Media Launch Voter Count, an AI Agent That Answers Plain-English Questions About the National Voter File</title>
       <link>https://financialcontent.com/article/bizwire-2026-9-29-l2-and-ivc-media-launch-voter-count-an-ai-agent-that-answers-plain-english-questions-about-the-national-voter-file</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">7408edccf8413fdf</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
       <description>New research from a Democratic-aligned firm estimates AI chatbots receive about 650,000 political questions weekly, and Democrats are working to address problems with how those chatbots respond to campaign-related queries.</description>
-    </item>
-    <item>
-      <title>Announcing HGL’s Agentic AI Open Call Investments</title>
-      <link>https://highergroundlabs.com/agentic-ai-investments</link>
-      <guid isPermaLink="false">46b581c1160759eb</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Higher Ground Labs announced investments in five companies — Baraza, Context, Haystack, Locunity, and Revere — through its Agentic AI Open Call, backing startups building agentic AI tools for progressive political campaigns.</description>
-    </item>
-    <item>
-      <title>Exclusive: Meta disrupts Iran-linked AI operation targeting politicians, journalists</title>
-      <link>https://axios.com/2026/08/27/facebook-instagram-iran-ai-disinformation</link>
-      <guid isPermaLink="false">7d7f798842d5873d</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Meta says it identified and disrupted an Iran-linked influence operation that used AI-generated content to target politicians and journalists on Facebook and Instagram.</description>
     </item>
   </channel>
 </rss>

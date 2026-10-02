@@ -951,6 +951,43 @@
       ],
       "first_proposed": "2026-09-30",
       "status": "pending"
+    },
+    {
+      "id": "prop-source-washingtonsun-com",
+      "kind": "source",
+      "value": "washingtonsun.com",
+      "feed_url": "https://www.washingtonsun.com/index.rss",
+      "rationale": "Produced 2 published item(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://washingtonsun.com/campaigns/trump-pac-ai-ad-texas-google-remove",
+        "https://washingtonsun.com/campaigns/van-orden-hit-with-cease-and-desist-letter-over-ai-deepfake-videos"
+      ],
+      "first_proposed": "2026-10-02",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-katie-harbath",
+      "kind": "watchlist_entity",
+      "value": "Katie Harbath",
+      "feed_url": null,
+      "rationale": "Tech-politics veteran and commentator on AI's role in campaigns, newly quoted in practitioner press in this context and worth tracking as an analyst voice in the space.",
+      "example_urls": [
+        "https://campaignsandelections.com/industry-news/qa-how-big-tech-forever-changed-the-campaign-world/"
+      ],
+      "first_proposed": "2026-10-02",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-rebecca-cooke",
+      "kind": "watchlist_entity",
+      "value": "Rebecca Cooke",
+      "feed_url": null,
+      "rationale": "Democratic congressional candidate in Wisconsin whose campaign is at the center of a documented AI deepfake incident involving her opponent's campaign.",
+      "example_urls": [
+        "https://www.washingtonsun.com/campaigns/van-orden-hit-with-cease-and-desist-letter-over-ai-deepfake-videos"
+      ],
+      "first_proposed": "2026-10-02",
+      "status": "pending"
     }
   ]
 }
