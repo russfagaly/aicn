@@ -329,7 +329,18 @@ def main():
     if curate_note:
         notes.append(curate_note)
     if curated is None:
-        sys.exit("Curation call did not return parseable JSON. Aborting without writing output.")
+        # Print everything collected so far before exiting. Run notes normally only
+        # print at the end of a successful run, so an abort here used to hide the
+        # actual cause: from 2026-10-03 the API was rejecting every call for an
+        # empty credit balance, and the log said only "did not return parseable
+        # JSON" while search quietly reported 0 items. The API error text is
+        # already in these notes, from curate_items and from the search batch.
+        print("\n--- Notes before abort ---", file=sys.stderr)
+        for note in notes:
+            print(f"note: {note}", file=sys.stderr)
+        if curate_note and curate_note.startswith("curate call failed"):
+            sys.exit(f"Curation API call failed, aborting without writing output: {curate_note}")
+        sys.exit("Curation response was not parseable JSON. Aborting without writing output.")
 
     # Tally domains from the curated items only. Counting raw candidates here
     # meant anything the gatherers stumbled onto scored — including SEO spam
