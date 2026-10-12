@@ -3,7 +3,42 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Fri, 02 Oct 2026 17:42:46 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 18:28:30 GMT</lastBuildDate>
+    <item>
+      <title>Voters Aren’t Comfortable With the Most Public-Facing Uses of AI In Politics, Poll Finds</title>
+      <link>https://campaignsandelections.com/industry-news/voters-arent-comfortable-with-the-most-public-facing-uses-of-ai-in-politics-poll-finds</link>
+      <guid isPermaLink="false">fef1bf7159d0d540</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <description>A new national survey commissioned by the AAPC Foundation finds that voters are uncomfortable with the most public-facing uses of AI in political campaigns, providing some of the clearest polling data yet on public attitudes toward campaigns' growing AI adoption.</description>
+    </item>
+    <item>
+      <title>Bilingual AI app helps Latinos figure out how to vote</title>
+      <link>https://axios.com/2026/10/06/latino-voters-ai-guide-midterms-nubi</link>
+      <guid isPermaLink="false">c4b13fa260414851</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+      <description>A bilingual AI app called Nubi is being used to help Latino voters navigate the voting process ahead of the 2026 midterms, serving as a voter-outreach and civic-guidance tool targeting a key demographic.</description>
+    </item>
+    <item>
+      <title>Political Campaign Use of AI-Powered Voter Outreach Highlights Regulatory Gaps</title>
+      <link>https://cdt.org/insights/political-campaign-use-of-ai-powered-voter-outreach-highlights-regulatory-gaps</link>
+      <guid isPermaLink="false">8b0b590d7aeb4460</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
+      <description>The Center for Democracy and Technology published an analysis examining how political campaigns are using AI-powered voter outreach tools and the regulatory gaps that current frameworks leave unaddressed.</description>
+    </item>
+    <item>
+      <title>Campaigning for the AI ‘vote’</title>
+      <link>https://campaigntrend.com/campaigning-for-the-ai-vote</link>
+      <guid isPermaLink="false">59e262e2d15c4bb0</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Campaign Trend's newsletter roundup covers Inbox.GOP's latest spam data on AI-generated political email and recent deepfake-related lawsuits in the political arena.</description>
+    </item>
+    <item>
+      <title>Good Intentions Are Not Safeguards: Katie Harbath on What Social Media Should Teach Us About AI</title>
+      <link>https://campaigntrend.com/good-intentions-are-not-safeguards-katie-harbath-on-what-social-media-should-teach-us-about-ai</link>
+      <guid isPermaLink="false">585653c1557973e5</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Katie Harbath, a veteran of Facebook's policy work, argues that the campaign and political ecosystem cannot simply replicate the social media governance playbook for AI and must apply lessons learned to build new safeguards proactively.</description>
+    </item>
     <item>
       <title>Van Orden Hit With Cease-and-Desist Letter Over AI Deepfake Videos</title>
       <link>https://washingtonsun.com/campaigns/van-orden-hit-with-cease-and-desist-letter-over-ai-deepfake-videos</link>
@@ -178,41 +213,6 @@
       <guid isPermaLink="false">562dad18759671ab</guid>
       <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
       <description>A Campaigns &amp; Elections practitioner column argues that voters now increasingly encounter politics through AI-generated answers in search results and social feeds, and urges campaign digital teams to rethink content strategy to reach audiences in those new channels.</description>
-    </item>
-    <item>
-      <title>Campaigns Use AI Despite ChatGPT Ban</title>
-      <link>https://politicalwire.com/2026/09/05/campaigns-use-ai-despite-chatgpt-ban</link>
-      <guid isPermaLink="false">1b18ad4d8f1298c9</guid>
-      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Major-party candidates in the 2026 midterms are acknowledging in campaign filings and website fine print that they are using AI — including tools subject to ChatGPT's election-use restrictions — to reach voters, according to a report aggregated by Political Wire.</description>
-    </item>
-    <item>
-      <title>Pro - Paramount Group Uses AI to Pressure Bonta to Drop Antitrust Case</title>
-      <link>https://variety.com/2026/film/news/paramount-rob-bonta-artificial-intelligence-influent-ai-1236846315</link>
-      <guid isPermaLink="false">1ed8915521bf7d19</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
-      <description>An advocacy group called Neighbors for Strong Communities, which supports the Paramount-Warner Bros. merger, is using an AI platform called Influent AI to help people generate and send personalized messages urging California Attorney General Rob Bonta to drop his antitrust lawsuit against the deal.</description>
-    </item>
-    <item>
-      <title>Paid actors, AI writing: How a new kind of video business cashed in on America's divided politics</title>
-      <link>https://semafor.com/article/09/02/2026/paid-actors-ai-writing-how-a-new-kind-of-video-business-cashed-in-on-americas-divided-politics</link>
-      <guid isPermaLink="false">626250e9afb3fee6</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Semafor reports that 'ghost creator' networks are producing large volumes of nearly identical partisan political videos using paid actors and AI-written scripts, reaching millions of viewers with sensationalized content targeting Democrats.</description>
-    </item>
-    <item>
-      <title>Synthetic Everything Hits The Campaign Trail</title>
-      <link>https://campaigntrend.com/synthetic-everything-hits-the-campaign-trail</link>
-      <guid isPermaLink="false">1f42abf79fc26ee1</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Campaign Trend reports on a wave of synthetic AI-generated content in the 2026 campaign cycle, citing Cory Booker's TikTok presence and alleged forged donations in Arizona as illustrative cases of AI-synthetic tactics entering campaign operations.</description>
-    </item>
-    <item>
-      <title>Democrats Are Getting Some Answers to Their Chatbot Problems</title>
-      <link>https://notus.org/2026-election/ai-chatbot-chatgpt-democrats-campaign</link>
-      <guid isPermaLink="false">7408edccf8413fdf</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
-      <description>New research from a Democratic-aligned firm estimates AI chatbots receive about 650,000 political questions weekly, and Democrats are working to address problems with how those chatbots respond to campaign-related queries.</description>
     </item>
   </channel>
 </rss>

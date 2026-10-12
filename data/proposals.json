@@ -988,6 +988,42 @@
       ],
       "first_proposed": "2026-10-02",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-aapc-foundation",
+      "kind": "watchlist_entity",
+      "value": "AAPC Foundation",
+      "feed_url": null,
+      "rationale": "Commissioned a major national survey on voter attitudes toward AI in campaigns — a niche political-practitioner organization worth tracking for future research on AI adoption.",
+      "example_urls": [
+        "https://campaignsandelections.com/industry-news/voters-arent-comfortable-with-the-most-public-facing-uses-of-ai-in-politics-poll-finds/"
+      ],
+      "first_proposed": "2026-10-12",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-nubi",
+      "kind": "watchlist_entity",
+      "value": "Nubi",
+      "feed_url": null,
+      "rationale": "A bilingual AI app specifically built to guide Latino voters through the voting process — an emerging campaign-adjacent AI tool not widely covered.",
+      "example_urls": [
+        "https://www.axios.com/2026/10/06/latino-voters-ai-guide-midterms-nubi"
+      ],
+      "first_proposed": "2026-10-12",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-inbox-gop",
+      "kind": "watchlist_entity",
+      "value": "Inbox.GOP",
+      "feed_url": null,
+      "rationale": "Appears to be a service tracking AI-generated political spam/email, cited for data on AI-generated campaign content — niche and worth monitoring.",
+      "example_urls": [
+        "https://campaigntrend.com/campaigning-for-the-ai-vote/"
+      ],
+      "first_proposed": "2026-10-12",
+      "status": "pending"
     }
   ]
 }
