@@ -140,3 +140,21 @@ entities:
     name: aKillion
     kind: vendor
     cadence: daily
+  # Added from an accepted proposal.
+  - id: influent-ai
+    name: Influent AI
+    kind: vendor
+    cadence: weekly
+    weekday: 6
+  # Added from an accepted proposal.
+  - id: conexion
+    name: Conexión
+    kind: vendor
+    cadence: weekly
+    weekday: 0
+  # Added from an accepted proposal.
+  - id: aapc-foundation
+    name: AAPC Foundation
+    kind: org_no_feed
+    cadence: weekly
+    weekday: 1

@@ -685,7 +685,7 @@
         "https://www.techpolicy.press/here-come-the-synthetic-voters/"
       ],
       "first_proposed": "2026-08-21",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-ngp-van-navigator",
@@ -697,7 +697,7 @@
         "https://campaignsandelections.com/industry-news/ngp-van-wants-campaigns-to-chat-with-its-crm/"
       ],
       "first_proposed": "2026-08-25",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-jeremy-moss",
@@ -709,7 +709,7 @@
         "https://www.notus.org/2026-election/jeremy-moss-israel-hasan-piker-abdul-el-sayed"
       ],
       "first_proposed": "2026-08-25",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-baraza",
@@ -721,7 +721,7 @@
         "https://highergroundlabs.com/agentic-ai-investments/"
       ],
       "first_proposed": "2026-08-27",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-context",
@@ -733,7 +733,7 @@
         "https://highergroundlabs.com/agentic-ai-investments/"
       ],
       "first_proposed": "2026-08-27",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-haystack",
@@ -745,7 +745,7 @@
         "https://highergroundlabs.com/agentic-ai-investments/"
       ],
       "first_proposed": "2026-08-27",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-locunity",
@@ -757,7 +757,7 @@
         "https://highergroundlabs.com/agentic-ai-investments/"
       ],
       "first_proposed": "2026-08-27",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-revere",
@@ -769,7 +769,7 @@
         "https://highergroundlabs.com/agentic-ai-investments/"
       ],
       "first_proposed": "2026-08-27",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-influent-ai",
@@ -781,7 +781,7 @@
         "https://variety.com/2026/film/news/paramount-rob-bonta-artificial-intelligence-influent-ai-1236846315/"
       ],
       "first_proposed": "2026-09-02",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "id": "prop-entity-neighbors-for-strong-communities",
@@ -793,7 +793,7 @@
         "https://variety.com/2026/film/news/paramount-rob-bonta-artificial-intelligence-influent-ai-1236846315/"
       ],
       "first_proposed": "2026-09-02",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-source-politicalwire-com",
@@ -806,7 +806,7 @@
         "https://politicalwire.com/2026/09/05/campaigns-use-ai-despite-chatgpt-ban"
       ],
       "first_proposed": "2026-09-06",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-michael-lee",
@@ -818,7 +818,7 @@
         "https://www.whqr.org/local/2026-09-06/sunday-edition-slopping-towards-bethlehem"
       ],
       "first_proposed": "2026-09-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-jessica-bichler",
@@ -830,7 +830,7 @@
         "https://www.whqr.org/local/2026-09-06/sunday-edition-slopping-towards-bethlehem"
       ],
       "first_proposed": "2026-09-08",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-turning-point-usa",
@@ -842,7 +842,7 @@
         "https://www.phoenixnewtimes.com/news/turning-point-posted-deepfake-rep-lorena-austin-planting-democratas-por-biggs-sign-40696531/"
       ],
       "first_proposed": "2026-09-09",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-james-talarico",
@@ -854,7 +854,7 @@
         "https://www.dailykos.com/stories/2026/9/8/800095633/community/ken-paxtons-bs-ai-campaign-ad-features-a-fake-james-talarico-misquoting-himself/"
       ],
       "first_proposed": "2026-09-09",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-leading-future",
@@ -866,7 +866,7 @@
         "https://thehill.com/policy/technology/6097925-democrats-ai-leading-future-super-pac-letter/"
       ],
       "first_proposed": "2026-09-19",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-tony-fabrizio",
@@ -878,7 +878,7 @@
         "https://www.axios.com/2026/09/15/trump-pollster-data-center-republicans-midterm-election"
       ],
       "first_proposed": "2026-09-19",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-conexi-n",
@@ -890,7 +890,7 @@
         "https://campaignsandelections.com/industry-news/can-ai-help-campaigns-reach-latino-voters/"
       ],
       "first_proposed": "2026-09-21",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "id": "prop-entity-mundial-media",
@@ -902,7 +902,7 @@
         "https://campaignsandelections.com/industry-news/can-ai-help-campaigns-reach-latino-voters/"
       ],
       "first_proposed": "2026-09-21",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-absecon-group",
@@ -914,7 +914,7 @@
         "https://campaignsandelections.com/industry-news/ai-data-centers-emerge-as-a-hot-topic-for-political-ads-in-2026/"
       ],
       "first_proposed": "2026-09-28",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-ivc-media",
@@ -926,7 +926,7 @@
         "https://www.financialcontent.com/article/bizwire-2026-9-29-l2-and-ivc-media-launch-voter-count-an-ai-agent-that-answers-plain-english-questions-about-the-national-voter-file"
       ],
       "first_proposed": "2026-09-30",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-votercount-ai",
@@ -938,7 +938,7 @@
         "https://www.financialcontent.com/article/bizwire-2026-9-29-l2-and-ivc-media-launch-voter-count-an-ai-agent-that-answers-plain-english-questions-about-the-national-voter-file"
       ],
       "first_proposed": "2026-09-30",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-victorino-group",
@@ -950,7 +950,7 @@
         "https://victorinollc.com/thinking/synthetic-respondents-need-a-label"
       ],
       "first_proposed": "2026-09-30",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-source-washingtonsun-com",
@@ -963,7 +963,7 @@
         "https://washingtonsun.com/campaigns/van-orden-hit-with-cease-and-desist-letter-over-ai-deepfake-videos"
       ],
       "first_proposed": "2026-10-02",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-katie-harbath",
@@ -975,7 +975,7 @@
         "https://campaignsandelections.com/industry-news/qa-how-big-tech-forever-changed-the-campaign-world/"
       ],
       "first_proposed": "2026-10-02",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-rebecca-cooke",
@@ -987,7 +987,7 @@
         "https://www.washingtonsun.com/campaigns/van-orden-hit-with-cease-and-desist-letter-over-ai-deepfake-videos"
       ],
       "first_proposed": "2026-10-02",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-aapc-foundation",
@@ -999,7 +999,7 @@
         "https://campaignsandelections.com/industry-news/voters-arent-comfortable-with-the-most-public-facing-uses-of-ai-in-politics-poll-finds/"
       ],
       "first_proposed": "2026-10-12",
-      "status": "pending"
+      "status": "accepted"
     },
     {
       "id": "prop-entity-nubi",
@@ -1011,7 +1011,7 @@
         "https://www.axios.com/2026/10/06/latino-voters-ai-guide-midterms-nubi"
       ],
       "first_proposed": "2026-10-12",
-      "status": "pending"
+      "status": "rejected"
     },
     {
       "id": "prop-entity-inbox-gop",
@@ -1023,7 +1023,7 @@
         "https://campaigntrend.com/campaigning-for-the-ai-vote/"
       ],
       "first_proposed": "2026-10-12",
-      "status": "pending"
+      "status": "rejected"
     }
   ]
 }
