@@ -142,6 +142,25 @@ def write_proposals(root: str, new_proposals: list, dry_run: bool):
     return added
 
 
+def merge_same_day_runs(earlier: dict, later: dict) -> dict:
+    """Combine two runs that share a run_id into one entry.
+
+    Later items come first (newest first, like the rest of the digest), then
+    earlier items not already present. Both top summaries are kept, earlier
+    first, so the day reads in order. A merged run is light only if it ends up
+    with no items at all.
+    """
+    merged = dict(later)
+    ids = {it["id"] for it in later.get("items", [])}
+    items = list(later.get("items", [])) + [it for it in earlier.get("items", []) if it["id"] not in ids]
+    merged["items"] = items
+    merged["item_count"] = len(items)
+    merged["is_light_run"] = not items
+    summaries = [s for s in (earlier.get("top_summary"), later.get("top_summary")) if s]
+    merged["top_summary"] = " ".join(summaries)
+    return merged
+
+
 def write_outputs(root: str, run_id: str, run_date, candidates_by_url: dict, curated: dict, dry_run: bool):
     data_dir = os.path.join(root, "data")
     os.makedirs(data_dir, exist_ok=True)
@@ -163,7 +182,14 @@ def write_outputs(root: str, run_id: str, run_date, candidates_by_url: dict, cur
     new_run = build_run(run_id, run_date, candidates_by_url, curated)
 
     digests = _load_existing_digests(real_digests_path)
-    # Replace a same-run_id entry if re-run same day; else prepend newest-first.
+    # A second run on the same day merges into that day's entry rather than
+    # replacing it. Replacing used to delete the earlier run's items for good:
+    # they were already in seen.json, so no later run would gather them again.
+    # That happened on 2026-10-12, when a manual run's 5 items were erased by
+    # the scheduled run that afternoon.
+    earlier = next((r for r in digests.get("runs", []) if r["run_id"] == run_id), None)
+    if earlier is not None:
+        new_run = merge_same_day_runs(earlier, new_run)
     digests["runs"] = [r for r in digests.get("runs", []) if r["run_id"] != run_id]
     digests["runs"].insert(0, new_run)
     digests["runs"] = digests["runs"][:MAX_RUNS_KEPT]
