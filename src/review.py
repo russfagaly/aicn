@@ -178,9 +178,15 @@ def wire_accepted(p):
     name = ask_text("name", default=value)
     kind = ask_choice("kind", v["kinds"])
     cadence = ask_choice("cadence", v["cadences"])
+    weekday = None
+    if cadence == "weekly":
+        light = wire.WEEKDAYS[wire.lightest_weekday(ROOT)]
+        print(f"    {DIM}lightest day for entity search: {light}{RESET}")
+        weekday = wire.WEEKDAYS.index(ask_text("weekday (Mon-Sun)", default=light).strip()[:3].title())
     entry_id = wire.next_id(ROOT, "watchlist.yaml", value)
-    wire.wire_entity(ROOT, entry_id, name, kind, cadence)
-    return f"watchlist.yaml  id: {entry_id}  kind: {kind}  cadence: {cadence}"
+    wire.wire_entity(ROOT, entry_id, name, kind, cadence, weekday)
+    day = f"  weekday: {wire.WEEKDAYS[weekday]}" if weekday is not None else ""
+    return f"watchlist.yaml  id: {entry_id}  kind: {kind}  cadence: {cadence}{day}"
 
 
 def run_check(proposals):

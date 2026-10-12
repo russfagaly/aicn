@@ -14,6 +14,7 @@ list and leave every other byte of the file alone.
 
 import os
 import re
+import unicodedata
 import urllib.parse
 
 import yaml
@@ -33,6 +34,9 @@ CADENCES = ["daily", "weekly"]
 
 def slugify(value: str) -> str:
     """Domain or name -> an id in the style the config files already use."""
+    # Transliterate accents first ("Conexión" -> "conexion") rather than letting
+    # the non-ASCII character become a hyphen.
+    value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode()
     value = value.strip().lower()
     value = value.removeprefix("www.")
     # Drop a TLD so nypost.com -> nypost, matching ids like `axios`, `semafor`.
@@ -197,7 +201,22 @@ def wire_target(root: str, entry_id: str, name: str, domain: str, cadence: str, 
     return _write(root, "site_targets.yaml", "targets", block)
 
 
-def wire_entity(root: str, entry_id: str, name: str, kind: str, cadence: str) -> str:
+WEEKDAYS = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]  # index = date.weekday()
+
+
+def lightest_weekday(root: str) -> int:
+    """Weekday (0=Mon) with the fewest entities due, to keep search groups even."""
+    entities = _load(root, "watchlist.yaml").get("entities", []) or []
+    daily = sum(1 for e in entities if e.get("cadence", "daily") == "daily")
+    load = [daily + sum(1 for e in entities if e.get("cadence") == "weekly" and e.get("weekday") == d) for d in range(7)]
+    return min(range(7), key=lambda d: load[d])
+
+
+def wire_entity(root: str, entry_id: str, name: str, kind: str, cadence: str, weekday: int | None = None) -> str:
+    # digest.py only searches a weekly entity on its own `weekday`, so a weekly
+    # entry without one would never be searched at all.
+    if cadence == "weekly" and weekday is None:
+        raise ValueError("a weekly entity needs a weekday (0=Mon ... 6=Sun)")
     block = (
         f"  # Added from an accepted proposal.\n"
         f"  - id: {entry_id}\n"
@@ -205,6 +224,8 @@ def wire_entity(root: str, entry_id: str, name: str, kind: str, cadence: str) ->
         f"    kind: {kind}\n"
         f"    cadence: {cadence}\n"
     )
+    if cadence == "weekly":
+        block += f"    weekday: {weekday}\n"
     return _write(root, "watchlist.yaml", "entities", block)
 
 
