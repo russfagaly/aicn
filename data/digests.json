@@ -1,63 +1,29 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T18:28:30Z",
+  "generated_at": "2026-10-12T21:06:58Z",
   "runs": [
     {
       "run_id": "2026-10-12",
       "date": "2026-10-12",
-      "generated_at": "2026-10-12T18:28:30Z",
+      "generated_at": "2026-10-12T21:06:58Z",
       "is_light_run": false,
-      "top_summary": "A national survey commissioned by the AAPC Foundation finds voters are broadly uncomfortable with the most visible AI uses in campaigns, offering practitioners concrete public-opinion benchmarks as the 2026 midterms enter their final stretch. Separately, a bilingual AI app called Nubi is being used to guide Latino voters through the voting process, and the CDT has published analysis of regulatory gaps in campaigns' AI-powered voter outreach. Campaign Trend's roundup also touches on Inbox.GOP spam data and deepfake lawsuits in the political space.",
-      "item_count": 5,
+      "top_summary": "A research or ad-tracking outfit reports $80M in spending on nearly 170 AI-generated political ads in 2026, with many lacking disclosure under a patchwork of state laws \u2014 the most concrete spending figure on AI political advertising this cycle. Separately, the San Francisco congressional race to succeed Nancy Pelosi has become a visible test case for AI as a campaign message, with candidates invoking AI policy in paid ads. OpenAI is making platform-level moves to restrict election deepfake generation, a vendor-side development relevant to what AI tools campaigns and bad actors can access.",
+      "item_count": 3,
       "items": [
         {
-          "id": "fef1bf7159d0d540",
-          "title": "Voters Aren\u2019t Comfortable With the Most Public-Facing Uses of AI In Politics, Poll Finds",
-          "url": "https://campaignsandelections.com/industry-news/voters-arent-comfortable-with-the-most-public-facing-uses-of-ai-in-politics-poll-finds",
-          "source": "Campaigns & Elections",
-          "source_domain": "campaignsandelections.com",
-          "published": "2026-10-09",
-          "first_seen_run": "2026-10-12",
-          "category": "analysis_oped",
-          "summary": "A new national survey commissioned by the AAPC Foundation finds that voters are uncomfortable with the most public-facing uses of AI in political campaigns, providing some of the clearest polling data yet on public attitudes toward campaigns' growing AI adoption.",
-          "why_it_matters": "Gives campaign practitioners concrete voter-sentiment benchmarks on AI tactics \u2014 critical intelligence for deciding which AI tools to deploy visibly versus quietly heading into Election Day.",
-          "flags": [],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "campaigns-and-elections",
-            "confidence": "high"
-          }
-        },
-        {
-          "id": "c4b13fa260414851",
-          "title": "Bilingual AI app helps Latinos figure out how to vote",
-          "url": "https://axios.com/2026/10/06/latino-voters-ai-guide-midterms-nubi",
-          "source": "Axios",
-          "source_domain": "axios.com",
+          "id": "44e3282cc6b5349c",
+          "title": "We've tracked $80M of spending on almost 170 AI-generated political ads this year \u2013 it's weird",
+          "url": "https://salon.com/2026/10/06/weve-tracked-80m-of-spending-on-almost-170-ai-generated-political-ads-this-year-its-weird-partner",
+          "source": "Salon",
+          "source_domain": "salon.com",
           "published": "2026-10-06",
           "first_seen_run": "2026-10-12",
           "category": "deployments_studies",
-          "summary": "A bilingual AI app called Nubi is being used to help Latino voters navigate the voting process ahead of the 2026 midterms, serving as a voter-outreach and civic-guidance tool targeting a key demographic.",
-          "why_it_matters": "Demonstrates a concrete deployment of AI-powered multilingual voter contact targeting a specific community, a replicable model for advocacy groups and campaigns.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "site:axios",
-            "confidence": "medium"
-          }
-        },
-        {
-          "id": "8b0b590d7aeb4460",
-          "title": "Political Campaign Use of AI-Powered Voter Outreach Highlights Regulatory Gaps",
-          "url": "https://cdt.org/insights/political-campaign-use-of-ai-powered-voter-outreach-highlights-regulatory-gaps",
-          "source": "Center for Democracy and Technology",
-          "source_domain": "cdt.org",
-          "published": "2026-10-10",
-          "first_seen_run": "2026-10-12",
-          "category": "analysis_oped",
-          "summary": "The Center for Democracy and Technology published an analysis examining how political campaigns are using AI-powered voter outreach tools and the regulatory gaps that current frameworks leave unaddressed.",
-          "why_it_matters": "Offers a practitioner-relevant map of where AI voter-contact deployments currently operate without clear regulatory guardrails, useful for campaign counsel and compliance teams.",
-          "flags": [],
+          "summary": "An ad-tracking effort has identified roughly 170 AI-generated political ads with approximately $80 million in combined spending in 2026, finding that many of these ads carry no AI disclosure due to inconsistent state-level requirements.",
+          "why_it_matters": "Provides the most concrete spending and volume benchmark yet for AI-generated political advertising in this cycle, including a disclosure compliance gap that practitioners and watchdogs can act on.",
+          "flags": [
+            "vendor_self_reported"
+          ],
           "discovery": {
             "method": "search",
             "source_ref": "broad_web_search",
@@ -65,39 +31,41 @@
           }
         },
         {
-          "id": "59e262e2d15c4bb0",
-          "title": "Campaigning for the AI \u2018vote\u2019",
-          "url": "https://campaigntrend.com/campaigning-for-the-ai-vote",
-          "source": "Campaign Trend",
-          "source_domain": "campaigntrend.com",
-          "published": "2026-10-09",
+          "id": "1eec1740c49caf4f",
+          "title": "How AI is playing in the post-Nancy Pelosi race",
+          "url": "https://punchbowl.news/article/tech/ai-nancy-pelosi-race",
+          "source": "Punchbowl News",
+          "source_domain": "punchbowl.news",
+          "published": "2026-10-04",
           "first_seen_run": "2026-10-12",
-          "category": "deepfakes",
-          "summary": "Campaign Trend's newsletter roundup covers Inbox.GOP's latest spam data on AI-generated political email and recent deepfake-related lawsuits in the political arena.",
-          "why_it_matters": "Aggregates current real-world data points on AI-generated political content and emerging legal responses, relevant for campaign digital directors monitoring the landscape.",
+          "category": "deployments_studies",
+          "summary": "In the California congressional race to succeed Nancy Pelosi, campaigns for state Sen. Scott Wiener and San Francisco Supervisor Connie Chan have both deployed paid ads explicitly invoking artificial intelligence, making AI a central message in the contest.",
+          "why_it_matters": "Illustrates how AI policy positioning is being weaponized as a direct campaign message in a high-profile race, offering a live case study in AI-themed political advertising.",
           "flags": [],
           "discovery": {
-            "method": "feed",
-            "source_ref": "campaign-trend",
-            "confidence": "high"
+            "method": "search",
+            "source_ref": "site:punchbowl",
+            "confidence": "medium"
           }
         },
         {
-          "id": "585653c1557973e5",
-          "title": "Good Intentions Are Not Safeguards: Katie Harbath on What Social Media Should Teach Us About AI",
-          "url": "https://campaigntrend.com/good-intentions-are-not-safeguards-katie-harbath-on-what-social-media-should-teach-us-about-ai",
-          "source": "Campaign Trend",
-          "source_domain": "campaigntrend.com",
-          "published": "2026-10-07",
+          "id": "03433e60900bffc4",
+          "title": "OpenAI wants to curb misleading election deepfakes",
+          "url": "https://punchbowl.news/article/tech/openai-election-deepfakes",
+          "source": "Punchbowl News",
+          "source_domain": "punchbowl.news",
+          "published": "2026-10-12",
           "first_seen_run": "2026-10-12",
-          "category": "analysis_oped",
-          "summary": "Katie Harbath, a veteran of Facebook's policy work, argues that the campaign and political ecosystem cannot simply replicate the social media governance playbook for AI and must apply lessons learned to build new safeguards proactively.",
-          "why_it_matters": "A practitioner-facing perspective from a recognized expert drawing direct parallels between social media's early unregulated growth and today's AI-in-campaigns moment.",
-          "flags": [],
+          "category": "vendor_moves",
+          "summary": "OpenAI is taking steps to make it harder for users to generate misleading election deepfakes through its platforms, implementing restrictions targeting bad actors seeking to interfere in U.S. elections.",
+          "why_it_matters": "Platform-level guardrails from a leading AI model provider directly constrain what AI-generated election content campaigns and bad actors can produce at scale.",
+          "flags": [
+            "vendor_self_reported"
+          ],
           "discovery": {
-            "method": "feed",
-            "source_ref": "campaign-trend",
-            "confidence": "high"
+            "method": "search",
+            "source_ref": "site:punchbowl",
+            "confidence": "medium"
           }
         }
       ]

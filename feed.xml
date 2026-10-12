@@ -3,41 +3,27 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Mon, 12 Oct 2026 18:28:30 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 21:06:58 GMT</lastBuildDate>
     <item>
-      <title>Voters Aren’t Comfortable With the Most Public-Facing Uses of AI In Politics, Poll Finds</title>
-      <link>https://campaignsandelections.com/industry-news/voters-arent-comfortable-with-the-most-public-facing-uses-of-ai-in-politics-poll-finds</link>
-      <guid isPermaLink="false">fef1bf7159d0d540</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-      <description>A new national survey commissioned by the AAPC Foundation finds that voters are uncomfortable with the most public-facing uses of AI in political campaigns, providing some of the clearest polling data yet on public attitudes toward campaigns' growing AI adoption.</description>
-    </item>
-    <item>
-      <title>Bilingual AI app helps Latinos figure out how to vote</title>
-      <link>https://axios.com/2026/10/06/latino-voters-ai-guide-midterms-nubi</link>
-      <guid isPermaLink="false">c4b13fa260414851</guid>
+      <title>We've tracked $80M of spending on almost 170 AI-generated political ads this year – it's weird</title>
+      <link>https://salon.com/2026/10/06/weve-tracked-80m-of-spending-on-almost-170-ai-generated-political-ads-this-year-its-weird-partner</link>
+      <guid isPermaLink="false">44e3282cc6b5349c</guid>
       <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
-      <description>A bilingual AI app called Nubi is being used to help Latino voters navigate the voting process ahead of the 2026 midterms, serving as a voter-outreach and civic-guidance tool targeting a key demographic.</description>
+      <description>An ad-tracking effort has identified roughly 170 AI-generated political ads with approximately $80 million in combined spending in 2026, finding that many of these ads carry no AI disclosure due to inconsistent state-level requirements.</description>
     </item>
     <item>
-      <title>Political Campaign Use of AI-Powered Voter Outreach Highlights Regulatory Gaps</title>
-      <link>https://cdt.org/insights/political-campaign-use-of-ai-powered-voter-outreach-highlights-regulatory-gaps</link>
-      <guid isPermaLink="false">8b0b590d7aeb4460</guid>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
-      <description>The Center for Democracy and Technology published an analysis examining how political campaigns are using AI-powered voter outreach tools and the regulatory gaps that current frameworks leave unaddressed.</description>
+      <title>How AI is playing in the post-Nancy Pelosi race</title>
+      <link>https://punchbowl.news/article/tech/ai-nancy-pelosi-race</link>
+      <guid isPermaLink="false">1eec1740c49caf4f</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <description>In the California congressional race to succeed Nancy Pelosi, campaigns for state Sen. Scott Wiener and San Francisco Supervisor Connie Chan have both deployed paid ads explicitly invoking artificial intelligence, making AI a central message in the contest.</description>
     </item>
     <item>
-      <title>Campaigning for the AI ‘vote’</title>
-      <link>https://campaigntrend.com/campaigning-for-the-ai-vote</link>
-      <guid isPermaLink="false">59e262e2d15c4bb0</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Campaign Trend's newsletter roundup covers Inbox.GOP's latest spam data on AI-generated political email and recent deepfake-related lawsuits in the political arena.</description>
-    </item>
-    <item>
-      <title>Good Intentions Are Not Safeguards: Katie Harbath on What Social Media Should Teach Us About AI</title>
-      <link>https://campaigntrend.com/good-intentions-are-not-safeguards-katie-harbath-on-what-social-media-should-teach-us-about-ai</link>
-      <guid isPermaLink="false">585653c1557973e5</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Katie Harbath, a veteran of Facebook's policy work, argues that the campaign and political ecosystem cannot simply replicate the social media governance playbook for AI and must apply lessons learned to build new safeguards proactively.</description>
+      <title>OpenAI wants to curb misleading election deepfakes</title>
+      <link>https://punchbowl.news/article/tech/openai-election-deepfakes</link>
+      <guid isPermaLink="false">03433e60900bffc4</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <description>OpenAI is taking steps to make it harder for users to generate misleading election deepfakes through its platforms, implementing restrictions targeting bad actors seeking to interfere in U.S. elections.</description>
     </item>
     <item>
       <title>Van Orden Hit With Cease-and-Desist Letter Over AI Deepfake Videos</title>
@@ -213,6 +199,20 @@
       <guid isPermaLink="false">562dad18759671ab</guid>
       <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
       <description>A Campaigns &amp; Elections practitioner column argues that voters now increasingly encounter politics through AI-generated answers in search results and social feeds, and urges campaign digital teams to rethink content strategy to reach audiences in those new channels.</description>
+    </item>
+    <item>
+      <title>Campaigns Use AI Despite ChatGPT Ban</title>
+      <link>https://politicalwire.com/2026/09/05/campaigns-use-ai-despite-chatgpt-ban</link>
+      <guid isPermaLink="false">1b18ad4d8f1298c9</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Major-party candidates in the 2026 midterms are acknowledging in campaign filings and website fine print that they are using AI — including tools subject to ChatGPT's election-use restrictions — to reach voters, according to a report aggregated by Political Wire.</description>
+    </item>
+    <item>
+      <title>Pro - Paramount Group Uses AI to Pressure Bonta to Drop Antitrust Case</title>
+      <link>https://variety.com/2026/film/news/paramount-rob-bonta-artificial-intelligence-influent-ai-1236846315</link>
+      <guid isPermaLink="false">1ed8915521bf7d19</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <description>An advocacy group called Neighbors for Strong Communities, which supports the Paramount-Warner Bros. merger, is using an AI platform called Influent AI to help people generate and send personalized messages urging California Attorney General Rob Bonta to drop his antitrust lawsuit against the deal.</description>
     </item>
   </channel>
 </rss>
