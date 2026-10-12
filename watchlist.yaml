@@ -12,6 +12,14 @@
 # Attribution data supported this: weekly-rotated entities produced 5 published
 # items despite only 1-day-in-7 coverage. The cadence mechanism is kept in
 # case cost pressure ever returns.
+#
+# 2026-10-12: weekly again for the 13 seed entities that produced zero published
+# items across 98 daily runs (2026-06-24..2026-10-02). Entity search was the
+# largest single cost — 5 groups a day, each paying for search tokens plus up to
+# 3 web searches. Spread at most two per weekday, every day now carries 12-14
+# entities, so 3 groups instead of 5. They are still watched, just once a week;
+# a rare story about one may surface up to six days later. Entities added since
+# August are too new to judge and stay daily.
 
 entities:
   - id: ngpvan-bonterra
@@ -33,19 +41,23 @@ entities:
   - id: chorus-ai
     name: Chorus AI
     kind: vendor
-    cadence: daily
+    cadence: weekly
+    weekday: 0
   - id: donoratlas
     name: DonorAtlas
     kind: vendor
-    cadence: daily
+    cadence: weekly
+    weekday: 0
   - id: rivalmind-ai
     name: RivalMind AI
     kind: vendor
-    cadence: daily
+    cadence: weekly
+    weekday: 1
   - id: civox
     name: Civox ("Ashley")
     kind: vendor
-    cadence: daily
+    cadence: weekly
+    weekday: 1
   - id: aaru
     name: Aaru
     kind: vendor
@@ -53,11 +65,13 @@ entities:
   - id: targetsmart
     name: TargetSmart
     kind: vendor
-    cadence: daily
+    cadence: weekly
+    weekday: 2
   - id: catalist
     name: Catalist
     kind: vendor
-    cadence: daily
+    cadence: weekly
+    weekday: 2
   - id: civis
     name: Civis Analytics
     kind: vendor
@@ -65,15 +79,18 @@ entities:
   - id: push-digital
     name: Push Digital ("Push AI")
     kind: vendor
-    cadence: daily
+    cadence: weekly
+    weekday: 3
   - id: prime-radiant
     name: Prime Radiant
     kind: vendor
-    cadence: daily
+    cadence: weekly
+    weekday: 3
   - id: electric-twin
     name: Electric Twin
     kind: vendor
-    cadence: daily
+    cadence: weekly
+    weekday: 4
   - id: higher-ground-labs-portfolio
     name: Higher Ground Labs portfolio companies
     kind: vendor
@@ -81,15 +98,18 @@ entities:
   - id: adimpact
     name: AdImpact
     kind: org_no_feed
-    cadence: daily
+    cadence: weekly
+    weekday: 4
   - id: multistate
     name: MultiState
     kind: org_no_feed
-    cadence: daily
+    cadence: weekly
+    weekday: 5
   - id: tech-for-campaigns
     name: Tech for Campaigns
     kind: org_no_feed
-    cadence: daily
+    cadence: weekly
+    weekday: 5
   - id: center-for-campaign-innovation
     name: Center for Campaign Innovation
     kind: org_no_feed
@@ -97,7 +117,8 @@ entities:
   - id: startup-caucus
     name: Startup Caucus
     kind: org_no_feed
-    cadence: daily
+    cadence: weekly
+    weekday: 6
   # Added from an accepted proposal.
   - id: higher-ground-labs
     name: Higher Ground Labs
