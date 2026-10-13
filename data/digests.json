@@ -1,7 +1,55 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-12T21:06:58Z",
+  "generated_at": "2026-10-13T19:05:54Z",
   "runs": [
+    {
+      "run_id": "2026-10-13",
+      "date": "2026-10-13",
+      "generated_at": "2026-10-13T19:05:54Z",
+      "is_light_run": false,
+      "top_summary": "The main on-topic development this run is FullPAC's launch of GOTV AI, a campaign strategy platform built on historical U.S. election data. A Campaigns & Elections op-ed also makes the practitioner case for a common AI-ad transparency baseline amid the 2026 midterm surge. The Wired story on the pro-AI super PAC network and the Tech Times piece on AI political spending both fail the actor test \u2014 the AI is in a lobbying/spending network's hands, not a campaign's.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "b90e652e425f927f",
+          "title": "FullPAC Launches GOTV AI, the Campaign Strategy Platform Built on the Record of American Elections",
+          "url": "https://globenewswire.com/news-release/2026/10/13/3379868/0/en/fullpac-launches-gotv-ai-the-campaign-strategy-platform-built-on-the-record-of-american-elections.html",
+          "source": "Globe Newswire",
+          "source_domain": "globenewswire.com",
+          "published": "2026-10-13",
+          "first_seen_run": "2026-10-13",
+          "category": "vendor_moves",
+          "summary": "FullPAC has launched GOTV AI, a campaign strategy platform it says is trained on the historical record of American elections and designed to support get-out-the-vote and campaign planning efforts.",
+          "why_it_matters": "A purpose-built AI platform grounded in election-cycle data represents a new category of campaign infrastructure tool that digital directors could evaluate for GOTV targeting and strategy.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "3e60136e4efe8487",
+          "title": "The AI Election Ad Surge: Why the 2026 Midterms Need a Common Transparency Baseline",
+          "url": "https://campaignsandelections.com/voices/the-ai-election-ad-surge-why-the-2026-midterms-need-a-common-transparency-baseline",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-10-13",
+          "first_seen_run": "2026-10-13",
+          "category": "analysis_oped",
+          "summary": "A Campaigns & Elections op-ed argues that campaigns in 2026 are producing far more ad versions across more screens at unprecedented speed thanks to AI, and calls for a common transparency baseline for AI-generated election ads given the current patchwork of state requirements.",
+          "why_it_matters": "The piece synthesizes the practical production-speed advantages AI gives campaigns while laying out why inconsistent disclosure rules create reputational and legal risk for practitioners.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaigns-and-elections",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-10-12",
       "date": "2026-10-12",
@@ -1117,56 +1165,6 @@
       "top_summary": "",
       "item_count": 0,
       "items": []
-    },
-    {
-      "run_id": "2026-08-25",
-      "date": "2026-08-25",
-      "generated_at": "2026-08-25T12:59:21Z",
-      "is_light_run": false,
-      "top_summary": "NGP VAN, the dominant CRM platform for Democratic campaigns, has launched an AI-powered natural-language query feature called Navigator that lets campaigns search and interact with their voter databases conversationally. Separately, a Michigan congressional candidate is disputing a viral audio clip as AI-manipulated, making it a notable deepfake incident in a live 2026 race.",
-      "item_count": 2,
-      "items": [
-        {
-          "id": "420baf57921a124a",
-          "title": "NGP VAN Wants Campaigns to Chat With Its CRM",
-          "url": "https://campaignsandelections.com/industry-news/ngp-van-wants-campaigns-to-chat-with-its-crm",
-          "source": "Campaigns & Elections",
-          "source_domain": "campaignsandelections.com",
-          "published": "2026-08-24",
-          "first_seen_run": "2026-08-25",
-          "category": "vendor_moves",
-          "summary": "NGP VAN has launched Navigator, a natural-language AI feature built into its CRM that allows campaign staffers to query their voter and donor databases conversationally instead of through traditional search interfaces.",
-          "why_it_matters": "Natural-language database access from a dominant campaign CRM lowers the technical barrier for campaign staff to extract actionable voter data insights, potentially accelerating how quickly small teams can act on their own lists.",
-          "flags": [
-            "vendor_self_reported"
-          ],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "campaigns-and-elections",
-            "confidence": "high"
-          }
-        },
-        {
-          "id": "ef396beb53373880",
-          "title": "Michigan Congressional Candidate Says Viral Clip of His Voice Is a \u2018Fabrication\u2019",
-          "url": "https://notus.org/2026-election/jeremy-moss-israel-hasan-piker-abdul-el-sayed",
-          "source": "NOTUS",
-          "source_domain": "notus.org",
-          "published": "2026-08-24",
-          "first_seen_run": "2026-08-25",
-          "category": "deepfakes",
-          "summary": "Michigan congressional Democratic nominee Jeremy Moss is publicly contesting a viral audio clip of his voice, calling it a manipulated fabrication that \"peddles in offensive tropes and lies.\"",
-          "why_it_matters": "A live 2026 congressional race now features a disputed AI-manipulated audio clip going viral, illustrating the real-time threat synthetic media poses to candidates during active campaigns.",
-          "flags": [
-            "contested"
-          ],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "notus",
-            "confidence": "high"
-          }
-        }
-      ]
     }
   ]
 }

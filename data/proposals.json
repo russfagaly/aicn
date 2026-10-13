@@ -1024,6 +1024,30 @@
       ],
       "first_proposed": "2026-10-12",
       "status": "rejected"
+    },
+    {
+      "id": "prop-entity-fullpac",
+      "kind": "watchlist_entity",
+      "value": "FullPAC",
+      "feed_url": null,
+      "rationale": "Newly launched vendor offering a purpose-built AI campaign strategy and GOTV platform; not previously widely tracked in the campaign-tech space.",
+      "example_urls": [
+        "https://www.globenewswire.com/news-release/2026/10/13/3379868/0/en/fullpac-launches-gotv-ai-the-campaign-strategy-platform-built-on-the-record-of-american-elections.html"
+      ],
+      "first_proposed": "2026-10-13",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-gotv-ai",
+      "kind": "watchlist_entity",
+      "value": "GOTV AI",
+      "feed_url": null,
+      "rationale": "FullPAC's specific product name for its election-data-trained campaign strategy platform, worth tracking separately as it enters the market.",
+      "example_urls": [
+        "https://www.globenewswire.com/news-release/2026/10/13/3379868/0/en/fullpac-launches-gotv-ai-the-campaign-strategy-platform-built-on-the-record-of-american-elections.html"
+      ],
+      "first_proposed": "2026-10-13",
+      "status": "pending"
     }
   ]
 }
