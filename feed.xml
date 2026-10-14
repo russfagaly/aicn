@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Tue, 13 Oct 2026 19:05:54 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 16:52:06 GMT</lastBuildDate>
+    <item>
+      <title>How American Political Campaigns Are Using AI—and What They're Spending on the Tools</title>
+      <link>https://schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html</link>
+      <guid isPermaLink="false">a8e63ff6def3ce07</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Bruce Schneier and Nathan E. Sanders, writing in The Guardian, analyzed FEC campaign finance disclosure data to identify which U.S. campaigns, parties, and committees are purchasing AI tools and how much they are spending, finding that AI is rapidly becoming an essential part of campaign operations.</description>
+    </item>
+    <item>
+      <title>Why one spoiler candidate is now trying to replicate his work nationwide</title>
+      <link>https://semafor.com/article/10/14/2026/why-one-spoiler-candidate-is-now-trying-to-replicate-his-work-nationwide</link>
+      <guid isPermaLink="false">afebace2433adcdc</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Aaron Day, a political operative known for recruiting spoiler candidates, is using AI to scale his third-party candidate recruitment and placement operation nationally ahead of the 2026 midterms, according to Semafor.</description>
+    </item>
     <item>
       <title>FullPAC Launches GOTV AI, the Campaign Strategy Platform Built on the Record of American Elections</title>
       <link>https://globenewswire.com/news-release/2026/10/13/3379868/0/en/fullpac-launches-gotv-ai-the-campaign-strategy-platform-built-on-the-record-of-american-elections.html</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">3bce757bee8511ae</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
       <description>A South Carolina local news report describes how campaigns are using AI to produce content faster and at lower cost, while state lawmakers consider whether new disclosure rules are needed.</description>
-    </item>
-    <item>
-      <title>As campaign season gears up, AI-generated ads are everywhere</title>
-      <link>https://npr.org/2026/09/16/nx-s1-5953990/ai-political-ads-2026-midterms</link>
-      <guid isPermaLink="false">7886d3ef9807aac3</guid>
-      <pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-      <description>NPR reports that as the 2026 midterm campaign season accelerates, AI-generated political ads have become ubiquitous, with campaigns across the country deploying synthetic media content at scale.</description>
-    </item>
-    <item>
-      <title>Human-Made Ads Still Perform Better Than AI Spots, Study Finds</title>
-      <link>https://campaignsandelections.com/industry-news/human-made-ads-still-perform-better-than-ai-spots-study-finds</link>
-      <guid isPermaLink="false">a41950d8ef944703</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-      <description>A study covered by Campaigns &amp; Elections found that consumers consistently prefer human-made political ads over AI-generated ones, with human-produced spots outperforming AI spots on key preference metrics.</description>
     </item>
   </channel>
 </rss>

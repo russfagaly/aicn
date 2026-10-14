@@ -1,7 +1,53 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T19:05:54Z",
+  "generated_at": "2026-10-14T16:52:06Z",
   "runs": [
+    {
+      "run_id": "2026-10-14",
+      "date": "2026-10-14",
+      "generated_at": "2026-10-14T16:52:06Z",
+      "is_light_run": false,
+      "top_summary": "Two on-topic items survive this run. Bruce Schneier and Nathan Sanders analyze FEC campaign finance disclosure data to show which U.S. campaigns are buying AI tools and how much they are spending \u2014 concrete spending data for practitioners. Separately, spoiler-candidate organizer Aaron Day is reportedly using AI to scale his third-party candidate recruitment operation nationally ahead of the 2026 midterms.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "a8e63ff6def3ce07",
+          "title": "How American Political Campaigns Are Using AI\u2014and What They're Spending on the Tools",
+          "url": "https://schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html",
+          "source": "Schneier on Security",
+          "source_domain": "schneier.com",
+          "published": "2026-10-02",
+          "first_seen_run": "2026-10-14",
+          "category": "deployments_studies",
+          "summary": "Bruce Schneier and Nathan E. Sanders, writing in The Guardian, analyzed FEC campaign finance disclosure data to identify which U.S. campaigns, parties, and committees are purchasing AI tools and how much they are spending, finding that AI is rapidly becoming an essential part of campaign operations.",
+          "why_it_matters": "Hard spending data from public disclosures gives practitioners and researchers a rare empirical baseline for how broadly AI has been adopted across the campaign ecosystem.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "afebace2433adcdc",
+          "title": "Why one spoiler candidate is now trying to replicate his work nationwide",
+          "url": "https://semafor.com/article/10/14/2026/why-one-spoiler-candidate-is-now-trying-to-replicate-his-work-nationwide",
+          "source": "Semafor",
+          "source_domain": "semafor.com",
+          "published": "2026-10-14",
+          "first_seen_run": "2026-10-14",
+          "category": "deployments_studies",
+          "summary": "Aaron Day, a political operative known for recruiting spoiler candidates, is using AI to scale his third-party candidate recruitment and placement operation nationally ahead of the 2026 midterms, according to Semafor.",
+          "why_it_matters": "Shows AI being used as an organizing and targeting tool to run a coordinated spoiler-candidate strategy at national scale, a novel campaign application.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:semafor",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-10-13",
       "date": "2026-10-13",
@@ -1156,15 +1202,6 @@
           }
         }
       ]
-    },
-    {
-      "run_id": "2026-08-26",
-      "date": "2026-08-26",
-      "generated_at": "2026-08-26T13:05:56Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
     }
   ]
 }

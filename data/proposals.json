@@ -1048,6 +1048,30 @@
       ],
       "first_proposed": "2026-10-13",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-nathan-e-sanders",
+      "kind": "watchlist_entity",
+      "value": "Nathan E. Sanders",
+      "feed_url": null,
+      "rationale": "Co-author of the Schneier/Guardian analysis on AI campaign spending from FEC data; a researcher publishing concrete empirical work on AI in campaigns worth tracking.",
+      "example_urls": [
+        "https://www.schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html"
+      ],
+      "first_proposed": "2026-10-14",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-aaron-day",
+      "kind": "watchlist_entity",
+      "value": "Aaron Day",
+      "feed_url": null,
+      "rationale": "Political operative using AI to scale a national spoiler-candidate recruitment operation — a newly named individual deploying AI in campaign strategy.",
+      "example_urls": [
+        "https://semafor.com/article/10/14/2026/why-one-spoiler-candidate-is-now-trying-to-replicate-his-work-nationwide"
+      ],
+      "first_proposed": "2026-10-14",
+      "status": "pending"
     }
   ]
 }
