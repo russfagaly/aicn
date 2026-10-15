@@ -1,7 +1,55 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T16:52:06Z",
+  "generated_at": "2026-10-15T16:38:43Z",
   "runs": [
+    {
+      "run_id": "2026-10-15",
+      "date": "2026-10-15",
+      "generated_at": "2026-10-15T16:38:43Z",
+      "is_light_run": false,
+      "top_summary": "This run's most notable item is a Fast Company analysis of Silicon Valley AI super PACs that are spending on political races but deliberately avoiding AI messaging \u2014 a concrete look at how AI-industry money is flowing into campaigns without surfacing AI as a campaign theme. A secondary item reports $16 million in spending on AI-edited political ads in the 2026 midterm cycle, though this appears to be follow-on coverage of a story already tracked (the $80M AI ad spend piece from October 6).",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "f690d47d200be381",
+          "title": "Why Silicon Valley's AI super PACs aren't talking about AI",
+          "url": "https://fastcompany.com/91623721/why-silicon-valleys-ai-super-pacs-arent-talking-about-ai",
+          "source": "Fast Company",
+          "source_domain": "fastcompany.com",
+          "published": "2026-10-15",
+          "first_seen_run": "2026-10-15",
+          "category": "analysis_oped",
+          "summary": "Fast Company examines Silicon Valley-backed AI super PACs that are spending in the 2026 midterms but are deliberately not making AI a campaign message, instead funding races on other issues while keeping AI policy goals in the background.",
+          "why_it_matters": "Reveals a gap between AI industry political spending and AI-as-campaign-message strategy, showing how the sector is influencing elections without triggering the AI disclosure and perception debates that explicit AI advocacy would invite.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "38c79534945472b5",
+          "title": "$16 million spent on AI-edited political ads in the 2026 midterm election season",
+          "url": "https://archyde.com/16-million-spent-on-ai-edited-political-ads-in-the-2026-midterm-election-season",
+          "source": "Archyde",
+          "source_domain": "archyde.com",
+          "published": "2026-10-14",
+          "first_seen_run": "2026-10-15",
+          "category": "deployments_studies",
+          "summary": "A report puts AI-edited political ad spending in the 2026 midterm season at $16 million, adding a dollar figure to the volume of AI-assisted ad production in the current cycle.",
+          "why_it_matters": "Provides a concrete spending benchmark for AI-assisted ad production, though this figure appears to reflect a subset or update of the broader $80M AI ad spend tracking already reported.",
+          "flags": [
+            "contested"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-10-14",
       "date": "2026-10-14",
@@ -1131,74 +1179,6 @@
             "method": "feed",
             "source_ref": "campaign-trend",
             "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "run_id": "2026-08-27",
-      "date": "2026-08-27",
-      "generated_at": "2026-08-27T22:02:30Z",
-      "is_light_run": false,
-      "top_summary": "Two on-topic stories stand out this run. A Democratic-aligned research firm finds AI chatbots field roughly 650,000 political questions per week, prompting new work on how campaigns can shape those answers. Higher Ground Labs is also deploying capital into five agentic-AI startups \u2014 Baraza, Context, Haystack, Locunity, and Revere \u2014 built for progressive campaign work. A third item from Axios reports Meta disrupting an Iran-linked AI influence operation targeting politicians and journalists, a concrete case of synthetic content in the influence space.",
-      "item_count": 3,
-      "items": [
-        {
-          "id": "7408edccf8413fdf",
-          "title": "Democrats Are Getting Some Answers to Their Chatbot Problems",
-          "url": "https://notus.org/2026-election/ai-chatbot-chatgpt-democrats-campaign",
-          "source": "NOTUS",
-          "source_domain": "notus.org",
-          "published": "2026-08-27",
-          "first_seen_run": "2026-08-27",
-          "category": "deployments_studies",
-          "summary": "New research from a Democratic-aligned firm estimates AI chatbots receive about 650,000 political questions weekly, and Democrats are working to address problems with how those chatbots respond to campaign-related queries.",
-          "why_it_matters": "Quantifies the scale of AI chatbot use as a de facto voter-information channel and signals that campaigns are beginning to treat chatbot output as a terrain to actively influence.",
-          "flags": [
-            "vendor_self_reported"
-          ],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "notus",
-            "confidence": "high"
-          }
-        },
-        {
-          "id": "46b581c1160759eb",
-          "title": "Announcing HGL\u2019s Agentic AI Open Call Investments",
-          "url": "https://highergroundlabs.com/agentic-ai-investments",
-          "source": "Higher Ground Labs (blog)",
-          "source_domain": "highergroundlabs.com",
-          "published": "2026-08-27",
-          "first_seen_run": "2026-08-27",
-          "category": "vendor_moves",
-          "summary": "Higher Ground Labs announced investments in five companies \u2014 Baraza, Context, Haystack, Locunity, and Revere \u2014 through its Agentic AI Open Call, backing startups building agentic AI tools for progressive political campaigns.",
-          "why_it_matters": "Signals a dedicated progressive accelerator moving from experimental interest to active capital deployment in agentic AI, seeding the next generation of campaign automation vendors.",
-          "flags": [
-            "vendor_self_reported"
-          ],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "higher-ground-labs",
-            "confidence": "high"
-          }
-        },
-        {
-          "id": "7d7f798842d5873d",
-          "title": "Exclusive: Meta disrupts Iran-linked AI operation targeting politicians, journalists",
-          "url": "https://axios.com/2026/08/27/facebook-instagram-iran-ai-disinformation",
-          "source": "Axios",
-          "source_domain": "axios.com",
-          "published": "2026-08-27",
-          "first_seen_run": "2026-08-27",
-          "category": "deepfakes",
-          "summary": "Meta says it identified and disrupted an Iran-linked influence operation that used AI-generated content to target politicians and journalists on Facebook and Instagram.",
-          "why_it_matters": "Demonstrates that state-linked actors are deploying AI-generated synthetic content in political influence operations at a scale that triggers platform-level takedowns.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "site:axios",
-            "confidence": "medium"
           }
         }
       ]

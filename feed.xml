@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Wed, 14 Oct 2026 16:52:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 16:38:43 GMT</lastBuildDate>
+    <item>
+      <title>Why Silicon Valley's AI super PACs aren't talking about AI</title>
+      <link>https://fastcompany.com/91623721/why-silicon-valleys-ai-super-pacs-arent-talking-about-ai</link>
+      <guid isPermaLink="false">f690d47d200be381</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Fast Company examines Silicon Valley-backed AI super PACs that are spending in the 2026 midterms but are deliberately not making AI a campaign message, instead funding races on other issues while keeping AI policy goals in the background.</description>
+    </item>
+    <item>
+      <title>$16 million spent on AI-edited political ads in the 2026 midterm election season</title>
+      <link>https://archyde.com/16-million-spent-on-ai-edited-political-ads-in-the-2026-midterm-election-season</link>
+      <guid isPermaLink="false">38c79534945472b5</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+      <description>A report puts AI-edited political ad spending in the 2026 midterm season at $16 million, adding a dollar figure to the volume of AI-assisted ad production in the current cycle.</description>
+    </item>
     <item>
       <title>How American Political Campaigns Are Using AI—and What They're Spending on the Tools</title>
       <link>https://schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">b4d9cd3f4e59d42c</guid>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
       <description>PACs affiliated with AI companies and investors have spent close to $1 million in South Dakota's reliably Republican Senate race — outspending contributions from actual state residents — as AI-aligned political money flows into the 2026 midterms.</description>
-    </item>
-    <item>
-      <title>Artificial Intelligence PACs are growing in number</title>
-      <link>https://punchbowl.news/article/tech/ai-pacs-more</link>
-      <guid isPermaLink="false">046d54389d2dd6ad</guid>
-      <pubDate>Sun, 13 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Punchbowl News reports that the number of AI-focused political action committees is growing rapidly ahead of the 2026 midterms and provides a rundown of AI-related groups currently spending money in campaigns.</description>
-    </item>
-    <item>
-      <title>AI reshaping political campaigns as SC weighs whether new rules are needed</title>
-      <link>https://live5news.com/2026/09/17/ai-reshaping-political-campaigns-sc-weighs-whether-new-rules-are-needed</link>
-      <guid isPermaLink="false">3bce757bee8511ae</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <description>A South Carolina local news report describes how campaigns are using AI to produce content faster and at lower cost, while state lawmakers consider whether new disclosure rules are needed.</description>
     </item>
   </channel>
 </rss>

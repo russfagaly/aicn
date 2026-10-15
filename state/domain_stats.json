@@ -13,6 +13,13 @@
     ],
     "last_seen": "2026-08-10"
   },
+  "archyde.com": {
+    "count": 1,
+    "example_urls": [
+      "https://archyde.com/16-million-spent-on-ai-edited-political-ads-in-the-2026-midterm-election-season"
+    ],
+    "last_seen": "2026-10-15"
+  },
   "azcapitoltimes.com": {
     "count": 1,
     "example_urls": [
@@ -146,6 +153,13 @@
       "https://denverpost.com/2026/07/20/colorado-8th-congressional-district-artificial-intelligence-poll"
     ],
     "last_seen": "2026-07-22"
+  },
+  "fastcompany.com": {
+    "count": 1,
+    "example_urls": [
+      "https://fastcompany.com/91623721/why-silicon-valleys-ai-super-pacs-arent-talking-about-ai"
+    ],
+    "last_seen": "2026-10-15"
   },
   "finance.yahoo.com": {
     "count": 2,
