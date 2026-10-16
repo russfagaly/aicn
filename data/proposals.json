@@ -1072,6 +1072,30 @@
       ],
       "first_proposed": "2026-10-14",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-wesleyan-media-project",
+      "kind": "watchlist_entity",
+      "value": "Wesleyan Media Project",
+      "feed_url": null,
+      "rationale": "The academic-affiliated ad-tracking project is producing the most authoritative independent counts of AI-generated political ad spending and volume in 2026 — a recurring primary source for the beat.",
+      "example_urls": [
+        "https://campaignsandelections.com/industry-news/political-advertisers-have-spent-at-least-137-million-on-ai-generated-ads/"
+      ],
+      "first_proposed": "2026-10-16",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-leading-the-future",
+      "kind": "watchlist_entity",
+      "value": "Leading the Future",
+      "feed_url": null,
+      "rationale": "An AI-industry-backed super PAC actively spending in the 2026 midterms whose donation and spending patterns are a direct indicator of the AI industry's political investment strategy.",
+      "example_urls": [
+        "https://punchbowl.news/article/tech/ltf-no-donations/"
+      ],
+      "first_proposed": "2026-10-16",
+      "status": "pending"
     }
   ]
 }

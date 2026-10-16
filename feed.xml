@@ -3,7 +3,28 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Thu, 15 Oct 2026 16:38:43 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 16:23:00 GMT</lastBuildDate>
+    <item>
+      <title>Political Advertisers Have Spent At Least $137 Million on AI-Generated Ads</title>
+      <link>https://campaignsandelections.com/industry-news/political-advertisers-have-spent-at-least-137-million-on-ai-generated-ads</link>
+      <guid isPermaLink="false">ff920e5307353123</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <description>The Wesleyan Media Project identified 220 political ads produced at least in part with AI tools in 2026, with combined advertiser spending of at least $137 million — a substantially higher figure than the $80 million tallied by earlier tracking efforts.</description>
+    </item>
+    <item>
+      <title>Small Dollars, Big Problems</title>
+      <link>https://campaigntrend.com/small-dollars-big-problems</link>
+      <guid isPermaLink="false">c0f97ae2b01e8d23</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <description>A Campaign Trend newsletter reports on how political chatbots are being built or used in ways that expose where voters live, alongside coverage of TikTok's paid content featuring state Rep. James Talarico.</description>
+    </item>
+    <item>
+      <title>Tech: Key AI group added no Q3 donations</title>
+      <link>https://punchbowl.news/article/tech/ltf-no-donations</link>
+      <guid isPermaLink="false">eea6a363ca35a506</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Leading the Future, an AI-industry-backed super PAC with ties to major tech figures, reported zero new donations in Q3 2026, according to new FEC disclosures.</description>
+    </item>
     <item>
       <title>Why Silicon Valley's AI super PACs aren't talking about AI</title>
       <link>https://fastcompany.com/91623721/why-silicon-valleys-ai-super-pacs-arent-talking-about-ai</link>
@@ -192,27 +213,6 @@
       <guid isPermaLink="false">a4a2491f1a526b18</guid>
       <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
       <description>Democratic campaigns and organizers sent a letter urging candidates to reject donations from AI-aligned super PACs, specifically calling out the group Leading Future, amid concerns about the political influence of AI industry money in the 2026 midterms.</description>
-    </item>
-    <item>
-      <title>Trump pollster Fabrizio gives Republican candidates advice on how to talk about AI data centers</title>
-      <link>https://axios.com/2026/09/15/trump-pollster-data-center-republicans-midterm-election</link>
-      <guid isPermaLink="false">1f7db8f6f6925225</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Trump pollster Tony Fabrizio circulated messaging guidance to Republican candidates advising them on how to frame AI data centers as a campaign issue ahead of the 2026 midterms.</description>
-    </item>
-    <item>
-      <title>2026 midterm elections: Helping voters navigate election information in the age of AI</title>
-      <link>https://blogs.microsoft.com/on-the-issues/2026/09/15/2026-midterm-elections-helping-voters-navigate-election-information-in-the-age-of-ai</link>
-      <guid isPermaLink="false">eed34f1f0a1a50d1</guid>
-      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Microsoft published a blog post describing its efforts to help voters identify reliable election information and understand AI-generated content ahead of the 2026 U.S. midterm elections, framing the initiative as a voter-navigation resource.</description>
-    </item>
-    <item>
-      <title>AI PACs Have Dumped Nearly $1 Million Into an Obscure Senate Race</title>
-      <link>https://wired.com/story/ai-pacs-have-dumped-nearly-1-million-into-an-obscure-senate-race</link>
-      <guid isPermaLink="false">b4d9cd3f4e59d42c</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-      <description>PACs affiliated with AI companies and investors have spent close to $1 million in South Dakota's reliably Republican Senate race — outspending contributions from actual state residents — as AI-aligned political money flows into the 2026 midterms.</description>
     </item>
   </channel>
 </rss>
