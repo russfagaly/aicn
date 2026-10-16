@@ -1,8 +1,8 @@
 """Publish editor-chosen articles into today's digest entry.
 
-Usage:
-    python3 src/submit.py URL [URL ...]            # publish
-    python3 src/submit.py --dry-run URL [URL ...]  # show the drafted entries only
+Usage (from the repo root; quote each URL so the shell leaves ? and & alone):
+    .venv/bin/python src/submit.py "https://..." "https://..."            # publish
+    .venv/bin/python src/submit.py --dry-run "https://..." "https://..."  # draft only
 
 The pipeline only publishes what it finds on its own, and an article the editor
 already knows belongs had no way in. This is that way in. It deliberately skips
@@ -37,6 +37,16 @@ from curate import _OUTPUT_SCHEMA
 from dedupe import _is_public_url, _opener, normalize_title, normalize_url, url_id
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# This is a local tool, so read the API key from the project's .env when it
+# isn't already in the environment (the pipeline gets it from GitHub secrets).
+_env = os.path.join(ROOT, ".env")
+if not os.environ.get("ANTHROPIC_API_KEY") and os.path.exists(_env):
+    for _line in open(_env):
+        if "=" in _line and not _line.lstrip().startswith("#"):
+            _k, _v = _line.strip().split("=", 1)
+            os.environ.setdefault(_k.strip(), _v.strip().strip('"').strip("'"))
+
 CURATE_MODEL = "claude-sonnet-4-6"  # same model as curation, so entries read alike
 _UA = "Mozilla/5.0 (compatible; AICN-bot/1.0; +https://russfagaly.github.io/aicn/)"
 
