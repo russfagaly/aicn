@@ -8,7 +8,7 @@
       "generated_at": "2026-10-16T16:23:00Z",
       "is_light_run": false,
       "top_summary": "The Wesleyan Media Project has tallied at least $137 million in political ad spending on 220 AI-generated ads in 2026, updating and significantly expanding the dollar figure reported earlier this cycle. A Campaign Trend newsletter item reports that chatbots are being used in ways that reveal where voters live, pointing to a concrete voter-contact privacy concern. Leading the Future, an AI-aligned super PAC, received zero new donations in Q3, a fundraising signal worth watching as the midterms close.",
-      "item_count": 3,
+      "item_count": 5,
       "items": [
         {
           "id": "ff920e5307353123",
@@ -64,6 +64,44 @@
             "method": "search",
             "source_ref": "site:punchbowl",
             "confidence": "medium"
+          }
+        },
+        {
+          "id": "98542cccc2257381",
+          "title": "Some Lessons from the Trenches: What I learned and thoughts on how to move forward",
+          "url": "https://assembletheagency.substack.com/p/some-lessons-from-the-trenches-what",
+          "source": "assembletheagency.substack.com",
+          "source_domain": "assembletheagency.substack.com",
+          "published": "2026-06-03",
+          "first_seen_run": "2026-10-16",
+          "category": "analysis_oped",
+          "summary": "Cat Stern, who served as Paid Media Director on both the Biden and Harris 2024 presidential campaigns, outlines five operational lessons for Democratic campaigns: unify all paid media channels under one team, invest early in ground-game organizing, enforce tighter message discipline, limit pre-flight ad testing to high-stakes executions, and define clearer roles for outside consultants.",
+          "why_it_matters": "Campaign practitioners can apply these structural and strategic takeaways\u2014especially on media team integration and testing cadence\u2014directly to planning for future cycles.",
+          "flags": [],
+          "discovery": {
+            "method": "manual",
+            "source_ref": "editor",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "8a9d1eec36b64460",
+          "title": "AI Political Field Guide: Terminology Decoder (September 2026 Edition)",
+          "url": "https://kategage.substack.com/p/ai-political-field-guide-terminology",
+          "source": "kategage.substack.com",
+          "source_domain": "kategage.substack.com",
+          "published": "2026-10-02",
+          "first_seen_run": "2026-10-16",
+          "category": "analysis_oped",
+          "summary": "Writer Kate Gage publishes an AI terminology decoder for fall 2026, mapping how key terms\u2014including \"superintelligence,\" \"safety,\" \"EA,\" and \"pause\"\u2014have shifted meaning depending on which faction uses them, tracing conflicts among the Trump administration, the Tech Right (including David Sacks), AI Safety advocates, the Sanders-Casar bill camp, and Anthropic CEO Dario Amodei following a September 2026 White House executive order and voluntary CEO accord.",
+          "why_it_matters": "Campaign and policy communicators working on AI-related messaging need to understand that the same vocabulary now signals opposite positions depending on the speaker, making precision in language choice essential.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "manual",
+            "source_ref": "editor",
+            "confidence": "high"
           }
         }
       ]

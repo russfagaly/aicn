@@ -3,7 +3,7 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Fri, 16 Oct 2026 16:23:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 22:57:55 GMT</lastBuildDate>
     <item>
       <title>Political Advertisers Have Spent At Least $137 Million on AI-Generated Ads</title>
       <link>https://campaignsandelections.com/industry-news/political-advertisers-have-spent-at-least-137-million-on-ai-generated-ads</link>
@@ -24,6 +24,20 @@
       <guid isPermaLink="false">eea6a363ca35a506</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
       <description>Leading the Future, an AI-industry-backed super PAC with ties to major tech figures, reported zero new donations in Q3 2026, according to new FEC disclosures.</description>
+    </item>
+    <item>
+      <title>Some Lessons from the Trenches: What I learned and thoughts on how to move forward</title>
+      <link>https://assembletheagency.substack.com/p/some-lessons-from-the-trenches-what</link>
+      <guid isPermaLink="false">98542cccc2257381</guid>
+      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
+      <description>Cat Stern, who served as Paid Media Director on both the Biden and Harris 2024 presidential campaigns, outlines five operational lessons for Democratic campaigns: unify all paid media channels under one team, invest early in ground-game organizing, enforce tighter message discipline, limit pre-flight ad testing to high-stakes executions, and define clearer roles for outside consultants.</description>
+    </item>
+    <item>
+      <title>AI Political Field Guide: Terminology Decoder (September 2026 Edition)</title>
+      <link>https://kategage.substack.com/p/ai-political-field-guide-terminology</link>
+      <guid isPermaLink="false">8a9d1eec36b64460</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Writer Kate Gage publishes an AI terminology decoder for fall 2026, mapping how key terms—including "superintelligence," "safety," "EA," and "pause"—have shifted meaning depending on which faction uses them, tracing conflicts among the Trump administration, the Tech Right (including David Sacks), AI Safety advocates, the Sanders-Casar bill camp, and Anthropic CEO Dario Amodei following a September 2026 White House executive order and voluntary CEO accord.</description>
     </item>
     <item>
       <title>Why Silicon Valley's AI super PACs aren't talking about AI</title>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">9dacd09e66b1394c</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
       <description>The Hill reports that candidates across the political spectrum are increasingly using AI to produce political ads ahead of the 2026 midterms, even as polling shows growing voter unease about the practice.</description>
-    </item>
-    <item>
-      <title>Can AI Help Campaigns Reach Latino Voters?</title>
-      <link>https://campaignsandelections.com/industry-news/can-ai-help-campaigns-reach-latino-voters</link>
-      <guid isPermaLink="false">f8b4ad1da7d99916</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Democratic creative firm Conexión is partnering with ad platform Mundial Media to offer campaigns AI-powered tools specifically designed to improve outreach and engagement with Latino voters.</description>
-    </item>
-    <item>
-      <title>Democratic campaigns, organizers urge to snub AI super PAC funds</title>
-      <link>https://thehill.com/policy/technology/6097925-democrats-ai-leading-future-super-pac-letter</link>
-      <guid isPermaLink="false">a4a2491f1a526b18</guid>
-      <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Democratic campaigns and organizers sent a letter urging candidates to reject donations from AI-aligned super PACs, specifically calling out the group Leading Future, amid concerns about the political influence of AI industry money in the 2026 midterms.</description>
     </item>
   </channel>
 </rss>
