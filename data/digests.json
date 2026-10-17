@@ -1,7 +1,55 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T16:23:00Z",
+  "generated_at": "2026-10-17T15:16:15Z",
   "runs": [
+    {
+      "run_id": "2026-10-17",
+      "date": "2026-10-17",
+      "generated_at": "2026-10-17T15:16:15Z",
+      "is_light_run": false,
+      "top_summary": "The biggest story this run is a Star Tribune report on how AI is changing political campaigns and voter targeting in Minnesota, offering a ground-level look at adoption in a competitive midterm state. Separately, an Anthropic-backed group has added another $3 million in outside spending behind California congressional candidate Scott Wiener, and the $137 million AI-generated ad spending figure continues to circulate but has already been covered. The watchlist candidate items from other feeds are largely off-topic this cycle.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "a19e1a75fd1a7eda",
+          "title": "How AI is changing political campaigns and voter targeting in Minnesota",
+          "url": "https://startribune.com/minnesota-political-campaign-ai/601901252",
+          "source": "Star Tribune",
+          "source_domain": "startribune.com",
+          "published": "2026-10-17",
+          "first_seen_run": "2026-10-17",
+          "category": "deployments_studies",
+          "summary": "The Star Tribune reports on how Minnesota political campaigns are deploying AI for voter targeting and other campaign functions in the 2026 midterm cycle, examining specific adoption patterns in a competitive battleground state.",
+          "why_it_matters": "Ground-level reporting on AI adoption by actual campaigns in a swing state provides practitioners with concrete evidence of how the tools are being integrated into targeting and outreach operations.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:l2",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "008cd6d196d6d3bd",
+          "title": "Anthropic-backed group puts more toward Scott Wiener",
+          "url": "https://punchbowl.news/article/tech/anthropic-scott-wiener",
+          "source": "Punchbowl News",
+          "source_domain": "punchbowl.news",
+          "published": "2026-10-13",
+          "first_seen_run": "2026-10-17",
+          "category": "vendor_moves",
+          "summary": "Public First Action, a group backed by Anthropic, has added another $3 million in outside spending in support of California state Sen. Scott Wiener's congressional bid, bringing AI-industry-aligned money more explicitly into the race.",
+          "why_it_matters": "The investment signals that AI companies are directing significant outside spending toward specific candidates, making the connection between AI industry backing and individual congressional races concrete and trackable.",
+          "flags": [
+            "paywalled"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:punchbowl",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-10-16",
       "date": "2026-10-16",
@@ -1243,15 +1291,6 @@
       "run_id": "2026-08-30",
       "date": "2026-08-30",
       "generated_at": "2026-08-30T16:23:03Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
-    },
-    {
-      "run_id": "2026-08-29",
-      "date": "2026-08-29",
-      "generated_at": "2026-08-29T16:29:21Z",
       "is_light_run": true,
       "top_summary": "",
       "item_count": 0,

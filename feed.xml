@@ -3,7 +3,21 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Fri, 16 Oct 2026 22:57:55 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 15:16:15 GMT</lastBuildDate>
+    <item>
+      <title>How AI is changing political campaigns and voter targeting in Minnesota</title>
+      <link>https://startribune.com/minnesota-political-campaign-ai/601901252</link>
+      <guid isPermaLink="false">a19e1a75fd1a7eda</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
+      <description>The Star Tribune reports on how Minnesota political campaigns are deploying AI for voter targeting and other campaign functions in the 2026 midterm cycle, examining specific adoption patterns in a competitive battleground state.</description>
+    </item>
+    <item>
+      <title>Anthropic-backed group puts more toward Scott Wiener</title>
+      <link>https://punchbowl.news/article/tech/anthropic-scott-wiener</link>
+      <guid isPermaLink="false">008cd6d196d6d3bd</guid>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Public First Action, a group backed by Anthropic, has added another $3 million in outside spending in support of California state Sen. Scott Wiener's congressional bid, bringing AI-industry-aligned money more explicitly into the race.</description>
+    </item>
     <item>
       <title>Political Advertisers Have Spent At Least $137 Million on AI-Generated Ads</title>
       <link>https://campaignsandelections.com/industry-news/political-advertisers-have-spent-at-least-137-million-on-ai-generated-ads</link>
@@ -199,20 +213,6 @@
       <guid isPermaLink="false">619c878384fb65b8</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <description>The Washington Post reports that AI-generated ads are prevalent across the 2026 midterm campaigns but that state disclosure laws have largely not stopped campaigns from failing to label AI-generated content.</description>
-    </item>
-    <item>
-      <title>Google Pulled Down a Trump-Linked Ad That Used AI</title>
-      <link>https://washingtonsun.com/campaigns/trump-pac-ai-ad-texas-google-remove</link>
-      <guid isPermaLink="false">f5d0f2b79f8b1a45</guid>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Google removed an AI-generated political ad tied to a Trump-aligned PAC targeting a Texas race, citing the platform's requirement that political ads disclose AI-generated content.</description>
-    </item>
-    <item>
-      <title>Candidates embrace AI for political ads despite growing voter anxiety</title>
-      <link>https://thehill.com/homenews/campaign/6098906-ai-political-ads-midterms-voter-concerns</link>
-      <guid isPermaLink="false">9dacd09e66b1394c</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
-      <description>The Hill reports that candidates across the political spectrum are increasingly using AI to produce political ads ahead of the 2026 midterms, even as polling shows growing voter unease about the practice.</description>
     </item>
   </channel>
 </rss>
