@@ -78,6 +78,7 @@ def build_sources_html(root: str = ROOT) -> str:
     a('  <meta charset="utf-8">')
     a('  <meta name="viewport" content="width=device-width, initial-scale=1">')
     a('  <title>Sources — AICN</title>')
+    a('  <link rel="alternate" type="application/rss+xml" title="AI Campaign News (AICN)" href="feed.xml">')
     a('  <link rel="preconnect" href="https://fonts.googleapis.com">')
     a('  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>')
     a('  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">')

@@ -1,0 +1,2802 @@
+{
+  "schema_version": 1,
+  "runs": [
+    {
+      "run_id": "2026-09-01",
+      "date": "2026-09-01",
+      "generated_at": "2026-09-01T16:25:49Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-08-31",
+      "date": "2026-08-31",
+      "generated_at": "2026-08-31T19:01:05Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-08-30",
+      "date": "2026-08-30",
+      "generated_at": "2026-08-30T16:23:03Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-08-29",
+      "date": "2026-08-29",
+      "generated_at": "2026-08-29T16:29:21Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-08-28",
+      "date": "2026-08-28",
+      "generated_at": "2026-08-28T22:13:42Z",
+      "is_light_run": false,
+      "top_summary": "A broad run of general political news yielded one on-topic item: a Campaign Trend piece reporting on AI-generated synthetic content hitting the campaign trail, touching on Cory Booker's TikTok operation and forged donations in Arizona. A Campaigns & Elections article on pollster challenges in 2026 \u2014 including 'fake surveys' \u2014 also merits attention as a potential AI/synthetic-respondent story, though the metadata stops short of confirming an AI-specific angle. The week's prior coverage of AI chatbot research and Higher Ground Labs investments remains the dominant AI-in-campaigns news.",
+      "item_count": 1,
+      "items": [
+        {
+          "id": "1f42abf79fc26ee1",
+          "title": "Synthetic Everything Hits The Campaign Trail",
+          "url": "https://campaigntrend.com/synthetic-everything-hits-the-campaign-trail",
+          "source": "Campaign Trend",
+          "source_domain": "campaigntrend.com",
+          "published": "2026-08-28",
+          "first_seen_run": "2026-08-28",
+          "category": "deployments_studies",
+          "summary": "Campaign Trend reports on a wave of synthetic AI-generated content in the 2026 campaign cycle, citing Cory Booker's TikTok presence and alleged forged donations in Arizona as illustrative cases of AI-synthetic tactics entering campaign operations.",
+          "why_it_matters": "Concrete examples of synthetic AI content being deployed \u2014 or allegedly deployed \u2014 in active 2026 races signal that synthetic-media tactics are moving from hypothetical to operational across the political spectrum.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaign-trend",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-27",
+      "date": "2026-08-27",
+      "generated_at": "2026-08-27T22:02:30Z",
+      "is_light_run": false,
+      "top_summary": "Two on-topic stories stand out this run. A Democratic-aligned research firm finds AI chatbots field roughly 650,000 political questions per week, prompting new work on how campaigns can shape those answers. Higher Ground Labs is also deploying capital into five agentic-AI startups \u2014 Baraza, Context, Haystack, Locunity, and Revere \u2014 built for progressive campaign work. A third item from Axios reports Meta disrupting an Iran-linked AI influence operation targeting politicians and journalists, a concrete case of synthetic content in the influence space.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "7408edccf8413fdf",
+          "title": "Democrats Are Getting Some Answers to Their Chatbot Problems",
+          "url": "https://notus.org/2026-election/ai-chatbot-chatgpt-democrats-campaign",
+          "source": "NOTUS",
+          "source_domain": "notus.org",
+          "published": "2026-08-27",
+          "first_seen_run": "2026-08-27",
+          "category": "deployments_studies",
+          "summary": "New research from a Democratic-aligned firm estimates AI chatbots receive about 650,000 political questions weekly, and Democrats are working to address problems with how those chatbots respond to campaign-related queries.",
+          "why_it_matters": "Quantifies the scale of AI chatbot use as a de facto voter-information channel and signals that campaigns are beginning to treat chatbot output as a terrain to actively influence.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "notus",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "46b581c1160759eb",
+          "title": "Announcing HGL\u2019s Agentic AI Open Call Investments",
+          "url": "https://highergroundlabs.com/agentic-ai-investments",
+          "source": "Higher Ground Labs (blog)",
+          "source_domain": "highergroundlabs.com",
+          "published": "2026-08-27",
+          "first_seen_run": "2026-08-27",
+          "category": "vendor_moves",
+          "summary": "Higher Ground Labs announced investments in five companies \u2014 Baraza, Context, Haystack, Locunity, and Revere \u2014 through its Agentic AI Open Call, backing startups building agentic AI tools for progressive political campaigns.",
+          "why_it_matters": "Signals a dedicated progressive accelerator moving from experimental interest to active capital deployment in agentic AI, seeding the next generation of campaign automation vendors.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "higher-ground-labs",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "7d7f798842d5873d",
+          "title": "Exclusive: Meta disrupts Iran-linked AI operation targeting politicians, journalists",
+          "url": "https://axios.com/2026/08/27/facebook-instagram-iran-ai-disinformation",
+          "source": "Axios",
+          "source_domain": "axios.com",
+          "published": "2026-08-27",
+          "first_seen_run": "2026-08-27",
+          "category": "deepfakes",
+          "summary": "Meta says it identified and disrupted an Iran-linked influence operation that used AI-generated content to target politicians and journalists on Facebook and Instagram.",
+          "why_it_matters": "Demonstrates that state-linked actors are deploying AI-generated synthetic content in political influence operations at a scale that triggers platform-level takedowns.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:axios",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-26",
+      "date": "2026-08-26",
+      "generated_at": "2026-08-26T13:05:56Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-08-25",
+      "date": "2026-08-25",
+      "generated_at": "2026-08-25T12:59:21Z",
+      "is_light_run": false,
+      "top_summary": "NGP VAN, the dominant CRM platform for Democratic campaigns, has launched an AI-powered natural-language query feature called Navigator that lets campaigns search and interact with their voter databases conversationally. Separately, a Michigan congressional candidate is disputing a viral audio clip as AI-manipulated, making it a notable deepfake incident in a live 2026 race.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "420baf57921a124a",
+          "title": "NGP VAN Wants Campaigns to Chat With Its CRM",
+          "url": "https://campaignsandelections.com/industry-news/ngp-van-wants-campaigns-to-chat-with-its-crm",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-08-24",
+          "first_seen_run": "2026-08-25",
+          "category": "vendor_moves",
+          "summary": "NGP VAN has launched Navigator, a natural-language AI feature built into its CRM that allows campaign staffers to query their voter and donor databases conversationally instead of through traditional search interfaces.",
+          "why_it_matters": "Natural-language database access from a dominant campaign CRM lowers the technical barrier for campaign staff to extract actionable voter data insights, potentially accelerating how quickly small teams can act on their own lists.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaigns-and-elections",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "ef396beb53373880",
+          "title": "Michigan Congressional Candidate Says Viral Clip of His Voice Is a \u2018Fabrication\u2019",
+          "url": "https://notus.org/2026-election/jeremy-moss-israel-hasan-piker-abdul-el-sayed",
+          "source": "NOTUS",
+          "source_domain": "notus.org",
+          "published": "2026-08-24",
+          "first_seen_run": "2026-08-25",
+          "category": "deepfakes",
+          "summary": "Michigan congressional Democratic nominee Jeremy Moss is publicly contesting a viral audio clip of his voice, calling it a manipulated fabrication that \"peddles in offensive tropes and lies.\"",
+          "why_it_matters": "A live 2026 congressional race now features a disputed AI-manipulated audio clip going viral, illustrating the real-time threat synthetic media poses to candidates during active campaigns.",
+          "flags": [
+            "contested"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "notus",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-24",
+      "date": "2026-08-24",
+      "generated_at": "2026-08-24T12:58:16Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-08-23",
+      "date": "2026-08-23",
+      "generated_at": "2026-08-23T12:48:06Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-08-22",
+      "date": "2026-08-22",
+      "generated_at": "2026-08-22T12:47:27Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-08-21",
+      "date": "2026-08-21",
+      "generated_at": "2026-08-21T12:56:46Z",
+      "is_light_run": false,
+      "top_summary": "Two substantive items survive this run. A TechPolicy.Press feature examines the emerging use of AI-generated synthetic voters as campaign focus-group substitutes, with expert commentary on capability and risk. A Reuters/Yahoo Finance piece reports that AI companies are among the new dominant spenders in the 2026 midterms \u2014 though the story is primarily about political spending by AI firms rather than AI as a campaign tool, it contains enough concrete detail on AI industry involvement in the cycle to be worth tracking.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "68288f9e5b503a33",
+          "title": "Here Come the Synthetic Voters",
+          "url": "https://techpolicy.press/here-come-the-synthetic-voters",
+          "source": "TechPolicy.Press",
+          "source_domain": "techpolicy.press",
+          "published": "2026-08-16",
+          "first_seen_run": "2026-08-21",
+          "category": "polling_synthetic",
+          "summary": "TechPolicy.Press spoke with two experts about the growing use of AI-generated synthetic voters as substitutes for human focus groups in campaigns, describing the phenomenon as something campaigns will soon encounter if they haven't already.",
+          "why_it_matters": "Synthetic voter simulations could substantially lower the cost and speed of qualitative research for campaigns, but raise questions about representational accuracy and the ethics of replacing real constituent input.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "6f003dfbfed7656b",
+          "title": "The new kingmakers: Crypto, AI and betting firms fuel record spending on the 2026 midterms",
+          "url": "https://ca.finance.yahoo.com/news/kingmakers-crypto-ai-betting-firms-100439846.html",
+          "source": "Yahoo Finance",
+          "source_domain": "ca.finance.yahoo.com",
+          "published": "2026-08-20",
+          "first_seen_run": "2026-08-21",
+          "category": "deployments_studies",
+          "summary": "A Reuters report finds that AI companies and their billionaire backers are among the top spenders in the 2026 U.S. midterm elections, joining crypto and prediction-market firms as newly dominant forces in campaign finance, displacing traditional corporate power brokers.",
+          "why_it_matters": "The scale of AI-industry political spending signals how deeply AI vendors are embedding themselves in the 2026 electoral landscape, which has implications for which campaigns receive resources and what policy agendas get amplified.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:finance-yahoo",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-20",
+      "date": "2026-08-20",
+      "generated_at": "2026-08-20T12:57:45Z",
+      "is_light_run": false,
+      "top_summary": "Two practitioner-facing items stand out this run: Campaign Trend's guide to vibe-coding custom campaign software offers concrete advice on using AI-assisted coding tools for campaign builds, while Upwave's launch of AI Campaign Insights Sessions \u2014 powered by its AI agent Bayes \u2014 introduces a new brand-measurement capability that marketers and campaign advertisers could use on demand. The broader candidate pool is dominated by general election and policy news with no AI-campaign nexus.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "14fc069ff4441f1a",
+          "title": "What To Know Before You Vibecode Your Own Campaign Software",
+          "url": "https://campaigntrend.com/what-to-know-before-you-vibecode-your-own-campaign-software",
+          "source": "Campaign Trend",
+          "source_domain": "campaigntrend.com",
+          "published": "2026-08-18",
+          "first_seen_run": "2026-08-20",
+          "category": "analysis_oped",
+          "summary": "Campaign Trend published a practitioner guide on using AI-assisted 'vibe coding' to build custom campaign software, advising that projects should be kept small and isolated from sensitive data to stay focused on election-winning work.",
+          "why_it_matters": "As AI coding tools lower the barrier to building bespoke campaign tech, this kind of guardrail-setting advice shapes how digital staff approach in-house development.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaign-trend",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "243eec7faf18b628",
+          "title": "AI Campaign Insights Sessions \u2013 Newest Capability Powered by AI Agent Bayes",
+          "url": "https://finance.yahoo.com/technology/ai/articles/upwave-launches-ai-campaign-insights-130000938.html",
+          "source": "Yahoo Finance",
+          "source_domain": "finance.yahoo.com",
+          "published": "2026-08-12",
+          "first_seen_run": "2026-08-20",
+          "category": "vendor_moves",
+          "summary": "Upwave, a brand outcomes measurement platform, launched AI Campaign Insights Sessions, a new capability within its AI agent Bayes that gives marketers 24/7 on-demand access to explore campaign performance data and methodology through live AI interaction.",
+          "why_it_matters": "On-demand AI interrogation of campaign measurement data could meaningfully accelerate optimization cycles for political advertisers using brand-lift tools.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:finance-yahoo",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-19",
+      "date": "2026-08-19",
+      "generated_at": "2026-08-19T12:56:40Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-08-18",
+      "date": "2026-08-18",
+      "generated_at": "2026-08-18T12:55:39Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-08-17",
+      "date": "2026-08-17",
+      "generated_at": "2026-08-17T12:52:43Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-08-16",
+      "date": "2026-08-16",
+      "generated_at": "2026-08-16T12:47:37Z",
+      "is_light_run": false,
+      "top_summary": "Grassroots Analytics announced it is acquiring Quiller AI, combining progressive data segmentation infrastructure with generative AI fundraising tools \u2014 a consolidation move worth watching as campaign AI vendors begin to merge. State-level deepfake regulation aimed at the 2026 midterms is also drawing attention, with states moving to police AI-generated political content ahead of November. Data centers are emerging as a defining issue in races like Wisconsin's gubernatorial contest, though that story is about AI as a policy subject rather than a campaign tool.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "454155fb8b8081f0",
+          "title": "Grassroots Analytics is Acquiring Quiller AI",
+          "url": "https://grassrootsanalytics.com/post/grassroots-analytics-is-acquiring-quiller-ai",
+          "source": "Grassroots Analytics",
+          "source_domain": "grassrootsanalytics.com",
+          "published": "2025-08-06",
+          "first_seen_run": "2026-08-16",
+          "category": "vendor_moves",
+          "summary": "Grassroots Analytics announced it is acquiring Quiller AI, a generative AI fundraising tool, with the goal of integrating Quiller's AI copywriting capabilities into Grassroots Analytics' progressive donor data and segmentation platform to create an all-in-one AI fundraising product.",
+          "why_it_matters": "Vendor consolidation in the progressive campaign tech space \u2014 merging AI content generation with donor data infrastructure \u2014 signals a maturing market where integrated AI fundraising suites are becoming the competitive standard.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:quiller-grassroots",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "1ce3a1deb63bbb77",
+          "title": "States rush to police AI deepfakes ahead of midterm elections",
+          "url": "https://marketplace.org/episode/2026/08/14/states-rush-to-police-ai-deepfakes-ahead-of-midterm-elections",
+          "source": "marketplace.org",
+          "source_domain": "marketplace.org",
+          "published": "2026-08-14",
+          "first_seen_run": "2026-08-16",
+          "category": "deepfakes",
+          "summary": "Marketplace reported that states are accelerating efforts to regulate AI-generated deepfakes in political content ahead of the 2026 midterm elections, reflecting a broader push to address synthetic media in campaigns before November.",
+          "why_it_matters": "The pace of state-level deepfake regulation directly affects what AI-generated political content campaigns can legally deploy, making the regulatory landscape a live operational concern for practitioners.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-15",
+      "date": "2026-08-15",
+      "generated_at": "2026-08-15T12:44:56Z",
+      "is_light_run": false,
+      "top_summary": "The dominant theme of this run is AI as a campaign policy issue for the 2026 midterms, with a Washington Post analysis finding that AI and data centers appear on more candidate websites than Israel or manufacturing. Separately, California's Fair Political Practices Commission chair addressed how regulators are thinking about AI-generated political content and influencer disclosures. The AI political donor class story from SF Standard covers AI company employees' political spending \u2014 not campaigns using AI \u2014 and falls outside AICN's scope.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "db95551a4b9f0a91",
+          "title": "AI Becomes a Major Election Issue for the First Time",
+          "url": "https://politicalwire.com/2026/08/14/ai-becomes-a-major-election-issue-for-the-first-time",
+          "source": "politicalwire.com",
+          "source_domain": "politicalwire.com",
+          "published": "2026-08-14",
+          "first_seen_run": "2026-08-15",
+          "category": "analysis_oped",
+          "summary": "Political Wire flags a Washington Post report finding that hundreds of House, Senate, and gubernatorial candidates are actively engaging with AI as a campaign issue, with AI and data centers appearing on more candidate websites than Israel or manufacturing. The piece frames 2026 as the first election cycle in which AI has featured widely as a political issue rather than merely a campaign tool.",
+          "why_it_matters": "Documents the shift of AI from a back-office campaign tool to a frontline electoral issue, with implications for how campaigns and vendors frame their AI messaging.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "ae74cb549071b953",
+          "title": "Q&A: California\u2019s Top Politics Watchdog on AI and Influencers",
+          "url": "https://campaignsandelections.com/industry-news/qa-californias-top-politics-watchdog-on-ai-and-influencers",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-08-14",
+          "first_seen_run": "2026-08-15",
+          "category": "regulation",
+          "summary": "Campaigns & Elections published a Q&A with California Fair Political Practices Commission Chair Adam Silver exploring how the agency is thinking about AI-generated political content and influencer disclosures, including the tension between free speech and campaign finance regulation. Silver addresses what the FPPC is watching and how it may act on new campaign technology frontiers.",
+          "why_it_matters": "Offers practitioners a direct view into how California's top campaign regulator is framing AI disclosure obligations \u2014 relevant to any campaign running AI-generated content in the state.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaigns-and-elections",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-14",
+      "date": "2026-08-14",
+      "generated_at": "2026-08-14T13:15:23Z",
+      "is_light_run": false,
+      "top_summary": "A Campaigns & Elections briefing surveys what AI tools campaigns are already deploying in the 2026 midterm cycle and where the fault lines lie for practitioners. Two older but newly surfaced items add context: aKillion and Subtext's IONCandidate platform converts constituent text messages into campaign engagement using conversational AI, and Scott Wiener's AI chatbot controversy in San Francisco illustrates the political risks of candidate-branded AI tools.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "eeae72f5fcbbc5d3",
+          "title": "Election Briefing: Artificial Intelligence: What Campaigns Are Already Doing, and What They Should Be Ready for Between Now and Election Day",
+          "url": "https://campaignsandelections.com/industry-news/election-briefing-artificial-intelligence-what-campaigns-are-already-doing-and-what-they-should-be-ready-for-between-now-and-election-day",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-08-13",
+          "first_seen_run": "2026-08-14",
+          "category": "analysis_oped",
+          "summary": "Campaigns & Elections published a practitioner-facing briefing drawing on strategist conversations about where campaigns are getting the most value from AI in the 2026 midterm cycle \u2014 covering current adoption patterns and the fault lines practitioners will need to navigate before November.",
+          "why_it_matters": "Provides a real-time practitioner read on which AI use cases are gaining traction and which remain contested heading into the final stretch of the 2026 cycle.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaigns-and-elections",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "4f1b68100716e165",
+          "title": "aKillion and Subtext Form a Strategic Partnership and Introduce IONCandidate, the Real-Time AI Platform That Converts Constituent Text Messages Into Political Campaign Engagement, Revenue, and Voter Action",
+          "url": "https://finance.yahoo.com/technology/ai/articles/akillion-subtext-form-strategic-partnership-130000622.html",
+          "source": "Yahoo Finance",
+          "source_domain": "finance.yahoo.com",
+          "published": "2026-06-23",
+          "first_seen_run": "2026-08-14",
+          "category": "vendor_moves",
+          "summary": "aKillion and Subtext announced a strategic partnership and the launch of IONCandidate, a conversational AI platform built specifically for political campaigns that converts inbound constituent text messages into engagement, fundraising, and voter action in real time.",
+          "why_it_matters": "Purpose-built two-way SMS AI for campaigns addresses a gap in automated voter contact \u2014 turning passive inbound texts into active touchpoints at scale.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:finance-yahoo",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "14820e7b5985690f",
+          "title": "Scott Wiener's AI chatbot controversy, explained",
+          "url": "https://axios.com/local/san-francisco/2026/08/11/sf-scott-wiener-connie-chan-pelosi-ai-chatbot",
+          "source": "Axios",
+          "source_domain": "axios.com",
+          "published": "2026-08-11",
+          "first_seen_run": "2026-08-14",
+          "category": "deployments_studies",
+          "summary": "Axios San Francisco reported on controversy surrounding California State Senator Scott Wiener's AI chatbot, with critics raising concerns about the chatbot's behavior or outputs in the context of his political profile.",
+          "why_it_matters": "Candidate-branded AI chatbots carry reputational risk when outputs diverge from the candidate's intended messaging \u2014 a cautionary case for campaigns deploying conversational AI tools.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:axios",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-13",
+      "date": "2026-08-13",
+      "generated_at": "2026-08-13T13:30:01Z",
+      "is_light_run": false,
+      "top_summary": "The dominant story this run is Nassau County Executive Bruce Blakeman's use of AI-generated ads targeting Kathy Hochul and Zohran Mamdani, with New York Democrats filing a Board of Elections complaint alleging the ads used public funds. Separately, the Centre for Campaign Innovation published a practitioner-facing explainer on AI polling for campaigns, and Civly launched an AI campaign intelligence platform offering synthetic polling, FEC compliance tools, and opposition research. The Axios piece on Democrats lacking a coherent AI strategy is also noteworthy for the field.",
+      "item_count": 6,
+      "items": [
+        {
+          "id": "48fcb909eab225d1",
+          "title": "Bruce Blakeman has defiant message for Dems angry about his AI ads on Hochul , Mamdani",
+          "url": "https://nypost.com/2026/08/12/us-news/bruce-blakeman-has-defiant-message-for-dems-angry-about-his-ai-ads-on-hochul-mamdani",
+          "source": "nypost.com",
+          "source_domain": "nypost.com",
+          "published": "2026-08-12",
+          "first_seen_run": "2026-08-13",
+          "category": "deployments_studies",
+          "summary": "Nassau County Executive Bruce Blakeman responded defiantly to Democratic criticism of his AI-generated campaign ads depicting Kathy Hochul and Zohran Mamdani, defending the ads as legitimate political speech.",
+          "why_it_matters": "A sitting county executive's deployment of AI-generated attack ads against statewide candidates, and the partisan backlash it triggered, illustrates the real-world political stakes of AI-generated political content in 2026.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "f0666bce2a934cc4",
+          "title": "As Dems move to stop Blakeman AI depictions , he calls foul",
+          "url": "https://spectrumlocalnews.com/nys/central-ny/politics/2026/08/11/democrats-blakeman-ai-depictions-",
+          "source": "nystateofpolitics.com",
+          "source_domain": "nystateofpolitics.com",
+          "published": "2026-08-12",
+          "first_seen_run": "2026-08-13",
+          "category": "deployments_studies",
+          "summary": "New York Democratic Party Chair Jay Jacobs filed a complaint with the state Board of Elections alleging that Nassau County Executive Bruce Blakeman's campaign violated state law by running AI-generated depictions of Hochul and Mamdani.",
+          "why_it_matters": "This is an early test of whether New York's AI disclosure or election law can be used to challenge AI-generated political ads, setting a potential precedent for how such content is regulated at the state level.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "bf0548be64422aeb",
+          "title": "Blakeman used public funds for AI ads , Dems say | Political",
+          "url": "https://dailygazette.com/cjfund/political/blakeman-democrats-complaint-ai-ads-hochul-mamdani-constantino/article_207251e1-ca9b-44c7-b05a-d01eea304ae7.html",
+          "source": "dailygazette.com",
+          "source_domain": "dailygazette.com",
+          "published": "2026-08-11",
+          "first_seen_run": "2026-08-13",
+          "category": "deployments_studies",
+          "summary": "The Daily Gazette reports that New York State Democrats accused Bruce Blakeman of using public funds to produce AI-generated campaign ads targeting Hochul and Mamdani, adding a potential misuse-of-public-funds dimension to the complaint.",
+          "why_it_matters": "Allegations that public funds were channeled into AI-generated political ads raise accountability questions that go beyond typical campaign finance disputes.",
+          "flags": [
+            "contested"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "c0f30072c9cc81b8",
+          "title": "Democrats' AI strategy is MIA",
+          "url": "https://axios.com/2026/08/10/democrats-ai-strategy",
+          "source": "Axios",
+          "source_domain": "axios.com",
+          "published": "2026-08-10",
+          "first_seen_run": "2026-08-13",
+          "category": "analysis_oped",
+          "summary": "Axios reports that Democrats lack a coherent AI strategy for the 2026 cycle, leaving the party without a unified approach to adopting or countering AI-driven campaign tools.",
+          "why_it_matters": "A major party's absence of a coordinated AI strategy heading into a midterm cycle is a significant structural gap that practitioners and vendors will need to navigate.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:axios",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "3b6e0b92fc28e50d",
+          "title": "What Campaigns Need To Know About AI Polling",
+          "url": "https://campaigninnovation.org/articles/what-campaigns-need-to-know-about-ai-polling",
+          "source": "CCI",
+          "source_domain": "campaigninnovation.org",
+          "published": "2026-07-08",
+          "first_seen_run": "2026-08-13",
+          "category": "polling_synthetic",
+          "summary": "The Centre for Campaign Innovation published a practitioner-facing overview of AI-generated polling, noting that startups are selling synthetic surveys to campaigns and that established firms like Gallup and Ipsos have begun validating the concept.",
+          "why_it_matters": "Confirmation that major polling brands are validating synthetic survey methods signals that AI polling is moving from fringe experiment to mainstream campaign tool.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "9b34168eefeb4f77",
+          "title": "Civly Politics | AI Campaign Intelligence Platform for Political Campaigns",
+          "url": "https://civly.ai/politics",
+          "source": "Civly",
+          "source_domain": "civly.ai",
+          "published": "2026-08-13",
+          "first_seen_run": "2026-08-13",
+          "category": "vendor_moves",
+          "summary": "Civly launched Civly Politics, an AI campaign intelligence platform offering synthetic polling, FEC compliance and donor verification, fundraising CRM, and opposition research tools targeted at political campaigns.",
+          "why_it_matters": "An all-in-one AI platform bundling synthetic polling with compliance and opposition research in a single product represents a new integration model for campaign technology.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-12",
+      "date": "2026-08-12",
+      "generated_at": "2026-08-12T13:20:00Z",
+      "is_light_run": false,
+      "top_summary": "NGP VAN, the dominant tech platform for Democratic and progressive campaigns, launched NGP VAN Interface \u2014 an agentic AI layer built directly into its campaign management system ahead of the 2026 midterms. The Daily Signal also published a substantive overview of how AI tools are reshaping campaign operations this cycle. The Hill's newsletter covered AI's effect on traditional campaign strategy, and The Hill item and the Daily Signal piece together round out a picture of AI embedding more deeply into campaign infrastructure.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "2d468bb946f2c66f",
+          "title": "NGP VAN Launches NGP VAN Interface, Bringing Agentic AI to Democratic and Progressive Campaigns Ahead of Midterm Elections",
+          "url": "https://prnewswire.com/news-releases/ngp-van-launches-ngp-van-interface-bringing-agentic-ai-to-democratic-and-progressive-campaigns-ahead-of-midterm-elections-302849380.html",
+          "source": "PRNewswire",
+          "source_domain": "prnewswire.com",
+          "published": "2026-08-12",
+          "first_seen_run": "2026-08-12",
+          "category": "vendor_moves",
+          "summary": "NGP VAN announced the launch of NGP VAN Interface, an agentic AI product integrated into its campaign management platform and targeted at Democratic and progressive campaigns ahead of the 2026 midterm elections.",
+          "why_it_matters": "NGP VAN is the dominant CRM/data platform for the Democratic ecosystem, so embedding agentic AI directly into that infrastructure represents a significant capability shift for a large share of left-of-center campaigns simultaneously.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:ngpvan-bonterra",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "f0165d4c38d2ff34",
+          "title": "Artificial Intelligence Is Taking Over Political Campaigns - The Daily Signal",
+          "url": "https://dailysignal.com/2026/03/21/artificial-intelligence-is-taking-over-political-campaigns",
+          "source": "The Daily Signal",
+          "source_domain": "dailysignal.com",
+          "published": "2026-04-22",
+          "first_seen_run": "2026-08-12",
+          "category": "deployments_studies",
+          "summary": "The Daily Signal published a survey-style piece arguing that AI tools are dominating 2026 midterm campaign operations \u2014 not merely as a policy debate topic \u2014 covering adoption of AI in voter targeting, messaging, and field work.",
+          "why_it_matters": "A concrete practitioner-facing account of AI deployment across multiple campaign functions in the current cycle provides useful context on the breadth of adoption heading into November.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-11",
+      "date": "2026-08-11",
+      "generated_at": "2026-08-11T13:15:12Z",
+      "is_light_run": false,
+      "top_summary": "Two vendor announcements stand out this cycle: Viamedia.ai has integrated Aristotle voter data into its Geo-Graph platform for block-level political ad targeting, and IQM launched VoterTV+, a cross-screen political ad planning suite combining linear and digital TV. Separately, The Political Group published a practitioner-facing overview of AI voter targeting strategies for 2026 campaigns. The broader candidate feed is dominated by primary election results, legislative news, and data-center policy debates that fail the campaign-AI use test.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "216fcc92c5a9be39",
+          "title": "Viamedia.ai Adds Aristotle Political Intelligence to Geo-Graph\u2122, Giving Campaigns Neighborhood-Level Precision and Incremental Voter Reach",
+          "url": "https://finance.yahoo.com/media-advertising/articles/viamedia-ai-adds-aristotle-political-170500797.html",
+          "source": "Yahoo Finance",
+          "source_domain": "finance.yahoo.com",
+          "published": "2026-07-20",
+          "first_seen_run": "2026-08-11",
+          "category": "vendor_moves",
+          "summary": "Viamedia.ai announced the integration of Aristotle Political Intelligence into its Geo-Graph platform, enabling campaigns to target swing voters, low-propensity supporters, and custom donor audiences down to the block level with real-time ad activation.",
+          "why_it_matters": "Block-level voter targeting via an AI ad-tech platform paired with a major political data vendor represents a concrete capability upgrade for campaign digital buyers heading into 2026.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:finance-yahoo",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "5e18fa988b12ed19",
+          "title": "IQM DEBUTS VOTERTV+: A PRECISION POLITICAL SUITE ENGINEERED FOR DEDUPLICATED REACH AND THE VOTERS LINEAR TV CAN'T TOUCH",
+          "url": "https://finance.yahoo.com/media-advertising/articles/iqm-debuts-votertv-precision-political-120400404.html",
+          "source": "Yahoo Finance",
+          "source_domain": "finance.yahoo.com",
+          "published": "2026-07-28",
+          "first_seen_run": "2026-08-11",
+          "category": "vendor_moves",
+          "summary": "IQM Advertising Corporation launched VoterTV+, a cross-screen political ad planning suite that combines linear TV and digital in a single workspace, allowing campaigns to model audience reach and deduplicated voter contact before committing budget.",
+          "why_it_matters": "Unified linear-and-digital planning tools with voter-file integration are increasingly central to campaign media strategy, and this launch signals growing vendor competition in the political CTV/OTT space.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:finance-yahoo",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "eb02e3412c52f3f1",
+          "title": "AI Voter Targeting Strategies for 2026 Campaigns",
+          "url": "https://thepoliticalgroup.com/news/how-ai-voter-targeting-is-reshaping-campaign-strategy-in-2026-2",
+          "source": "The Political Group",
+          "source_domain": "thepoliticalgroup.com",
+          "published": "2026-08-08",
+          "first_seen_run": "2026-08-11",
+          "category": "analysis_oped",
+          "summary": "The Political Group published a practitioner-facing overview of how AI-driven voter targeting is being used in 2026 campaigns, covering strategy, risk considerations, and the trajectory of intelligent targeting tools.",
+          "why_it_matters": "Practitioner-focused analysis of AI targeting adoption gives campaign digital directors a consolidated view of current capabilities and trade-offs entering the 2026 cycle.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-10",
+      "date": "2026-08-10",
+      "generated_at": "2026-08-10T13:20:56Z",
+      "is_light_run": false,
+      "top_summary": "The dominant story this cycle is a state-level regulatory gap: an Anchorage Daily News op-ed argues Alaska lacks any comprehensive AI policy framework while other states move to protect consumers, workers, and children. No other candidates in this batch meet the dual test of involving both AI/ML and political campaigns or elections.",
+      "item_count": 1,
+      "items": [
+        {
+          "id": "64c3ee56cd4b0bc0",
+          "title": "Opinion : Artificial intelligence is moving fast while Alaska policy stands still",
+          "url": "https://adn.com/opinions/2026/08/09/opinion-artificial-intelligence-is-moving-fast-while-alaska-policy-stands-still",
+          "source": "adn.com",
+          "source_domain": "adn.com",
+          "published": "2026-08-10",
+          "first_seen_run": "2026-08-10",
+          "category": "regulation",
+          "summary": "An op-ed in the Anchorage Daily News argues that Alaska has failed to enact any comprehensive AI legislation or data-center policy while other states are adopting consumer, worker, and child protections tied to AI \u2014 leaving the state without a regulatory framework as the technology accelerates.",
+          "why_it_matters": "Illustrates the continuing patchwork of state-level AI governance entering the 2026 election cycle, with some states still at square one on protections relevant to voters, campaigns, and electoral infrastructure.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-09",
+      "date": "2026-08-09",
+      "generated_at": "2026-08-09T13:01:44Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-08-08",
+      "date": "2026-08-08",
+      "generated_at": "2026-08-08T12:58:54Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-08-07",
+      "date": "2026-08-07",
+      "generated_at": "2026-08-07T13:16:45Z",
+      "is_light_run": false,
+      "top_summary": "New research finds AI chatbots are delivering more accurate election facts heading into the 2026 midterms but still produce incomplete answers that could mislead voters. A separate Axios report maps the uneven patchwork of state-level laws protecting voters from AI-generated deepfakes ahead of the same cycle. Together the two items highlight both the improving and still-fragile role of AI in the information environment around elections.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "0f9a9f673f097255",
+          "title": "AI is getting better at election facts, but voters shouldn't rely on it",
+          "url": "https://cyberscoop.com/ai-chatbots-2026-midterm-elections",
+          "source": "CyberScoop",
+          "source_domain": "cyberscoop.com",
+          "published": "2026-08-05",
+          "first_seen_run": "2026-08-07",
+          "category": "deployments_studies",
+          "summary": "New research finds that AI chatbots have meaningfully reduced factual errors when answering election-related questions ahead of the 2026 midterms, but incomplete or partial answers remain a significant risk for voters who rely on them for electoral information.",
+          "why_it_matters": "Systematic benchmarking of chatbot accuracy on election facts provides an empirical baseline for assessing AI's role as an information intermediary in campaigns and elections.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "c6c96a363bdb23d4",
+          "title": "Voters face uneven AI deepfake protections",
+          "url": "https://axios.com/2026/08/07/election-ai-deepfake-rules-states",
+          "source": "Axios",
+          "source_domain": "axios.com",
+          "published": "2026-08-07",
+          "first_seen_run": "2026-08-07",
+          "category": "regulation",
+          "summary": "Axios reports that voters heading into the 2026 midterms face a highly uneven landscape of state-level legal protections against AI-generated deepfakes in political content, with significant gaps across many states.",
+          "why_it_matters": "The fragmented state-by-state regulatory picture means candidates and voters in many jurisdictions have little or no legal recourse against AI-generated synthetic media targeting elections.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:axios",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-06",
+      "date": "2026-08-06",
+      "generated_at": "2026-08-06T14:25:19Z",
+      "is_light_run": false,
+      "top_summary": "The dominant AI-and-elections story this cycle is the political economy around AI infrastructure: NBC News reports that AI companies' campaign spending is set to surge this fall as fights over AI regulation and data centers become central midterm issues, while a companion piece shows local backlash to hyperscale data center construction is already shaping down-ballot races. Separately, Senate Democrats are publicly splitting over AI policy, with the party's top tax-writer proposing a new tax on data centers.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "63ef76dd09e3b1ff",
+          "title": "Why AI giants' political spending could balloon this fall",
+          "url": "https://nbcnews.com/politics/2026-election/ai-giants-political-spending-balloon-fall-rcna590857",
+          "source": "NBC News",
+          "source_domain": "nbcnews.com",
+          "published": "2026-08-04",
+          "first_seen_run": "2026-08-06",
+          "category": "analysis_oped",
+          "summary": "NBC News reports that major AI companies are expected to significantly increase their political spending ahead of the fall 2026 general elections, driven by high-stakes fights in Congress and statehouses over AI regulation, data center permitting, and related policy battles.",
+          "why_it_matters": "Corporate AI lobbying and campaign spending at this scale could directly shape the legislative environment governing AI in elections and beyond, making the industry itself a major electoral actor.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:nbcnews",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "1f96ee89a31300f9",
+          "title": "How the booming backlash to AI data centers is shaping the midterm election",
+          "url": "https://nbcnews.com/politics/2026-election/booming-backlash-ai-data-centers-shaping-midterm-election-rcna589624",
+          "source": "NBC News",
+          "source_domain": "nbcnews.com",
+          "published": "2026-07-29",
+          "first_seen_run": "2026-08-06",
+          "category": "deployments_studies",
+          "summary": "NBC News documents how community backlash to rapid hyperscale AI data center construction \u2014 touching on power consumption, land use, and water \u2014 emerged as a live campaign issue in 2025 state elections and is now rippling into 2026 midterm races up and down the ballot.",
+          "why_it_matters": "AI infrastructure is becoming a tangible local political issue that candidates must address, broadening AI's electoral footprint beyond content and disinformation concerns.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:nbcnews",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "5653b11771c90cb9",
+          "title": "Democrats\u2019 Split on AI Grows as a New Plan Emerges",
+          "url": "https://notus.org/technology/democrats-split-ai-grows-wyden-tax-data-centers",
+          "source": "NOTUS",
+          "source_domain": "notus.org",
+          "published": "2026-08-06",
+          "first_seen_run": "2026-08-06",
+          "category": "regulation",
+          "summary": "NOTUS reports that Senate Democrats are increasingly divided on AI policy, with Senate Finance Committee ranking member Ron Wyden introducing a proposal to tax data centers as part of a broader intra-party dispute over how to approach AI regulation and industry incentives.",
+          "why_it_matters": "A rift among Senate Democrats on AI taxation and regulation signals that AI policy will be a contested issue within both parties heading into the 2026 cycle, not just between them.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "notus",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-05",
+      "date": "2026-08-05",
+      "generated_at": "2026-08-05T14:22:55Z",
+      "is_light_run": false,
+      "top_summary": "Axios reports that the 2026 and 2028 election cycles are on track to become the first elections substantially shaped by AI tools including campaign bots and simulated voters, signaling a structural shift in how campaigns operate. No other strongly on-topic items survived filtering this run \u2014 the candidate pool was dominated by general election news, campaign finance, and watchlist items with no AI component.",
+      "item_count": 1,
+      "items": [
+        {
+          "id": "07ec3037de2b8b1e",
+          "title": "We're headed toward the first true AI election",
+          "url": "https://axios.com/2026/08/05/ai-election-bots-simulated-voters-2026-2028",
+          "source": "Axios",
+          "source_domain": "axios.com",
+          "published": "2026-08-05",
+          "first_seen_run": "2026-08-05",
+          "category": "analysis_oped",
+          "summary": "Axios argues that 2026 and 2028 are poised to become the first elections meaningfully defined by AI, pointing to the growing use of campaign bots and simulated voters as evidence of a structural inflection point in electoral politics.",
+          "why_it_matters": "Framing the current cycle as the first true AI election sets context for how campaigns, regulators, and researchers should interpret the wave of AI deployments now underway.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:axios",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-04",
+      "date": "2026-08-04",
+      "generated_at": "2026-08-04T14:31:11Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-08-03",
+      "date": "2026-08-03",
+      "generated_at": "2026-08-03T14:50:22Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "accec9e19638d101",
+          "title": "AI-generated political ad in St. Charles County raises deepfake questions ahead of primary election",
+          "url": "https://firstalert4.com/2026/07/20/ai-generated-political-ad-st-charles-county-raises-deepfake-questions-ahead-primary-election",
+          "source": "First Alert 4",
+          "source_domain": "firstalert4.com",
+          "published": "2026-07-20",
+          "first_seen_run": "2026-08-03",
+          "category": "deepfakes",
+          "summary": "A fully AI-generated political ad targeting candidates in the St. Charles County executive race drew scrutiny over the role of deepfakes in local elections, with the story published two weeks before the primary.",
+          "why_it_matters": "Local-level AI-generated attack ads signal that synthetic political content is spreading beyond high-profile federal races to down-ballot contests.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "ed9b9260b07977dc",
+          "title": "Exclusive: The AI 'news' accounts hyping a blue-state dystopia",
+          "url": "https://semafor.com/article/08/02/2026/the-ai-news-accounts-hyping-a-blue-state-dystopia",
+          "source": "Semafor",
+          "source_domain": "semafor.com",
+          "published": "2026-08-02",
+          "first_seen_run": "2026-08-03",
+          "category": "deepfakes",
+          "summary": "Semafor reports that AI-generated video accounts on YouTube are flooding the platform with fabricated narratives portraying chaos in California and New York, presenting fictional content as news to advance a partisan political framing.",
+          "why_it_matters": "Coordinated AI-generated fake-news video campaigns targeting specific states represent an emerging disinformation vector that operates outside traditional paid-ad disclosure frameworks.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:semafor",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-02",
+      "date": "2026-08-02",
+      "generated_at": "2026-08-02T13:31:39Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "ccd3f5e507c476ea",
+          "title": "Mark Cuban says the winners of the 2026 midterms are those 'already working' to integrate AI into their campaigns",
+          "url": "https://businessinsider.com/mark-cuban-ai-midterms-campaigns-trump-democrats-2026-2025-8",
+          "source": "AOL / Business Insider",
+          "source_domain": "businessinsider.com",
+          "published": "2026-07-30",
+          "first_seen_run": "2026-08-02",
+          "category": "analysis_oped",
+          "summary": "Mark Cuban told Business Insider that the winners of the 2026 midterms will be campaigns that are already integrating AI tools such as ChatGPT and Gemini into their operations.",
+          "why_it_matters": "A high-profile investor and public figure articulating a concrete AI-adoption thesis for 2026 campaigns can influence how donors and operatives prioritize AI spending.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "cab702a70828a850",
+          "title": "Imagining Two Possible Futures of AI In Political Campaigning",
+          "url": "https://campaigninnovation.org/updates/imagining-two-possible-futures-of-ai-in-political-campaigning",
+          "source": "Center for Campaign Innovation",
+          "source_domain": "campaigninnovation.org",
+          "published": "2026-08-02",
+          "first_seen_run": "2026-08-02",
+          "category": "analysis_oped",
+          "summary": "The Center for Campaign Innovation published a piece exploring two contrasting scenarios for how AI could reshape political campaigning, framing potential trajectories rather than reporting on a specific deployment.",
+          "why_it_matters": "Scenario-planning from a campaign-focused think tank can shape practitioner expectations and policy conversations about AI's long-term role in elections.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:center-for-campaign-innovation",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-08-01",
+      "date": "2026-08-01",
+      "generated_at": "2026-08-01T13:29:48Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 1,
+      "items": [
+        {
+          "id": "ec784b5ef0c29632",
+          "title": "Brazil banned Bolsonaro from speaking . His AI avatar spoke anyway .",
+          "url": "https://thenextweb.com/news/bolsonaro-ai-avatar-brazil-election-tse-deepfake-rules",
+          "source": "thenextweb.com",
+          "source_domain": "thenextweb.com",
+          "published": "2026-07-31",
+          "first_seen_run": "2026-08-01",
+          "category": "deepfakes",
+          "summary": "Despite a legal ban on Jair Bolsonaro speaking publicly, an AI-generated video avatar of the jailed former Brazilian president addressed a campaign rally in S\u00e3o Paulo at the launch of his son Fl\u00e1via's presidential bid, circumventing the court order.",
+          "why_it_matters": "The incident illustrates how AI avatars can be deployed to evade legal restrictions on political figures, raising urgent questions about the enforceability of campaign speech rules in the age of synthetic media.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-31",
+      "date": "2026-07-31",
+      "generated_at": "2026-07-31T14:17:26Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 1,
+      "items": [
+        {
+          "id": "90b58d18c3902e23",
+          "title": "AI - generated ads target Tennessee midterm elections",
+          "url": "https://wsmv.com/2026/07/30/ai-generated-ads-target-tennessee-midterm-elections",
+          "source": "wsmv.com",
+          "source_domain": "wsmv.com",
+          "published": "2026-07-30",
+          "first_seen_run": "2026-07-31",
+          "category": "deepfakes",
+          "summary": "WSMV reports that AI-generated attack ads are targeting Tennessee midterm elections, with one ad falsely connecting a Democratic candidate to Trump and a pardoned ex-official.",
+          "why_it_matters": "Local-level reporting on AI-generated political attack ads illustrates how synthetic media is being deployed in down-ballot 2026 races, not just high-profile contests.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-30",
+      "date": "2026-07-30",
+      "generated_at": "2026-07-30T14:14:17Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 4,
+      "items": [
+        {
+          "id": "8b70a19bed19b3e9",
+          "title": "AI Avatar of Jair Bolsonaro Sparks Legal Battle Ahead of Brazil 2026 Presidential Election",
+          "url": "https://econotimes.com/AI-Avatar-of-Jair-Bolsonaro-Sparks-Legal-Battle-Ahead-of-Brazils-2026-Presidential-Election-1748002",
+          "source": "econotimes.com",
+          "source_domain": "econotimes.com",
+          "published": "2026-07-29",
+          "first_seen_run": "2026-07-30",
+          "category": "deepfakes",
+          "summary": "An AI-generated avatar of former Brazilian president Jair Bolsonaro has sparked a legal dispute ahead of Brazil's 2026 presidential election, raising questions about the use of synthetic candidate likenesses in campaign content.",
+          "why_it_matters": "International legal battles over AI candidate avatars set precedents that could influence how courts and regulators worldwide treat synthetic political likenesses in election campaigns.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "675a78d689ff4175",
+          "title": "Sen. Blackburn fights AI-generated attack ad",
+          "url": "https://axios.com/local/nashville/2026/07/29/sen-blackburn-fights-ai-generated-attack-ad",
+          "source": "Axios",
+          "source_domain": "axios.com",
+          "published": "2026-07-29",
+          "first_seen_run": "2026-07-30",
+          "category": "deepfakes",
+          "summary": "Sen. Marsha Blackburn is fighting back against an AI-generated attack ad targeting her in Tennessee.",
+          "why_it_matters": "A sitting U.S. senator actively contesting an AI-generated attack ad signals that synthetic political advertising is now a direct operational issue for incumbent campaigns, not just a hypothetical threat.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:axios",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "48abc111666f2aaa",
+          "title": "Political AI campaigns targeted by California Democrats",
+          "url": "https://nypost.com/2026/07/28/us-news/california-dems-target-ai-campaign-ads-after-spencer-pratt-and-steve-hiltons-viral-political-attacks",
+          "source": "nypost.com",
+          "source_domain": "nypost.com",
+          "published": "2026-07-29",
+          "first_seen_run": "2026-07-30",
+          "category": "regulation",
+          "summary": "California Sens. Adam Schiff and Ro Khanna are pushing federal legislation to ban AI-generated political ads, prompted in part by viral AI-produced political attacks involving Spencer Pratt and Steve Hilton.",
+          "why_it_matters": "This is a follow-up to the Schiff bill story already published, but adds the concrete named trigger \u2014 the Pratt/Hilton viral AI attack content \u2014 which represents a materially new detail linking specific incidents to the legislative push.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "d113196a3bcac1e0",
+          "title": "Adam Schiff attack on free speech is a parody of itself",
+          "url": "https://nypost.com/2026/07/28/opinion/adam-schiffs-attack-on-free-speech-is-a-parody-of-itself",
+          "source": "nypost.com",
+          "source_domain": "nypost.com",
+          "published": "2026-07-29",
+          "first_seen_run": "2026-07-30",
+          "category": "analysis_oped",
+          "summary": "A New York Post editorial argues that Sen. Adam Schiff's proposed legislation targeting AI-generated political ads is overbroad, criticizing it for lacking a parody carveout and characterizing it as a free-speech threat.",
+          "why_it_matters": "Opposition framing around parody exemptions in AI political ad regulation is a substantive fault line that will shape how such bills are drafted and challenged going forward.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-29",
+      "date": "2026-07-29",
+      "generated_at": "2026-07-29T14:20:50Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 1,
+      "items": [
+        {
+          "id": "8e82d6771c6ce7b6",
+          "title": "AI Regulation in Congress: Every Bill, Vote, and Floor Quote (2026)",
+          "url": "https://legisletter.org/issues/ai-regulation",
+          "source": "Legisletter",
+          "source_domain": "legisletter.org",
+          "published": "2026-07-22",
+          "first_seen_run": "2026-07-29",
+          "category": "regulation",
+          "summary": "Legisletter maintains a running tracker of AI-related legislation in the 119th Congress, covering deepfake bans, state preemption fights, algorithmic accountability, and data center issues, updated weekly with floor quotes and lobbying filings.",
+          "why_it_matters": "A consolidated, continuously updated reference for AI election and campaign regulation activity in Congress is a useful resource for tracking the legislative landscape.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:take-it-down-act",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-28",
+      "date": "2026-07-28",
+      "generated_at": "2026-07-28T14:19:00Z",
+      "is_light_run": false,
+      "top_summary": "California Sen. Adam Schiff plans to introduce two bills that would restrict AI-generated likenesses of politicians in political ads and require disclosure for paid influencers, marking a notable new legislative push at the federal level. A Turing Institute report examines deepfake scams and compromised AI chatbots as election security threats. State legislatures are actively advancing bills requiring disclosures or restrictions on AI-generated political ads in 2026, with a new overview tracking the legislative push across states.",
+      "item_count": 5,
+      "items": [
+        {
+          "id": "50ac61a0de158f90",
+          "title": "Exclusive: Senate Democrat's new bills would restrict AI-powered ads and paid influencers",
+          "url": "https://semafor.com/article/07/26/2026/senate-democrats-new-bills-would-restrict-ai-powered-ads-and-paid-influencers",
+          "source": "Semafor",
+          "source_domain": "semafor.com",
+          "published": "2026-07-26",
+          "first_seen_run": "2026-07-28",
+          "category": "regulation",
+          "summary": "California Sen. Adam Schiff plans to introduce two bills: one that would restrict AI-generated likenesses of politicians in political ads and another that would require disclosure of paid influencers in political speech online.",
+          "why_it_matters": "Federal legislative action specifically targeting AI-generated political content is rare; Schiff's bills represent a concrete new congressional attempt to regulate AI in campaign advertising.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:semafor",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "f83986496c96b874",
+          "title": "Lawmakers Are Riding the AI Wave to Stardom",
+          "url": "https://notus.org/technology/lawmakers-ai-wave-stardom",
+          "source": "NOTUS",
+          "source_domain": "notus.org",
+          "published": "2026-07-28",
+          "first_seen_run": "2026-07-28",
+          "category": "analysis_oped",
+          "summary": "NOTUS reports that politicians who can speak credibly to AI issues are gaining visibility and credibility with voters and within their parties, positioning AI as a political credential in the 2026 cycle.",
+          "why_it_matters": "Shows how AI policy is becoming a campaign asset in itself, shaping how candidates and lawmakers position themselves to voters ahead of the midterms.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "notus",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "77a398565953975b",
+          "title": "2026 State Legislative Push to Regulate AI-Generated Campaign Advertisements",
+          "url": "https://statecapitallobbyist.com/uncategorized/2026-state-legislative-push-to-regulate-ai-generated-campaign-advertisements",
+          "source": "Duane Morris Government Strategies",
+          "source_domain": "statecapitallobbyist.com",
+          "published": "2026-07-07",
+          "first_seen_run": "2026-07-28",
+          "category": "regulation",
+          "summary": "Duane Morris Government Strategies surveys 2026 state legislation targeting AI-generated political ads, noting states are introducing bills ranging from mandatory disclosure requirements to outright pre-election bans on synthetic media.",
+          "why_it_matters": "Provides a consolidated view of the accelerating state-level regulatory landscape for AI in political advertising ahead of the 2026 midterms.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:take-it-down-act",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "cb46764ce293966b",
+          "title": "How One Voter Data Firm is Meeting the AI Age",
+          "url": "https://campaignsandelections.com/industry-news/how-one-voter-data-firm-is-meeting-the-ai-age",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-06-09",
+          "first_seen_run": "2026-07-28",
+          "category": "vendor_moves",
+          "summary": "Campaigns & Elections profiles L2, a voter data firm, and its cautious approach to integrating AI into its products, contrasting it with faster-moving competitors in the political data space.",
+          "why_it_matters": "Illustrates how established voter data vendors are navigating AI adoption pressures while trying to maintain data reliability for campaigns.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:l2",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "74bb208669e6b806",
+          "title": "Aaru - Behavior simulation at the scale of the real world.",
+          "url": "https://aaru.com/",
+          "source": "Aaru (company website)",
+          "source_domain": "aaru.com",
+          "published": "2026-07-17",
+          "first_seen_run": "2026-07-28",
+          "category": "polling_synthetic",
+          "summary": "Aaru, a behavior simulation company, markets itself as an alternative to traditional surveys by using AI to simulate human behavior at scale, arguing that conventional polling is distorted by memory failure and social pressure.",
+          "why_it_matters": "Synthetic respondent platforms like Aaru represent a growing challenge to traditional polling methodology with direct implications for how campaigns and issue advocates conduct research.",
+          "flags": [
+            "vendor_self_reported",
+            "speculative"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:aaru",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-27",
+      "date": "2026-07-27",
+      "generated_at": "2026-07-27T14:52:42Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "71816d0071db7cb3",
+          "title": "This Is Donald Trump\u2019s AI Brain Trust",
+          "url": "https://wired.com/story/this-is-donald-trumps-ai-brain-trust",
+          "source": "Wired (Politics)",
+          "source_domain": "wired.com",
+          "published": "2026-07-27",
+          "first_seen_run": "2026-07-27",
+          "category": "analysis_oped",
+          "summary": "Wired profiles the network of advisers and officials shaping U.S. AI policy inside the Trump administration, with a senior administration official describing internal policy debates as involving many competing factions rather than two clear sides.",
+          "why_it_matters": "Identifying who shapes federal AI policy is directly relevant to understanding how the administration may regulate \u2014 or decline to regulate \u2014 AI in elections and political advertising.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "wired-politics",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "81a70522fc310684",
+          "title": "Trump Ramps Up Threats Against Iran Despite Pause in Strikes",
+          "url": "https://notus.org/trump-white-house/trump-iran-threats-ai-images-strikes",
+          "source": "NOTUS",
+          "source_domain": "notus.org",
+          "published": "2026-07-26",
+          "first_seen_run": "2026-07-27",
+          "category": "deepfakes",
+          "summary": "President Trump posted a series of AI-generated images on Truth Social alongside threats directed at Iran, including one depicting himself as \"Guardian of the World.\"",
+          "why_it_matters": "A sitting president using AI-generated imagery in political communications on an official platform raises questions about norms for synthetic media in executive-branch political messaging.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "notus",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "f41290694bfa90cf",
+          "title": "StackAdapt Launches Political Targeting and Measurement Suite to Help Campaigns Optimize Voter Outreach Ahead of the 2026 Midterms",
+          "url": "https://finance.yahoo.com/media-advertising/articles/stackadapt-launches-political-targeting-measurement-130000309.html",
+          "source": "Yahoo Finance",
+          "source_domain": "finance.yahoo.com",
+          "published": "2026-07-21",
+          "first_seen_run": "2026-07-27",
+          "category": "vendor_moves",
+          "summary": "StackAdapt, which describes itself as an AI advertising and orchestration platform, has launched a political targeting and measurement suite for the U.S. market, combining political audience creation, voter intelligence, campaign measurement, and ad optimization in a single workflow for political advertisers ahead of the 2026 midterms.",
+          "why_it_matters": "A dedicated AI-powered political ad suite from an established programmatic platform expands the range of automated targeting tools available to campaigns and PACs at scale.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:l2",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-26",
+      "date": "2026-07-26",
+      "generated_at": "2026-07-26T13:39:06Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "7f87e0b914ec5c22",
+          "title": "AI Deepfakes Are Official Campaign Strategy. The 2026 Midterms Proved It.",
+          "url": "https://roborhythms.com/ai-deepfakes-midterm-elections-2026",
+          "source": "RoboRhythms",
+          "source_domain": "roborhythms.com",
+          "published": "2026-03-31",
+          "first_seen_run": "2026-07-26",
+          "category": "deepfakes",
+          "summary": "RoboRhythms reports that AI-generated deepfakes have become an explicit campaign strategy in the 2026 midterms, noting that no federal law prohibits their use in political advertising.",
+          "why_it_matters": "Documents the mainstreaming of synthetic media as a deliberate campaign tactic in a major election cycle, underscoring the gap in federal regulation.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "30640083d99e3b14",
+          "title": "How 20 States Are Now Regulating Deepfakes\u2014and What It Means for Elections",
+          "url": "https://govfacts.org/elections-voting/running-elections/election-security-audits/how-20-states-are-now-regulating-deepfakes-and-what-it-means-for-elections",
+          "source": "GovFacts",
+          "source_domain": "govfacts.org",
+          "published": "2026-01-03",
+          "first_seen_run": "2026-07-26",
+          "category": "regulation",
+          "summary": "GovFacts surveys the patchwork of deepfake laws across states, noting 47 states have passed some form of deepfake legislation since 2019, while Alaska, Missouri, and Ohio have none, with significant variation in how election-related synthetic media is addressed and enforced.",
+          "why_it_matters": "Illustrates the fragmented state-level regulatory landscape campaigns and vendors must navigate in 2026, complementing federal inaction.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:fcc",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-25",
+      "date": "2026-07-25",
+      "generated_at": "2026-07-25T13:45:21Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-07-24",
+      "date": "2026-07-24",
+      "generated_at": "2026-07-24T13:54:03Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-07-23",
+      "date": "2026-07-23",
+      "generated_at": "2026-07-23T14:12:27Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-07-22",
+      "date": "2026-07-22",
+      "generated_at": "2026-07-22T14:23:45Z",
+      "is_light_run": false,
+      "top_summary": "The 2026 midterms are serving as the first major test of state AI deepfake laws enacted to police AI-generated campaign materials, with enforcement and compliance now becoming concrete questions. Separately, a new poll shows bipartisan voter demand for AI oversight in Colorado's competitive 8th Congressional District, and Anthropic is reportedly doubling its funding for AI policy engagement ahead of elections. The AFL-CIO has also outlined a strategy connecting AI and midterm elections, signaling organized labor's entry into AI campaign politics.",
+      "item_count": 6,
+      "items": [
+        {
+          "id": "9a19eaed585eac28",
+          "title": "State AI deepfake laws face first big test in 2026 midterm elections",
+          "url": "https://azcapitoltimes.com/news/2026/07/21/state-ai-deepfake-laws-face-first-big-test-in-2026-midterm-elections",
+          "source": "Arizona Capitol Times",
+          "source_domain": "azcapitoltimes.com",
+          "published": "2026-07-21",
+          "first_seen_run": "2026-07-22",
+          "category": "regulation",
+          "summary": "The 2026 midterm elections mark the first major real-world test of a wave of state laws passed to regulate AI-generated content in political campaigns, with questions now turning to enforcement and compliance by campaigns and vendors.",
+          "why_it_matters": "How well state AI deepfake statutes hold up in a live election cycle will shape the regulatory landscape and inform future federal efforts.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:take-it-down-act",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "81df12694701f6c4",
+          "title": "Voters in Colorado battleground 8th District want more AI oversight",
+          "url": "https://denverpost.com/2026/07/20/colorado-8th-congressional-district-artificial-intelligence-poll",
+          "source": "eptrail.com",
+          "source_domain": "eptrail.com",
+          "published": "2026-07-20",
+          "first_seen_run": "2026-07-22",
+          "category": "polling_synthetic",
+          "summary": "A new poll of voters in Colorado's swing 8th Congressional District finds bipartisan majorities want more regulation of artificial intelligence, regardless of party affiliation.",
+          "why_it_matters": "Bipartisan constituent demand for AI oversight in a competitive district signals that AI regulation is becoming a live electoral issue candidates must address.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "38f930280d02bc3d",
+          "title": "Anthropic doubles funding for AI policy fight ahead of elections",
+          "url": "https://axios.com/2026/07/22/anthropic-doubles-funding-ai-policy-fight-elections",
+          "source": "Axios",
+          "source_domain": "axios.com",
+          "published": "2026-07-22",
+          "first_seen_run": "2026-07-22",
+          "category": "vendor_moves",
+          "summary": "Anthropic is reportedly doubling its funding dedicated to AI policy engagement ahead of the 2026 elections, intensifying its involvement in shaping how AI intersects with electoral politics.",
+          "why_it_matters": "A major AI developer increasing its policy spending around elections raises questions about tech-industry influence over AI election regulation.",
+          "flags": [
+            "vendor_self_reported",
+            "speculative"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:axios",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "0a41371b36edb449",
+          "title": "The AFL - CIO strategy for AI and the midterm elections",
+          "url": "https://marketplace.org/story/2026/07/21/the-aflcios-strategy-for-ai-and-the-midterm-elections",
+          "source": "marketplace.org",
+          "source_domain": "marketplace.org",
+          "published": "2026-07-21",
+          "first_seen_run": "2026-07-22",
+          "category": "analysis_oped",
+          "summary": "Marketplace reports on the AFL-CIO's strategy for engaging with AI issues as they relate to the 2026 midterm elections, marking organized labor's explicit connection of AI policy to electoral organizing.",
+          "why_it_matters": "Labor's formal entry into AI-and-elections strategy broadens the coalition of actors shaping how AI becomes a campaign issue beyond tech vendors and advocacy groups.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "1f59a6e0c2bf6c65",
+          "title": "Elizabeth Warren Says  Dark Money  Groups Linked to Crypto , AI  Spending Million to  Hand - Pick  Congres",
+          "url": "https://benzinga.com/crypto/cryptocurrency/26/07/60568454/elizabeth-warren-crypto-ai-dark-money-congress",
+          "source": "benzinga.com",
+          "source_domain": "benzinga.com",
+          "published": "2026-07-21",
+          "first_seen_run": "2026-07-22",
+          "category": "analysis_oped",
+          "summary": "Sen. Elizabeth Warren criticized PAC spending by groups linked to cryptocurrency and AI interests, alleging these groups are spending millions to influence congressional races through dark money.",
+          "why_it_matters": "Warren's allegations highlight emerging concerns about AI-industry money shaping congressional composition and, by extension, AI regulation itself.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "21b3eeaf00ac38ef",
+          "title": "Map Shows States Where Governor Candidates Support Data Center Moratoriums",
+          "url": "https://newsweek.com/map-shows-states-where-governor-candidates-support-data-center-moratoriums-12225115",
+          "source": "newsweek.com",
+          "source_domain": "newsweek.com",
+          "published": "2026-07-21",
+          "first_seen_run": "2026-07-22",
+          "category": "analysis_oped",
+          "summary": "Newsweek maps gubernatorial candidates in states including Maine, Iowa, Wisconsin, and Kansas who support moratoriums on AI data centers, showing AI infrastructure has become a campaign issue in multiple governor's races.",
+          "why_it_matters": "AI data center policy emerging as a gubernatorial campaign issue illustrates how AI's physical infrastructure is entering electoral politics beyond just content or misinformation concerns.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-21",
+      "date": "2026-07-21",
+      "generated_at": "2026-07-21T14:02:38Z",
+      "is_light_run": false,
+      "top_summary": "A Campaigns & Elections op-ed calls for AI guardrails in political campaigns before the 2026 midterms, arguing the real risk goes beyond deepfakes to subtler AI-driven manipulation. On the legislative front, House Democrats are pushing to formalize a bipartisan AI policy committee, while Sen. Jon Husted reports constituent anxiety about AI is spreading well beyond parents to employers and educators. A vendor spotlight covers BattlegroundAI, a startup launching an AI tool to generate platform-compliant programmatic political ads.",
+      "item_count": 4,
+      "items": [
+        {
+          "id": "8f69666c670af3cd",
+          "title": "Campaigns Need AI Guardrails Before the 2026 Midterms",
+          "url": "https://campaignsandelections.com/voices/campaigns-need-ai-guardrails-before-the-2026-idterms",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-07-21",
+          "first_seen_run": "2026-07-21",
+          "category": "analysis_oped",
+          "summary": "A Campaigns & Elections op-ed argues that the political conversation about AI in elections has been too narrowly focused on deepfakes and synthetic media, and calls on campaigns to adopt broader AI guardrails \u2014 covering AI-driven targeting, messaging, and voter contact \u2014 before the 2026 midterms.",
+          "why_it_matters": "Signals a practitioner-level push to move AI campaign governance beyond the deepfake frame toward operational deployment risks.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaigns-and-elections",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "cbc0162fcbee5271",
+          "title": "Tech: Democrats have AI committee hopes too",
+          "url": "https://punchbowl.news/article/tech/dems-ai-committee-hopes",
+          "source": "Punchbowl News",
+          "source_domain": "punchbowl.news",
+          "published": "2026-07-20",
+          "first_seen_run": "2026-07-21",
+          "category": "regulation",
+          "summary": "Punchbowl News reports that several House Democrats are calling for the creation of a formal bipartisan AI policy committee, mirroring an effort Republicans declined to institutionalize, as Congress continues to grapple with how to organize legislative oversight of artificial intelligence.",
+          "why_it_matters": "A formal congressional AI committee would centralize legislative oversight and accelerate or shape federal AI regulation affecting campaigns and elections.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:punchbowl",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "6c272b509186cbef",
+          "title": "Tech: How Husted and his voters see AI",
+          "url": "https://punchbowl.news/article/tech/husted-voters-ai",
+          "source": "Punchbowl News",
+          "source_domain": "punchbowl.news",
+          "published": "2026-07-19",
+          "first_seen_run": "2026-07-21",
+          "category": "analysis_oped",
+          "summary": "Punchbowl News reports that Sen. Jon Husted (R-Ohio) says constituent concern about AI has broadened beyond parents worried about children online to include employers and educators, suggesting AI anxiety is becoming a wider voter issue heading into 2026.",
+          "why_it_matters": "Elected officials tracking AI as a constituent concern influences how campaigns and legislators frame AI policy in the 2026 cycle.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:punchbowl",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "3370daff21c8019d",
+          "title": "The Startup Betting on an AI Advertising Tool For Politics",
+          "url": "https://campaignsandelections.com/industry-news/startup-bets-on-ai-ads-for-politics",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2025-08-04",
+          "first_seen_run": "2026-07-21",
+          "category": "vendor_moves",
+          "summary": "Campaigns & Elections profiles BattlegroundAI, a startup that has launched an AI tool enabling campaigns to instantly generate platform-compliant programmatic political ads with minimal manual input.",
+          "why_it_matters": "Automated AI ad generation for political campaigns lowers the barrier to scaled ad production, raising questions about volume, accuracy, and disclosure.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:battlegroundai",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-20",
+      "date": "2026-07-20",
+      "generated_at": "2026-07-20T14:15:17Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-07-19",
+      "date": "2026-07-19",
+      "generated_at": "2026-07-19T13:27:02Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-07-18",
+      "date": "2026-07-18",
+      "generated_at": "2026-07-18T13:25:10Z",
+      "is_light_run": false,
+      "top_summary": "Public First Action, an AI safety group, announced a $15 million ad campaign this month spotlighting 16 congressional Republicans for their work on AI safety \u2014 a notable move to make AI policy a direct electoral issue. A Governing analysis finds AI has simultaneously become both a campaign tool and a defining campaign issue at every level of government heading into the 2026 midterms. Meanwhile, Senate Commerce Committee Chairman Ted Cruz faces a critical window in the coming weeks to advance federal AI legislation or push the effort to the next Congress.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "dcbf711dcecd7bb9",
+          "title": "AI safety group's $15 million GOP play",
+          "url": "https://punchbowl.news/article/tech/anthropic-gop-play",
+          "source": "Punchbowl News",
+          "source_domain": "punchbowl.news",
+          "published": "2026-07-18",
+          "first_seen_run": "2026-07-18",
+          "category": "analysis_oped",
+          "summary": "Public First Action, an AI safety advocacy group, announced it will spend $15 million in July 2026 to run ads highlighting 16 congressional Republicans for their work on artificial intelligence safety, turning AI policy into an explicit electoral issue.",
+          "why_it_matters": "A seven-figure outside-spending campaign explicitly rewarding lawmakers for AI safety positions marks a new phase in AI becoming a durable issue-advocacy battlefield, not just a campaign tool.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:punchbowl",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "a24e1bd949cac563",
+          "title": "AI Moves From Campaign Tool to Campaign Issue",
+          "url": "https://governing.com/politics/ai-moves-from-campaign-tool-to-campaign-issue",
+          "source": "Governing",
+          "source_domain": "governing.com",
+          "published": "2026-07-11",
+          "first_seen_run": "2026-07-18",
+          "category": "analysis_oped",
+          "summary": "Governing reports that AI is now reshaping 2026 campaigns on two fronts simultaneously: campaigns are deploying AI operationally, while AI policy itself has emerged as a voter-facing issue candidates must address.",
+          "why_it_matters": "The dual role of AI \u2014 as both a campaign instrument and a ballot-box issue \u2014 signals a maturation of the technology's political salience heading into the midterms.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "1778b52e0bb4d03e",
+          "title": "Tech: Cruz approaches AI's make-or-break month",
+          "url": "https://punchbowl.news/article/tech/cruz-make-or-break-ai",
+          "source": "Punchbowl News",
+          "source_domain": "punchbowl.news",
+          "published": "2026-07-12",
+          "first_seen_run": "2026-07-18",
+          "category": "regulation",
+          "summary": "Punchbowl News reports that Senate Commerce Committee Chairman Ted Cruz faces a make-or-break window of several weeks to move federal AI legislation forward, with the alternative being a delay until the 120th Congress.",
+          "why_it_matters": "The outcome of Cruz's legislative push will determine whether federal AI rules \u2014 including any election-related provisions \u2014 take shape in this Congress or get pushed past the 2026 midterms.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:punchbowl",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-17",
+      "date": "2026-07-17",
+      "generated_at": "2026-07-17T13:48:43Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-07-16",
+      "date": "2026-07-16",
+      "generated_at": "2026-07-16T14:03:17Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-07-15",
+      "date": "2026-07-15",
+      "generated_at": "2026-07-15T13:52:21Z",
+      "is_light_run": false,
+      "top_summary": "Higher Ground Labs published a post-California-primary debrief declaring 2026 the 'first true AI election,' cataloguing how AI tools performed across the crowded June gubernatorial and mayoral contests. Separately, Sanders-aligned progressives are organizing grassroots opposition to AI data center expansion into a political cause, with New York Gov. Kathy Hochul's one-year statewide moratorium on new data centers serving as a high-profile signal of mainstream political resistance to unchecked AI infrastructure growth.",
+      "item_count": 4,
+      "items": [
+        {
+          "id": "28d8c1e0d411a10b",
+          "title": "The First AI Midterms: Early Signals from California",
+          "url": "https://highergroundlabs.com/the-first-ai-midterms-early-signals-from-california",
+          "source": "Higher Ground Labs (blog)",
+          "source_domain": "highergroundlabs.com",
+          "published": "2026-07-14",
+          "first_seen_run": "2026-07-15",
+          "category": "deployments_studies",
+          "summary": "Higher Ground Labs published a debrief of AI tool use across California's June 2026 primary \u2014 covering the governor's race, the Los Angeles mayoral contest, and down-ballot races \u2014 framing the cycle as the first major stress test of AI in American electoral politics. The piece draws early operational lessons for campaigns deploying AI in the 2026 midterms.",
+          "why_it_matters": "A leading progressive political-tech incubator's field-level assessment of how AI performed in a high-profile primary provides one of the first practitioner-sourced data points on AI campaign deployment at scale in 2026.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "higher-ground-labs",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "16d49ab19592024e",
+          "title": "Sanders-backed progressives try to make AI the new AIPAC",
+          "url": "https://semafor.com/article/07/14/2026/sanders-backed-progressives-try-to-make-ai-the-new-aipac",
+          "source": "Semafor",
+          "source_domain": "semafor.com",
+          "published": "2026-07-14",
+          "first_seen_run": "2026-07-15",
+          "category": "analysis_oped",
+          "summary": "Semafor reports that Sanders-aligned progressive organizers are working to build a grassroots political movement opposing AI data center expansion, drawing an explicit parallel to single-issue advocacy campaigns, with New York Gov. Kathy Hochul's data center moratorium cited as evidence the effort is gaining mainstream political traction.",
+          "why_it_matters": "AI infrastructure is becoming a direct campaign-trail issue in governor's races, meaning opposition to AI development is now shaping candidate positioning and electoral strategy, not just regulatory debates.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:semafor",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "82d108012c0d76de",
+          "title": "Data center backlash puts candidates in governor races in a bind",
+          "url": "https://thehill.com/policy/technology/5963542-data-centers-become-flashpoint-in-gubernatorial-races",
+          "source": "The Hill",
+          "source_domain": "thehill.com",
+          "published": "2026-07-13",
+          "first_seen_run": "2026-07-15",
+          "category": "analysis_oped",
+          "summary": "The Hill reports that data center proliferation \u2014 driven by AI demand \u2014 has become a divisive issue in multiple 2026 gubernatorial races, forcing candidates to navigate constituent concerns about energy use, land use, and the pace of AI expansion.",
+          "why_it_matters": "AI infrastructure is emerging as a direct electoral flashpoint, with candidates in governor's races facing organized constituent pressure that could influence both campaign messaging and post-election AI policy.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:the-hill",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "02131bded66923d3",
+          "title": "DOGE Used AI for Housing Policy. The Government Won\u2019t Say How",
+          "url": "https://wired.com/story/doge-deployed-ai-housing-policy",
+          "source": "Wired (Politics)",
+          "source_domain": "wired.com",
+          "published": "2026-07-14",
+          "first_seen_run": "2026-07-15",
+          "category": "deployments_studies",
+          "summary": "Wired reports that DOGE used AI tools to shape federal housing policy but the Department of Housing and Urban Development has withheld documents about that use in response to a public records request, in part by citing a legal privilege that Wired says does not exist.",
+          "why_it_matters": "Opaque AI use by a politically prominent government entity in policy-making \u2014 combined with stonewalled public records requests \u2014 raises accountability questions relevant to AI's role in governance and elections oversight.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "wired-politics",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-14",
+      "date": "2026-07-14",
+      "generated_at": "2026-07-14T13:54:03Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 1,
+      "items": [
+        {
+          "id": "7b5f3d79e858df9b",
+          "title": "NO FAKES Act gains Senate Judiciary Committee approval",
+          "url": "https://washingtoninformer.com/senate-judiciary-committee-ai",
+          "source": "The Washington Informer",
+          "source_domain": "washingtoninformer.com",
+          "published": "2026-07-13",
+          "first_seen_run": "2026-07-14",
+          "category": "regulation",
+          "summary": "The Senate Judiciary Committee approved the NO FAKES Act, advancing the bill \u2014 which would protect individuals against unauthorized AI-generated digital replicas \u2014 to the full Senate for consideration. The Recording Academy has expressed support for the legislation.",
+          "why_it_matters": "Committee passage marks a significant procedural step toward federal statutory protection against AI-generated likenesses, with direct implications for political deepfakes.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:no-fakes-act",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-13",
+      "date": "2026-07-13",
+      "generated_at": "2026-07-13T14:46:51Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-07-12",
+      "date": "2026-07-12",
+      "generated_at": "2026-07-12T13:29:53Z",
+      "is_light_run": false,
+      "top_summary": "NPR reports that AI-powered bots are now driving campaign text-message outreach ahead of the 2026 midterms, marking a concrete deployment case study. Voter data firm L2 has integrated with programmatic ad platform StackAdapt, enabling same-day activation of voter audiences for political advertisers. Aaru, a teen-founded AI startup pitching synthetic-respondent polling as a replacement for traditional surveys, is drawing fresh independent scrutiny.",
+      "item_count": 5,
+      "items": [
+        {
+          "id": "c09238465bc8ada4",
+          "title": "Getting campaign text messages ahead of midterms? There could be an AI bot behind it",
+          "url": "https://npr.org/2026/07/12/nx-s1-5867763/ai-artificial-intelligence-data-texts-bots-voters-campaigns",
+          "source": "NPR",
+          "source_domain": "npr.org",
+          "published": "2026-07-12",
+          "first_seen_run": "2026-07-12",
+          "category": "deployments_studies",
+          "summary": "NPR reports that campaigns are using AI bots to send and manage political text messages to voters ahead of the 2026 midterms, with the practice spreading across multiple campaign operations. The piece examines how automated conversational AI is replacing or supplementing human texters in voter contact programs.",
+          "why_it_matters": "Concrete evidence that AI-driven voter contact via SMS is becoming a mainstream campaign tactic, raising questions about disclosure and voter consent at scale.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "d1050b8493a91d36",
+          "title": "21-year-old AI startup cofounder's sales pitch to clients: 'Do not trust us'",
+          "url": "https://fortune.com/2026/06/17/aaru-cofounder-ned-koh-ai-startup-sales-pitch-do-not-trust-us",
+          "source": "Fortune",
+          "source_domain": "fortune.com",
+          "published": "2026-06-17",
+          "first_seen_run": "2026-07-12",
+          "category": "polling_synthetic",
+          "summary": "Fortune profiles Aaru cofounder Ned Koh, 21, whose AI startup sells synthetic-respondent predictions to clients as an alternative to traditional polling, with Koh himself warning clients not to take the results on faith while arguing the platform's predictive accuracy surpasses human survey data. The piece examines Aaru's unusual sales posture and its growing footprint in political forecasting.",
+          "why_it_matters": "Aaru represents a leading example of the synthetic-polling category \u2014 AI models simulating voter behavior in place of live surveys \u2014 and its expansion raises methodological and transparency questions for campaigns and media consumers.",
+          "flags": [
+            "vendor_self_reported",
+            "speculative"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:aaru",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "6e1c3fd2443efd69",
+          "title": "Aaru AI Review 2026: The Prediction Startup, and Where It Fits",
+          "url": "https://fish.dog/news/aaru-ai-review-2026-the-prediction-startup-and-where-it-fits",
+          "source": "FishDog",
+          "source_domain": "fish.dog",
+          "published": "2026-06-02",
+          "first_seen_run": "2026-07-12",
+          "category": "polling_synthetic",
+          "summary": "An independent review from FishDog assesses Aaru's AI prediction platform \u2014 which raised a Series A and is run by a teenage founder \u2014 examining where its synthetic-respondent methodology is credible and where it falls short relative to conventional polling. The review highlights both the startup's technical ambitions and the limits of its current validation record.",
+          "why_it_matters": "Independent third-party evaluation of synthetic-polling vendors is rare; this review provides a reference point for campaigns and researchers assessing whether AI-simulated samples can substitute for live polling.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:aaru",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "01956ecb4edcdffe",
+          "title": "Announcing Higher Ground Labs' Agentic AI Open Call",
+          "url": "https://highergroundlabs.com/agentic-ai-open-call",
+          "source": "Higher Ground Labs",
+          "source_domain": "highergroundlabs.com",
+          "published": "2026-05-20",
+          "first_seen_run": "2026-07-12",
+          "category": "vendor_moves",
+          "summary": "Higher Ground Labs, a progressive political technology incubator, has opened an investment application specifically for agentic AI startups building tools for political use, signaling institutional progressive-side investment interest in autonomous AI agents for campaigns. The open call invites founders to pitch agentic solutions across campaign functions.",
+          "why_it_matters": "A dedicated agentic AI funding track from a major progressive tech incubator suggests the next wave of campaign AI investment is moving beyond content generation toward autonomous task-execution tools.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:higher-ground-labs-portfolio",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-11",
+      "date": "2026-07-11",
+      "generated_at": "2026-07-11T13:28:53Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-07-10",
+      "date": "2026-07-10",
+      "generated_at": "2026-07-10T14:37:42Z",
+      "is_light_run": false,
+      "top_summary": "Bipartisan House members Reps. Mike Lawler (R-N.Y.) and Josh Gottheimer (D-N.J.) are pressing four federal agencies to monitor and address AI threats to election integrity ahead of the 2026 midterms, while a CNBC report reveals two competing AI industry PACs are each lobbying Congress for their own preferred version of AI regulation. Getty Images is pitching campaigns on authenticated, human-verified visual content as a counter to AI-generated imagery flooding political communications.",
+      "item_count": 4,
+      "items": [
+        {
+          "id": "93022fcc3e892904",
+          "title": "Tech: Lawmakers want agencies watching AI election threats",
+          "url": "https://punchbowl.news/article/tech/ai-election-threats",
+          "source": "Punchbowl News",
+          "source_domain": "punchbowl.news",
+          "published": "2026-07-09",
+          "first_seen_run": "2026-07-10",
+          "category": "regulation",
+          "summary": "Reps. Mike Lawler (R-N.Y.) and Josh Gottheimer (D-N.J.) are urging four federal agencies to take action on potential election-integrity threats posed by AI ahead of the 2026 midterms.",
+          "why_it_matters": "Bipartisan legislative pressure on agencies signals a push for executive-branch action on AI election threats even in the absence of enacted federal legislation.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:punchbowl",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "a3372eefe147c99d",
+          "title": "Bipartisan lawmakers press agencies on AI election threats",
+          "url": "https://thehill.com/policy/technology/5961267-ai-election-threats-2026-midterms",
+          "source": "The Hill",
+          "source_domain": "thehill.com",
+          "published": "2026-07-09",
+          "first_seen_run": "2026-07-10",
+          "category": "regulation",
+          "summary": "The Hill reports on the same bipartisan push by Lawler and Gottheimer urging federal agencies to monitor AI-related election threats in the 2026 cycle.",
+          "why_it_matters": "Duplicate coverage of the Punchbowl item \u2014 kept only as secondary sourcing; the Punchbowl version is more authoritative and named the legislators directly.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:the-hill",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "a8e951c27466aa1c",
+          "title": "What AI companies want for the millions they're spending on elections",
+          "url": "https://cnbc.com/2026/07/09/ai-companies-election-spending.html",
+          "source": "CNBC",
+          "source_domain": "cnbc.com",
+          "published": "2026-07-09",
+          "first_seen_run": "2026-07-10",
+          "category": "analysis_oped",
+          "summary": "CNBC reports that two major AI industry super PACs are each spending heavily in the 2026 midterms and lobbying Congress for competing versions of AI regulation, illustrating how industry money is shaping the legislative landscape.",
+          "why_it_matters": "Shows that rival AI industry factions are using election spending not just for general influence but to push distinct, self-serving regulatory outcomes.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:l2",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "93349ac2dfbe0408",
+          "title": "Getty Images\u2019 Answer to AI Slop? Authentic, Verified Content",
+          "url": "https://campaignsandelections.com/sponsored/getty-images-answer-to-ai-slop-authentic-verified-content",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-07-10",
+          "first_seen_run": "2026-07-10",
+          "category": "vendor_moves",
+          "summary": "Getty Images is marketing authenticated, human-verified visual content to political campaigns as a direct counter to the spread of AI-generated imagery, framing provenance and verification as competitive advantages in the 2026 cycle.",
+          "why_it_matters": "Illustrates how established media asset vendors are repositioning their offerings specifically around the AI authenticity problem in political advertising.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaigns-and-elections",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-09",
+      "date": "2026-07-09",
+      "generated_at": "2026-07-09T15:19:30Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-07-08",
+      "date": "2026-07-08",
+      "generated_at": "2026-07-08T14:24:59Z",
+      "is_light_run": false,
+      "top_summary": "The NO FAKES Act is drawing civil-liberties pushback, with the Cato Institute publishing a substantive critique arguing the bill's broad liability for displaying or distributing AI-generated likenesses threatens free expression. A Transparency Coalition legislative update also flags new state-level AI-in-education laws. Older Axios search results on AI in campaigns and deepfakes in elections surface as background context but predate the current news cycle.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "c135ca05b155cd3a",
+          "title": "NO FAKES, Real Censorship: How Congress Could Muzzle AI Speech",
+          "url": "https://cato.org/blog/no-fakes-real-censorship-how-congress-could-muzzle-ai-speech",
+          "source": "Cato Institute",
+          "source_domain": "cato.org",
+          "published": "2026-07-05",
+          "first_seen_run": "2026-07-08",
+          "category": "regulation",
+          "summary": "The Cato Institute argues that the NO FAKES Act of 2026 would create sweeping liability for anyone who displays, distributes, or transmits an unauthorized AI-generated likeness of a person, or who builds a tool capable of producing one, effectively criminalizing a broad swath of expressive and journalistic activity.",
+          "why_it_matters": "A prominent libertarian think tank's detailed legal critique of NO FAKES signals organized opposition that could shape the bill's Senate prospects.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:no-fakes-act",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "a61becf7d22ddafb",
+          "title": "AI Legislative Update: July 3, 2026",
+          "url": "https://transparencycoalition.ai/news/ai-legislative-update-july3-2026",
+          "source": "Transparency Coalition",
+          "source_domain": "transparencycoalition.ai",
+          "published": "2026-07-03",
+          "first_seen_run": "2026-07-08",
+          "category": "regulation",
+          "summary": "The Transparency Coalition's July 3 legislative roundup reports that California Governor Gavin Newsom signed a law requiring public school teachers to be human, while New Jersey legislators passed a Kids Code Act, illustrating continued state-level AI governance activity.",
+          "why_it_matters": "Tracks the ongoing patchwork of state AI laws that campaigns and advocacy groups must navigate even as federal legislation stalls.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:transparency-coalition",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-07",
+      "date": "2026-07-07",
+      "generated_at": "2026-07-07T14:46:17Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-07-06",
+      "date": "2026-07-06",
+      "generated_at": "2026-07-06T15:42:50Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 1,
+      "items": [
+        {
+          "id": "af006c7979fee165",
+          "title": "Tech: OpenAI warms up to Washington",
+          "url": "https://punchbowl.news/article/tech/openai-warms-washington",
+          "source": "Punchbowl News",
+          "source_domain": "punchbowl.news",
+          "published": "2026-07-06",
+          "first_seen_run": "2026-07-06",
+          "category": "regulation",
+          "summary": "Punchbowl News reports that OpenAI has backed Sen. Marsha Blackburn's Kids Online Safety Act and the NO FAKES Act, signaling a warmer relationship between the company and Washington lawmakers heading into the 2026 cycle.",
+          "why_it_matters": "OpenAI's explicit endorsement of the NO FAKES Act \u2014 the key federal legislation targeting AI-generated deepfakes of real people \u2014 could accelerate its Senate prospects.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:punchbowl",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-05",
+      "date": "2026-07-05",
+      "generated_at": "2026-07-05T13:51:02Z",
+      "is_light_run": false,
+      "top_summary": "Voters are increasingly turning to AI chatbots to research candidates before casting ballots, raising new questions about AI's role in electoral decision-making. Meanwhile, Public Citizen reports that 30 U.S. states have now enacted laws regulating election deepfakes, and unions are signaling aggressive engagement in AI policy fights tied to the 2026 midterms.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "6a14d9bb1aff0fd0",
+          "title": "'Who should I vote for?' Voters turn to AI before casting their ballots",
+          "url": "https://inquirer.com/news/nation-world/elections-ai-chatbot-voter-research-candidates-midterms-20260704.html",
+          "source": "Philadelphia Inquirer",
+          "source_domain": "inquirer.com",
+          "published": "2026-07-04",
+          "first_seen_run": "2026-07-05",
+          "category": "deployments_studies",
+          "summary": "The Philadelphia Inquirer reports that voters are using AI chatbots to research candidates and guide their voting decisions ahead of the 2026 midterms, even though the tools are designed to avoid expressing political opinions.",
+          "why_it_matters": "Voter reliance on AI chatbots for candidate research is a novel and underexamined vector of AI influence on electoral outcomes.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "c9c39a1f0716982b",
+          "title": "30 States Now Have Laws to Regulate Election Deepfakes",
+          "url": "https://citizen.org/news/30-states-now-have-laws-to-regulate-election-deepfakes",
+          "source": "Public Citizen",
+          "source_domain": "citizen.org",
+          "published": "2026-05-13",
+          "first_seen_run": "2026-07-05",
+          "category": "regulation",
+          "summary": "Public Citizen reports that 30 states have now enacted laws regulating AI-generated deepfakes in election communications, with Maryland Governor Wes Moore's signature on a new law marking the most recent addition to that count.",
+          "why_it_matters": "The 30-state milestone represents a significant wave of state-level action on election deepfakes in the absence of a federal standard.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "89d7f35469fda4b9",
+          "title": "Tech: What unions want on AI policy",
+          "url": "https://punchbowl.news/article/tech/unions-ai-policy",
+          "source": "Punchbowl News",
+          "source_domain": "punchbowl.news",
+          "published": "2026-06-28",
+          "first_seen_run": "2026-07-05",
+          "category": "analysis_oped",
+          "summary": "Punchbowl News reports that labor union leaders, framing AI-driven automation as an existential threat, are planning aggressive engagement in Washington AI policy fights and in the 2026 midterm elections.",
+          "why_it_matters": "Organized labor entering midterm electoral politics around AI policy could reshape which candidates and positions receive union backing in competitive races.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:punchbowl",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-04",
+      "date": "2026-07-04",
+      "generated_at": "2026-07-04T13:42:38Z",
+      "is_light_run": false,
+      "top_summary": "Gavin Newsom is navigating the tension between regulating Big Tech and relying on AI products in his own political work, illustrating the central political contradiction facing Democratic officeholders. The Dispatch reports that AI use in campaign advertising is expanding rapidly, with both opportunities and ethical questions emerging for campaign staffers. The Trump administration's approach to AI governance is drawing scrutiny as a patchwork, improvised regime rather than a coherent regulatory framework.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "40577a5e259e8c12",
+          "title": "Gavin Newsom treads the AI line",
+          "url": "https://semafor.com/article/07/01/2026/gavin-newsom-treads-the-ai-line",
+          "source": "Semafor",
+          "source_domain": "semafor.com",
+          "published": "2026-07-01",
+          "first_seen_run": "2026-07-04",
+          "category": "deployments_studies",
+          "summary": "Semafor reports that California Governor Gavin Newsom is walking a careful line between pushing to regulate the power of major tech companies while simultaneously using AI products in his own political operations.",
+          "why_it_matters": "A high-profile potential presidential contender's dual posture on AI \u2014 regulator and user \u2014 illustrates the political complexity facing elected officials as AI becomes a campaign tool.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:semafor",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "a4b22c23ff5c3dba",
+          "title": "Get Ready To See a Lot More AI in Campaign Ads",
+          "url": "https://thedispatch.com/article/artificial-intelligence-campaigns-talarico-deepfakes",
+          "source": "The Dispatch",
+          "source_domain": "thedispatch.com",
+          "published": "2026-06-27",
+          "first_seen_run": "2026-07-04",
+          "category": "deployments_studies",
+          "summary": "The Dispatch surveys the growing use of AI in campaign advertising, finding that while some campaign staffers are embracing AI to amplify messaging, others are raising ethical questions about the strategy, with deepfakes specifically mentioned as a concern.",
+          "why_it_matters": "Mainstream campaign practitioners are actively debating AI ad production as a standard tactic heading into the 2026 midterm cycle.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:the-dispatch",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "170253fab43b7bcc",
+          "title": "Donald Trump's Improvised AI Regime",
+          "url": "https://thedispatch.com/newsletter/morning/donald-trumps-improvised-ai-regime",
+          "source": "The Dispatch",
+          "source_domain": "thedispatch.com",
+          "published": "2026-07-02",
+          "first_seen_run": "2026-07-04",
+          "category": "regulation",
+          "summary": "The Dispatch characterizes the Trump administration's approach to AI governance as improvised and ad hoc rather than a coherent regulatory strategy, raising questions about how AI policy will be set heading into the 2026 elections.",
+          "why_it_matters": "The absence of a systematic federal AI governance framework has direct implications for how AI use in campaigns and elections will be overseen.",
+          "flags": [
+            "paywalled"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:the-dispatch",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-03",
+      "date": "2026-07-03",
+      "generated_at": "2026-07-03T14:16:39Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-07-02",
+      "date": "2026-07-02",
+      "generated_at": "2026-07-02T14:11:40Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "7d1cefdee2939cc8",
+          "title": "Anthropic Added a New Security Measure to Get Back Into the Trump Administration\u2019s Good Graces",
+          "url": "https://wired.com/story/anthropic-added-a-new-security-measure-to-get-back-into-the-trump-administrations-good-graces",
+          "source": "Wired (Politics)",
+          "source_domain": "wired.com",
+          "published": "2026-07-01",
+          "first_seen_run": "2026-07-02",
+          "category": "regulation",
+          "summary": "Following a prior freeze, the Trump administration removed export restrictions on Anthropic's Fable 5 and Mythos 5 AI models after Anthropic added a new security measure, marking a partial repair of the strained relationship between the company and the White House.",
+          "why_it_matters": "Illustrates how federal export-control policy is being used as leverage over frontier AI companies' government access, with concrete strings attached to regulatory relief.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "wired-politics",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "2dc4cc32707265b6",
+          "title": "\u2018The Battle Line Has Been Drawn\u2019 Around Virginia\u2019s Data Centers",
+          "url": "https://notus.org/metro/northern-virginia-data-centers-politics",
+          "source": "NOTUS",
+          "source_domain": "notus.org",
+          "published": "2026-07-01",
+          "first_seen_run": "2026-07-02",
+          "category": "analysis_oped",
+          "summary": "Virginia state lawmakers have moved to regulate the data center industry in Northern Virginia amid souring public sentiment, creating what NOTUS describes as a first-of-its-kind tax on the sector as the political backlash against AI infrastructure reaches the statehouse level.",
+          "why_it_matters": "Shows AI infrastructure opposition moving from grassroots activism into concrete state legislative action, including novel taxation, setting a potential policy template for other states.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "notus",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-07-01",
+      "date": "2026-07-01",
+      "generated_at": "2026-07-01T14:45:58Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-06-30",
+      "date": "2026-06-30",
+      "generated_at": "2026-07-01T01:38:51Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-06-29",
+      "date": "2026-06-29",
+      "generated_at": "2026-06-29T15:55:02Z",
+      "is_light_run": false,
+      "top_summary": "A new AI tool aimed at automating weekly client reports for public affairs professionals launched via Campaigns & Elections, representing continued vendor expansion into political consulting workflows. Wired reports that the Trump White House has effectively sidelined Anthropic CEO Dario Amodei from high-stakes meetings, replacing him with cofounder Tom Brown \u2014 a notable development in AI-industry political relationships. A Michigan congressional candidate is running on a data center moratorium, illustrating how AI infrastructure is becoming a direct campaign issue in swing-district politics.",
+      "item_count": 3,
+      "items": [
+        {
+          "id": "41cdc4194a9ce1a0",
+          "title": "A New AI Tool Targets the Least-Loved Task in Public Affairs:\u00a0the Weekly Client Report",
+          "url": "https://campaignsandelections.com/sponsored/a-new-ai-tool-targets-the-least-loved-task-in-public-affairs-the-weekly-client-report",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-06-29",
+          "first_seen_run": "2026-06-29",
+          "category": "vendor_moves",
+          "summary": "Campaigns & Elections features a new AI tool designed to automate the weekly client report process for public affairs and lobbying professionals, addressing a time-intensive task as retainer scopes have expanded.",
+          "why_it_matters": "Signals continued AI product development targeting political consulting and public affairs workflows beyond traditional campaign functions.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaigns-and-elections",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "f91dc88fde7cdef7",
+          "title": "The Trump White House Is Over Anthropic CEO Dario Amodei",
+          "url": "https://wired.com/story/the-trump-white-house-is-over-anthropics-dario-amodei",
+          "source": "Wired (Politics)",
+          "source_domain": "wired.com",
+          "published": "2026-06-24",
+          "first_seen_run": "2026-06-29",
+          "category": "analysis_oped",
+          "summary": "Wired reports that Anthropic CEO Dario Amodei has been replaced by cofounder Tom Brown as the company's representative in high-stakes White House meetings, with one official describing Amodei as a \"weirdo.\" The shift signals a cooling relationship between Anthropic's leadership and the Trump administration.",
+          "why_it_matters": "The political standing of major AI company leaders with the White House directly shapes how AI policy and campaign-relevant regulation is negotiated.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "wired-politics",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "ef08f47c1d23b5ee",
+          "title": "The Anti-Data-Center Movement Is Reshaping Michigan Politics",
+          "url": "https://wired.com/story/anti-data-center-movement-reshaping-michigan-politics",
+          "source": "Wired (Politics)",
+          "source_domain": "wired.com",
+          "published": "2026-06-29",
+          "first_seen_run": "2026-06-29",
+          "category": "analysis_oped",
+          "summary": "Sunrise Movement cofounder Will Lawrence is running for a Michigan swing-district congressional seat with a call for a data center moratorium as a central campaign issue, reflecting grassroots opposition to AI infrastructure development entering electoral politics.",
+          "why_it_matters": "AI infrastructure is emerging as a direct campaign issue in competitive districts, not just a policy backdrop, with candidates explicitly running on limiting data center expansion.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "wired-politics",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-06-28",
+      "date": "2026-06-28",
+      "generated_at": "2026-06-28T13:55:37Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-06-27",
+      "date": "2026-06-27",
+      "generated_at": "2026-06-27T13:51:26Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
+      "run_id": "2026-06-26",
+      "date": "2026-06-26",
+      "generated_at": "2026-06-26T14:34:10Z",
+      "is_light_run": false,
+      "top_summary": "The NO FAKES Act cleared a Senate committee, marking a significant legislative step toward federal protection against unauthorized AI-generated likenesses \u2014 directly relevant to synthetic media threats in elections. On the vendor side, NGP VAN announced AI-assisted donor targeting tools for campaigns, and ad-tech firm Nexxen launched a voter targeting product built on L2 voter data.",
+      "item_count": 4,
+      "items": [
+        {
+          "id": "71d3197e1e09756c",
+          "title": "Senate Committee Advances Bill to Protect Name, Image, Likeness and Voice Against Unauthorized AI Use",
+          "url": "https://hklaw.com/en/insights/publications/2026/06/senate-judiciary-committee-advances-legislation-to-protect-name",
+          "source": "Holland & Knight",
+          "source_domain": "hklaw.com",
+          "published": "2026-06-22",
+          "first_seen_run": "2026-06-26",
+          "category": "regulation",
+          "summary": "The Senate Judiciary Committee advanced the NO FAKES Act, legislation that would create a federal right protecting individuals' name, image, likeness, and voice from unauthorized AI-generated reproductions. The Holland & Knight analysis summarizes the bill's key provisions as it moves toward a full Senate vote.",
+          "why_it_matters": "Federal passage of the NO FAKES Act would establish a baseline legal remedy against AI-generated deepfakes of political figures and candidates, a direct check on synthetic media in elections.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:no-fakes-act",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "3d15f9673417a3ce",
+          "title": "NO FAKES Act clears Senate panel; judge blocks SNAP soda and candy limits; quantum math sharpens cancer AI \u2014 Morning Medical Update",
+          "url": "https://medicaleconomics.com/view/no-fakes-act-clears-senate-panel-judge-blocks-snap-soda-and-candy-limits-quantum-math-sharpens-cancer-ai-morning-medical-update",
+          "source": "Medical Economics",
+          "source_domain": "medicaleconomics.com",
+          "published": "2026-06-25",
+          "first_seen_run": "2026-06-26",
+          "category": "regulation",
+          "summary": "A morning news roundup notes that the NO FAKES Act cleared its Senate panel, confirming the committee advancement reported in more detail elsewhere.",
+          "why_it_matters": "Corroborates the NO FAKES Act committee passage, though the Holland & Knight source is more authoritative for this story.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:no-fakes-act",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "09730af6aa33f066",
+          "title": "NGP VAN Announces New AI-Assisted Fundraising Tools: Donor Target Scores and Donor Target Reports",
+          "url": "https://ngpvan.com/blog/were-in-it-for-the-long-haul",
+          "source": "NGP VAN Blog",
+          "source_domain": "ngpvan.com",
+          "published": "2025-12-16",
+          "first_seen_run": "2026-06-26",
+          "category": "vendor_moves",
+          "summary": "NGP VAN announced two new AI-assisted fundraising features \u2014 Donor Target Scores and Donor Target Reports \u2014 designed to help campaigns prioritize outreach to likely donors using predictive modeling.",
+          "why_it_matters": "NGP VAN is a dominant platform for Democratic campaigns, so AI-driven donor scoring tools could meaningfully shift how campaigns allocate fundraising resources.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:ngpvan-bonterra",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "53dbff33a7d2cf4f",
+          "title": "Nexxen partners with L2 Data to launch voter targeting tool",
+          "url": "https://investing.com/news/company-news/nexxen-partners-with-l2-data-to-launch-voter-targeting-tool-93CH-4750007",
+          "source": "Investing.com",
+          "source_domain": "investing.com",
+          "published": "2026-06-19",
+          "first_seen_run": "2026-06-26",
+          "category": "vendor_moves",
+          "summary": "Ad-tech company Nexxen has partnered with political data firm L2 to launch a voter targeting tool, enabling campaigns and political advertisers to reach audiences matched against L2's voter file data.",
+          "why_it_matters": "Integrating commercial programmatic advertising infrastructure with voter-file data expands the toolkit available for AI-enhanced micro-targeting in political ad buys.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:l2",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-06-25",
+      "date": "2026-06-25",
+      "generated_at": "2026-06-25T14:41:02Z",
+      "is_light_run": false,
+      "top_summary": "The Senate Judiciary Committee unanimously advanced the NO FAKES Act, a major legislative milestone for regulating AI-generated synthetic likenesses in ways directly relevant to political deepfakes. Separately, NPR and Futurism both reported on AI companies\u2014including major labs\u2014actively working to shape the 2026 midterm elections through lobbying and tool deployment, raising questions about corporate influence on electoral processes. An adtech vendor partnership (Nexxen and L2 Data) launched a voter-matching product for political advertisers, reflecting continued growth in AI-assisted campaign targeting infrastructure.",
+      "item_count": 5,
+      "items": [
+        {
+          "id": "4f8141622cb7278c",
+          "title": "AI and tech are trying to influence the midterm elections",
+          "url": "https://npr.org/2026/06/22/nx-s1-5856359/ai-anthropic-congress-spending-openai-midterms-election",
+          "source": "NPR",
+          "source_domain": "npr.org",
+          "published": "2026-06-22",
+          "first_seen_run": "2026-06-25",
+          "category": "deployments_studies",
+          "summary": "NPR reports that major AI companies, including Anthropic and OpenAI, are actively spending and lobbying to influence how their tools are used in the 2026 midterm elections, with congressional outreach and campaign-facing deployments under scrutiny.",
+          "why_it_matters": "Documents a concrete, named effort by leading AI labs to shape electoral outcomes through both lobbying and tool deployment, raising accountability questions for the field.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "58d270d32c71f1da",
+          "title": "AI Companies Are Trying to Seize Control of Elections",
+          "url": "https://futurism.com/artificial-intelligence/ai-companies-elections-midterms",
+          "source": "Futurism",
+          "source_domain": "futurism.com",
+          "published": "2026-06-23",
+          "first_seen_run": "2026-06-25",
+          "category": "analysis_oped",
+          "summary": "Futurism argues that AI companies are positioning themselves to exert significant influence over the 2026 midterms through campaign tools, data products, and political relationships, framing this as a structural threat to electoral integrity.",
+          "why_it_matters": "Provides a critical analytical frame for the trend of AI-vendor entrenchment in campaign infrastructure heading into a major election cycle.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "9fc3aa65b4dc558d",
+          "title": "Senate Judiciary advances NO FAKES Act on unanimous vote",
+          "url": "https://spglobal.com/market-intelligence/en/news-insights/articles/2026/6/senate-judiciary-advances-no-fakes-act-on-unanimous-vote-103007539",
+          "source": "S&P Global",
+          "source_domain": "spglobal.com",
+          "published": "2026-06-23",
+          "first_seen_run": "2026-06-25",
+          "category": "regulation",
+          "summary": "The Senate Judiciary Committee passed the NO FAKES Act by unanimous vote, advancing federal legislation that would create a right of publicity against unauthorized AI-generated replicas of a person's name, image, likeness, or voice.",
+          "why_it_matters": "A unanimous committee vote is a significant step toward federal law that would directly constrain the use of AI-generated synthetic media\u2014including political deepfakes\u2014in campaigns and advocacy.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:no-fakes-act",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "01a59f2b80a6d103",
+          "title": "No Fakes Act Clears Senate Judiciary Committee",
+          "url": "https://deadline.com/2026/06/no-fakes-act-senate-judiciary-committee-1236959147",
+          "source": "Deadline",
+          "source_domain": "deadline.com",
+          "published": "2026-06-18",
+          "first_seen_run": "2026-06-25",
+          "category": "regulation",
+          "summary": "Deadline covers the Senate Judiciary Committee's approval of the NO FAKES Act, noting its implications for AI-generated content across entertainment and political contexts.",
+          "why_it_matters": "Corroborates the committee's unanimous advancement of key anti-deepfake legislation with additional industry perspective.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:no-fakes-act",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "aef8e702a675f777",
+          "title": "Nexxen and L2 Data Launch VoterMatch, Bringing Greater Precision, Transparency and Performance to Political Advertising",
+          "url": "https://finance.yahoo.com/media-advertising/articles/nexxen-l2-data-launch-votermatch-130000183.html",
+          "source": "Yahoo Finance",
+          "source_domain": "finance.yahoo.com",
+          "published": "2026-06-18",
+          "first_seen_run": "2026-06-25",
+          "category": "vendor_moves",
+          "summary": "Nexxen and L2 Data announced VoterMatch, a joint product combining L2's voter file data with Nexxen's programmatic advertising platform to enable more precise political ad targeting for campaigns and outside groups.",
+          "why_it_matters": "Illustrates the continued maturation of data-driven political advertising infrastructure, with voter file matching now integrated directly into programmatic ad buying.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:l2",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
+      "run_id": "2026-06-24",
+      "date": "2026-06-24",
+      "generated_at": "2026-06-24T17:30:10Z",
+      "is_light_run": false,
+      "top_summary": "AI companies are actively lobbying and spending to shape the 2026 midterm elections, raising concerns about industry influence over the democratic process. The NO FAKES Act, which would create federal protections against unauthorized AI-generated likenesses, cleared the Senate Judiciary Committee unanimously, though critics warn it could chill satire and news. A New York congressional primary featuring a candidate who made AI policy a centerpiece of his campaign served as an early test of whether voters prioritize the issue.",
+      "item_count": 9,
+      "items": [
+        {
+          "id": "4f8141622cb7278c",
+          "title": "AI and tech are trying to influence the midterm elections",
+          "url": "https://npr.org/2026/06/22/nx-s1-5856359/ai-anthropic-congress-spending-openai-midterms-election",
+          "source": "NPR",
+          "source_domain": "npr.org",
+          "published": "2026-06-22",
+          "first_seen_run": "2026-06-24",
+          "category": "analysis_oped",
+          "summary": "NPR reports that major AI companies including Anthropic and OpenAI are increasing lobbying efforts and political spending ahead of the 2026 midterm elections, aiming to influence policy and the broader electoral environment. The piece examines how the tech sector is positioning itself to shape how AI is regulated and used in campaigns.",
+          "why_it_matters": "Documents a concrete, named effort by leading AI firms to influence midterm election outcomes and policy, raising questions about corporate power over democratic processes.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "58d270d32c71f1da",
+          "title": "AI Companies Are Trying to Seize Control of Elections",
+          "url": "https://futurism.com/artificial-intelligence/ai-companies-elections-midterms",
+          "source": "Futurism",
+          "source_domain": "futurism.com",
+          "published": "2026-06-23",
+          "first_seen_run": "2026-06-24",
+          "category": "analysis_oped",
+          "summary": "Futurism covers the broader pattern of AI companies attempting to exert influence over the 2026 midterm election cycle through lobbying, political donations, and direct engagement with candidates and policymakers. The piece frames this as an industry-wide push to shape the regulatory and political landscape.",
+          "why_it_matters": "Provides a secondary perspective on AI industry electoral influence, reinforcing the NPR reporting and highlighting the scope of the trend.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "c70d2308eed1f7db",
+          "title": "This Democratic Primary Will Test if Voters Care About AI",
+          "url": "https://notus.org/2026-election/alex-bores-artificial-intelligence-primary",
+          "source": "NOTUS",
+          "source_domain": "notus.org",
+          "published": "2026-06-23",
+          "first_seen_run": "2026-06-24",
+          "category": "deployments_studies",
+          "summary": "A New York Democratic congressional primary featured a candidate who built his campaign around AI policy expertise, making the race a real-world test of whether voters reward candidates who center artificial intelligence as a political issue. The outcome offered early data on AI's salience as a campaign issue.",
+          "why_it_matters": "Provides a concrete electoral case study on whether AI as a campaign platform issue resonates with voters, with implications for how candidates in 2026 frame technology policy.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "notus",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "9fc3aa65b4dc558d",
+          "title": "Senate Judiciary advances NO FAKES Act on unanimous vote",
+          "url": "https://spglobal.com/market-intelligence/en/news-insights/articles/2026/6/senate-judiciary-advances-no-fakes-act-on-unanimous-vote-103007539",
+          "source": "S&P Global",
+          "source_domain": "spglobal.com",
+          "published": "2026-06-23",
+          "first_seen_run": "2026-06-24",
+          "category": "regulation",
+          "summary": "The Senate Judiciary Committee advanced the NO FAKES Act on a unanimous vote, moving federal legislation forward that would establish rights against unauthorized use of a person's name, image, likeness, or voice by AI systems. The bill now heads to the full Senate.",
+          "why_it_matters": "A unanimous committee vote signals strong bipartisan momentum for federal AI deepfake legislation directly relevant to synthetic media in political campaigns and elections.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:no-fakes-act",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "dc0c5998926f699a",
+          "title": "The NO FAKES Act Could Silence Satire, Commentary, And News",
+          "url": "https://eff.org/deeplinks/2026/06/no-fakes-act-could-silence-satire-commentary-and-news",
+          "source": "Electronic Frontier Foundation",
+          "source_domain": "eff.org",
+          "published": "2026-06-09",
+          "first_seen_run": "2026-06-24",
+          "category": "regulation",
+          "summary": "The Electronic Frontier Foundation argues that the NO FAKES Act, while targeting harmful AI-generated likenesses, is drafted broadly enough to suppress legitimate satire, political commentary, and journalism about public figures. The EFF calls for narrower carve-outs to protect First Amendment activity.",
+          "why_it_matters": "Highlights a significant civil-liberties tension in the leading federal AI likeness bill, with direct implications for political speech and election-related satire.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:no-fakes-act",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "71d3197e1e09756c",
+          "title": "Senate Committee Advances Bill to Protect Name, Image, Likeness and Voice Against Unauthorized AI Use",
+          "url": "https://hklaw.com/en/insights/publications/2026/06/senate-judiciary-committee-advances-legislation-to-protect-name",
+          "source": "Holland & Knight",
+          "source_domain": "hklaw.com",
+          "published": "2026-06-22",
+          "first_seen_run": "2026-06-24",
+          "category": "regulation",
+          "summary": "Law firm Holland & Knight provides a legal analysis of the Senate Judiciary Committee's advancement of the NO FAKES Act, outlining what the bill would require of platforms and AI developers regarding unauthorized synthetic replicas of real individuals.",
+          "why_it_matters": "Offers authoritative legal framing of the NO FAKES Act's compliance obligations, relevant to campaigns and vendors deploying AI-generated media.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:no-fakes-act",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "18f90571a9c3fe30",
+          "title": "NGP VAN Rolls Out New AI Compliance Review Tool",
+          "url": "https://campaignsandelections.com/industry-news/ngp-van-rolls-out-new-ai-compliance-review-tool",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-06-09",
+          "first_seen_run": "2026-06-24",
+          "category": "vendor_moves",
+          "summary": "NGP VAN, a leading Democratic campaign technology provider, launched a new AI-powered compliance review tool designed to help campaigns check materials against legal and regulatory requirements. The tool is positioned as an efficiency aid for campaign compliance operations.",
+          "why_it_matters": "Marks a concrete deployment of AI inside campaign infrastructure for regulatory compliance, signaling the mainstreaming of AI tools across campaign operations beyond just voter outreach.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:ngpvan-bonterra",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "1e65d497f2df97a2",
+          "title": "Civis Analytics has achieved the AWS Generative AI Competency",
+          "url": "https://civisanalytics.com/news",
+          "source": "Civis Analytics News",
+          "source_domain": "civisanalytics.com",
+          "published": "2026-06-24",
+          "first_seen_run": "2026-06-24",
+          "category": "vendor_moves",
+          "summary": "Civis Analytics announced it has achieved the AWS Generative AI Competency designation, indicating the political data and analytics firm has met Amazon's standards for deploying generative AI solutions on its cloud platform.",
+          "why_it_matters": "Signals that political analytics vendors are formally credentialing their generative AI capabilities, potentially accelerating adoption of AI-driven targeting and modeling in campaigns.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:civis",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "b05c9e8d7f64f895",
+          "title": "Nexxen & L2 Data launch VoterMatch for political ads",
+          "url": "https://stocktitan.net/news/NEXN/nexxen-and-l2-data-launch-voter-match-bringing-greater-precision-mmx6d9h0a1ln.html",
+          "source": "StockTitan",
+          "source_domain": "stocktitan.net",
+          "published": "2026-06-18",
+          "first_seen_run": "2026-06-24",
+          "category": "vendor_moves",
+          "summary": "Ad-tech firm Nexxen and political data provider L2 Data launched VoterMatch, a product that enables more precise targeting of political advertisements by matching voter file data to digital advertising audiences. The tool is aimed at increasing the effectiveness of political ad buys.",
+          "why_it_matters": "Represents a significant expansion of data-driven micro-targeting capabilities available to political campaigns ahead of the 2026 midterms.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:l2",
+            "confidence": "medium"
+          }
+        }
+      ]
+    }
+  ]
+}
