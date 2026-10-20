@@ -3,7 +3,35 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Mon, 19 Oct 2026 18:33:50 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 16:36:42 GMT</lastBuildDate>
+    <item>
+      <title>Is AI Reshaping the 2026 Midterms? $137 Million Spent on AI-Generated Political Ads</title>
+      <link>https://ibtimes.sg/ai-reshaping-2026-midterms-137-million-spent-ai-generated-political-ads-95266</link>
+      <guid isPermaLink="false">dc0fae9fbb668d4b</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <description>IBTimes reports that Republican-affiliated groups account for 88% of the $137 million spent on AI-generated political ads in the 2026 midterms, adding a partisan breakdown to the Wesleyan Media Project figures already in circulation.</description>
+    </item>
+    <item>
+      <title>Altered video of Washington County candidate goes viral nationwide</title>
+      <link>https://axios.com/local/portland/2026/10/20/nafisa-fai-fake-video-election</link>
+      <guid isPermaLink="false">b462a90b13941592</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <description>An altered video of Washington County, Oregon candidate Nafisa Fai spread virally across the country, according to Axios Portland.</description>
+    </item>
+    <item>
+      <title>The Political Group - AI Polling and Phone Banking Services for Campaigns</title>
+      <link>https://thepoliticalgroup.com/</link>
+      <guid isPermaLink="false">56a082ddde5ac001</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <description>The Political Group offers HyperPhonebank for live AI-assisted voter contact and HyperPulse for synthetic polling and AI-driven prediction, marketing both services to campaigns and citing 20-plus years of operation across more than 1,900 campaigns.</description>
+    </item>
+    <item>
+      <title>AI Makes Everything Look the Same. Here’s How True Experts Stand Out</title>
+      <link>https://campaignsandelections.com/voices/ai-makes-everything-look-the-same-heres-how-true-experts-stand-out</link>
+      <guid isPermaLink="false">511c4141a5d2b2df</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <description>A Campaigns &amp; Elections op-ed argues that campaigns and consultants over-relying on AI for creative and strategic work risk blending into a homogenized middle, and that differentiation requires human expertise layered on top of AI output.</description>
+    </item>
     <item>
       <title>How AI is changing political campaigns and voter targeting in Minnesota</title>
       <link>https://startribune.com/minnesota-political-campaign-ai/601901252</link>
@@ -185,34 +213,6 @@
       <guid isPermaLink="false">eee912aa8e6c77bd</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
       <description>A Victorino Group commentary argues that the most pressing problem with synthetic survey respondents is not accuracy benchmarking but the absence of mandatory labeling — research buyers currently cannot tell whether data they purchase includes AI-simulated responses, even as vendors in the space carry billion-dollar valuations while subgroup accuracy remains weak.</description>
-    </item>
-    <item>
-      <title>AI Is Changing What Campaigns Should Expect From Voter Outreach</title>
-      <link>https://campaignsandelections.com/voices/ai-is-changing-what-campaigns-should-expect-from-voter-outreach</link>
-      <guid isPermaLink="false">dbc5278b6e362764</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-      <description>A Campaigns &amp; Elections practitioner piece argues that AI's primary value in voter outreach is not generating more content but expanding a campaign's capacity to respond quickly and at scale to voter contact.</description>
-    </item>
-    <item>
-      <title>New campaign disclosures reveal how much American political campaigns spend on AI tools</title>
-      <link>https://theguardian.com/technology/2026/sep/29/political-campaigns-ai-tools-spending</link>
-      <guid isPermaLink="false">62f449fec1240ed2</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-      <description>An analysis drawing on FEC campaign-finance disclosures examines how much U.S. political campaigns are spending on AI tools, providing empirical data on actual AI adoption and expenditure across campaigns.</description>
-    </item>
-    <item>
-      <title>AI Data Centers Emerge as a Hot Topic for Political Ads in 2026</title>
-      <link>https://campaignsandelections.com/industry-news/ai-data-centers-emerge-as-a-hot-topic-for-political-ads-in-2026</link>
-      <guid isPermaLink="false">bcea82e51b30f8ce</guid>
-      <pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
-      <description>An analysis by the Absecon Group found that more than 700 candidates in 2026 have run digital ads about AI data centers, establishing the issue as a significant campaign messaging theme this cycle.</description>
-    </item>
-    <item>
-      <title>AI ads are popular in the 2026 midterms, but state laws haven't stopped a lack of disclosure</title>
-      <link>https://washingtonpost.com/politics/2026/09/25/artificial-intelligence-campaign-ads-midterms/6a63e496-b923-11f1-94cb-d3d8f22a8c8b_story.html</link>
-      <guid isPermaLink="false">619c878384fb65b8</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-      <description>The Washington Post reports that AI-generated ads are prevalent across the 2026 midterm campaigns but that state disclosure laws have largely not stopped campaigns from failing to label AI-generated content.</description>
     </item>
   </channel>
 </rss>

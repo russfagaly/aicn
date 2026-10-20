@@ -1096,6 +1096,43 @@
       ],
       "first_proposed": "2026-10-16",
       "status": "pending"
+    },
+    {
+      "id": "prop-source-thepoliticalgroup-com",
+      "kind": "source",
+      "value": "thepoliticalgroup.com",
+      "feed_url": null,
+      "rationale": "Produced 2 published item(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://thepoliticalgroup.com/news/how-ai-voter-targeting-is-reshaping-campaign-strategy-in-2026-2",
+        "https://thepoliticalgroup.com/"
+      ],
+      "first_proposed": "2026-10-20",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-hyperpulse",
+      "kind": "watchlist_entity",
+      "value": "HyperPulse",
+      "feed_url": null,
+      "rationale": "AI synthetic polling product from The Political Group, directly relevant to the silicon-sampling trend AICN tracks.",
+      "example_urls": [
+        "https://www.thepoliticalgroup.com/"
+      ],
+      "first_proposed": "2026-10-20",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-hyperphonebank",
+      "kind": "watchlist_entity",
+      "value": "HyperPhonebank",
+      "feed_url": null,
+      "rationale": "AI-assisted live voter contact product from The Political Group, relevant to tracking AI in direct voter outreach.",
+      "example_urls": [
+        "https://www.thepoliticalgroup.com/"
+      ],
+      "first_proposed": "2026-10-20",
+      "status": "pending"
     }
   ]
 }

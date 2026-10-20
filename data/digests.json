@@ -1,7 +1,91 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T18:33:50Z",
+  "generated_at": "2026-10-20T16:36:42Z",
   "runs": [
+    {
+      "run_id": "2026-10-20",
+      "date": "2026-10-20",
+      "generated_at": "2026-10-20T16:36:42Z",
+      "is_light_run": false,
+      "top_summary": "The dominant story this cycle remains the scale of AI-generated political advertising, with a follow-up report adding partisan breakdown to the already-published $137 million figure. A vendor serving over 1,900 campaigns offers synthetic polling and AI-powered voter contact at scale, representing a concrete tool campaigns can evaluate. An altered video of an Oregon county candidate went viral nationally, illustrating continued synthetic-media risk at the local level.",
+      "item_count": 4,
+      "items": [
+        {
+          "id": "dc0fae9fbb668d4b",
+          "title": "Is AI Reshaping the 2026 Midterms? $137 Million Spent on AI-Generated Political Ads",
+          "url": "https://ibtimes.sg/ai-reshaping-2026-midterms-137-million-spent-ai-generated-political-ads-95266",
+          "source": "IBTimes",
+          "source_domain": "ibtimes.sg",
+          "published": "2026-10-18",
+          "first_seen_run": "2026-10-20",
+          "category": "deployments_studies",
+          "summary": "IBTimes reports that Republican-affiliated groups account for 88% of the $137 million spent on AI-generated political ads in the 2026 midterms, adding a partisan breakdown to the Wesleyan Media Project figures already in circulation.",
+          "why_it_matters": "The partisan skew in AI ad production is a materially new detail beyond the top-line dollar figure already published, signaling where AI ad adoption is most concentrated in this cycle.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "b462a90b13941592",
+          "title": "Altered video of Washington County candidate goes viral nationwide",
+          "url": "https://axios.com/local/portland/2026/10/20/nafisa-fai-fake-video-election",
+          "source": "Axios Portland",
+          "source_domain": "axios.com",
+          "published": "2026-10-20",
+          "first_seen_run": "2026-10-20",
+          "category": "deepfakes",
+          "summary": "An altered video of Washington County, Oregon candidate Nafisa Fai spread virally across the country, according to Axios Portland.",
+          "why_it_matters": "AI-manipulated content targeting local and down-ballot candidates is reaching national audiences, demonstrating that synthetic-media risk is not limited to high-profile federal races.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:axios",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "56a082ddde5ac001",
+          "title": "The Political Group - AI Polling and Phone Banking Services for Campaigns",
+          "url": "https://thepoliticalgroup.com/",
+          "source": "The Political Group",
+          "source_domain": "thepoliticalgroup.com",
+          "published": "2026-10-20",
+          "first_seen_run": "2026-10-20",
+          "category": "vendor_moves",
+          "summary": "The Political Group offers HyperPhonebank for live AI-assisted voter contact and HyperPulse for synthetic polling and AI-driven prediction, marketing both services to campaigns and citing 20-plus years of operation across more than 1,900 campaigns.",
+          "why_it_matters": "A vendor combining synthetic polling with high-volume AI phone banking at claimed scale gives campaigns a single-vendor path to both voter contact and opinion modeling, making it a concrete tool for digital directors to evaluate.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:the-political-group",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "511c4141a5d2b2df",
+          "title": "AI Makes Everything Look the Same. Here\u2019s How True Experts Stand Out",
+          "url": "https://campaignsandelections.com/voices/ai-makes-everything-look-the-same-heres-how-true-experts-stand-out",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-10-20",
+          "first_seen_run": "2026-10-20",
+          "category": "analysis_oped",
+          "summary": "A Campaigns & Elections op-ed argues that campaigns and consultants over-relying on AI for creative and strategic work risk blending into a homogenized middle, and that differentiation requires human expertise layered on top of AI output.",
+          "why_it_matters": "Practitioner-level pushback on undifferentiated AI use offers a useful counterpoint to adoption enthusiasm, relevant to any campaign team evaluating how deeply to automate creative production.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaigns-and-elections",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-10-19",
       "date": "2026-10-19",
@@ -1286,15 +1370,6 @@
           }
         }
       ]
-    },
-    {
-      "run_id": "2026-09-01",
-      "date": "2026-09-01",
-      "generated_at": "2026-09-01T16:25:49Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
     }
   ]
 }

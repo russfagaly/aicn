@@ -239,6 +239,13 @@
     ],
     "last_seen": "2026-06-26"
   },
+  "ibtimes.sg": {
+    "count": 1,
+    "example_urls": [
+      "https://ibtimes.sg/ai-reshaping-2026-midterms-137-million-spent-ai-generated-political-ads-95266"
+    ],
+    "last_seen": "2026-10-20"
+  },
   "inquirer.com": {
     "count": 1,
     "example_urls": [
@@ -407,11 +414,12 @@
     "last_seen": "2026-08-01"
   },
   "thepoliticalgroup.com": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
-      "https://thepoliticalgroup.com/news/how-ai-voter-targeting-is-reshaping-campaign-strategy-in-2026-2"
+      "https://thepoliticalgroup.com/news/how-ai-voter-targeting-is-reshaping-campaign-strategy-in-2026-2",
+      "https://thepoliticalgroup.com/"
     ],
-    "last_seen": "2026-08-11"
+    "last_seen": "2026-10-20"
   },
   "transparencycoalition.ai": {
     "count": 1,
