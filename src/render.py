@@ -1,4 +1,5 @@
-"""Build the run object and write data/digests.json, data/meta.json, feed.xml."""
+"""Build the run object and write data/digests.json, data/archive.json,
+data/meta.json, feed.xml."""
 
 import datetime
 import json
@@ -7,8 +8,12 @@ import urllib.parse
 import xml.sax.saxutils as saxutils
 
 SCHEMA_VERSION = 1
+# digests.json holds the most recent runs; anything older moves to
+# data/archive.json instead of being dropped. Dropping used to be permanent:
+# every candidate is in seen.json, so no later run would gather it again.
 MAX_RUNS_KEPT = 40
 FEED_ITEM_CAP = 30
+SITE_URL = "https://russfagaly.github.io/aicn/"
 
 
 def build_run(run_id: str, run_date, candidates_by_url: dict, curated: dict):
@@ -50,6 +55,10 @@ def build_run(run_id: str, run_date, candidates_by_url: dict, curated: dict):
         "is_light_run": is_light_run,
         "top_summary": top_summary,
         "item_count": len(items),
+        # Everything that reached the curator after dedup, published or not —
+        # lets an empty run say "N reviewed, none qualified" rather than look
+        # like a run that never happened.
+        "candidates_reviewed": len(candidates_by_url),
         "items": items,
     }
 
@@ -59,6 +68,39 @@ def _load_existing_digests(path: str):
         with open(path) as f:
             return json.load(f)
     return {"schema_version": SCHEMA_VERSION, "generated_at": "", "runs": []}
+
+
+def archive_overflow(root: str, digests: dict, dry_run: bool = False) -> int:
+    """Trim digests["runs"] to MAX_RUNS_KEPT, moving the overflow to data/archive.json.
+
+    Returns how many runs were moved. An archived run_id replaces any older copy
+    of itself, so re-archiving is idempotent.
+    """
+    overflow = digests["runs"][MAX_RUNS_KEPT:]
+    digests["runs"] = digests["runs"][:MAX_RUNS_KEPT]
+    if not overflow or dry_run:
+        return len(overflow)
+    path = os.path.join(root, "data", "archive.json")
+    archive = {"schema_version": SCHEMA_VERSION, "runs": []}
+    if os.path.exists(path):
+        with open(path) as f:
+            archive = json.load(f)
+    moved = {r["run_id"] for r in overflow}
+    runs = overflow + [r for r in archive.get("runs", []) if r["run_id"] not in moved]
+    archive["runs"] = sorted(runs, key=lambda r: r["run_id"], reverse=True)
+    with open(path, "w") as f:
+        json.dump(archive, f, indent=2)
+    return len(overflow)
+
+
+def archive_totals(root: str) -> tuple:
+    """(runs, items) currently in data/archive.json, for meta.json's all-time totals."""
+    path = os.path.join(root, "data", "archive.json")
+    if not os.path.exists(path):
+        return 0, 0
+    with open(path) as f:
+        runs = json.load(f).get("runs", [])
+    return len(runs), sum(r.get("item_count", 0) for r in runs)
 
 
 def _rss_escape(text: str) -> str:
@@ -97,9 +139,11 @@ def _render_feed_xml(runs: list) -> str:
     now_rfc822 = datetime.datetime.now(datetime.timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
     return (
         '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<rss version="2.0">\n'
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n'
         "  <channel>\n"
         "    <title>AI Campaign News (AICN)</title>\n"
+        f"    <link>{SITE_URL}</link>\n"
+        f'    <atom:link href="{SITE_URL}feed.xml" rel="self" type="application/rss+xml"/>\n'
         "    <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>\n"
         "    <lastBuildDate>" + now_rfc822 + "</lastBuildDate>\n"
         + "\n".join(items_xml)
@@ -158,6 +202,13 @@ def merge_same_day_runs(earlier: dict, later: dict) -> dict:
     merged["is_light_run"] = not items
     summaries = [s for s in (earlier.get("top_summary"), later.get("top_summary")) if s]
     merged["top_summary"] = " ".join(summaries)
+    # Hand-added runs (submit.py) and runs from before this field existed have
+    # no count; sum whatever the two sides recorded.
+    counts = [r["candidates_reviewed"] for r in (earlier, later) if r.get("candidates_reviewed") is not None]
+    if counts:
+        merged["candidates_reviewed"] = sum(counts)
+    else:
+        merged.pop("candidates_reviewed", None)
     return merged
 
 
@@ -192,17 +243,17 @@ def write_outputs(root: str, run_id: str, run_date, candidates_by_url: dict, cur
         new_run = merge_same_day_runs(earlier, new_run)
     digests["runs"] = [r for r in digests.get("runs", []) if r["run_id"] != run_id]
     digests["runs"].insert(0, new_run)
-    digests["runs"] = digests["runs"][:MAX_RUNS_KEPT]
+    archive_overflow(root, digests, dry_run=dry_run)
     digests["schema_version"] = SCHEMA_VERSION
     digests["generated_at"] = new_run["generated_at"]
 
-    total_items = sum(r["item_count"] for r in digests["runs"])
+    archived_runs, archived_items = archive_totals(root)
     meta = {
         "schema_version": SCHEMA_VERSION,
         "last_updated": new_run["generated_at"],
         "latest_run_id": run_id,
-        "total_runs": len(digests["runs"]),
-        "total_items": total_items,
+        "total_runs": len(digests["runs"]) + archived_runs,
+        "total_items": sum(r["item_count"] for r in digests["runs"]) + archived_items,
     }
 
     feed_xml = _render_feed_xml(digests["runs"])

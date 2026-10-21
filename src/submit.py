@@ -198,15 +198,16 @@ def main():
     run = render.merge_same_day_runs(manual_run, existing) if existing else manual_run
     digests["runs"] = [r for r in digests["runs"] if r["run_id"] != run_id]
     digests["runs"].insert(0, run)
-    digests["runs"] = digests["runs"][: render.MAX_RUNS_KEPT]
+    render.archive_overflow(ROOT, digests)
     with open(digests_path, "w") as f:
         json.dump(digests, f, indent=2)
 
     meta_path = os.path.join(ROOT, "data", "meta.json")
     with open(meta_path) as f:
         meta = json.load(f)
-    meta["total_runs"] = len(digests["runs"])
-    meta["total_items"] = sum(r["item_count"] for r in digests["runs"])
+    archived_runs, archived_items = render.archive_totals(ROOT)
+    meta["total_runs"] = len(digests["runs"]) + archived_runs
+    meta["total_items"] = sum(r["item_count"] for r in digests["runs"]) + archived_items
     with open(meta_path, "w") as f:
         json.dump(meta, f, indent=2)
     with open(os.path.join(ROOT, "feed.xml"), "w") as f:

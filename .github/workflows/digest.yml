@@ -12,6 +12,13 @@ on:
 
 permissions:
   contents: write
+  issues: write
+
+# A manual run started while the scheduled one is going would race it to push
+# the same data files. Queue instead of cancelling, so neither run's items are lost.
+concurrency:
+  group: digest
+  cancel-in-progress: false
 
 jobs:
   run-digest:
@@ -37,4 +44,31 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data/ feed.xml state/seen.json state/domain_stats.json state/search_recent.json library.html sources.html
           git diff --cached --quiet || git commit -m "AICN: update digest data"
-          git push
+          # Someone may have pushed (a review or submit.py commit) while the
+          # pipeline ran. Rebase onto it and retry rather than failing the run.
+          for attempt in 1 2 3; do
+            git push && exit 0
+            echo "push rejected (attempt $attempt); rebasing onto origin/main"
+            git pull --rebase origin main || exit 1
+            sleep $((attempt * 5))
+          done
+          exit 1
+
+      # A failed run otherwise just means the site quietly stops updating.
+      # Open one issue per failure streak; later failures comment on it.
+      - name: Report failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          title="Digest pipeline failed"
+          existing=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "in:title \"$title\"" --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --repo "$GITHUB_REPOSITORY" --body "Failed again: $RUN_URL"
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" \
+              --body "The scheduled digest run failed, so the site did not update. Logs: $RUN_URL
+
+          Close this issue once the pipeline is fixed; the next failure opens a new one."
+          fi

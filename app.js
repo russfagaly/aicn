@@ -1,5 +1,6 @@
 /* AICN — vanilla static renderer. No framework, no build step.
-   Reads data/digests.json + data/meta.json sitting next to index.html.
+   Reads data/digests.json + data/meta.json sitting next to index.html, plus
+   data/archive.json (older runs moved out of digests.json) when it exists.
    One continuous reverse-chronological feed (flattened across all runs),
    paginated client-side. Category is shown as a badge per item; chips filter
    the feed rather than sectioning it. */
@@ -67,11 +68,19 @@
         return r.json();
       })
       .then(function (digests) {
-        return fetch('data/meta.json', { cache: 'no-store' })
+        // The archive is optional: a missing or broken archive.json still
+        // leaves the recent feed working.
+        var archive = fetch('data/archive.json', { cache: 'no-store' })
+          .then(function (ar) { return ar.ok ? ar.json() : null; })
+          .catch(function () { return null; });
+        var meta = fetch('data/meta.json', { cache: 'no-store' })
           .then(function (mr) { return mr.ok ? mr.json() : null; })
-          .catch(function () { return null; })
-          .then(function (meta) {
-            var runs = (digests.runs || []).slice().sort(function (a, b) {
+          .catch(function () { return null; });
+        return Promise.all([archive, meta])
+          .then(function (res) {
+            var archived = (res[0] && res[0].runs) || [];
+            var meta = res[1];
+            var runs = (digests.runs || []).concat(archived).sort(function (a, b) {
               return String(b.run_id || '').localeCompare(String(a.run_id || ''));
             });
             if (!runs.length) throw new Error('No runs in digest.');
@@ -80,8 +89,17 @@
             // reverse-chronologically by published date (falling back to
             // first_seen_run for items missing one), so the feed reads as a
             // single continuous stream rather than day buckets.
+            // An item can appear in more than one run in older history; runs
+            // are newest first, so the first copy seen wins.
             var flat = [];
-            runs.forEach(function (r) { (r.items || []).forEach(function (it) { flat.push(it); }); });
+            var seenIds = {};
+            runs.forEach(function (r) {
+              (r.items || []).forEach(function (it) {
+                if (it.id && seenIds[it.id]) return;
+                if (it.id) seenIds[it.id] = true;
+                flat.push(it);
+              });
+            });
             flat.sort(function (a, b) {
               var ad = a.published || a.first_seen_run || '';
               var bd = b.published || b.first_seen_run || '';
@@ -154,7 +172,13 @@
     // can never contradict each other, and only render the summary paragraph
     // when there's something in it — an empty one left 21px of dead space.
     if (!runItems.length) {
-      html += '<p style="margin:0 0 12px; font-size:13px; color:#8a7330; background:#f4efe2; border:1px solid #e8dec5; padding:8px 12px; border-radius:6px; display:inline-block;">No new on-topic items surfaced in this run.</p>';
+      // Say how much was looked at, so a quiet day reads as "checked, nothing
+      // qualified" rather than "did it run?". Older runs have no count.
+      var reviewed = run.candidates_reviewed;
+      var emptyNote = typeof reviewed === 'number'
+        ? 'No qualifying items in this run · ' + reviewed + (reviewed === 1 ? ' candidate' : ' candidates') + ' reviewed.'
+        : 'No new on-topic items surfaced in this run.';
+      html += '<p style="margin:0 0 12px; font-size:13px; color:#8a7330; background:#f4efe2; border:1px solid #e8dec5; padding:8px 12px; border-radius:6px; display:inline-block;">' + esc(emptyNote) + '</p>';
     }
     if (run.top_summary) {
       html += '<p style="margin:0; font-family:\'Source Serif 4\',serif; font-size:21px; line-height:1.5; color:#2c3340;">' + esc(run.top_summary) + '</p>';
