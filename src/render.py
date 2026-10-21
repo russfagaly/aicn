@@ -14,6 +14,8 @@ SCHEMA_VERSION = 1
 MAX_RUNS_KEPT = 40
 FEED_ITEM_CAP = 30
 SITE_URL = "https://russfagaly.github.io/aicn/"
+# data/rejections.json keeps per-candidate rejection reasons for this many days.
+REJECTIONS_KEEP_DAYS = 30
 
 
 def build_run(run_id: str, run_date, candidates_by_url: dict, curated: dict):
@@ -48,6 +50,16 @@ def build_run(run_id: str, run_date, candidates_by_url: dict, curated: dict):
     if not items:
         is_light_run = True
 
+    # Why everything else was left out, by reason. Candidates the curator didn't
+    # account for are counted as "unclassified" so the counts always add up.
+    rejection_counts: dict = {}
+    for r in curated.get("rejected") or []:
+        if r.get("url") in candidates_by_url:
+            rejection_counts[r["reason"]] = rejection_counts.get(r["reason"], 0) + 1
+    unclassified = len(candidates_by_url) - len(items) - sum(rejection_counts.values())
+    if unclassified > 0:
+        rejection_counts["unclassified"] = unclassified
+
     return {
         "run_id": run_id,
         "date": run_date.isoformat(),
@@ -59,6 +71,7 @@ def build_run(run_id: str, run_date, candidates_by_url: dict, curated: dict):
         # lets an empty run say "N reviewed, none qualified" rather than look
         # like a run that never happened.
         "candidates_reviewed": len(candidates_by_url),
+        "rejection_counts": dict(sorted(rejection_counts.items())),
         "items": items,
     }
 
@@ -209,7 +222,57 @@ def merge_same_day_runs(earlier: dict, later: dict) -> dict:
         merged["candidates_reviewed"] = sum(counts)
     else:
         merged.pop("candidates_reviewed", None)
+    reasons: dict = {}
+    for r in (earlier, later):
+        for k, v in (r.get("rejection_counts") or {}).items():
+            reasons[k] = reasons.get(k, 0) + v
+    if reasons:
+        merged["rejection_counts"] = dict(sorted(reasons.items()))
+    else:
+        merged.pop("rejection_counts", None)
     return merged
+
+
+def write_rejections(root: str, run_id: str, candidates_by_url: dict, curated: dict) -> int:
+    """Append this run's rejected candidates to data/rejections.json.
+
+    Public on purpose, like the Sources and Pipeline pages: it shows what the
+    curator looked at and turned down. Entries older than REJECTIONS_KEEP_DAYS
+    (by run_id) are dropped, and a rerun of the same day adds to that day's
+    entries without repeating a url.
+    """
+    path = os.path.join(root, "data", "rejections.json")
+    data = {"schema_version": 1, "keep_days": REJECTIONS_KEEP_DAYS, "rejections": []}
+    if os.path.exists(path):
+        with open(path) as f:
+            data = json.load(f)
+    cutoff = (datetime.date.fromisoformat(run_id) - datetime.timedelta(days=REJECTIONS_KEEP_DAYS)).isoformat()
+    kept = [r for r in data.get("rejections", []) if r.get("run_id", "") > cutoff]
+    already = {(r["run_id"], r["url"]) for r in kept}
+    added = 0
+    for r in curated.get("rejected") or []:
+        cand = candidates_by_url.get(r.get("url"))
+        if cand is None:
+            continue
+        url = cand.get("_normalized_url") or r["url"]
+        if (run_id, url) in already:
+            continue
+        already.add((run_id, url))
+        kept.append({
+            "run_id": run_id,
+            "reason": r["reason"],
+            "title": cand.get("title", ""),
+            "url": url,
+            "source": cand.get("source", ""),
+            "discovery": (cand.get("discovery") or {}).get("method"),
+        })
+        added += 1
+    kept.sort(key=lambda r: (r["run_id"], r["reason"], r["title"]), reverse=True)
+    data.update({"schema_version": 1, "keep_days": REJECTIONS_KEEP_DAYS, "rejections": kept})
+    with open(path, "w") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+    return added
 
 
 def write_outputs(root: str, run_id: str, run_date, candidates_by_url: dict, curated: dict, dry_run: bool):
@@ -266,6 +329,7 @@ def write_outputs(root: str, run_id: str, run_date, candidates_by_url: dict, cur
         f.write(feed_xml)
 
     if not dry_run:
+        write_rejections(root, run_id, candidates_by_url, curated)
         seen_path = os.path.join(root, "state", "seen.json")
         seen = {"ids": [], "titles": []}
         if os.path.exists(seen_path):

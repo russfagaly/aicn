@@ -125,6 +125,18 @@ do the following:
    major platforms, and legislation already on the watchlist (NO FAKES Act, TAKE
    IT DOWN Act, FEC, FCC). Only flag genuinely niche or emerging names that a
    beat reporter would want to track going forward. Return them as new_entities.
+8. For EVERY candidate you did not include in items, add {url, reason} to
+   rejected, with the single reason that best explains the call:
+   - no_ai: AI/ML isn't named or central (fails test a)
+   - wrong_actor: the AI isn't in a campaign's or campaign vendor's hands —
+     legislature, regulator, court, journalist, researcher, AI lab (fails b)
+   - not_practical: nothing concrete a practitioner could act on (fails c)
+   - not_political: no campaign, election or advocacy connection at all
+   - already_covered: continued coverage of an item already published
+   - duplicate: syndicated copy of another candidate in this batch
+   This is a record of decisions already made under the rules above, not a
+   reason to reconsider them. Every candidate url appears exactly once:
+   either in items or in rejected.
 
 Never invent facts beyond what's implied by the title/url/page metadata given —
 if a name or detail genuinely isn't there, keep that part of the summary
@@ -151,6 +163,12 @@ Return ONLY a JSON object (no markdown fences, no prose) with this exact shape:
       "rationale": str,
       "example_url": str
     }
+  ],
+  "rejected": [
+    {
+      "url": str,
+      "reason": "no_ai|wrong_actor|not_practical|not_political|already_covered|duplicate"
+    }
   ]
 }
 
@@ -158,6 +176,18 @@ new_entities may be an empty array. Each "url" in items MUST exactly match one
 of the candidate urls given to you. Do not include a url that wasn't in the
 candidate list."""
 
+
+# Why the curator left a candidate out. Kept as data (per-run counts on the
+# run, per-candidate detail in data/rejections.json) so a run with nothing
+# published still shows what was looked at and why it didn't qualify.
+REJECTION_REASONS = [
+    "no_ai",
+    "wrong_actor",
+    "not_practical",
+    "not_political",
+    "already_covered",
+    "duplicate",
+]
 
 # Structured-outputs schema: the API guarantees the response text is valid
 # JSON matching this shape, which removes the pipeline's only hard-abort path
@@ -222,8 +252,20 @@ _OUTPUT_SCHEMA = {
                 "additionalProperties": False,
             },
         },
+        "rejected": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "url": {"type": "string"},
+                    "reason": {"type": "string", "enum": REJECTION_REASONS},
+                },
+                "required": ["url", "reason"],
+                "additionalProperties": False,
+            },
+        },
     },
-    "required": ["is_light_run", "top_summary", "items", "new_entities"],
+    "required": ["is_light_run", "top_summary", "items", "new_entities", "rejected"],
     "additionalProperties": False,
 }
 
@@ -279,7 +321,9 @@ def curate_items(client, model: str, candidates: list, recent_published: list = 
     try:
         resp = client.messages.create(
             model=model,
-            max_tokens=8000,
+            # The rejected list adds ~25 output tokens per candidate; a response
+            # cut off at the cap is unparseable and aborts the run, so leave room.
+            max_tokens=16000,
             system=_SYSTEM,
             output_config={"format": {"type": "json_schema", "schema": _OUTPUT_SCHEMA}},
             messages=[{"role": "user", "content": user_message}],
@@ -299,6 +343,16 @@ def curate_items(client, model: str, candidates: list, recent_published: list = 
     valid_urls = {c["url"] for c in candidates}
     if parsed and "items" in parsed:
         parsed["items"] = [it for it in parsed["items"] if it.get("url") in valid_urls]
+        # Rejections are bookkeeping, not output: keep only real candidate urls,
+        # never one that was also published, and the first reason per url.
+        published = {it["url"] for it in parsed["items"]}
+        kept, seen_urls = [], set()
+        for r in parsed.get("rejected") or []:
+            url = r.get("url")
+            if url in valid_urls and url not in published and url not in seen_urls and r.get("reason") in REJECTION_REASONS:
+                kept.append({"url": url, "reason": r["reason"]})
+                seen_urls.add(url)
+        parsed["rejected"] = kept
 
     usage = getattr(resp, "usage", None)
     note = f"curate usage: input={usage.input_tokens} output={usage.output_tokens}" if usage else None
