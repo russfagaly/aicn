@@ -3,7 +3,35 @@
   <channel>
     <title>AI Campaign News (AICN)</title>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Tue, 20 Oct 2026 16:36:42 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 16:54:54 GMT</lastBuildDate>
+    <item>
+      <title>Voters Are Already Getting AI Answers About Your Campaign. They Just Don't Know It.</title>
+      <link>https://campaigntrend.com/voters-are-already-getting-ai-answers-about-your-campaign</link>
+      <guid isPermaLink="false">47642577f3c81191</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <description>A new AAPC Foundation national survey of likely voters, discussed by Tarrance Group pollster B.J. Martino, finds that voters are already encountering AI-generated answers about campaigns through ambient AI tool use — often without knowing it — and that significant voter distrust and hard limits around campaign AI use are emerging from the data.</description>
+    </item>
+    <item>
+      <title>U . S . candidates have gone from spending nearly zero to $137 million on AI ads in one election cycle</title>
+      <link>https://fortune.com/2026/10/21/political-campaigns-ai-advertisement-spending-137-million-republicans-misinformation</link>
+      <guid isPermaLink="false">d34cd54ac12e5058</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Fortune reports that U.S. political advertisers went from near-zero to $137 million in AI-generated ad spending in a single election cycle, and adds a new detail not previously highlighted: more than 70% of AI campaign videos carried no disclaimer or disclosure that AI was used in their production.</description>
+    </item>
+    <item>
+      <title>Oregon outlet retracts story calling viral video of local candidate a deepfake</title>
+      <link>https://oregonlive.com/washingtoncounty/2026/10/oregon-democrats-decried-a-deepfake-then-the-evidence-fell-apart.html</link>
+      <guid isPermaLink="false">14112b1fba2bdd85</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <description>OregonLive reports that an Oregon outlet retracted its story labeling a viral video of Washington County candidate Nafisa Fai a deepfake after the evidence supporting that characterization fell apart, with Oregon Democrats having already publicly condemned the video.</description>
+    </item>
+    <item>
+      <title>Candidates campaign for AI attention</title>
+      <link>https://marketplace.org/story/2026/10/19/candidates-campaign-for-ai-attention</link>
+      <guid isPermaLink="false">12e216c24c56bfc4</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Marketplace reports on candidates actively shaping how their campaigns appear in AI-generated answers, treating AI search and answer tools as a new channel that campaigns need to optimize for alongside traditional digital outreach.</description>
+    </item>
     <item>
       <title>Is AI Reshaping the 2026 Midterms? $137 Million Spent on AI-Generated Political Ads</title>
       <link>https://ibtimes.sg/ai-reshaping-2026-midterms-137-million-spent-ai-generated-political-ads-95266</link>
@@ -185,34 +213,6 @@
       <guid isPermaLink="false">0c9560c45f308bf1</guid>
       <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
       <description>Attorneys for Democratic congressional candidate Rebecca Cooke sent Rep. Derrick Van Orden's campaign a cease-and-desist letter, alleging the Wisconsin Republican's campaign used AI-generated deepfake videos to falsely attribute statements to Cooke.</description>
-    </item>
-    <item>
-      <title>Q&amp;A: How Big Tech Forever Changed the Campaign World</title>
-      <link>https://campaignsandelections.com/industry-news/qa-how-big-tech-forever-changed-the-campaign-world</link>
-      <guid isPermaLink="false">9e2d25de8054b272</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Campaigns &amp; Elections features a Q&amp;A with Katie Harbath, a longtime tech-politics veteran, who reflects on how campaigns misjudged social media's early potential and what the AI era now means for political campaigning.</description>
-    </item>
-    <item>
-      <title>L2 and IVC Media Launch Voter Count, an AI Agent That Answers Plain-English Questions About the National Voter File</title>
-      <link>https://financialcontent.com/article/bizwire-2026-9-29-l2-and-ivc-media-launch-voter-count-an-ai-agent-that-answers-plain-english-questions-about-the-national-voter-file</link>
-      <guid isPermaLink="false">b939fe294a69c807</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
-      <description>L2 and IVC Media have launched VoterCount.ai, a conversational AI agent that lets users ask plain-English questions directly against L2's national voter file of more than 217 million registered voters and receive answers in seconds. The companies describe it as the only AI tool with a direct live connection to a national voter file.</description>
-    </item>
-    <item>
-      <title>Can AI Produce the Most Informed Electorate in History?</title>
-      <link>https://campaigntrend.com/can-ai-produce-the-most-informed-electorate-in-history</link>
-      <guid isPermaLink="false">99782b133ca26e1e</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-      <description>A Campaign Trend piece argues that AI is narrowing the information gap between political insiders and ordinary voters at the local level, and that campaigns will increasingly face constituents who arrive at conversations already informed — changing how voter outreach must be designed.</description>
-    </item>
-    <item>
-      <title>Synthetic Respondents Need a Label Before They Need a Benchmark</title>
-      <link>https://victorinollc.com/thinking/synthetic-respondents-need-a-label</link>
-      <guid isPermaLink="false">eee912aa8e6c77bd</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-      <description>A Victorino Group commentary argues that the most pressing problem with synthetic survey respondents is not accuracy benchmarking but the absence of mandatory labeling — research buyers currently cannot tell whether data they purchase includes AI-simulated responses, even as vendors in the space carry billion-dollar valuations while subgroup accuracy remains weak.</description>
     </item>
   </channel>
 </rss>
