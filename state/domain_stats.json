@@ -191,11 +191,12 @@
     "last_seen": "2026-07-12"
   },
   "fortune.com": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
-      "https://fortune.com/2026/06/17/aaru-cofounder-ned-koh-ai-startup-sales-pitch-do-not-trust-us"
+      "https://fortune.com/2026/06/17/aaru-cofounder-ned-koh-ai-startup-sales-pitch-do-not-trust-us",
+      "https://fortune.com/2026/10/21/political-campaigns-ai-advertisement-spending-137-million-republicans-misinformation"
     ],
-    "last_seen": "2026-07-12"
+    "last_seen": "2026-10-21"
   },
   "futurism.com": {
     "count": 1,
@@ -275,12 +276,13 @@
     "last_seen": "2026-09-18"
   },
   "marketplace.org": {
-    "count": 2,
+    "count": 3,
     "example_urls": [
       "https://marketplace.org/story/2026/07/21/the-aflcios-strategy-for-ai-and-the-midterm-elections",
-      "https://marketplace.org/episode/2026/08/14/states-rush-to-police-ai-deepfakes-ahead-of-midterm-elections"
+      "https://marketplace.org/episode/2026/08/14/states-rush-to-police-ai-deepfakes-ahead-of-midterm-elections",
+      "https://marketplace.org/story/2026/10/19/candidates-campaign-for-ai-attention"
     ],
-    "last_seen": "2026-08-16"
+    "last_seen": "2026-10-21"
   },
   "medicaleconomics.com": {
     "count": 1,
@@ -320,6 +322,13 @@
       "https://nypost.com/2026/08/12/us-news/bruce-blakeman-has-defiant-message-for-dems-angry-about-his-ai-ads-on-hochul-mamdani"
     ],
     "last_seen": "2026-08-13"
+  },
+  "oregonlive.com": {
+    "count": 1,
+    "example_urls": [
+      "https://oregonlive.com/washingtoncounty/2026/10/oregon-democrats-decried-a-deepfake-then-the-evidence-fell-apart.html"
+    ],
+    "last_seen": "2026-10-21"
   },
   "phoenixnewtimes.com": {
     "count": 1,

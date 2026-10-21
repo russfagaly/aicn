@@ -1133,6 +1133,31 @@
       ],
       "first_proposed": "2026-10-20",
       "status": "pending"
+    },
+    {
+      "id": "prop-source-fortune-com",
+      "kind": "source",
+      "value": "fortune.com",
+      "feed_url": null,
+      "rationale": "Produced 2 published item(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://fortune.com/2026/06/17/aaru-cofounder-ned-koh-ai-startup-sales-pitch-do-not-trust-us",
+        "https://fortune.com/2026/10/21/political-campaigns-ai-advertisement-spending-137-million-republicans-misinformation"
+      ],
+      "first_proposed": "2026-10-21",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-b-j-martino",
+      "kind": "watchlist_entity",
+      "value": "B.J. Martino",
+      "feed_url": null,
+      "rationale": "Tarrance Group pollster presenting the AAPC Foundation AI voter survey findings; an emerging voice in campaign AI research worth tracking.",
+      "example_urls": [
+        "https://campaigntrend.com/voters-are-already-getting-ai-answers-about-your-campaign/"
+      ],
+      "first_proposed": "2026-10-21",
+      "status": "pending"
     }
   ]
 }

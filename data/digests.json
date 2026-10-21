@@ -1,7 +1,91 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T16:36:42Z",
+  "generated_at": "2026-10-21T16:54:54Z",
   "runs": [
+    {
+      "run_id": "2026-10-21",
+      "date": "2026-10-21",
+      "generated_at": "2026-10-21T16:54:54Z",
+      "is_light_run": false,
+      "top_summary": "The main on-topic development this run is a new AAPC Foundation national survey \u2014 reported via Campaign Trend \u2014 showing that voters are already receiving AI-generated answers about campaigns through ambient AI exposure, and that a significant trust gap exists around campaign AI use. Separately, Fortune's report on $137 million in AI ad spending adds a new disclosure-gap finding (over 70% of AI campaign videos lacked any AI disclaimer) to figures already in circulation from the Wesleyan Media Project. An OregonLive retraction of the Nafisa Fai deepfake story is a material new development on an item already published.",
+      "item_count": 4,
+      "items": [
+        {
+          "id": "47642577f3c81191",
+          "title": "Voters Are Already Getting AI Answers About Your Campaign. They Just Don't Know It.",
+          "url": "https://campaigntrend.com/voters-are-already-getting-ai-answers-about-your-campaign",
+          "source": "Campaign Trend",
+          "source_domain": "campaigntrend.com",
+          "published": "2026-10-21",
+          "first_seen_run": "2026-10-21",
+          "category": "deployments_studies",
+          "summary": "A new AAPC Foundation national survey of likely voters, discussed by Tarrance Group pollster B.J. Martino, finds that voters are already encountering AI-generated answers about campaigns through ambient AI tool use \u2014 often without knowing it \u2014 and that significant voter distrust and hard limits around campaign AI use are emerging from the data.",
+          "why_it_matters": "This is one of the first national surveys directly measuring voter awareness and attitudes toward AI in campaign contexts, giving practitioners concrete benchmark data on where the public draws lines.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaign-trend",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "d34cd54ac12e5058",
+          "title": "U . S . candidates have gone from spending nearly zero to $137 million on AI ads in one election cycle",
+          "url": "https://fortune.com/2026/10/21/political-campaigns-ai-advertisement-spending-137-million-republicans-misinformation",
+          "source": "fortune.com",
+          "source_domain": "fortune.com",
+          "published": "2026-10-21",
+          "first_seen_run": "2026-10-21",
+          "category": "deployments_studies",
+          "summary": "Fortune reports that U.S. political advertisers went from near-zero to $137 million in AI-generated ad spending in a single election cycle, and adds a new detail not previously highlighted: more than 70% of AI campaign videos carried no disclaimer or disclosure that AI was used in their production.",
+          "why_it_matters": "The disclosure gap figure is a concrete, actionable data point beyond the spending totals already reported, highlighting compliance risk and transparency norms for campaigns using AI creative tools.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "14112b1fba2bdd85",
+          "title": "Oregon outlet retracts story calling viral video of local candidate a deepfake",
+          "url": "https://oregonlive.com/washingtoncounty/2026/10/oregon-democrats-decried-a-deepfake-then-the-evidence-fell-apart.html",
+          "source": "oregonlive.com",
+          "source_domain": "oregonlive.com",
+          "published": "2026-10-21",
+          "first_seen_run": "2026-10-21",
+          "category": "deepfakes",
+          "summary": "OregonLive reports that an Oregon outlet retracted its story labeling a viral video of Washington County candidate Nafisa Fai a deepfake after the evidence supporting that characterization fell apart, with Oregon Democrats having already publicly condemned the video.",
+          "why_it_matters": "The retraction illustrates the evidentiary difficulty of definitively attributing synthetic-media manipulation during a live campaign, and the reputational and political consequences of premature deepfake claims.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "12e216c24c56bfc4",
+          "title": "Candidates campaign for AI attention",
+          "url": "https://marketplace.org/story/2026/10/19/candidates-campaign-for-ai-attention",
+          "source": "marketplace.org",
+          "source_domain": "marketplace.org",
+          "published": "2026-10-19",
+          "first_seen_run": "2026-10-21",
+          "category": "deployments_studies",
+          "summary": "Marketplace reports on candidates actively shaping how their campaigns appear in AI-generated answers, treating AI search and answer tools as a new channel that campaigns need to optimize for alongside traditional digital outreach.",
+          "why_it_matters": "Campaigns managing their presence in AI-generated information environments represents a new category of digital strategy with no established playbook, signaling an emerging practitioner need.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-10-20",
       "date": "2026-10-20",
@@ -1324,52 +1408,6 @@
       "top_summary": "",
       "item_count": 0,
       "items": []
-    },
-    {
-      "run_id": "2026-09-02",
-      "date": "2026-09-02",
-      "generated_at": "2026-09-02T16:19:46Z",
-      "is_light_run": false,
-      "top_summary": "A pro-Paramount advocacy group is using AI tools to generate constituent pressure on California Attorney General Rob Bonta, illustrating how AI-powered grassroots simulation is entering issue-advocacy campaigns. Separately, a Semafor investigation exposes a network of 'ghost creator' operations using paid actors and AI-written scripts to produce partisan political video content at scale, reaching millions of viewers. These two items represent the clearest on-topic developments this cycle for practitioners tracking AI as a campaign and advocacy instrument.",
-      "item_count": 2,
-      "items": [
-        {
-          "id": "1ed8915521bf7d19",
-          "title": "Pro - Paramount Group Uses AI to Pressure Bonta to Drop Antitrust Case",
-          "url": "https://variety.com/2026/film/news/paramount-rob-bonta-artificial-intelligence-influent-ai-1236846315",
-          "source": "variety.com",
-          "source_domain": "variety.com",
-          "published": "2026-09-01",
-          "first_seen_run": "2026-09-02",
-          "category": "deployments_studies",
-          "summary": "An advocacy group called Neighbors for Strong Communities, which supports the Paramount-Warner Bros. merger, is using an AI platform called Influent AI to help people generate and send personalized messages urging California Attorney General Rob Bonta to drop his antitrust lawsuit against the deal.",
-          "why_it_matters": "Demonstrates AI-assisted constituent-contact tools moving into corporate issue-advocacy campaigns, lowering the barrier to synthetic grassroots pressure on elected officials.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "gdelt",
-            "confidence": "low"
-          }
-        },
-        {
-          "id": "626250e9afb3fee6",
-          "title": "Paid actors, AI writing: How a new kind of video business cashed in on America's divided politics",
-          "url": "https://semafor.com/article/09/02/2026/paid-actors-ai-writing-how-a-new-kind-of-video-business-cashed-in-on-americas-divided-politics",
-          "source": "Semafor",
-          "source_domain": "semafor.com",
-          "published": "2026-09-02",
-          "first_seen_run": "2026-09-02",
-          "category": "analysis_oped",
-          "summary": "Semafor reports that 'ghost creator' networks are producing large volumes of nearly identical partisan political videos using paid actors and AI-written scripts, reaching millions of viewers with sensationalized content targeting Democrats.",
-          "why_it_matters": "Reveals an emerging commercial model that uses AI content generation to industrialize political persuasion video at scale outside traditional campaign structures.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "site:semafor",
-            "confidence": "medium"
-          }
-        }
-      ]
     }
   ]
 }
