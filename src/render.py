@@ -55,6 +55,10 @@ def build_run(run_id: str, run_date, candidates_by_url: dict, curated: dict):
         "is_light_run": is_light_run,
         "top_summary": top_summary,
         "item_count": len(items),
+        # Everything that reached the curator after dedup, published or not —
+        # lets an empty run say "N reviewed, none qualified" rather than look
+        # like a run that never happened.
+        "candidates_reviewed": len(candidates_by_url),
         "items": items,
     }
 
@@ -198,6 +202,13 @@ def merge_same_day_runs(earlier: dict, later: dict) -> dict:
     merged["is_light_run"] = not items
     summaries = [s for s in (earlier.get("top_summary"), later.get("top_summary")) if s]
     merged["top_summary"] = " ".join(summaries)
+    # Hand-added runs (submit.py) and runs from before this field existed have
+    # no count; sum whatever the two sides recorded.
+    counts = [r["candidates_reviewed"] for r in (earlier, later) if r.get("candidates_reviewed") is not None]
+    if counts:
+        merged["candidates_reviewed"] = sum(counts)
+    else:
+        merged.pop("candidates_reviewed", None)
     return merged
 
 

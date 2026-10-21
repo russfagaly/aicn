@@ -15,3 +15,7 @@ Default label vocabulary — `needs-triage`, `needs-info`, `ready-for-agent`, `r
 ### Domain docs
 
 Single-context: one `CONTEXT.md` + `docs/adr/` at the repo root. See `docs/agents/domain.md`.
+
+## Tests
+
+`pip install -r requirements-dev.txt && python -m pytest -q tests` — unit tests for dedupe, the age floor, rendering/archive and proposals. No network or API key needed. They run on every PR (`.github/workflows/tests.yml`).

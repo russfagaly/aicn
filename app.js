@@ -172,7 +172,13 @@
     // can never contradict each other, and only render the summary paragraph
     // when there's something in it — an empty one left 21px of dead space.
     if (!runItems.length) {
-      html += '<p style="margin:0 0 12px; font-size:13px; color:#8a7330; background:#f4efe2; border:1px solid #e8dec5; padding:8px 12px; border-radius:6px; display:inline-block;">No new on-topic items surfaced in this run.</p>';
+      // Say how much was looked at, so a quiet day reads as "checked, nothing
+      // qualified" rather than "did it run?". Older runs have no count.
+      var reviewed = run.candidates_reviewed;
+      var emptyNote = typeof reviewed === 'number'
+        ? 'No qualifying items in this run · ' + reviewed + (reviewed === 1 ? ' candidate' : ' candidates') + ' reviewed.'
+        : 'No new on-topic items surfaced in this run.';
+      html += '<p style="margin:0 0 12px; font-size:13px; color:#8a7330; background:#f4efe2; border:1px solid #e8dec5; padding:8px 12px; border-radius:6px; display:inline-block;">' + esc(emptyNote) + '</p>';
     }
     if (run.top_summary) {
       html += '<p style="margin:0; font-family:\'Source Serif 4\',serif; font-size:21px; line-height:1.5; color:#2c3340;">' + esc(run.top_summary) + '</p>';
