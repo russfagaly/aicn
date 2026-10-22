@@ -1,7 +1,36 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T16:54:54Z",
+  "generated_at": "2026-10-22T16:53:57Z",
   "runs": [
+    {
+      "run_id": "2026-10-22",
+      "date": "2026-10-22",
+      "generated_at": "2026-10-22T16:53:57Z",
+      "is_light_run": false,
+      "top_summary": "An AP story picked up by regional outlets describes how campaigns are deploying AI for hyper-personalized voter messaging and targeting, adding concrete detail on techniques and vendors to what has been a busy week of AI-in-campaigns coverage. The rest of the candidate batch is entirely off-topic \u2014 general politics, sports, and local news with no AI-campaign nexus.",
+      "item_count": 1,
+      "candidates_reviewed": 45,
+      "items": [
+        {
+          "id": "20dbf5f84a7687ee",
+          "title": "AI is changing what political campaigns say, and who gets to hear it",
+          "url": "https://tribunecontentagency.com/",
+          "source": "Hastings Tribune",
+          "source_domain": "tribunecontentagency.com",
+          "published": "2026-10-18",
+          "first_seen_run": "2026-10-22",
+          "category": "deployments_studies",
+          "summary": "An AP report, syndicated from Minneapolis, examines how political campaigns are using AI to tailor messaging at the individual voter level \u2014 analyzing consumer data such as vehicle ownership, shopping habits, and homeownership to personalize outreach at scale in ways previously unavailable to most campaigns.",
+          "why_it_matters": "Provides concrete, practitioner-level detail on how AI-driven micro-targeting is being operationalized in the current cycle, moving beyond aggregate spending figures to describe the actual technique.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:l2",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-10-21",
       "date": "2026-10-21",
@@ -1395,15 +1424,6 @@
       "run_id": "2026-09-04",
       "date": "2026-09-04",
       "generated_at": "2026-09-04T16:31:25Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
-    },
-    {
-      "run_id": "2026-09-03",
-      "date": "2026-09-03",
-      "generated_at": "2026-09-03T16:36:20Z",
       "is_light_run": true,
       "top_summary": "",
       "item_count": 0,

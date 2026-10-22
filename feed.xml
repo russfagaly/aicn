@@ -5,7 +5,14 @@
     <link>https://russfagaly.github.io/aicn/</link>
     <atom:link href="https://russfagaly.github.io/aicn/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Wed, 21 Oct 2026 18:46:46 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 16:53:57 GMT</lastBuildDate>
+    <item>
+      <title>AI is changing what political campaigns say, and who gets to hear it</title>
+      <link>https://tribunecontentagency.com/</link>
+      <guid isPermaLink="false">20dbf5f84a7687ee</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <description>An AP report, syndicated from Minneapolis, examines how political campaigns are using AI to tailor messaging at the individual voter level — analyzing consumer data such as vehicle ownership, shopping habits, and homeownership to personalize outreach at scale in ways previously unavailable to most campaigns.</description>
+    </item>
     <item>
       <title>Voters Are Already Getting AI Answers About Your Campaign. They Just Don't Know It.</title>
       <link>https://campaigntrend.com/voters-are-already-getting-ai-answers-about-your-campaign</link>
@@ -208,13 +215,6 @@
       <guid isPermaLink="false">585653c1557973e5</guid>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
       <description>Katie Harbath, a veteran of Facebook's policy work, argues that the campaign and political ecosystem cannot simply replicate the social media governance playbook for AI and must apply lessons learned to build new safeguards proactively.</description>
-    </item>
-    <item>
-      <title>Van Orden Hit With Cease-and-Desist Letter Over AI Deepfake Videos</title>
-      <link>https://washingtonsun.com/campaigns/van-orden-hit-with-cease-and-desist-letter-over-ai-deepfake-videos</link>
-      <guid isPermaLink="false">0c9560c45f308bf1</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Attorneys for Democratic congressional candidate Rebecca Cooke sent Rep. Derrick Van Orden's campaign a cease-and-desist letter, alleging the Wisconsin Republican's campaign used AI-generated deepfake videos to falsely attribute statements to Cooke.</description>
     </item>
   </channel>
 </rss>
