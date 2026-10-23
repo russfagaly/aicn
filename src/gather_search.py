@@ -67,6 +67,9 @@ incident is OUT when the story is the reaction to it — a lawsuit, a candidate
 objecting, a regulator responding — and IN only when it tells you how the thing was
 made, targeted, funded, or how it performed.
 
+Never return a company's own homepage, product, pricing or services page — that is
+marketing, not news. A vendor's dated announcement of something new is fine.
+
 Also exclude generic AI-industry news with no campaign nexus, and vague hype with no
 concrete development.
 

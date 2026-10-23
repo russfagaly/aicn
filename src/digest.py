@@ -145,6 +145,25 @@ def build_avoid_titles(memory: dict, recent_published: list, limit: int) -> list
     return out
 
 
+def drop_homepages(candidates: list):
+    """Remove candidates whose URL is just a site's front page.
+
+    A homepage is never an article. Entity search for a tracked vendor can come
+    back with the vendor's own site — The Political Group's homepage was
+    published on 2026-10-20 as if it were news. Returns (kept, dropped titles).
+    """
+    kept, dropped = [], []
+    for c in candidates:
+        parts = urllib.parse.urlsplit(c.get("url", ""))
+        # A query can be the article itself (WordPress "/?p=123"), so only a
+        # bare front page counts.
+        if parts.path.strip("/") in ("", "index.html", "index.php", "home") and not parts.query:
+            dropped.append(c.get("title", ""))
+        else:
+            kept.append(c)
+    return kept, dropped
+
+
 def drop_stale_candidates(candidates: list, today, max_age_days: int):
     """Remove candidates that are older than the age floor or carry no usable date.
 
@@ -247,6 +266,9 @@ def main():
 
     # Age floor before anything expensive: dropping here saves both the page-metadata
     # fetches below and the curation tokens each candidate would cost.
+    candidates, homepages = drop_homepages(candidates)
+    if homepages:
+        print(f"Dropped {len(homepages)} homepage URL(s): {', '.join(t[:40] for t in homepages)}", file=sys.stderr)
     candidates, stale = drop_stale_candidates(candidates, run_date, MAX_CANDIDATE_AGE_DAYS)
     if stale:
         print(f"Dropped {len(stale)} stale candidate(s) (>{MAX_CANDIDATE_AGE_DAYS}d or undated):", file=sys.stderr)

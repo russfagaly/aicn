@@ -25,3 +25,18 @@ def test_build_avoid_titles_newest_first_deduped_and_capped():
     published = [{"title": "Published one"}, {"title": "NEWEST"}]
     assert build_avoid_titles(memory, published, limit=10) == ["Newest", "older", "Published one"]
     assert build_avoid_titles(memory, published, limit=2) == ["Newest", "older"]
+
+
+def test_drop_homepages_removes_front_pages_only():
+    from digest import drop_homepages
+
+    cands = [
+        {"title": "home", "url": "https://thepoliticalgroup.com/"},
+        {"title": "bare", "url": "https://example.com"},
+        {"title": "index", "url": "https://example.com/index.html"},
+        {"title": "article", "url": "https://example.com/news/ai-launch"},
+        {"title": "query", "url": "https://example.com/?p=123"},
+    ]
+    kept, dropped = drop_homepages(cands)
+    assert [c["title"] for c in kept] == ["article", "query"]  # /?p=123 is a WordPress post
+    assert set(dropped) == {"home", "bare", "index"}

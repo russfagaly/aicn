@@ -67,6 +67,10 @@ do the following:
      the researcher's instrument, not campaign infrastructure. This is an easy one
      to get wrong, because the AI is genuinely central to the story.
    - Platform moderation policy and content-rule changes.
+   - A company's own homepage, product page, pricing page or services page. That
+     is marketing, not news, even when it describes an AI tool built for
+     campaigns. Include a vendor only through reporting about it, or its own
+     dated announcement of something new (a launch, a partnership, funding).
    - A synthetic-media incident where the story IS the reaction — a lawsuit, a
      candidate objecting, a regulator responding. Include such an item only when it
      reports how the thing was made, targeted, funded, or how it performed.
