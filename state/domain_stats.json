@@ -42,11 +42,12 @@
     "last_seen": "2026-09-19"
   },
   "bloomberg.com": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
-      "https://bloomberg.com/graphics/2026-opinion-ai-campaign-ads-need-more-safeguards"
+      "https://bloomberg.com/graphics/2026-opinion-ai-campaign-ads-need-more-safeguards",
+      "https://bloomberg.com/news/articles/2026-10-22/uk-politicians-are-testing-their-messages-on-ai-generated-focus-groups"
     ],
-    "last_seen": "2026-09-14"
+    "last_seen": "2026-10-23"
   },
   "businessinsider.com": {
     "count": 1,

@@ -5,7 +5,21 @@
     <link>https://russfagaly.github.io/aicn/</link>
     <atom:link href="https://russfagaly.github.io/aicn/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Fri, 23 Oct 2026 15:46:07 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 16:46:56 GMT</lastBuildDate>
+    <item>
+      <title>Exclusive: Democratic AI PAC takes its fight to Senate Republicans</title>
+      <link>https://semafor.com/article/10/23/2026/democratic-ai-pac-takes-its-fight-to-senate-republicans</link>
+      <guid isPermaLink="false">0a45f2cde3dafd48</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Tomorrow Together, a Democratic PAC advocating for AI regulation, is spending $2.5 million on ads targeting Republican Senators Jon Husted in Ohio and Roger Marshall in Kansas, expanding its campaign beyond House races into competitive Senate contests.</description>
+    </item>
+    <item>
+      <title>UK Politicians Are Testing Their Messages on AI-Generated Focus Groups</title>
+      <link>https://bloomberg.com/news/articles/2026-10-22/uk-politicians-are-testing-their-messages-on-ai-generated-focus-groups</link>
+      <guid isPermaLink="false">ca5bb5ebb845d1ef</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+      <description>UK politicians are using AI-generated focus groups — synthetic respondents — to pre-test campaign messaging before deploying it to real audiences, according to Bloomberg reporting.</description>
+    </item>
     <item>
       <title>The next election influence campaign will target your AI chatbot</title>
       <link>https://cyberscoop.com/ai-chatbots-election-influence-hyperlocal-networks</link>
@@ -201,20 +215,6 @@
       <guid isPermaLink="false">585653c1557973e5</guid>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
       <description>Katie Harbath, a veteran of Facebook's policy work, argues that the campaign and political ecosystem cannot simply replicate the social media governance playbook for AI and must apply lessons learned to build new safeguards proactively.</description>
-    </item>
-    <item>
-      <title>Van Orden Hit With Cease-and-Desist Letter Over AI Deepfake Videos</title>
-      <link>https://washingtonsun.com/campaigns/van-orden-hit-with-cease-and-desist-letter-over-ai-deepfake-videos</link>
-      <guid isPermaLink="false">0c9560c45f308bf1</guid>
-      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Attorneys for Democratic congressional candidate Rebecca Cooke sent Rep. Derrick Van Orden's campaign a cease-and-desist letter, alleging the Wisconsin Republican's campaign used AI-generated deepfake videos to falsely attribute statements to Cooke.</description>
-    </item>
-    <item>
-      <title>Q&amp;A: How Big Tech Forever Changed the Campaign World</title>
-      <link>https://campaignsandelections.com/industry-news/qa-how-big-tech-forever-changed-the-campaign-world</link>
-      <guid isPermaLink="false">9e2d25de8054b272</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Campaigns &amp; Elections features a Q&amp;A with Katie Harbath, a longtime tech-politics veteran, who reflects on how campaigns misjudged social media's early potential and what the AI era now means for political campaigning.</description>
     </item>
   </channel>
 </rss>

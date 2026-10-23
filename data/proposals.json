@@ -1158,6 +1158,31 @@
       ],
       "first_proposed": "2026-10-21",
       "status": "pending"
+    },
+    {
+      "id": "prop-source-bloomberg-com",
+      "kind": "source",
+      "value": "bloomberg.com",
+      "feed_url": null,
+      "rationale": "Produced 2 published item(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://bloomberg.com/graphics/2026-opinion-ai-campaign-ads-need-more-safeguards",
+        "https://bloomberg.com/news/articles/2026-10-22/uk-politicians-are-testing-their-messages-on-ai-generated-focus-groups"
+      ],
+      "first_proposed": "2026-10-23",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-tomorrow-together",
+      "kind": "watchlist_entity",
+      "value": "Tomorrow Together",
+      "feed_url": null,
+      "rationale": "A Democratic PAC specifically organized around AI regulation advocacy that is now an active electoral spender in Senate races — niche enough to track as a distinct actor in the AI-campaign space.",
+      "example_urls": [
+        "https://www.semafor.com/article/10/23/2026/democratic-ai-pac-takes-its-fight-to-senate-republicans"
+      ],
+      "first_proposed": "2026-10-23",
+      "status": "pending"
     }
   ]
 }

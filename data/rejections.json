@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "keep_days": 30,
+  "rejections": [
+    {
+      "run_id": "2026-10-23",
+      "reason": "not_practical",
+      "title": "Experts: AI generating more than political ads this election season",
+      "url": "https://spectrumlocalnews.com/nys/central-ny/politics/2026/10/21/ai-in-political-campaigns",
+      "source": "Spectrum Local News",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "not_political",
+      "title": "White House: The First Lady Brokered a Temporary Ceasefire for a Besieged Ukrainian City",
+      "url": "https://washingtonsun.com/whitehouse/first-lady-brokered-temporary-ceasefire-ukrainian-city",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "not_political",
+      "title": "Veterans Ask Judge to Block Construction of Trump’s Triumphal Arch",
+      "url": "https://washingtonsun.com/metro/veterans-preliminary-injunction-block-triumphal-arch",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "not_political",
+      "title": "Trump must sit for a deposition in his BBC defamation lawsuit, judge rules",
+      "url": "https://npr.org/2026/10/23/nx-s1-6012695/trump-must-sit-for-a-deposition-in-his-bbc-defamation-lawsuit-judge-rules",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "not_political",
+      "title": "Trayon White’s Lawyer Says the Government Is Targeting Him Based on Race",
+      "url": "https://washingtonsun.com/metro/dc/trayon-white-retrial-jeanine-pirro",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "not_political",
+      "title": "This Brewers-Rays World Series Is the Brainiac Classic",
+      "url": "https://washingtonsun.com/sports/thomas-boswell-brewers-rays-world-series",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "not_political",
+      "title": "The Washington Sun Metro: Retrying Times",
+      "url": "https://washingtonsun.com/metro-newsletter/retrying-times-10-23-2026",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "not_political",
+      "title": "State Department Recalls Diplomatic Staff in Saudi Arabia",
+      "url": "https://washingtonsun.com/foreign-policy/state-department-recalls-diplomatic-staff-saudi-arabia",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "not_political",
+      "title": "Ruptured Gas Line Prompts Power Outages Around Metro Center",
+      "url": "https://washingtonsun.com/metro/dc-penn-quarter-gas-leak-hotel-harrington",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "not_political",
+      "title": "Morning Sun: Press-ure",
+      "url": "https://washingtonsun.com/newsletters/press-ure",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "not_political",
+      "title": "ICE Extends Contract for Company After Delayed Detainee Medical Payments",
+      "url": "https://washingtonsun.com/immigration/ice-extends-medical-payments",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "not_political",
+      "title": "Hegseth Issues Directive to Stop Soldiers From Betting on Prediction Markets",
+      "url": "https://washingtonsun.com/defense/pete-hegseth-directive-soldiers-betting-prediction-markets-kalshi-polymarket-wager",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "not_political",
+      "title": "Feds Stop Evidence Sharing in Good and Pretti Killings: Minnesota Officials",
+      "url": "https://washingtonsun.com/legal/feds-stop-evidence-sharing-renee-good-alex-pretti-killings-minnesota",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "not_political",
+      "title": "Ex-FBI employees charged with lying to Congress over Hunter Biden inquiries",
+      "url": "https://npr.org/2026/10/23/g-s1-149534/justice-fbi-charged-hunter-biden-laptop",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "not_political",
+      "title": "DOJ Investigating Corey Lewandowski Over Alleged Contract Misconduct At DHS: Reports",
+      "url": "https://washingtonsun.com/legal/corey-lewandowski-dhs-doj-investigation",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "not_political",
+      "title": "At an Elite Magnet School, Coach and Football Program Are a Perfect Match",
+      "url": "https://washingtonsun.com/sports/all-dmv/virginia-high-school-football-female-coach",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "not_political",
+      "title": "Afternoon Sun: ‘Hitting Pay Dirt’",
+      "url": "https://washingtonsun.com/afternoon-sun-newsletter/hitting-pay-dirt-10-22-2026",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "not_political",
+      "title": "A New Lease on Life for D.C.’s Vacant Offices",
+      "url": "https://washingtonsun.com/metro/dc-housing-office-space",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "‘It’s Misinformation’: Another Fake Pollster Riles the Political World",
+      "url": "https://campaignsandelections.com/industry-news/its-misinformation-another-fake-pollster-riles-the-political-world",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "What's behind the early voting surge? It's more than voter enthusiasm, expert says",
+      "url": "https://npr.org/2026/10/23/nx-s1-6012308/midterm-elections-early-voting-data",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "Trump’s Battle With the Media Ramps Up",
+      "url": "https://washingtonsun.com/whitehouse/trump-battle-with-media",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "Trump-Linked Crypto Company Accused of ‘Public Corruption’ in New Lawsuit",
+      "url": "https://washingtonsun.com/influence/trump-crypto-company-world-liberty-financial-public-corruption-lawsuit",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "Trump's midterm campaign tour stops in Iowa",
+      "url": "https://npr.org/2026/10/23/nx-s1-6009838/trumps-midterm-campaign-tour-stops-in-iowa",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "Trump's attacks on the press have become a war",
+      "url": "https://npr.org/2026/10/22/nx-s1-6012340/trumps-attacks-on-the-press-have-become-a-war",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "Trump Enthusiastically Endorses Ramaswamy’s Controversial Attack Ad",
+      "url": "https://washingtonsun.com/campaigns/trump-endorses-vivek-ramaswamy-controversial-attack-ad-amy-acton-mother-donna-arthur",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "Trump Administration Lays Out a Path to Challenge Alaska’s Senate Results",
+      "url": "https://washingtonsun.com/legal/trump-administration-challenge-alaska-senate-results-dan-sullivan-midterms-2026-election",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "Texas District Attorney Launches Investigation Into Potentially Fraudulent Mailers",
+      "url": "https://washingtonsun.com/campaigns/texas-district-attorney-investigation-trans-mailers",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "Supreme Court Rules New Hampshire Can Limit Student ID Use for Voting",
+      "url": "https://washingtonsun.com/legal/supreme-court-rules-new-hampshire-can-limit-student-id-use-for-voting",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "Pete Buttigieg Is Staging an Aggressive Final Midterms Sprint",
+      "url": "https://washingtonsun.com/campaigns/pete-buttigieg-midterms-campaign",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "Military reinforcements move to Mideast. And, millions of Americans vote early",
+      "url": "https://npr.org/2026/10/23/g-s1-149514/up-first-newsletter-iran-war-midterm-voting-trump-bbc",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "In Ohio, Brown and Kaptur Supporters Want ‘Fighting Blood,’ Not ‘New Blood’",
+      "url": "https://washingtonsun.com/campaigns/in-ohio-brown-and-kaptur-supporters-want-fighting-blood-not-new-blood",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "Ilhan Omar’s Campaign Raised $1.9 Million in the First Two Weeks of October",
+      "url": "https://washingtonsun.com/influence/ilhan-omar-fundraise-million-campaign-federal-raid",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "How Independent Are This Year’s Independent Candidates?",
+      "url": "https://washingtonsun.com/campaigns/independent-candidates-alaska-nebraska-congress",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "Gen Z is 'in the thick' of high housing costs. These candidates aim to solve it",
+      "url": "https://npr.org/2026/10/23/nx-s1-5983813/gen-z-candidates-midterms-housing-affordability",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "Federal judge restricts DHS field operations looking for noncitizen voters",
+      "url": "https://npr.org/2026/10/22/nx-s1-6012682/judge-dhs-noncitizen-voting-operations",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "Elon Musk Just Dumped Another $76 Million Into the Midterms",
+      "url": "https://wired.com/story/elon-musk-just-dumped-another-dollar76-million-into-the-midterms",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "Democrats Warn the Economy — Not Impeachment — Should Drive Agenda",
+      "url": "https://washingtonsun.com/campaigns/democrats-midterms-affordability-anti-corruption-agenda",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "Democrats Are Losing Trust in Mail-In Ballots",
+      "url": "https://washingtonsun.com/campaigns/democratic-voters-lose-trust-mail-in-ballots-usps",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "no_ai",
+      "title": "Democrats Aim to Build Red State Momentum With an Epstein Ad Blitz",
+      "url": "https://washingtonsun.com/campaigns/democrats-red-state-momentum-jeffrey-epstein-ad-blitz",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-23",
+      "reason": "already_covered",
+      "title": "AI Ads Flood The Midterms",
+      "url": "https://campaigntrend.com/ai-ads-flood-the-midterms",
+      "source": "Campaign Trend",
+      "discovery": "feed"
+    }
+  ]
+}

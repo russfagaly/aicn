@@ -1,15 +1,60 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T16:53:57Z",
+  "generated_at": "2026-10-23T16:46:56Z",
   "runs": [
     {
       "run_id": "2026-10-23",
       "date": "2026-10-23",
-      "generated_at": "2026-10-23T15:46:07Z",
+      "generated_at": "2026-10-23T16:46:56Z",
       "is_light_run": false,
-      "top_summary": "",
-      "item_count": 1,
+      "top_summary": "A Democratic PAC focused on AI regulation is spending $2.5 million in Senate races against Republican incumbents in Ohio and Kansas, marking a notable intersection of AI policy advocacy and electoral campaigning. UK politicians are using AI-generated focus groups to test messages before committing to real audiences, a concrete adoption of synthetic-respondent methodology in live campaign work. A Campaign Trend item on AI ads flooding the midterms appears to be continued coverage of the $137 million AI ad story already published.",
+      "item_count": 3,
+      "candidates_reviewed": 42,
+      "rejection_counts": {
+        "already_covered": 1,
+        "no_ai": 21,
+        "not_political": 17,
+        "not_practical": 1
+      },
       "items": [
+        {
+          "id": "0a45f2cde3dafd48",
+          "title": "Exclusive: Democratic AI PAC takes its fight to Senate Republicans",
+          "url": "https://semafor.com/article/10/23/2026/democratic-ai-pac-takes-its-fight-to-senate-republicans",
+          "source": "Semafor",
+          "source_domain": "semafor.com",
+          "published": "2026-10-23",
+          "first_seen_run": "2026-10-23",
+          "category": "deployments_studies",
+          "summary": "Tomorrow Together, a Democratic PAC advocating for AI regulation, is spending $2.5 million on ads targeting Republican Senators Jon Husted in Ohio and Roger Marshall in Kansas, expanding its campaign beyond House races into competitive Senate contests.",
+          "why_it_matters": "A PAC explicitly organized around AI policy is now a meaningful spender in Senate races, demonstrating how AI regulation has become a direct electoral issue with real ad dollars attached.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:semafor",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "ca5bb5ebb845d1ef",
+          "title": "UK Politicians Are Testing Their Messages on AI-Generated Focus Groups",
+          "url": "https://bloomberg.com/news/articles/2026-10-22/uk-politicians-are-testing-their-messages-on-ai-generated-focus-groups",
+          "source": "Bloomberg",
+          "source_domain": "bloomberg.com",
+          "published": "2026-10-22",
+          "first_seen_run": "2026-10-23",
+          "category": "polling_synthetic",
+          "summary": "UK politicians are using AI-generated focus groups \u2014 synthetic respondents \u2014 to pre-test campaign messaging before deploying it to real audiences, according to Bloomberg reporting.",
+          "why_it_matters": "Adoption of synthetic focus groups by live political campaigns in the UK offers a concrete case study of silicon sampling moving from vendor pitch to actual campaign practice.",
+          "flags": [
+            "paywalled"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:electric-twin",
+            "confidence": "medium"
+          }
+        },
         {
           "id": "504565299528d20e",
           "title": "The next election influence campaign will target your AI chatbot",
