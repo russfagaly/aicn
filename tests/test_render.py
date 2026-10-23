@@ -120,10 +120,11 @@ def candidates(*ids):
     }
 
 
-def curated(*urls):
+def curated(*urls, rejected=()):
     return {
         "is_light_run": not urls, "top_summary": "s" if urls else "",
         "items": [{"url": u, "category": "deepfakes", "summary": "s", "why_it_matters": "w", "flags": []} for u in urls],
+        "rejected": [{"url": u, "reason": r} for u, r in rejected],
     }
 
 
@@ -150,3 +151,50 @@ def test_write_outputs_dry_run_leaves_real_files_alone(root):
     assert os.path.exists(os.path.join(root, "data", "dryrun_digests.json"))
     for real in (("data", "digests.json"), ("data", "meta.json"), ("state", "seen.json"), ("feed.xml",)):
         assert not os.path.exists(os.path.join(root, *real)), real
+
+
+# --- rejections ------------------------------------------------------------
+
+def test_build_run_counts_reasons_and_unclassified():
+    run_ = render.build_run(
+        "2026-10-22", datetime.date(2026, 10, 22), candidates(1, 2, 3, 4, 5),
+        curated("u1", rejected=[("u2", "no_ai"), ("u3", "no_ai"), ("u4", "wrong_actor")]),
+    )
+    assert run_["candidates_reviewed"] == 5
+    assert run_["rejection_counts"] == {"no_ai": 2, "unclassified": 1, "wrong_actor": 1}
+
+
+def test_merge_same_day_runs_sums_reason_counts():
+    merged = render.merge_same_day_runs(
+        run("d", rejection_counts={"no_ai": 2}), run("d", rejection_counts={"no_ai": 1, "duplicate": 3})
+    )
+    assert merged["rejection_counts"] == {"duplicate": 3, "no_ai": 3}
+    assert "rejection_counts" not in render.merge_same_day_runs(run("d"), run("d"))
+
+
+def test_write_rejections_keeps_30_days_and_skips_repeats(root):
+    path = os.path.join(root, "data", "rejections.json")
+    with open(path, "w") as f:
+        json.dump({"rejections": [
+            {"run_id": "2026-09-01", "url": "old", "reason": "no_ai", "title": "Old"},
+            {"run_id": "2026-10-10", "url": "https://e.com/9", "reason": "duplicate", "title": "Kept"},
+        ]}, f)
+    cands = candidates(1, 2)
+    cur = curated(rejected=[("u1", "wrong_actor"), ("u2", "no_ai"), ("nope", "no_ai")])
+    assert render.write_rejections(root, "2026-10-22", cands, cur) == 2
+    assert render.write_rejections(root, "2026-10-22", cands, cur) == 0  # same day rerun: no repeats
+    rows = read(root, "data", "rejections.json")["rejections"]
+    assert [(r["run_id"], r["url"], r["reason"]) for r in rows] == [
+        ("2026-10-22", "https://e.com/1", "wrong_actor"),
+        ("2026-10-22", "https://e.com/2", "no_ai"),
+        ("2026-10-10", "https://e.com/9", "duplicate"),
+    ]
+    assert rows[0]["title"] == "Title 1"
+
+
+def test_write_outputs_records_rejections_only_for_real_runs(root):
+    day = datetime.date(2026, 10, 22)
+    render.write_outputs(root, "2026-10-22", day, candidates(1, 2), curated("u1", rejected=[("u2", "no_ai")]), dry_run=True)
+    assert not os.path.exists(os.path.join(root, "data", "rejections.json"))
+    render.write_outputs(root, "2026-10-22", day, candidates(1, 2), curated("u1", rejected=[("u2", "no_ai")]), dry_run=False)
+    assert [r["reason"] for r in read(root, "data", "rejections.json")["rejections"]] == ["no_ai"]

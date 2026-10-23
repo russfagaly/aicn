@@ -23,6 +23,13 @@
     vendor_self_reported: 'self-reported', contested: 'contested',
     speculative: 'speculative', paywalled: 'paywalled'
   };
+  // Why the curator turned candidates down (run.rejection_counts).
+  var REJECTION_LABEL = {
+    wrong_actor: 'not a campaign\u2019s use of AI', no_ai: 'no AI angle',
+    not_practical: 'nothing actionable', not_political: 'not political',
+    already_covered: 'already covered', duplicate: 'duplicate coverage',
+    unclassified: 'unclassified'
+  };
   var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
   var state = { loading: true, error: '', items: [], latestRun: null, meta: null, query: '', activeCategory: 'all', page: 1 };
@@ -176,8 +183,14 @@
       // qualified" rather than "did it run?". Older runs have no count.
       var reviewed = run.candidates_reviewed;
       var emptyNote = typeof reviewed === 'number'
-        ? 'No qualifying items in this run · ' + reviewed + (reviewed === 1 ? ' candidate' : ' candidates') + ' reviewed.'
+        ? 'No qualifying items in this run · ' + reviewed + (reviewed === 1 ? ' candidate' : ' candidates') + ' reviewed'
         : 'No new on-topic items surfaced in this run.';
+      // Most common reason first, e.g. ": 14 not a campaign's use of AI, 9 no AI angle".
+      var reasons = Object.keys(run.rejection_counts || {})
+        .filter(function (k) { return run.rejection_counts[k] > 0; })
+        .sort(function (a, b) { return run.rejection_counts[b] - run.rejection_counts[a] || (a < b ? -1 : 1); })
+        .map(function (k) { return run.rejection_counts[k] + ' ' + (REJECTION_LABEL[k] || k.replace(/_/g, ' ')); });
+      if (typeof reviewed === 'number') emptyNote += reasons.length ? ': ' + reasons.join(', ') + '.' : '.';
       html += '<p style="margin:0 0 12px; font-size:13px; color:#8a7330; background:#f4efe2; border:1px solid #e8dec5; padding:8px 12px; border-radius:6px; display:inline-block;">' + esc(emptyNote) + '</p>';
     }
     if (run.top_summary) {
