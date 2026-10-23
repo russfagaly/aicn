@@ -5,7 +5,14 @@
     <link>https://russfagaly.github.io/aicn/</link>
     <atom:link href="https://russfagaly.github.io/aicn/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Thu, 22 Oct 2026 16:53:57 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 15:46:07 GMT</lastBuildDate>
+    <item>
+      <title>The next election influence campaign will target your AI chatbot</title>
+      <link>https://cyberscoop.com/ai-chatbots-election-influence-hyperlocal-networks</link>
+      <guid isPermaLink="false">504565299528d20e</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Israeli threat intelligence firm VisionHeight has identified a coordinated network of at least 460 pages across 37 websites in 14 states — including Arizona, Georgia, Michigan, Pennsylvania, and Wisconsin — publishing AI-optimized content designed to steer chatbot responses toward specific candidates in House races, Secretary of State contests, and local offices. The sites, with names like "Wolverine State Report" and "Peach State Bulletin," were configured to allow major AI crawlers to scrape them, and at least one — Tarheel State Report — was cited as a primary source by Perplexity; VisionHeight does not attribute the operation to a specific actor.</description>
+    </item>
     <item>
       <title>AI is changing what political campaigns say, and who gets to hear it</title>
       <link>https://tribunecontentagency.com/</link>
@@ -49,20 +56,6 @@
       <description>IBTimes reports that Republican-affiliated groups account for 88% of the $137 million spent on AI-generated political ads in the 2026 midterms, adding a partisan breakdown to the Wesleyan Media Project figures already in circulation.</description>
     </item>
     <item>
-      <title>Altered video of Washington County candidate goes viral nationwide</title>
-      <link>https://axios.com/local/portland/2026/10/20/nafisa-fai-fake-video-election</link>
-      <guid isPermaLink="false">b462a90b13941592</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-      <description>An altered video of Washington County, Oregon candidate Nafisa Fai spread virally across the country, according to Axios Portland.</description>
-    </item>
-    <item>
-      <title>The Political Group - AI Polling and Phone Banking Services for Campaigns</title>
-      <link>https://thepoliticalgroup.com/</link>
-      <guid isPermaLink="false">56a082ddde5ac001</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-      <description>The Political Group offers HyperPhonebank for live AI-assisted voter contact and HyperPulse for synthetic polling and AI-driven prediction, marketing both services to campaigns and citing 20-plus years of operation across more than 1,900 campaigns.</description>
-    </item>
-    <item>
       <title>AI Makes Everything Look the Same. Here’s How True Experts Stand Out</title>
       <link>https://campaignsandelections.com/voices/ai-makes-everything-look-the-same-heres-how-true-experts-stand-out</link>
       <guid isPermaLink="false">511c4141a5d2b2df</guid>
@@ -75,13 +68,6 @@
       <guid isPermaLink="false">a19e1a75fd1a7eda</guid>
       <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
       <description>The Star Tribune reports on how Minnesota political campaigns are deploying AI for voter targeting and other campaign functions in the 2026 midterm cycle, examining specific adoption patterns in a competitive battleground state.</description>
-    </item>
-    <item>
-      <title>Anthropic-backed group puts more toward Scott Wiener</title>
-      <link>https://punchbowl.news/article/tech/anthropic-scott-wiener</link>
-      <guid isPermaLink="false">008cd6d196d6d3bd</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Public First Action, a group backed by Anthropic, has added another $3 million in outside spending in support of California state Sen. Scott Wiener's congressional bid, bringing AI-industry-aligned money more explicitly into the race.</description>
     </item>
     <item>
       <title>Political Advertisers Have Spent At Least $137 Million on AI-Generated Ads</title>
@@ -215,6 +201,20 @@
       <guid isPermaLink="false">585653c1557973e5</guid>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
       <description>Katie Harbath, a veteran of Facebook's policy work, argues that the campaign and political ecosystem cannot simply replicate the social media governance playbook for AI and must apply lessons learned to build new safeguards proactively.</description>
+    </item>
+    <item>
+      <title>Van Orden Hit With Cease-and-Desist Letter Over AI Deepfake Videos</title>
+      <link>https://washingtonsun.com/campaigns/van-orden-hit-with-cease-and-desist-letter-over-ai-deepfake-videos</link>
+      <guid isPermaLink="false">0c9560c45f308bf1</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Attorneys for Democratic congressional candidate Rebecca Cooke sent Rep. Derrick Van Orden's campaign a cease-and-desist letter, alleging the Wisconsin Republican's campaign used AI-generated deepfake videos to falsely attribute statements to Cooke.</description>
+    </item>
+    <item>
+      <title>Q&amp;A: How Big Tech Forever Changed the Campaign World</title>
+      <link>https://campaignsandelections.com/industry-news/qa-how-big-tech-forever-changed-the-campaign-world</link>
+      <guid isPermaLink="false">9e2d25de8054b272</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Campaigns &amp; Elections features a Q&amp;A with Katie Harbath, a longtime tech-politics veteran, who reflects on how campaigns misjudged social media's early potential and what the AI era now means for political campaigning.</description>
     </item>
   </channel>
 </rss>
