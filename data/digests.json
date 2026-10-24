@@ -1,7 +1,81 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T16:46:56Z",
+  "generated_at": "2026-10-24T15:40:37Z",
   "runs": [
+    {
+      "run_id": "2026-10-24",
+      "date": "2026-10-24",
+      "generated_at": "2026-10-24T15:40:37Z",
+      "is_light_run": false,
+      "top_summary": "The main new development this run is an Axios report that Washington state Democrats allege AI was misused in a GOP-backed mailer \u2014 a concrete, named incident of AI deployment in an active race. A congressman also faces an ethics complaint over an AI-generated graphic of an opponent, adding another documented use-in-the-wild case. Everything else in this batch is either off-topic or continued coverage of the $137 million AI-ad story already published.",
+      "item_count": 3,
+      "candidates_reviewed": 43,
+      "rejection_counts": {
+        "already_covered": 3,
+        "no_ai": 29,
+        "not_political": 2,
+        "not_practical": 1,
+        "wrong_actor": 5
+      },
+      "items": [
+        {
+          "id": "e1284ad36c88fd9c",
+          "title": "Scoop: Washington Democrats allege AI misuse in GOP-backed mailer",
+          "url": "https://axios.com/local/seattle/2026/10/22/mailer-michael-shepard-ai-letter-washington-election-law",
+          "source": "Axios",
+          "source_domain": "axios.com",
+          "published": "2026-10-22",
+          "first_seen_run": "2026-10-24",
+          "category": "deepfakes",
+          "summary": "Washington state Democrats allege that a GOP-backed mailer supporting candidate Michael Shepard misused AI, potentially in violation of Washington election law, according to Axios Seattle.",
+          "why_it_matters": "A named, active-race allegation of AI misuse in a physical mailer is a rare documented case of AI-generated content in direct mail, a channel rarely discussed in this context.",
+          "flags": [
+            "contested"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:axios",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "426c50b8119fbd9d",
+          "title": "Congressman faces ethics complaint over AI generated graphic of opponent",
+          "url": "https://news8000.com/news/politics/local-politics/congressman-faces-ethics-complaint-over-ai-generated-graphic-of-opponent/article_5c40e509-a32d-54ee-b6d4-882a1ea0ee75.html",
+          "source": "news8000.com",
+          "source_domain": "news8000.com",
+          "published": "2026-10-22",
+          "first_seen_run": "2026-10-24",
+          "category": "deepfakes",
+          "summary": "A U.S. congressman is facing an ethics complaint after circulating an AI-generated graphic depicting an opponent, according to a local news report.",
+          "why_it_matters": "Ethics complaints tied to AI-generated campaign content set a procedural precedent for how such material may be formally challenged within existing House accountability structures.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "c293969135c71b8e",
+          "title": "AI is reshaping high-stakes elections around the world",
+          "url": "https://semafor.com/article/10/22/2026/ai-is-reshaping-high-stakes-elections-around-the-world",
+          "source": "Semafor",
+          "source_domain": "semafor.com",
+          "published": "2026-10-22",
+          "first_seen_run": "2026-10-24",
+          "category": "deployments_studies",
+          "summary": "Semafor reports that partisan actors in Brazil, Israel, and the U.S. are gaming AI platforms to surface misleading information ahead of high-stakes elections, describing a cross-border pattern of AI-answer manipulation tied to active campaigns.",
+          "why_it_matters": "Extends the AI-answer-manipulation threat documented in the U.S. to elections in Brazil and Israel, giving practitioners a broader picture of the tactic's international spread.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:semafor",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-10-23",
       "date": "2026-10-23",
@@ -1427,15 +1501,6 @@
           }
         }
       ]
-    },
-    {
-      "run_id": "2026-09-05",
-      "date": "2026-09-05",
-      "generated_at": "2026-09-05T14:52:46Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
     }
   ]
 }

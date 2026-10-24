@@ -1,10 +1,5 @@
 {
   "runs": {
-    "2026-10-02": [
-      "Kargo Launches Karlo, Opening Agentic Media Buying to Smaller Teams and Businesses",
-      "Lobby Groups Close to AI Labs Spend Millions to Shape Regulation",
-      "State Trifecta Control Could Shift Dramatically in 2026 Elections"
-    ],
     "2026-10-12": [
       "AI Campaign Strategy Tools Transform 2026 Midterms: $44M PAC Spending",
       "Greg Casar celebrates AI PAC setback",
@@ -100,6 +95,15 @@
       "How American Political Campaigns Are Using AI—and What They're Spending on the Tools",
       "Political campaigns have poured $137 million on AI-made ads ahead of a crucial midterm",
       "UK Politicians Are Testing Their Messages on AI-Generated Focus Groups"
+    ],
+    "2026-10-24": [
+      "AI is reshaping high-stakes elections around the world",
+      "Election polling rocked by a new fake data scandal",
+      "L2 and IVC Media Launch Voter Count, an AI Agent That Answers Plain-English Questions About the National Voter File",
+      "Like it or not, the first-ever AI election is underway",
+      "Oregon Journalism Project retracts story about alleged political candidate 'deepfake'",
+      "Political Campaign Use of AI-Powered Voter Outreach Highlights Regulatory Gaps",
+      "Scoop: Washington Democrats allege AI misuse in GOP-backed mailer"
     ]
   },
   "schema_version": 1

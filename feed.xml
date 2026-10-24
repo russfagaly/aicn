@@ -5,7 +5,28 @@
     <link>https://russfagaly.github.io/aicn/</link>
     <atom:link href="https://russfagaly.github.io/aicn/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Fri, 23 Oct 2026 16:46:56 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 15:40:37 GMT</lastBuildDate>
+    <item>
+      <title>Scoop: Washington Democrats allege AI misuse in GOP-backed mailer</title>
+      <link>https://axios.com/local/seattle/2026/10/22/mailer-michael-shepard-ai-letter-washington-election-law</link>
+      <guid isPermaLink="false">e1284ad36c88fd9c</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Washington state Democrats allege that a GOP-backed mailer supporting candidate Michael Shepard misused AI, potentially in violation of Washington election law, according to Axios Seattle.</description>
+    </item>
+    <item>
+      <title>Congressman faces ethics complaint over AI generated graphic of opponent</title>
+      <link>https://news8000.com/news/politics/local-politics/congressman-faces-ethics-complaint-over-ai-generated-graphic-of-opponent/article_5c40e509-a32d-54ee-b6d4-882a1ea0ee75.html</link>
+      <guid isPermaLink="false">426c50b8119fbd9d</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+      <description>A U.S. congressman is facing an ethics complaint after circulating an AI-generated graphic depicting an opponent, according to a local news report.</description>
+    </item>
+    <item>
+      <title>AI is reshaping high-stakes elections around the world</title>
+      <link>https://semafor.com/article/10/22/2026/ai-is-reshaping-high-stakes-elections-around-the-world</link>
+      <guid isPermaLink="false">c293969135c71b8e</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Semafor reports that partisan actors in Brazil, Israel, and the U.S. are gaming AI platforms to surface misleading information ahead of high-stakes elections, describing a cross-border pattern of AI-answer manipulation tied to active campaigns.</description>
+    </item>
     <item>
       <title>Exclusive: Democratic AI PAC takes its fight to Senate Republicans</title>
       <link>https://semafor.com/article/10/23/2026/democratic-ai-pac-takes-its-fight-to-senate-republicans</link>
@@ -194,27 +215,6 @@
       <guid isPermaLink="false">c4b13fa260414851</guid>
       <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
       <description>A bilingual AI app called Nubi is being used to help Latino voters navigate the voting process ahead of the 2026 midterms, serving as a voter-outreach and civic-guidance tool targeting a key demographic.</description>
-    </item>
-    <item>
-      <title>Political Campaign Use of AI-Powered Voter Outreach Highlights Regulatory Gaps</title>
-      <link>https://cdt.org/insights/political-campaign-use-of-ai-powered-voter-outreach-highlights-regulatory-gaps</link>
-      <guid isPermaLink="false">8b0b590d7aeb4460</guid>
-      <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
-      <description>The Center for Democracy and Technology published an analysis examining how political campaigns are using AI-powered voter outreach tools and the regulatory gaps that current frameworks leave unaddressed.</description>
-    </item>
-    <item>
-      <title>Campaigning for the AI ‘vote’</title>
-      <link>https://campaigntrend.com/campaigning-for-the-ai-vote</link>
-      <guid isPermaLink="false">59e262e2d15c4bb0</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Campaign Trend's newsletter roundup covers Inbox.GOP's latest spam data on AI-generated political email and recent deepfake-related lawsuits in the political arena.</description>
-    </item>
-    <item>
-      <title>Good Intentions Are Not Safeguards: Katie Harbath on What Social Media Should Teach Us About AI</title>
-      <link>https://campaigntrend.com/good-intentions-are-not-safeguards-katie-harbath-on-what-social-media-should-teach-us-about-ai</link>
-      <guid isPermaLink="false">585653c1557973e5</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Katie Harbath, a veteran of Facebook's policy work, argues that the campaign and political ecosystem cannot simply replicate the social media governance playbook for AI and must apply lessons learned to build new safeguards proactively.</description>
     </item>
   </channel>
 </rss>

@@ -292,6 +292,13 @@
     ],
     "last_seen": "2026-06-26"
   },
+  "news8000.com": {
+    "count": 1,
+    "example_urls": [
+      "https://news8000.com/news/politics/local-politics/congressman-faces-ethics-complaint-over-ai-generated-graphic-of-opponent/article_5c40e509-a32d-54ee-b6d4-882a1ea0ee75.html"
+    ],
+    "last_seen": "2026-10-24"
+  },
   "newsweek.com": {
     "count": 1,
     "example_urls": [

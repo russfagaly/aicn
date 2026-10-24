@@ -3,6 +3,326 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-10-24",
+      "reason": "wrong_actor",
+      "title": "Why data centers and energy costs may not swing voters",
+      "url": "https://bostonglobe.com/2026/10/23/business/midterm-voters-data-centers-energy-costs",
+      "source": "bostonglobe.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "wrong_actor",
+      "title": "The Pentagon's guidelines for \"responsible AI\" aren't always followed, report shows",
+      "url": "https://npr.org/2026/10/23/nx-s1-6012296/ai-department-of-defense-war",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "wrong_actor",
+      "title": "Texan Senate Candidate Sues OpenAI Before Midterms , Accuses Altman Of  Lying To Users And Harming Texans",
+      "url": "https://ibtimes.com/texan-senate-candidate-sues-openai-before-midterms-accuses-altman-lying-users-harming-texans-3808959",
+      "source": "ibtimes.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "wrong_actor",
+      "title": "Minnesota law targets AI deepfakes in political ads",
+      "url": "https://inforum.com/news/minnesota/minnesota-law-targets-ai-deepfakes-in-political-ads-1",
+      "source": "inforum.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "wrong_actor",
+      "title": "Data center backlash set to sway midterm elections",
+      "url": "https://idahostatejournal.com/psa/data-center-backlash-set-to-sway-midterm-elections/article_42d290db-c6de-4ee6-83da-04ba208c1b7f.html",
+      "source": "idahostatejournal.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "not_practical",
+      "title": "In CT 2nd District , young Republican challenges veteran congressman",
+      "url": "https://courant.com/2026/10/23/in-cts-most-rural-district-young-republican-challenges-veteran-congressman",
+      "source": "courant.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "not_political",
+      "title": "Wizards Struggle on Offense in 112-102 Loss to Raptors",
+      "url": "https://washingtonsun.com/sports/wizards/wizards-raptors-112-102",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "not_political",
+      "title": "How Goalkeeper Sandy MacIver Saved the Spirit’s Season",
+      "url": "https://washingtonsun.com/sports/spirit/washington-spirit-goalkeeper-sandy-maciver",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "Zuckerberg makes deal with Meta to help him pay billionaire tax if it passes",
+      "url": "https://ksl.com/article/51639822/zuckerberg-makes-deal-with-meta-to-help-him-pay-billionaire-tax-if-it-passes",
+      "source": "ksl.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "Work Trucks at East Potomac Park Are Seen With Covered Logos and License Plates",
+      "url": "https://washingtonsun.com/metro/east-potomac-park-trucks-covered-license-plates",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "White House Is Weighing Mass Pardons for Junior Staff",
+      "url": "https://washingtonsun.com/whitehouse/white-house-weighing-mass-pardons-for-junior-staff",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "Week in Politics: Ramaswamy's Ohio ad; Trump greenlights DOJ to sue over Alaska Senate",
+      "url": "https://npr.org/2026/10/24/nx-s1-6012100/week-in-politics-ramaswamys-ohio-ad-trump-greenlights-doj-to-sue-over-alaska-senate",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "Two Ex-FBI Agents Are Arrested as the Hunter Biden Laptop Scandal Returns",
+      "url": "https://washingtonsun.com/legal/two-ex-fbi-agents-arrested-hunter-biden-laptop-scandal",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "Trump: Inquiry Into Top Advisers Is Dead After Presidential Library Donation",
+      "url": "https://washingtonsun.com/whitehouse/trump-chris-lacivita-james-blair-inquiry-advisers-presidential-library-donation-republika-srpska-balkan-bosnia-herzegovina-susie-wiles",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "Trump Shrugs Off the Rape Charges Central to Amy Acton Ad Controversy",
+      "url": "https://washingtonsun.com/campaigns/trump-rape-charges-amy-acton-ad-vivek-ramaswamy",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "This decade has been missing its big-impact midterm",
+      "url": "https://npr.org/2026/10/24/nx-s1-6014811/midterm-election-history-house-senate",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "The rise of the economic populist: What voters want from both parties this year",
+      "url": "https://npr.org/2026/10/24/nx-s1-5979036/the-rise-of-the-economic-populist-what-voters-want-from-both-parties-this-year",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "The Pentagon Says It’s Letting Wind Projects Continue. Wind Companies Say Otherwise.",
+      "url": "https://washingtonsun.com/energy-environment/pentagon-wind-projects-review-frozen-court-filings",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "The Latest : Melania Trump helps forge a ceasefire deal in a Ukrainian city , the White House says",
+      "url": "https://click2houston.com/news/politics/2026/10/23/the-latest-trump-backs-vivek-ramaswamy-on-ad-featuring-amy-actons-estranged-mother",
+      "source": "click2houston.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "Susan Collins Says She Convinced the Trump Administration to Lift Some Tariffs on Canada",
+      "url": "https://washingtonsun.com/economy/susan-collins-trump-administration-lift-tariffs-canada",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "State Department Press Adviser Resigns After Altercation at Washington Wizards Game",
+      "url": "https://washingtonsun.com/administration/state-department-britt-mchenry-resigns-washington-wizards-game",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "Russia steps up election influence efforts in final stretch of midterms",
+      "url": "https://npr.org/2026/10/23/nx-s1-5995508/russia-midterms-election-influence",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "Researchers Call Out the Irony in Melania Trump’s Women’s Health Push",
+      "url": "https://washingtonsun.com/health/researchers-melania-trump-womens-health-push",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "PODCAST | The Spillover : Brazil Runoff Election | Council on Foreign Relations",
+      "url": "https://cfr.org/podcasts/spillover/brazils-runoff-election-is-a-close-race-between-lula-and-bolsonaro",
+      "source": "cfr.org",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "Ohio could decide control of the Senate. Its rural voters might decide the winner",
+      "url": "https://npr.org/2026/10/23/nx-s1-6012809/ohio-senate-governor-election-rural-voters",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "New Kimberly Guilfoyle Financial Report Illuminates Debts",
+      "url": "https://washingtonsun.com/influence/kimberly-guilfoyle-financial-ethics-disclosure",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "Mark Zuckerberg makes deal with Meta to help him pay billionaire tax",
+      "url": "https://chicoer.com/2026/10/22/mark-zuckerberg-meta-billionaire-tax-deal",
+      "source": "orlandosentinel.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "Mark Zuckerberg makes deal with Meta to help him pay California billionaire tax – NBC Bay Area",
+      "url": "https://nbcbayarea.com/news/local/mark-zuckerberg-deal-meta-california-billionaire-tax/4162981",
+      "source": "nbcbayarea.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "Judge reins in armed ICE agents investigating voter fraud",
+      "url": "https://scrippsnews.com/investigations/ice-inc/judge-reins-in-armed-ice-agents-investigating-voter-fraud",
+      "source": "wcpo.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "Election polling rocked by a new fake data scandal",
+      "url": "https://axios.com/2026/10/21/fake-polls-midterms-wedgewood-investigation",
+      "source": "Axios",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "DE Republican U . S . Senate candidate alleges campaign hack",
+      "url": "https://whyy.org/articles/michael-katz-chris-coons-debate-delaware",
+      "source": "whyy.org",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "D . C . Memo : As election nears , corruption tops voter concerns",
+      "url": "https://minnpost.com/dc-memo/2026/10/d-c-memo-as-midterm-election-nears-corruption-tops-voter-concerns-beating-out-inflation-healthcare",
+      "source": "minnpost.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "Buttigieg Endorses a Montana Independent Over His Democratic Opponent",
+      "url": "https://washingtonsun.com/campaigns/pete-buttigieg-endorses-montana-independent-over-democrat-opponent-seth-bodnar",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "At a Texas high school football game, fans offer a glimpse into evolving politics",
+      "url": "https://npr.org/2026/10/23/nx-s1-6003856/at-a-texas-high-school-football-game-fans-offer-a-glimpse-into-evolving-politics",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "Afternoon Sun: Maine’s Uno Reverse Card",
+      "url": "https://washingtonsun.com/afternoon-sun-newsletter/maines-uno-reverse-card",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "A D.C. park was made 'for the pleasure of the people.' Trump's plan would change that",
+      "url": "https://npr.org/2026/10/23/nx-s1-6010488/east-potomac-trump-golf-hains-point",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "no_ai",
+      "title": "71 - year - old Sen . Mark Warner says this is his last time running for Congress",
+      "url": "https://nbcwashington.com/news/local/71-year-old-sen-mark-warner-says-this-is-his-last-time-running-for-congress/4171346",
+      "source": "nbcwashington.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "already_covered",
+      "title": "Oregon Journalism Project retracts story about alleged political candidate 'deepfake'",
+      "url": "https://axios.com/local/portland/2026/10/21/nafisa-fai-flag-video-story-retracted",
+      "source": "Axios",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "already_covered",
+      "title": "Deciding with fake images : More candidates are using AI in political ads to get your vote",
+      "url": "https://nbcnews.com/tech/tech-news/deciding-fake-images-candidates-are-using-ai-political-ads-get-vote-rcna605243",
+      "source": "nbcnews.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-24",
+      "reason": "already_covered",
+      "title": "$137 million in AI - generated ads flood the midterms | Hawaii Tribune - Herald",
+      "url": "https://hawaiitribune-herald.com/2026/10/23/nation-world-news/137-million-in-ai-generated-ads-flood-the-midterms-2",
+      "source": "hawaiitribune-herald.com",
+      "discovery": "search"
+    },
+    {
       "run_id": "2026-10-23",
       "reason": "not_practical",
       "title": "Experts: AI generating more than political ads this election season",
