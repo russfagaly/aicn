@@ -3,6 +3,206 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-10-25",
+      "reason": "not_political",
+      "title": "Zelenskyy Says Ukraine’s Starlink Satellite Speeds Have Been Restored",
+      "url": "https://washingtonsun.com/foreign-policy/zelenskyy-ukraine-starlink-satellite-speeds-restored-elon-musk",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "not_political",
+      "title": "Wizards Hold Off Bulls for a 124-120 Road Victory",
+      "url": "https://washingtonsun.com/sports/wizards/wizards-bulls-oct-24",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "not_political",
+      "title": "Rubio : Iran , Not Palestinian Issue , Main Obstacle to Mideast Peace",
+      "url": "https://jewishtimes.com/rubio-iran-not-palestinian-issue-main-obstacle-to-mideast-peace",
+      "source": "jewishtimes.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "not_political",
+      "title": "China Is Making It Harder to Leave . Some People Find Out at the Airport Gate .",
+      "url": "https://theepochtimes.com/article/china-is-making-it-harder-to-leave-some-people-find-out-at-the-airport-gate-6100800",
+      "source": "theepochtimes.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "not_political",
+      "title": "Capitals Beat Sabres in Overtime, 4-3",
+      "url": "https://washingtonsun.com/sports/capitals/capitals-sabres-oct-24",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "not_political",
+      "title": "A shifting landscape : Where the US Army moved in 2026 and what may be on the horizon",
+      "url": "https://militarytimes.com/news/your-military/2026/10/16/a-shifting-landscape-where-the-us-army-moved-in-2026-and-what-may-be-on-the-horizon",
+      "source": "defensenews.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "Voters angry about high prices may get little relief from the next Congress",
+      "url": "https://adn.com/nation-world/2026/10/24/voters-angry-about-high-prices-may-get-little-relief-from-the-next-congress",
+      "source": "adn.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "Trump Administration Again Demands California Perform Voter Roll Checks",
+      "url": "https://washingtonsun.com/legal/trump-administration-doj-california-voter-roll-checks",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "Teachers , DeSantis , sex ed debated in Broward School Board race",
+      "url": "https://sun-sentinel.com/2026/10/24/teachers-desantis-sex-ed-and-slavery-get-debated-in-heated-broward-school-board-race",
+      "source": "sun-sentinel.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "Republicans May Be Neglecting Their Most Reliable Voters",
+      "url": "https://washingtonsun.com/campaigns/republicans-evangelical-voter-turnout",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "Port : Data centers are turning out to be a dud as a political issue",
+      "url": "https://inforum.com/opinion/columns/port-data-centers-are-turning-out-to-be-a-dud-as-a-political-issue",
+      "source": "jamestownsun.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "Politics chat: The polls show a Democratic sweep in the midterms. Can you trust them?",
+      "url": "https://npr.org/2026/10/25/nx-s1-6014525/politics-chat-the-polls-show-a-democratic-sweep-in-the-midterms-can-you-trust-them",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "More on a Democratic Led 2027 - 2028 Congress ….. The List ….",
+      "url": "https://politicaldog101.com/2026/10/more-on-a-democratic-led-2027-2028-congress-the-list",
+      "source": "politicaldog101.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "Letter : Government for sale",
+      "url": "https://rockymounttelegram.com/opinion/letters/letter-government-for-sale/article_f828e949-f57a-4563-b071-97ed58b03250.html",
+      "source": "rockymounttelegram.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "LETTERS TO THE EDITOR : Nov . 3 election , endorsements | Letters to the Editor",
+      "url": "https://idahopress.com/opinion/letters_to_editor/idaho-press-letters-to-the-editor/article_8b63912b-9bbb-4595-b6b0-b71c7e835f13.html",
+      "source": "idahopress.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "Independent candidates sense a moment. Some Democrats hope they're right.",
+      "url": "https://npr.org/2026/10/25/nx-s1-5995460/midterms-independent-candidates-nebraska-montana",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "In Arkansas, Democrats see an opening at the edge of the competitive midterms map",
+      "url": "https://npr.org/2026/10/25/nx-s1-6009402/midterm-blue-wave-map-arkansas-democrats-cotton-shoffner-hill-jones",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "IQM and StatSocial Help Campaigns Keep Pace with Midterm Voters' Changing Political Interests",
+      "url": "https://finance.yahoo.com/media-advertising/articles/iqm-statsocial-help-campaigns-keep-133000928.html",
+      "source": "Yahoo Finance",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "How both Texas parties have shifted their political ad messaging",
+      "url": "https://texastribune.org/2026/10/22/texas-political-ad-messaging-analysis-2026-elections",
+      "source": "The Texas Tribune",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "Here what Democrats plan to do with their power if they win back Congress",
+      "url": "https://westhawaiitoday.com/2026/10/24/top-news/heres-what-democrats-plan-to-do-with-their-power-if-they-win-back-congress",
+      "source": "westhawaiitoday.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "Gen Z are leading the European protests . Here why theyre angry - LocalNews8 . com",
+      "url": "https://localnews8.com/news/national-world/cnn-world/2026/10/24/gen-z-are-leading-the-european-protests-heres-why-theyre-angry",
+      "source": "localnews8.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "Gen Z are leading the European protests . Here why theyre angry",
+      "url": "https://kvia.com/news/us-world/cnn-world/2026/10/24/gen-z-are-leading-the-european-protests-heres-why-theyre-angry",
+      "source": "kvia.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "Fed up with data centers and Big Tech , rural Republican crossover could decide Democrat fate in Texas",
+      "url": "https://sacurrent.com/news/texas-news/fed-up-with-data-centers-and-big-tech-rural-republican-crossover-could-decide-democrats-fate-in-texas",
+      "source": "sacurrent.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "Democrats see an opportunity to tilt Pennsylvania's state legislature their way",
+      "url": "https://npr.org/2026/10/25/nx-s1-6003880/democrats-see-an-opportunity-to-tilt-pennsylvanias-state-legislature-their-way",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-25",
+      "reason": "no_ai",
+      "title": "DSCC, Peltola’s Campaign Argue Alaska Officials Won't Stand Up to DOJ Lawsuit",
+      "url": "https://washingtonsun.com/campaigns/dscc-mary-peltola-alaska-doj-lawsuit",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-10-24",
       "reason": "wrong_actor",
       "title": "Why data centers and energy costs may not swing voters",

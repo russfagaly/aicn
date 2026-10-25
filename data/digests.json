@@ -1,7 +1,21 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T15:40:37Z",
+  "generated_at": "2026-10-25T15:50:28Z",
   "runs": [
+    {
+      "run_id": "2026-10-25",
+      "date": "2026-10-25",
+      "generated_at": "2026-10-25T15:50:28Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "candidates_reviewed": 25,
+      "rejection_counts": {
+        "no_ai": 19,
+        "not_political": 6
+      },
+      "items": []
+    },
     {
       "run_id": "2026-10-24",
       "date": "2026-10-24",
@@ -1473,34 +1487,6 @@
       "top_summary": "",
       "item_count": 0,
       "items": []
-    },
-    {
-      "run_id": "2026-09-06",
-      "date": "2026-09-06",
-      "generated_at": "2026-09-06T15:13:09Z",
-      "is_light_run": false,
-      "top_summary": "The clearest story this run is that 2026 midterm campaigns are openly using AI tools \u2014 including ChatGPT \u2014 to court voters, even as leading AI companies have imposed election-related restrictions on their platforms. Campaign filings and website fine print are the evidence trail, making this a concrete disclosure of adoption rather than speculation.",
-      "item_count": 1,
-      "items": [
-        {
-          "id": "1b18ad4d8f1298c9",
-          "title": "Campaigns Use AI Despite ChatGPT Ban",
-          "url": "https://politicalwire.com/2026/09/05/campaigns-use-ai-despite-chatgpt-ban",
-          "source": "Political Wire",
-          "source_domain": "politicalwire.com",
-          "published": "2026-09-05",
-          "first_seen_run": "2026-09-06",
-          "category": "deployments_studies",
-          "summary": "Major-party candidates in the 2026 midterms are acknowledging in campaign filings and website fine print that they are using AI \u2014 including tools subject to ChatGPT's election-use restrictions \u2014 to reach voters, according to a report aggregated by Political Wire.",
-          "why_it_matters": "Documented self-disclosure in filings provides a rare concrete paper trail of AI adoption at the campaign level, showing that platform restrictions are not stopping deployment in practice.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "broad_web_search",
-            "confidence": "medium"
-          }
-        }
-      ]
     }
   ]
 }
