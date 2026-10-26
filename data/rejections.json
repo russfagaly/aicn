@@ -3,6 +3,270 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-10-26",
+      "reason": "wrong_actor",
+      "title": "Washington's message to AI execs: please shut up",
+      "url": "https://axios.com/2026/10/24/ai-ceos-washington-political-liability",
+      "source": "Axios",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "not_practical",
+      "title": "How California candidates are talking about AI",
+      "url": "https://punchbowl.news/article/tech/california-candidates-ai",
+      "source": "Punchbowl News",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "not_political",
+      "title": "Spirit Fall to Kansas City Current, 2-1",
+      "url": "https://washingtonsun.com/sports/spirit/washington-spirit-kansas-city-current",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "not_political",
+      "title": "Mystics’ Shakira Austin Named to All-WNBA Second Team",
+      "url": "https://washingtonsun.com/sports/mystics/mystics-shakira-austin-all-wnba",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "not_political",
+      "title": "For This Army Veteran, Running Serves a Higher Purpose",
+      "url": "https://washingtonsun.com/metro/marine-corps-marathon-gretchen-evans",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "not_political",
+      "title": "D.C. United Wants Public Money to Expand Audi Field. It’s Not an Easy Goal.",
+      "url": "https://washingtonsun.com/metro/audi-field-dc-united-roof-renovation-spirit",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "not_political",
+      "title": "D.C. Dispensary Consumption Spaces Are Rising Social Hubs",
+      "url": "https://washingtonsun.com/metro/dc-cannabis-dispensary-consumption-spaces",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "not_political",
+      "title": "All-DMV High School Football Players of Week 9",
+      "url": "https://washingtonsun.com/sports/all-dmv/all-dmv-high-school-football-players-oct-26",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Trump’s Press Ban Faces a New Legal Challenge From a Group of Citizens",
+      "url": "https://washingtonsun.com/legal/trump-press-ban-legal-challenge-citizens",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Trump escalates anti-Muslim attacks against El-Sayed in Michigan",
+      "url": "https://npr.org/2026/10/26/nx-s1-6016816/trump-escalates-anti-muslim-attacks",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Trump Confirms He’s ‘Thinking About’ Booting Reporters From the White House",
+      "url": "https://washingtonsun.com/whitehouse/trump-thinking-about-booting-reporters-from-white-house-briefing-room-swimming-pool-bill-maher",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Trump Calls Murkowski ‘Republicans’ Worst Senator’ Over Opposition to Elections Lawsuit",
+      "url": "https://washingtonsun.com/whitehouse/trump-lisa-murkowski-republicans-worst-senator-elections-lawsuit",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Trump Attacks El-Sayed As a ‘Jihadist’ in Anti-Muslim Screeds",
+      "url": "https://washingtonsun.com/whitehouse/trump-el-sayed-michigan-calls-jihadist-metal-detector",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "The Washington Sun Metro: Raise the Roof",
+      "url": "https://washingtonsun.com/metro-newsletter/raise-the-roof-10-26-2026",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "The Washington Sun Launches ‘The Stakeout’ Newsletter",
+      "url": "https://washingtonsun.com/about-us/press-releases/washington-sun-launches-stakeout-newsletter-congress",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "The Critical Race in North Carolina No One’s Talking About",
+      "url": "https://washingtonsun.com/campaigns/supreme-court-north-carolina",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Texas' First Post-Roe Report on Maternal Mortality Will Come After the Midterms",
+      "url": "https://washingtonsun.com/campaigns/first-post-roe-report-maternal-mortality-midterms",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Republicans are spending millions and still may not win districts drawn to favor them",
+      "url": "https://npr.org/2026/10/26/nx-s1-6008167/republican-redistricting-midterms-competitive-map",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Redistricting isn't playing out how the GOP hoped. And, Brazil's Lula wins 4th term",
+      "url": "https://npr.org/2026/10/26/g-s1-149917/up-first-newsletter-republican-redistricting-france-serbia-protests-brazil-luiz-inacio-lula-da-silva",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Political consultant on the impact of Republicans' gerrymandering efforts",
+      "url": "https://npr.org/2026/10/26/nx-s1-6016194/political-consultant-on-the-impact-of-republicans-gerrymandering-efforts",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Morning Sun: Quiet Part, Loudly",
+      "url": "https://washingtonsun.com/newsletters/quiet-part-loudly",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Meta Is Freezing Political Ads Before Election Day. Here’s What to Know.",
+      "url": "https://campaignsandelections.com/industry-news/meta-is-freezing-political-ads-before-election-day-heres-what-to-know",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Is There a Reason There Are So Many Dan Sullivans in Alaska? An Investigation.",
+      "url": "https://washingtonsun.com/national/dan-sullivan-dan-sullivan-alaska-data",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Inside the Trump Administration's Dismantling of a Health Care Research Office",
+      "url": "https://washingtonsun.com/health/inside-trump-administration-health-care-research-office",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Hegseth’s Military Promotion Blocks Could Face a Congressional Reckoning",
+      "url": "https://washingtonsun.com/congress/hegseth-military-promotion-blocks-congressional-reckoning",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "D.C.’s VA Medical Center Made an Emergency Equipment Order After Kitchen Concerns",
+      "url": "https://washingtonsun.com/metro/dc-va-medical-center-emergency",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Catholic Leaders Feel ‘Manipulated’ and ‘Exploited’ After Trump’s Oval Office Photo Op",
+      "url": "https://washingtonsun.com/whitehouse/catholic-leaders-feel-manipulated-and-exploited-after-trumps-oval-office-photo-op",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Blanche defends DOJ lawsuit blocking Alaska Senate results if Republican loses",
+      "url": "https://npr.org/2026/10/25/nx-s1-6016212/blanche-defends-doj-lawsuit-blocking-alaska-senate-results-if-republican-loses",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Beatty Asks Judge to Compel Trump Administration to Disclose Emails and Texts about Kennedy Center Plans",
+      "url": "https://washingtonsun.com/whitehouse/joyce-beatty-kennedy-center-compel-presidential-records",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Appeals Court Questions Trump Administration’s Bid to Block 20,000 California Ballots",
+      "url": "https://washingtonsun.com/legal/9th-circuit-appeals-trump-doj-california-ballot-hearing",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "Alaska’s Peltola and Her Family Sustain ‘Minor Injuries’ in a Car Crash",
+      "url": "https://washingtonsun.com/campaigns/mary-peltola-alaska-car-crash-minor-injuries",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "no_ai",
+      "title": "A Catholic Republican 2028 Nominee Would Make History. Does Anyone Care?",
+      "url": "https://washingtonsun.com/campaigns/jd-vance-marco-rubio-catholicism-pope-evangelicals",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-26",
+      "reason": "already_covered",
+      "title": "Exclusive-US Political Candidates Tailor Messages for AI Models Used by Voters",
+      "url": "https://usnews.com/news/politics/articles/2026-10-26/exclusive-us-political-candidates-tailor-messages-for-ai-models-used-by-voters",
+      "source": "US News",
+      "discovery": "search"
+    },
+    {
       "run_id": "2026-10-25",
       "reason": "not_political",
       "title": "Zelenskyy Says Ukraine’s Starlink Satellite Speeds Have Been Restored",

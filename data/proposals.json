@@ -1183,6 +1183,19 @@
       ],
       "first_proposed": "2026-10-23",
       "status": "pending"
+    },
+    {
+      "id": "prop-source-washingtonpost-com",
+      "kind": "source",
+      "value": "washingtonpost.com",
+      "feed_url": null,
+      "rationale": "Produced 2 published item(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://washingtonpost.com/politics/2026/09/25/artificial-intelligence-campaign-ads-midterms/6a63e496-b923-11f1-94cb-d3d8f22a8c8b_story.html",
+        "https://washingtonpost.com/politics/2026/10/24/why-democrats-are-shunning-ai-videos-ads"
+      ],
+      "first_proposed": "2026-10-26",
+      "status": "pending"
     }
   ]
 }

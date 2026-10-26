@@ -1,7 +1,63 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T15:50:28Z",
+  "generated_at": "2026-10-26T18:31:42Z",
   "runs": [
+    {
+      "run_id": "2026-10-26",
+      "date": "2026-10-26",
+      "generated_at": "2026-10-26T18:31:42Z",
+      "is_light_run": false,
+      "top_summary": "Higher Ground Labs has launched Haystack, an AI-native social listening platform built specifically for Democratic communicators. The Washington Post reports that Democrats are strategically avoiding AI-generated video ads, calculating that Republicans' AI ad use \u2014 including in the Texas-21 race featuring Brian Talarico \u2014 will backfire with voters. A US News exclusive on candidates tailoring messages for AI models appears to revisit terrain already covered by recent reporting on the same topic.",
+      "item_count": 2,
+      "candidates_reviewed": 35,
+      "rejection_counts": {
+        "already_covered": 1,
+        "no_ai": 24,
+        "not_political": 6,
+        "not_practical": 1,
+        "wrong_actor": 1
+      },
+      "items": [
+        {
+          "id": "a05533bfa46b3d74",
+          "title": "Meet Haystack: Social Listening Built for Democrats",
+          "url": "https://highergroundlabs.com/haystack",
+          "source": "Higher Ground Labs (blog)",
+          "source_domain": "highergroundlabs.com",
+          "published": "2026-10-25",
+          "first_seen_run": "2026-10-26",
+          "category": "vendor_moves",
+          "summary": "Higher Ground Labs has announced Haystack, an AI-native social listening platform designed for Democratic communicators to monitor what voters are seeing and saying on social media.",
+          "why_it_matters": "A purpose-built AI social listening tool for Democratic campaigns signals growing investment in real-time voter intelligence infrastructure on the left.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "higher-ground-labs",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "0249bf21529f0a8d",
+          "title": "Democrats are betting GOP's AI ads on Talarico and others will backfire",
+          "url": "https://washingtonpost.com/politics/2026/10/24/why-democrats-are-shunning-ai-videos-ads",
+          "source": "The Washington Post",
+          "source_domain": "washingtonpost.com",
+          "published": "2026-10-24",
+          "first_seen_run": "2026-10-26",
+          "category": "deployments_studies",
+          "summary": "The Washington Post reports that Democratic campaigns are deliberately avoiding AI-generated video ads, betting that Republican use of such ads \u2014 including against candidates like Brian Talarico in Texas \u2014 will generate a backlash among voters skeptical of AI content.",
+          "why_it_matters": "Documents a concrete partisan asymmetry in AI ad deployment strategy, with Democrats treating Republican AI ad spending as a political liability rather than a model to follow.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-10-25",
       "date": "2026-10-25",
@@ -1478,15 +1534,6 @@
           }
         }
       ]
-    },
-    {
-      "run_id": "2026-09-07",
-      "date": "2026-09-07",
-      "generated_at": "2026-09-07T17:36:51Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
     }
   ]
 }

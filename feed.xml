@@ -5,7 +5,21 @@
     <link>https://russfagaly.github.io/aicn/</link>
     <atom:link href="https://russfagaly.github.io/aicn/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Sun, 25 Oct 2026 15:50:28 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 18:31:42 GMT</lastBuildDate>
+    <item>
+      <title>Meet Haystack: Social Listening Built for Democrats</title>
+      <link>https://highergroundlabs.com/haystack</link>
+      <guid isPermaLink="false">a05533bfa46b3d74</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Higher Ground Labs has announced Haystack, an AI-native social listening platform designed for Democratic communicators to monitor what voters are seeing and saying on social media.</description>
+    </item>
+    <item>
+      <title>Democrats are betting GOP's AI ads on Talarico and others will backfire</title>
+      <link>https://washingtonpost.com/politics/2026/10/24/why-democrats-are-shunning-ai-videos-ads</link>
+      <guid isPermaLink="false">0249bf21529f0a8d</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <description>The Washington Post reports that Democratic campaigns are deliberately avoiding AI-generated video ads, betting that Republican use of such ads — including against candidates like Brian Talarico in Texas — will generate a backlash among voters skeptical of AI content.</description>
+    </item>
     <item>
       <title>Scoop: Washington Democrats allege AI misuse in GOP-backed mailer</title>
       <link>https://axios.com/local/seattle/2026/10/22/mailer-michael-shepard-ai-letter-washington-election-law</link>
@@ -201,20 +215,6 @@
       <guid isPermaLink="false">03433e60900bffc4</guid>
       <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
       <description>OpenAI is taking steps to make it harder for users to generate misleading election deepfakes through its platforms, implementing restrictions targeting bad actors seeking to interfere in U.S. elections.</description>
-    </item>
-    <item>
-      <title>Voters Aren’t Comfortable With the Most Public-Facing Uses of AI In Politics, Poll Finds</title>
-      <link>https://campaignsandelections.com/industry-news/voters-arent-comfortable-with-the-most-public-facing-uses-of-ai-in-politics-poll-finds</link>
-      <guid isPermaLink="false">fef1bf7159d0d540</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
-      <description>A new national survey commissioned by the AAPC Foundation finds that voters are uncomfortable with the most public-facing uses of AI in political campaigns, providing some of the clearest polling data yet on public attitudes toward campaigns' growing AI adoption.</description>
-    </item>
-    <item>
-      <title>Bilingual AI app helps Latinos figure out how to vote</title>
-      <link>https://axios.com/2026/10/06/latino-voters-ai-guide-midterms-nubi</link>
-      <guid isPermaLink="false">c4b13fa260414851</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
-      <description>A bilingual AI app called Nubi is being used to help Latino voters navigate the voting process ahead of the 2026 midterms, serving as a voter-outreach and civic-guidance tool targeting a key demographic.</description>
     </item>
   </channel>
 </rss>
