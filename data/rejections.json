@@ -3,6 +3,406 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-10-27",
+      "reason": "wrong_actor",
+      "title": "UK Politician Jess Asato Got Deepfaked. Now She’s Taking xAI to Court",
+      "url": "https://wired.com/story/the-big-interview-podcast-jess-asato",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "wrong_actor",
+      "title": "UK Home Office May Face Investigation Over Use of OpenAI Tech",
+      "url": "https://wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "wrong_actor",
+      "title": "Silicon Valley AI political groups turn on each other in the 2026 election",
+      "url": "https://cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html",
+      "source": "CNBC",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "wrong_actor",
+      "title": "Data centers are a hot-button issue for Ohioans as midterms near",
+      "url": "https://npr.org/2026/10/27/nx-s1-5989174/candidates-work-to-ease-concerns-as-data-centers-become-hot-button-issue-for-ohioans",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "wrong_actor",
+      "title": "A 28-Year-Old DOGE Operative Gutted USAID. HR Had No Record of Him Working There",
+      "url": "https://wired.com/story/a-28-year-old-doge-operative-gutted-usaid-hr-had-no-record-of-him-working-there",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "not_political",
+      "title": "Wizards Fall to Hornets, 110-103",
+      "url": "https://washingtonsun.com/sports/wizards-vs-hornets",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "not_political",
+      "title": "WNBA Players Don’t Have to Go Overseas Anymore. Lauren Betts Did Anyway.",
+      "url": "https://washingtonsun.com/sports/mystics/lauren-betts-overseas-offseason-mystics",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "not_political",
+      "title": "Three Big Questions for Jayden Daniels Coming Out of the Bye",
+      "url": "https://washingtonsun.com/sports/commanders/jayden-daniels-stats-nfl",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "not_political",
+      "title": "The Washington Sun Metro: On Edge",
+      "url": "https://washingtonsun.com/metro-newsletter/on-edge",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "not_political",
+      "title": "The Shadow of Trump’s Arch Would Stretch Across D.C. Memorials",
+      "url": "https://washingtonsun.com/metro/trump-arch-shadow-model",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "not_political",
+      "title": "Northern Virginia Art Teacher Arrested After a Loaded Gun Was Found at Middle School",
+      "url": "https://washingtonsun.com/metro/manassas-park-teacher-loaded-gun",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "not_political",
+      "title": "Morning Sun: One Week",
+      "url": "https://washingtonsun.com/newsletters/one-week",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "not_political",
+      "title": "Man Fatally Stabbed with a ‘Makeshift Weapon’ at D.C. Jail",
+      "url": "https://washingtonsun.com/metro/inmate-fatally-stabbed-dc-jail",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "not_political",
+      "title": "Is Your Home Budget Around $500,000? Three Options to Consider in D.C., Maryland and Virginia",
+      "url": "https://washingtonsun.com/metro/homes-around-500000-dc-maryland-virginia",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "not_political",
+      "title": "Is The Cheesecake Factory a Restaurant for Regular Americans?",
+      "url": "https://washingtonsun.com/policy/cheesecake-factory-obama-comments-trump-affordability",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "not_political",
+      "title": "Illinois Man Charged With Mailing White Powder to Four Members of Congress",
+      "url": "https://washingtonsun.com/legal/illinois-man-charged-white-powder-members-of-congress",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "not_political",
+      "title": "Family Sues the City of Alexandria After Son Dies in Police Custody",
+      "url": "https://washingtonsun.com/metro/family-sues-alexandria-police-custody-death",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "not_political",
+      "title": "Experts Warn Escalating Iran Strikes Could Lead to Retaliation",
+      "url": "https://washingtonsun.com/defense/experts-warn-iran-strikes-retaliation",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "not_political",
+      "title": "D.C.’s Teacher of the Year Calls Himself a ‘Griot’",
+      "url": "https://washingtonsun.com/metro/dc-teacher-of-the-year",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "not_political",
+      "title": "Ceasefire in Ukrainian City Brokered by Melania Trump Begins",
+      "url": "https://washingtonsun.com/defense/ceasefire-ukrainian-city-oleshky-brokered-melania-trump-russia",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "not_political",
+      "title": "All-DMV High School Volleyball Players of Week 9",
+      "url": "https://washingtonsun.com/sports/all-dmv/all-dmv-high-school-volleyball-players-oct-27",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "not_political",
+      "title": "Afternoon Sun: Acton Up",
+      "url": "https://washingtonsun.com/afternoon-sun-newsletter/afternoon-sun-acton-up",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "Trump campaigns in Mississippi, highlighting Republicans' challenges",
+      "url": "https://npr.org/2026/10/27/nx-s1-6019090/trump-campaign-mississippi",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "Trump administration attempting to prosecute former FBI Director James Comey again",
+      "url": "https://npr.org/2026/10/26/nx-s1-6018628/trump-administration-attempting-to-prosecute-former-fbi-director-james-comey-again",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "Trump Promises $1 Million Rewards for Voter Fraud Arrests",
+      "url": "https://washingtonsun.com/whitehouse/trump-promises-1-million-reward-voter-fraud",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "Trump Administration Asks Washington to Set Aside Ballots",
+      "url": "https://washingtonsun.com/campaigns/trump-administration-justice-department-washington-state-ballots",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "The Reflecting Pool, the Catering Cart and Trump’s Real Vulnerability",
+      "url": "https://campaignsandelections.com/voices/the-reflecting-pool-the-catering-cart-and-trumps-real-vulnerability",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "The Other Dan Sullivan Is Deep in Debt Amid Legal Battle",
+      "url": "https://washingtonsun.com/campaigns/dan-sullivan-alaska-senate-campaign-debt-legal-fees",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "The 2026 midterms sink into a cycle of scummy ads and lies",
+      "url": "https://thehill.com/opinion/campaign/6170572-scummy-political-advertising-lies",
+      "source": "The Hill",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "Texas Democrats Are Frustrated Talarico Hasn't Done More to Win Black Voters",
+      "url": "https://washingtonsun.com/campaigns/democrats-talarico-black-voter-outreach",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "Super PACs Are Still Awash in ‘Dark Money'",
+      "url": "https://washingtonsun.com/influence/dark-money-super-pacs-congressional-leaders",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "Polymarket has investigated 'dozens' of election-related cases",
+      "url": "https://npr.org/2026/10/27/nx-s1-6012304/polymarket-election-betting-surveillance",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "Ohio’s Biggest Newspaper Breaks Its No-Endorsement Policy to Condemn Ramaswamy",
+      "url": "https://washingtonsun.com/campaigns/cleveland-plain-dealer-ohio-newspaper-breaks-no-endorsement-policy-amy-acton-condemn-vivek-ramaswamy",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "Massive Groups of Volunteers Are Ready to Face Down ICE at the Polls",
+      "url": "https://wired.com/story/massive-groups-of-volunteers-are-ready-to-face-down-ice-at-the-polls",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "Justice Department Charges Comey for a Third Time",
+      "url": "https://washingtonsun.com/legal/justice-department-charges-comey-third-time",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "Judge says DOJ illegally fired the daughter of former FBI director Comey",
+      "url": "https://npr.org/2026/10/26/g-s1-149960/judge-maurene-comey-illegal-dismissal",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "Judge Orders Greg Abbott to Hand Over His Communications With Elon Musk",
+      "url": "https://washingtonsun.com/legal/judge-greg-abbott-hand-over-communications-emails-elon-musk",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "In Scathing Ruling, Judge Extends Ban on Tree Cutting at Trump’s Golf Project",
+      "url": "https://washingtonsun.com/whitehouse/judge-east-potomac-golf-course-restraining-order",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "How congressional Democrats are preparing for claims of election fraud by Trump",
+      "url": "https://npr.org/2026/10/27/nx-s1-6013555/congressional-democrats-are-forming-a-task-force-to-protect-election-results",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "How To Get Infrequent Voters To Turnout",
+      "url": "https://campaigntrend.com/how-to-get-infrequent-voters-to-turn-out",
+      "source": "Campaign Trend",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "Federal Agents Raid Beverly Hills Mansion Tied to Eric Swalwell",
+      "url": "https://washingtonsun.com/national/federal-agents-raid-beverly-hills-mansion-tied-to-eric-swalwell",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "Democrats still poised to make gains, but poll shows warning signs for just how many",
+      "url": "https://npr.org/2026/10/27/nx-s1-6017479/2026-midterms-npr-poll-democrats-trump-approval",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "Democrats have a midterm edge, poll shows. And, Israelis vote in high-stakes election",
+      "url": "https://npr.org/2026/10/27/g-s1-150052/up-first-newsletter-midterms-polling-data-voter-fraud-israel-prime-minister-elections",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "Can Black voting power and Trump fatigue break Mississippi's red wall?",
+      "url": "https://npr.org/2026/10/27/nx-s1-6018592/mississippi-senate-trump-colom-black-voter-turnout",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "As the Number of Days Until the Election Falls, Trump’s Numbers Keep Growing",
+      "url": "https://washingtonsun.com/campaigns/trump-numbers-keep-growing-ahead-of-midterms",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "As Early Voting Begins in D.C., Some Prepare for Federal Interference",
+      "url": "https://washingtonsun.com/metro/dc-election-polling-places-national-guard",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "Appeals Court Rejects DOJ’s Emergency Appeal Over California Ballots",
+      "url": "https://washingtonsun.com/legal/9th-circuit-rejects-trump-administration-appeal-california-ballots-case",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "AIPAC Ends Endorsements After 2026: What It Means for Campaigns",
+      "url": "https://thepoliticalgroup.com/news/aipacs-2026-retreat-from-endorsements-rewrites-the-rules-of-money-in-politics",
+      "source": "The Political Group",
+      "discovery": "watchlist"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "no_ai",
+      "title": "A judge halted D.C. golf course renovations. Trump says they'll still start next month",
+      "url": "https://npr.org/2026/10/27/nx-s1-6019192/east-potomac-golf-course-renovations-blocked-appeal",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-27",
+      "reason": "already_covered",
+      "title": "AI political ads increasing, no N.C. laws require disclosure",
+      "url": "https://spectrumlocalnews.com/nc/charlotte/news/2026/10/27/ai-political-ads-increasing--no-n-c--laws-require-disclosure-",
+      "source": "Spectrum Local News",
+      "discovery": "search"
+    },
+    {
       "run_id": "2026-10-26",
       "reason": "wrong_actor",
       "title": "Washington's message to AI execs: please shut up",

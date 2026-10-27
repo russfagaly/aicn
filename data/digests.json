@@ -1,7 +1,23 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T18:31:42Z",
+  "generated_at": "2026-10-27T17:46:35Z",
   "runs": [
+    {
+      "run_id": "2026-10-27",
+      "date": "2026-10-27",
+      "generated_at": "2026-10-27T17:46:35Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "candidates_reviewed": 50,
+      "rejection_counts": {
+        "already_covered": 1,
+        "no_ai": 27,
+        "not_political": 17,
+        "wrong_actor": 5
+      },
+      "items": []
+    },
     {
       "run_id": "2026-10-26",
       "date": "2026-10-26",
@@ -1485,52 +1501,6 @@
             "method": "search",
             "source_ref": "gdelt",
             "confidence": "low"
-          }
-        }
-      ]
-    },
-    {
-      "run_id": "2026-09-08",
-      "date": "2026-09-08",
-      "generated_at": "2026-09-08T16:20:05Z",
-      "is_light_run": false,
-      "top_summary": "A North Carolina state senate race produced a concrete AI deepfake attack ad, with incumbent Republican Michael Lee deploying a synthetic-media spot mocking Democratic opponent Jessica Bichler \u2014 one of the cleaner examples this cycle of a named campaign actually deploying AI-generated content. The Campaigns & Elections practitioner piece offers a rare direct signal to digital directors that AI-generated answers in search and social feeds are reshaping voter information environments and campaigns need to adapt their content strategy accordingly. No other candidates this run cleared the AI-in-campaign-hands threshold.",
-      "item_count": 2,
-      "items": [
-        {
-          "id": "3344369a7094b74b",
-          "title": "Sunday Edition : Slopping Towards Bethlehem",
-          "url": "https://whqr.org/local/2026-09-06/sunday-edition-slopping-towards-bethlehem",
-          "source": "whqr.org",
-          "source_domain": "whqr.org",
-          "published": "2026-09-06",
-          "first_seen_run": "2026-09-08",
-          "category": "deepfakes",
-          "summary": "Republican State Senator Michael Lee's campaign in North Carolina released an AI deepfake ad mocking his Democratic opponent Jessica Bichler; the piece examines the ad in the context of AI-generated political content becoming routine and some states moving to regulate it.",
-          "why_it_matters": "This is a named, sitting legislator's campaign deploying an AI deepfake attack ad against a named opponent \u2014 a concrete example of synthetic media as an offensive campaign tactic in a down-ballot race.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "gdelt",
-            "confidence": "low"
-          }
-        },
-        {
-          "id": "562dad18759671ab",
-          "title": "The Information Environment Has Changed. Has Your Campaign?",
-          "url": "https://campaignsandelections.com/voices/the-information-environment-has-changed-has-your-campaign",
-          "source": "Campaigns & Elections",
-          "source_domain": "campaignsandelections.com",
-          "published": "2026-09-08",
-          "first_seen_run": "2026-09-08",
-          "category": "analysis_oped",
-          "summary": "A Campaigns & Elections practitioner column argues that voters now increasingly encounter politics through AI-generated answers in search results and social feeds, and urges campaign digital teams to rethink content strategy to reach audiences in those new channels.",
-          "why_it_matters": "Practitioner-facing analysis on how AI-mediated information channels (AI search answers, creator video, neighborhood groups) are displacing traditional media reach and what campaigns should do differently.",
-          "flags": [],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "campaigns-and-elections",
-            "confidence": "high"
           }
         }
       ]
