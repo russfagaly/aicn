@@ -1196,6 +1196,30 @@
       ],
       "first_proposed": "2026-10-26",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-ballotpedia",
+      "kind": "watchlist_entity",
+      "value": "Ballotpedia",
+      "feed_url": null,
+      "rationale": "Named as a key AI-citation source that campaigns should actively manage — not previously on the watchlist and directly relevant to the emerging AI answer-engine optimization space for campaigns.",
+      "example_urls": [
+        "https://campaigntrend.com/why-ai-chatbots-love-ballotpedia-and-what-candidates-should-do-about-it/"
+      ],
+      "first_proposed": "2026-10-28",
+      "status": "pending"
+    },
+    {
+      "id": "prop-entity-leslie-graves",
+      "kind": "watchlist_entity",
+      "value": "Leslie Graves",
+      "feed_url": null,
+      "rationale": "Ballotpedia's named representative explaining the AI-citation dynamic to campaign practitioners — a person worth tracking as a practitioner voice on AI and election information.",
+      "example_urls": [
+        "https://campaigntrend.com/why-ai-chatbots-love-ballotpedia-and-what-candidates-should-do-about-it/"
+      ],
+      "first_proposed": "2026-10-28",
+      "status": "pending"
     }
   ]
 }

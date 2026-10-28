@@ -3,6 +3,334 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-10-28",
+      "reason": "wrong_actor",
+      "title": "OpenAI Opens an Election War Room a Week Before the Midterms",
+      "url": "https://fourweekmba.com/ai-openai-opens-an-election-war-room-a-week-before-the-midterms",
+      "source": "FourWeekMBA",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "wrong_actor",
+      "title": "How a lifelong Republican came to lead the data center battle in Ohio",
+      "url": "https://npr.org/2026/10/28/nx-s1-6019276/data-centers-ai-midterms-ohio",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "not_political",
+      "title": "What to Do in the D.C. Area This Weekend (Oct. 29)",
+      "url": "https://washingtonsun.com/metro/dc-events-listing-oct-29",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "not_political",
+      "title": "U.S. Expels Cuban Official Who Got Into a Diplomatic Dust-Up at the U.N.",
+      "url": "https://washingtonsun.com/foreign-policy/mike-waltz-us-expels-cuban-official-united-nations-un-shouting",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "not_political",
+      "title": "Trump Unveils Plan to Relax Methane Emission Restrictions for Oil Companies",
+      "url": "https://washingtonsun.com/energy-environment/trump-planned-rule-relax-methane-emission-restrictions-oil-companies",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "not_political",
+      "title": "Trump Gutted Refugee Programs. Those Already Here Feel Left Behind.",
+      "url": "https://washingtonsun.com/immigration/trump-gutted-refugee-programs-those-already-here-feel-left-behind",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "not_political",
+      "title": "The Capitals Aren’t Fans of This Weird Schedule, Either",
+      "url": "https://washingtonsun.com/sports/capitals/nhl-schedule",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "not_political",
+      "title": "Sprinklr Launches 6 Marketing AI Agents in Beta",
+      "url": "https://cmswire.com/customer-experience/sprinklr-launches-6-marketing-ai-agents-in-beta",
+      "source": "CMSWire",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "not_political",
+      "title": "Pentagon Tells Congress the Iran War Has Cost an Estimated $47.1 Billion",
+      "url": "https://washingtonsun.com/defense/pentagon-tells-congress-iran-war-cost-47-billion",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "not_political",
+      "title": "Mike Waltz Gets Into a Shouting Match With Top Cuban Official at the U.N.",
+      "url": "https://washingtonsun.com/foreign-policy/mike-waltz-united-nations-cuban-official-shouting-match",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "not_political",
+      "title": "Lawmakers’ Stock Selling Limited Their Exposure to Tariffs",
+      "url": "https://washingtonsun.com/economy/lawmakers-stock-selling-limited-their-exposure-to-tariffs",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "not_political",
+      "title": "Justice Department Appeals Judge’s Ban on Tree-Cutting at East Potomac Golf Course",
+      "url": "https://washingtonsun.com/metro/justice-department-appeals-judge-order-east-potomac-park",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "not_political",
+      "title": "Judge Rules Trump’s Top Federal Prosecutor in LA Is Unlawfully Serving",
+      "url": "https://washingtonsun.com/legal/bill-essayli-judge-trump-federal-prosecutor-us-attorney-la-los-angeles-unlawfully-serving",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "not_political",
+      "title": "Judge Dresses Down DOJ Attorneys Handling New Hunter Biden Laptop Case",
+      "url": "https://washingtonsun.com/legal/judge-dresses-down-doj-attorneys-hunter-biden-laptop-case-fbi-agents",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "not_political",
+      "title": "Dolores Huerta, the Labor Leader, Feminist and Civil Rights Icon, Dies at 96",
+      "url": "https://washingtonsun.com/us-news/dolores-huerta-labor-feminist-civil-rights-icon-dies-at-96-cesar-chavez",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "not_political",
+      "title": "All-DMV High School Soccer Players of Week 9",
+      "url": "https://washingtonsun.com/sports/all-dmv/all-dmv-high-school-soccer-players-oct-28",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "not_political",
+      "title": "AP Sources: Grand Jury Refuses to Indict Ex-White House Aide Cassidy Hutchinson",
+      "url": "https://washingtonsun.com/legal/grand-jury-white-house-aide-cassidy-hutchinson-jan-6-testimony",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "not_political",
+      "title": "AJ Dybantsa Will Make His NBA Debut Wednesday Against the Cavs",
+      "url": "https://washingtonsun.com/sports/wizards/aj-dybantsa-nba-debut-wizards",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "Why many student voters have a right to choose where to register to vote",
+      "url": "https://npr.org/2026/10/28/nx-s1-5793936/college-student-voting",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "Trump’s Texas Rally Comes With New Scenery: The First Tanker of Venezuelan Oil",
+      "url": "https://washingtonsun.com/whitehouse/trump-texas-rally-comes-with-first-tanker-of-venezuelan-oil",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "The Midterms Are Almost Over. Democrats’ 2028 Jockeying Has Begun.",
+      "url": "https://washingtonsun.com/campaigns/midterms-democrats-2028-aoc-dnc",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "The Late Money Problem: Here’s a Playbook to Make Your Late Dollars Count",
+      "url": "https://campaignsandelections.com/uncategorized/the-late-money-problem-heres-a-playbook-to-make-your-late-dollars-count",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "The 2025-2026 Election Cycle Is Officially the Most Expensive",
+      "url": "https://campaignsandelections.com/industry-news/the-2025-2026-election-cycle-is-officially-the-most-expensive",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "Streamer Hasan Piker Hits Scott Jennings With a $72 Million Defamation Suit",
+      "url": "https://washingtonsun.com/legal/hasan-piker-defamation-suit-scott-jennings",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "Senators Demand to Know if Dr. Oz Collaborated With Election Denial Groups",
+      "url": "https://wired.com/story/senators-demand-to-know-if-dr-oz-collaborated-with-election-denial-groups",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "Senate candidates built up massive campaign war chests with out-of-state donations",
+      "url": "https://npr.org/2026/10/28/nx-s1-5940017/senate-campaign-fundraising-actblue-winred-ossoff",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "Republicans Made This Florida District Red. Their Candidate May Keep It Blue.",
+      "url": "https://washingtonsun.com/campaigns/republicans-florida-gerrymander-red-district-tossup-dandiya-askar",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "New Mexico’s Politicians Try On a New Title: Democratic Kingmakers",
+      "url": "https://washingtonsun.com/campaigns/new-mexico-ben-ray-lujandnc-democrats-2028-election",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "Morning Sun: Presidential Politicking",
+      "url": "https://washingtonsun.com/newsletters/presidential-politicking",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "Minnesota becomes battleground as political clashes shape Senate race",
+      "url": "https://npr.org/2026/10/28/nx-s1-6019356/minnesota-becomes-battleground-as-political-clashes-shape-senate-race",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "Israel's election too close to call. And, the Ebola outbreak reaches grim milestone",
+      "url": "https://npr.org/2026/10/28/g-s1-150313/up-first-newsletter-midterm-campaign-trump-israel-elections-federal-reserve-ebola-outbreak",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "House Democratic Whip Puts Her Money Where Her Mouth Is",
+      "url": "https://washingtonsun.com/campaigns/house-democratic-whip-clark-fundraising-midterms",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "Here's how Democrats in Congress are preparing for election fraud claims",
+      "url": "https://npr.org/2026/10/28/g-s1-150095/democrats-prepare-election-fraud-claims",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "Federal Election Commission Outage Hits One Week Out From Election Day",
+      "url": "https://washingtonsun.com/influence/federal-election-commission-website-down-suspected-hack",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "Ex-Biden Officials Want 2028 Democrats to Reject Biden and Trump Policies on Israel",
+      "url": "https://washingtonsun.com/foreign-policy/ex-biden-officials-want-2028-democrats-to-reject-biden-and-trump-israel-policies",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "Everyone Might be Sleeping on Minnesota",
+      "url": "https://washingtonsun.com/campaigns/minnesota-senate-race-peggy-flanagan",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "Democrats May Have Recruited Alaska’s Second Dan Sullivan, After All",
+      "url": "https://washingtonsun.com/campaigns/democrats-mary-peltola-may-have-recruited-alaska-second-dan-sullivan",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "Delegate on Deadline",
+      "url": "https://washingtonsun.com/metro-newsletter/delegate-on-deadline",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "Defeated Brazilian Presidential Candidate Flávio Bolsonaro Flees to Miami",
+      "url": "https://washingtonsun.com/foreign-policy/defeated-brazilian-presidential-candidate-flavio-bolsonaro-flees-to-miami",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "D.C.’s Biggest Election Debate: Should Foie Gras Be Banned?",
+      "url": "https://washingtonsun.com/metro/dc/foie-gras-ban-duck-liver-election-ballot-jose-andres-butterworths",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-28",
+      "reason": "no_ai",
+      "title": "Afternoon Sun: Politics Ain't Cheap",
+      "url": "https://washingtonsun.com/afternoon-sun-newsletter/politics-aint-cheap",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-10-27",
       "reason": "wrong_actor",
       "title": "UK Politician Jess Asato Got Deepfaked. Now She’s Taking xAI to Court",

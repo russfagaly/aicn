@@ -2,6 +2,52 @@
   "schema_version": 1,
   "runs": [
     {
+      "run_id": "2026-09-09",
+      "date": "2026-09-09",
+      "generated_at": "2026-09-09T16:20:36Z",
+      "is_light_run": false,
+      "top_summary": "The most notable on-topic item this run is a Daily Kos report on Ken Paxton's campaign using an AI-generated ad that fabricates a quote from opponent James Talarico \u2014 a concrete example of a statewide campaign deploying synthetic media against a named rival. Separately, Turning Point USA activists posted a deepfake of Arizona Rep. Lorena Austin planting a political sign, illustrating advocacy groups using AI-generated video to target incumbents.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "1fb6d0ad95d29b52",
+          "title": "KEN PAXTON BS AI Campaign Ad Features a Fake James Talarico Misquoting Himself",
+          "url": "https://dailykos.com/stories/2026/9/8/800095633/community/ken-paxtons-bs-ai-campaign-ad-features-a-fake-james-talarico-misquoting-himself",
+          "source": "dailykos.com",
+          "source_domain": "dailykos.com",
+          "published": "2026-09-09",
+          "first_seen_run": "2026-09-09",
+          "category": "deepfakes",
+          "summary": "Ken Paxton's campaign released an AI-generated ad that depicts his opponent James Talarico appearing to misquote himself, fabricating a statement Talarico never made.",
+          "why_it_matters": "Illustrates how statewide campaigns are using AI-generated video to put false words in opponents' mouths \u2014 a direct test of synthetic-media tactics in a high-profile race.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        },
+        {
+          "id": "53984fb267ce27fc",
+          "title": "Rep . Lorena Austin troubled by Turning Point united states deepfakes",
+          "url": "https://phoenixnewtimes.com/news/turning-point-posted-deepfake-rep-lorena-austin-planting-democratas-por-biggs-sign-40696531",
+          "source": "phoenixnewtimes.com",
+          "source_domain": "phoenixnewtimes.com",
+          "published": "2026-09-09",
+          "first_seen_run": "2026-09-09",
+          "category": "deepfakes",
+          "summary": "Turning Point USA activists posted a deepfake video showing Arizona Rep. Lorena Austin planting a \"Democratas Por Biggs\" sign in downtown Mesa, which Austin described as troubling.",
+          "why_it_matters": "Shows advocacy organizations deploying AI-generated video to discredit incumbent officeholders, extending synthetic-media tactics beyond candidate campaigns to allied outside groups.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "gdelt",
+            "confidence": "low"
+          }
+        }
+      ]
+    },
+    {
       "run_id": "2026-09-08",
       "date": "2026-09-08",
       "generated_at": "2026-09-08T16:20:05Z",

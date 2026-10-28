@@ -5,7 +5,21 @@
     <link>https://russfagaly.github.io/aicn/</link>
     <atom:link href="https://russfagaly.github.io/aicn/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Tue, 27 Oct 2026 17:46:35 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 18:08:17 GMT</lastBuildDate>
+    <item>
+      <title>Why AI Chatbots Love Ballotpedia, and What Candidates Should Do About It</title>
+      <link>https://campaigntrend.com/why-ai-chatbots-love-ballotpedia-and-what-candidates-should-do-about-it</link>
+      <guid isPermaLink="false">e774bce863f2a8c8</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Ballotpedia's Leslie Graves explains why major AI chatbots frequently cite Ballotpedia as a primary source for candidate information, and outlines concrete steps campaigns can take to ensure their candidates' Ballotpedia profiles are accurate and optimized to influence AI-generated answers.</description>
+    </item>
+    <item>
+      <title>AI Is Reshaping Political Ads — and You Might Not Even Know It</title>
+      <link>https://katiecouric.com/news/politics-and-policy/ai-political-ads-midterms</link>
+      <guid isPermaLink="false">0ad98fdd1204ebe8</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+      <description>A Katie Couric Media overview reports that AI-generated political ads are proliferating in the 2026 midterms, describing them as cheaper and harder for voters to detect than traditionally produced spots.</description>
+    </item>
     <item>
       <title>Meet Haystack: Social Listening Built for Democrats</title>
       <link>https://highergroundlabs.com/haystack</link>
@@ -201,20 +215,6 @@
       <guid isPermaLink="false">44e3282cc6b5349c</guid>
       <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
       <description>An ad-tracking effort has identified roughly 170 AI-generated political ads with approximately $80 million in combined spending in 2026, finding that many of these ads carry no AI disclosure due to inconsistent state-level requirements.</description>
-    </item>
-    <item>
-      <title>How AI is playing in the post-Nancy Pelosi race</title>
-      <link>https://punchbowl.news/article/tech/ai-nancy-pelosi-race</link>
-      <guid isPermaLink="false">1eec1740c49caf4f</guid>
-      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
-      <description>In the California congressional race to succeed Nancy Pelosi, campaigns for state Sen. Scott Wiener and San Francisco Supervisor Connie Chan have both deployed paid ads explicitly invoking artificial intelligence, making AI a central message in the contest.</description>
-    </item>
-    <item>
-      <title>OpenAI wants to curb misleading election deepfakes</title>
-      <link>https://punchbowl.news/article/tech/openai-election-deepfakes</link>
-      <guid isPermaLink="false">03433e60900bffc4</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
-      <description>OpenAI is taking steps to make it harder for users to generate misleading election deepfakes through its platforms, implementing restrictions targeting bad actors seeking to interfere in U.S. elections.</description>
     </item>
   </channel>
 </rss>
