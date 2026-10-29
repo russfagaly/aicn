@@ -3,6 +3,350 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-10-29",
+      "reason": "not_practical",
+      "title": "DCCC pushes for ads targeting GOP on AI, data centers in dozens of key House races",
+      "url": "https://thehill.com/homenews/state-watch/6173803-live-updates-trump-texas-midterm-elections",
+      "source": "The Hill",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "not_political",
+      "title": "The Washington Sun Metro: JLG’s Pay Check",
+      "url": "https://washingtonsun.com/metro-newsletter/jlgs-pay-check",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "not_political",
+      "title": "Tesla, SpaceX and PepsiCo: Jeanine Pirro Made 140 Financial Trades Since April",
+      "url": "https://washingtonsun.com/influence/jeanine-pirro-stock-trading-disclosures",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "not_political",
+      "title": "Talk to Tom: How to Get a Reservation at Albi",
+      "url": "https://washingtonsun.com/metro/albi-reservations-dc-restaurants-tom-sietsema",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "not_political",
+      "title": "National Links Trust Signs New Lease for Two D.C. Golf Courses, Excluding East Potomac",
+      "url": "https://washingtonsun.com/metro/national-links-trust-golf-lease-east-potomac",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "not_political",
+      "title": "Maryland Woman Indicted on Charges of Defrauding D.C. Medicaid Program",
+      "url": "https://washingtonsun.com/metro/maryland-woman-indicted-medicaid-fraud",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "not_political",
+      "title": "His Job is to Make Baseball Dreams Come True. He’s Still Chasing His Own.",
+      "url": "https://washingtonsun.com/sports/nationals/matthew-lecroy-nationals-triple-a-manager",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "not_political",
+      "title": "D.C. United Falls to Toronto FC, 2-1",
+      "url": "https://washingtonsun.com/sports/dc-united-toronto-fc",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "not_political",
+      "title": "Construction Firm Sues the State Department Over Unpaid Embassy Projects",
+      "url": "https://washingtonsun.com/legal/construction-firm-bl-harbert-sues-state-department-unpaid-embassy-projects-contracts",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "not_political",
+      "title": "Capitals Beat Flyers, 5-2",
+      "url": "https://washingtonsun.com/sports/capitals-beat-flyers",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "not_political",
+      "title": "As Alex Ovechkin Embarks on a Farewell Tour, Another ‘Great 8’ Knows the Feeling",
+      "url": "https://washingtonsun.com/sports/alex-ovechkin-cal-ripken-farewell-tour",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "not_political",
+      "title": "AJ Dybantsa Looked Like a Vet in His NBA Debut",
+      "url": "https://washingtonsun.com/sports/wizards/aj-dybantsa-nba-debut-performance",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "not_political",
+      "title": "A Pay Bump for D.C.’s Next Mayor? Janeese Lewis George Says No.",
+      "url": "https://washingtonsun.com/metro/dc-mayor-pay-increase-janeese-lewis-george",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Trump Scraps a Weekend Trip to Kansas",
+      "url": "https://washingtonsun.com/campaigns/trump-scraps-trip-to-kansas",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Trump Aides Are Leaning on U.S. Firms to Accept Russian Diesel",
+      "url": "https://washingtonsun.com/whitehouse/trump-aides-leaning-us-firms-accept-russian-diesel",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "This Is What the GOP’s Final Midterms Push Looks Like",
+      "url": "https://wired.com/story/this-is-what-the-gops-final-midterms-push-looks-like",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "These are the House races to watch in the 2026 midterm election on Nov. 3",
+      "url": "https://npr.org/2026/10/29/nx-s1-6020921/2026-house-map-democrats-flip-republicans-tossup-triage",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Support for Trump among white evangelicals has plummeted, polls reveal",
+      "url": "https://npr.org/2026/10/29/nx-s1-6012410/support-for-trump-among-white-evangelicals-has-plummeted-polls-reveal",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Stop Mistaking Headlines for Voter Values",
+      "url": "https://campaignsandelections.com/voices/stop-mistaking-headlines-for-voter-values",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "State ballots let voters decide on abortion, taxes, transgender restrictions",
+      "url": "https://npr.org/2026/10/29/nx-s1-6019363/state-ballot-referendum-abortion-taxes",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Oregon-Based Group Becomes First Ballot Initiative Campaign to Unionize",
+      "url": "https://campaignsandelections.com/industry-news/oregon-based-group-becomes-first-ballot-initiative-campaign-to-unionize",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Obama Brushes Off White House Response to Cheesecake Factory Joke",
+      "url": "https://washingtonsun.com/campaigns/obama-trump-white-house-response-cheesecake-factory-joke-georgia",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Morning Sun: The Alaska Gambit",
+      "url": "https://washingtonsun.com/newsletters/the-alaska-gambit",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Law Firm Linked to Elon Musk Started an ‘Election Integrity’ Organization",
+      "url": "https://wired.com/story/law-firm-linked-to-elon-musk-started-an-election-integrity-organization",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Judge denies the Justice Department's bid to stop processing California ballots",
+      "url": "https://npr.org/2026/10/28/nx-s1-6021478/doj-california-ballots-denied",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Judge Allows Democrats to Intervene in DOJ’s Alaska Senate Challenge",
+      "url": "https://washingtonsun.com/legal/justice-department-alaska-senate-mary-peltola-allowed",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Iowa’s Cancer Crisis Has Upended Pivotal Midterm Races",
+      "url": "https://washingtonsun.com/campaigns/iowa-cancer-crisis-senate-governor-race",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "In a Western Massachusetts Town, Everyone Is Someone Else's Fascist",
+      "url": "https://washingtonsun.com/national/northampton-western-mass-fascism-sciarra",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "In Ohio, an Ad and an Ass Take Center Stage",
+      "url": "https://washingtonsun.com/campaigns/ohio-vivek-ramaswamy-ad-jon-husted-trump-body",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Hegseth Fires a Top Military Strategist Over Alleged Classified Leaks",
+      "url": "https://washingtonsun.com/defense/hegseth-fires-top-military-strategist-over-alleged-classified-leaks",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Hacktivist Group IDs Thousands of DHS Agents Online After Massive Data Breach",
+      "url": "https://washingtonsun.com/technology/ddos-distributed-denial-secrets-department-peace-hacktivist-group-id-identify-name-thousands-of-dhs-agents-online-data-breach",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Hackers expose the identities of more than 40,000 DHS employees",
+      "url": "https://npr.org/2026/10/28/nx-s1-6021497/dhs-hack-ice",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "GDP report to give insight before Election Day. And, Israel's election is deadlocked",
+      "url": "https://npr.org/2026/10/29/g-s1-150614/up-first-newsletter-midterm-elections-gdp-inflation-israel-department-of-education-lawsuit",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Fishing is a key issue in Alaska's tight U.S. Senate race",
+      "url": "https://npr.org/2026/10/29/nx-s1-6018248/fishing-is-a-key-issue-in-alaskas-tight-u-s-senate-race",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Federal Judge Rules DOJ Cannot Segregate California Ballots",
+      "url": "https://washingtonsun.com/legal/doj-segregate-california-ballots-federal-ruling",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "FBI Putting Surveillance Antennas Atop Trump-Branded Towers",
+      "url": "https://washingtonsun.com/legal/fbi-trump-towers-surveillance-contract",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Democrats Seek to Close the ‘Elon Musk Loophole’ in Campaign Spending",
+      "url": "https://washingtonsun.com/congress/democrats-elon-musk-loophole-campaign-finance",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Democrats Ask State’s Inspector General to Probe Politicized Personnel Practices",
+      "url": "https://washingtonsun.com/congress/democrats-ask-state-inspector-general-probe-politicized-personnel-practices",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Crypto Went Big for Republicans After Democrats Sank the CLARITY Act",
+      "url": "https://washingtonsun.com/campaigns/cryptocurrency-spending-republicans-democrats-jon-husted-clarity-act",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Comer Plans to Grill Democrats Accused of Alaska Ballot-Stacking Scheme",
+      "url": "https://washingtonsun.com/congress/james-comer-house-oversight-plans-to-grill-democrats-accused-of-alaska-ballot-stacking-scheme",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Brazilian Supreme Court Justice Orders Investigation Into Vance’s Donor Network",
+      "url": "https://washingtonsun.com/legal/brazilian-supreme-court-justice-orders-investigation-into-vances-donor-network",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "Alaska’s Governor Has Ordered an Investigation Into the Senate Race",
+      "url": "https://washingtonsun.com/campaigns/alaska-governor-investigation-senate-race-peltola-sullivan",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-29",
+      "reason": "no_ai",
+      "title": "A breakthrough for the group on the trail of Chinese hackers",
+      "url": "https://npr.org/2026/10/28/nx-s1-6019538/a-breakthrough-for-the-group-on-the-trail-of-chinese-hackers",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-10-28",
       "reason": "wrong_actor",
       "title": "OpenAI Opens an Election War Room a Week Before the Midterms",
