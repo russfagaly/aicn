@@ -5,7 +5,28 @@
     <link>https://russfagaly.github.io/aicn/</link>
     <atom:link href="https://russfagaly.github.io/aicn/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Thu, 29 Oct 2026 18:16:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 17:54:00 GMT</lastBuildDate>
+    <item>
+      <title>Campaign texts, now powered by AI: How new tech is shaping voter outreach</title>
+      <link>https://cbsnews.com/news/ai-campaign-texts-midterms</link>
+      <guid isPermaLink="false">e5fca2e98e9e5426</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <description>CBS News reports that campaigns in the 2026 midterms are using AI-powered texting platforms to conduct voter outreach at scale, with some programs designed not just for listening but for persuasion.</description>
+    </item>
+    <item>
+      <title>AI-powered robocalls attack Talarico on data centers</title>
+      <link>https://cnn.com/2026/10/29/politics/ai-robocalls-talarico-data-centers-kfile</link>
+      <guid isPermaLink="false">c6c3bfc69b70dc12</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <description>CNN's KFile reports that AI-powered robocalls targeting Texas candidate Brian Talarico attacked him on the issue of data centers, a distinct deployment from the broader Republican AI ad strategy previously reported.</description>
+    </item>
+    <item>
+      <title>Websites pretending to be local news are boosting Democratic candidates</title>
+      <link>https://npr.org/2026/10/30/nx-s1-6014548/midterms-chatgpt-local-news-democrats</link>
+      <guid isPermaLink="false">d4f888413a91a8fe</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <description>NPR reports that websites impersonating local news outlets are using ChatGPT to generate content boosting Democratic candidates in the 2026 midterms.</description>
+    </item>
     <item>
       <title>Why AI Chatbots Love Ballotpedia, and What Candidates Should Do About It</title>
       <link>https://campaigntrend.com/why-ai-chatbots-love-ballotpedia-and-what-candidates-should-do-about-it</link>
@@ -194,27 +215,6 @@
       <guid isPermaLink="false">afebace2433adcdc</guid>
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
       <description>Aaron Day, a political operative known for recruiting spoiler candidates, is using AI to scale his third-party candidate recruitment and placement operation nationally ahead of the 2026 midterms, according to Semafor.</description>
-    </item>
-    <item>
-      <title>FullPAC Launches GOTV AI, the Campaign Strategy Platform Built on the Record of American Elections</title>
-      <link>https://globenewswire.com/news-release/2026/10/13/3379868/0/en/fullpac-launches-gotv-ai-the-campaign-strategy-platform-built-on-the-record-of-american-elections.html</link>
-      <guid isPermaLink="false">b90e652e425f927f</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-      <description>FullPAC has launched GOTV AI, a campaign strategy platform it says is trained on the historical record of American elections and designed to support get-out-the-vote and campaign planning efforts.</description>
-    </item>
-    <item>
-      <title>The AI Election Ad Surge: Why the 2026 Midterms Need a Common Transparency Baseline</title>
-      <link>https://campaignsandelections.com/voices/the-ai-election-ad-surge-why-the-2026-midterms-need-a-common-transparency-baseline</link>
-      <guid isPermaLink="false">3e60136e4efe8487</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-      <description>A Campaigns &amp; Elections op-ed argues that campaigns in 2026 are producing far more ad versions across more screens at unprecedented speed thanks to AI, and calls for a common transparency baseline for AI-generated election ads given the current patchwork of state requirements.</description>
-    </item>
-    <item>
-      <title>We've tracked $80M of spending on almost 170 AI-generated political ads this year – it's weird</title>
-      <link>https://salon.com/2026/10/06/weve-tracked-80m-of-spending-on-almost-170-ai-generated-political-ads-this-year-its-weird-partner</link>
-      <guid isPermaLink="false">44e3282cc6b5349c</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
-      <description>An ad-tracking effort has identified roughly 170 AI-generated political ads with approximately $80 million in combined spending in 2026, finding that many of these ads carry no AI disclosure due to inconsistent state-level requirements.</description>
     </item>
   </channel>
 </rss>

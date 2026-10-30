@@ -1,7 +1,78 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T18:16:14Z",
+  "generated_at": "2026-10-30T17:54:00Z",
   "runs": [
+    {
+      "run_id": "2026-10-30",
+      "date": "2026-10-30",
+      "generated_at": "2026-10-30T17:54:00Z",
+      "is_light_run": false,
+      "top_summary": "CBS News reports campaigns are actively deploying AI-powered texting tools for voter outreach and persuasion in the 2026 midterms, offering concrete detail on how the technology is being used in the field. CNN reports AI-powered robocalls attacking Texas candidate Brian Talarico on data centers, a new development distinct from the earlier Washington Post story on Republican AI ad strategy. A local-news impersonation network using ChatGPT to boost Democratic candidates also surfaces this cycle.",
+      "item_count": 3,
+      "candidates_reviewed": 47,
+      "rejection_counts": {
+        "no_ai": 35,
+        "not_political": 5,
+        "not_practical": 2,
+        "wrong_actor": 2
+      },
+      "items": [
+        {
+          "id": "e5fca2e98e9e5426",
+          "title": "Campaign texts, now powered by AI: How new tech is shaping voter outreach",
+          "url": "https://cbsnews.com/news/ai-campaign-texts-midterms",
+          "source": "CBS News",
+          "source_domain": "cbsnews.com",
+          "published": "2026-10-30",
+          "first_seen_run": "2026-10-30",
+          "category": "deployments_studies",
+          "summary": "CBS News reports that campaigns in the 2026 midterms are using AI-powered texting platforms to conduct voter outreach at scale, with some programs designed not just for listening but for persuasion.",
+          "why_it_matters": "Provides concrete, practitioner-level detail on how AI texting is being integrated into live campaign voter-contact operations, including persuasion use cases.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "c6c3bfc69b70dc12",
+          "title": "AI-powered robocalls attack Talarico on data centers",
+          "url": "https://cnn.com/2026/10/29/politics/ai-robocalls-talarico-data-centers-kfile",
+          "source": "CNN",
+          "source_domain": "cnn.com",
+          "published": "2026-10-29",
+          "first_seen_run": "2026-10-30",
+          "category": "deepfakes",
+          "summary": "CNN's KFile reports that AI-powered robocalls targeting Texas candidate Brian Talarico attacked him on the issue of data centers, a distinct deployment from the broader Republican AI ad strategy previously reported.",
+          "why_it_matters": "Documents a specific AI-generated audio attack-call campaign against a named candidate on a specific policy issue, adding granular detail to how AI audio is being weaponized in the 2026 cycle.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "d4f888413a91a8fe",
+          "title": "Websites pretending to be local news are boosting Democratic candidates",
+          "url": "https://npr.org/2026/10/30/nx-s1-6014548/midterms-chatgpt-local-news-democrats",
+          "source": "NPR Politics",
+          "source_domain": "npr.org",
+          "published": "2026-10-30",
+          "first_seen_run": "2026-10-30",
+          "category": "deployments_studies",
+          "summary": "NPR reports that websites impersonating local news outlets are using ChatGPT to generate content boosting Democratic candidates in the 2026 midterms.",
+          "why_it_matters": "Illustrates how AI content generation is being used to create coordinated inauthentic media ecosystems designed to influence voters under the guise of local journalism.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "npr",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-10-29",
       "date": "2026-10-29",
@@ -1505,15 +1576,6 @@
       "run_id": "2026-09-12",
       "date": "2026-09-12",
       "generated_at": "2026-09-12T15:38:35Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
-    },
-    {
-      "run_id": "2026-09-11",
-      "date": "2026-09-11",
-      "generated_at": "2026-09-11T16:11:51Z",
       "is_light_run": true,
       "top_summary": "",
       "item_count": 0,

@@ -3,6 +3,358 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-10-30",
+      "reason": "wrong_actor",
+      "title": "Trump Talks to Grok. Democrats Plan to Find Out What He’s Saying.",
+      "url": "https://washingtonsun.com/whitehouse/trump-grok-ai-democrats-oversight-judiciary-chatgpt-perplexity-claude-anthropic",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "wrong_actor",
+      "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
+      "url": "https://wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "not_practical",
+      "title": "Chatbots Flunk The Ballot Test",
+      "url": "https://campaigntrend.com/chatbots-flunk-the-ballot-test",
+      "source": "Campaign Trend",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "not_practical",
+      "title": "AI in the 2026 Midterms: Deepfakes, Chatbots, and Election Security",
+      "url": "https://eweek.com/news/ai-2026-midterms-deepfakes-chatbots-election-security",
+      "source": "eWeek",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "not_political",
+      "title": "What Should We Expect From AJ Dybantsa? Former No. 1 Picks Weigh In.",
+      "url": "https://washingtonsun.com/sports/wizards/aj-dybantsa-no-1-pick-advice",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "not_political",
+      "title": "The Caps Wanted to Honor Ovechkin — And the Victory Visor Was Born",
+      "url": "https://washingtonsun.com/sports/capitals/alex-ovechkin-visor-celebration-nhl",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "not_political",
+      "title": "Major D.C. Landlord Sued Over Excessive Fees for Tenants",
+      "url": "https://washingtonsun.com/metro/dc-landlord-sued-junk-fees",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "not_political",
+      "title": "George Pelecanos Shows Off His D.C. Roots Yet Again",
+      "url": "https://washingtonsun.com/metro/culture/george-pelecanos-blue-flame-dc-novel",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "not_political",
+      "title": "Cole Hutson Scores Twice In Caps’ 4-3 Win Over the Predators",
+      "url": "https://washingtonsun.com/sports/capitals/capitals-predators-oct-29",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Why is the Cheesecake Factory at the center of the latest culture war?",
+      "url": "https://npr.org/2026/10/30/nx-s1-6023106/cheesecake-factory-culture-war-affordability-trump-obama",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Unexpected Air Force One Flyover Gives Washington a Halloween Fright",
+      "url": "https://washingtonsun.com/metro/unexpected-air-force-one-flyover-trump-gives-washington-halloween-fright",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Trump Resurrects Canceled Rallies in Iowa and Kansas",
+      "url": "https://washingtonsun.com/campaigns/trump-resurrects-canceled-rallies-iowa-kansas-midterm-2026-election",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Trump Administration Halts Funding for Key Ukraine Security Programs",
+      "url": "https://washingtonsun.com/foreign-policy/trump-administration-halts-funding-for-key-ukraine-security-programs",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Thune Says Republicans Have 'Done All We Can Do' Before the Midterms",
+      "url": "https://washingtonsun.com/campaigns/thune-says-republicans-have-done-all-we-can-do-midterm-elections",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "The Washington Sun Metro: White Out",
+      "url": "https://washingtonsun.com/metro-newsletter/white-out",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "The Unlikely Resurgence of Kirsten Gillibrand",
+      "url": "https://washingtonsun.com/congress/kirsten-gillibrand-chuck-schumer-dscc-election-power",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "The Iran War’s Impact on Oil Is Hitting Key Senate Races Hard",
+      "url": "https://wired.com/story/iran-war-impact-on-oil-hits-key-senate-races",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "The DOJ’s Unlikely Point Man",
+      "url": "https://washingtonsun.com/legal/dojs-unlikely-point-man",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Texas Sues Harris County Clerk Over Alleged Targeted Voter Ads",
+      "url": "https://washingtonsun.com/legal/texas-harris-county-clerk-alleged-targeted-voter-ads-ken-paxton",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Ramaswamy Pulls Controversial Ad Featuring His Opponent’s Estranged Mother",
+      "url": "https://washingtonsun.com/campaigns/ramaswamy-pulls-ad-amy-acton-estranged-mother",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Pope Leo XIV Is the First Pope in History to Vote in a U.S. General Election",
+      "url": "https://washingtonsun.com/campaigns/pope-leo-xiv-first-vote-in-us-general-election",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Peltola Denies Knowing About Alaska Spoiler Candidate",
+      "url": "https://washingtonsun.com/campaigns/peltola-denies-knowing-alaska-dan-sullivan-effort",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "NPR special: 5 takeaways from a year of listening to swing voters",
+      "url": "https://npr.org/2026/10/30/nx-s1-6008113/npr-special-swing-voter-focus-groups",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Morning Sun: High Hopes",
+      "url": "https://washingtonsun.com/newsletters/high-hopes",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Meet America’s Most Political Sports Owners",
+      "url": "https://washingtonsun.com/influence/most-political-sports-owners-in-america",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Justice Department Subpoenas California Officials in Escalation of Its Scrutiny of Local Elections",
+      "url": "https://washingtonsun.com/national/justice-department-california-local-elections",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Justice Department Issues Subpoenas Over Alaska Candidate Controversy, AP Source Says",
+      "url": "https://washingtonsun.com/campaigns/justice-department-new-subpoenas-alaska-spoiler-candidate-controversy-ap-source",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Judge Wants More Details on Trump Administration's Noncitizen Voting Pressure Campaign",
+      "url": "https://washingtonsun.com/legal/judge-details-trump-administration-noncitizen-voting-pressure-campaign",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Judge Blocks Trump’s Work Requirement Rule for the ‘Medically Frail’",
+      "url": "https://washingtonsun.com/legal/judge-blocks-trumps-work-requirement-rule-medically-frail",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "ICE Officer Has Been Charged After Striking a Man With a Car in Houston",
+      "url": "https://washingtonsun.com/immigration/ice-officer-charged-houston-car",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "How powerful is Elon Musk? How his political influence compares to past U.S. moguls",
+      "url": "https://npr.org/2026/10/30/nx-s1-6019325/elon-musk-power-moguls-politics",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Here are the Senate races to watch ahead of Election Day",
+      "url": "https://npr.org/2026/10/30/g-s1-149975/2026-midterms-senate-map",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Forget Banning Stock Trades. A Democratic Majority Must Tackle All Corruption.",
+      "url": "https://washingtonsun.com/congress/corruption-ban-stock-trades-ethics-reform-democrats",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "For voters from immigrant families and new citizens, voting is bigger than themselves",
+      "url": "https://npr.org/2026/10/30/nx-s1-6022142/new-citizens-immigrant-voting-ice-trump",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Elon Musk’s Ties to Texas Republicans Go Much Deeper Than the Midterms",
+      "url": "https://wired.com/story/elon-musks-ties-to-texas-republicans-go-much-deeper-than-the-midterms",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "El-Sayed and Stevens to Make Rare Joint Appearance in Michigan Senate Race",
+      "url": "https://washingtonsun.com/campaigns/el-sayed-stevens-rare-joint-appearance-michigan-senate-race",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Democrats seek to weaken the Republican lead in state legislatures",
+      "url": "https://npr.org/2026/10/30/nx-s1-6022353/midterms-state-legislatures-pennsylvania",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Democrats Have a Bogeyman in Musk. They’re Hardly Using Him.",
+      "url": "https://washingtonsun.com/campaigns/elon-musk-democrats-midterm-election",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Another Dead Person Appears to Have Donated to David Flippo’s House Campaign",
+      "url": "https://washingtonsun.com/influence/david-flippo-dead-donor-contribution-report",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Alaska's Senate race faces claims of spoiler candidate. And, Hegseth ousts Army general",
+      "url": "https://npr.org/2026/10/30/g-s1-150889/up-first-newsletter-midterm-elections-iran-war-veteran-affairs-loans",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Alaska Governor Doesn’t Commit to Certifying Senate Race if Peltola Wins",
+      "url": "https://washingtonsun.com/campaigns/alaska-governor-doesnt-commit-to-certifying-senate-race-if-peltola-wins",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "Afternoon Sun: Toto, I've a Feeling",
+      "url": "https://washingtonsun.com/afternoon-sun-newsletter/toto-ive-a-feeling",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "2026 midterm election voter guides: Find local resources in your community",
+      "url": "https://npr.org/2026/10/30/g-s1-149560/2026-vote-midterm-election-local-voter-guides",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-30",
+      "reason": "no_ai",
+      "title": "'Affordability? For who?' Voters decide between helping homeowners or public services",
+      "url": "https://npr.org/2026/10/30/nx-s1-6018258/affordability-florida-amendment-3",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-10-29",
       "reason": "not_practical",
       "title": "DCCC pushes for ads targeting GOP on AI, data centers in dozens of key House races",

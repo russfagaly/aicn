@@ -78,6 +78,13 @@
     ],
     "last_seen": "2026-07-08"
   },
+  "cbsnews.com": {
+    "count": 1,
+    "example_urls": [
+      "https://cbsnews.com/news/ai-campaign-texts-midterms"
+    ],
+    "last_seen": "2026-10-30"
+  },
   "cdt.org": {
     "count": 1,
     "example_urls": [
@@ -105,6 +112,13 @@
       "https://cnbc.com/2026/07/09/ai-companies-election-spending.html"
     ],
     "last_seen": "2026-07-10"
+  },
+  "cnn.com": {
+    "count": 1,
+    "example_urls": [
+      "https://cnn.com/2026/10/29/politics/ai-robocalls-talarico-data-centers-kfile"
+    ],
+    "last_seen": "2026-10-30"
   },
   "cyberscoop.com": {
     "count": 1,
@@ -321,13 +335,14 @@
     "last_seen": "2026-06-26"
   },
   "npr.org": {
-    "count": 3,
+    "count": 4,
     "example_urls": [
       "https://npr.org/2026/06/22/nx-s1-5856359/ai-anthropic-congress-spending-openai-midterms-election",
       "https://npr.org/2026/07/12/nx-s1-5867763/ai-artificial-intelligence-data-texts-bots-voters-campaigns",
-      "https://npr.org/2026/09/16/nx-s1-5953990/ai-political-ads-2026-midterms"
+      "https://npr.org/2026/09/16/nx-s1-5953990/ai-political-ads-2026-midterms",
+      "https://npr.org/2026/10/30/nx-s1-6014548/midterms-chatgpt-local-news-democrats"
     ],
-    "last_seen": "2026-09-16"
+    "last_seen": "2026-10-30"
   },
   "nypost.com": {
     "count": 3,
