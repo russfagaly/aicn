@@ -20,6 +20,13 @@
     ],
     "last_seen": "2026-10-15"
   },
+  "ash.harvard.edu": {
+    "count": 1,
+    "example_urls": [
+      "https://ash.harvard.edu/articles/field-report-how-ai-is-being-used-in-the-2026-midterms"
+    ],
+    "last_seen": "2026-10-31"
+  },
   "azcapitoltimes.com": {
     "count": 1,
     "example_urls": [
@@ -367,6 +374,13 @@
     ],
     "last_seen": "2026-09-09"
   },
+  "phys.org": {
+    "count": 1,
+    "example_urls": [
+      "https://phys.org/news/2026-10-synthetic-opinion-polling-ai-personas.html"
+    ],
+    "last_seen": "2026-10-31"
+  },
   "politicalwire.com": {
     "count": 2,
     "example_urls": [
@@ -381,6 +395,13 @@
       "https://prnewswire.com/news-releases/ngp-van-launches-ngp-van-interface-bringing-agentic-ai-to-democratic-and-progressive-campaigns-ahead-of-midterm-elections-302849380.html"
     ],
     "last_seen": "2026-08-12"
+  },
+  "resultsense.com": {
+    "count": 1,
+    "example_urls": [
+      "https://resultsense.com/news/2026-10-23-uk-politicians-ai-synthetic-focus-groups"
+    ],
+    "last_seen": "2026-10-31"
   },
   "roborhythms.com": {
     "count": 1,

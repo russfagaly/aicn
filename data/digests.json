@@ -1,7 +1,79 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T17:54:00Z",
+  "generated_at": "2026-10-31T17:03:51Z",
   "runs": [
+    {
+      "run_id": "2026-10-31",
+      "date": "2026-10-31",
+      "generated_at": "2026-10-31T17:03:51Z",
+      "is_light_run": false,
+      "top_summary": "UK politicians are using AI-generated synthetic focus groups \u2014 sold by vendors like Electric Twin \u2014 to test policy messages at a fraction of real focus group costs, a concrete deployment of silicon-sampling in a western democracy outside the US. Separately, new research from Phys.org finds that AI personas used in synthetic polling diverge from real voters in how they update their views, a caution for campaigns relying on this technique. A Resultsense item on the UK synthetic-focus-group story and a Harvard Ash Center field report on AI in the 2026 midterms round out the run.",
+      "item_count": 3,
+      "candidates_reviewed": 45,
+      "rejection_counts": {
+        "already_covered": 2,
+        "duplicate": 1,
+        "no_ai": 30,
+        "not_political": 3,
+        "wrong_actor": 6
+      },
+      "items": [
+        {
+          "id": "52f9679c6a5dfd05",
+          "title": "UK politicians turn to AI-generated focus groups to test messages",
+          "url": "https://resultsense.com/news/2026-10-23-uk-politicians-ai-synthetic-focus-groups",
+          "source": "Resultsense",
+          "source_domain": "resultsense.com",
+          "published": "2026-10-23",
+          "first_seen_run": "2026-10-31",
+          "category": "polling_synthetic",
+          "summary": "UK politicians are testing campaign messages on AI-generated focus groups sold by vendors such as Electric Twin, which offer synthetic voter panels at a fraction of the cost of traditional focus groups.",
+          "why_it_matters": "Synthetic focus groups are moving from experiment to paid product in a major western democracy, giving campaigns a cheaper, faster message-testing option with unknown accuracy trade-offs.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "063b66db851c51c6",
+          "title": "Synthetic public opinion polling: AI personas don't always change their minds like real voters do",
+          "url": "https://phys.org/news/2026-10-synthetic-opinion-polling-ai-personas.html",
+          "source": "Phys.org",
+          "source_domain": "phys.org",
+          "published": "2026-10-20",
+          "first_seen_run": "2026-10-31",
+          "category": "polling_synthetic",
+          "summary": "Research reported by Phys.org finds that AI personas used in synthetic public-opinion polling do not update their views the way real voters do when exposed to new information, raising questions about the technique's reliability for campaign research.",
+          "why_it_matters": "As campaigns increasingly pilot silicon sampling to replace or supplement live polling, evidence that AI personas diverge from real voters on opinion-change dynamics is a concrete limitation practitioners need to weigh.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "f19181fb752911fc",
+          "title": "Field Report: How AI is Being Used in the 2026 Midterms",
+          "url": "https://ash.harvard.edu/articles/field-report-how-ai-is-being-used-in-the-2026-midterms",
+          "source": "Ash Center for Democratic Governance and Innovation, Harvard Kennedy School",
+          "source_domain": "ash.harvard.edu",
+          "published": "2026-10-30",
+          "first_seen_run": "2026-10-31",
+          "category": "deployments_studies",
+          "summary": "The Harvard Ash Center has published a field report documenting how campaigns and outside groups are deploying AI tools in the 2026 midterms, covering applications from voter contact to ad production.",
+          "why_it_matters": "A structured, field-level overview of AI adoption across the 2026 cycle gives practitioners and researchers a consolidated reference on what techniques are actually in use.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-10-30",
       "date": "2026-10-30",
@@ -1567,15 +1639,6 @@
       "run_id": "2026-09-13",
       "date": "2026-09-13",
       "generated_at": "2026-09-13T15:54:20Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
-    },
-    {
-      "run_id": "2026-09-12",
-      "date": "2026-09-12",
-      "generated_at": "2026-09-12T15:38:35Z",
       "is_light_run": true,
       "top_summary": "",
       "item_count": 0,

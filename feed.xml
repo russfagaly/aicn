@@ -5,7 +5,28 @@
     <link>https://russfagaly.github.io/aicn/</link>
     <atom:link href="https://russfagaly.github.io/aicn/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Fri, 30 Oct 2026 17:54:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 17:03:51 GMT</lastBuildDate>
+    <item>
+      <title>UK politicians turn to AI-generated focus groups to test messages</title>
+      <link>https://resultsense.com/news/2026-10-23-uk-politicians-ai-synthetic-focus-groups</link>
+      <guid isPermaLink="false">52f9679c6a5dfd05</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <description>UK politicians are testing campaign messages on AI-generated focus groups sold by vendors such as Electric Twin, which offer synthetic voter panels at a fraction of the cost of traditional focus groups.</description>
+    </item>
+    <item>
+      <title>Synthetic public opinion polling: AI personas don't always change their minds like real voters do</title>
+      <link>https://phys.org/news/2026-10-synthetic-opinion-polling-ai-personas.html</link>
+      <guid isPermaLink="false">063b66db851c51c6</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Research reported by Phys.org finds that AI personas used in synthetic public-opinion polling do not update their views the way real voters do when exposed to new information, raising questions about the technique's reliability for campaign research.</description>
+    </item>
+    <item>
+      <title>Field Report: How AI is Being Used in the 2026 Midterms</title>
+      <link>https://ash.harvard.edu/articles/field-report-how-ai-is-being-used-in-the-2026-midterms</link>
+      <guid isPermaLink="false">f19181fb752911fc</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <description>The Harvard Ash Center has published a field report documenting how campaigns and outside groups are deploying AI tools in the 2026 midterms, covering applications from voter contact to ad production.</description>
+    </item>
     <item>
       <title>Campaign texts, now powered by AI: How new tech is shaping voter outreach</title>
       <link>https://cbsnews.com/news/ai-campaign-texts-midterms</link>
@@ -194,27 +215,6 @@
       <guid isPermaLink="false">f690d47d200be381</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
       <description>Fast Company examines Silicon Valley-backed AI super PACs that are spending in the 2026 midterms but are deliberately not making AI a campaign message, instead funding races on other issues while keeping AI policy goals in the background.</description>
-    </item>
-    <item>
-      <title>$16 million spent on AI-edited political ads in the 2026 midterm election season</title>
-      <link>https://archyde.com/16-million-spent-on-ai-edited-political-ads-in-the-2026-midterm-election-season</link>
-      <guid isPermaLink="false">38c79534945472b5</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-      <description>A report puts AI-edited political ad spending in the 2026 midterm season at $16 million, adding a dollar figure to the volume of AI-assisted ad production in the current cycle.</description>
-    </item>
-    <item>
-      <title>How American Political Campaigns Are Using AI—and What They're Spending on the Tools</title>
-      <link>https://schneier.com/blog/archives/2026/10/how-american-political-campaigns-are-using-ai-and-what-theyre-spending-on-the-tools.html</link>
-      <guid isPermaLink="false">a8e63ff6def3ce07</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Bruce Schneier and Nathan E. Sanders, writing in The Guardian, analyzed FEC campaign finance disclosure data to identify which U.S. campaigns, parties, and committees are purchasing AI tools and how much they are spending, finding that AI is rapidly becoming an essential part of campaign operations.</description>
-    </item>
-    <item>
-      <title>Why one spoiler candidate is now trying to replicate his work nationwide</title>
-      <link>https://semafor.com/article/10/14/2026/why-one-spoiler-candidate-is-now-trying-to-replicate-his-work-nationwide</link>
-      <guid isPermaLink="false">afebace2433adcdc</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Aaron Day, a political operative known for recruiting spoiler candidates, is using AI to scale his third-party candidate recruitment and placement operation nationally ahead of the 2026 midterms, according to Semafor.</description>
     </item>
   </channel>
 </rss>

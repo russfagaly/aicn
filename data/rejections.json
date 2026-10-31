@@ -3,6 +3,342 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-10-31",
+      "reason": "wrong_actor",
+      "title": "Top Democrats signal AI interests",
+      "url": "https://punchbowl.news/article/policy/tech-top-democrats-ai-interests",
+      "source": "Punchbowl News",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "wrong_actor",
+      "title": "No rules for AI ads in the heartland",
+      "url": "https://axios.com/local/kansas-city/2026/10/29/ai-political-ads-kansas-missouri-no-rules",
+      "source": "Axios",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "wrong_actor",
+      "title": "Meta builds bipartisan influence team ahead of midterms",
+      "url": "https://axios.com/2026/10/31/meta-bipartisan-influence-team-midterms",
+      "source": "Axios",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "wrong_actor",
+      "title": "Exclusive: Dems to test AI backlash in key House races",
+      "url": "https://semafor.com/article/10/29/2026/ai-disillusionment-puts-regulation-at-forefront-ahead-of-midterms",
+      "source": "Semafor",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "wrong_actor",
+      "title": "Exclusive / Voters in key states want AI safety measures, poll finds",
+      "url": "https://semafor.com/article/10/29/2026/voters-in-key-states-want-ai-safety-measures-poll-finds",
+      "source": "Semafor",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "wrong_actor",
+      "title": "Exclusive / AFL-CIO drafting 'gold-standard' AI legislation",
+      "url": "https://semafor.com/article/10/29/2026/afl-cio-drafting-gold-standard-ai-legislation",
+      "source": "Semafor",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "not_political",
+      "title": "Wizards Beat Hornets, 95-79, in AJ Dybantsa's Home Debut",
+      "url": "https://washingtonsun.com/sports/wizards/wizards-hornets-oct-30",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "not_political",
+      "title": "Austin Ekeler Has a Media Future Ahead of Him. But Football Is First.",
+      "url": "https://washingtonsun.com/sports/commanders/austin-ekeler-media-career",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "not_political",
+      "title": "A World Series That Reminded Us Just How Good Baseball Can Be",
+      "url": "https://washingtonsun.com/sports/brewers-rays-world-series",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Week in Politics: Trump's Midwest pivot; sharper Democratic messaging",
+      "url": "https://npr.org/2026/10/31/nx-s1-6019280/week-in-politics-trumps-midwest-pivot-sharper-democratic-messaging",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Trump Says Donalds and Moody Called to Ask Him to Approve Florida Hurricane Funding",
+      "url": "https://washingtonsun.com/campaigns/trump-says-donalds-moody-asked-him-to-approve-florida-hurricane-funding",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Trump Lawyers Call His Arch a High Priority. Some Veterans Call It Disrespectful.",
+      "url": "https://washingtonsun.com/metro/trump-arch-hearing-veterans",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "The Trump Administration Is Buoying Nearly Half of All U.S. Coal Plants",
+      "url": "https://washingtonsun.com/energy-environment/trump-administration-buoying-nearly-half-coal-plants",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "The Healthcare Election: Florida",
+      "url": "https://npr.org/2026/10/31/nx-s1-5995422/the-healthcare-election-florida",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Texas Supreme Court Halts Deposition Over Trans-Care Mailers Sent From Unknown Sources",
+      "url": "https://washingtonsun.com/legal/texas-supreme-court-halts-deposition-over-trans-care-mailers-sent-from-unknown-sources",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Roger Marshall Hit With Class-Action Lawsuit Over ‘Aggressive’ Medical Billing Practices",
+      "url": "https://washingtonsun.com/legal/roger-marshall-class-action-lawsuit-medical-billing-practices-interest",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Republicans Kneecapped the FEC. Now the NRSC Wants It to Investigate Mary Peltola.",
+      "url": "https://washingtonsun.com/campaigns/republican-fec-nrsc-mary-peltola-investigation-letter",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "RNC Sues Iowa Election Official for Access to Voting Machine ID Numbers",
+      "url": "https://washingtonsun.com/legal/rnc-sues-iowa-election-official-for-access-to-voting-machine-id-numbers",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "RFK Jr. Puts Out a Call to Rebuild the Vaccine Advisory Panel",
+      "url": "https://washingtonsun.com/health/rfk-jr-vaccine-advisory-panel-solicitation-nominations",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Politics, norms and the DOJ's unprecedented pre-election headlines",
+      "url": "https://npr.org/2026/10/31/nx-s1-6020974/politics-norms-and-the-dojs-unprecedented-pre-election-headlines",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Park Police Pursuit Ends in a Crash for the Third Time This Week",
+      "url": "https://washingtonsun.com/metro/us-park-police-car-chase-collisions",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Our Best Stuff From the Last Week Before the Midterms",
+      "url": "https://thedispatch.com/newsletter/weekly/midterms-vance-trump-legal-challenges",
+      "source": "The Dispatch",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Negotiations Are On-Deck to Form Israeli Government As Votes Don't Provide a Majority",
+      "url": "https://washingtonsun.com/foreign-policy/negotiations-to-form-israeli-government-no-majority-votes",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Justice Department seeks to isolate Alaska ballots amid criminal probe over Senate candidate",
+      "url": "https://npr.org/2026/10/31/nx-s1-6024423/criminal-probe-alaska-senate-candidate",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Judge orders an inquiry into potential DOJ misconduct in Trump's golf course case",
+      "url": "https://npr.org/2026/10/30/nx-s1-6023328/east-potomac-reyes-misconduct-inquiry-doj",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Judge Launches Investigation Into Trump Officials In East Potomac Renovation Case",
+      "url": "https://washingtonsun.com/legal/judge-investigation-officials-renovation",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Josh Shapiro Already Sounds Like He’s Running for President",
+      "url": "https://washingtonsun.com/campaigns/josh-shapiro-governor-campaign-president-2028",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Elon Musk, ‘Dark Money’ Help Fuel Record Spending in 2026 Midterms",
+      "url": "https://washingtonsun.com/influence/2026-election-most-expensive-midterm-ever",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "DOJ Urges Judge to Allow a Third Comey Charge",
+      "url": "https://washingtonsun.com/legal/doj-urges-comey-charge",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "DOJ Sends Letters Threatening Election Officials Over Records Preservation",
+      "url": "https://washingtonsun.com/administration/doj-sends-letters-threatening-election-officials-over-records-preservation",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "D.C., Virginia Sue Trump Adminstration Over Proposed Triumphal Arch",
+      "url": "https://washingtonsun.com/metro/dc-virginia-sue-trump-administration-triumphal-arch",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Coinbase Scored Another Federal Contract. Does That Make Its Campaign Contributions Illegal?",
+      "url": "https://washingtonsun.com/influence/coinbase-marshal-service-contract-political-contributions",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Can I trust the polls? And other questions from listeners about the 2026 midterms",
+      "url": "https://npr.org/2026/10/31/g-s1-149981/listener-questions-npr-midterms-2026-election",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Appeals Court Keeps Restrictions on DHS’s Door-Knocking Voter Investigations",
+      "url": "https://washingtonsun.com/legal/restrictions-dhs-door-voter",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Appeals Court Again Denies DOJ’s California Noncitizen Ballot Push",
+      "url": "https://washingtonsun.com/legal/court-ballot-noncitizen-california",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Alaska's Senate Results Could Be Excruciatingly Slow",
+      "url": "https://washingtonsun.com/campaigns/alaska-senate-race-results-count-slow",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "Afternoon Sun: Flying Too Close to the Hill",
+      "url": "https://washingtonsun.com/afternoon-sun-newsletter/flying-too-close-to-the-hill",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "A Super PAC Army Is Spending Millions on ‘Spoiler’ Candidates",
+      "url": "https://washingtonsun.com/influence/super-pacs-third-party-candidates-funding",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "no_ai",
+      "title": "A Colorado Congressional Candidate Had a ‘Principal Residence’ in Maryland",
+      "url": "https://washingtonsun.com/campaigns/jessica-killin-colorado-congress-maryland-residence",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "duplicate",
+      "title": "UK Politicians Use AI Focus Groups to Test Policy Messages",
+      "url": "https://emergent.sh/news/uk-politicians-use-ai-focus-groups-test",
+      "source": "Emergent",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "already_covered",
+      "title": "In the first \"AI election,\" Democrats launch an ad blitz in key races to target GOP incumbents",
+      "url": "https://axios.com/2026/10/29/democrats-ai-ads-house-races",
+      "source": "Axios",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-10-31",
+      "reason": "already_covered",
+      "title": "Campaign texts powered by AI: How new tech is shaping voter outreach",
+      "url": "https://newson6.com/national-politics-oklahoma/ai-campaign-texts-midterms",
+      "source": "NewsOn6",
+      "discovery": "search"
+    },
+    {
       "run_id": "2026-10-30",
       "reason": "wrong_actor",
       "title": "Trump Talks to Grok. Democrats Plan to Find Out What He’s Saying.",
