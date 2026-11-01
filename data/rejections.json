@@ -3,6 +3,206 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-01",
+      "reason": "wrong_actor",
+      "title": "What Democrats Can Learn From New York’s Data Center Moratorium",
+      "url": "https://wired.com/story/what-democrats-can-learn-new-york-data-center-moratorium",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "wrong_actor",
+      "title": "Politics chat: Data centers are on everyone's minds going into Election Day",
+      "url": "https://npr.org/2026/11/01/nx-s1-6023270/politics-chat-data-centers-are-on-everyones-minds-going-into-election-day",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "wrong_actor",
+      "title": "Data centers fuel $173 million midterm ad war",
+      "url": "https://axios.com/2026/10/31/data-center-hot-spots-ads-2028",
+      "source": "Axios",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "wrong_actor",
+      "title": "Behind the Curtain: OpenAI's post-election power play",
+      "url": "https://axios.com/2026/11/01/scoop-openai-post-midterm-policy",
+      "source": "Axios",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "wrong_actor",
+      "title": "AI data center backlash shapes 2026 midterm elections",
+      "url": "https://axios.com/2026/10/31/ai-booms-political-reckoning",
+      "source": "Axios",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "not_political",
+      "title": "Maryland Football Loses to Illinois, 20-17",
+      "url": "https://washingtonsun.com/sports/colleges/maryland-football-loses-to-illinois-20-17",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "not_political",
+      "title": "D.C. United Loses to Columbus Crew, 3-0, in Fifth Consecutive Loss",
+      "url": "https://washingtonsun.com/sports/united/dc-loses-to-columbus-crew-fifth-loss",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "no_ai",
+      "title": "What's it like to run for Congress when the odds are stacked heavily against you?",
+      "url": "https://npr.org/2026/11/01/nx-s1-5995461/midterm-elections-noncompetitive-districts",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "no_ai",
+      "title": "What NPR's senior political correspondent is watching for on Election Night",
+      "url": "https://npr.org/2026/11/01/nx-s1-6019709/what-nprs-senior-political-correspondent-is-watching-for-on-election-night",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "no_ai",
+      "title": "Trump thanks supporters for the memories in final campaign stops for 2026 midterms",
+      "url": "https://npr.org/2026/11/01/nx-s1-6022128/trump-rally-2026-midterms-republicans",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "no_ai",
+      "title": "Troops ‘Can’t Feel Genuinely Safe’ as Trump Weighs Iran Escalation",
+      "url": "https://washingtonsun.com/defense/troops-cant-feel-genuinely-safe-as-trump-weighs-iran-escalation",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "no_ai",
+      "title": "Supreme Court hears religious freedom case centered on universal pre-K program",
+      "url": "https://npr.org/2026/11/01/nx-s1-6000367/supreme-court-colorado-catholic-preschool-religious-freedom-lgbtq",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "no_ai",
+      "title": "Sen. Chris Murphy Hospitalized After a Stroke",
+      "url": "https://washingtonsun.com/congress/senator-chris-murphy-stroke-johns-hopkins-hospital",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "no_ai",
+      "title": "Living with high prices in Virginia's 1st Congressional District",
+      "url": "https://npr.org/2026/11/01/nx-s1-5945628/living-with-high-prices-in-virginias-1st-congressional-district",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "no_ai",
+      "title": "Judge Throws Out Trump's Suit Against the Wall Street Journal Over Epstein Letter",
+      "url": "https://washingtonsun.com/legal/judge-throws-out-trump-epstein-letter-suit-wall-street-journal",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "no_ai",
+      "title": "It's ACA open enrollment time. Here are the changes for health insurance shoppers",
+      "url": "https://npr.org/2026/11/01/nx-s1-6023423/aca-open-enrollment-health-insurance",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "no_ai",
+      "title": "Inside the Effort to Get Americans in Canada to Vote",
+      "url": "https://washingtonsun.com/campaigns/americans-abroad-canada-voting-midterms",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "no_ai",
+      "title": "How Gen Z Republicans running for Congress are thinking about the future of the party",
+      "url": "https://npr.org/2026/11/01/nx-s1-5946869/midterm-elections-gen-z-republicans",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "no_ai",
+      "title": "Here's how to watch election night as the polls close, hour-by-hour",
+      "url": "https://npr.org/2026/11/01/g-s1-149978/midterms-election-night",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "no_ai",
+      "title": "Haley Stevens Is Making Herself Michigan’s Main Character",
+      "url": "https://washingtonsun.com/campaigns/haley-stevens-michigan-senate-general-election",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "no_ai",
+      "title": "Haley Stevens Breaks With Her Party to Back Republican Mike Rogers",
+      "url": "https://washingtonsun.com/campaigns/haley-stevens-event-mike-rogers",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "no_ai",
+      "title": "FBI Blames North Korea for Stolen Billions From Binance in Biggest Hack in History",
+      "url": "https://washingtonsun.com/legal/fbi-blames-north-korea-binance-hack",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "no_ai",
+      "title": "California’s Scott Wiener and a Super PAC Are Hit With FEC Complaint by Former Rival",
+      "url": "https://washingtonsun.com/influence/scott-wiener-fec-complaint-former-rival",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "no_ai",
+      "title": "Alaska Officials Urge Judge to Dismiss Trump Administration’s Certification Lawsuit",
+      "url": "https://washingtonsun.com/legal/alaska-officials-urge-judge-to-dismiss-trump-administration-certification-lawsuit",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-01",
+      "reason": "no_ai",
+      "title": "'Grasping at straws': Judge dismisses Trump suit against Wall Street Journal over Epstein letter",
+      "url": "https://npr.org/2026/11/01/nx-s1-6025342/judge-dismisses-trump-suit-against-wall-street-journal-epstein-letter",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-10-31",
       "reason": "wrong_actor",
       "title": "Top Democrats signal AI interests",
