@@ -1220,6 +1220,18 @@
       ],
       "first_proposed": "2026-10-28",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-voter-count",
+      "kind": "watchlist_entity",
+      "value": "Voter Count",
+      "feed_url": null,
+      "rationale": "A newly launched AI chatbot specifically built to query the 217-million-record voter file in plain English — not previously tracked and directly relevant to campaign targeting.",
+      "example_urls": [
+        "https://ivn.us/217-million-voters-one-chat-box-new-ai-tool-opens-up-the-voter-file/"
+      ],
+      "first_proposed": "2026-11-02",
+      "status": "pending"
     }
   ]
 }

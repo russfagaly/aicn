@@ -283,6 +283,13 @@
     ],
     "last_seen": "2026-06-26"
   },
+  "ivn.us": {
+    "count": 1,
+    "example_urls": [
+      "https://ivn.us/217-million-voters-one-chat-box-new-ai-tool-opens-up-the-voter-file"
+    ],
+    "last_seen": "2026-11-02"
+  },
   "katiecouric.com": {
     "count": 1,
     "example_urls": [
@@ -342,14 +349,15 @@
     "last_seen": "2026-06-26"
   },
   "npr.org": {
-    "count": 4,
+    "count": 5,
     "example_urls": [
       "https://npr.org/2026/06/22/nx-s1-5856359/ai-anthropic-congress-spending-openai-midterms-election",
       "https://npr.org/2026/07/12/nx-s1-5867763/ai-artificial-intelligence-data-texts-bots-voters-campaigns",
       "https://npr.org/2026/09/16/nx-s1-5953990/ai-political-ads-2026-midterms",
-      "https://npr.org/2026/10/30/nx-s1-6014548/midterms-chatgpt-local-news-democrats"
+      "https://npr.org/2026/10/30/nx-s1-6014548/midterms-chatgpt-local-news-democrats",
+      "https://npr.org/2026/11/02/nx-s1-6025407/chatbots-midterms-voting-advice"
     ],
-    "last_seen": "2026-10-30"
+    "last_seen": "2026-11-02"
   },
   "nypost.com": {
     "count": 3,

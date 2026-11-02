@@ -1,7 +1,58 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T17:49:36Z",
+  "generated_at": "2026-11-02T21:34:15Z",
   "runs": [
+    {
+      "run_id": "2026-11-02",
+      "date": "2026-11-02",
+      "generated_at": "2026-11-02T21:34:15Z",
+      "is_light_run": false,
+      "top_summary": "A new AI chatbot called Voter Count has launched, giving users natural-language access to data on 217 million registered voters without requiring technical expertise or expensive contracts. NPR is also reporting that AI chatbots are being used as political advisers in the 2026 midterms but can mislead voters \u2014 a concrete finding about how AI is shaping the information environment around campaigns.",
+      "item_count": 2,
+      "candidates_reviewed": 17,
+      "rejection_counts": {
+        "no_ai": 13,
+        "not_political": 2
+      },
+      "items": [
+        {
+          "id": "64635a5c8913d558",
+          "title": "217 Million Voters, One Chat Box: New AI Tool Opens Up the Voter File",
+          "url": "https://ivn.us/217-million-voters-one-chat-box-new-ai-tool-opens-up-the-voter-file",
+          "source": "IVN",
+          "source_domain": "ivn.us",
+          "published": "2026-10-29",
+          "first_seen_run": "2026-11-02",
+          "category": "vendor_moves",
+          "summary": "A new AI chatbot called Voter Count allows anyone to query a database of 217 million registered voters using plain-English questions, making voter-file demographic and voting data accessible without expensive data contracts or technical skills.",
+          "why_it_matters": "Lowering the technical and financial barrier to voter-file analysis could significantly expand which campaigns and advocacy groups can run data-driven targeting programs.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:l2",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "e23a78334587a1f6",
+          "title": "AI chatbots are becoming political advisers. Their answers can mislead voters",
+          "url": "https://npr.org/2026/11/02/nx-s1-6025407/chatbots-midterms-voting-advice",
+          "source": "NPR Politics",
+          "source_domain": "npr.org",
+          "published": "2026-11-02",
+          "first_seen_run": "2026-11-02",
+          "category": "deployments_studies",
+          "summary": "NPR reports that AI chatbots are being used as political advisers ahead of the 2026 midterms and that their answers can mislead voters on electoral information.",
+          "why_it_matters": "Documents a concrete, measurable reliability problem with AI chatbots as a voter-contact or information channel that campaigns and practitioners should account for.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "npr",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-11-01",
       "date": "2026-11-01",
@@ -1601,54 +1652,6 @@
       "top_summary": "",
       "item_count": 0,
       "items": []
-    },
-    {
-      "run_id": "2026-09-14",
-      "date": "2026-09-14",
-      "generated_at": "2026-09-14T18:26:59Z",
-      "is_light_run": false,
-      "top_summary": "A new study published in Campaigns & Elections finds that human-produced political ads still outperform AI-generated spots in consumer preference, offering campaign practitioners concrete guidance on where AI creative currently falls short. The Bloomberg opinion piece argues AI-generated campaign ads are eroding electoral trust and calls for stronger safeguards. These two items together signal a maturing debate among practitioners about AI ad effectiveness and accountability.",
-      "item_count": 2,
-      "items": [
-        {
-          "id": "a41950d8ef944703",
-          "title": "Human-Made Ads Still Perform Better Than AI Spots, Study Finds",
-          "url": "https://campaignsandelections.com/industry-news/human-made-ads-still-perform-better-than-ai-spots-study-finds",
-          "source": "Campaigns & Elections",
-          "source_domain": "campaignsandelections.com",
-          "published": "2026-09-14",
-          "first_seen_run": "2026-09-14",
-          "category": "deployments_studies",
-          "summary": "A study covered by Campaigns & Elections found that consumers consistently prefer human-made political ads over AI-generated ones, with human-produced spots outperforming AI spots on key preference metrics.",
-          "why_it_matters": "Gives campaign digital teams and media consultants empirical benchmarking data on where AI creative currently stands relative to human production, directly informing buy vs. build decisions.",
-          "flags": [],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "campaigns-and-elections",
-            "confidence": "high"
-          }
-        },
-        {
-          "id": "d02024ad7d331d3b",
-          "title": "AI-Generated Campaign Ads Are Eroding Trust in US Elections",
-          "url": "https://bloomberg.com/graphics/2026-opinion-ai-campaign-ads-need-more-safeguards",
-          "source": "Bloomberg",
-          "source_domain": "bloomberg.com",
-          "published": "2026-09-03",
-          "first_seen_run": "2026-09-14",
-          "category": "analysis_oped",
-          "summary": "A Bloomberg opinion piece argues that AI-generated campaign ads are undermining voter trust in U.S. elections and calls for stronger regulatory safeguards around their use.",
-          "why_it_matters": "Reflects growing mainstream pressure on the campaign AI creative space and signals the reputational and regulatory risks practitioners face when deploying AI-generated content.",
-          "flags": [
-            "speculative"
-          ],
-          "discovery": {
-            "method": "search",
-            "source_ref": "broad_web_search",
-            "confidence": "medium"
-          }
-        }
-      ]
     }
   ]
 }

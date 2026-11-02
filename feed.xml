@@ -5,7 +5,21 @@
     <link>https://russfagaly.github.io/aicn/</link>
     <atom:link href="https://russfagaly.github.io/aicn/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Sun, 01 Nov 2026 17:49:36 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 21:34:15 GMT</lastBuildDate>
+    <item>
+      <title>217 Million Voters, One Chat Box: New AI Tool Opens Up the Voter File</title>
+      <link>https://ivn.us/217-million-voters-one-chat-box-new-ai-tool-opens-up-the-voter-file</link>
+      <guid isPermaLink="false">64635a5c8913d558</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <description>A new AI chatbot called Voter Count allows anyone to query a database of 217 million registered voters using plain-English questions, making voter-file demographic and voting data accessible without expensive data contracts or technical skills.</description>
+    </item>
+    <item>
+      <title>AI chatbots are becoming political advisers. Their answers can mislead voters</title>
+      <link>https://npr.org/2026/11/02/nx-s1-6025407/chatbots-midterms-voting-advice</link>
+      <guid isPermaLink="false">e23a78334587a1f6</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>NPR reports that AI chatbots are being used as political advisers ahead of the 2026 midterms and that their answers can mislead voters on electoral information.</description>
+    </item>
     <item>
       <title>UK politicians turn to AI-generated focus groups to test messages</title>
       <link>https://resultsense.com/news/2026-10-23-uk-politicians-ai-synthetic-focus-groups</link>
@@ -201,20 +215,6 @@
       <guid isPermaLink="false">98542cccc2257381</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
       <description>Cat Stern, who served as Paid Media Director on both the Biden and Harris 2024 presidential campaigns, outlines five operational lessons for Democratic campaigns: unify all paid media channels under one team, invest early in ground-game organizing, enforce tighter message discipline, limit pre-flight ad testing to high-stakes executions, and define clearer roles for outside consultants.</description>
-    </item>
-    <item>
-      <title>AI Political Field Guide: Terminology Decoder (September 2026 Edition)</title>
-      <link>https://kategage.substack.com/p/ai-political-field-guide-terminology</link>
-      <guid isPermaLink="false">8a9d1eec36b64460</guid>
-      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Writer Kate Gage publishes an AI terminology decoder for fall 2026, mapping how key terms—including "superintelligence," "safety," "EA," and "pause"—have shifted meaning depending on which faction uses them, tracing conflicts among the Trump administration, the Tech Right (including David Sacks), AI Safety advocates, the Sanders-Casar bill camp, and Anthropic CEO Dario Amodei following a September 2026 White House executive order and voluntary CEO accord.</description>
-    </item>
-    <item>
-      <title>Why Silicon Valley's AI super PACs aren't talking about AI</title>
-      <link>https://fastcompany.com/91623721/why-silicon-valleys-ai-super-pacs-arent-talking-about-ai</link>
-      <guid isPermaLink="false">f690d47d200be381</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Fast Company examines Silicon Valley-backed AI super PACs that are spending in the 2026 midterms but are deliberately not making AI a campaign message, instead funding races on other issues while keeping AI policy goals in the background.</description>
     </item>
   </channel>
 </rss>

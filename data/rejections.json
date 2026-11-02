@@ -3,6 +3,126 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-02",
+      "reason": "not_political",
+      "title": "LeadingResponse Launches FetchIQ, a New Growth Management Platform",
+      "url": "https://finance.yahoo.com/media-advertising/articles/leadingresponse-launches-fetchiq-growth-management-140000287.html",
+      "source": "Yahoo Finance",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-02",
+      "reason": "not_political",
+      "title": "Do you know signs of a stroke? BE FAST are the words to remember",
+      "url": "https://npr.org/2026/11/01/nx-s1-6025502/stroke-acronym-be-fast",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-02",
+      "reason": "no_ai",
+      "title": "‘We Caulked It’: Trump Delivers His Midterms Closing Message",
+      "url": "https://washingtonsun.com/whitehouse/trump-speech-reflecting-pool-closing-midterms-remarks",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-02",
+      "reason": "no_ai",
+      "title": "When it comes to election pressure, this year's Georgia or Michigan could be anywhere",
+      "url": "https://npr.org/2026/11/02/nx-s1-5989648/midterm-voting-election-pressure",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-02",
+      "reason": "no_ai",
+      "title": "What Vance's midterm push reveals about his potential 2028 bid",
+      "url": "https://npr.org/2026/11/02/nx-s1-6023159/what-vances-midterm-push-reveals-about-his-potential-2028-bid",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-02",
+      "reason": "no_ai",
+      "title": "Two economists studied California's billionaire tax. They reached wildly different conclusions",
+      "url": "https://npr.org/sections/planet-money/2026/11/02/g-s1-151009/two-economists-studied-californias-billionaire-tax-they-reached-wildly-different-conclusions",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-02",
+      "reason": "no_ai",
+      "title": "My Journey to the Center of America’s Political Spam Text Hell",
+      "url": "https://wired.com/story/my-journey-to-the-center-of-americas-political-spam-text-hell",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-02",
+      "reason": "no_ai",
+      "title": "Judge accuses DOJ of 'weaponization,' tosses case against ex-FBI officials",
+      "url": "https://npr.org/2026/11/02/g-s1-151242/judge-tosses-case-fbi-officials-hunter-biden",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-02",
+      "reason": "no_ai",
+      "title": "Is America really that polarized? The answer might be a surprise",
+      "url": "https://npr.org/2026/11/02/nx-s1-6003534/us-political-polarization-research-trump",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-02",
+      "reason": "no_ai",
+      "title": "Here’s How the Trump Administration Is Trying to Undermine the Election",
+      "url": "https://wired.com/story/the-trump-administration-is-wreaking-havoc-on-the-electoral-system-before-the-midterms",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-02",
+      "reason": "no_ai",
+      "title": "Haley Stevens backs Mike Rogers. And, Gulf states brace for potential attack on Iran",
+      "url": "https://npr.org/2026/11/02/g-s1-151215/up-first-newsletter-michigan-senate-iran-war-supreme-court-colorado-catholic-church",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-02",
+      "reason": "no_ai",
+      "title": "Four Key Questions for Political Pros Before Election Day",
+      "url": "https://campaignsandelections.com/industry-news/four-key-questions-for-political-pros-before-election-day",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-02",
+      "reason": "no_ai",
+      "title": "DOJ asks for Supreme Court to intervene on California ballot demands",
+      "url": "https://npr.org/2026/11/02/nx-s1-6023802/supreme-court-california-voting-ballots-trump",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-02",
+      "reason": "no_ai",
+      "title": "A Right-Wing Think Tank Has a Plan to Prevent Democrats From Being Seated in Congress",
+      "url": "https://wired.com/story/a-right-wing-think-tank-has-a-plan-to-prevent-democrats-from-being-seated-in-congress",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-02",
+      "reason": "no_ai",
+      "title": "6 things to watch for on election night",
+      "url": "https://npr.org/2026/11/02/nx-s1-6025451/midterms-what-to-watch-election-night",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-11-01",
       "reason": "wrong_actor",
       "title": "What Democrats Can Learn From New York’s Data Center Moratorium",
