@@ -3,6 +3,374 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-03",
+      "reason": "wrong_actor",
+      "title": "‘Our Risk, Their Reward’: Zohran Mamdani on AI and Data Centers",
+      "url": "https://wired.com/story/the-big-interview-podcast-nyc-mayor-zohran-mamdani",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "wrong_actor",
+      "title": "REPORT: AI Giant Already Looking To 2028, Trying To Influence Candidates",
+      "url": "https://dailycaller.com/2026/11/02/open-ai-lobbying-memo-2028-candidates-report",
+      "source": "Daily Caller",
+      "discovery": "watchlist"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "wrong_actor",
+      "title": "Here’s Why You Shouldn’t Use AI to Vote",
+      "url": "https://wired.com/story/heres-why-you-shouldnt-use-ai-to-vote",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "not_practical",
+      "title": "‘Unprecedented’: Election Spending Breaks Records — and Standards",
+      "url": "https://washingtonsun.com/campaigns/2026-midterm-election-spending-ai-billionaires-corporations-fec",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "not_political",
+      "title": "Wizards Win 103-94 Over Magic",
+      "url": "https://washingtonsun.com/sports/wizards-magic-score-11-2-2026",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "not_political",
+      "title": "Welcome to the Nationals’ Fun House Offseason",
+      "url": "https://washingtonsun.com/sports/nationals/offseason-free-agency",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "not_political",
+      "title": "U.S. Conducts Defensive Strikes on Iranian Targets in the Strait of Hormuz",
+      "url": "https://washingtonsun.com/defense/u-s-defensive-strikes-iran-strait-of-hormuz",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "not_political",
+      "title": "Three Homes Near a Metro Station for Less Than $1 Million in D.C., Maryland and Virginia",
+      "url": "https://washingtonsun.com/metro/homes-near-metro-dc-maryland-virginia",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "not_political",
+      "title": "The Commanders Finally Created Some Explosive Plays in Week 8",
+      "url": "https://washingtonsun.com/sports/commanders/eagles-explosive-plays",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "not_political",
+      "title": "Maryland Powers Past Bucknell, 96-67",
+      "url": "https://washingtonsun.com/sports/maryland-bucknell-basketball-score",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "not_political",
+      "title": "Judge considers motion to dismiss Lindsay Clancy's case",
+      "url": "https://npr.org/2026/11/03/nx-s1-6026512/judge-considers-motion-to-dismiss-lindsay-clancys-case",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "not_political",
+      "title": "East Potomac Park Users Are Angry and Afraid Ahead of Possible Closure",
+      "url": "https://washingtonsun.com/metro/dc/east-potomac-park-protests-anger",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "not_political",
+      "title": "D.C. Youth Baseball Players Show Support for Coach in ICE Custody",
+      "url": "https://washingtonsun.com/metro/dc-youth-baseball-coach-ice-custody",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "not_political",
+      "title": "All-DMV High School Volleyball Players of Week 10",
+      "url": "https://washingtonsun.com/sports/all-dmv/all-dmv-high-school-volleyball-players-nov-3",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "not_political",
+      "title": "A new cold war: hackers target fridges across the globe",
+      "url": "https://npr.org/2026/11/03/nx-s1-6026676/cold-war-hackers-fridges",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "Will the Pollsters Get it Right?",
+      "url": "https://washingtonsun.com/campaigns/will-the-pollsters-get-it-right",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "Where Does Trump Go From Here?",
+      "url": "https://washingtonsun.com/whitehouse/republican-operatives-say-post-midterms-will-be-about-trump-legacy",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "Trump Says U.S. Will Halt $4 Billion in Aid to Israel",
+      "url": "https://washingtonsun.com/whitehouse/trump-says-us-will-halt-4-billion-aid-israel",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "These Early-Closing States Could Show Where Election Night Is Headed",
+      "url": "https://washingtonsun.com/campaigns/these-early-closing-states-could-show-where-election-night-is-headed",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "The Washington Sun Metro: The Race is On",
+      "url": "https://washingtonsun.com/metro-newsletter/the-race-is-on-11-3-2026",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "The Endlessly Meme-able Steve Kornacki Is Not a Meme Person",
+      "url": "https://wired.com/story/steve-kornacki-user-behavior",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "The Election Day Legal Stress Test Is Finally Here",
+      "url": "https://washingtonsun.com/legal/election-legal-stress-test",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "The Best D.C. Bars For Watching the Midterms",
+      "url": "https://washingtonsun.com/metro/culture/where-to-drink-watch-midterms-dc",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "Ruben Gallego Tests His Blueprint Ahead of 2028: Latinos and Young Men",
+      "url": "https://washingtonsun.com/national/ruben-gallego-2028-latino-voters",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "On Election Day, D.C. Voters Prepare for Change",
+      "url": "https://washingtonsun.com/metro/dc-election-janeese-lewis-george-mayor",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "Morning Sun: E-Day",
+      "url": "https://washingtonsun.com/newsletters/e-day",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "Man Charged With Mailing Letters Containing Powder to Officials",
+      "url": "https://washingtonsun.com/legal/man-charged-mailing-letters-powder-to-officials",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "Local Officials Are Keeping the DOJ’s Election Monitors 100 Feet Away",
+      "url": "https://washingtonsun.com/legal/local-officials-doj-election-monitors-watchers-outside-polling-sites-2026-midterms-rules-100-feet-away",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "Justice Department Bars Jack Smith From Testifying in Trump’s BBC Lawsuit",
+      "url": "https://washingtonsun.com/legal/justice-department-prohibits-jack-smith-testifying-bbc-case",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "It's Election Day. Control of Congress is on the line, and what else you need to know",
+      "url": "https://npr.org/2026/11/03/nx-s1-5992757/election-day-live-updates-key-races",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "ICE Is Inspiring Latinos to Vote in Historic Numbers",
+      "url": "https://wired.com/story/ice-is-inspiring-latinos-to-vote-in-historic-numbers",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "How NPR makes race calls in the 2026 election",
+      "url": "https://npr.org/2026/11/03/g-s1-151311/how-npr-calls-races-2026",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "From 'model minority' to target, anti-Indian hate on the rise",
+      "url": "https://npr.org/2026/11/03/nx-s1-6026418/from-model-minority-to-target-anti-indian-hate-on-the-rise",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "Four types of House races to watch on election night to know how it might go",
+      "url": "https://npr.org/2026/11/03/g-s1-151305/2026-midterms-house-races-to-watch",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "Florida Opens Emergency Polling Sites After Flash Floods",
+      "url": "https://washingtonsun.com/campaigns/florida-opens-emergency-polling-voting-sites-colorado-flash-floods-ron-desantis-2026-midterm-elections",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "Federal Judge Allows DOJ Poll Monitors From Law Enforcement Agencies",
+      "url": "https://washingtonsun.com/legal/federal-judge-allows-doj-poll-monitors-law-enforcement-agencies-fbi-ice-dhs",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "Election expert confident about voting today, more concerned about what happens next",
+      "url": "https://npr.org/2026/11/03/nx-s1-6026487/2026-midterms-election-security-disinformation",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "East Potomac Golf Course Plans Outline Tiered Pricing, Seawall Rehabilitation",
+      "url": "https://washingtonsun.com/metro/east-potomac-golf-course-plans",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "Early Voting Set a Midterm Record. But Does it Matter?",
+      "url": "https://washingtonsun.com/campaigns/early-voting-sets-a-midterm-record-but-may-not-translate-to-record-turnout",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "D.C. Council Member Christina Henderson Switches From Independent to Democrat",
+      "url": "https://washingtonsun.com/metro/christina-henderson-dc-democratic-party-switch",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "Corporations Are Capitalizing on the ‘Citizens United’ Decision Like Never Before",
+      "url": "https://washingtonsun.com/influence/citizens-united-corporate-contributions-politics",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "Control of Congress is at stake today. And, judge to consider motion in Clancy case",
+      "url": "https://npr.org/2026/11/03/g-s1-151445/up-first-newsletter-midterms-election-day-iran-war-lindsay-clancy",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "Coal no longer king in Navajo Nation presidential election",
+      "url": "https://npr.org/2026/11/02/nx-s1-6019547/coal-no-longer-king-in-navajo-nation-presidential-election",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "Ballot Scanners Fail Across New York’s Westchester County",
+      "url": "https://washingtonsun.com/campaigns/ballot-scanners-fail-across-new-yorks-westchester-county",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "3 Plans To Make Before The Polls Close",
+      "url": "https://campaigntrend.com/3-plans-to-make-before-the-polls-close",
+      "source": "Campaign Trend",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-03",
+      "reason": "no_ai",
+      "title": "'Messy,' 'divided' and 'scary': swing voters rate the country ahead of Election Day",
+      "url": "https://npr.org/2026/11/03/nx-s1-6014577/swing-voters-midterm-elections-voting-trump",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-11-02",
       "reason": "not_political",
       "title": "LeadingResponse Launches FetchIQ, a New Growth Management Platform",

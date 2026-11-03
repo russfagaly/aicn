@@ -5,7 +5,21 @@
     <link>https://russfagaly.github.io/aicn/</link>
     <atom:link href="https://russfagaly.github.io/aicn/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Mon, 02 Nov 2026 21:34:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 19:19:08 GMT</lastBuildDate>
+    <item>
+      <title>Synthetic Voters Aren’t Voters: Where AI Belongs in Campaign Research and Where It Doesn’t</title>
+      <link>https://campaignsandelections.com/voices/synthetic-voters-arent-voters-where-ai-belongs-in-campaign-research-and-where-it-doesnt</link>
+      <guid isPermaLink="false">fd98b90347d21ee8</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>A Campaigns &amp; Elections op-ed argues that AI synthetic respondents have a legitimate but limited role in campaign research — useful for rapid message testing and hypothesis generation, but fundamentally different from real voters and unsuitable as a direct polling substitute.</description>
+    </item>
+    <item>
+      <title>You Stopped Answering Pollsters. Campaigns Built AI Voters.</title>
+      <link>https://businessmodelanalyst.com/synthetic-polling-ai-voters-aaru-simile-midterms</link>
+      <guid isPermaLink="false">187397eb14d888e2</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Business Model Analyst reports that AI synthetic polling vendors Aaru and Simile have each reached billion-dollar valuations as campaigns in the 2026 midterms increasingly use their platforms to replace traditional polling, with Election Day results now serving as a real-world accuracy test for the technology.</description>
+    </item>
     <item>
       <title>217 Million Voters, One Chat Box: New AI Tool Opens Up the Voter File</title>
       <link>https://ivn.us/217-million-voters-one-chat-box-new-ai-tool-opens-up-the-voter-file</link>
@@ -201,20 +215,6 @@
       <guid isPermaLink="false">c0f97ae2b01e8d23</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
       <description>A Campaign Trend newsletter reports on how political chatbots are being built or used in ways that expose where voters live, alongside coverage of TikTok's paid content featuring state Rep. James Talarico.</description>
-    </item>
-    <item>
-      <title>Tech: Key AI group added no Q3 donations</title>
-      <link>https://punchbowl.news/article/tech/ltf-no-donations</link>
-      <guid isPermaLink="false">eea6a363ca35a506</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Leading the Future, an AI-industry-backed super PAC with ties to major tech figures, reported zero new donations in Q3 2026, according to new FEC disclosures.</description>
-    </item>
-    <item>
-      <title>Some Lessons from the Trenches: What I learned and thoughts on how to move forward</title>
-      <link>https://assembletheagency.substack.com/p/some-lessons-from-the-trenches-what</link>
-      <guid isPermaLink="false">98542cccc2257381</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 GMT</pubDate>
-      <description>Cat Stern, who served as Paid Media Director on both the Biden and Harris 2024 presidential campaigns, outlines five operational lessons for Democratic campaigns: unify all paid media channels under one team, invest early in ground-game organizing, enforce tighter message discipline, limit pre-flight ad testing to high-stakes executions, and define clearer roles for outside consultants.</description>
     </item>
   </channel>
 </rss>

@@ -1,16 +1,5 @@
 {
   "runs": {
-    "2026-10-12": [
-      "AI Campaign Strategy Tools Transform 2026 Midterms: $44M PAC Spending",
-      "Greg Casar celebrates AI PAC setback",
-      "How AI is playing in the post-Nancy Pelosi race",
-      "How California Democrats see AI",
-      "New campaign disclosures reveal how much American political campaigns spend on AI tools",
-      "OpenAI wants to curb misleading election deepfakes",
-      "Real voters reveal what could decide the 2026 midterms",
-      "To persuade voters, campaigns and PACs make their own news brands",
-      "We've tracked $80M of spending on almost 170 AI-generated political ads this year – it's weird"
-    ],
     "2026-10-13": [
       "AI Political Spending Tops $300M in 2026 as FTC Probes Companies Funding Their Own Lawmakers",
       "FullPAC Launches GOTV AI, the Campaign Strategy Platform Built on the Record of American Elections",
@@ -195,6 +184,12 @@
       "LeadingResponse Launches FetchIQ, a New Growth Management Platform",
       "Meet Haystack: Social Listening Built for Democrats",
       "Silicon Valley AI political groups turn on each other in the 2026 election"
+    ],
+    "2026-11-03": [
+      "Announcing HGL's Agentic AI Open Call Investments",
+      "REPORT: AI Giant Already Looking To 2028, Trying To Influence Candidates",
+      "Silicon Valley AI political groups turn on each other in the 2026 election",
+      "You Stopped Answering Pollsters. Campaigns Built AI Voters."
     ]
   },
   "schema_version": 1

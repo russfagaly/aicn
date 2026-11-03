@@ -1,7 +1,63 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T21:34:15Z",
+  "generated_at": "2026-11-03T19:19:08Z",
   "runs": [
+    {
+      "run_id": "2026-11-03",
+      "date": "2026-11-03",
+      "generated_at": "2026-11-03T19:19:08Z",
+      "is_light_run": false,
+      "top_summary": "On Election Day 2026, a Campaigns & Elections practitioner op-ed draws a clear line on where synthetic voters belong in campaign research \u2014 useful for message testing, unreliable as a substitute for real voter opinion. Meanwhile, a Business Model Analyst piece spotlights how vendors Aaru and Simile, now at billion-dollar valuations, have made AI synthetic polling a mainstream campaign tool heading into results day.",
+      "item_count": 2,
+      "candidates_reviewed": 48,
+      "rejection_counts": {
+        "no_ai": 31,
+        "not_political": 11,
+        "not_practical": 1,
+        "wrong_actor": 3
+      },
+      "items": [
+        {
+          "id": "fd98b90347d21ee8",
+          "title": "Synthetic Voters Aren\u2019t Voters: Where AI Belongs in Campaign Research and Where It Doesn\u2019t",
+          "url": "https://campaignsandelections.com/voices/synthetic-voters-arent-voters-where-ai-belongs-in-campaign-research-and-where-it-doesnt",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-11-03",
+          "first_seen_run": "2026-11-03",
+          "category": "analysis_oped",
+          "summary": "A Campaigns & Elections op-ed argues that AI synthetic respondents have a legitimate but limited role in campaign research \u2014 useful for rapid message testing and hypothesis generation, but fundamentally different from real voters and unsuitable as a direct polling substitute.",
+          "why_it_matters": "Offers practitioners a concrete framework for where to deploy and where to avoid synthetic respondents, helping campaigns avoid overreliance on a tool whose validity is under active scrutiny.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaigns-and-elections",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "187397eb14d888e2",
+          "title": "You Stopped Answering Pollsters. Campaigns Built AI Voters.",
+          "url": "https://businessmodelanalyst.com/synthetic-polling-ai-voters-aaru-simile-midterms",
+          "source": "Business Model Analyst",
+          "source_domain": "businessmodelanalyst.com",
+          "published": "2026-10-30",
+          "first_seen_run": "2026-11-03",
+          "category": "polling_synthetic",
+          "summary": "Business Model Analyst reports that AI synthetic polling vendors Aaru and Simile have each reached billion-dollar valuations as campaigns in the 2026 midterms increasingly use their platforms to replace traditional polling, with Election Day results now serving as a real-world accuracy test for the technology.",
+          "why_it_matters": "The scale of adoption and the valuations signal that synthetic polling has moved from experiment to mainstream campaign infrastructure, and election results will provide a rare empirical benchmark for the technique's reliability.",
+          "flags": [
+            "vendor_self_reported",
+            "speculative"
+          ],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:aaru",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-11-02",
       "date": "2026-11-02",
@@ -1643,15 +1699,6 @@
           }
         }
       ]
-    },
-    {
-      "run_id": "2026-09-15",
-      "date": "2026-09-15",
-      "generated_at": "2026-09-15T16:46:55Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
     }
   ]
 }
