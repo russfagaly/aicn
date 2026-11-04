@@ -1,7 +1,23 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T19:19:08Z",
+  "generated_at": "2026-11-04T19:35:08Z",
   "runs": [
+    {
+      "run_id": "2026-11-04",
+      "date": "2026-11-04",
+      "generated_at": "2026-11-04T19:35:08Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "candidates_reviewed": 55,
+      "rejection_counts": {
+        "no_ai": 47,
+        "not_political": 2,
+        "not_practical": 3,
+        "wrong_actor": 3
+      },
+      "items": []
+    },
     {
       "run_id": "2026-11-03",
       "date": "2026-11-03",
@@ -1671,34 +1687,6 @@
       "top_summary": "",
       "item_count": 0,
       "items": []
-    },
-    {
-      "run_id": "2026-09-16",
-      "date": "2026-09-16",
-      "generated_at": "2026-09-16T16:30:20Z",
-      "is_light_run": false,
-      "top_summary": "The main on-topic story this run is NPR's report on the proliferation of AI-generated political ads heading into the 2026 midterms, documenting how synthetic campaign content has become widespread across the political landscape. A separate Semafor piece examines how the AI industry is deploying sophisticated lobbying and political-influence strategies in Washington, drawing lessons from the social media era's regulatory backlash \u2014 though this story is about AI companies as political actors, not campaigns using AI as a tool.",
-      "item_count": 1,
-      "items": [
-        {
-          "id": "7886d3ef9807aac3",
-          "title": "As campaign season gears up, AI-generated ads are everywhere",
-          "url": "https://npr.org/2026/09/16/nx-s1-5953990/ai-political-ads-2026-midterms",
-          "source": "NPR Politics",
-          "source_domain": "npr.org",
-          "published": "2026-09-16",
-          "first_seen_run": "2026-09-16",
-          "category": "deployments_studies",
-          "summary": "NPR reports that as the 2026 midterm campaign season accelerates, AI-generated political ads have become ubiquitous, with campaigns across the country deploying synthetic media content at scale.",
-          "why_it_matters": "Confirms that AI-generated ad production has crossed from experimental to mainstream in a midterm cycle, giving practitioners a benchmark for how widely the technology is now being used.",
-          "flags": [],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "npr",
-            "confidence": "high"
-          }
-        }
-      ]
     }
   ]
 }

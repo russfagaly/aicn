@@ -3,6 +3,446 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-04",
+      "reason": "wrong_actor",
+      "title": "The AI spending war heads to the 2026 campaign trail",
+      "url": "https://qz.com/ai-2026-election-policy-regulation",
+      "source": "Yahoo News",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "wrong_actor",
+      "title": "How AI Backlash Shaped the 2026 Midterms",
+      "url": "https://time.com/article/2026/11/04/midterm-elections-results-ai-industry-data-centers",
+      "source": "TIME",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "wrong_actor",
+      "title": "Alaska U . S . Senate race draws significant donations from AI company employees",
+      "url": "https://sitkasentinel.com/premium/stories/alaskas-us-senate-race-draws-significant-donations-from-ai-company-employees,183618",
+      "source": "sitkasentinel.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "not_practical",
+      "title": "Three midterm tests of AI's political influence",
+      "url": "https://axios.com/2026/11/03/ai-election-politics-2026-midterms",
+      "source": "Axios",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "not_practical",
+      "title": "The 2026 Midterm Election's Fad with AI Generated Content",
+      "url": "https://hercampus.com/school/ucf/the-2026-midterm-elections-fad-with-ai-generated-content",
+      "source": "Her Campus",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "not_practical",
+      "title": "AI influenced this election like never before",
+      "url": "https://dailykos.com/stories/2026/11/3/800121898/elections/ai-influenced-this-election-like-never-before",
+      "source": "Daily Kos",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "not_political",
+      "title": "What to Do in the D.C. Area This Weekend (Nov. 5)",
+      "url": "https://washingtonsun.com/metro/dc-events-listing-nov-5",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "not_political",
+      "title": "All-DMV High School Soccer Players of Week 10",
+      "url": "https://washingtonsun.com/sports/all-dmv/all-dmv-high-school-soccer-players-nov-4",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "‘I’m 100 Percent at War With Trump’: MAGA Revolts After Midterms Wipeout",
+      "url": "https://wired.com/story/im-100-percent-at-war-with-trump-maga-revolts-after-midterms-wipeout",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "newsroomamerica . com",
+      "url": "https://newsroomamerica.com/",
+      "source": "newsroomamerica.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Votes are still being counted to see who will represent Mississippi in the Senate",
+      "url": "https://npr.org/2026/11/04/nx-s1-6028618/votes-are-still-being-counted-in-mississippi-u-s-senate-race",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Voters Set $400 Million of Elon Musk’s Money on Fire",
+      "url": "https://wired.com/story/voters-set-dollar400-million-of-elon-musks-money-on-fire",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Voters Back Abortion Rights and Reject Trump’s Redistricting in State Ballot Measures",
+      "url": "https://washingtonsun.com/campaigns/voters-abortion-rights-reject-trump-redistricting-state-ballot-measures2026-midterm-election",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Vance Says the Iran War and Inflation Cost Republicans the Midterms",
+      "url": "https://washingtonsun.com/whitehouse/vance-says-iran-war-inflation-cost-republicans-midterms",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Trump ‘Loves the Guy’: Sergio Gor Is In Line for a Top Job Post-Midterms",
+      "url": "https://washingtonsun.com/administration/trump-sergio-gor-state-white-house-rubio",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Troy Jackson Defeats Susan Collins for Maine Senate",
+      "url": "https://washingtonsun.com/campaigns/maine-election-midterm-results-2026",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Thune Expected to Run for Republican Leader Despite Heavy Midterm Losses",
+      "url": "https://washingtonsun.com/congress/thune-republican-leader-midterm-losses",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "The world is reacting to the Democrats' sweeping midterm elections victory",
+      "url": "https://npr.org/2026/11/04/nx-s1-6028664/world-reacts-midterm-elections",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "The Washington Sun: Bluenami",
+      "url": "https://washingtonsun.com/newsletters/bluenami",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "The Washington Sun Metro: ‘A New Day in D.C.’",
+      "url": "https://washingtonsun.com/metro-newsletter/a-new-day-in-dc-11-4-2026",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "The Results Are In: Voters Hate Data Centers",
+      "url": "https://wired.com/story/the-results-are-in-voters-hate-data-centers",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "The Internet’s Conspiracy Theorists Are Desperate for Voter Fraud",
+      "url": "https://wired.com/story/the-internets-conspiracy-theorists-are-desperate-for-voter-fraud",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "The 2028 GOP Race Is On",
+      "url": "https://washingtonsun.com/campaigns/desantis-vance-rubio-2028",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Schumer's Plan: Tackle Affordability First, Then Corruption",
+      "url": "https://washingtonsun.com/campaigns/democrats-blowout-republicans-in-historic-midterm-now-face-pressure-to-deliver",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Pete Ricketts Fends Off His Independent Challenger in Nebraska",
+      "url": "https://washingtonsun.com/campaigns/nebraska-election-senate-results-2026",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "One Pennsylvania Republican Hugged Trump, Another Shunned Him. They Both Lost.",
+      "url": "https://washingtonsun.com/campaigns/fitzpatrick-harvie-perry-brooks-pensylvania-house-results-2026",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Montana Voters Approve Limits on Corporate Political Spending",
+      "url": "https://washingtonsun.com/campaigns/montana-ballot-measure-corporations-results-2026",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Mississippi Democrat Scott Colom Says He’s ‘Confident’ He Will Win",
+      "url": "https://washingtonsun.com/campaigns/mississippi-democrat-scott-colom-confident",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Mike Johnson will step aside as top House Republican next Congress",
+      "url": "https://npr.org/2026/11/04/g-s1-151854/2026-midterms-mike-johnson-speaker",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Kevin Kiley Loses Reelection After California Redistricting",
+      "url": "https://washingtonsun.com/campaigns/kevin-kiley-results-california-redistricting",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Kemp Rejects Calls to Hold Special Redistricting Session",
+      "url": "https://washingtonsun.com/national/brian-kemp-georgia-rejects-special-redistricting-session-democrats-blue-wave",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Kansas just elected a Democrat. His message to Washington? Be decent",
+      "url": "https://npr.org/2026/11/04/nx-s1-6028587/adam-hamilton-kansas-senate-political-divides",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Janeese Lewis George is D.C.’s Mayor-Elect. Here’s What Comes Next.",
+      "url": "https://washingtonsun.com/metro/dc/janeese-lewis-george-dc-mayor-elect-next-steps",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Janeese Lewis George Unveils Mayoral Transition Team: ‘This is the Big Leagues’",
+      "url": "https://washingtonsun.com/metro/janeese-lewis-george-transition-team",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Inside the Republican Cataclysm",
+      "url": "https://washingtonsun.com/campaigns/republican-midterms-election-wipeout-what-happened",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "How Sports Candidates Fared in the Midterms",
+      "url": "https://washingtonsun.com/sports/mark-teixeira-michelle-tafoya-midterms",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "How James Talarico Turned Texas Into a 2028 Battleground",
+      "url": "https://washingtonsun.com/campaigns/james-talarico-texas-victory-new-future-democrats",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Everything You Need to Know From Election Day in the DMV",
+      "url": "https://washingtonsun.com/metro/dc-maryland-virginia-election-results",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Eric Holder on how the GOP's redistricting efforts affected the midterms",
+      "url": "https://npr.org/2026/11/04/nx-s1-6022531/eric-holder-on-how-the-gops-redistricting-efforts-affected-the-midterms",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Election Deniers Aren’t Contesting Their Massive Losses",
+      "url": "https://wired.com/story/election-deniers-not-contesting-their-massive-losses",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Did Campaigns Bet Too Big on Broadcast in 2026?",
+      "url": "https://campaignsandelections.com/industry-news/did-campaigns-bet-too-big-on-broadcast-in-2026",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Democrats seize full control of Congress. And, which candidates made history last night",
+      "url": "https://npr.org/2026/11/04/g-s1-151745/up-first-newsletter-midterms-democrats-congress-control",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Democrats Take Control of the Senate in a Rebuke of President Trump",
+      "url": "https://washingtonsun.com/campaigns/senate-midterms-results",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Democrats Sweep Republicans in Nearly Every Race That Matters",
+      "url": "https://wired.com/story/democrats-sweep-republicans-in-nearly-every-race-that-matters",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Democrats Do the Unexpected: Capture a Majority of Governorships",
+      "url": "https://washingtonsun.com/campaigns/democrats-governor-majority-amy-acton-david-crowley-gina-hinojosa-blue-wave",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Democrats Are Already Feuding Over What It All Means",
+      "url": "https://washingtonsun.com/campaigns/democrats-progressives-feuding-meaning-midterms-results-trump",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Democrat Elaine Luria Defeats Incumbent in Virginia’s 2nd Congressional District",
+      "url": "https://washingtonsun.com/campaigns/virginia-2-election-results-midterm-2026",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "D.C. Youth Want a Seat at the (Council's) Table",
+      "url": "https://washingtonsun.com/metro/dc/dc-youth-governing-council",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Chuck Schumer heralds Democrats' 'generational remake' of Senate",
+      "url": "https://npr.org/2026/11/04/g-s1-151833/2026-midterms-chuck-schumer-senate-democrats",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Blue Wave Brings in Historic Firsts",
+      "url": "https://washingtonsun.com/campaigns/election-night-historic-wins-governors-races-senate",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Beyond the Two - Party System : Meet D . C . and Maryland Third - Party Candidates – Howard University News Service",
+      "url": "https://hunewsservice.com/elections/election-2026/beyond-the-two-party-system-meet-d-c-and-marylands-third-party-candidates",
+      "source": "hunewsservice.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Back in the majority, Democrats have plans for a long list of Trump investigations",
+      "url": "https://npr.org/2026/11/04/g-s1-150276/2026-midterms-democrats-investigations",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Abdul El-Sayed welcomes Trump's plan to cut Israel aid, calls for end to arms sales",
+      "url": "https://npr.org/2026/11/04/nx-s1-6028702/abdul-el-sayed-michigan-senate-israel-aid",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "Abdul El-Sayed Wins Michigan",
+      "url": "https://washingtonsun.com/campaigns/michigan-senate-midterm-results-2026",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-04",
+      "reason": "no_ai",
+      "title": "6 takeaways from Democrats' big wave on election night",
+      "url": "https://npr.org/2026/11/04/nx-s1-6022216/midterms-democrats-trump-republicans-analysis",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-11-03",
       "reason": "wrong_actor",
       "title": "‘Our Risk, Their Reward’: Zohran Mamdani on AI and Data Centers",
