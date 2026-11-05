@@ -1244,6 +1244,18 @@
       ],
       "first_proposed": "2026-11-03",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-democracy-works",
+      "kind": "watchlist_entity",
+      "value": "Democracy Works",
+      "feed_url": null,
+      "rationale": "Civic-tech organization whose election information was integrated into ChatGPT and served to 16 million voters — a niche but consequential player in AI-mediated voter information delivery not previously on the watchlist.",
+      "example_urls": [
+        "https://thehill.com/policy/technology/6194056-openai-chatgpt-democracy-works-election-info/"
+      ],
+      "first_proposed": "2026-11-05",
+      "status": "pending"
     }
   ]
 }

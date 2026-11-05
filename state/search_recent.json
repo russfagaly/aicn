@@ -1,10 +1,5 @@
 {
   "runs": {
-    "2026-10-14": [
-      "Catalist Acquires Campaign Brain Inc. to Inform the Next Generation of Political Campaign Tech",
-      "How American Political Campaigns Are Using AI—and What They're Spending on the Tools",
-      "Why one spoiler candidate is now trying to replicate his work nationwide"
-    ],
     "2026-10-15": [
       "$16 million spent on AI-edited political ads in the 2026 midterm election season",
       "L2 and IVC Media Launch Voter Count, an AI Agent That Answers Plain-English Questions About the National Voter File",
@@ -195,6 +190,13 @@
       "The AI spending war heads to the 2026 campaign trail",
       "Three midterm tests of AI's political influence",
       "Top Democrats signal AI interests"
+    ],
+    "2026-11-05": [
+      "ChatGPT provided Democracy Works info to voters more than 16 million times this cycle",
+      "Exclusive / Democrats run more anti-tech ads amid AI boom",
+      "Exclusive / Election 'war rooms' enter the AI age",
+      "New Data from NGP VAN and Mobilize Reveals Scale of Democratic Organizing in 2026 Midterms",
+      "Voters deliver \"AI earthquake,\" rebuking tech and billionaires"
     ]
   },
   "schema_version": 1

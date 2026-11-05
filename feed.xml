@@ -5,7 +5,28 @@
     <link>https://russfagaly.github.io/aicn/</link>
     <atom:link href="https://russfagaly.github.io/aicn/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Wed, 04 Nov 2026 19:35:08 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 19:45:05 GMT</lastBuildDate>
+    <item>
+      <title>Exclusive / Election 'war rooms' enter the AI age</title>
+      <link>https://semafor.com/article/11/02/2026/election-war-rooms-enter-the-ai-age</link>
+      <guid isPermaLink="false">ccd31203a27deba4</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Semafor reports that both OpenAI and Anthropic set up dedicated 'war rooms' during the 2026 midterm elections to ensure their platforms provided accurate electoral information, marking a formal operational commitment by the two leading AI labs to election integrity on their products.</description>
+    </item>
+    <item>
+      <title>Exclusive / Democrats run more anti-tech ads amid AI boom</title>
+      <link>https://semafor.com/article/11/03/2026/democrats-run-more-anti-tech-ads-amid-ai-boom</link>
+      <guid isPermaLink="false">f6d1eacfb8390daa</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+      <description>An analysis cited by Semafor found that liberal candidates in more than 130 federal and gubernatorial races this cycle ran anti-tech or anti-data-center ads, making opposition to AI infrastructure a measurable campaign message strategy in the 2026 midterms.</description>
+    </item>
+    <item>
+      <title>ChatGPT provided Democracy Works info to voters more than 16 million times this cycle</title>
+      <link>https://thehill.com/policy/technology/6194056-openai-chatgpt-democracy-works-election-info</link>
+      <guid isPermaLink="false">de00ce07aad9aa53</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>The Hill reports that ChatGPT served election information sourced from Democracy Works to voters more than 16 million times during the 2026 election cycle, making OpenAI's chatbot a significant channel for electoral information delivery at scale.</description>
+    </item>
     <item>
       <title>Synthetic Voters Aren’t Voters: Where AI Belongs in Campaign Research and Where It Doesn’t</title>
       <link>https://campaignsandelections.com/voices/synthetic-voters-arent-voters-where-ai-belongs-in-campaign-research-and-where-it-doesnt</link>
@@ -194,27 +215,6 @@
       <guid isPermaLink="false">511c4141a5d2b2df</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
       <description>A Campaigns &amp; Elections op-ed argues that campaigns and consultants over-relying on AI for creative and strategic work risk blending into a homogenized middle, and that differentiation requires human expertise layered on top of AI output.</description>
-    </item>
-    <item>
-      <title>How AI is changing political campaigns and voter targeting in Minnesota</title>
-      <link>https://startribune.com/minnesota-political-campaign-ai/601901252</link>
-      <guid isPermaLink="false">a19e1a75fd1a7eda</guid>
-      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
-      <description>The Star Tribune reports on how Minnesota political campaigns are deploying AI for voter targeting and other campaign functions in the 2026 midterm cycle, examining specific adoption patterns in a competitive battleground state.</description>
-    </item>
-    <item>
-      <title>Political Advertisers Have Spent At Least $137 Million on AI-Generated Ads</title>
-      <link>https://campaignsandelections.com/industry-news/political-advertisers-have-spent-at-least-137-million-on-ai-generated-ads</link>
-      <guid isPermaLink="false">ff920e5307353123</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-      <description>The Wesleyan Media Project identified 220 political ads produced at least in part with AI tools in 2026, with combined advertiser spending of at least $137 million — a substantially higher figure than the $80 million tallied by earlier tracking efforts.</description>
-    </item>
-    <item>
-      <title>Small Dollars, Big Problems</title>
-      <link>https://campaigntrend.com/small-dollars-big-problems</link>
-      <guid isPermaLink="false">c0f97ae2b01e8d23</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
-      <description>A Campaign Trend newsletter reports on how political chatbots are being built or used in ways that expose where voters live, alongside coverage of TikTok's paid content featuring state Rep. James Talarico.</description>
     </item>
   </channel>
 </rss>

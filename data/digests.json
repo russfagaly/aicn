@@ -1,7 +1,78 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T19:35:08Z",
+  "generated_at": "2026-11-05T19:45:05Z",
   "runs": [
+    {
+      "run_id": "2026-11-05",
+      "date": "2026-11-05",
+      "generated_at": "2026-11-05T19:45:05Z",
+      "is_light_run": false,
+      "top_summary": "This run's most significant on-topic item is Semafor's report that both OpenAI and Anthropic stood up election 'war rooms' to monitor their platforms' accuracy during the 2026 midterms \u2014 a concrete operational step by AI vendors intersecting directly with the election cycle. Democrats' use of anti-tech and data-center ads in 130+ federal and gubernatorial races also surfaces as a noteworthy deployment pattern, while ChatGPT served Democracy Works election information to voters more than 16 million times this cycle.",
+      "item_count": 3,
+      "candidates_reviewed": 21,
+      "rejection_counts": {
+        "no_ai": 15,
+        "wrong_actor": 3
+      },
+      "items": [
+        {
+          "id": "ccd31203a27deba4",
+          "title": "Exclusive / Election 'war rooms' enter the AI age",
+          "url": "https://semafor.com/article/11/02/2026/election-war-rooms-enter-the-ai-age",
+          "source": "Semafor",
+          "source_domain": "semafor.com",
+          "published": "2026-11-02",
+          "first_seen_run": "2026-11-05",
+          "category": "deployments_studies",
+          "summary": "Semafor reports that both OpenAI and Anthropic set up dedicated 'war rooms' during the 2026 midterm elections to ensure their platforms provided accurate electoral information, marking a formal operational commitment by the two leading AI labs to election integrity on their products.",
+          "why_it_matters": "Signals that frontier AI vendors are now treating election cycles as requiring active, real-time content oversight \u2014 a posture campaigns and regulators alike will need to account for going forward.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:semafor",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "f6d1eacfb8390daa",
+          "title": "Exclusive / Democrats run more anti-tech ads amid AI boom",
+          "url": "https://semafor.com/article/11/03/2026/democrats-run-more-anti-tech-ads-amid-ai-boom",
+          "source": "Semafor",
+          "source_domain": "semafor.com",
+          "published": "2026-11-03",
+          "first_seen_run": "2026-11-05",
+          "category": "deployments_studies",
+          "summary": "An analysis cited by Semafor found that liberal candidates in more than 130 federal and gubernatorial races this cycle ran anti-tech or anti-data-center ads, making opposition to AI infrastructure a measurable campaign message strategy in the 2026 midterms.",
+          "why_it_matters": "Provides concrete data on how campaigns weaponized the AI boom as a political message, offering a documented playbook for issue framing around tech in future cycles.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:semafor",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "de00ce07aad9aa53",
+          "title": "ChatGPT provided Democracy Works info to voters more than 16 million times this cycle",
+          "url": "https://thehill.com/policy/technology/6194056-openai-chatgpt-democracy-works-election-info",
+          "source": "The Hill",
+          "source_domain": "thehill.com",
+          "published": "2026-11-04",
+          "first_seen_run": "2026-11-05",
+          "category": "deployments_studies",
+          "summary": "The Hill reports that ChatGPT served election information sourced from Democracy Works to voters more than 16 million times during the 2026 election cycle, making OpenAI's chatbot a significant channel for electoral information delivery at scale.",
+          "why_it_matters": "The scale \u2014 16 million voter interactions \u2014 establishes AI chatbots as a material voter-information infrastructure, with implications for accuracy, trust, and future campaign and civic-tech strategy.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:the-hill",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-11-04",
       "date": "2026-11-04",
@@ -1678,15 +1749,6 @@
           }
         }
       ]
-    },
-    {
-      "run_id": "2026-09-17",
-      "date": "2026-09-17",
-      "generated_at": "2026-09-17T16:35:21Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
     }
   ]
 }

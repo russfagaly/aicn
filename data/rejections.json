@@ -3,6 +3,150 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-05",
+      "reason": "wrong_actor",
+      "title": "Voters deliver \"AI earthquake,\" rebuking tech and billionaires",
+      "url": "https://axios.com/2026/11/04/ai-data-center-election-slowdown",
+      "source": "Axios",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-05",
+      "reason": "wrong_actor",
+      "title": "The Blue Wave Has Tech Bros Scrambling for Data Centers in Space",
+      "url": "https://wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-05",
+      "reason": "wrong_actor",
+      "title": "The Biggest Pro-AI Super PAC Network Didn’t Really Impact the Midterms",
+      "url": "https://wired.com/story/the-biggest-pro-ai-super-pac-network-didnt-really-impact-the-midterms",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-05",
+      "reason": "no_ai",
+      "title": "‘We Have No Shared Reality’: Two Political Influencers on the Future of Politics Online",
+      "url": "https://wired.com/story/wired-world-fair-2026-cj-pearson-and-kat-abughazaleh",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-05",
+      "reason": "no_ai",
+      "title": "What's next for Democrats after the midterms. And, a look at the outstanding races",
+      "url": "https://npr.org/2026/11/05/g-s1-152046/up-first-newsletter-democrats-congress-control-house-senate-trump-reaction",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-05",
+      "reason": "no_ai",
+      "title": "Trump's arch is on the verge of federal approval. But a judge could block construction",
+      "url": "https://npr.org/2026/11/05/nx-s1-6027301/trump-arch-federal-approval-judge-construction",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-05",
+      "reason": "no_ai",
+      "title": "Trump's Lawyers Appear Before Appeals Court as He Fights Hush Money Conviction",
+      "url": "https://washingtonsun.com/legal/trump-lawyers-appear-before-appeals-court-to-fight-hush-money-conviction",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-05",
+      "reason": "no_ai",
+      "title": "The South flexes political power in midterms, sets regional influence in 2028 election",
+      "url": "https://npr.org/2026/11/05/nx-s1-6029818/blue-wave-south-carolina-georgia-mississippi-texas",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-05",
+      "reason": "no_ai",
+      "title": "Sen. Gillibrand says Democrats must end Iran war, hold Trump accountable. But how?",
+      "url": "https://npr.org/2026/11/05/nx-s1-6028837/kirsten-gillibrand-democrats-congress-priorities",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-05",
+      "reason": "no_ai",
+      "title": "Russell Brand is convicted of rape, and judge says he'll get a prison term",
+      "url": "https://npr.org/2026/11/05/nx-s1-6030720/russell-brand-rape-sexual-assault-prison",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-05",
+      "reason": "no_ai",
+      "title": "Politics Has a Listening Problem",
+      "url": "https://campaignsandelections.com/voices/politics-has-a-listening-problem",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-05",
+      "reason": "no_ai",
+      "title": "New Data from NGP VAN and Mobilize Reveals Scale of Democratic Organizing in 2026 Midterms",
+      "url": "https://prnewswire.com/news-releases/new-data-from-ngp-van-and-mobilize-reveals-scale-of-democratic-organizing-in-2026-midterms-302929659.html",
+      "source": "PRNewswire",
+      "discovery": "watchlist"
+    },
+    {
+      "run_id": "2026-11-05",
+      "reason": "no_ai",
+      "title": "Knives Are Out in the White House",
+      "url": "https://wired.com/story/knives-are-out-in-the-white-house",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-05",
+      "reason": "no_ai",
+      "title": "Israel Is Destroying the Machinery South Lebanon Needs to Rebuild",
+      "url": "https://wired.com/story/israel-is-destroying-the-machinery-south-lebanon-needs-to-rebuild",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-05",
+      "reason": "no_ai",
+      "title": "Head of Justice Department office on Civil Rights resigns",
+      "url": "https://npr.org/2026/11/05/g-s1-152080/head-of-justice-department-office-on-civil-rights-resigns",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-05",
+      "reason": "no_ai",
+      "title": "Democrats will take control of Congress next year. What does it mean for the economy?",
+      "url": "https://npr.org/2026/11/05/nx-s1-6029304/democrats-will-take-control-of-congress-next-year-what-does-it-mean-for-the-economy",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-05",
+      "reason": "no_ai",
+      "title": "Democrats will control Congress. Will it change Trump's approach to foreign policy?",
+      "url": "https://npr.org/2026/11/05/nx-s1-6028977/democrats-will-control-congress-will-it-change-trumps-approach-to-foreign-policy",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-05",
+      "reason": "no_ai",
+      "title": "After sweeping midterm wins, here's what Democrats hope to get done in the majority",
+      "url": "https://npr.org/2026/11/05/nx-s1-6029331/democrats-have-a-long-to-do-list-when-they-take-over-congress-next-year",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-11-04",
       "reason": "wrong_actor",
       "title": "The AI spending war heads to the 2026 campaign trail",
