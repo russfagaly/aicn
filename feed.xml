@@ -5,7 +5,28 @@
     <link>https://russfagaly.github.io/aicn/</link>
     <atom:link href="https://russfagaly.github.io/aicn/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Thu, 05 Nov 2026 19:45:05 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 19:06:54 GMT</lastBuildDate>
+    <item>
+      <title>Political Campaigns Are Using Generative AI for Conversations with Voters</title>
+      <link>https://brennancenter.org/our-work/analysis-opinion/political-campaigns-are-using-generative-ai-conversations-voters</link>
+      <guid isPermaLink="false">f5321d437babd9d8</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <description>The Brennan Center for Justice documents that political campaigns in the 2026 cycle deployed generative AI chatbots to hold direct conversations with voters, raising concerns that voters may receive false information or commitments the campaign does not actually endorse.</description>
+    </item>
+    <item>
+      <title>Chatbots Became The Voter Guide</title>
+      <link>https://campaigntrend.com/chatbots-became-the-voter-guide</link>
+      <guid isPermaLink="false">44fbcd29ff2d1ed5</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Campaign Trend reports that AI chatbots functioned as voter guides during the 2026 elections and that AI canvassers sent text messages directly to voters, while also noting a spam-trap vulnerability in Democrats' digital outreach.</description>
+    </item>
+    <item>
+      <title>Exclusive: Conservative group issues warning on AI</title>
+      <link>https://semafor.com/article/11/04/2026/conservative-group-issues-warning-on-ai</link>
+      <guid isPermaLink="false">71f3d83378acc283</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+      <description>A post-midterms memo from the Alliance for a Better Future, a conservative AI policy group, warns Republicans that they need a major strategic recalibration on AI before the next presidential election.</description>
+    </item>
     <item>
       <title>Exclusive / Election 'war rooms' enter the AI age</title>
       <link>https://semafor.com/article/11/02/2026/election-war-rooms-enter-the-ai-age</link>
@@ -194,27 +215,6 @@
       <guid isPermaLink="false">14112b1fba2bdd85</guid>
       <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
       <description>OregonLive reports that an Oregon outlet retracted its story labeling a viral video of Washington County candidate Nafisa Fai a deepfake after the evidence supporting that characterization fell apart, with Oregon Democrats having already publicly condemned the video.</description>
-    </item>
-    <item>
-      <title>Candidates campaign for AI attention</title>
-      <link>https://marketplace.org/story/2026/10/19/candidates-campaign-for-ai-attention</link>
-      <guid isPermaLink="false">12e216c24c56bfc4</guid>
-      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Marketplace reports on candidates actively shaping how their campaigns appear in AI-generated answers, treating AI search and answer tools as a new channel that campaigns need to optimize for alongside traditional digital outreach.</description>
-    </item>
-    <item>
-      <title>Is AI Reshaping the 2026 Midterms? $137 Million Spent on AI-Generated Political Ads</title>
-      <link>https://ibtimes.sg/ai-reshaping-2026-midterms-137-million-spent-ai-generated-political-ads-95266</link>
-      <guid isPermaLink="false">dc0fae9fbb668d4b</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
-      <description>IBTimes reports that Republican-affiliated groups account for 88% of the $137 million spent on AI-generated political ads in the 2026 midterms, adding a partisan breakdown to the Wesleyan Media Project figures already in circulation.</description>
-    </item>
-    <item>
-      <title>AI Makes Everything Look the Same. Here’s How True Experts Stand Out</title>
-      <link>https://campaignsandelections.com/voices/ai-makes-everything-look-the-same-heres-how-true-experts-stand-out</link>
-      <guid isPermaLink="false">511c4141a5d2b2df</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
-      <description>A Campaigns &amp; Elections op-ed argues that campaigns and consultants over-relying on AI for creative and strategic work risk blending into a homogenized middle, and that differentiation requires human expertise layered on top of AI output.</description>
     </item>
   </channel>
 </rss>

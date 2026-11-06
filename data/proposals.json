@@ -1256,6 +1256,18 @@
       ],
       "first_proposed": "2026-11-05",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-alliance-for-a-better-future",
+      "kind": "watchlist_entity",
+      "value": "Alliance for a Better Future",
+      "feed_url": null,
+      "rationale": "Conservative AI policy group issuing campaign-strategy guidance to Republican Party actors — niche enough and directly election-facing to warrant tracking.",
+      "example_urls": [
+        "https://semafor.com/article/11/04/2026/conservative-group-issues-warning-on-ai"
+      ],
+      "first_proposed": "2026-11-06",
+      "status": "pending"
     }
   ]
 }

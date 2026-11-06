@@ -3,6 +3,150 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-06",
+      "reason": "wrong_actor",
+      "title": "Where AI money worked in the midterms",
+      "url": "https://semafor.com/article/11/05/2026/where-ai-money-worked-in-the-midterms",
+      "source": "Semafor",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-06",
+      "reason": "wrong_actor",
+      "title": "How Elon Musk and Big Tech Poured Millions Into the Midterms, and Lost",
+      "url": "https://wired.com/story/uncanny-valley-podcast-how-elon-musk-and-big-tech-poured-millions-into-the-midterms-and-lost",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-06",
+      "reason": "wrong_actor",
+      "title": "Chamber of Progress circulates tech 'to-do list' for Democrats",
+      "url": "https://thehill.com/policy/technology/6199670-chamber-progress-ai-policy",
+      "source": "The Hill",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-06",
+      "reason": "wrong_actor",
+      "title": "AI Companies Built 4 Defenses for the 2026 Midterms. Here's What Worked, What Didn't, and What Still Gets Through",
+      "url": "https://memeburn.com/ai-companies-ran-election-2026-midterms",
+      "source": "Memeburn",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-06",
+      "reason": "not_political",
+      "title": "Can Maryland and Georgetown Revive Their Basketball Rivalry?",
+      "url": "https://washingtonsun.com/sports/colleges/maryland-georgetown-college-basketball-rivalry",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-06",
+      "reason": "no_ai",
+      "title": "What the blue wave looked like in North Carolina",
+      "url": "https://npr.org/2026/11/05/nx-s1-6030848/what-the-blue-wave-looked-like-in-north-carolina",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-06",
+      "reason": "no_ai",
+      "title": "Voters under 30 helped drive Tuesday's blue wave",
+      "url": "https://npr.org/2026/11/06/nx-s1-6030627/voters-under-30-helped-drive-tuesdays-blue-wave",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-06",
+      "reason": "no_ai",
+      "title": "These are the races in the House and Senate that haven't been called yet",
+      "url": "https://npr.org/2026/11/05/g-s1-152127/house-senate-uncalled-races",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-06",
+      "reason": "no_ai",
+      "title": "The Blue Tsunami Swept Doctors and Scientists Into Office",
+      "url": "https://wired.com/story/the-blue-tsunami-swept-doctors-and-scientists-into-office",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-06",
+      "reason": "no_ai",
+      "title": "Newsom announces he will commute sentences of inmates on California's death row",
+      "url": "https://npr.org/2026/11/05/nx-s1-6030961/newsom-announces-he-will-commute-sentences-of-inmates-on-californias-death-row",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-06",
+      "reason": "no_ai",
+      "title": "Melania Trump touts rare agreement she brokered between Russia and Ukraine",
+      "url": "https://npr.org/2026/11/05/nx-s1-6030662/melania-trump-touts-rare-agreement-she-brokered-between-russia-and-ukraine",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-06",
+      "reason": "no_ai",
+      "title": "Judge halts construction of Trump's arch. And, Labor Department to release jobs report",
+      "url": "https://npr.org/2026/11/06/g-s1-152213/up-first-newsletter-job-market-trump-arch-school-enrollment-harmeet-dhillon",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-06",
+      "reason": "no_ai",
+      "title": "How North Carolina Democrats flipped several House seats in historically GOP districts",
+      "url": "https://npr.org/2026/11/05/nx-s1-6031719/north-carolina-democrats-flip-house-seats-republican-districts",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-06",
+      "reason": "no_ai",
+      "title": "Former Republican FEC Officials Push Senate to Confirm Trump’s Nominees",
+      "url": "https://campaignsandelections.com/industry-news/former-republican-fec-officials-push-senate-to-confirm-trumps-nominees",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-06",
+      "reason": "no_ai",
+      "title": "Dearborn, Michigan, mayor on city's record turnout and the election of Abdul El-Sayed",
+      "url": "https://npr.org/2026/11/06/nx-s1-6029424/dearborn-michigan-mayor-on-citys-record-turnout-and-the-election-of-abdul-el-sayed",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-06",
+      "reason": "no_ai",
+      "title": "A judge blocked construction of Trump's arch at the 11th hour. What's next?",
+      "url": "https://npr.org/2026/11/06/nx-s1-6031990/trump-arch-planning-commission-injunction",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-06",
+      "reason": "no_ai",
+      "title": "'He's got to go': Hakeem Jeffries calls for Hegseth's removal but stops short of impeachment",
+      "url": "https://npr.org/2026/11/06/nx-s1-6030799/democrats-ran-on-affordability-how-will-the-party-make-it-happen",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-06",
+      "reason": "already_covered",
+      "title": "AI Campaign Texts Reshape Voter Outreach in 2026 Elections",
+      "url": "https://emergent.sh/news/ai-campaign-texts-reshape-voter-outreach-2026",
+      "source": "Emergent",
+      "discovery": "search"
+    },
+    {
       "run_id": "2026-11-05",
       "reason": "wrong_actor",
       "title": "Voters deliver \"AI earthquake,\" rebuking tech and billionaires",
