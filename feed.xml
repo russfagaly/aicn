@@ -5,7 +5,14 @@
     <link>https://russfagaly.github.io/aicn/</link>
     <atom:link href="https://russfagaly.github.io/aicn/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Fri, 06 Nov 2026 19:06:54 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 17:39:01 GMT</lastBuildDate>
+    <item>
+      <title>How AI deepfakes are upending political advertising</title>
+      <link>https://wbur.org/onpoint/2026/11/06/deepfakes-political-advertising-midterms</link>
+      <guid isPermaLink="false">319df1ddd646f822</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+      <description>WBUR's On Point reports that AI-generated political ads flooded television and social media during the 2026 midterm cycle, with roughly half depicting real candidates' likenesses and most carrying no AI disclosure.</description>
+    </item>
     <item>
       <title>Political Campaigns Are Using Generative AI for Conversations with Voters</title>
       <link>https://brennancenter.org/our-work/analysis-opinion/political-campaigns-are-using-generative-ai-conversations-voters</link>
@@ -208,13 +215,6 @@
       <guid isPermaLink="false">d34cd54ac12e5058</guid>
       <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
       <description>Fortune reports that U.S. political advertisers went from near-zero to $137 million in AI-generated ad spending in a single election cycle, and adds a new detail not previously highlighted: more than 70% of AI campaign videos carried no disclaimer or disclosure that AI was used in their production.</description>
-    </item>
-    <item>
-      <title>Oregon outlet retracts story calling viral video of local candidate a deepfake</title>
-      <link>https://oregonlive.com/washingtoncounty/2026/10/oregon-democrats-decried-a-deepfake-then-the-evidence-fell-apart.html</link>
-      <guid isPermaLink="false">14112b1fba2bdd85</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <description>OregonLive reports that an Oregon outlet retracted its story labeling a viral video of Washington County candidate Nafisa Fai a deepfake after the evidence supporting that characterization fell apart, with Oregon Democrats having already publicly condemned the video.</description>
     </item>
   </channel>
 </rss>

@@ -1,13 +1,5 @@
 {
   "runs": {
-    "2026-10-16": [
-      "Electric Twin launches AI research agent for rapid studies",
-      "Forecasting AI's First Real Election",
-      "L2 and IVC Media Launch Voter Count, an AI Agent That Answers Plain-English Questions About the National Voter File",
-      "Meta Launches AI Ad Tools With In-Chat Checkout at Ad Week 2026",
-      "Political Campaign Use of AI-Powered Voter Outreach Highlights Regulatory Gaps",
-      "Tech: Key AI group added no Q3 donations"
-    ],
     "2026-10-17": [
       "$137 Million in AI-Generated Ads Flood the Midterms",
       "Anthropic-backed group puts more toward Scott Wiener",
@@ -199,6 +191,15 @@
       "Exclusive: Conservative group issues warning on AI",
       "Field Report: How AI Is Being Used in the 2026 Midterms",
       "Political Campaigns Are Using Generative AI for Conversations with Voters",
+      "Where AI money worked in the midterms"
+    ],
+    "2026-11-07": [
+      "AI PACs spent millions trying to shape Congress — here's how they fared",
+      "AI in Political Campaigns 2026: Ads, Influencers, New Rules",
+      "Announcing HGL's Agentic AI Open Call Investments",
+      "Dems to Trump: 'Lawyer up'",
+      "How AI deepfakes are upending political advertising",
+      "Rebecca Cooke projected to unseat incumbent Derrick Van Orden",
       "Where AI money worked in the midterms"
     ]
   },

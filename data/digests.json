@@ -1,7 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T19:06:54Z",
+  "generated_at": "2026-11-07T17:39:01Z",
   "runs": [
+    {
+      "run_id": "2026-11-07",
+      "date": "2026-11-07",
+      "generated_at": "2026-11-07T17:39:01Z",
+      "is_light_run": false,
+      "top_summary": "The most substantive new item this run examines how AI-generated political ads \u2014 many using candidate likenesses without disclosure \u2014 spread across TV and social media during the 2026 midterm cycle. The TechCrunch piece on AI PAC spending was excluded because the actor is AI industry lobbying groups, not campaigns using AI as a tool. Most other candidates are general political news with no AI component.",
+      "item_count": 1,
+      "candidates_reviewed": 16,
+      "rejection_counts": {
+        "no_ai": 13,
+        "not_political": 1,
+        "wrong_actor": 1
+      },
+      "items": [
+        {
+          "id": "319df1ddd646f822",
+          "title": "How AI deepfakes are upending political advertising",
+          "url": "https://wbur.org/onpoint/2026/11/06/deepfakes-political-advertising-midterms",
+          "source": "WBUR On Point",
+          "source_domain": "wbur.org",
+          "published": "2026-11-06",
+          "first_seen_run": "2026-11-07",
+          "category": "deepfakes",
+          "summary": "WBUR's On Point reports that AI-generated political ads flooded television and social media during the 2026 midterm cycle, with roughly half depicting real candidates' likenesses and most carrying no AI disclosure.",
+          "why_it_matters": "The scale and non-disclosure rate of synthetic candidate likenesses in paid advertising this cycle sets a concrete benchmark for how broadly deepfake ad techniques were actually deployed \u2014 not just threatened \u2014 in a major election.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:battlegroundai",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-11-06",
       "date": "2026-11-06",
@@ -1688,72 +1722,6 @@
       "top_summary": "",
       "item_count": 0,
       "items": []
-    },
-    {
-      "run_id": "2026-09-19",
-      "date": "2026-09-19",
-      "generated_at": "2026-09-19T15:39:31Z",
-      "is_light_run": false,
-      "top_summary": "Democratic campaigns and organizers are pushing back against AI-aligned super PAC money, urging candidates to reject funds from groups like Leading Future. Meanwhile, Trump pollster Tony Fabrizio has released messaging advice to Republican candidates on how to talk about AI data centers on the trail. Microsoft has also published a voter-information initiative aimed at helping the public navigate AI-generated election content ahead of the 2026 midterms.",
-      "item_count": 3,
-      "items": [
-        {
-          "id": "a4a2491f1a526b18",
-          "title": "Democratic campaigns, organizers urge to snub AI super PAC funds",
-          "url": "https://thehill.com/policy/technology/6097925-democrats-ai-leading-future-super-pac-letter",
-          "source": "The Hill",
-          "source_domain": "thehill.com",
-          "published": "2026-09-18",
-          "first_seen_run": "2026-09-19",
-          "category": "analysis_oped",
-          "summary": "Democratic campaigns and organizers sent a letter urging candidates to reject donations from AI-aligned super PACs, specifically calling out the group Leading Future, amid concerns about the political influence of AI industry money in the 2026 midterms.",
-          "why_it_matters": "Shows organized resistance within one party to AI-sector political spending, a dynamic that could shape how campaigns publicly position their donor relationships going forward.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "site:the-hill",
-            "confidence": "medium"
-          }
-        },
-        {
-          "id": "1f7db8f6f6925225",
-          "title": "Trump pollster Fabrizio gives Republican candidates advice on how to talk about AI data centers",
-          "url": "https://axios.com/2026/09/15/trump-pollster-data-center-republicans-midterm-election",
-          "source": "Axios",
-          "source_domain": "axios.com",
-          "published": "2026-09-15",
-          "first_seen_run": "2026-09-19",
-          "category": "analysis_oped",
-          "summary": "Trump pollster Tony Fabrizio circulated messaging guidance to Republican candidates advising them on how to frame AI data centers as a campaign issue ahead of the 2026 midterms.",
-          "why_it_matters": "Pollster-driven message testing on AI infrastructure issues signals that data centers and AI policy are now live campaign-trail subjects with crafted talking points for candidates.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "site:axios",
-            "confidence": "medium"
-          }
-        },
-        {
-          "id": "eed34f1f0a1a50d1",
-          "title": "2026 midterm elections: Helping voters navigate election information in the age of AI",
-          "url": "https://blogs.microsoft.com/on-the-issues/2026/09/15/2026-midterm-elections-helping-voters-navigate-election-information-in-the-age-of-ai",
-          "source": "Microsoft On the Issues",
-          "source_domain": "blogs.microsoft.com",
-          "published": "2026-09-15",
-          "first_seen_run": "2026-09-19",
-          "category": "deployments_studies",
-          "summary": "Microsoft published a blog post describing its efforts to help voters identify reliable election information and understand AI-generated content ahead of the 2026 U.S. midterm elections, framing the initiative as a voter-navigation resource.",
-          "why_it_matters": "A major platform's voter-information initiative around AI-generated content sets a precedent for how tech companies position themselves as election integrity actors during AI-saturated campaign cycles.",
-          "flags": [
-            "vendor_self_reported"
-          ],
-          "discovery": {
-            "method": "search",
-            "source_ref": "broad_web_search",
-            "confidence": "medium"
-          }
-        }
-      ]
     }
   ]
 }

@@ -3,6 +3,126 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-07",
+      "reason": "wrong_actor",
+      "title": "AI PACs spent millions trying to shape Congress — here's how they fared",
+      "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared",
+      "source": "TechCrunch",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-07",
+      "reason": "not_political",
+      "title": "The Duality of Trae Young",
+      "url": "https://washingtonsun.com/sports/wizards/trae-young-wizards-hawks-atlanta",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-07",
+      "reason": "no_ai",
+      "title": "What to know about Gina Hinojosa, Texas' first Latina governor-elect",
+      "url": "https://npr.org/2026/11/06/nx-s1-6030822/what-to-know-about-gina-hinojosa-texas-first-latina-governor-elect",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-07",
+      "reason": "no_ai",
+      "title": "Week in Politics: Trump taps Miller for chief of staff; doubles down on Trumpism",
+      "url": "https://npr.org/2026/11/07/nx-s1-6030908/week-in-politics-trump-taps-miller-for-chief-of-staff-doubles-down-on-trumpism",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-07",
+      "reason": "no_ai",
+      "title": "Rebecca Cooke projected to unseat incumbent Derrick Van Orden",
+      "url": "https://thehill.com/homenews/campaign/6175753-cooke-wins-wisconsin-house-race",
+      "source": "The Hill",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-07",
+      "reason": "no_ai",
+      "title": "Ousted Paraguayan president appears before prosecutors",
+      "url": "https://npr.org/2026/11/07/nx-s1-6033373/paraguay-president-ousted-bank-collapse",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-07",
+      "reason": "no_ai",
+      "title": "How the new Senate majority shifts control over the federal judiciary",
+      "url": "https://npr.org/2026/11/07/nx-s1-6032757/how-the-new-senate-majority-shifts-control-over-the-federal-judiciary",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-07",
+      "reason": "no_ai",
+      "title": "How Stephen Miller Schemed His Way to the Top",
+      "url": "https://wired.com/story/how-stephen-miller-schemed-his-way-to-the-top",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-07",
+      "reason": "no_ai",
+      "title": "GOP's lame-duck clock is ticking",
+      "url": "https://npr.org/2026/11/07/nx-s1-6032594/gops-lame-duck-clock-is-ticking",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-07",
+      "reason": "no_ai",
+      "title": "Dems to Trump: 'Lawyer up'",
+      "url": "https://punchbowl.news/article/washington/dems-tell-trump-to-lawyer-up",
+      "source": "Punchbowl News",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-07",
+      "reason": "no_ai",
+      "title": "Defiance Mayor Mike McCann on how Republicans can regroup after midterm losses",
+      "url": "https://npr.org/2026/11/07/nx-s1-6029755/defiance-mayor-mike-mccann-on-how-republicans-can-regroup-after-midterm-losses",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-07",
+      "reason": "no_ai",
+      "title": "Deb Haaland's New Mexico challenge",
+      "url": "https://npr.org/2026/11/07/nx-s1-5995646/deb-haalands-new-mexico-challenge",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-07",
+      "reason": "no_ai",
+      "title": "Border shift: Hispanic voters drive Texas' historic flip to blue",
+      "url": "https://npr.org/2026/11/07/nx-s1-6030994/border-shift-hispanic-voters-drive-texas-historic-flip-to-blue",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-07",
+      "reason": "no_ai",
+      "title": "An unexpected activist emerged to help block a $5 billion data center in Maryland",
+      "url": "https://npr.org/2026/11/07/nx-s1-6007770/data-centers-activist-moratorium",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-07",
+      "reason": "no_ai",
+      "title": "American democracy was a big winner in the midterms",
+      "url": "https://npr.org/2026/11/06/nx-s1-6029750/american-democracy-was-a-big-winner-in-the-midterms",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-11-06",
       "reason": "wrong_actor",
       "title": "Where AI money worked in the midterms",
