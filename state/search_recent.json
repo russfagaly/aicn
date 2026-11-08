@@ -1,13 +1,5 @@
 {
   "runs": {
-    "2026-10-17": [
-      "$137 Million in AI-Generated Ads Flood the Midterms",
-      "Anthropic-backed group puts more toward Scott Wiener",
-      "Exclusive: AI safety money floods into political races",
-      "How AI is changing political campaigns and voter targeting in Minnesota",
-      "OpenAI wants to curb misleading election deepfakes",
-      "Tech: McCormick ups calls for AI hawks' measures"
-    ],
     "2026-10-18": [
       "Agencies and brands expand use of synthetic consumers to guide marketing decisions",
       "Anthropic's PAC spent more than $250K in third quarter, splitting between parties",
@@ -200,6 +192,12 @@
       "Dems to Trump: 'Lawyer up'",
       "How AI deepfakes are upending political advertising",
       "Rebecca Cooke projected to unseat incumbent Derrick Van Orden",
+      "Where AI money worked in the midterms"
+    ],
+    "2026-11-08": [
+      "Field Report: How AI Is Being Used in the 2026 Midterms",
+      "Political Campaigns Are Using Generative AI for Conversations with Voters",
+      "Three questions that will define AI's political power",
       "Where AI money worked in the midterms"
     ]
   },

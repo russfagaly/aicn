@@ -3,6 +3,150 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-08",
+      "reason": "wrong_actor",
+      "title": "He Ran on Fighting Data Centers. Now, He’s Going to Congress",
+      "url": "https://wired.com/story/he-ran-on-fighting-data-centers-now-hes-going-to-congress",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-08",
+      "reason": "wrong_actor",
+      "title": "Democrats won big on Election Day . But can they agree on AI ?",
+      "url": "https://nbcnews.com/tech/tech-news/democrats-won-big-election-day-can-agree-ai-rcna607414",
+      "source": "nbcnews.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-08",
+      "reason": "no_ai",
+      "title": "Young voters overwhelmingly backed Democrats this year . The question is whether theyll stay",
+      "url": "https://clickondetroit.com/news/politics/2026/11/07/young-voters-overwhelmingly-backed-democrats-this-year-the-question-is-whether-theyll-stay",
+      "source": "clickondetroit.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-08",
+      "reason": "no_ai",
+      "title": "Week in politics: Democrats plan for the next Congress, Trump's new Chief of Staff",
+      "url": "https://npr.org/2026/11/08/nx-s1-6030679/week-in-politics-democrats-plan-for-the-next-congress-trumps-new-chief-of-staff",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-08",
+      "reason": "no_ai",
+      "title": "UFC's Dana White says he will meet with Trump Monday over offer to be White House press secretary",
+      "url": "https://npr.org/2026/11/08/nx-s1-6033900/ufc-dana-white-trump-white-house-press-secretary",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-08",
+      "reason": "no_ai",
+      "title": "Too much capital ? | The Arkansas Democrat - Gazette - Arkansa Best News Source",
+      "url": "https://arkansasonline.com/news/2026/nov/08/too-much-capital",
+      "source": "arkansasonline.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-08",
+      "reason": "no_ai",
+      "title": "Texas's 'Blue Tsunami' has former Texas congressman Beto O'Rourke 'over the moon'",
+      "url": "https://npr.org/2026/11/07/nx-s1-6030966/texass-blue-tsunami-has-former-texas-congressman-beto-orourke-over-the-moon",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-08",
+      "reason": "no_ai",
+      "title": "Republican consultant discusses what went wrong and what's next for the GOP",
+      "url": "https://npr.org/2026/11/08/nx-s1-6033375/republican-consultant-discusses-what-went-wrong-and-whats-next-for-the-gop",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-08",
+      "reason": "no_ai",
+      "title": "President of The Heritage Foundation looks ahead to the future of the GOP",
+      "url": "https://npr.org/2026/11/07/nx-s1-6029779/president-of-the-heritage-foundation-looks-ahead-to-the-future-of-the-gop",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-08",
+      "reason": "no_ai",
+      "title": "Pope Leo heads to Milei Argentina as tensions loom over austerity , Iran",
+      "url": "https://nbcnews.com/world/argentina/pope-leo-heads-milei-argentina-tensions-loom-austerity-iran-rcna608083",
+      "source": "nbcnews.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-08",
+      "reason": "no_ai",
+      "title": "Permitting Reform Is Heading Into a Key Vote With an Unsteady Coalition",
+      "url": "https://washingtonsun.com/energy-environment/permitting-reform-unsteady-coalition",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-08",
+      "reason": "no_ai",
+      "title": "No clear winner in New Zealand election, as leaders prepare for weeks of talks",
+      "url": "https://npr.org/2026/11/08/nx-s1-6033999/no-clear-winner-in-new-zealand-election-as-leaders-prepare-for-weeks-of-talks",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-08",
+      "reason": "no_ai",
+      "title": "NPR's Moscow and Beijing correspondents discuss the reaction to U.S. elections abroad",
+      "url": "https://npr.org/2026/11/08/nx-s1-6030815/nprs-moscow-and-beijing-correspondents-discuss-the-reaction-to-u-s-elections-abroad",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-08",
+      "reason": "no_ai",
+      "title": "MICHELLE GOLDBERG : Finally , finally , finally , Texas goes blue ! | The Arkansas Democrat - Gazette",
+      "url": "https://nytimes.com/2026/11/04/opinion/talarico-hinojosa-texas-democrats.html",
+      "source": "arkansasonline.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-08",
+      "reason": "no_ai",
+      "title": "How Gen Z voters helped fuel a blue wave for Democrats",
+      "url": "https://npr.org/2026/11/08/nx-s1-6032829/gen-z-voters-midterm-elections",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-08",
+      "reason": "no_ai",
+      "title": "House Democrats will start their majority focused on boosting healthcare and ending the Iran war",
+      "url": "https://wsls.com/business/2026/11/07/house-democrats-will-start-their-majority-focused-on-boosting-healthcare-and-ending-the-iran-war",
+      "source": "wsls.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-08",
+      "reason": "no_ai",
+      "title": "Historically red state legislatures have flipped. Here's what's on their agenda",
+      "url": "https://npr.org/2026/11/08/nx-s1-6032600/historically-red-state-legislatures-have-flipped-heres-whats-on-their-agenda",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-08",
+      "reason": "no_ai",
+      "title": "Early focus for Democratic - run House on healthcare and ending the Iran war",
+      "url": "https://wokv.com/news/business/house-democrats-will/IRDH4Q6OBM3JHCUTF46ZL45FI4",
+      "source": "wokv.com",
+      "discovery": "search"
+    },
+    {
       "run_id": "2026-11-07",
       "reason": "wrong_actor",
       "title": "AI PACs spent millions trying to shape Congress — here's how they fared",
