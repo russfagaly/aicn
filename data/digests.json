@@ -1,7 +1,23 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T17:49:53Z",
+  "generated_at": "2026-11-09T22:07:28Z",
   "runs": [
+    {
+      "run_id": "2026-11-09",
+      "date": "2026-11-09",
+      "generated_at": "2026-11-09T22:07:28Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "candidates_reviewed": 20,
+      "rejection_counts": {
+        "already_covered": 2,
+        "no_ai": 14,
+        "not_practical": 1,
+        "wrong_actor": 3
+      },
+      "items": []
+    },
     {
       "run_id": "2026-11-08",
       "date": "2026-11-08",
@@ -1699,34 +1715,6 @@
       "top_summary": "",
       "item_count": 0,
       "items": []
-    },
-    {
-      "run_id": "2026-09-21",
-      "date": "2026-09-21",
-      "generated_at": "2026-09-21T18:04:07Z",
-      "is_light_run": false,
-      "top_summary": "The main on-topic story this run is a concrete vendor partnership: Democratic creative firm Conexi\u00f3n is teaming with ad platform Mundial Media to help campaigns reach Latino voters using AI tools. No major regulatory, deepfake, or polling-synthetic developments surfaced in this batch.",
-      "item_count": 1,
-      "items": [
-        {
-          "id": "f8b4ad1da7d99916",
-          "title": "Can AI Help Campaigns Reach Latino Voters?",
-          "url": "https://campaignsandelections.com/industry-news/can-ai-help-campaigns-reach-latino-voters",
-          "source": "Campaigns & Elections",
-          "source_domain": "campaignsandelections.com",
-          "published": "2026-09-21",
-          "first_seen_run": "2026-09-21",
-          "category": "vendor_moves",
-          "summary": "Democratic creative firm Conexi\u00f3n is partnering with ad platform Mundial Media to offer campaigns AI-powered tools specifically designed to improve outreach and engagement with Latino voters.",
-          "why_it_matters": "Targeted AI tools for specific voter demographic segments represent a growing niche in campaign tech; this partnership signals vendor investment in culturally tailored AI-driven voter contact.",
-          "flags": [],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "campaigns-and-elections",
-            "confidence": "high"
-          }
-        }
-      ]
     }
   ]
 }

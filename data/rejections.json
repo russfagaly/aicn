@@ -3,6 +3,166 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-09",
+      "reason": "wrong_actor",
+      "title": "Palantir hires a former Democratic senator as it faces scrutiny in new Congress",
+      "url": "https://npr.org/2026/11/09/nx-s1-6029641/palantir-congress-jon-tester-investigations",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "wrong_actor",
+      "title": "How Did Pollsters Fare in the 2026 Midterms?",
+      "url": "https://campaignsandelections.com/industry-news/how-did-pollsters-fare-in-the-2026-midterms",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "wrong_actor",
+      "title": "Blue blowout : What next for AI , data centers after Democrat big wins | Apg Sister Paper",
+      "url": "https://stardem.com/news/data_centers/blue-blowout-what-s-next-for-ai-data-centers-after-democrats-big-wins/article_9f7781ce-0df6-4d0b-9f00-a0a9b8309d60.html",
+      "source": "thedailytimes.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "not_practical",
+      "title": "2026 Best Political Campaign Software for Local Elections",
+      "url": "https://pendium.ai/research/best-political-campaign-software",
+      "source": "Pendium Research",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "no_ai",
+      "title": "Thomas Massie files articles of impeachment against Defense Secretary Pete Hegseth",
+      "url": "https://npr.org/2026/11/09/nx-s1-6034483/thomas-massie-impeachment-pete-hegseth",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "no_ai",
+      "title": "The midterms scrambled the map",
+      "url": "https://dailykos.com/stories/2026/11/8/800124308/series/midterms-scrambled-the-map",
+      "source": "dailykos.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "no_ai",
+      "title": "Supreme Court weighs effort to shield federal law enforcement as ICE complaints rise",
+      "url": "https://npr.org/2026/11/09/nx-s1-6013575/supreme-court-federal-law-enforcement-prison-rights",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "no_ai",
+      "title": "Stephen Miller is now chief of staff. What does that mean for Trump?",
+      "url": "https://npr.org/2026/11/09/nx-s1-6034461/stephen-miller-is-now-chief-of-staff-what-does-that-mean-for-trump",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "no_ai",
+      "title": "Midterm results could complicate JD Vance's political future",
+      "url": "https://npr.org/2026/11/09/nx-s1-6030858/midterm-results-could-complicate-jd-vances-political-future",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "no_ai",
+      "title": "He fought France far right for half a century . Now Melenchon presidential bid may hand it power",
+      "url": "https://apnews.com/article/france-election-melenchon-left-right-youth-045d056318bc6fb64a55ef25f10f1285",
+      "source": "reflector.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "no_ai",
+      "title": "Hakeem Jeffries Says He’s ‘Confident’ He Will Be Speaker of the House",
+      "url": "https://washingtonsun.com/congress/democrats-hakeem-jeffries-speaker-options-holdouts",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "no_ai",
+      "title": "Europe faces growing backlash against data centers amid resource concerns",
+      "url": "https://heraldglobe.com/news/279420625/europe-faces-growing-backlash-against-data-centers-amid-resource-concerns",
+      "source": "heraldglobe.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "no_ai",
+      "title": "Editorial : The voters have spoken ; now Democrats must deliver",
+      "url": "https://tuftsdaily.com/article/2026/11/editorial-the-voters-have-spoken-now-democrats-must-deliver",
+      "source": "tuftsdaily.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "no_ai",
+      "title": "Democrats won big. Can they lower your grocery bill?",
+      "url": "https://npr.org/2026/11/09/nx-s1-6030830/democrats-grocery-bill-affordability",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "no_ai",
+      "title": "Congress is coming back to Washington. Here's what to expect",
+      "url": "https://npr.org/2026/11/09/nx-s1-6030633/congress-is-coming-back-to-washington-heres-what-to-expect",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "no_ai",
+      "title": "Congress is back after GOP's midterm defeat. And, Trump appoints new chief of staff",
+      "url": "https://npr.org/2026/11/09/g-s1-152627/up-first-newsletter-stephen-miller-trump-congress-nvidia-cop31",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "no_ai",
+      "title": "British comedian Russell Brand sentenced to over 10 years for rape and sexual assault",
+      "url": "https://npr.org/2026/11/09/nx-s1-6034335/british-comedian-russell-brand-sentenced",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "no_ai",
+      "title": "After midterm losses, Trump makes changes to his inner circle",
+      "url": "https://npr.org/2026/11/09/nx-s1-6034027/after-midterm-losses-trump-makes-changes-to-his-inner-circle",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "already_covered",
+      "title": "U.S. midterms test AI campaigning and Musk-backed political spending",
+      "url": "https://tradersunion.com/news/geopolitics-trade/show/4074173-us-midterms-ai-musk-campaigns",
+      "source": "Traders Union",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-09",
+      "reason": "already_covered",
+      "title": "How AI firms OpenAI, Anthropic are monitoring Election Day misuse",
+      "url": "https://thehill.com/policy/technology/6190399-ai-firms-election-day-readiness",
+      "source": "The Hill",
+      "discovery": "search"
+    },
+    {
       "run_id": "2026-11-08",
       "reason": "wrong_actor",
       "title": "He Ran on Fighting Data Centers. Now, He’s Going to Congress",
