@@ -5,7 +5,14 @@
     <link>https://russfagaly.github.io/aicn/</link>
     <atom:link href="https://russfagaly.github.io/aicn/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Mon, 09 Nov 2026 22:07:28 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 19:30:56 GMT</lastBuildDate>
+    <item>
+      <title>AI Didn’t Make Me Faster. It Made Me Better.</title>
+      <link>https://campaignsandelections.com/industry-news/ai-didnt-make-me-faster-it-made-me-better</link>
+      <guid isPermaLink="false">d3d5c72e8cce3f42</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <description>A campaign creative professional writing in Campaigns &amp; Elections argues that AI did not speed up their workflow but instead raised the quality of their creative output, describing a labor-intensive new process built around AI tools.</description>
+    </item>
     <item>
       <title>How AI deepfakes are upending political advertising</title>
       <link>https://wbur.org/onpoint/2026/11/06/deepfakes-political-advertising-midterms</link>
@@ -208,13 +215,6 @@
       <guid isPermaLink="false">47642577f3c81191</guid>
       <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
       <description>A new AAPC Foundation national survey of likely voters, discussed by Tarrance Group pollster B.J. Martino, finds that voters are already encountering AI-generated answers about campaigns through ambient AI tool use — often without knowing it — and that significant voter distrust and hard limits around campaign AI use are emerging from the data.</description>
-    </item>
-    <item>
-      <title>U . S . candidates have gone from spending nearly zero to $137 million on AI ads in one election cycle</title>
-      <link>https://fortune.com/2026/10/21/political-campaigns-ai-advertisement-spending-137-million-republicans-misinformation</link>
-      <guid isPermaLink="false">d34cd54ac12e5058</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Fortune reports that U.S. political advertisers went from near-zero to $137 million in AI-generated ad spending in a single election cycle, and adds a new detail not previously highlighted: more than 70% of AI campaign videos carried no disclaimer or disclosure that AI was used in their production.</description>
     </item>
   </channel>
 </rss>

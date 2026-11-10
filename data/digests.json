@@ -1,7 +1,40 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T22:07:28Z",
+  "generated_at": "2026-11-10T19:30:56Z",
   "runs": [
+    {
+      "run_id": "2026-11-10",
+      "date": "2026-11-10",
+      "generated_at": "2026-11-10T19:30:56Z",
+      "is_light_run": false,
+      "top_summary": "The post-midterm cycle yields one substantive practitioner piece: a campaign creative professional writing in Campaigns & Elections describes how AI transformed their creative workflow \u2014 not by saving time but by raising quality \u2014 offering a concrete, firsthand account of AI adoption in campaign communications. All other candidates this run are either general political news with no AI component, AI policy/regulatory stories where the actor is a legislature or advocacy group, or items already covered in recent days.",
+      "item_count": 1,
+      "candidates_reviewed": 14,
+      "rejection_counts": {
+        "no_ai": 11,
+        "wrong_actor": 2
+      },
+      "items": [
+        {
+          "id": "d3d5c72e8cce3f42",
+          "title": "AI Didn\u2019t Make Me Faster. It Made Me Better.",
+          "url": "https://campaignsandelections.com/industry-news/ai-didnt-make-me-faster-it-made-me-better",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-11-10",
+          "first_seen_run": "2026-11-10",
+          "category": "analysis_oped",
+          "summary": "A campaign creative professional writing in Campaigns & Elections argues that AI did not speed up their workflow but instead raised the quality of their creative output, describing a labor-intensive new process built around AI tools.",
+          "why_it_matters": "Firsthand practitioner accounts of how AI changes creative quality \u2014 not just speed \u2014 give campaign digital and creative directors a realistic benchmark for integrating AI into production workflows.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaigns-and-elections",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-11-09",
       "date": "2026-11-09",
@@ -1702,15 +1735,6 @@
       "run_id": "2026-09-23",
       "date": "2026-09-23",
       "generated_at": "2026-09-23T16:28:27Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
-    },
-    {
-      "run_id": "2026-09-22",
-      "date": "2026-09-22",
-      "generated_at": "2026-09-22T16:37:22Z",
       "is_light_run": true,
       "top_summary": "",
       "item_count": 0,

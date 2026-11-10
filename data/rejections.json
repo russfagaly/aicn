@@ -3,6 +3,110 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-10",
+      "reason": "wrong_actor",
+      "title": "Meet the 5 Democrats poised to shake up Washington's AI safety debate",
+      "url": "https://thehill.com/policy/technology/6205332-new-house-senate-members-focus-ai-safety",
+      "source": "The Hill",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-10",
+      "reason": "wrong_actor",
+      "title": "Exclusive / AI safety groups outline their plans for a new Washington",
+      "url": "https://semafor.com/article/11/09/2026/ai-safety-groups-outline-their-plans-for-a-new-washington",
+      "source": "Semafor",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-10",
+      "reason": "no_ai",
+      "title": "‘We Have to Take Over’: Far-Right Extremists Want to Seize Control of the GOP",
+      "url": "https://wired.com/story/we-have-to-take-over-far-right-extremists-want-to-seize-control-of-the-gop",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-10",
+      "reason": "no_ai",
+      "title": "Why did California's billionaire tax fail to surf the blue wave?",
+      "url": "https://npr.org/sections/planet-money/2026/11/10/g-s1-152755/why-did-californias-billionaire-tax-fail-to-surf-the-blue-wave",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-10",
+      "reason": "no_ai",
+      "title": "Trump's crypto profits raise alarms for transparency advocates",
+      "url": "https://npr.org/2026/11/10/nx-s1-5983730/trumps-crypto-profits-raise-alarms-for-transparency-advocates",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-10",
+      "reason": "no_ai",
+      "title": "The Democratic Party gained power across the country in the midterms. Now what?",
+      "url": "https://npr.org/2026/11/10/nx-s1-6035008/democratic-party-blue-wave-midterm-congress",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-10",
+      "reason": "no_ai",
+      "title": "Iran denies it was behind cyber fridge attacks targeting France",
+      "url": "https://npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-10",
+      "reason": "no_ai",
+      "title": "How To Run A Campaign After Action Review",
+      "url": "https://campaigntrend.com/how-to-run-a-campaign-after-action-review",
+      "source": "Campaign Trend",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-10",
+      "reason": "no_ai",
+      "title": "House set to vote to impeach Hegseth. And, SCOTUS allows border wall work to proceed",
+      "url": "https://npr.org/2026/11/10/g-s1-152777/up-first-newsletter-pete-hegseth-impeachment-trump-iran-nvidia-border-wall-texas",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-10",
+      "reason": "no_ai",
+      "title": "House Republicans to elect a new leader as they look to rebuild from midterm defeat",
+      "url": "https://npr.org/2026/11/10/nx-s1-6030988/gop-leadership-election-steve-scalise-jim-jordan",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-10",
+      "reason": "no_ai",
+      "title": "Former Pentagon spokesman on articles of impeachment filed against Hegseth",
+      "url": "https://npr.org/2026/11/10/nx-s1-6035039/former-pentagon-spokesman-on-articles-of-impeachment-filed-against-hegseth",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-10",
+      "reason": "no_ai",
+      "title": "California voters defeat billionaire tax proposal that divided Democrats",
+      "url": "https://npr.org/2026/11/09/g-s1-151625/california-billionaire-tax-referendum",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-10",
+      "reason": "no_ai",
+      "title": "Appeals Court Blocks DOJ’s Demand for Journalists’ LinkedIn Data",
+      "url": "https://washingtonsun.com/legal/appeals-court-blocks-doj-demand-journalists-linkedin-data",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-11-09",
       "reason": "wrong_actor",
       "title": "Palantir hires a former Democratic senator as it faces scrutiny in new Congress",
