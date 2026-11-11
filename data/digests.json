@@ -1,7 +1,63 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T19:30:56Z",
+  "generated_at": "2026-11-11T19:27:21Z",
   "runs": [
+    {
+      "run_id": "2026-11-11",
+      "date": "2026-11-11",
+      "generated_at": "2026-11-11T19:27:21Z",
+      "is_light_run": false,
+      "top_summary": "The main on-topic development this run is a fact-check finding that AI-generated political ads spiked during the 2026 midterms but campaigns still relied primarily on traditional messaging channels. Higher Ground Labs also released its 2026 portfolio impact report detailing how 30 progressive campaign tech companies equipped candidates across the cycle. The AEI piece on campaigning for AI model influence is noted as a potentially relevant analysis piece but lacks sufficient concrete detail from available metadata to confirm on-topic status.",
+      "item_count": 2,
+      "candidates_reviewed": 30,
+      "rejection_counts": {
+        "duplicate": 1,
+        "no_ai": 22,
+        "not_political": 1,
+        "not_practical": 1,
+        "wrong_actor": 3
+      },
+      "items": [
+        {
+          "id": "c22cb30f38e8b575",
+          "title": "AI-generated political ads spiked in 2026, but campaigns still prioritized other means of messaging",
+          "url": "https://kcra.com/article/ai-political-ads-2026-midterms-fact-check/74380236",
+          "source": "KCRA",
+          "source_domain": "kcra.com",
+          "published": "2026-11-09",
+          "first_seen_run": "2026-11-11",
+          "category": "deployments_studies",
+          "summary": "A fact-check piece finds that AI-generated political ads increased significantly during the 2026 midterm cycle, but that campaigns continued to prioritize conventional messaging methods over AI-generated content as their primary channel.",
+          "why_it_matters": "Provides a concrete, cycle-level measurement of how widely campaigns actually adopted AI-generated advertising versus how much it was discussed, giving practitioners a reality-check baseline.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "4ec7173e70f8a411",
+          "title": "2026 Election Portfolio Impact",
+          "url": "https://highergroundlabs.com/2026-election-portfolio-impact",
+          "source": "Higher Ground Labs (blog)",
+          "source_domain": "highergroundlabs.com",
+          "published": "2026-11-10",
+          "first_seen_run": "2026-11-11",
+          "category": "deployments_studies",
+          "summary": "Higher Ground Labs released its 2026 Election Portfolio Impact Report, documenting how 30 portfolio companies provided progressive campaigns with digital and data tools that the firm credits with supporting a historically diverse midterm slate.",
+          "why_it_matters": "Offers a post-cycle inventory of which progressive campaign tech vendors were deployed at scale in 2026, useful for practitioners assessing the progressive vendor landscape heading into 2028.",
+          "flags": [
+            "vendor_self_reported"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "higher-ground-labs",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-11-10",
       "date": "2026-11-10",
@@ -1730,15 +1786,6 @@
           }
         }
       ]
-    },
-    {
-      "run_id": "2026-09-23",
-      "date": "2026-09-23",
-      "generated_at": "2026-09-23T16:28:27Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
     }
   ]
 }

@@ -1,17 +1,5 @@
 {
   "runs": {
-    "2026-10-20": [
-      "AI, meet your freshman class",
-      "Altered video of Washington County candidate goes viral nationwide",
-      "Is AI Reshaping the 2026 Midterms? $137 Million Spent on AI-Generated Political Ads",
-      "Key AI group added no Q3 donations",
-      "Millions of dollars spent on AI-generated political ads as midterms approach",
-      "Political Campaign Use of AI-Powered Voter Outreach Highlights Regulatory Gaps",
-      "The Political Group - AI Polling and Phone Banking Services for Campaigns",
-      "To persuade voters, campaigns and PACs make their own news brands",
-      "Uproar over these political ads lulls Americans into a false belief",
-      "What AI Is Telling Voters"
-    ],
     "2026-10-21": [
       "AI, meet your freshman class",
       "Anthropic-backed group puts more toward Scott Wiener",
@@ -197,6 +185,15 @@
       "How AI deepfakes are upending political advertising",
       "L2 and IVC Media Launch Voter Count, an AI Agent That Answers Plain-English Questions About the National Voter File",
       "Meet the 5 Democrats poised to shake up Washington's AI safety debate"
+    ],
+    "2026-11-11": [
+      "AI Campaign Strategy Tools Are Reshaping 2026 Elections: What Every Campaign Needs to Know",
+      "AI Has Taken Over the 2026 Campaign Trail, and the Rules Are Still Being Written",
+      "AI-generated political ads spiked in 2026, but campaigns still prioritized other means of messaging",
+      "Agentic AI and Voter Data Platforms: 2026 Campaign Tech",
+      "Campaigning for Hearts, Minds, and Models",
+      "FullPAC Launches GOTV AI, the Campaign Strategy Platform Built on the Record of American Elections",
+      "How AI is changing political campaigns and voter targeting in Minnesota"
     ]
   },
   "schema_version": 1

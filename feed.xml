@@ -5,7 +5,21 @@
     <link>https://russfagaly.github.io/aicn/</link>
     <atom:link href="https://russfagaly.github.io/aicn/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Tue, 10 Nov 2026 19:30:56 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 19:27:21 GMT</lastBuildDate>
+    <item>
+      <title>AI-generated political ads spiked in 2026, but campaigns still prioritized other means of messaging</title>
+      <link>https://kcra.com/article/ai-political-ads-2026-midterms-fact-check/74380236</link>
+      <guid isPermaLink="false">c22cb30f38e8b575</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+      <description>A fact-check piece finds that AI-generated political ads increased significantly during the 2026 midterm cycle, but that campaigns continued to prioritize conventional messaging methods over AI-generated content as their primary channel.</description>
+    </item>
+    <item>
+      <title>2026 Election Portfolio Impact</title>
+      <link>https://highergroundlabs.com/2026-election-portfolio-impact</link>
+      <guid isPermaLink="false">4ec7173e70f8a411</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Higher Ground Labs released its 2026 Election Portfolio Impact Report, documenting how 30 portfolio companies provided progressive campaigns with digital and data tools that the firm credits with supporting a historically diverse midterm slate.</description>
+    </item>
     <item>
       <title>AI Didn’t Make Me Faster. It Made Me Better.</title>
       <link>https://campaignsandelections.com/industry-news/ai-didnt-make-me-faster-it-made-me-better</link>
@@ -201,20 +215,6 @@
       <guid isPermaLink="false">504565299528d20e</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
       <description>Israeli threat intelligence firm VisionHeight has identified a coordinated network of at least 460 pages across 37 websites in 14 states — including Arizona, Georgia, Michigan, Pennsylvania, and Wisconsin — publishing AI-optimized content designed to steer chatbot responses toward specific candidates in House races, Secretary of State contests, and local offices. The sites, with names like "Wolverine State Report" and "Peach State Bulletin," were configured to allow major AI crawlers to scrape them, and at least one — Tarheel State Report — was cited as a primary source by Perplexity; VisionHeight does not attribute the operation to a specific actor.</description>
-    </item>
-    <item>
-      <title>AI is changing what political campaigns say, and who gets to hear it</title>
-      <link>https://tribunecontentagency.com/</link>
-      <guid isPermaLink="false">20dbf5f84a7687ee</guid>
-      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
-      <description>An AP report, syndicated from Minneapolis, examines how political campaigns are using AI to tailor messaging at the individual voter level — analyzing consumer data such as vehicle ownership, shopping habits, and homeownership to personalize outreach at scale in ways previously unavailable to most campaigns.</description>
-    </item>
-    <item>
-      <title>Voters Are Already Getting AI Answers About Your Campaign. They Just Don't Know It.</title>
-      <link>https://campaigntrend.com/voters-are-already-getting-ai-answers-about-your-campaign</link>
-      <guid isPermaLink="false">47642577f3c81191</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <description>A new AAPC Foundation national survey of likely voters, discussed by Tarrance Group pollster B.J. Martino, finds that voters are already encountering AI-generated answers about campaigns through ambient AI tool use — often without knowing it — and that significant voter distrust and hard limits around campaign AI use are emerging from the data.</description>
     </item>
   </channel>
 </rss>

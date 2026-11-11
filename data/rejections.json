@@ -3,6 +3,230 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-11",
+      "reason": "wrong_actor",
+      "title": "Trump says FBI looking at Jensen Huang affair with alleged spy – NBC10 Philadelphia",
+      "url": "https://nbcphiladelphia.com/news/national-international/trump-fbi-nvidia-ceo-jensen-huang-affair-chinese-agent/4494396",
+      "source": "nbcphiladelphia.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "wrong_actor",
+      "title": "Nobody Knows What Happened at Nvidia , and That the Story",
+      "url": "https://bankinfosecurity.com/blogs/nobody-knows-what-happened-at-nvidia-thats-story-p-4245",
+      "source": "bankinfosecurity.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "wrong_actor",
+      "title": "China’s Nvidia Honeypot Isn’t Surprising. Jensen Huang Fell for It Anyway",
+      "url": "https://wired.com/story/chinas-nvidia-honeypot-isnt-surprising-jensen-huang-fell-for-it-anyway",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "not_practical",
+      "title": "Campaigning for Hearts, Minds, and Models",
+      "url": "https://aei.org/domestic-policy/campaigning-for-hearts-minds-and-models",
+      "source": "American Enterprise Institute",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "not_political",
+      "title": "Consulting and Temporary Help Made Up Half of Business - Services Job Gain",
+      "url": "https://econotimes.com/Consulting-and-Temporary-Help-Made-Up-Half-of-Business-Services-Job-Gain-1774090",
+      "source": "econotimes.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "What's behind democratic socialists' historic victories in the midterms?",
+      "url": "https://npr.org/2026/11/11/nx-s1-6037432/whats-behind-democratic-socialists-historic-victories-in-the-midterms",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "What do the midterm results mean for the MAHA movement ? – NBC10 Philadelphia",
+      "url": "https://nbcphiladelphia.com/news/politics/midterm-results-feud-future-maha-movement/4494313",
+      "source": "nbcphiladelphia.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "What do the midterm results mean for the MAHA movement ? – NBC New York",
+      "url": "https://nbcnewyork.com/news/politics/midterm-results-feud-future-maha-movement/6569641",
+      "source": "nbcnewyork.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "What do the midterm results mean for the MAHA movement ? – NBC Los Angeles",
+      "url": "https://nbclosangeles.com/news/politics/midterm-results-feud-future-maha-movement/3968014",
+      "source": "nbclosangeles.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "What do the midterm results mean for the MAHA movement ? – NBC Chicago",
+      "url": "https://nbcchicago.com/news/politics/midterm-results-feud-future-maha-movement/4014298",
+      "source": "nbcchicago.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "Trump Touts Veterans — And His Arch",
+      "url": "https://washingtonsun.com/whitehouse/trump-touts-veterans-and-his-arch",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "Thune , Schumer face questions about Senate leadership",
+      "url": "https://wmur.com/article/thune-schumer-questions-senate-leadership-midterms/74381263",
+      "source": "wmur.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "Mixed results from ballot measures on abortion and trans issues",
+      "url": "https://npr.org/2026/11/11/nx-s1-6035718/mixed-results-from-ballot-measures-on-abortion-and-trans-issues",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "Michigan Residents Voted to Get Corporate Money Out of Politics. Now Utilities Are Suing",
+      "url": "https://wired.com/story/michigan-voters-want-utility-money-out-of-politics-lawsuit",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "Mamdani looks to shape 2028 presidential race through talks with labor leaders , weighs in on AOC future",
+      "url": "https://amny.com/news/mamdani-looks-to-shape-2028-presidential-race",
+      "source": "amny.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "Kennedys sue to block Trump's arch",
+      "url": "https://npr.org/2026/11/11/nx-s1-6036845/kennedys-sue-to-block-trumps-arch",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "Kennedy relatives join the fight against Trump's arch, alleging harm to JFK's grave",
+      "url": "https://npr.org/2026/11/11/nx-s1-6037372/kennedys-trump-arch-lawsuit-jfk-grave-arlington-cemetery",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "How a 22 - year - old became the youngest commissioner in Georgia history",
+      "url": "https://fox5atlanta.com/news/how-22-year-old-became-youngest-commissioner-georgia-history",
+      "source": "fox5atlanta.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "House votes to end the impeachment effort against Pete Hegseth",
+      "url": "https://npr.org/2026/11/11/nx-s1-6035797/house-votes-to-end-the-impeachment-effort-against-pete-hegseth",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "House effectively ends Hegseth impeachment. And, 3 men accused of plotting U.K. attacks",
+      "url": "https://npr.org/2026/11/11/g-s1-152949/up-first-newsletter-pete-hegseth-jim-jordan-iran-backed-trio-us-bases",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "Following big Democratic wins, these swing voters are looking for results",
+      "url": "https://npr.org/2026/11/11/nx-s1-6036790/swing-voters-swing-states-democrats-congress",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "Feud between former Trump officials exposes divisions over MAHA movement after midterm losses",
+      "url": "https://yahoo.com/news/politics/articles/feud-between-former-trump-officials-205942168.html",
+      "source": "yahoo.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "Feud between former Trump officials exposes divisions over MAHA",
+      "url": "https://twincities.com/2026/11/09/trump-maha-feud",
+      "source": "pressdemocrat.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "Ex-CIA officer on UK investigations into alleged Iran, Russia threats",
+      "url": "https://npr.org/2026/11/11/nx-s1-6036829/ex-cia-officer-on-uk-investigations-into-alleged-iran-russia-threats",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "Close Trump ally to lead House Republicans next year",
+      "url": "https://npr.org/2026/11/11/nx-s1-6035795/close-trump-ally-to-lead-house-republicans-next-year",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "Anti - LGBTQ+  Black Nazi  GOP candidate files for bankruptcy after porn scandal",
+      "url": "https://lgbtqnation.com/2026/11/anti-lgbtq-black-gop-candidate-files-for-after",
+      "source": "lgbtqnation.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "no_ai",
+      "title": "An Iran-backed trio is accused of plotting attacks on a U.K. base hosting U.S. jets",
+      "url": "https://npr.org/2026/11/10/nx-s1-6036786/uk-iran-airbase-russia-spy",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-11",
+      "reason": "duplicate",
+      "title": "AI - generated political ads spiked in 2026 , but campaigns still prioritized other means of messaging",
+      "url": "https://wtae.com/article/ai-political-ads-2026-midterms-fact-check/74380236",
+      "source": "wtae.com",
+      "discovery": "search"
+    },
+    {
       "run_id": "2026-11-10",
       "reason": "wrong_actor",
       "title": "Meet the 5 Democrats poised to shake up Washington's AI safety debate",
