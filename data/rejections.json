@@ -3,6 +3,182 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-12",
+      "reason": "wrong_actor",
+      "title": "Challenging the Pentagon Push for Weaponized AI | Friends Committee On National Legislation",
+      "url": "https://fcnl.org/updates/2026-11/challenging-pentagons-push-weaponized-ai",
+      "source": "fcnl.org",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "wrong_actor",
+      "title": "AI data centers face new scrutiny after midterm elections",
+      "url": "https://idahopress.com/news/local/whats-next-for-data-centers-after-democrats-big-wins/article_53fb2d08-49bd-4e4c-b941-05177994b12a.html",
+      "source": "postregister.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "not_political",
+      "title": "Supermetrics AI campaign tool gains ChatGPT Ads, its 7th ad platform",
+      "url": "https://ppc.land/supermetrics-ai-campaign-tool-gains-chatgpt-ads-its-7th-ad-platform",
+      "source": "PPC Land",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "not_political",
+      "title": "Nvidia CEO affair could have major effects on US - China AI race",
+      "url": "https://wokv.com/news/business/how-nvidia-ceo/FTKB4PKLSI4WLCBI7PSASWDOUE",
+      "source": "wokv.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "not_political",
+      "title": "How Nvidia CEO Jensen Huang extramarital affair could cause collateral damage in Washington",
+      "url": "https://wsls.com/business/2026/11/11/how-nvidia-ceo-jensen-huangs-extramarital-affair-could-cause-collateral-damage-in-washington",
+      "source": "wsls.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "no_ai",
+      "title": "The Voter File Can Tell You Who to Reach, Not What They’re Thinking",
+      "url": "https://campaignsandelections.com/voices/the-voter-file-can-tell-you-who-to-reach-not-what-theyre-thinking",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "no_ai",
+      "title": "The Stakeout: Stay Schemin’",
+      "url": "https://washingtonsun.com/the-stakeout/stay-schemin",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "no_ai",
+      "title": "The Latest : House Republicans quash effort to impeach Defense Secretary Hegseth",
+      "url": "https://apnews.com/article/hegseth-impeachment-congress-massie-trump-272515c4fca92435224406593a892e69",
+      "source": "idahostatejournal.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "no_ai",
+      "title": "Senators don't always share bill text online before votes. They should, advocates say",
+      "url": "https://npr.org/2026/11/12/nx-s1-6037381/senate-legislation-public-review",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "no_ai",
+      "title": "Rep. Bennie Thompson discusses the U.S. Senate race Democrat win in Mississippi",
+      "url": "https://npr.org/2026/11/12/nx-s1-6037852/rep-bennie-thompson-discusses-the-u-s-senate-race-democrat-win-in-mississippi",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "no_ai",
+      "title": "Pete Hegseth Is About to Get His Ass Kicked",
+      "url": "https://wired.com/story/pete-hegseth-is-about-to-get-his-ass-kicked",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "no_ai",
+      "title": "Michigan Senator-elect El Sayed discusses Democrats' ambitions",
+      "url": "https://npr.org/2026/11/12/nx-s1-6034464/michigan-senator-elect-el-sayed-discusses-democrats-ambitions",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "no_ai",
+      "title": "How Scott Colom defied the odds to go from DA to Mississippi's Democratic U.S. senator",
+      "url": "https://npr.org/2026/11/12/nx-s1-6037438/scott-colom-defied-the-odds-mississippi-democratic-senator",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "no_ai",
+      "title": "Democrats want to stop Trump's arch, golf course and more. What are their options?",
+      "url": "https://npr.org/2026/11/12/nx-s1-6034539/democrats-congress-trump-arch-ballroom-funding-oversight",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "no_ai",
+      "title": "Democrat Scott Colom wins Mississippi Senate race",
+      "url": "https://npr.org/2026/11/12/nx-s1-6037853/democrat-scott-colom-wins-mississippi-senate-race",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "no_ai",
+      "title": "David North closes lecture tour in Ann Arbor with Marxist assessment of US midterms",
+      "url": "https://wsws.org/en/articles/2026/11/11/gpyi-n11.html",
+      "source": "wsws.org",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "no_ai",
+      "title": "D.C. shooting leaves 1 person killed, 4 injured. Gunman dead",
+      "url": "https://npr.org/2026/11/12/nx-s1-6038860/dc-logan-circle-shooting",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "no_ai",
+      "title": "Colom wins Mississippi Senate race. And, White House warns Dems over future probes",
+      "url": "https://npr.org/2026/11/12/g-s1-153171/up-first-newsletter-scott-colom-trump-democrats-ukraine-russia",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "no_ai",
+      "title": "Brazil Meta Fight Shows Big Tech Threatens Democracy",
+      "url": "https://foreignpolicy.com/2026/11/11/brazil-meta-lula-elections-big-tech",
+      "source": "foreignpolicy.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "no_ai",
+      "title": "At least 23 states considered laws governing ICE and schools this year",
+      "url": "https://npr.org/2026/11/12/nx-s1-5718547/ice-schools-state-laws-federal-immigration",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "no_ai",
+      "title": "AP News Summary at 11 : 01 p . m . EST",
+      "url": "https://hngnews.com/nation_world/ap-news-summary-at-11-01-p-m-est/article_d0c372cc-a31d-5646-beda-9e5f35a51466.html",
+      "source": "hngnews.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-12",
+      "reason": "no_ai",
+      "title": "A blue wave helped offset for now a falling tally of Black members in the U.S. House",
+      "url": "https://npr.org/2026/11/12/nx-s1-6029640/black-voter-turnout-congress-redistricting",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-11-11",
       "reason": "wrong_actor",
       "title": "Trump says FBI looking at Jensen Huang affair with alleged spy – NBC10 Philadelphia",

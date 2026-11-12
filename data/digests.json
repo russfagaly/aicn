@@ -1,7 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T19:27:21Z",
+  "generated_at": "2026-11-12T19:44:34Z",
   "runs": [
+    {
+      "run_id": "2026-11-12",
+      "date": "2026-11-12",
+      "generated_at": "2026-11-12T19:44:34Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "candidates_reviewed": 22,
+      "rejection_counts": {
+        "no_ai": 17,
+        "not_political": 3,
+        "wrong_actor": 2
+      },
+      "items": []
+    },
     {
       "run_id": "2026-11-11",
       "date": "2026-11-11",
@@ -1740,52 +1755,6 @@
       "top_summary": "",
       "item_count": 0,
       "items": []
-    },
-    {
-      "run_id": "2026-09-24",
-      "date": "2026-09-24",
-      "generated_at": "2026-09-24T16:54:20Z",
-      "is_light_run": false,
-      "top_summary": "A Trump-linked PAC ran an AI-generated political ad that Google removed for failing to comply with its AI disclosure requirement for political advertising \u2014 a concrete enforcement example of platform policy in action. Separately, The Hill reports that candidates are broadly embracing AI for political ads heading into the 2026 midterms even as voter anxiety about the practice grows.",
-      "item_count": 2,
-      "items": [
-        {
-          "id": "f5d0f2b79f8b1a45",
-          "title": "Google Pulled Down a Trump-Linked Ad That Used AI",
-          "url": "https://washingtonsun.com/campaigns/trump-pac-ai-ad-texas-google-remove",
-          "source": "NOTUS",
-          "source_domain": "washingtonsun.com",
-          "published": "2026-09-24",
-          "first_seen_run": "2026-09-24",
-          "category": "deepfakes",
-          "summary": "Google removed an AI-generated political ad tied to a Trump-aligned PAC targeting a Texas race, citing the platform's requirement that political ads disclose AI-generated content.",
-          "why_it_matters": "Marks a concrete enforcement instance of Google's AI-disclosure policy against a major-party-aligned committee, showing the rule has real consequences for campaign ad distribution.",
-          "flags": [],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "notus",
-            "confidence": "high"
-          }
-        },
-        {
-          "id": "9dacd09e66b1394c",
-          "title": "Candidates embrace AI for political ads despite growing voter anxiety",
-          "url": "https://thehill.com/homenews/campaign/6098906-ai-political-ads-midterms-voter-concerns",
-          "source": "The Hill",
-          "source_domain": "thehill.com",
-          "published": "2026-09-21",
-          "first_seen_run": "2026-09-24",
-          "category": "deployments_studies",
-          "summary": "The Hill reports that candidates across the political spectrum are increasingly using AI to produce political ads ahead of the 2026 midterms, even as polling shows growing voter unease about the practice.",
-          "why_it_matters": "Provides a broad field-level snapshot of AI ad adoption rates and public sentiment heading into a major election cycle, relevant to campaign strategy and messaging choices.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "site:the-hill",
-            "confidence": "medium"
-          }
-        }
-      ]
     }
   ]
 }
