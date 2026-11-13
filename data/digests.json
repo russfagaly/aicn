@@ -1,7 +1,60 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T19:44:34Z",
+  "generated_at": "2026-11-13T19:25:32Z",
   "runs": [
+    {
+      "run_id": "2026-11-13",
+      "date": "2026-11-13",
+      "generated_at": "2026-11-13T19:25:32Z",
+      "is_light_run": false,
+      "top_summary": "A Poynter analysis finds political campaigns spent $187 million promoting AI-generated ads in the 2026 midterms, documenting widespread use of deepfakes and AI-enhanced imagery alongside campaign wariness about voter backlash. A separate Campaign Trend piece flags a concrete new wrinkle: AI chatbots are citing fake or unofficial campaign websites, raising integrity questions about how voters encounter candidate information through AI interfaces.",
+      "item_count": 2,
+      "candidates_reviewed": 16,
+      "rejection_counts": {
+        "no_ai": 13,
+        "not_political": 1
+      },
+      "items": [
+        {
+          "id": "6d45ae43329c7d4f",
+          "title": "Political campaigns spent $187 million promoting AI-generated ads in the 2026 midterms. Did they work?",
+          "url": "https://poynter.org/fact-checking/2026/ai-generated-political-ads-2026-midterm-elections",
+          "source": "Poynter",
+          "source_domain": "poynter.org",
+          "published": "2026-11-12",
+          "first_seen_run": "2026-11-13",
+          "category": "deployments_studies",
+          "summary": "Poynter reports that political campaigns spent $187 million promoting AI-generated ads during the 2026 midterm cycle, finding that deepfakes and AI-enhanced imagery became commonplace while campaigns remained cautious about voter backlash and the risks of misleading content.",
+          "why_it_matters": "The $187 million spend figure provides the first concrete scale estimate for AI-generated political advertising in a midterm cycle, giving practitioners a benchmark for how widely the tactic was adopted and at what cost.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:l2",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "3ab97ff55361d73e",
+          "title": "The Midterms Went Direct",
+          "url": "https://campaigntrend.com/the-midterms-went-direct",
+          "source": "Campaign Trend",
+          "source_domain": "campaigntrend.com",
+          "published": "2026-11-13",
+          "first_seen_run": "2026-11-13",
+          "category": "analysis_oped",
+          "summary": "Campaign Trend's post-midterm analysis notes that podcasts disproportionately favored winning candidates and that AI chatbots were found citing fake or unofficial campaign websites when voters sought candidate information.",
+          "why_it_matters": "The chatbot-citation finding is a practical warning for campaigns: AI-surfaced misinformation about their own sites can undermine voter contact without any action by the campaign itself.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaign-trend",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-11-12",
       "date": "2026-11-12",
@@ -1742,15 +1795,6 @@
       "run_id": "2026-09-26",
       "date": "2026-09-26",
       "generated_at": "2026-09-26T16:05:27Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
-    },
-    {
-      "run_id": "2026-09-25",
-      "date": "2026-09-25",
-      "generated_at": "2026-09-25T16:53:26Z",
       "is_light_run": true,
       "top_summary": "",
       "item_count": 0,

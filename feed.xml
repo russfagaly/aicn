@@ -5,7 +5,21 @@
     <link>https://russfagaly.github.io/aicn/</link>
     <atom:link href="https://russfagaly.github.io/aicn/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Thu, 12 Nov 2026 19:44:34 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 19:25:32 GMT</lastBuildDate>
+    <item>
+      <title>Political campaigns spent $187 million promoting AI-generated ads in the 2026 midterms. Did they work?</title>
+      <link>https://poynter.org/fact-checking/2026/ai-generated-political-ads-2026-midterm-elections</link>
+      <guid isPermaLink="false">6d45ae43329c7d4f</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Poynter reports that political campaigns spent $187 million promoting AI-generated ads during the 2026 midterm cycle, finding that deepfakes and AI-enhanced imagery became commonplace while campaigns remained cautious about voter backlash and the risks of misleading content.</description>
+    </item>
+    <item>
+      <title>The Midterms Went Direct</title>
+      <link>https://campaigntrend.com/the-midterms-went-direct</link>
+      <guid isPermaLink="false">3ab97ff55361d73e</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Campaign Trend's post-midterm analysis notes that podcasts disproportionately favored winning candidates and that AI chatbots were found citing fake or unofficial campaign websites when voters sought candidate information.</description>
+    </item>
     <item>
       <title>AI-generated political ads spiked in 2026, but campaigns still prioritized other means of messaging</title>
       <link>https://kcra.com/article/ai-political-ads-2026-midterms-fact-check/74380236</link>
@@ -201,20 +215,6 @@
       <guid isPermaLink="false">0a45f2cde3dafd48</guid>
       <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
       <description>Tomorrow Together, a Democratic PAC advocating for AI regulation, is spending $2.5 million on ads targeting Republican Senators Jon Husted in Ohio and Roger Marshall in Kansas, expanding its campaign beyond House races into competitive Senate contests.</description>
-    </item>
-    <item>
-      <title>UK Politicians Are Testing Their Messages on AI-Generated Focus Groups</title>
-      <link>https://bloomberg.com/news/articles/2026-10-22/uk-politicians-are-testing-their-messages-on-ai-generated-focus-groups</link>
-      <guid isPermaLink="false">ca5bb5ebb845d1ef</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-      <description>UK politicians are using AI-generated focus groups — synthetic respondents — to pre-test campaign messaging before deploying it to real audiences, according to Bloomberg reporting.</description>
-    </item>
-    <item>
-      <title>The next election influence campaign will target your AI chatbot</title>
-      <link>https://cyberscoop.com/ai-chatbots-election-influence-hyperlocal-networks</link>
-      <guid isPermaLink="false">504565299528d20e</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Israeli threat intelligence firm VisionHeight has identified a coordinated network of at least 460 pages across 37 websites in 14 states — including Arizona, Georgia, Michigan, Pennsylvania, and Wisconsin — publishing AI-optimized content designed to steer chatbot responses toward specific candidates in House races, Secretary of State contests, and local offices. The sites, with names like "Wolverine State Report" and "Peach State Bulletin," were configured to allow major AI crawlers to scrape them, and at least one — Tarheel State Report — was cited as a primary source by Perplexity; VisionHeight does not attribute the operation to a specific actor.</description>
     </item>
   </channel>
 </rss>

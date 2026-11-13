@@ -3,6 +3,118 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-13",
+      "reason": "not_political",
+      "title": "Nvidia CEO steps down. And, Sen. Chris Van Hollen to run for majority leader",
+      "url": "https://npr.org/2026/11/13/g-s1-153532/up-first-newsletter-nvidia-jensen-huang-colette-kress-ukraine-russia-chris-van-hollen",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-13",
+      "reason": "no_ai",
+      "title": "‘If Everything Is Urgent, Then Nothing Is’: Americans Are Tired of Campaign Messages",
+      "url": "https://campaignsandelections.com/industry-news/if-everything-is-urgent-then-nothing-is-americans-are-tired-of-campaign-messages",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-13",
+      "reason": "no_ai",
+      "title": "‘A Servant Class, Not a Working Class’: Stephen Miller’s Biographer on What Comes Next",
+      "url": "https://wired.com/story/a-servant-class-not-a-working-class-stephen-millers-biographer-on-what-comes-next",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-13",
+      "reason": "no_ai",
+      "title": "Trump redirects Vance from Iran to focus on combatting fraud in Democratic-led states",
+      "url": "https://npr.org/2026/11/13/nx-s1-6039160/trump-redirects-vance-from-iran-to-focus-on-combatting-fraud-in-democratic-led-states",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-13",
+      "reason": "no_ai",
+      "title": "These two voter turnout trends explain what happened across the South in the election",
+      "url": "https://npr.org/2026/11/13/nx-s1-6038701/midterm-election-voter-turnout-south",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-13",
+      "reason": "no_ai",
+      "title": "These swing voters have low expectations for divided government",
+      "url": "https://npr.org/2026/11/13/nx-s1-6035826/north-carolina-swing-voters-congress-trump",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-13",
+      "reason": "no_ai",
+      "title": "The Trump administration's voter roll crusade could continue",
+      "url": "https://npr.org/2026/11/13/nx-s1-6034016/voter-fraud-search-trump-california",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-13",
+      "reason": "no_ai",
+      "title": "Massachusetts funding bill could boost research",
+      "url": "https://bostonglobe.com/2026/11/13/newsletters/massachusetts-drive-economic-development-power-play",
+      "source": "bostonglobe.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-13",
+      "reason": "no_ai",
+      "title": "It official : Cindy Holscher elected next governor of Kansas",
+      "url": "https://jcpost.com/posts/d1483e92-a73f-4bbe-aeff-a4a281066b06",
+      "source": "jcpost.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-13",
+      "reason": "no_ai",
+      "title": "Hegseth awards medal to soldier who chastised him",
+      "url": "https://npr.org/2026/11/13/nx-s1-6039845/hegseth-awards-medal-to-soldier-who-chastised-him",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-13",
+      "reason": "no_ai",
+      "title": "Democrat Cindy Holscher is elected Kansa next governor , extending her party wave of victories",
+      "url": "https://clickondetroit.com/news/politics/2026/11/12/democrat-cindy-holscher-is-elected-kansas-next-governor-extending-her-partys-wave-of-victories",
+      "source": "clickondetroit.com",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-13",
+      "reason": "no_ai",
+      "title": "Cindy Holscher wins in Kansas, holding governor's office for Democrats",
+      "url": "https://npr.org/2026/11/12/g-s1-151239/kansas-governor-midterms-holscher-masterson",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-13",
+      "reason": "no_ai",
+      "title": "Chris Van Hollen says he will challenge Chuck Schumer for Senate majority leader",
+      "url": "https://npr.org/2026/11/12/nx-s1-6039357/chris-van-hollen-chuck-schumer-senate-majority-leader",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-13",
+      "reason": "no_ai",
+      "title": "American Military Downs Two Iranian Drones After Strike on U.S. Radar System",
+      "url": "https://washingtonsun.com/defense/american-military-downs-iran-drones-strike-us-radar-middle-east",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-11-12",
       "reason": "wrong_actor",
       "title": "Challenging the Pentagon Push for Weaponized AI | Friends Committee On National Legislation",

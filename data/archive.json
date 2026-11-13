@@ -2,6 +2,15 @@
   "schema_version": 1,
   "runs": [
     {
+      "run_id": "2026-09-25",
+      "date": "2026-09-25",
+      "generated_at": "2026-09-25T16:53:26Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "items": []
+    },
+    {
       "run_id": "2026-09-24",
       "date": "2026-09-24",
       "generated_at": "2026-09-24T16:54:20Z",
