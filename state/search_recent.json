@@ -1,12 +1,5 @@
 {
   "runs": {
-    "2026-10-23": [
-      "Exclusive: Democratic AI PAC takes its fight to Senate Republicans",
-      "Experts: AI generating more than political ads this election season",
-      "How American Political Campaigns Are Using AI—and What They're Spending on the Tools",
-      "Political campaigns have poured $137 million on AI-made ads ahead of a crucial midterm",
-      "UK Politicians Are Testing Their Messages on AI-Generated Focus Groups"
-    ],
     "2026-10-24": [
       "AI is reshaping high-stakes elections around the world",
       "Election polling rocked by a new fake data scandal",
@@ -194,6 +187,13 @@
       "How Voter Data Platforms Are Being Transformed by Agentic AI in 2026 Campaign Tech",
       "Political campaigns spent $187 million promoting AI-generated ads in the 2026 midterms. Did they work?",
       "Three questions that will define AI's political power"
+    ],
+    "2026-11-14": [
+      "Concerns 'watershed' moment for AI electioneering could further erode trust",
+      "How Democrats are combining affordability with AI",
+      "Meet Haystack: Social Listening Built for Democrats",
+      "TSUNAMI! Part Two: The Price of Being Sold Out",
+      "To persuade voters, campaigns and PACs make their own news brands"
     ]
   },
   "schema_version": 1

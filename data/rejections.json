@@ -3,6 +3,110 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-14",
+      "reason": "wrong_actor",
+      "title": "Concerns 'watershed' moment for AI electioneering could further erode trust",
+      "url": "https://abc.net.au/news/2026-11-13/political-ads-vic-election-ai-social-media-use/107378416",
+      "source": "ABC News Australia",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-14",
+      "reason": "no_ai",
+      "title": "With his challenge to Schumer, Van Hollen forces a debate over Democrats' mandate",
+      "url": "https://npr.org/2026/11/13/nx-s1-6040044/dem-senate-leader-fight",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-14",
+      "reason": "no_ai",
+      "title": "Week in Politics: Battle for Senate leader; young and independent midterm turnout",
+      "url": "https://npr.org/2026/11/14/nx-s1-6040156/week-in-politics-battle-for-senate-leader-young-and-independent-midterm-turnout",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-14",
+      "reason": "no_ai",
+      "title": "Trump faces bipartisan backlash over plan to sell public lands to states and tribes",
+      "url": "https://npr.org/2026/11/14/nx-s1-6039155/trump-faces-bipartisan-backlash-over-plan-to-sell-public-lands-to-states-and-tribes",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-14",
+      "reason": "no_ai",
+      "title": "TSUNAMI! Part Two: The Price of Being Sold Out",
+      "url": "https://ashleyshade.substack.com/p/tsunami-part-two-the-price-of-being",
+      "source": "Ashley Shade Substack",
+      "discovery": "watchlist"
+    },
+    {
+      "run_id": "2026-11-14",
+      "reason": "no_ai",
+      "title": "Officials Say Flight Disruption Impacts Will Be Resolved by Sunday",
+      "url": "https://washingtonsun.com/agencies/faa-flight-disruption-impacts-resolved-by-sunday-sean-duffy",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-14",
+      "reason": "no_ai",
+      "title": "Legal scholar Stephen Vladeck on Texas' new Democratic AG and federal litigation",
+      "url": "https://npr.org/2026/11/14/nx-s1-6039286/legal-scholar-stephen-vladeck-on-texas-new-democratic-ag-and-federal-litigation",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-14",
+      "reason": "no_ai",
+      "title": "Hegseth's failed impeachment was a warning to Democrats. Where will they go from here?",
+      "url": "https://npr.org/2026/11/14/nx-s1-6040299/hegseth-impeachment-democrats-house-test",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-14",
+      "reason": "no_ai",
+      "title": "GOP state officials push to revive Trump's mail voting restrictions for 2028 election",
+      "url": "https://npr.org/2026/11/13/nx-s1-6040409/trump-mail-in-voting",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-14",
+      "reason": "no_ai",
+      "title": "Democrat Jonathan Kreiss-Tomkins wins race for Alaska governor, replaces a Republican",
+      "url": "https://npr.org/2026/11/14/g-s1-151719/midterms-alaska-governor-kreiss-tomkins",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-14",
+      "reason": "no_ai",
+      "title": "DHS head Markwayne Mullin says there is not a threat to the U.S. amid FAA ground stop",
+      "url": "https://npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-14",
+      "reason": "no_ai",
+      "title": "As Democrats win big, thirst traps of male candidates take social media by storm",
+      "url": "https://npr.org/2026/11/14/nx-s1-6040507/democrats-male-candidates-masculinity-trump",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-14",
+      "reason": "no_ai",
+      "title": "Alaska voters aren't ditching ranked choice voting, top-four primaries",
+      "url": "https://npr.org/2026/11/14/nx-s1-6034952/alaska-results-ranked-choice-voting-nonpartisan-primary",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-11-13",
       "reason": "not_political",
       "title": "Nvidia CEO steps down. And, Sen. Chris Van Hollen to run for majority leader",
