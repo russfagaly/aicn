@@ -1,14 +1,5 @@
 {
   "runs": {
-    "2026-10-24": [
-      "AI is reshaping high-stakes elections around the world",
-      "Election polling rocked by a new fake data scandal",
-      "L2 and IVC Media Launch Voter Count, an AI Agent That Answers Plain-English Questions About the National Voter File",
-      "Like it or not, the first-ever AI election is underway",
-      "Oregon Journalism Project retracts story about alleged political candidate 'deepfake'",
-      "Political Campaign Use of AI-Powered Voter Outreach Highlights Regulatory Gaps",
-      "Scoop: Washington Democrats allege AI misuse in GOP-backed mailer"
-    ],
     "2026-10-25": [
       "Anthropic is hiring a political programs boss to oversee 'presidential engagement' ahead of the 2028 election",
       "Anthropic's PAC spent more than $250K in third quarter, splitting between parties",
@@ -194,6 +185,10 @@
       "Meet Haystack: Social Listening Built for Democrats",
       "TSUNAMI! Part Two: The Price of Being Sold Out",
       "To persuade voters, campaigns and PACs make their own news brands"
+    ],
+    "2026-11-15": [
+      "Field Report: How AI Is Being Used in the 2026 Midterms",
+      "Grassroots Analytics Acquired Quiller; Both Teams on Hiring Spree Post-Election"
     ]
   },
   "schema_version": 1

@@ -3,6 +3,78 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-15",
+      "reason": "no_ai",
+      "title": "Trump blasts judge for halting his Washington golf project and says he will appeal",
+      "url": "https://npr.org/2026/11/14/nx-s1-6041152/judge-trump-golf-course-blocks",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-15",
+      "reason": "no_ai",
+      "title": "Politics chat: Duffy calls for more funding, Democrats plans for accountability",
+      "url": "https://npr.org/2026/11/15/nx-s1-6040041/politics-chat-duffy-calls-for-more-funding-democrats-plans-for-accountability",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-15",
+      "reason": "no_ai",
+      "title": "New Mexico wanted free childcare for all. This is what's worked — and what hasn't",
+      "url": "https://npr.org/2026/11/15/nx-s1-6040194/new-mexico-free-universal-childcare-families",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-15",
+      "reason": "no_ai",
+      "title": "Midterm voters ended the long-running GOP dominance in state legislatures",
+      "url": "https://npr.org/2026/11/15/nx-s1-6039175/midterms-legislatures-states-democrats-gop",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-15",
+      "reason": "no_ai",
+      "title": "In calling for an end to the Iran War, Vance walks a fine line with Trump",
+      "url": "https://npr.org/2026/11/15/nx-s1-6040447/in-calling-for-an-end-to-the-iran-war-vance-walks-a-fine-line-with-trump",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-15",
+      "reason": "no_ai",
+      "title": "Grassroots Analytics Acquired Quiller; Both Teams on Hiring Spree Post-Election",
+      "url": "https://linkedin.com/in/peter-durkin",
+      "source": "LinkedIn",
+      "discovery": "watchlist"
+    },
+    {
+      "run_id": "2026-11-15",
+      "reason": "no_ai",
+      "title": "Florida city cancels St. Patrick's Day parade, citing new anti-DEI law",
+      "url": "https://npr.org/2026/11/14/nx-s1-6041093/st-patricks-day-parade-canceled-florida-dei",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-15",
+      "reason": "no_ai",
+      "title": "Flight Cancellations Continue as Trump Demands More Money and Blames Biden",
+      "url": "https://washingtonsun.com/whitehouse/flight-disruptions-ground-stop-issues-trump-duffy-faa",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-15",
+      "reason": "no_ai",
+      "title": "'We can't let them down' -- After midterm wins, Democrats turn to charting path ahead",
+      "url": "https://npr.org/2026/11/14/nx-s1-6037777/democrats-midterms-whats-next-conference",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-11-14",
       "reason": "wrong_actor",
       "title": "Concerns 'watershed' moment for AI electioneering could further erode trust",
