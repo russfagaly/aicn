@@ -1,17 +1,5 @@
 {
   "runs": {
-    "2026-10-25": [
-      "Anthropic is hiring a political programs boss to oversee 'presidential engagement' ahead of the 2028 election",
-      "Anthropic's PAC spent more than $250K in third quarter, splitting between parties",
-      "Anthropic-backed group puts more toward Scott Wiener",
-      "Exclusive: Democratic AI PAC takes its fight to Senate Republicans",
-      "Exclusive: Guardrails Alliance launches push against AI-backed candidates",
-      "FullPAC Launches GOTV AI, the Campaign Strategy Platform Built on the Record of American Elections",
-      "How both Texas parties have shifted their political ad messaging",
-      "IQM and StatSocial Help Campaigns Keep Pace with Midterm Voters' Changing Political Interests",
-      "Like it or not, the first-ever AI election is underway",
-      "The AI attack-ad nightmare is coming true"
-    ],
     "2026-10-26": [
       "AI is reshaping high-stakes elections around the world",
       "An AI That Won't Tell You How to Vote",
@@ -189,7 +177,8 @@
     "2026-11-15": [
       "Field Report: How AI Is Being Used in the 2026 Midterms",
       "Grassroots Analytics Acquired Quiller; Both Teams on Hiring Spree Post-Election"
-    ]
+    ],
+    "2026-11-16": []
   },
   "schema_version": 1
 }

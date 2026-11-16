@@ -3,6 +3,102 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-16",
+      "reason": "wrong_actor",
+      "title": "U.S. tightens controls on remote access to AI technology amid Nvidia fallout",
+      "url": "https://npr.org/2026/11/16/nx-s1-6042883/nvidia-jensen-huang-commerce-department",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-16",
+      "reason": "wrong_actor",
+      "title": "U.N. talks seek to rein in 'killer robots' as fears over AI weapons grow",
+      "url": "https://npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-16",
+      "reason": "wrong_actor",
+      "title": "Trump heads to Asia to meet with Xi and Putin amid Nvidia fallout",
+      "url": "https://npr.org/2026/11/16/nx-s1-6041738/trump-xi-and-putin-china-nvidia",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-16",
+      "reason": "wrong_actor",
+      "title": "Regulating AI will being a top priority for congressional Democrats in the new year",
+      "url": "https://npr.org/2026/11/16/nx-s1-6037801/regulating-ai-will-being-a-top-priority-for-congressional-democrats-in-the-new-year",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-16",
+      "reason": "no_ai",
+      "title": "The NRA Is Stabilizing Its Finances After Years of Decline",
+      "url": "https://washingtonsun.com/influence/national-rifle-association-finances-membership-dues",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-16",
+      "reason": "no_ai",
+      "title": "Q&A: How Canvassing Powered Democratic Midterm Wins",
+      "url": "https://campaignsandelections.com/industry-news/qa-how-canvassing-powered-democratic-midterm-wins",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-16",
+      "reason": "no_ai",
+      "title": "Nearly two million people are behind bars in the US. How did we get here?",
+      "url": "https://npr.org/2026/11/16/nx-s1-6042432/nearly-two-million-people-are-behind-bars-in-the-us-how-did-we-get-here",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-16",
+      "reason": "no_ai",
+      "title": "Lindsay Clancy to face a new trial in spring of 2027 over children's killing",
+      "url": "https://npr.org/2026/11/16/nx-s1-5983473/clancy-trial-retrial-murder-charges",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-16",
+      "reason": "no_ai",
+      "title": "FAA ground stop still affecting thousands of flights. And, Trump meets Xi, Putin in Asia",
+      "url": "https://npr.org/2026/11/16/g-s1-153841/up-first-newsletter-faa-ground-stop-democratic-leaders-congress-trump-asia-trip",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-16",
+      "reason": "no_ai",
+      "title": "Democratic strategists think Montana House race could hold the secret to future wins",
+      "url": "https://npr.org/2026/11/16/nx-s1-6032798/democratic-strategists-think-montana-house-race-could-hold-the-secret-to-future-wins",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-16",
+      "reason": "no_ai",
+      "title": "Chris Van Hollen says he can beat Chuck Schumer. Here's his case",
+      "url": "https://npr.org/2026/11/16/nx-s1-6041687/chris-van-hollen-chuck-schumer-senate-leader",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-16",
+      "reason": "no_ai",
+      "title": "Affordability was a key issue for midterm voters. It helped make childcare one, too",
+      "url": "https://npr.org/2026/11/13/nx-s1-6034941/affordability-childcare-midterms",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-11-15",
       "reason": "no_ai",
       "title": "Trump blasts judge for halting his Washington golf project and says he will appeal",
