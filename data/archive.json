@@ -2,6 +2,54 @@
   "schema_version": 1,
   "runs": [
     {
+      "run_id": "2026-09-29",
+      "date": "2026-09-29",
+      "generated_at": "2026-09-29T18:24:02Z",
+      "is_light_run": false,
+      "top_summary": "A practitioner op-ed in Campaigns & Elections argues that AI's campaign value lies in response capacity rather than content volume, offering concrete framing for voter-outreach strategy. Separately, a new analysis of FEC campaign-finance disclosures sheds light on how much U.S. political campaigns are actually spending on AI tools, providing rare empirical grounding on adoption rates.",
+      "item_count": 2,
+      "items": [
+        {
+          "id": "dbc5278b6e362764",
+          "title": "AI Is Changing What Campaigns Should Expect From Voter Outreach",
+          "url": "https://campaignsandelections.com/voices/ai-is-changing-what-campaigns-should-expect-from-voter-outreach",
+          "source": "Campaigns & Elections",
+          "source_domain": "campaignsandelections.com",
+          "published": "2026-09-29",
+          "first_seen_run": "2026-09-29",
+          "category": "analysis_oped",
+          "summary": "A Campaigns & Elections practitioner piece argues that AI's primary value in voter outreach is not generating more content but expanding a campaign's capacity to respond quickly and at scale to voter contact.",
+          "why_it_matters": "Offers a concrete reframe for digital directors evaluating AI investment: capacity and responsiveness, not content volume, is the measurable payoff.",
+          "flags": [],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaigns-and-elections",
+            "confidence": "high"
+          }
+        },
+        {
+          "id": "62f449fec1240ed2",
+          "title": "New campaign disclosures reveal how much American political campaigns spend on AI tools",
+          "url": "https://theguardian.com/technology/2026/sep/29/political-campaigns-ai-tools-spending",
+          "source": "Inkl",
+          "source_domain": "theguardian.com",
+          "published": "2026-09-29",
+          "first_seen_run": "2026-09-29",
+          "category": "deployments_studies",
+          "summary": "An analysis drawing on FEC campaign-finance disclosures examines how much U.S. political campaigns are spending on AI tools, providing empirical data on actual AI adoption and expenditure across campaigns.",
+          "why_it_matters": "Hard spending figures from public disclosures give practitioners and researchers a rare benchmark for gauging how broadly AI tools have been adopted across the campaign ecosystem.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
       "run_id": "2026-09-28",
       "date": "2026-09-28",
       "generated_at": "2026-09-28T19:30:00Z",

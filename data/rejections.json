@@ -3,6 +3,118 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-17",
+      "reason": "wrong_actor",
+      "title": "Trump is in Asia ahead of Xi, Putin summit. And, tech leaders want Huang back at Nvidia",
+      "url": "https://npr.org/2026/11/17/g-s1-153950/up-first-newsletter-faa-ground-stop-trump-asia-trip-nvidia-lindsay-clancy",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-17",
+      "reason": "wrong_actor",
+      "title": "The Nvidia Scandal Could Upend Chip Sales to China. Trump Wants to Keep Them Going",
+      "url": "https://wired.com/story/the-nvidia-scandal-is-about-chip-sales-to-china-trump-wants-to-keep-them-going",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-17",
+      "reason": "wrong_actor",
+      "title": "Senate Panel Holds Long-Awaited Hearing for Trump’s FEC Picks",
+      "url": "https://campaignsandelections.com/industry-news/senate-panel-holds-long-awaited-hearing-for-trumps-fec-picks",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-17",
+      "reason": "wrong_actor",
+      "title": "Inside Democrats' push to rein in AI-generated political ads",
+      "url": "https://thehill.com/policy/technology/6219254-democrats-ai-political-ad-regulations",
+      "source": "The Hill",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-17",
+      "reason": "wrong_actor",
+      "title": "Huang says he'd be \"honored\" to return to Nvidia as he agrees to testify to Congress",
+      "url": "https://npr.org/2026/11/17/nx-s1-6044213/jensen-huang-nvidia-congress",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-17",
+      "reason": "wrong_actor",
+      "title": "California sues OpenAI over hacking risks",
+      "url": "https://npr.org/2026/11/16/nx-s1-6042920/california-sues-openai-hugging-face-hacking-incident",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-17",
+      "reason": "not_political",
+      "title": "Can Google win the AI race without killing its cash cow?",
+      "url": "https://npr.org/sections/planet-money/2026/11/17/g-s1-153933/can-google-win-the-ai-race-without-killing-its-cash-cow",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-17",
+      "reason": "no_ai",
+      "title": "Why Public Affairs Needs an Always-On Approach to Persuasion",
+      "url": "https://campaignsandelections.com/sponsored/why-public-affairs-needs-an-always-on-approach-to-persuasion",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-17",
+      "reason": "no_ai",
+      "title": "Trump arrives in Philippines to kick off Asia trip",
+      "url": "https://npr.org/2026/11/17/nx-s1-6043702/trump-arrives-philippines",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-17",
+      "reason": "no_ai",
+      "title": "The Most Novel Campaign Merch From 2026",
+      "url": "https://campaignsandelections.com/voices/the-most-novel-campaign-merch-from-2026",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-17",
+      "reason": "no_ai",
+      "title": "Sen. Jack Reed says FAA needs a real plan, not just more money",
+      "url": "https://npr.org/2026/11/17/nx-s1-6042514/jack-reed-faa-oversight-ground-stop-funding",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-17",
+      "reason": "no_ai",
+      "title": "NSA’s Classified Communications Network Goes Offline for ‘Routine Maintenance’",
+      "url": "https://washingtonsun.com/administration/nsa-classified-network-offline-routine-maintenance",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-17",
+      "reason": "no_ai",
+      "title": "After Democrats' midterm wins, some hope attacks on DEI will ease",
+      "url": "https://npr.org/2026/11/17/nx-s1-6036795/after-democrats-midterm-wins-some-hope-attacks-on-dei-will-ease",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-17",
+      "reason": "no_ai",
+      "title": "5 Notes Campaigners Should Send Before Thanksgiving",
+      "url": "https://campaigntrend.com/5-notes-campaigners-should-send-before-thanksgiving",
+      "source": "Campaign Trend",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-11-16",
       "reason": "wrong_actor",
       "title": "U.S. tightens controls on remote access to AI technology amid Nvidia fallout",

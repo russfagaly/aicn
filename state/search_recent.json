@@ -1,16 +1,5 @@
 {
   "runs": {
-    "2026-10-26": [
-      "AI is reshaping high-stakes elections around the world",
-      "An AI That Won't Tell You How to Vote",
-      "Bilingual AI app helps Latinos figure out how to vote",
-      "Democrats are betting GOP's AI ads on Talarico and others will backfire",
-      "Exclusive-US Political Candidates Tailor Messages for AI Models Used by Voters",
-      "How California candidates are talking about AI",
-      "Latino group bets on bilingual AI to cut voter confusion before the midterms",
-      "The AI attack-ad nightmare is coming true",
-      "Washington's message to AI execs: please shut up"
-    ],
     "2026-10-27": [
       "AI campaign deepfakes are starting to draw legal threats",
       "AI political ads increasing, no N.C. laws require disclosure",
@@ -178,7 +167,12 @@
       "Field Report: How AI Is Being Used in the 2026 Midterms",
       "Grassroots Analytics Acquired Quiller; Both Teams on Hiring Spree Post-Election"
     ],
-    "2026-11-16": []
+    "2026-11-16": [],
+    "2026-11-17": [
+      "How AI deepfakes are upending political advertising",
+      "How American Political Campaigns Are Using AI—and What They're Spending on the Tools",
+      "Inside Democrats' push to rein in AI-generated political ads"
+    ]
   },
   "schema_version": 1
 }
