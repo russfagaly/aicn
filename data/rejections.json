@@ -3,6 +3,126 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-18",
+      "reason": "wrong_actor",
+      "title": "AI companies lost voters on narrative and execution, Alphabet's Porat says",
+      "url": "https://semafor.com/article/11/17/2026/ai-companies-lost-voters-on-narrative-and-execution-alphabets-porat-says",
+      "source": "Semafor",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-18",
+      "reason": "no_ai",
+      "title": "Veteran reporter asks SCOTUS to hear case on protecting confidential sources",
+      "url": "https://npr.org/2026/11/18/nx-s1-6037730/veteran-reporter-asks-scotus-to-hear-case-on-protecting-confidential-sources",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-18",
+      "reason": "no_ai",
+      "title": "Trump lands in China with key meetings with Xi and Putin on the agenda",
+      "url": "https://npr.org/2026/11/18/nx-s1-6045518/trump-china-xi-putin",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-18",
+      "reason": "no_ai",
+      "title": "She retired early to care for family. New work rules for food aid disrupted that",
+      "url": "https://npr.org/2026/11/18/nx-s1-5954231/snap-work-rules-retirees",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-18",
+      "reason": "no_ai",
+      "title": "Project Gryffindor: Meta's plan to get more school kids using Instagram",
+      "url": "https://npr.org/2026/11/18/nx-s1-6037808/meta-instagram-schools-teens-safety",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-18",
+      "reason": "no_ai",
+      "title": "Mullin Faces House Democrats Ready to Flex Their Power",
+      "url": "https://washingtonsun.com/immigration/markwayne-mullin-hearing-house-democrats-oversight-plans",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-18",
+      "reason": "no_ai",
+      "title": "Mary Peltola flips Alaska's Senate seat. And, Nvidia won't reinstate Jensen Huang",
+      "url": "https://npr.org/2026/11/18/g-s1-154145/up-first-newsletter-mary-peltola-alaska-trump-asia-nvidia-tech-issues-ai",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-18",
+      "reason": "no_ai",
+      "title": "Mary Peltola flips Alaska's Senate seat into Democrats' column",
+      "url": "https://npr.org/2026/11/17/g-s1-151567/alaska-senate-results-peltola-sullivan",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-18",
+      "reason": "no_ai",
+      "title": "How the East Potomac golf course became a D.C. landmark — and what could happen to it",
+      "url": "https://npr.org/2026/11/18/nx-s1-6042889/east-potomac-golf-history-future",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-18",
+      "reason": "no_ai",
+      "title": "How the 2026 Midterms Became a $12 Billion Cycle",
+      "url": "https://campaignsandelections.com/industry-news/how-the-2026-midterms-became-a-12-billion-cycle",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-18",
+      "reason": "no_ai",
+      "title": "House Democrats Are Officially Coming for Trump’s Orbit",
+      "url": "https://wired.com/story/house-democrats-are-officially-coming-for-trumps-orbit",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-18",
+      "reason": "no_ai",
+      "title": "House Democrat warns 13 Trump allies to save their records for upcoming investigations",
+      "url": "https://npr.org/2026/11/18/g-s1-154147/robert-garcia-house-democrats-investigations-trump-administration",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-18",
+      "reason": "no_ai",
+      "title": "Democrats formally nominate Hakeem Jeffries for speaker of the House",
+      "url": "https://npr.org/2026/11/18/nx-s1-6043183/hakeem-jeffries-house-democrats-leadership-votes",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-18",
+      "reason": "no_ai",
+      "title": "As overdose deaths fall, White House makes misleading claims about who deserves credit",
+      "url": "https://npr.org/2026/11/18/nx-s1-6044209/drug-deaths-overdose-drop-trump-biden-fentanyl",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-18",
+      "reason": "no_ai",
+      "title": "Announcing Higher Ground Labs’ Investment in CivStart",
+      "url": "https://highergroundlabs.com/announcing-higher-ground-labs-investment-in-civstart",
+      "source": "Higher Ground Labs (blog)",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-11-17",
       "reason": "wrong_actor",
       "title": "Trump is in Asia ahead of Xi, Putin summit. And, tech leaders want Huang back at Nvidia",

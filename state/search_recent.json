@@ -1,13 +1,5 @@
 {
   "runs": {
-    "2026-10-27": [
-      "AI campaign deepfakes are starting to draw legal threats",
-      "AI political ads increasing, no N.C. laws require disclosure",
-      "AIPAC Ends Endorsements After 2026: What It Means for Campaigns",
-      "Silicon Valley AI political groups turn on each other in the 2026 election",
-      "The 2026 midterms sink into a cycle of scummy ads and lies",
-      "Tomorrow Together is moving into Senate races with $2.5 million in ads against Republican Sens. Jon Husted in Ohio and Roger Marshall in Kansas"
-    ],
     "2026-10-28": [
       "AI Is Reshaping Political Ads — and You Might Not Even Know It",
       "Democrats are betting GOP's AI ads on Talarico and others will backfire",
@@ -172,6 +164,11 @@
       "How AI deepfakes are upending political advertising",
       "How American Political Campaigns Are Using AI—and What They're Spending on the Tools",
       "Inside Democrats' push to rein in AI-generated political ads"
+    ],
+    "2026-11-18": [
+      "2026 Election Portfolio Impact Report",
+      "AI companies lost voters on narrative and execution, Alphabet's Porat says",
+      "Supermetrics AI campaign tool gains ChatGPT Ads, its 7th ad platform"
     ]
   },
   "schema_version": 1
