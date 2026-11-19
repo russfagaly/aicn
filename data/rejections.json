@@ -3,6 +3,118 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-19",
+      "reason": "wrong_actor",
+      "title": "Why the Nvidia scandal is a national security issue",
+      "url": "https://npr.org/2026/11/18/nx-s1-6044275/why-the-nvidia-scandal-is-a-national-security-issue",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-19",
+      "reason": "wrong_actor",
+      "title": "Leaked: How Silicon Valley Elites Bankrolled an Anti-Migrant, Pro-Israel Propaganda Machine",
+      "url": "https://wired.com/story/leaked-how-silicon-valley-elites-bankrolled-anti-migrant-pro-israel-propaganda-machine",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-19",
+      "reason": "wrong_actor",
+      "title": "Even His Own Officials Don’t Think Trump’s China Trip Will Lead to Progress on AI",
+      "url": "https://wired.com/story/administration-officials-dont-think-much-ai-progress-will-come-of-trumps-china-visit",
+      "source": "Wired (Politics)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-19",
+      "reason": "wrong_actor",
+      "title": "Anthropic raises more than $100B in IPO. And, Dems nominate Jeffries for House speaker",
+      "url": "https://npr.org/2026/11/19/g-s1-154344/up-first-newsletter-house-democrats-trump-xi-putin-anthropic",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-19",
+      "reason": "not_practical",
+      "title": "Ready to Govern: HGL Portfolio Technologies for Transition Teams",
+      "url": "https://highergroundlabs.com/tech-for-transition-teams",
+      "source": "Higher Ground Labs (blog)",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-19",
+      "reason": "no_ai",
+      "title": "Trump, Xi and Putin meet as global alliances hang in the balance",
+      "url": "https://npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-19",
+      "reason": "no_ai",
+      "title": "The midterms were the largest win for either party in 50 years",
+      "url": "https://npr.org/2026/11/19/nx-s1-6045916/democrats-midterm-house-majority",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-19",
+      "reason": "no_ai",
+      "title": "The law releasing the Epstein files passed one year ago. What do his victims say?",
+      "url": "https://npr.org/2026/11/18/nx-s1-6041708/the-law-releasing-the-epstein-files-passed-one-year-ago-what-do-his-victims-say",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-19",
+      "reason": "no_ai",
+      "title": "The U.N.'s top court rules Myanmar committed genocide against the Rohingya",
+      "url": "https://npr.org/2026/11/19/g-s1-154340/un-court-myanmar-genocide-rohingya",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-19",
+      "reason": "no_ai",
+      "title": "Senate Republicans Vote Down Iran War Powers Resolution",
+      "url": "https://washingtonsun.com/congress/senate-republicans-vote-down-iran-war-powers-resolution",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-19",
+      "reason": "no_ai",
+      "title": "Judges have put Trump's arch and golf course on hold, but only for a matter of days",
+      "url": "https://npr.org/2026/11/19/nx-s1-6047151/trump-arch-golf-course-judge-orders",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-19",
+      "reason": "no_ai",
+      "title": "Incoming House majority leader Katherine Clark stresses Democratic unity",
+      "url": "https://npr.org/2026/11/19/nx-s1-6045750/katherine-clark-hakeem-jeffries-house-democrats",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-19",
+      "reason": "no_ai",
+      "title": "Ben Shapiro on conservative media and the future of the Republican Party",
+      "url": "https://npr.org/2026/11/19/nx-s1-6035863/ben-shapiro-on-conservative-media-and-the-future-of-the-republican-party",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-19",
+      "reason": "no_ai",
+      "title": "'Bigger than Barack Obama's election': Scholars reflect on Mississippi Senate race",
+      "url": "https://npr.org/2026/11/19/nx-s1-6047338/bigger-than-barack-obamas-election-scholars-reflect-on-mississippi-senate-race",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-11-18",
       "reason": "wrong_actor",
       "title": "AI companies lost voters on narrative and execution, Alphabet's Porat says",

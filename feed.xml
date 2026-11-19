@@ -5,7 +5,14 @@
     <link>https://russfagaly.github.io/aicn/</link>
     <atom:link href="https://russfagaly.github.io/aicn/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Wed, 18 Nov 2026 20:13:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 20:14:48 GMT</lastBuildDate>
+    <item>
+      <title>Democratic political group launches new push to shape AI agenda before 2028</title>
+      <link>https://ca.finance.yahoo.com/news/democratic-political-group-launches-push-050158600.html</link>
+      <guid isPermaLink="false">1060373c59540428</guid>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
+      <description>A Democratic political organization announced a new effort focused on how to communicate with voters about artificial intelligence, framing AI policy as a key contrast issue heading into the 2028 cycle.</description>
+    </item>
     <item>
       <title>Political campaigns spent $187 million promoting AI-generated ads in the 2026 midterms. Did they work?</title>
       <link>https://poynter.org/fact-checking/2026/ai-generated-political-ads-2026-midterm-elections</link>
@@ -208,13 +215,6 @@
       <guid isPermaLink="false">c293969135c71b8e</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
       <description>Semafor reports that partisan actors in Brazil, Israel, and the U.S. are gaming AI platforms to surface misleading information ahead of high-stakes elections, describing a cross-border pattern of AI-answer manipulation tied to active campaigns.</description>
-    </item>
-    <item>
-      <title>Exclusive: Democratic AI PAC takes its fight to Senate Republicans</title>
-      <link>https://semafor.com/article/10/23/2026/democratic-ai-pac-takes-its-fight-to-senate-republicans</link>
-      <guid isPermaLink="false">0a45f2cde3dafd48</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Tomorrow Together, a Democratic PAC advocating for AI regulation, is spending $2.5 million on ads targeting Republican Senators Jon Husted in Ohio and Roger Marshall in Kansas, expanding its campaign beyond House races into competitive Senate contests.</description>
     </item>
   </channel>
 </rss>

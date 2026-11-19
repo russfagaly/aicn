@@ -78,11 +78,12 @@
     "last_seen": "2026-11-03"
   },
   "ca.finance.yahoo.com": {
-    "count": 1,
+    "count": 2,
     "example_urls": [
-      "https://ca.finance.yahoo.com/news/kingmakers-crypto-ai-betting-firms-100439846.html"
+      "https://ca.finance.yahoo.com/news/kingmakers-crypto-ai-betting-firms-100439846.html",
+      "https://ca.finance.yahoo.com/news/democratic-political-group-launches-push-050158600.html"
     ],
-    "last_seen": "2026-08-21"
+    "last_seen": "2026-11-19"
   },
   "campaigninnovation.org": {
     "count": 2,

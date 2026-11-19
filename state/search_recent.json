@@ -1,16 +1,5 @@
 {
   "runs": {
-    "2026-10-28": [
-      "AI Is Reshaping Political Ads — and You Might Not Even Know It",
-      "Democrats are betting GOP's AI ads on Talarico and others will backfire",
-      "Exclusive-US Political Candidates Tailor Messages for AI Models Used by Voters",
-      "Exclusive: Democratic AI PAC takes its fight to Senate Republicans",
-      "Experts: AI generating more than political ads this election season",
-      "L2 and IVC Media Launch Voter Count, an AI Agent That Answers Plain-English Questions About the National Voter File",
-      "OpenAI Opens an Election War Room a Week Before the Midterms",
-      "Political Campaign Use of AI-Powered Voter Outreach Highlights Regulatory Gaps",
-      "Sprinklr Launches 6 Marketing AI Agents in Beta"
-    ],
     "2026-10-29": [
       "DCCC pushes for ads targeting GOP on AI, data centers in dozens of key House races",
       "Meet Haystack: Social Listening Built for Democrats"
@@ -169,6 +158,11 @@
       "2026 Election Portfolio Impact Report",
       "AI companies lost voters on narrative and execution, Alphabet's Porat says",
       "Supermetrics AI campaign tool gains ChatGPT Ads, its 7th ad platform"
+    ],
+    "2026-11-19": [
+      "Democratic political group launches new push to shape AI agenda before 2028",
+      "L2 and IVC Media Launch Voter Count, an AI Agent That Answers Plain-English Questions About the National Voter File",
+      "NGP VAN Wants Campaigns to Chat With Its CRM"
     ]
   },
   "schema_version": 1

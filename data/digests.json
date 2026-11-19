@@ -1,7 +1,41 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T20:13:17Z",
+  "generated_at": "2026-11-19T20:14:48Z",
   "runs": [
+    {
+      "run_id": "2026-11-19",
+      "date": "2026-11-19",
+      "generated_at": "2026-11-19T20:14:48Z",
+      "is_light_run": false,
+      "top_summary": "A Democratic political organization is launching a new initiative to shape AI messaging ahead of the 2028 election cycle, reflecting the party's growing view that AI policy creates a contrast with Trump. The only other candidate items are either off-topic (geopolitics, court rulings, general elections analysis) or fail the actor test (AI labs' own IPOs, national security debates). The single on-topic item this run is the Democratic group's AI agenda push.",
+      "item_count": 1,
+      "candidates_reviewed": 15,
+      "rejection_counts": {
+        "no_ai": 9,
+        "not_practical": 1,
+        "wrong_actor": 4
+      },
+      "items": [
+        {
+          "id": "1060373c59540428",
+          "title": "Democratic political group launches new push to shape AI agenda before 2028",
+          "url": "https://ca.finance.yahoo.com/news/democratic-political-group-launches-push-050158600.html",
+          "source": "Yahoo Finance",
+          "source_domain": "ca.finance.yahoo.com",
+          "published": "2026-11-13",
+          "first_seen_run": "2026-11-19",
+          "category": "deployments_studies",
+          "summary": "A Democratic political organization announced a new effort focused on how to communicate with voters about artificial intelligence, framing AI policy as a key contrast issue heading into the 2028 cycle.",
+          "why_it_matters": "Signals that at least one major Democratic group is treating AI messaging as a core strategic priority rather than a peripheral issue, which could shape how campaigns invest in and talk about the technology over the next two years.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "site:finance-yahoo",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-11-18",
       "date": "2026-11-18",
@@ -1674,15 +1708,6 @@
           }
         }
       ]
-    },
-    {
-      "run_id": "2026-10-01",
-      "date": "2026-10-01",
-      "generated_at": "2026-10-01T18:17:04Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
     }
   ]
 }

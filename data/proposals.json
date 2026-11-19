@@ -1268,6 +1268,19 @@
       ],
       "first_proposed": "2026-11-06",
       "status": "pending"
+    },
+    {
+      "id": "prop-source-ca-finance-yahoo-com",
+      "kind": "source",
+      "value": "ca.finance.yahoo.com",
+      "feed_url": null,
+      "rationale": "Produced 2 published item(s) across runs; not in feed list or site-scoped targets.",
+      "example_urls": [
+        "https://ca.finance.yahoo.com/news/kingmakers-crypto-ai-betting-firms-100439846.html",
+        "https://ca.finance.yahoo.com/news/democratic-political-group-launches-push-050158600.html"
+      ],
+      "first_proposed": "2026-11-19",
+      "status": "pending"
     }
   ]
 }
