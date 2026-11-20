@@ -1,7 +1,61 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T20:14:48Z",
+  "generated_at": "2026-11-20T19:49:36Z",
   "runs": [
+    {
+      "run_id": "2026-11-20",
+      "date": "2026-11-20",
+      "generated_at": "2026-11-20T19:49:36Z",
+      "is_light_run": false,
+      "top_summary": "A Hakeem Jeffries staffer built a custom AI-powered surveillance program called 'Caucus Pulse' to monitor Democratic caucus factions, surfacing a concrete internal deployment of AI for legislative political intelligence. Separately, a Campaign Trend analysis notes chatbots' hidden bias alongside midterm ad spending data, touching on AI's role in political information. Both items illustrate AI moving deeper into the operational machinery of partisan political work.",
+      "item_count": 2,
+      "candidates_reviewed": 16,
+      "rejection_counts": {
+        "already_covered": 1,
+        "no_ai": 10,
+        "wrong_actor": 3
+      },
+      "items": [
+        {
+          "id": "9849536ae3a98ee5",
+          "title": "Jeffries Staffer Built an AI Program to Monitor Democrats",
+          "url": "https://politicalwire.com/2026/11/19/jeffries-staffer-built-an-ai-program-to-monitor-democrats",
+          "source": "Political Wire",
+          "source_domain": "politicalwire.com",
+          "published": "2026-11-19",
+          "first_seen_run": "2026-11-20",
+          "category": "deployments_studies",
+          "summary": "A staffer in House Minority Leader Hakeem Jeffries' office built and operated a custom AI-powered program called 'Caucus Pulse' designed to surveil and monitor various factions within the Democratic caucus.",
+          "why_it_matters": "Demonstrates AI being used as an internal political intelligence tool within party leadership operations, extending AI deployment beyond campaigns into ongoing legislative caucus management.",
+          "flags": [],
+          "discovery": {
+            "method": "search",
+            "source_ref": "broad_web_search",
+            "confidence": "medium"
+          }
+        },
+        {
+          "id": "236f0c7829390c39",
+          "title": "Money Couldn\u2019t Buy The Midterms",
+          "url": "https://campaigntrend.com/money-couldnt-buy-the-midterms",
+          "source": "Campaign Trend",
+          "source_domain": "campaigntrend.com",
+          "published": "2026-11-20",
+          "first_seen_run": "2026-11-20",
+          "category": "analysis_oped",
+          "summary": "A Campaign Trend analysis of 2026 midterm ad spending \u2014 which topped $12 billion \u2014 includes a discussion of chatbots' hidden bias as a factor in the political information environment.",
+          "why_it_matters": "Raises the question of how AI chatbot bias may shape voter information access alongside traditional paid media, a practical consideration for digital strategists evaluating AI-assisted outreach.",
+          "flags": [
+            "speculative"
+          ],
+          "discovery": {
+            "method": "feed",
+            "source_ref": "campaign-trend",
+            "confidence": "high"
+          }
+        }
+      ]
+    },
     {
       "run_id": "2026-11-19",
       "date": "2026-11-19",
@@ -1658,52 +1712,6 @@
           "discovery": {
             "method": "feed",
             "source_ref": "campaign-trend",
-            "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "run_id": "2026-10-02",
-      "date": "2026-10-02",
-      "generated_at": "2026-10-02T17:42:46Z",
-      "is_light_run": false,
-      "top_summary": "The most on-topic item this run is a deepfake story involving Rep. Derrick Van Orden's campaign, which allegedly used AI-generated videos to falsely attribute statements to his Democratic opponent Rebecca Cooke, prompting a cease-and-desist letter from her attorneys. A Campaigns & Elections Q&A with Katie Harbath touches on what the AI era means for political campaigns, though it is largely reflective rather than reporting a concrete new development. Lobby groups tied to AI labs are spending millions to shape who writes AI rules in Congress, relevant context for the campaign AI landscape.",
-      "item_count": 2,
-      "items": [
-        {
-          "id": "0c9560c45f308bf1",
-          "title": "Van Orden Hit With Cease-and-Desist Letter Over AI Deepfake Videos",
-          "url": "https://washingtonsun.com/campaigns/van-orden-hit-with-cease-and-desist-letter-over-ai-deepfake-videos",
-          "source": "NOTUS",
-          "source_domain": "washingtonsun.com",
-          "published": "2026-10-01",
-          "first_seen_run": "2026-10-02",
-          "category": "deepfakes",
-          "summary": "Attorneys for Democratic congressional candidate Rebecca Cooke sent Rep. Derrick Van Orden's campaign a cease-and-desist letter, alleging the Wisconsin Republican's campaign used AI-generated deepfake videos to falsely attribute statements to Cooke.",
-          "why_it_matters": "Illustrates a campaign directly deploying AI-generated synthetic media against an opponent in an active race, moving the deepfake threat from hypothetical to documented campaign tactic.",
-          "flags": [],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "notus",
-            "confidence": "high"
-          }
-        },
-        {
-          "id": "9e2d25de8054b272",
-          "title": "Q&A: How Big Tech Forever Changed the Campaign World",
-          "url": "https://campaignsandelections.com/industry-news/qa-how-big-tech-forever-changed-the-campaign-world",
-          "source": "Campaigns & Elections",
-          "source_domain": "campaignsandelections.com",
-          "published": "2026-10-02",
-          "first_seen_run": "2026-10-02",
-          "category": "analysis_oped",
-          "summary": "Campaigns & Elections features a Q&A with Katie Harbath, a longtime tech-politics veteran, who reflects on how campaigns misjudged social media's early potential and what the AI era now means for political campaigning.",
-          "why_it_matters": "Harbath's perspective from inside both Big Tech and campaign circles offers practitioners a grounded read on what AI-era adoption patterns may actually look like versus past hype cycles.",
-          "flags": [],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "campaigns-and-elections",
             "confidence": "high"
           }
         }

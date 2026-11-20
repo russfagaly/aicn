@@ -412,12 +412,13 @@
     "last_seen": "2026-10-31"
   },
   "politicalwire.com": {
-    "count": 2,
+    "count": 3,
     "example_urls": [
       "https://politicalwire.com/2026/08/14/ai-becomes-a-major-election-issue-for-the-first-time",
-      "https://politicalwire.com/2026/09/05/campaigns-use-ai-despite-chatgpt-ban"
+      "https://politicalwire.com/2026/09/05/campaigns-use-ai-despite-chatgpt-ban",
+      "https://politicalwire.com/2026/11/19/jeffries-staffer-built-an-ai-program-to-monitor-democrats"
     ],
-    "last_seen": "2026-09-06"
+    "last_seen": "2026-11-20"
   },
   "poynter.org": {
     "count": 1,

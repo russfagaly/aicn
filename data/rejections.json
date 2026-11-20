@@ -3,6 +3,118 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-20",
+      "reason": "wrong_actor",
+      "title": "Trump Threatens Penalties for U.S. Firms That Build AI Data Centers Abroad",
+      "url": "https://washingtonsun.com/whitehouse/trump-penalties-us-firms-build-ai-data-centers-abroad",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-20",
+      "reason": "wrong_actor",
+      "title": "Sara Jacobs, Don Beyer unveil AI framework",
+      "url": "https://punchbowl.news/article/tech/jacobs-beyer-ai-framework",
+      "source": "Punchbowl News",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-20",
+      "reason": "wrong_actor",
+      "title": "Optimism on AI guardrails next Congress",
+      "url": "https://punchbowl.news/article/tech/canvass-ai-guardrails",
+      "source": "Punchbowl News",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-20",
+      "reason": "no_ai",
+      "title": "Trump touts meeting with Xi and Putin but offers little results",
+      "url": "https://npr.org/2026/11/20/nx-s1-6047594/trump-asia-trip-xi-putin-press-conference",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-20",
+      "reason": "no_ai",
+      "title": "Trump initially accepted the midterm results, but most GOP voters doubt they were fair",
+      "url": "https://npr.org/2026/11/20/nx-s1-6047605/midterm-election-distrust-republicans",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-20",
+      "reason": "no_ai",
+      "title": "Texas execution took over an hour as staff struggled to find vein; Reinaldo Dennes moaned about pain",
+      "url": "https://npr.org/2026/11/20/nx-s1-6048461/texas-execution-dennes-moaned-pain",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-20",
+      "reason": "no_ai",
+      "title": "Senate passes bipartisan energy bill amid environmental concerns",
+      "url": "https://npr.org/2026/11/20/g-s1-154579/senate-bipartisan-energy-bill",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-20",
+      "reason": "no_ai",
+      "title": "New York City unveils a bold plan to move its jails off Rikers Island",
+      "url": "https://npr.org/2026/11/20/nx-s1-5981356/new-york-city-rikers-jail-plans-germany-prison-model",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-20",
+      "reason": "no_ai",
+      "title": "Meta brings fight over Washington state campaign ad law to Supreme Court",
+      "url": "https://thehill.com/policy/technology/6231297-meta-supreme-court-washington-political-ads",
+      "source": "The Hill",
+      "discovery": "search"
+    },
+    {
+      "run_id": "2026-11-20",
+      "reason": "no_ai",
+      "title": "Inside a Liberal Nonprofit’s Effort to Create an Army of Content Creators",
+      "url": "https://campaignsandelections.com/industry-news/inside-a-liberal-nonprofits-effort-to-create-an-army-of-content-creators",
+      "source": "Campaigns & Elections",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-20",
+      "reason": "no_ai",
+      "title": "GOP Sen. Johnson rejects tying government funding to an end to the Iran war",
+      "url": "https://npr.org/2026/11/20/nx-s1-6047473/iran-war-funding-congress",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-20",
+      "reason": "no_ai",
+      "title": "Dems aim to block Iran war funding. And, Army delays lead azide detonation in Iowa",
+      "url": "https://npr.org/2026/11/20/g-s1-154582/up-first-newsletter-democrats-iran-war-trump-xi-jinping-iowa-army",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-20",
+      "reason": "no_ai",
+      "title": "A second judge blocks Trump's arch, saying it's unlikely to succeed in court",
+      "url": "https://npr.org/2026/11/20/nx-s1-6048675/trump-arch-blocked-arlington",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-20",
+      "reason": "already_covered",
+      "title": "Democratic political group launches new push to shape AI agenda ahead of 2028",
+      "url": "https://dailygazette.com/leader_herald/ap/business/democratic-political-group-launches-new-push-to-shape-ai-agenda-ahead-of-2028/article_616003e0-56de-5109-b06e-e9bf0d232ec0.html",
+      "source": "Daily Gazette",
+      "discovery": "watchlist"
+    },
+    {
       "run_id": "2026-11-19",
       "reason": "wrong_actor",
       "title": "Why the Nvidia scandal is a national security issue",

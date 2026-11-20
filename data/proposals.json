@@ -1281,6 +1281,18 @@
       ],
       "first_proposed": "2026-11-19",
       "status": "pending"
+    },
+    {
+      "id": "prop-entity-caucus-pulse",
+      "kind": "watchlist_entity",
+      "value": "Caucus Pulse",
+      "feed_url": null,
+      "rationale": "A custom AI-powered program built to monitor Democratic caucus factions — a niche internal political AI tool not previously tracked.",
+      "example_urls": [
+        "https://politicalwire.com/2026/11/19/jeffries-staffer-built-an-ai-program-to-monitor-democrats"
+      ],
+      "first_proposed": "2026-11-20",
+      "status": "pending"
     }
   ]
 }
