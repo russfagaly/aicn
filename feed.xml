@@ -5,7 +5,14 @@
     <link>https://russfagaly.github.io/aicn/</link>
     <atom:link href="https://russfagaly.github.io/aicn/feed.xml" rel="self" type="application/rss+xml"/>
     <description>A tracker of AI use in political campaigns, elections, and advocacy.</description>
-    <lastBuildDate>Fri, 20 Nov 2026 19:49:36 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 18:54:34 GMT</lastBuildDate>
+    <item>
+      <title>Measuring Generative AI Content in Political Campaigns: Evidence of Rising Adoption and Non-Disclosure</title>
+      <link>https://arxiv.org/html/2611.11658</link>
+      <guid isPermaLink="false">32c1f7fd8e6ac458</guid>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 GMT</pubDate>
+      <description>An arXiv preprint titled 'Measuring Generative AI Content in Political Campaigns: Evidence of Rising Adoption and Non-Disclosure' presents empirical evidence that campaigns are increasingly using generative AI to produce content while largely failing to disclose that use.</description>
+    </item>
     <item>
       <title>Jeffries Staffer Built an AI Program to Monitor Democrats</title>
       <link>https://politicalwire.com/2026/11/19/jeffries-staffer-built-an-ai-program-to-monitor-democrats</link>
@@ -208,13 +215,6 @@
       <guid isPermaLink="false">0249bf21529f0a8d</guid>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
       <description>The Washington Post reports that Democratic campaigns are deliberately avoiding AI-generated video ads, betting that Republican use of such ads — including against candidates like Brian Talarico in Texas — will generate a backlash among voters skeptical of AI content.</description>
-    </item>
-    <item>
-      <title>Scoop: Washington Democrats allege AI misuse in GOP-backed mailer</title>
-      <link>https://axios.com/local/seattle/2026/10/22/mailer-michael-shepard-ai-letter-washington-election-law</link>
-      <guid isPermaLink="false">e1284ad36c88fd9c</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Washington state Democrats allege that a GOP-backed mailer supporting candidate Michael Shepard misused AI, potentially in violation of Washington election law, according to Axios Seattle.</description>
     </item>
   </channel>
 </rss>

@@ -3,6 +3,54 @@
   "keep_days": 30,
   "rejections": [
     {
+      "run_id": "2026-11-21",
+      "reason": "no_ai",
+      "title": "Week in Politics: Trump returns from Asia; hails trip as one of best in history",
+      "url": "https://npr.org/2026/11/21/nx-s1-6047376/week-in-politics-trump-returns-from-asia-hails-trip-as-one-of-best-in-history",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-21",
+      "reason": "no_ai",
+      "title": "Trump Says He’ll Work With Democrats to Cap Credit Card Interest Rates",
+      "url": "https://washingtonsun.com/administration/trump-democrats-cap-credit-card-interest-rate",
+      "source": "NOTUS",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-21",
+      "reason": "no_ai",
+      "title": "The latest from Trump's press conference",
+      "url": "https://npr.org/2026/11/20/nx-s1-6047636/trump-presser",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-21",
+      "reason": "no_ai",
+      "title": "The New Yorker's Jason Zengerle on Hakeem Jeffries' rise to first Black House speaker",
+      "url": "https://npr.org/2026/11/21/nx-s1-6047580/the-new-yorkers-jason-zengerle-on-hakeem-jeffries-rise-to-first-black-house-speaker",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-21",
+      "reason": "no_ai",
+      "title": "How a GOP redistricting 'dummymander' in North Carolina backfired by 2 seats",
+      "url": "https://npr.org/2026/11/21/nx-s1-6044778/how-a-gop-redistricting-dummymander-in-north-carolina-backfired-by-2-seats",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
+      "run_id": "2026-11-21",
+      "reason": "no_ai",
+      "title": "An effort to circumvent the Electoral College may be within reach. But hurdles remain",
+      "url": "https://npr.org/2026/11/21/nx-s1-6044237/electoral-college-national-popular-vote-interstate-compact",
+      "source": "NPR Politics",
+      "discovery": "feed"
+    },
+    {
       "run_id": "2026-11-20",
       "reason": "wrong_actor",
       "title": "Trump Threatens Penalties for U.S. Firms That Build AI Data Centers Abroad",
