@@ -1,7 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T23:38:06Z",
+  "generated_at": "2026-11-24T22:08:47Z",
   "runs": [
+    {
+      "run_id": "2026-11-24",
+      "date": "2026-11-24",
+      "generated_at": "2026-11-24T22:08:47Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "candidates_reviewed": 14,
+      "rejection_counts": {
+        "no_ai": 7,
+        "not_political": 2,
+        "wrong_actor": 5
+      },
+      "items": []
+    },
     {
       "run_id": "2026-11-23",
       "date": "2026-11-23",
@@ -1475,54 +1490,6 @@
             "method": "manual",
             "source_ref": "editor",
             "confidence": "high"
-          }
-        }
-      ]
-    },
-    {
-      "run_id": "2026-10-15",
-      "date": "2026-10-15",
-      "generated_at": "2026-10-15T16:38:43Z",
-      "is_light_run": false,
-      "top_summary": "This run's most notable item is a Fast Company analysis of Silicon Valley AI super PACs that are spending on political races but deliberately avoiding AI messaging \u2014 a concrete look at how AI-industry money is flowing into campaigns without surfacing AI as a campaign theme. A secondary item reports $16 million in spending on AI-edited political ads in the 2026 midterm cycle, though this appears to be follow-on coverage of a story already tracked (the $80M AI ad spend piece from October 6).",
-      "item_count": 2,
-      "items": [
-        {
-          "id": "f690d47d200be381",
-          "title": "Why Silicon Valley's AI super PACs aren't talking about AI",
-          "url": "https://fastcompany.com/91623721/why-silicon-valleys-ai-super-pacs-arent-talking-about-ai",
-          "source": "Fast Company",
-          "source_domain": "fastcompany.com",
-          "published": "2026-10-15",
-          "first_seen_run": "2026-10-15",
-          "category": "analysis_oped",
-          "summary": "Fast Company examines Silicon Valley-backed AI super PACs that are spending in the 2026 midterms but are deliberately not making AI a campaign message, instead funding races on other issues while keeping AI policy goals in the background.",
-          "why_it_matters": "Reveals a gap between AI industry political spending and AI-as-campaign-message strategy, showing how the sector is influencing elections without triggering the AI disclosure and perception debates that explicit AI advocacy would invite.",
-          "flags": [],
-          "discovery": {
-            "method": "search",
-            "source_ref": "broad_web_search",
-            "confidence": "medium"
-          }
-        },
-        {
-          "id": "38c79534945472b5",
-          "title": "$16 million spent on AI-edited political ads in the 2026 midterm election season",
-          "url": "https://archyde.com/16-million-spent-on-ai-edited-political-ads-in-the-2026-midterm-election-season",
-          "source": "Archyde",
-          "source_domain": "archyde.com",
-          "published": "2026-10-14",
-          "first_seen_run": "2026-10-15",
-          "category": "deployments_studies",
-          "summary": "A report puts AI-edited political ad spending in the 2026 midterm season at $16 million, adding a dollar figure to the volume of AI-assisted ad production in the current cycle.",
-          "why_it_matters": "Provides a concrete spending benchmark for AI-assisted ad production, though this figure appears to reflect a subset or update of the broader $80M AI ad spend tracking already reported.",
-          "flags": [
-            "contested"
-          ],
-          "discovery": {
-            "method": "search",
-            "source_ref": "broad_web_search",
-            "confidence": "medium"
           }
         }
       ]

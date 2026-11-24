@@ -1,12 +1,5 @@
 {
   "runs": {
-    "2026-11-02": [
-      "217 Million Voters, One Chat Box: New AI Tool Opens Up the Voter File",
-      "L2 and IVC Media Launch Voter Count, an AI Agent That Answers Plain-English Questions About the National Voter File",
-      "LeadingResponse Launches FetchIQ, a New Growth Management Platform",
-      "Meet Haystack: Social Listening Built for Democrats",
-      "Silicon Valley AI political groups turn on each other in the 2026 election"
-    ],
     "2026-11-03": [
       "Announcing HGL's Agentic AI Open Call Investments",
       "REPORT: AI Giant Already Looking To 2028, Trying To Influence Candidates",
@@ -143,6 +136,9 @@
     "2026-11-23": [
       "Aaru AI Review 2026: Pricing, Funding & Competitors",
       "Exclusive: The New AI Litmus Test for 2028 Democrats"
+    ],
+    "2026-11-24": [
+      "Aaru AI Review 2026: Pricing, Funding & Competitors"
     ]
   },
   "schema_version": 1
