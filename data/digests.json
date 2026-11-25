@@ -1,7 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T22:08:47Z",
+  "generated_at": "2026-11-25T21:23:47Z",
   "runs": [
+    {
+      "run_id": "2026-11-25",
+      "date": "2026-11-25",
+      "generated_at": "2026-11-25T21:23:47Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "candidates_reviewed": 8,
+      "rejection_counts": {
+        "no_ai": 5,
+        "not_practical": 1,
+        "wrong_actor": 2
+      },
+      "items": []
+    },
     {
       "run_id": "2026-11-24",
       "date": "2026-11-24",
@@ -1386,110 +1401,6 @@
             "method": "watchlist",
             "source_ref": "entity:l2",
             "confidence": "medium"
-          }
-        }
-      ]
-    },
-    {
-      "run_id": "2026-10-16",
-      "date": "2026-10-16",
-      "generated_at": "2026-10-16T16:23:00Z",
-      "is_light_run": false,
-      "top_summary": "The Wesleyan Media Project has tallied at least $137 million in political ad spending on 220 AI-generated ads in 2026, updating and significantly expanding the dollar figure reported earlier this cycle. A Campaign Trend newsletter item reports that chatbots are being used in ways that reveal where voters live, pointing to a concrete voter-contact privacy concern. Leading the Future, an AI-aligned super PAC, received zero new donations in Q3, a fundraising signal worth watching as the midterms close.",
-      "item_count": 5,
-      "items": [
-        {
-          "id": "ff920e5307353123",
-          "title": "Political Advertisers Have Spent At Least $137 Million on AI-Generated Ads",
-          "url": "https://campaignsandelections.com/industry-news/political-advertisers-have-spent-at-least-137-million-on-ai-generated-ads",
-          "source": "Campaigns & Elections",
-          "source_domain": "campaignsandelections.com",
-          "published": "2026-10-16",
-          "first_seen_run": "2026-10-16",
-          "category": "deployments_studies",
-          "summary": "The Wesleyan Media Project identified 220 political ads produced at least in part with AI tools in 2026, with combined advertiser spending of at least $137 million \u2014 a substantially higher figure than the $80 million tallied by earlier tracking efforts.",
-          "why_it_matters": "Provides the most comprehensive independent measurement to date of AI-generated political ad volume and spend in a U.S. midterm cycle, giving practitioners and researchers a concrete benchmark.",
-          "flags": [],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "campaigns-and-elections",
-            "confidence": "high"
-          }
-        },
-        {
-          "id": "c0f97ae2b01e8d23",
-          "title": "Small Dollars, Big Problems",
-          "url": "https://campaigntrend.com/small-dollars-big-problems",
-          "source": "Campaign Trend",
-          "source_domain": "campaigntrend.com",
-          "published": "2026-10-16",
-          "first_seen_run": "2026-10-16",
-          "category": "deployments_studies",
-          "summary": "A Campaign Trend newsletter reports on how political chatbots are being built or used in ways that expose where voters live, alongside coverage of TikTok's paid content featuring state Rep. James Talarico.",
-          "why_it_matters": "Highlights a concrete data-privacy risk in AI-powered voter-contact tools \u2014 chatbot design choices that leak voter location data \u2014 that digital directors deploying such tools need to account for.",
-          "flags": [],
-          "discovery": {
-            "method": "feed",
-            "source_ref": "campaign-trend",
-            "confidence": "high"
-          }
-        },
-        {
-          "id": "eea6a363ca35a506",
-          "title": "Tech: Key AI group added no Q3 donations",
-          "url": "https://punchbowl.news/article/tech/ltf-no-donations",
-          "source": "Punchbowl News",
-          "source_domain": "punchbowl.news",
-          "published": "2026-10-15",
-          "first_seen_run": "2026-10-16",
-          "category": "analysis_oped",
-          "summary": "Leading the Future, an AI-industry-backed super PAC with ties to major tech figures, reported zero new donations in Q3 2026, according to new FEC disclosures.",
-          "why_it_matters": "A fundraising drought at the cycle's most prominent AI-aligned super PAC is a concrete signal about the political spending strategy \u2014 or constraints \u2014 of the AI industry heading into the final weeks of the midterms.",
-          "flags": [
-            "paywalled"
-          ],
-          "discovery": {
-            "method": "search",
-            "source_ref": "site:punchbowl",
-            "confidence": "medium"
-          }
-        },
-        {
-          "id": "98542cccc2257381",
-          "title": "Some Lessons from the Trenches: What I learned and thoughts on how to move forward",
-          "url": "https://assembletheagency.substack.com/p/some-lessons-from-the-trenches-what",
-          "source": "assembletheagency.substack.com",
-          "source_domain": "assembletheagency.substack.com",
-          "published": "2026-06-03",
-          "first_seen_run": "2026-10-16",
-          "category": "analysis_oped",
-          "summary": "Cat Stern, who served as Paid Media Director on both the Biden and Harris 2024 presidential campaigns, outlines five operational lessons for Democratic campaigns: unify all paid media channels under one team, invest early in ground-game organizing, enforce tighter message discipline, limit pre-flight ad testing to high-stakes executions, and define clearer roles for outside consultants.",
-          "why_it_matters": "Campaign practitioners can apply these structural and strategic takeaways\u2014especially on media team integration and testing cadence\u2014directly to planning for future cycles.",
-          "flags": [],
-          "discovery": {
-            "method": "manual",
-            "source_ref": "editor",
-            "confidence": "high"
-          }
-        },
-        {
-          "id": "8a9d1eec36b64460",
-          "title": "AI Political Field Guide: Terminology Decoder (September 2026 Edition)",
-          "url": "https://kategage.substack.com/p/ai-political-field-guide-terminology",
-          "source": "kategage.substack.com",
-          "source_domain": "kategage.substack.com",
-          "published": "2026-10-02",
-          "first_seen_run": "2026-10-16",
-          "category": "analysis_oped",
-          "summary": "Writer Kate Gage publishes an AI terminology decoder for fall 2026, mapping how key terms\u2014including \"superintelligence,\" \"safety,\" \"EA,\" and \"pause\"\u2014have shifted meaning depending on which faction uses them, tracing conflicts among the Trump administration, the Tech Right (including David Sacks), AI Safety advocates, the Sanders-Casar bill camp, and Anthropic CEO Dario Amodei following a September 2026 White House executive order and voluntary CEO accord.",
-          "why_it_matters": "Campaign and policy communicators working on AI-related messaging need to understand that the same vocabulary now signals opposite positions depending on the speaker, making precision in language choice essential.",
-          "flags": [
-            "speculative"
-          ],
-          "discovery": {
-            "method": "manual",
-            "source_ref": "editor",
-            "confidence": "high"
           }
         }
       ]

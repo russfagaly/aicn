@@ -1,11 +1,5 @@
 {
   "runs": {
-    "2026-11-03": [
-      "Announcing HGL's Agentic AI Open Call Investments",
-      "REPORT: AI Giant Already Looking To 2028, Trying To Influence Candidates",
-      "Silicon Valley AI political groups turn on each other in the 2026 election",
-      "You Stopped Answering Pollsters. Campaigns Built AI Voters."
-    ],
     "2026-11-04": [
       "AI influenced this election like never before",
       "Exclusive / Democratic AI PAC takes its fight to Senate Republicans",
@@ -139,6 +133,13 @@
     ],
     "2026-11-24": [
       "Aaru AI Review 2026: Pricing, Funding & Competitors"
+    ],
+    "2026-11-25": [
+      "Deepfakes, ragebait and political slop: Social media in the Victorian election",
+      "Inside Democrats' push to rein in AI-generated political ads",
+      "Measuring Generative AI Content in Political Campaigns: Evidence of Rising Adoption and Non-Disclosure",
+      "Optimism on AI guardrails next Congress",
+      "Sara Jacobs, Don Beyer unveil AI framework"
     ]
   },
   "schema_version": 1
