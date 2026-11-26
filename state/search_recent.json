@@ -1,18 +1,5 @@
 {
   "runs": {
-    "2026-11-04": [
-      "AI influenced this election like never before",
-      "Exclusive / Democratic AI PAC takes its fight to Senate Republicans",
-      "Forecasting AI's First Real Election",
-      "How AI Backlash Shaped the 2026 Midterms",
-      "No rules for AI ads in the heartland",
-      "Q&A: How a Political Data Giant is Approaching AI",
-      "Scoop: Washington Democrats allege AI misuse in GOP-backed mailer",
-      "The 2026 Midterm Election's Fad with AI Generated Content",
-      "The AI spending war heads to the 2026 campaign trail",
-      "Three midterm tests of AI's political influence",
-      "Top Democrats signal AI interests"
-    ],
     "2026-11-05": [
       "ChatGPT provided Democracy Works info to voters more than 16 million times this cycle",
       "Exclusive / Democrats run more anti-tech ads amid AI boom",
@@ -140,6 +127,9 @@
       "Measuring Generative AI Content in Political Campaigns: Evidence of Rising Adoption and Non-Disclosure",
       "Optimism on AI guardrails next Congress",
       "Sara Jacobs, Don Beyer unveil AI framework"
+    ],
+    "2026-11-26": [
+      "How James Talarico's team 'wrote for the internet.'"
     ]
   },
   "schema_version": 1

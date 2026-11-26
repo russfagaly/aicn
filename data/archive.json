@@ -2,6 +2,34 @@
   "schema_version": 1,
   "runs": [
     {
+      "run_id": "2026-10-17",
+      "date": "2026-10-17",
+      "generated_at": "2026-10-17T15:16:15Z",
+      "is_light_run": false,
+      "top_summary": "Minnesota political campaigns are using AI tools for voter targeting and other campaign functions heading into the 2026 midterm cycle, according to the Star Tribune. The report highlights specific adoption patterns in the competitive battleground state as campaigns look to AI to sharpen their outreach strategies.",
+      "item_count": 1,
+      "items": [
+        {
+          "id": "a19e1a75fd1a7eda",
+          "title": "How AI is changing political campaigns and voter targeting in Minnesota",
+          "url": "https://startribune.com/minnesota-political-campaign-ai/601901252",
+          "source": "Star Tribune",
+          "source_domain": "startribune.com",
+          "published": "2026-10-17",
+          "first_seen_run": "2026-10-17",
+          "category": "deployments_studies",
+          "summary": "The Star Tribune reports on how Minnesota political campaigns are deploying AI for voter targeting and other campaign functions in the 2026 midterm cycle, examining specific adoption patterns in a competitive battleground state.",
+          "why_it_matters": "Ground-level reporting on AI adoption by actual campaigns in a swing state provides practitioners with concrete evidence of how the tools are being integrated into targeting and outreach operations.",
+          "flags": [],
+          "discovery": {
+            "method": "watchlist",
+            "source_ref": "entity:l2",
+            "confidence": "medium"
+          }
+        }
+      ]
+    },
+    {
       "run_id": "2026-10-16",
       "date": "2026-10-16",
       "generated_at": "2026-10-16T16:23:00Z",
