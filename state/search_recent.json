@@ -1,12 +1,5 @@
 {
   "runs": {
-    "2026-11-05": [
-      "ChatGPT provided Democracy Works info to voters more than 16 million times this cycle",
-      "Exclusive / Democrats run more anti-tech ads amid AI boom",
-      "Exclusive / Election 'war rooms' enter the AI age",
-      "New Data from NGP VAN and Mobilize Reveals Scale of Democratic Organizing in 2026 Midterms",
-      "Voters deliver \"AI earthquake,\" rebuking tech and billionaires"
-    ],
     "2026-11-06": [
       "AI Campaign Texts Reshape Voter Outreach in 2026 Elections",
       "AI Companies Built 4 Defenses for the 2026 Midterms. Here's What Worked, What Didn't, and What Still Gets Through",
@@ -130,6 +123,9 @@
     ],
     "2026-11-26": [
       "How James Talarico's team 'wrote for the internet.'"
+    ],
+    "2026-11-27": [
+      "US report warns of Chinese AI persona tactics targeting Taiwan elections"
     ]
   },
   "schema_version": 1

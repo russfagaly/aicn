@@ -1,7 +1,21 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T21:09:15Z",
+  "generated_at": "2026-11-27T20:54:44Z",
   "runs": [
+    {
+      "run_id": "2026-11-27",
+      "date": "2026-11-27",
+      "generated_at": "2026-11-27T20:54:44Z",
+      "is_light_run": true,
+      "top_summary": "",
+      "item_count": 0,
+      "candidates_reviewed": 3,
+      "rejection_counts": {
+        "no_ai": 2,
+        "wrong_actor": 1
+      },
+      "items": []
+    },
     {
       "run_id": "2026-11-26",
       "date": "2026-11-26",
@@ -1376,15 +1390,6 @@
       "run_id": "2026-10-19",
       "date": "2026-10-19",
       "generated_at": "2026-10-19T18:33:50Z",
-      "is_light_run": true,
-      "top_summary": "",
-      "item_count": 0,
-      "items": []
-    },
-    {
-      "run_id": "2026-10-18",
-      "date": "2026-10-18",
-      "generated_at": "2026-10-18T15:38:37Z",
       "is_light_run": true,
       "top_summary": "",
       "item_count": 0,
